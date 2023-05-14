@@ -4,6 +4,8 @@ const closeIcon = document.getElementById("close-icon");
 const humburgerMenus = document.querySelector(
   ".contact .humburger .humburger-menus"
 );
+const scrollToolTip = document.querySelector(".up p");
+const scrollDiv = document.querySelector(".scroll-to-top");
 
 const contacts = document.querySelectorAll(".contact div");
 console.log(contacts);
@@ -37,3 +39,25 @@ for (const div of contacts) {
     this.childNodes[3].style.display = "none";
   });
 }
+
+// scroll to top
+
+window.addEventListener("scroll", function () {
+  if (document.documentElement.scrollTop > 250) {
+    scrollDiv.style.visibility = "visible";
+  } else {
+    scrollDiv.style.visibility = "hidden";
+  }
+});
+
+scrollDiv.addEventListener("click", function () {
+  document.documentElement.scrollTop = 0;
+  document.body.scrollTop = 0;
+});
+
+scrollDiv.addEventListener("mouseover", function () {
+  scrollToolTip.style.display = "block";
+});
+scrollDiv.addEventListener("mouseout", function () {
+  scrollToolTip.style.display = "none";
+});
