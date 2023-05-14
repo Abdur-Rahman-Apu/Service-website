@@ -195,6 +195,7 @@ header .profile-img {
   justify-content: center;
   align-items: center;
   margin: 100px 0;
+  padding: 0 55px;
 }
 
 .about-header p {
@@ -216,4 +217,85 @@ header .profile-img {
 
 .about-info {
   display: flex;
+  justify-content: space-between;
+}
+
+.about-intro {
+  flex-basis: 63%;
+}
+
+.about-intro h2 {
+  font-weight: 500;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.about-intro h2 span {
+  font-weight: 600;
+  display: inline-block;
+  position: relative;
+}
+
+.about-intro h2 span::after {
+  content: "";
+  width: 100%;
+  height: 3px;
+  background-color: #f5df4e;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.about-intro p {
+  font-size: 20px;
+}
+.about-experience {
+  flex-basis: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.about-experience div {
+  width: 120px;
+  height: 120px;
+  background-color: #f5df4e;
+  border-radius: 50%;
+}
+
+.about-experience h1 {
+  position: absolute;
+  top: -40px;
+  font-size: 9rem;
+  font-weight: 400;
+  color: #4c4d4d;
+}
+
+.about-experience h3 {
+  margin-top: 30px;
+  font-weight: 500;
+  font-size: 1.7rem;
+}
+
+.about-details {
+  margin-top: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-details p a {
+  color: black;
+}
+
+.about-details p:first-child {
+  color: #979791;
+  margin-bottom: 10px;
+}
+
+.about-details p:last-child {
+  font-weight: 600;
+  font-size: 1.12rem;
 }
