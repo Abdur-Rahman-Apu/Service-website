@@ -11,7 +11,7 @@
 /* scroll-to-top   */
 .up p {
   position: fixed;
-  bottom: 4%;
+  bottom: 2%;
   right: 5%;
   background-color: #000;
   color: #fff;
@@ -402,6 +402,10 @@ header .profile-img {
 /* media query  */
 
 @media screen and (max-width: 900px) {
+  .up p {
+    bottom: 1%;
+    right: 9%;
+  }
   .navbar ul {
     display: none;
   }
@@ -416,6 +420,10 @@ header .profile-img {
 }
 
 @media screen and (max-width: 700px) {
+  .up p {
+    bottom: 2%;
+    right: 17%;
+  }
   .navbar ul {
     display: none;
   }
