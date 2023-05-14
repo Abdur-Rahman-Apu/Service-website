@@ -5,6 +5,11 @@ const humburgerMenus = document.querySelector(
   ".contact .humburger .humburger-menus"
 );
 
+const contacts = document.querySelectorAll(".contact div");
+console.log(contacts);
+
+// humburger menu
+
 localStorage.setItem("menu-icon", "humburger");
 
 function toggleMenu() {
@@ -19,4 +24,16 @@ function toggleMenu() {
     humburgerMenus.style.display = "none";
     localStorage.setItem("menu-icon", "humburger");
   }
+}
+
+// tooltip
+
+for (const div of contacts) {
+  div.addEventListener("mouseover", function () {
+    this.childNodes[3].style.display = "block";
+  });
+
+  div.addEventListener("mouseout", function () {
+    this.childNodes[3].style.display = "none";
+  });
 }
