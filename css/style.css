@@ -282,6 +282,7 @@ header .profile-img {
   display: none;
   font-size: 20px;
 }
+
 /* about me part  */
 
 .about-section {
@@ -416,6 +417,10 @@ header .profile-img {
 
   .contact .humburger .humburger-menus {
     display: none;
+  }
+
+  .about-details div {
+    margin-bottom: 18px;
   }
 }
 
