@@ -222,6 +222,10 @@ header .profile-img {
 .contact .humburger .humburger-menus li a.active {
   color: #f5df4e;
 }
+
+.contact #close-icon {
+  display: none;
+}
 /* about me part  */
 
 .about-section {
@@ -340,6 +344,20 @@ header .profile-img {
 }
 
 /* media query  */
+
+@media screen and (max-width: 900px) {
+  .navbar ul {
+    display: none;
+  }
+
+  .contact .humburger {
+    display: block;
+  }
+
+  .contact .humburger .humburger-menus {
+    display: none;
+  }
+}
 
 @media screen and (max-width: 700px) {
   .navbar ul {
