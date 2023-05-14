@@ -205,10 +205,10 @@ header .profile-img {
 .contact .humburger .humburger-menus {
   position: absolute;
   top: 50px;
-  right: 0px;
+  right: 0;
   background-color: #fff;
   box-shadow: 0 0 10px #ecf0f1;
-  min-width: 300px;
+  min-width: 80vw;
   z-index: 100;
 }
 
@@ -225,6 +225,7 @@ header .profile-img {
 
 .contact #close-icon {
   display: none;
+  font-size: 20px;
 }
 /* about me part  */
 
@@ -370,6 +371,7 @@ header .profile-img {
 
   .contact .humburger .humburger-menus {
     display: none;
+    right: -30px;
   }
 
   .about-info {
@@ -398,6 +400,10 @@ header .profile-img {
 
   .navbar .logo img {
     width: 80px;
+  }
+
+  .contact .humburger .humburger-menus {
+    right: -80px;
   }
 
   .about-header h2 {
