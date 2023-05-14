@@ -91,3 +91,67 @@ header .profile-img {
     transform: translateY(30px);
   }
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #252b33;
+  font-weight: 500;
+  font-size: 17px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.navbar ul li a::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background-color: #f5df4e;
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  transition: width 0.4s;
+}
+
+.navbar ul li a:hover::after,
+.navbar ul li a.active::after {
+  width: 100%;
+}
+
+.navbar .contact {
+  width: 100px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar .contact i {
+  font-size: 20px;
+  color: #252b33;
+  cursor: pointer;
+}
+
+.contact .facebook:hover {
+  color: blue;
+  transform: scale(1.1);
+}
+.contact .twitter:hover {
+  color: skyblue;
+  transform: scale(1.1);
+}
+.contact .instagram:hover {
+  color: violet;
+  transform: scale(1.1);
+}
