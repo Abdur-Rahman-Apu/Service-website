@@ -1,0 +1,173 @@
+/* navbar start  */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  border-bottom: 1px solid #f3f3f3;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 3px 5px #ecf0f1;
+  z-index: 100;
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #252b33;
+  font-weight: 500;
+  font-size: 17px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.navbar > ul li a::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background-color: #f5df4e;
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  transition: width 0.4s;
+}
+
+.navbar ul li a:hover::after,
+.navbar ul li a.active::after {
+  width: 100%;
+}
+
+.navbar .contact {
+  width: 100px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar .contact i {
+  font-size: 20px;
+  color: #252b33;
+  cursor: pointer;
+}
+
+.contact .facebook:hover {
+  color: blue;
+  transform: scale(1.1);
+}
+.contact .twitter:hover {
+  color: #00acee;
+  transform: scale(1.1);
+}
+.contact .instagram:hover {
+  color: violet;
+  transform: scale(1.1);
+}
+
+.contact div {
+  position: relative;
+  margin-right: 15px;
+}
+
+.contact div p {
+  position: absolute;
+  left: -25px;
+  bottom: -35px;
+  background-color: #4d555a;
+  padding: 4px 7px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 5px;
+  display: none;
+}
+
+.contact div p::before {
+  content: "";
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  width: 12px;
+  height: 10px;
+  background-color: #4d555a;
+  position: absolute;
+  top: -10px;
+  left: 30px;
+}
+
+.content div:hover + p {
+  display: block;
+}
+
+.contact .humburger {
+  display: none;
+}
+
+.contact .humburger .humburger-menus {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background-color: #fff;
+  box-shadow: 0 0 10px #ecf0f1;
+  min-width: 80vw;
+  z-index: 100;
+}
+
+.contact .humburger .humburger-menus li {
+  padding: 10px 6px;
+  display: block;
+  border-bottom: 1px solid #bdc3c7;
+}
+
+.contact .humburger .humburger-menus li a:hover,
+.contact .humburger .humburger-menus li a.active {
+  color: #f5df4e;
+}
+
+.contact #close-icon {
+  display: none;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  .navbar ul {
+    display: none;
+  }
+
+  .contact .humburger {
+    display: block;
+  }
+
+  .contact .humburger .humburger-menus {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .navbar ul {
+    display: none;
+  }
+
+  .contact .humburger {
+    display: block;
+  }
+
+  .contact .humburger .humburger-menus {
+    display: none;
+    right: -30px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .navbar .logo img {
+    width: 80px;
+  }
+
+  .contact .humburger .humburger-menus {
+    right: -80px;
+  }
+}
