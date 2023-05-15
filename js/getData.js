@@ -25,7 +25,7 @@ const featuredProjects = (data, showData) => {
                   `;
 
     projectParentDiv.addEventListener("click", function () {
-      document.location.href = `./case-study.html?${id}`;
+      document.location.href = `./case-study-detail.html?${id}`;
     });
     featuredDiv.appendChild(projectParentDiv);
   }
