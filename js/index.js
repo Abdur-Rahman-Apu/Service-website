@@ -61,3 +61,11 @@ scrollDiv.addEventListener("mouseover", function () {
 scrollDiv.addEventListener("mouseout", function () {
   scrollToolTip.style.display = "none";
 });
+
+// dynamic typing (typed.js)
+const typed = new Typed(".type", {
+  strings: ["Freelancer", "Designer", "Developer", "Content Writer"],
+  typeSpeed: 50,
+  backSpeed: 50,
+  loop: true,
+});
