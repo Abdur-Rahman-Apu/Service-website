@@ -688,6 +688,14 @@ header .profile-img {
   .services {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  .project-inner-section {
+    flex-direction: column;
+  }
+
+  .project-inner-section .right-side {
+    margin-top: 80px;
+  }
 }
 
 @media screen and (max-width: 440px) {

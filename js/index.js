@@ -76,6 +76,6 @@ const typed = new Typed(".type", {
 $(document).ready(function () {
   $(".project-stats .counter").counterUp({
     delay: 10,
-    time: 1500,
+    time: 500,
   });
 });
