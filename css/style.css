@@ -51,6 +51,7 @@
   box-shadow: 0 0 15px #c6c7c8;
   cursor: pointer;
   visibility: hidden;
+  z-index: 100;
 }
 
 .scroll-to-top:hover {
