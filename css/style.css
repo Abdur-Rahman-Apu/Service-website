@@ -569,12 +569,21 @@ header .profile-img {
   font-weight: bold;
 }
 
+.project-stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-stats div p {
+  margin-top: 10px;
+}
 .select-inspire {
-  margin: 10px 0;
+  margin: 30px 0;
 }
 
 .select-inspire p {
   font-size: 18px;
+  font-weight: 600;
 }
 
 .select-inspire span {
@@ -590,6 +599,31 @@ header .profile-img {
   background-color: #f5df4e;
   padding: 10px 15px;
   border-radius: 30px;
+  transition: all 0.4s;
+}
+
+.explore-more:hover {
+  box-shadow: 0 5px 10px #f5df4e;
+}
+
+.right-side div {
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-side div img {
+  width: 80%;
+  padding: 10px;
+  outline: 5px;
+  background-color: #706fd3;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.right-side div img:hover {
+  transform: scale(1.1);
 }
 
 /* media query  */
