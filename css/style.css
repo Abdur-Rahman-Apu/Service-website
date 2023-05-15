@@ -208,8 +208,9 @@ header .profile-img {
 /* service section  */
 
 .service-section {
-  background-color: #000;
+  background-color: #f8f9fa;
   padding: 40px 4%;
+  color: #000;
 }
 
 .service-header {
@@ -227,13 +228,13 @@ header .profile-img {
 }
 
 .service-header h1 {
-  color: #fff;
+  color: #000;
   font-size: 42px;
   margin: 20px 0 30px;
 }
 
 .services {
-  color: #fff;
+  color: #000;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
@@ -241,7 +242,7 @@ header .profile-img {
 
 .services .service {
   height: 300px;
-  border: 2px solid #fff;
+  border: 2px solid #000;
   border-radius: 25px;
   padding: 30px;
   margin-top: 30px;
