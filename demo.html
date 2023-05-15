@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        .case-study-section .case-study-title {
+            text-align: center;
+            margin: 30px 0;
+            text-transform: uppercase;
+            color: #706fd3;
+        }
+
+        .featured-projects {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-column-gap: 30px;
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px 40px;
+        }
+
+        .featured-projects .project {
+            position: relative;
+            cursor: pointer;
+        }
+
+        .featured-projects .project img {
+            object-fit: cover;
+            width: 100%;
+            filter: brightness(0.6);
+        }
+
+        .featured-projects .project p {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 22px;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: #fff;
+            width: 100%;
+            text-align: center;
+        }
+
+        .view-all-btn {
+            display: block;
+            width: fit-content;
+            margin: 20px auto;
+            padding: 10px 20px;
+            text-decoration: none;
+            background-color: #f5df4e;
+            border-radius: 5px;
+            font-weight: 500;
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- scroll-to-top  -->
+    <div class="up">
+        <div class="scroll-to-top">
+            <i class="fa-solid fa-arrow-up"></i>
+        </div>
+        <p>Back to top</p>
+    </div>
+
+    <!-- navbar  -->
+    <div class="navbar">
+        <div class="logo">
+            <img src="./images/logo.png" alt="logo">
+        </div>
+        <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Resume</a></li>
+            <li><a href="./portfolio.html">Portfolio</a></li>
+            <li><a href="#">Faq</a></li>
+            <li><a href="#">Client</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+
+        <div class="contact">
+            <div class="humburger" onclick="toggleMenu()">
+                <i class="fa-solid fa-bars" id="humburger-icon"></i>
+                <i class="fa-regular fa-circle-xmark" id="close-icon"></i>
+
+                <ul class="humburger-menus">
+                    <li><a class="active" href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Resume</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Faq</a></li>
+                    <li><a href="#">Client</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <a href="#"><i class="fa-brands fa-facebook facebook"></i></a>
+                <p>Facebook</p>
+            </div>
+            <div>
+                <a href="#"><i class="fa-brands fa-twitter twitter"></i></a>
+                <p>Twitter</p>
+            </div>
+            <div>
+                <a href="#"><i class="fa-brands fa-instagram instagram"></i></a>
+                <p>Instagram</p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <section class="case-study-section">
+        <h1 class="case-study-title">
+            Featured Case Studies
+        </h1>
+
+        <div class="featured-projects">
+
+        </div>
+    </section>
+
+
+    <script>
+
+        const featuredDiv = document.querySelector('.featured-projects')
+        const caseStudySection = document.querySelector('.case-study-section')
+
+        const getAllData = () => {
+            fetch('data/data.json')
+                .then(res => res.json())
+                .then(data => {
+                    featuredProjects(data)
+                })
+        }
+
+
+        const featuredProjects = (data) => {
+
+            for (let i = 0; i < 3; i++) {
+
+                const { thumbnailImg, clientName, id } = data[i]
+
+                const projectParentDiv = document.createElement('div');
+                projectParentDiv.classList.add('project');
+
+                projectParentDiv.innerHTML = `
+                <img src='${thumbnailImg}'/>
+                <p>${clientName}</p>                
+                `
+
+                projectParentDiv.addEventListener('click', function () {
+                    document.location.href = `./case-studies.html?${id}`
+                })
+                featuredDiv.appendChild(projectParentDiv)
+            }
+
+            // viewAllBtn 
+            const viewAllBtn = document.createElement('a')
+            viewAllBtn.setAttribute('href', './case-studies.html')
+            viewAllBtn.classList.add('view-all-btn')
+            viewAllBtn.textContent = 'VIEW ALL PROJECTS'
+
+
+            caseStudySection.appendChild(viewAllBtn)
+        }
+
+
+        getAllData()
+
+
+    </script>
+
+</body>
+
+</html>

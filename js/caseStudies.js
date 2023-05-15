@@ -1,0 +1,1 @@
+getAllData(featuredProjects, 9);

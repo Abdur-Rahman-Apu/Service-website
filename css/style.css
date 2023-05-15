@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
-
 @import url("./common.css");
 @import url("./navbar.css");
 @import url("./scroll-up.css");
@@ -311,6 +309,72 @@ header .profile-img {
   visibility: visible;
 }
 
+/* case study section  */
+.case-study-section {
+  margin: 80px 0;
+}
+
+.case-study-section .case-study-title {
+  text-align: center;
+  margin: 30px 0;
+  text-transform: uppercase;
+  color: #706fd3;
+}
+
+.featured-projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 40px;
+}
+
+.featured-projects .project {
+  position: relative;
+  cursor: pointer;
+}
+
+.featured-projects .project img {
+  object-fit: cover;
+  width: 100%;
+  filter: brightness(0.6);
+  transition: all 0.3s;
+}
+
+.featured-projects .project:hover img {
+  transform: scale(1.1);
+  filter: brightness(0.4);
+  box-shadow: 0 2px 3px #706fd3;
+}
+
+.featured-projects .project p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+}
+
+.view-all-btn {
+  display: block;
+  width: fit-content;
+  margin: 20px auto;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #f5df4e;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.view-all-btn:hover {
+  box-shadow: 0 0 3px #f5df4e;
+}
 /* project section  */
 .project-section {
   min-height: 400px;
@@ -363,6 +427,8 @@ header .profile-img {
 .dynamic-writing h3 {
   font-size: 24px;
   font-weight: 500;
+  color: #fff;
+  text-align: center;
 }
 
 .dynamic-writing .type {
@@ -434,8 +500,13 @@ header .profile-img {
     margin-bottom: 18px;
   }
 
-  .services {
+  .services,
+  .featured-projects {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .featured-projects {
+    grid-row-gap: 20px;
   }
 }
 
@@ -453,8 +524,13 @@ header .profile-img {
     align-items: flex-start;
   }
 
-  .services {
+  .services,
+  .featured-projects {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .featured-projects {
+    grid-row-gap: 20px;
   }
 
   .project-inner-section {

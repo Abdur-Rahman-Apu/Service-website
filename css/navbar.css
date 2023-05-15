@@ -23,7 +23,7 @@
   text-decoration: none;
   color: #252b33;
   font-weight: 500;
-  font-size: 17px;
+  font-size: 15px;
   text-transform: uppercase;
   position: relative;
 }
@@ -45,7 +45,7 @@
 }
 
 .navbar .contact {
-  width: 100px;
+  width: 130px;
   height: 100%;
   display: flex;
   justify-content: space-between;
@@ -67,6 +67,14 @@
 }
 .contact .instagram:hover {
   color: violet;
+  transform: scale(1.1);
+}
+.contact .linkedin:hover {
+  color: #3498db;
+  transform: scale(1.1);
+}
+.contact .behance:hover {
+  color: #053eff;
   transform: scale(1.1);
 }
 

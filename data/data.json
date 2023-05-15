@@ -1,0 +1,155 @@
+[
+  {
+    "id": 0,
+    "thumbnailImg": "./images/projects-gallery/alex/ALEX+THUMBNAIL.jpg",
+    "gifImg": "./images/projects-gallery/alex/The+Alex.gif",
+    "clientName": "The Alex Theater",
+    "category": " Entertainment",
+    "scope": " brand identity, full brand ecosystem visualization",
+    "projectActivities": "The Alex Theater is historical art deco theater in Glendale, CA that is undergoing a rejuvenation. Having been mismanaged for years and left in the dust of other growing entertainment venues in what is certainly one of the entertainment capitals of the world, The Alex Theater was coming back to life. To break back onto the scene, The Alex needed a total re-brand to signal its new chapter and to make a bold visual statement. Verhaal, breaking the common design norm of a single static logo - designed a modular brand identity system that has multiple variations and changes and morphs, reflecting the bold energy of The Alex.",
+    "images": [
+      "./images/projects-gallery/alex",
+      "./images/projects-gallery/alex/THEALEX_Cover-Image_Master-Low-Res.jpg",
+      "./images/projects-gallery/alex/THEALEX_Business-Stationery_Mockup-Low-Res.jpg",
+      "./images/projects-gallery/alex/THEALEX_Playbill_Mockup_Low_Res.jpg",
+      "./images/projects-gallery/alex/THEALEX_Street-Banner_Mockup_Low_Res2.jpg",
+      "./images/projects-gallery/alex/THEALEX_Hoodie_Mockup_Low_Res.jpg",
+      "./images/projects-gallery/alex/THEALEX_TShirt_Mockup_White_Low_Res.jpg",
+      "./images/projects-gallery/alex/THEALEX_Cups_Mockup_Low_Res.jpg",
+      "./images/projects-gallery/alex/THEALEX_Bag_Mockup_Low_Res.jpg",
+      "./images/projects-gallery/alex/THEALEX_Outdoor_Poster_Mockup_01.jpg",
+      "./images/projects-gallery/alex/THEALEX_Facebook-Profile_Website_Mockup3.jpg"
+    ]
+  },
+  {
+    "id": 1,
+    "thumbnailImg": "./images/projects-gallery/gendergp/GenderGP-Thumbnail.jpg",
+    "gifImg": "./images/projects-gallery/gendergp/GGP_Logo_COLOR_1000px.jpg",
+    "clientName": "GenderGP",
+    "category": "GenderGP",
+    "scope": "brand identity, full brand ecosystem visualization",
+    "projectActivities": "GenderGP is a global telehealth company that focuses exclusively on transgender and non-binary individuals providing them a holistic array of health services empowering successful gender transition. GenderGP came to Verhaal for a complete redesign of its brand identity and re-envisioning of its brand ecosystem including: website, social media channels, content media including their email newsletter, podcast and more. Our mission was to create an identity that communicated GGP’s ethos of empathy, inclusivity, positivity and self-realization. We think we nailed it. ",
+    "images": [
+      "./images/projects-gallery/gendergp/GGP-Stationery-mock-up-FINAL.jpg",
+      "./images/projects-gallery/gendergp/GGP-MacBook-Pro-mockup-FINAL.jpg",
+      "./images/projects-gallery/gendergp/GGP-MacBook-Pro-mockup-BLOG-orange.jpg",
+      "./images/projects-gallery/gendergp/GENDERGP_Brand+Guidelines_JAN202228.jpg",
+      "./images/projects-gallery/gendergp/GenderGP-Social-Media.jpg",
+      "./images/projects-gallery/gendergp/GenderGP-Emails.jpg",
+      "./images/projects-gallery/gendergp/GenderGP-Podcast+Cover.jpg",
+      "./images/projects-gallery/gendergp/GGP_Brand+Guidelines_Mockups-01.jpg",
+      "./images/projects-gallery/gendergp/GGP-Bus-Stop-Billboard-MockUp-FINAL.jpg",
+      "./images/projects-gallery/gendergp/GGP-Coffee-Cup-Mockup-FINAL.jpg",
+      "./images/projects-gallery/gendergp/GGP_Canvas-Tote-Bag-MockUp-FINAL.jpg",
+      "./images/projects-gallery/gendergp/GGP-T-Shirt-Mock-Up-Front-FULL-COLOR+GREY.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "thumbnailImg": "./images/projects-gallery/aliquote/Aliquote+Pkg+thumbnail.jpg",
+    "gifImg": "./images/projects-gallery/aliquote/AS+Main+Logo+600px.png",
+    "clientName": "Marie Bertrand",
+    "category": "Dermatological Skincare Brand",
+    "scope": "naming, brand Identity, packaging, brand collateral",
+    "projectActivities": "Aliquote Skin is a dermatological skincare brand based in Calgary Canada. The celebrated skincare expert Marie Bertrand launched Aliquote Skin as the private label brand for her group of skincare medicare spas, Skin Science.<br> Verhaal first named the brand “Aliquote Skin”, drawing on the french word “aliquote” which means: “A portion of a total amount of a solution or suspension” which is used in chemistry and biotechnology. Next, we developed a bespoke brand identity, pattern, color palette and icon system for use across all brand touch-points. Finally, we brought the brand to life with package design that translates beautifully across a broad range of form factors.",
+    "images": [
+      "./images/projects-gallery/aliquote/Pattern.jpg",
+      "./images/projects-gallery/aliquote/Icons.jpg",
+      "./images/projects-gallery/aliquote/Website.jpg",
+      "./images/projects-gallery/aliquote/Colors.jpg",
+      "./images/projects-gallery/aliquote/Mood-Shots-FOR-WEBSITE.jpg",
+      "./images/projects-gallery/aliquote/Aliquote-Ad-1.jpg",
+      "./images/projects-gallery/aliquote/Aliquote-Ad-2.jpg",
+      "./images/projects-gallery/aliquote/image-asset.jpegg",
+      "./images/projects-gallery/aliquote/AS-Family-Tray-we-sm.jpg",
+      "./images/projects-gallery/aliquote/Aliquote-Family-web-sm.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "thumbnailImg": "./images/projects-gallery/bima/BIMA-Thumbnail-2.jpg",
+    "gifImg": "../images/projects-gallery/bima/BIMA.jpg",
+    "clientName": "Marie Bertrand, CEO, Skin Science",
+    "category": "Medical Aesthetics Education",
+    "scope": "competitive research, brand strategy, naming, brand identity, website, brand collateral, social media",
+    "projectActivities": "Having built an extremely successful medical aesthetics clinic in Calgary Canada, Marie Bertrand, CEO of SkinScience embarked on launching a training institute for medical aestheticians. Her goal was to elevate medical aesthetics training practices by providing the highest quality education with rigorous medical oversight in an industry known for its lack of regulation or standardized practices. We partnered with Marie to build BIMA from the ground up. Beginning with the thought kernel of a business concept in Marie’s mind, we executed a competitive landscape analysis, brand strategy, naming and designed the brand identity and ecosystem from top to bottom, including website, print collateral and social media.",
+    "images": [
+      "./images/projects-gallery/bima/BIMA.jpg",
+      "./images/projects-gallery/bima/bima-circle.jpg",
+      "./images/projects-gallery/bima/BIMA-Clinic-Lobby.jpg",
+      "./images/projects-gallery/bima/BIMA+Color+Mood+Board.001.jpg",
+      "./images/projects-gallery/bima/Stationary-Mockup.jpg",
+      "./images/projects-gallery/bima/USB-Mockup.jpg",
+      "./images/projects-gallery/bima/Brochure-Mockup.jpg",
+      "./images/projects-gallery/bima/Laptop-Mockup.jpg",
+      "./images/projects-gallery/bima/BIMA+Merch.jpg",
+      "./images/projects-gallery/bima/Phone-Mockup.jpg",
+      "./images/projects-gallery/bima/BIMA-Visual+Expression-9-up.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "thumbnailImg": "./images/projects-gallery/nextvacacy/Next-Vacay-Thumbnail.jpg",
+    "gifImg": "./images/projects-gallery/nextvacacy/next-vacacy-logo.png",
+    "clientName": "Next Vacay",
+    "category": "Discount Travel Services",
+    "scope": "brand strategy, brand identity, brand guidelines, user research, business consulting",
+    "projectActivities": "In 4 short years Next Vacay came to dominate the category of unbelievable flight deals delivering their service via email subscription. But Next Vacay’s brand design was a mess. Their brand ecosystem was extremely inconsistent across multiple platforms and they had no clear brand strategy. So, Verhaal started with the basics, establishing a rock solid brand positioning, a striking brand identity system and a crystal clear customer avatar that was validated through both qualitative and quantitative user research.",
+    "images": [
+      "./images/projects-gallery/nextvacacy/Next+Vacay+Pattern.png",
+      "./images/projects-gallery/nextvacacy/Next+Vacay+Colors.jpg",
+      "./images/projects-gallery/nextvacacy/vacacy-stock.jpg",
+      "./images/projects-gallery/nextvacacy/next-vacacy-stationary.jpg",
+      "./images/projects-gallery/nextvacacy/Next+Vacay+Icons.png",
+      "./images/projects-gallery/nextvacacy/Next-Vacay-Mug-Pen.jpg",
+      "./images/projects-gallery/nextvacacy/Next-Vacay-Magazine.jpg",
+      "./images/projects-gallery/nextvacacy/Next-Vacay-Shirt.png",
+      "./images/projects-gallery/nextvacacy/Bus+Stop+Billboard+MockUp-Next+Vacay-LAYERS.jpg",
+      "./images/projects-gallery/nextvacacy/Next-Vacay-Laptop.png",
+      "./images/projects-gallery/nextvacacy/next-vacacy-durgo.jpg",
+      "./images/projects-gallery/nextvacacy/Next-Vacay-Visual-Expression.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "thumbnailImg": "./images/projects-gallery/verse/The-Verse-Logo-thumbnail.jpg",
+    "gifImg": "./images/projects-gallery/verse/The-Verse-Logo-FINAL-2-solo.jpg",
+    "clientName": "Stephanie Carter",
+    "category": "Stephanie Carter",
+    "scope": "business concept consulting, competitive research, brand strategy, qualitative user research, naming, brand identity, brand collateral",
+    "projectActivities": "After an illustrious career as an executive in private equity, Stephanie Carter had a vision. She wanted to create a lifestyle/media brand to inspire, encourage and validate 50+ year-old women who are moving into a new phase of life. Unlike traditional age-centric brands, The Verse provides the catalysts and game plans to empower women to change, grow and age boldly. The brand provides women with the information, media, products, experiences, community, expert voices and perspectives that they are seeking to make the most of “next chapter”.",
+    "images": [
+      "./images/projects-gallery/verse/The-Verse-Bus-Stop-Billboard-MockUp-9-edited.jpg",
+      "./images/projects-gallery/verse/The+Verse+Icon+Set-transparent.png",
+      "./images/projects-gallery/verse/The-Verse-Logo-thumbnail.jpg",
+      "./images/projects-gallery/verse/The-Verse-Coffee-Cup-Mockup-8-edited.jpg",
+      "./images/projects-gallery/verse/The-Verse---Lifestyle-Pic-Treatment-edited.jpg",
+      "./images/projects-gallery/verse/The-Verse-Business-Card.jpg",
+      "./images/projects-gallery/verse/The-Verse-Canvas-Tote-Bag-MockUp-8a-edited.jpg",
+      "/images/projects-gallery/verse/The-Verse-T-Shirt-Mock-Up-Front-8-edited.jpg",
+      "./images/projects-gallery/verse/The-Verse-Film-Festival-Poster-Mockup-8a-edited.jpg",
+      "./images/projects-gallery/verse/The-Verse-Laptop.jpg",
+      "./images/projects-gallery/verse/The-Verse---Color-Mood-Board-edited.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "thumbnailImg": "",
+    "gifImg": "",
+    "clientName": "",
+    "category": "",
+    "scope": "",
+    "projectActivities": "",
+    "images": []
+  },
+  {
+    "id": 7,
+    "thumbnailImg": "",
+    "gifImg": "",
+    "clientName": "",
+    "category": "",
+    "scope": "",
+    "projectActivities": "",
+    "images": []
+  }
+]
