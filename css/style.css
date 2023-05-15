@@ -8,6 +8,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+::selection {
+  background-color: #f5df4e;
+}
+
 /* scroll-to-top   */
 .up p {
   position: fixed;
@@ -50,7 +54,7 @@
 }
 
 .scroll-to-top:hover {
-  background-color: #f5df4e;
+  background-color: var(--primary-color);
 }
 
 .scroll-to-top i {
@@ -161,6 +165,7 @@ header .profile-img {
   position: sticky;
   top: 0;
   box-shadow: 0 3px 5px #ecf0f1;
+  z-index: 100;
 }
 
 .navbar ul li {
@@ -400,6 +405,110 @@ header .profile-img {
   font-size: 1.12rem;
 }
 
+/* service section  */
+
+.service-section {
+  background-color: #000;
+  padding: 40px 4%;
+}
+
+.service-header {
+  width: fit-content;
+  text-align: center;
+  margin: 20px auto 30px;
+}
+
+.service-header span {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #f5df4e;
+}
+
+.service-header h1 {
+  color: #fff;
+  font-size: 42px;
+  margin: 20px 0 30px;
+}
+
+.services {
+  color: #fff;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.services .service {
+  height: 300px;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  padding: 30px;
+  margin-top: 30px;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s;
+  overflow: hidden;
+}
+
+.service-info {
+  margin-top: 30px;
+  transition: margin-top 0.5s;
+}
+
+.service-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.service-name {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 22px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.service-icon img {
+  width: 80px;
+}
+
+.service-description {
+  transform: translateY(140px);
+  visibility: hidden;
+  transition: transform 0.4s;
+}
+
+.service:hover {
+  border: 2px solid #706fd3;
+  box-shadow: 0 0 10px #706fd3;
+}
+
+.service:hover .service-info {
+  margin-top: -10px;
+}
+
+.service:hover .service-icon {
+  transition: justify-content 0.8s;
+}
+
+.service:hover img {
+  width: 60px;
+  transition: width 0.3s;
+  border: 2px solid #f5df4e;
+  outline: 2px solid #706fd3;
+  outline-offset: 6px;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.service:hover .service-description {
+  transform: translateY(5px);
+  text-align: center;
+  margin-top: 10px;
+  font-size: 15px;
+  visibility: visible;
+}
+
 /* media query  */
 
 @media screen and (max-width: 900px) {
@@ -421,6 +530,10 @@ header .profile-img {
 
   .about-details div {
     margin-bottom: 18px;
+  }
+
+  .services {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -453,6 +566,10 @@ header .profile-img {
   .about-details {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .services {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
