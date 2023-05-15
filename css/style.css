@@ -54,7 +54,7 @@
 }
 
 .scroll-to-top:hover {
-  background-color: var(--primary-color);
+  background-color: #f5df4e;
 }
 
 .scroll-to-top i {
@@ -442,7 +442,7 @@ header .profile-img {
 .services .service {
   height: 300px;
   border: 2px solid #fff;
-  border-radius: 3px;
+  border-radius: 10px;
   padding: 30px;
   margin-top: 30px;
   position: relative;
