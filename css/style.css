@@ -369,6 +369,7 @@ header .profile-img {
   padding: 10px 20px;
   text-decoration: none;
   background-color: #f5df4e;
+  color: #000;
   border-radius: 5px;
   font-weight: 500;
 }

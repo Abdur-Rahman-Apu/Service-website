@@ -3,3 +3,26 @@
 @import url("./common.css");
 @import url("./navbar.css");
 @import url("./scroll-up.css");
+
+.featured-projects {
+  grid-row-gap: 20px;
+}
+
+.featured-projects .project:hover img {
+  transform: scale(1);
+}
+
+.featured-projects:hover .project {
+  opacity: 0.5;
+  filter: blur(3px);
+}
+
+.featured-projects .project {
+  transition: transform 0.5s;
+}
+
+.featured-projects .project:hover {
+  opacity: 1;
+  filter: blur(0px);
+  transform: scale(1.1);
+}

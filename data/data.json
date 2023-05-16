@@ -1,6 +1,7 @@
 [
   {
     "id": 0,
+    "name": "the alex",
     "thumbnailImg": "./images/projects-gallery/alex/ALEX+THUMBNAIL.jpg",
     "gifImg": "./images/projects-gallery/alex/The+Alex.gif",
     "clientName": "The Alex Theater",
@@ -23,6 +24,7 @@
   },
   {
     "id": 1,
+    "name": "gendergp",
     "thumbnailImg": "./images/projects-gallery/gendergp/GenderGP-Thumbnail.jpg",
     "gifImg": "./images/projects-gallery/gendergp/GGP_Logo_COLOR_1000px.jpg",
     "clientName": "GenderGP",
@@ -46,6 +48,7 @@
   },
   {
     "id": 2,
+    "name": "aliquote skin",
     "thumbnailImg": "./images/projects-gallery/aliquote/Aliquote+Pkg+thumbnail.jpg",
     "gifImg": "./images/projects-gallery/aliquote/AS+Main+Logo+600px.png",
     "clientName": "Marie Bertrand",
@@ -67,6 +70,7 @@
   },
   {
     "id": 3,
+    "name": "bima",
     "thumbnailImg": "./images/projects-gallery/bima/BIMA-Thumbnail-2.jpg",
     "gifImg": "../images/projects-gallery/bima/BIMA.jpg",
     "clientName": "Marie Bertrand, CEO, Skin Science",
@@ -89,6 +93,7 @@
   },
   {
     "id": 4,
+    "name": "next vacacy",
     "thumbnailImg": "./images/projects-gallery/nextvacacy/Next-Vacay-Thumbnail.jpg",
     "gifImg": "./images/projects-gallery/nextvacacy/next-vacacy-logo.png",
     "clientName": "Next Vacay",
@@ -112,6 +117,7 @@
   },
   {
     "id": 5,
+    "name": "verse",
     "thumbnailImg": "./images/projects-gallery/verse/The-Verse-Logo-thumbnail.jpg",
     "gifImg": "./images/projects-gallery/verse/The-Verse-Logo-FINAL-2-solo.jpg",
     "clientName": "Stephanie Carter",
@@ -134,6 +140,66 @@
   },
   {
     "id": 6,
+    "name": "Cathryn Carruthers",
+    "thumbnailImg": "./images/projects-gallery/cathryn/CC+Case+Study+thumbnail.jpg",
+    "gifImg": "./images/projects-gallery/cathryn/cathryn-logo.png",
+    "clientName": "Cathryn Carruthers",
+    "category": "Executive Coach, Consultant",
+    "scope": " brand strategy, brand identity, website, marketing collateral, presentation template",
+    "projectActivities": "Cathryn Carruthers is a premium tier executive coach serving woman executives at the C-Suite level. Cathryn needed her brand to reflect both her personal brand aesthetic as well as communicate to the bespoke service and guidance she provides her clients. <br> We provided Cathryn with strategic guidance to clarify her underlying message and establish a clear brand positioning. After codifying her brand we designed a brand Identity and a host of visual brand language elements to utilize across her portfolio of marketing touch-points including social media assets, a re-designed website, marketing collateral and a presentation template.",
+    "images": [
+      "./images/projects-gallery/cathryn/C-Carr-Pattern-FINAL-9x3-300pxin-RGB.jpg",
+      "./images/projects-gallery/cathryn/CC-business-cards-2.jpg",
+      "./images/projects-gallery/cathryn/CC+Stationery+mock-up+A.jpg",
+      "./images/projects-gallery/cathryn/Website.jpg",
+      "./images/projects-gallery/cathryn/CC-Webpages.jpg",
+      "./images/projects-gallery/cathryn/CC+T-Shirt+Mock-Up+Front.jpg",
+      "./images/projects-gallery/cathryn/CC+Moodboard.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Verisense",
+    "thumbnailImg": "./images/projects-gallery/verisense/Verisense+Truck+Mockup-thumbnail.jpg",
+    "gifImg": "./images/projects-gallery/verisense/Verisense+Logo.png",
+    "clientName": "Verisense",
+    "category": "Medical-grade Wearable Sensors",
+    "scope": "competitive audit, brand strategy, naming, brand identity, brand collateral, pitch deck template",
+    "projectActivities": "Verisense is a division of Shimmer Sensing, a designer and manufacturer of medical-grade wearable sensors. Verisense sensors track human vital signs in real time relaying data that is critical to medical trials to the cloud for analysis. <br> Shimmer came to us with a host of challenges. They needed to understand the competitive landscape, and develop the brand strategy, name, brand identity and visual ecosystem for their industry-defining wearable medical sensor line. We started with an extensive competitive audit and stakeholder interviews. Next, we guided the Shimmer executive team through a brand strategy workshop to codify the tenets of the brand. Finally we named the brand, developed the brand identity and executed a full suite of marketing materials.",
+    "images": [
+      "./images/projects-gallery/verisense/Verisense+Truck+Mockup-thumbnail.jpg",
+      "./images/projects-gallery/verisense/mockup+pattern+BLUE.png",
+      "./images/projects-gallery/verisense/Stationery+mock-up+Verisense+FINAL.jpg",
+      "./images/projects-gallery/verisense/VERISENSE_IMU_Rd+2-FINAL.jpg",
+      "./images/projects-gallery/verisense/Ronald-MacDonald-House-sm-web.jpg",
+      "./images/projects-gallery/verisense/Verisense-Pitch-deck-mockup-sm.jpg",
+      "./images/projects-gallery/verisense/Verisense-Mug.jpg",
+      "./images/projects-gallery/verisense/Verisense-Moodboard.jpg"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "redd solutions",
+    "thumbnailImg": "./images/projects-gallery/reddsolutions/Redd+Solutions+Logo+MockUp+design+D.jpg",
+    "gifImg": "./images/projects-gallery/reddsolutions/Redd-Solutions-Logo.png",
+    "clientName": "Redd Solutions",
+    "category": "Information Technology and Services",
+    "scope": "brand identity, logo animation, brand collateral, presentation template",
+    "projectActivities": "Redd Solutions LLC is an IT consulting company that provides government sector clients customized technology solutions that meet their specific business needs. They specialize in scalable solutions that meet the requirements of single operational areas, entire enterprises or cross-organizational, multi-location platforms. <br> We provided Redd Solutions with a new brand Identity ecosystem that communicated their technology roots along with a host of visual brand language elements to utilize across their portfolio of marketing touch-points including their social media, website, marketing collateral and presentation templates.",
+    "images": [
+      "./images/projects-gallery/reddsolutions/Redd+pattern+web.png",
+      "./images/projects-gallery/reddsolutions/Stationery+mock-up+3+FINAL.jpg",
+      "./images/projects-gallery/reddsolutions/Spot+UV+Logo+MockUp+design+D.jpg",
+      "./images/projects-gallery/reddsolutions/Redd+Solutions+2.gif",
+      "./images/projects-gallery/reddsolutions/Redd-Solutions-Shirt.jpg",
+      "./images/projects-gallery/reddsolutions/Redd-Solutions-Website.jpg",
+      "./images/projects-gallery/reddsolutions/Redd-Solutions-Icons.jpg",
+      "./images/projects-gallery/reddsolutions/Redd-Solutions-Color-Direction-Board.jpg"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "the alex",
     "thumbnailImg": "",
     "gifImg": "",
     "clientName": "",
@@ -144,6 +210,216 @@
   },
   {
     "id": 7,
+    "name": "the alex",
+    "thumbnailImg": "",
+    "gifImg": "",
+    "clientName": "",
+    "category": "",
+    "scope": "",
+    "projectActivities": "",
+    "images": []
+  },
+  {
+    "id": 7,
+    "name": "the alex",
+    "thumbnailImg": "",
+    "gifImg": "",
+    "clientName": "",
+    "category": "",
+    "scope": "",
+    "projectActivities": "",
+    "images": []
+  },
+  {
+    "id": 7,
+    "name": "the alex",
+    "thumbnailImg": "",
+    "gifImg": "",
+    "clientName": "",
+    "category": "",
+    "scope": "",
+    "projectActivities": "",
+    "images": []
+  },
+  {
+    "id": 7,
+    "name": "the alex",
+    "thumbnailImg": "",
+    "gifImg": "",
+    "clientName": "",
+    "category": "",
+    "scope": "",
+    "projectActivities": "",
+    "images": []
+  },
+  {
+    "id": 7,
+    "name": "the alex",
+    "thumbnailImg": "",
+    "gifImg": "",
+    "clientName": "",
+    "category": "",
+    "scope": "",
+    "projectActivities": "",
+    "images": []
+  },
+  {
+    "id": 7,
+    "name": "the alex",
+    "thumbnailImg": "",
+    "gifImg": "",
+    "clientName": "",
+    "category": "",
+    "scope": "",
+    "projectActivities": "",
+    "images": []
+  },
+  {
+    "id": 7,
+    "name": "the alex",
+    "thumbnailImg": "",
+    "gifImg": "",
+    "clientName": "",
+    "category": "",
+    "scope": "",
+    "projectActivities": "",
+    "images": []
+  },
+  {
+    "id": 7,
+    "name": "the alex",
+    "thumbnailImg": "",
+    "gifImg": "",
+    "clientName": "",
+    "category": "",
+    "scope": "",
+    "projectActivities": "",
+    "images": []
+  },
+  {
+    "id": 7,
+    "name": "the alex",
+    "thumbnailImg": "",
+    "gifImg": "",
+    "clientName": "",
+    "category": "",
+    "scope": "",
+    "projectActivities": "",
+    "images": []
+  },
+  {
+    "id": 7,
+    "name": "the alex",
+    "thumbnailImg": "",
+    "gifImg": "",
+    "clientName": "",
+    "category": "",
+    "scope": "",
+    "projectActivities": "",
+    "images": []
+  },
+  {
+    "id": 7,
+    "name": "the alex",
+    "thumbnailImg": "",
+    "gifImg": "",
+    "clientName": "",
+    "category": "",
+    "scope": "",
+    "projectActivities": "",
+    "images": []
+  },
+  {
+    "id": 7,
+    "name": "the alex",
+    "thumbnailImg": "",
+    "gifImg": "",
+    "clientName": "",
+    "category": "",
+    "scope": "",
+    "projectActivities": "",
+    "images": []
+  },
+  {
+    "id": 7,
+    "name": "the alex",
+    "thumbnailImg": "",
+    "gifImg": "",
+    "clientName": "",
+    "category": "",
+    "scope": "",
+    "projectActivities": "",
+    "images": []
+  },
+  {
+    "id": 7,
+    "name": "the alex",
+    "thumbnailImg": "",
+    "gifImg": "",
+    "clientName": "",
+    "category": "",
+    "scope": "",
+    "projectActivities": "",
+    "images": []
+  },
+  {
+    "id": 7,
+    "name": "the alex",
+    "thumbnailImg": "",
+    "gifImg": "",
+    "clientName": "",
+    "category": "",
+    "scope": "",
+    "projectActivities": "",
+    "images": []
+  },
+  {
+    "id": 7,
+    "name": "the alex",
+    "thumbnailImg": "",
+    "gifImg": "",
+    "clientName": "",
+    "category": "",
+    "scope": "",
+    "projectActivities": "",
+    "images": []
+  },
+  {
+    "id": 7,
+    "name": "the alex",
+    "thumbnailImg": "",
+    "gifImg": "",
+    "clientName": "",
+    "category": "",
+    "scope": "",
+    "projectActivities": "",
+    "images": []
+  },
+  {
+    "id": 7,
+    "name": "the alex",
+    "thumbnailImg": "",
+    "gifImg": "",
+    "clientName": "",
+    "category": "",
+    "scope": "",
+    "projectActivities": "",
+    "images": []
+  },
+  {
+    "id": 7,
+    "name": "the alex",
+    "thumbnailImg": "",
+    "gifImg": "",
+    "clientName": "",
+    "category": "",
+    "scope": "",
+    "projectActivities": "",
+    "images": []
+  },
+  {
+    "id": 7,
+    "name": "the alex",
     "thumbnailImg": "",
     "gifImg": "",
     "clientName": "",
