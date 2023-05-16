@@ -11,9 +11,6 @@ body {
     #fefdfe,
     #ffffff
   );
-
-  box-sizing: border-box;
-  overflow: hidden;
 }
 
 .case-detail-section {
