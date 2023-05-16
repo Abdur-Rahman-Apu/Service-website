@@ -10,8 +10,8 @@ const typed = new Typed(".type", {
 // counter up
 
 $(document).ready(function () {
-  $(".project-stats .counter").counterUp({
-    delay: 10,
+  $(".counter").counterUp({
+    delay: 30,
     time: 500,
   });
 });

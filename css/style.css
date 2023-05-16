@@ -495,6 +495,103 @@ header .profile-img {
   transform: scale(1.1);
 }
 
+/* statistics section  */
+
+.statistics-section {
+  background: #f3f5f9;
+  padding: 30px 3%;
+}
+
+.statistics-section .statistics-title {
+  margin: 30px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.statistics-detail {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 15px;
+  margin: 60px 0;
+}
+
+.statistics-detail .detail-container {
+  background: #fff;
+  border-radius: 6%;
+}
+
+.detail-container .icon {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 22px;
+  border-radius: 50%;
+  margin: 25px;
+}
+
+.statistics-info {
+  padding: 0 10% 16px;
+}
+
+.statistics-info > span {
+  color: gray;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.statistics-info h1 {
+  font-size: 28px;
+}
+
+.world-icon {
+  background: #fd746c;
+
+  background: linear-gradient(to right, #ff9068, #fd746c);
+
+  box-shadow: 0 0 10px #ff9068;
+}
+
+.client-icon {
+  background: #58d3f9;
+  box-shadow: 0 0 10px #58d3f9;
+}
+
+.client-icon i,
+.experience-icon i,
+.recommend-icon i,
+.qualify-icon i,
+.success-icon i {
+  color: #fff;
+}
+
+.experience-icon {
+  background-color: #ba8ff3;
+  box-shadow: 0 0 10px #ba8ff3;
+}
+.recommend-icon {
+  background-color: #7ca3dd;
+  box-shadow: 0 0 10px #7ca3dd;
+}
+
+.qualify-icon {
+  background: #f2709c;
+
+  background: linear-gradient(to right, #ff9472, #f2709c);
+
+  box-shadow: 0 0 10px #f2709c;
+}
+
+.success-icon {
+  background: #50c9c3;
+
+  background: linear-gradient(to right, #96deda, #50c9c3);
+  box-shadow: 0 0 10px #50c9c3;
+}
+
 /* media query  */
 
 @media screen and (max-width: 900px) {
@@ -509,6 +606,10 @@ header .profile-img {
 
   .featured-projects {
     grid-row-gap: 20px;
+  }
+
+  .statistics-detail {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -542,6 +643,10 @@ header .profile-img {
   .project-inner-section .right-side {
     margin-top: 80px;
   }
+
+  .statistics-detail {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media screen and (max-width: 440px) {
@@ -573,5 +678,16 @@ header .profile-img {
 
   .about-experience h3 {
     font-size: 1.3rem;
+  }
+  .statistics-detail {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .detail-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 }
