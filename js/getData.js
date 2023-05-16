@@ -13,7 +13,16 @@ const caseStudySection = document.querySelector(".case-study-section");
 
 const featuredProjects = (data, showData) => {
   console.log(data);
-  for (let i = 0; i < showData; i++) {
+
+  let dataLength = undefined;
+
+  if (showData == "all") {
+    dataLength = data.length;
+  } else {
+    dataLength = showData;
+  }
+
+  for (let i = 0; i < dataLength; i++) {
     const { thumbnailImg, clientName, id } = data[i];
 
     const projectParentDiv = document.createElement("div");

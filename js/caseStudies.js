@@ -1,1 +1,1 @@
-getAllData(featuredProjects, 9);
+getAllData(featuredProjects, "all");
