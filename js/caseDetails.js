@@ -1,6 +1,6 @@
 var queryString = location.search.substring(1);
 
-console.log(queryString);
+// find specific data
 
 const caseDetails = (data, projectId) => {
   const findData = data.find((item) => item.id == projectId);
