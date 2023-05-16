@@ -27,7 +27,9 @@ const featuredProjects = (data, showData) => {
 
     const projectParentDiv = document.createElement("div");
     projectParentDiv.classList.add("project");
-
+    projectParentDiv.setAttribute("data-aos", "fade-in");
+    projectParentDiv.setAttribute("data-aos-duration", 3000);
+    projectParentDiv.setAttribute("data-aos-easing", "ease");
     projectParentDiv.innerHTML = `
                   <img src='${thumbnailImg}'/>
                   <p>${clientName}</p>                
