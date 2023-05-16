@@ -11,6 +11,9 @@ body {
     #fefdfe,
     #ffffff
   );
+
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 .case-detail-section {
@@ -64,4 +67,20 @@ body {
   margin: 40px 0;
   text-transform: uppercase;
   color: #706fd3;
+}
+
+@media screen and (max-width: 900px) {
+  .navbar {
+    width: 100%;
+  }
+
+  .project-logo img {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .navbar .contact {
+    flex-wrap: wrap;
+  }
 }
