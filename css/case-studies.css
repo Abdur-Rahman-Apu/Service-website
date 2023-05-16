@@ -4,6 +4,14 @@
 @import url("./navbar.css");
 @import url("./scroll-up.css");
 
+body {
+  background: linear-gradient(
+    132deg,
+    rgb(251, 251, 255) 0%,
+    rgb(215, 223, 252) 100%
+  );
+}
+
 .featured-projects {
   grid-row-gap: 20px;
 }

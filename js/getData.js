@@ -23,7 +23,7 @@ const featuredProjects = (data, showData) => {
   }
 
   for (let i = 0; i < dataLength; i++) {
-    const { thumbnailImg, clientName, id } = data[i];
+    const { thumbnailImg, name, id } = data[i];
 
     const projectParentDiv = document.createElement("div");
     projectParentDiv.classList.add("project");
@@ -32,7 +32,7 @@ const featuredProjects = (data, showData) => {
     projectParentDiv.setAttribute("data-aos-easing", "ease-in-out");
     projectParentDiv.innerHTML = `
                   <img src='${thumbnailImg}'/>
-                  <p>${clientName}</p>                
+                  <p>${name}</p>                
                   `;
 
     projectParentDiv.addEventListener("click", function () {

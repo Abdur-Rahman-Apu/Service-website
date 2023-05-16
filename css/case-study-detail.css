@@ -1,0 +1,67 @@
+@import url(./common.css);
+@import url(./navbar.css);
+@import url("./scroll-up.css");
+
+body {
+  background-image: linear-gradient(
+    to right top,
+    #fff5f7,
+    #fef8fb,
+    #fefafd,
+    #fefdfe,
+    #ffffff
+  );
+}
+
+.case-detail-section {
+  padding: 0 10%;
+}
+
+.case-detail-section .title {
+  text-align: center;
+  margin: 30px 0;
+  text-transform: uppercase;
+  color: #706fd3;
+}
+
+.case-detail-section .project-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.project-logo img {
+  width: 400px;
+}
+
+.case-detail-section hr {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.project-detail {
+  margin: 50px 10%;
+  font-size: 19px;
+  text-align: justify;
+  text-transform: capitalize;
+}
+
+.project-detail span {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.project-detail p {
+  margin: 10px 0;
+}
+
+.owl-carousel .owl-item img {
+  object-fit: cover;
+  height: 200px;
+}
+
+.project-view .view-title {
+  text-align: center;
+  margin: 40px 0;
+  text-transform: uppercase;
+  color: #706fd3;
+}

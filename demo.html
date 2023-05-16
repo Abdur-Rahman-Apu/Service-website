@@ -7,57 +7,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.green.min.css">
+    <link rel="stylesheet" href="./css/zoomify.min.css">
+
     <style>
-        .case-study-section .case-study-title {
+        body {
+            background-image: linear-gradient(to right top, #fff5f7, #fef8fb, #fefafd, #fefdfe, #ffffff);
+        }
+
+        .case-detail-section {
+            padding: 0 10%;
+        }
+
+        .case-detail-section .title {
             text-align: center;
             margin: 30px 0;
             text-transform: uppercase;
             color: #706fd3;
         }
 
-        .featured-projects {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-column-gap: 30px;
+        .case-detail-section .project-logo {
+            display: flex;
+            justify-content: center;
+        }
+
+        .project-logo img {
+            width: 400px;
+        }
+
+        .case-detail-section hr {
             width: 80%;
-            margin: 0 auto;
-            padding: 20px 40px;
-        }
-
-        .featured-projects .project {
-            position: relative;
-            cursor: pointer;
-        }
-
-        .featured-projects .project img {
-            object-fit: cover;
-            width: 100%;
-            filter: brightness(0.6);
-        }
-
-        .featured-projects .project p {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            font-size: 22px;
-            font-weight: 600;
-            text-transform: uppercase;
-            color: #fff;
-            width: 100%;
-            text-align: center;
-        }
-
-        .view-all-btn {
-            display: block;
-            width: fit-content;
             margin: 20px auto;
-            padding: 10px 20px;
-            text-decoration: none;
-            background-color: #f5df4e;
-            border-radius: 5px;
-            font-weight: 500;
+        }
 
+        .project-detail {
+            margin: 50px 10%;
+            font-size: 19px;
+            text-align: justify;
+            text-transform: capitalize;
+        }
+
+        .project-detail span {
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .project-detail p {
+            margin: 10px 0;
+        }
+
+        .owl-carousel .owl-item img {
+            object-fit: cover;
+            height: 200px;
+        }
+
+        .project-view .view-title {
+            text-align: center;
+            margin: 40px 0;
+            text-transform: uppercase;
+            color: #706fd3;
         }
     </style>
 </head>
@@ -121,65 +130,106 @@
     </div>
 
 
-    <section class="case-study-section">
-        <h1 class="case-study-title">
-            Featured Case Studies
-        </h1>
+    <section class="case-detail-section">
 
-        <div class="featured-projects">
+        <h1 class="title">the alex</h1>
+
+        <div class="project-logo">
+            <img src="./images/projects-gallery/alex/The+Alex.gif">
+        </div>
+
+        <hr>
+
+        <div class="project-detail">
+            <p><span>Client:</span> The Alex Theater</p>
+            <p><span>Category:</span> Entertainment</p>
+            <p><span>Scope:</span> brand identity, full brand ecosystem visualization</p>
+            <p><span>Project objectives:</span> <br> The Alex Theater is historical art deco theater in Glendale, CA
+                that is undergoing a rejuvenation. Having been mismanaged for years and left in the dust of other
+                growing entertainment venues in what is certainly one of the entertainment capitals of the world, The
+                Alex Theater was coming back to life. To break back onto the scene, The Alex needed a total re-brand to
+                signal its new chapter and to make a bold visual statement. Verhaal, breaking the common design norm of
+                a single static logo - designed a modular brand identity system that has multiple variations and changes
+                and morphs, reflecting the bold energy of The Alex.</p>
 
         </div>
+
+        <div class="project-view">
+            <h1 class="view-title">Project view</h1>
+
+            <div class="owl-carousel owl-theme">
+
+            </div>
+        </div>
+
     </section>
+
+    <script src="./js/carousel/jquery.min.js"></script>
+    <script src="./js/carousel/owl.carousel.min.js"></script>
+    <script src="./js/zoom/jquery-imagepreviewer.min.js"></script>
+
+
 
 
     <script>
 
-        const featuredDiv = document.querySelector('.featured-projects')
-        const caseStudySection = document.querySelector('.case-study-section')
 
-        const getAllData = () => {
-            fetch('data/data.json')
-                .then(res => res.json())
-                .then(data => {
-                    featuredProjects(data)
-                })
-        }
+        const caseDetailSection = document.querySelector('.case-detail-section')
 
+        const images = [
+            "./images/projects-gallery/alex/ALEX-Color-Palette_Low_Res_03.jpg",
+            "./images/projects-gallery/alex/THEALEX_Cover-Image_Master-Low-Res.jpg",
+            "./images/projects-gallery/alex/THEALEX_Business-Stationery_Mockup-Low-Res.jpg",
+            "./images/projects-gallery/alex/THEALEX_Playbill_Mockup_Low_Res.jpg",
+            "./images/projects-gallery/alex/THEALEX_Street-Banner_Mockup_Low_Res2.jpg",
+            "./images/projects-gallery/alex/THEALEX_Hoodie_Mockup_Low_Res.jpg",
+            "./images/projects-gallery/alex/THEALEX_TShirt_Mockup_White_Low_Res.jpg",
+            "./images/projects-gallery/alex/THEALEX_Cups_Mockup_Low_Res.jpg",
+            "./images/projects-gallery/alex/THEALEX_Bag_Mockup_Low_Res.jpg",
+            "./images/projects-gallery/alex/THEALEX_Outdoor_Poster_Mockup_01.jpg",
+            "./images/projects-gallery/alex/THEALEX_Facebook-Profile_Website_Mockup3.jpg"
+        ]
 
-        const featuredProjects = (data) => {
+        const carouselDiv = document.querySelector('.owl-carousel')
 
-            for (let i = 0; i < 3; i++) {
+        images.forEach(link => {
 
-                const { thumbnailImg, clientName, id } = data[i]
+            const itemDiv = document.createElement('div')
+            itemDiv.classList.add('item')
+            itemDiv.innerHTML = `
+                    <img src=${link} data-action="zoom">
+            `
 
-                const projectParentDiv = document.createElement('div');
-                projectParentDiv.classList.add('project');
-
-                projectParentDiv.innerHTML = `
-                <img src='${thumbnailImg}'/>
-                <p>${clientName}</p>                
-                `
-
-                projectParentDiv.addEventListener('click', function () {
-                    document.location.href = `./case-studies.html?${id}`
-                })
-                featuredDiv.appendChild(projectParentDiv)
-            }
-
-            // viewAllBtn 
-            const viewAllBtn = document.createElement('a')
-            viewAllBtn.setAttribute('href', './case-studies.html')
-            viewAllBtn.classList.add('view-all-btn')
-            viewAllBtn.textContent = 'VIEW ALL PROJECTS'
+            carouselDiv.appendChild(itemDiv)
+        })
 
 
-            caseStudySection.appendChild(viewAllBtn)
-        }
 
 
-        getAllData()
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel({
+                loop: true,
+                margin: 10,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 3
+                    },
+                    1000: {
+                        items: 5
+                    }
+                }
+            });
+        });
 
 
+
+        $(".owl-carousel").imagePreviewer();
     </script>
 
 </body>
