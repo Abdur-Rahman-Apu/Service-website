@@ -513,6 +513,7 @@ header .profile-img {
   grid-template-columns: repeat(6, 1fr);
   grid-gap: 15px;
   margin: 60px 0;
+  box-shadow: 0 3px 10px #f3f5f9;
 }
 
 .statistics-detail .detail-container {
