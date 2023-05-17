@@ -45,7 +45,6 @@
 }
 
 .navbar .contact {
-  width: 130px;
   height: 100%;
   display: flex;
   justify-content: space-between;
@@ -141,7 +140,7 @@
   font-size: 20px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 990px) {
   .navbar ul {
     display: none;
   }
@@ -175,8 +174,15 @@
 }
 
 @media screen and (max-width: 440px) {
+  .navbar {
+    padding: 20px 10px 30px 20px;
+  }
   .navbar .logo img {
     width: 80px;
+  }
+
+  .navbar .contact {
+    margin-right: 30px;
   }
 
   .contact .humburger .humburger-menus {
