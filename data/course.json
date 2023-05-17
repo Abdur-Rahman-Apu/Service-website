@@ -1,0 +1,421 @@
+[
+  {
+    "id": 0,
+    "courseName": "Free Python Course in Hindi – Learn Python from Scratch",
+    "shortName": "python",
+    "videoSrc": "https://www.youtube.com/embed/6ZjfKLsR7Ps",
+    "overview": "Learn Python starting basics to advanced with this Free Python course in Hindi. Giving an exposure to both theoretical and practical knowledge, this python training course is designed to match the current industry demands. Enroll now to prepare yourself for the in-demanding skills.",
+    "rating": "5",
+    "learners": "686729",
+    "reasons": {
+      "enroll": [
+        "Get 70+ Real-time projects with implementation",
+        "170+ hrs of study material, practicals, quizzes",
+        "Practical course with real-time case-studies",
+        " Lifetime access with industry renowned certification"
+      ],
+      "learn": [
+        [
+          "Get a strong Python foundation from scratch",
+          "Build a strong foundation in Python",
+          "Understand how Python helps in Machine Learning",
+          "Learn full stack Python development",
+          "Work on real-time use-cases and live projects",
+          "Learn advanced python concepts like decorators",
+          "Get to know the top python frameworks"
+        ],
+        [
+          "Build industry-grad GUIs with Python",
+          "Able to use Python to solve tasks and implement it",
+          "Learn to build your own modules and packages",
+          "Unleash the power of python modules and packages",
+          "Learn to use the object oriented programming with Python",
+          "Learn to use the object oriented programming with Python",
+          "Work with images and files",
+          " Discover powerful libraries"
+        ]
+      ]
+    },
+    "why": [
+      {
+        "title": "Python is the #1 Programming Language from last few years",
+        "src": "IEEE Spectrum"
+      },
+      {
+        "title": "Python is recognized as the ‘Language of the Year’",
+        "src": "TIOBE Index"
+      },
+      {
+        "title": "Python is the most preferred language of Data Scientists for Machine Learning & Data Science applications",
+        "src": "Google"
+      },
+      {
+        "title": "The average salary of all Python developers today is $123,360",
+        "src": "Indeed"
+      },
+      {
+        "title": "Python is becoming the world’s most popular coding language",
+        "src": "The Economist"
+      }
+    ],
+    "prerequisite": {
+      "que": "What to do before you begin your Free Python Course?",
+      "ans": "Nothing!",
+      "suggest": "ll you need to make the most out of this free python course is a desire to learn and a penchant for solving problems"
+    },
+    "details": {
+      "when": "Self-Paced",
+      "time": "Whenever you'd like",
+      "duration": "50+ hrs",
+      "price": ["19990 | $396", "0 | $0"]
+    },
+    "curriculum": [
+      [
+        {
+          "no": 1,
+          "title": "Demystifying Python",
+          "content": [
+            "Introduction to Python",
+            "installation & configuration of Python",
+            "Python Features",
+            "Basic Python Programming Syntax",
+            "Reasons – Why you must learn Python",
+            "Benefits and Limitations of Python",
+            "Career in Python",
+            "Real-world applications of Python",
+            "Python top Compilers and Interpreters"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Python Basic Constructs",
+          "content": [
+            "Variables",
+            "Different Data Types in Python",
+            "Importance of Python Operators",
+            "Python if else",
+            "Python Loops",
+            "Python play with Numbers"
+          ]
+        },
+        {
+          "no": 3,
+          "title": "String Handling in Python",
+          "content": [
+            "Python String Formatters",
+            "Escape Sequences in Python",
+            "Play with String Functions and String Operations in Python",
+            "Python repr() & other important Functions"
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Python Data Structures",
+          "content": [
+            "Work on Python Lists",
+            "Deep dive in to Python Tuples",
+            "Python Slicing",
+            "Python Binary Sequence Types- bytes, bytearray, memoryview",
+            "Dictionaries in Python – how to use them in live projects",
+            "Sets in Python",
+            "Booleans in Python"
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Functional Programming in Python",
+          "content": [
+            "Functions in Python – how to resuse them",
+            "Python Lambda Functions",
+            "Python Function Arguments",
+            "Python Recursion – powerfull ways to call oneself",
+            "Decorators in Python – master the advanced concepts",
+            "Closure in Python",
+            "Working with Itertools in Python"
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Python Modules",
+          "content": [
+            "Python Counter",
+            "Python Defaultdict",
+            "Python OrderedDict",
+            "namedtuple in Python",
+            "Python Numeric Modules- math, decimal, random",
+            "sys",
+            "Play with Random module",
+            "Python calendar",
+            "Python datetime Module"
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Python Packages",
+          "content": [
+            "Python pip and PyPI",
+            "Python Modules vs Packages – Which one is right for you?"
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Deep Dive into Python",
+          "content": [
+            "Python Multithreading – efficiently perform multiple tasks",
+            "Working with Date and Time module in Python",
+            "Python Namespace and Scope – detailed understanding",
+            "Python Terminologies – master them all",
+            "Deep Copy vs Shallow Copy in Python",
+            "Assert Statements in Python",
+            "Python Pretty-Printing with pprint"
+          ]
+        }
+      ],
+      [
+        {
+          "no": 9,
+          "title": "Python Object-Oriented Programming Concepts",
+          "content": [
+            "Methods in Python",
+            "Python Classes",
+            "Python Objects",
+            "Inheritance in Python – Understand code reusability",
+            "Python Multiple Inheritance",
+            "Python Operator Overloading",
+            "Iterators in Python",
+            "Understanding Serialization with pickle",
+            "Python property Decorator",
+            "Python Generators"
+          ]
+        },
+        {
+          "no": 10,
+          "title": "File Handling in Python",
+          "content": [
+            "Python Read and Write Files",
+            "Python Manage Directories",
+            "Python OS Module – interact with Operating System",
+            "Python shutil Module",
+            "Python – Copying Renaming Zipping Files"
+          ]
+        },
+        {
+          "no": 11,
+          "title": "Python Exception Handling",
+          "content": [
+            "Python Errors and Exceptions",
+            "Python Exception Handling with real-time examples",
+            "Python Testing with unittest"
+          ]
+        },
+        {
+          "no": 12,
+          "title": "Python Advanced Concepts",
+          "content": [""]
+        },
+        {
+          "title": "Demystifying Python",
+          "content": [
+            "Python Regular Expressions – Powerful data manipulation tool",
+            "Python Virtual Environments",
+            "CGI Programming with Python",
+            "Play with urllib",
+            "Python XML Processing",
+            "Sending Mail with Python",
+            "Networking in Python – It’s time for a Python Networking",
+            "Python Images Processing Libraries",
+            "Python Images Processing Libraries",
+            "Python Powerful Tools",
+            "Accessing the Database using Python",
+            "The Python Debugger (pdb)",
+            "Logging with Python",
+            "Python Multiprocessing"
+          ]
+        },
+        {
+          "no": 13,
+          "title": "Python Multiprocessing",
+          "content": ["Python Web Frameworks", "Python Django", "Python Flask"]
+        },
+        {
+          "no": 14,
+          "title": "Python vs Other Programming Languages",
+          "content": [
+            "Python vs Java",
+            "Python vs C",
+            "Python vs C++",
+            "Python vs Scala",
+            "Python vs R"
+          ]
+        },
+        {
+          "no": 15,
+          "title": "Python Projects – I",
+          "content": [
+            "Python Project – Password Generator",
+            "Python Project – Calculator",
+            "Python Project – Alarm Clock",
+            "Python Project – Create Voice Assistant",
+            "Python Project – Language Translation",
+            "Python Project – Countdown Timer",
+            "Python Project – Contact Book",
+            "Python Project – Text Editor (Notepad)",
+            "Python Project – Convert Text to Speech",
+            "Python Project – YouTube Downloader",
+            "Python Project – Message Encryption Decryption",
+            "Python Project – Currency Converter",
+            "Python Project – MP3 Music Player",
+            "Python Project – Python QR Code Generator",
+            "Python Project – Generating Random Numbers",
+            "Python Project – Website Connectivity Checker",
+            "Python Project – Create a Web Browser",
+            "Python Project – Video to Audio Converter",
+            "Python Project – Screen Recorder",
+            "Python Project – Convert PDF File Text to AudioBook & Speech to PDF",
+            "Python Project – Expense Tracker",
+            "Python Project – ToDo List"
+          ]
+        },
+        {
+          "no": 16,
+          "title": "Python Projects – II",
+          "content": [
+            "Python Project – Tic Tac Toe Game",
+            "Python Project – Create Ludo Game",
+            "Python Project – Snake Game",
+            "Python Project – Sudoku Game",
+            "Python Project – 2048 Game",
+            "Python Project – Memory Puzzle Game",
+            "Python Project – Pong Game",
+            "Python Project – Hangman – Word Guessing Game Program",
+            "Python Project – Number Guessing Game",
+            "Python Project – Dice Rolling Simulator",
+            "Python Project – Flames Game Project",
+            "Python Project – Rock Paper Scissors Game",
+            "Python Project – Mad Libs Generator Game",
+            "Python Project – Typing Test",
+            "Python Project – Song Lyrics Extractor",
+            "Python Project – Binary Search",
+            "Python Project – Weight Converter with GUI using Tkinter",
+            "Python Project – Visualize a Solar System",
+            "Python Project – Shutdown, Restart and Logout Computer",
+            "Python Project – Live Weather Notifications",
+            "Python Project – Shop Management System",
+            "Python Project – Library Management System"
+          ]
+        }
+      ]
+    ],
+    "features": [
+      { "img": "", "title": "50+ Hrs of Video based session" },
+      { "img": "", "title": "Lifetime access to course with support" },
+      { "img": "", "title": "Real time capstone projects" },
+      { "img": "", "title": "Industry renowned Certification" },
+      { "img": "", "title": "Discussion forum for queries and interaction" }
+    ],
+    "forWho": [
+      {
+        "que": "Is this online Python training course for beginners?",
+        "ans": "Yes, this free python course starts from scratch, and any newbie can learn easily.<br>Python is the most popular programming language on the planet. It has quickly become a preferred language for everything from desktop apps, web development to Data Science and Machine Learning. Although anyone can learn Python and carve his/her career, here are the kind of professionals / beginners who can easily go for this free Python course:"
+      }
+    ],
+    "comapnies": {
+      "title": "ompanies you can expect when you get Python-certified with us",
+      "img": ""
+    },
+    "faq": [
+      [
+        {
+          "que": "Is the Python course free or is it paid?",
+          "ans": "It is a completely free python course and there is no payment required"
+        },
+        {
+          "que": "How long are the free python course materials accessible?",
+          "ans": "The python for beginners course will be available for the lifetime, which includes sessions along with the complete Python study material, python practicals, and python projects."
+        },
+        {
+          "que": "Is this Free Python Course for Beginners?",
+          "ans": "This Python course covers all the topics from scratch till the advanced level (ie python basics to advanced). So, any beginner or a person with experience can take advantage of this python training."
+        },
+        {
+          "que": "How do I get answer to my python queries?",
+          "ans": "The doubts can be posted on the discussion forum. Our support team will answer the python queries"
+        },
+        {
+          "que": "How will I perform the Python practicals?",
+          "ans": "For Python practicals, We will provide manual and study material in the LMS and you need to install it on your system."
+        },
+        {
+          "que": "What do I need in order to attend the course?",
+          "ans": "To attend this free Python training, you just need a laptop or PC with a good internet connection. You must be eager to learn inorder to carve your career in a booming field."
+        },
+        {
+          "que": "What things do I need to learn Python through this course?",
+          "ans": "To attend this free online Python training, you just need a laptop or a PC with minimum 4GB RAM. Nothing else is required to learn it."
+        },
+        {
+          "que": "What are the system specifications required to attend this python course?",
+          "ans": "It is recommended to have a minimum of an i3 processor, 20 GB free disk, and 4 GB RAM for installing python and related software."
+        },
+        {
+          "que": "Is this python course for one looking for Data Science carrer option?",
+          "ans": "Yes, this python course in hindi covers all the basics python concepts to learn python programming and also includes the foundation topics for a person looking for data science job. Our free python training starts with basics then we cover multiple workshops, POCs, and live projects. These python classes will help you get your dream Data Science job in the industry."
+        },
+        {
+          "que": "What will be the end result of DataFlair Free online Python training course?",
+          "ans": "This python course not only covers python basics for beginners but also includes full stack python development. When you finish this free course, you will be equipped with practical skills and theoretical knowledge the industry looks for. You will bloom into a certified Python professional who is ready to take on Data Science Projects in top organizations."
+        },
+        {
+          "que": "Where do python students come from?",
+          "ans": "DataFlair has blend of students from 130+ Countries. Apart from India, we provide training in the US, UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, and many others covering the globe. You can learn python free from across the world with our innovative online training."
+        }
+      ],
+      [
+        {
+          "que": "Is this Free python course for programmers classroom-based?",
+          "ans": "This free python training program in hindi is entirely online and self-paced."
+        },
+        {
+          "que": "Why should I learn Python?",
+          "ans": "Python is one of the most popular programming languages on the planet and is also a very handy and general purpose language with simple syntax and wide range of carrer options. Learn python will be your best investment – we offer best way to learn python ie learn python online. You can learn python from the comfort of your home at your own pace and convenience."
+        },
+        {
+          "que": "Will there be any certificate provided as a part of the python course?",
+          "ans": "Yes, you will be provided with an industry-recognized python certification.<br>Once you finish this python certification course, you will work on real-time Python projects after successful submission, you will be awarded DataFlair python online course certification."
+        },
+        {
+          "que": "How do I get in touch for further queries?",
+          "ans": "Feel free to contact us by dropping a mail to <br>info@data-flair.training</br> BTW this python for programmers course is self explanatory and covers details about each and every topic"
+        },
+        {
+          "que": "What type of python projects will I be doing during the training?",
+          "ans": "You will be doing Python real life projects in different domains like retail, banking, and finance. After successful completion of this best python course, we will assign 100+ live projects on python, the projects are derived from industry requirements and real-world problems"
+        },
+        {
+          "que": "After python full course do you provide placement assistance?",
+          "ans": "This python full course in Hindi is a job-oriented program and will prepare you completely for interviews. After working on tons of python projects, you will be ready to work in the industry, we will offer job portal where we post relevant jobs, now whichever python job is matching your profile you can apply there."
+        },
+        {
+          "que": "Does this course contain only theory concepts?",
+          "ans": "This python hindi course contains both theoretical and practical concepts as well as real-time python projects.<br>Here you can learn python from scratch with fundamental concepts, after that you can jump to intermediate level and make hands dirty with python practicals. At the end work on live projects to master the python programming language."
+        },
+        {
+          "que": "Can I attend a demo session before enrolling for this free Python course?",
+          "ans": "Yes, you can attend the demo Python class recording on this course page to understand the python training quality we provide. This is what creates the difference between DataFlair and other online Python training providers."
+        },
+        {
+          "que": "Can you guide me about the career aspects of Python developers?",
+          "ans": "Python is the technology that will open many doors for you. Not only is it a general-purpose language, it is used everywhere from scripting and web scraping to hot topics like Data Science and Machine Learning. With Python, you can be a:<br><ul><li>Python Developer</li><li>Data Scientist</li><li>Python Research Analyst</li><li>Software Engineer</li><li>Software Developer</li><li>Data Analyst</li></ul>"
+        },
+        {
+          "que": "Why should I enroll in this Free Python Course?",
+          "ans": "This free python course in Hindi gives hands-on learning with basics of python programming to real-time python projects.<br>This course includes python tutorial, data structures with python, basic coding in python, python programming basics, real-time examples of python programming to make you a python expert.<br>Self paced training with lifetime access to the course, study material, practical codes, quizzes, interview guides,"
+        },
+        {
+          "que": "Is this Python course completely free or do I need to pay anything in between?",
+          "ans": "It’s a completely Free python course in Hindi and you need not pay anything for it. Even Python Certification is also free – ie we offer free python course with certificate."
+        }
+      ]
+    ]
+  }
+]
