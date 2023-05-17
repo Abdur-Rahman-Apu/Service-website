@@ -157,6 +157,10 @@
   #close-icon {
     display: none;
   }
+
+  .navbar .contact {
+    width: 300px;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -176,14 +180,16 @@
 
 @media screen and (max-width: 440px) {
   .navbar {
-    padding: 20px 10px 30px 20px;
-  }
-  .navbar .logo img {
-    width: 80px;
+    padding: 5px;
+    flex-direction: column;
+    height: 100px;
   }
 
   .navbar .contact {
-    margin-right: 30px;
+    margin-top: 18px;
+  }
+  .navbar .logo img {
+    width: 80px;
   }
 
   .contact .humburger .humburger-menus {
