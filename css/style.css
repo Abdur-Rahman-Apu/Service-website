@@ -337,10 +337,11 @@ header .profile-img {
 }
 
 .featured-projects .project img {
-  object-fit: cover;
   width: 100%;
+  border-radius: 5px;
   filter: brightness(0.6);
   transition: all 0.3s;
+  object-fit: cover;
 }
 
 .featured-projects .project:hover img {
