@@ -1,8 +1,11 @@
 [
   {
     "id": 0,
+    "price": "Free",
     "courseName": "Free Python Course in Hindi – Learn Python from Scratch",
+    "bannerImg": "../images/course-img/course-banner/python.png",
     "shortName": "python",
+    "tag": ["Python", "Programming"],
     "videoSrc": "https://www.youtube.com/embed/6ZjfKLsR7Ps",
     "overview": "Learn Python starting basics to advanced with this Free Python course in Hindi. Giving an exposure to both theoretical and practical knowledge, this python training course is designed to match the current industry demands. Enroll now to prepare yourself for the in-demanding skills.",
     "rating": "5",
@@ -316,12 +319,12 @@
     "forWho": [
       {
         "que": "Is this online Python training course for beginners?",
-        "ans": "Yes, this free python course starts from scratch, and any newbie can learn easily.<br>Python is the most popular programming language on the planet. It has quickly become a preferred language for everything from desktop apps, web development to Data Science and Machine Learning. Although anyone can learn Python and carve his/her career, here are the kind of professionals / beginners who can easily go for this free Python course:"
+        "ans": "Yes, this free python course starts from scratch, and any newbie can learn easily.<br>Python is the most popular programming language on the planet. It has quickly become a preferred language for everything from desktop apps, web development to Data Science and Machine Learning. Although anyone can learn Python and carve his/her career, here are the kind of professionals / beginners who can easily go for this free Python course:<ul><li>Machine Learning, AI professionals</li><li>Software developers, Testers, Leads and architects</li><li>Data Science aspirants</li><li>Freshers / Graduates focusing to build a rock solid career</li></ul>"
       }
     ],
-    "comapnies": {
-      "title": "ompanies you can expect when you get Python-certified with us",
-      "img": ""
+    "companies": {
+      "title": "Companies you can expect when you get Python-certified with us",
+      "img": "./images/companies.png"
     },
     "faq": [
       [
@@ -347,7 +350,7 @@
         },
         {
           "que": "What do I need in order to attend the course?",
-          "ans": "To attend this free Python training, you just need a laptop or PC with a good internet connection. You must be eager to learn inorder to carve your career in a booming field."
+          "ans": "To attend this free Python training, you just need a laptop or PC with a good internet connection. You must be eager to learn in order to carve your career in a booming field."
         },
         {
           "que": "What things do I need to learn Python through this course?",
@@ -414,6 +417,2070 @@
         {
           "que": "Is this Python course completely free or do I need to pay anything in between?",
           "ans": "It’s a completely Free python course in Hindi and you need not pay anything for it. Even Python Certification is also free – ie we offer free python course with certificate."
+        }
+      ]
+    ]
+  },
+  {
+    "id": 1,
+    "price": "Free",
+    "courseName": "Free Big Data and Hadoop Certification Course",
+    "bannerImg": "../images/course-img/course-banner/hadoop.jpg",
+    "shortName": "Big Data & Hadoop",
+    "tag": ["Data", "Hadoop"],
+    "videoSrc": "https://www.youtube.com/embed/aJXuMkhN9aY",
+    "overview": "A perfect blend of in-depth Hadoop theoretical knowledge and strong practical skills via implementation of real-time Hadoop projects to give you a headstart and enable you to bag top Hadoop jobs in the Big Data industry.",
+    "rating": "5",
+    "learners": "26329",
+    "reasons": {
+      "enroll": [
+        " Shape your career as Big Data shapes the IT World",
+        " Grasp concepts of HDFS and MapReduce",
+        "Become adept in the latest version of Apache Hadoop",
+        "  Develop a complex game-changing MapReduce application"
+      ],
+      "learn": [
+        [
+          "Shape your career as Big Data shapes the IT World",
+          "Grasp concepts of HDFS and MapReduce",
+          "Become adept in the latest version of Apache Hadoop",
+          " Develop a complex game-changing MapReduce application",
+          "Perform data analysis using Pig and Hive",
+          "Play with the NoSQL database Apache HBase"
+        ],
+        [
+          "Acquire an understanding of the ZooKeeper service",
+          " Load data using Apache Sqoop and Flume",
+          " Enforce best practices for Hadoop development and deployment",
+          "Master handling of large datasets using the Hadoop ecosystem",
+          "Work on live Big Data projects for hands-on experience",
+          "Comprehend other Big Data technologies like Apache Spark"
+        ]
+      ]
+    },
+    "why": [
+      {
+        "title": "The Hadoop market will reach almost $99B by 2022 at the CAGR of around 42%",
+        "src": "Forbes"
+      },
+      {
+        "title": "More than 77% of organizations consider Big Data a top priority",
+        "src": "Peer Research"
+      },
+      {
+        "title": "The average salary of all Big Data Hadoop developers today is $135k",
+        "src": "Indeed"
+      },
+      {
+        "title": "The world’s most valuable resource is Big Data, no longer oil.",
+        "src": "The Economist"
+      }
+    ],
+    "prerequisite": {
+      "que": "What to do before you begin your Hadoop online training?",
+      "ans": "Nothing!",
+      "suggest": "Although if you’d like, you can brush up on your Java skills with our complementary Java course right in your LMS."
+    },
+    "details": {
+      "when": "Self-Paced",
+      "time": "Whenever you'd like",
+      "duration": "40 hrs",
+      "price": ["9990 | $490", "0 | $0"]
+    },
+    "curriculum": [
+      [
+        {
+          "no": 1,
+          "title": "The big picture of Big Data",
+          "content": [
+            "What is Big Data",
+            "Necessity of Big Data and Hadoop in the industry",
+            "Paradigm shift - why the industry is shifting to Big Data tools",
+            "Different dimensions of Big Data",
+            "Data explosion in the Big Data industry",
+            "Various implementations of Big Data",
+            "Different technologies to handle Big Data",
+            "Different technologies to handle Big Data",
+            "Future of Big Data in the IT industry"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Future of Big Data in the IT industry",
+          "content": [
+            "Why Hadoop is at the heart of every Big Data solution",
+            "Why Hadoop is at the heart of every Big Data solution",
+            "Hadoop architecture and design principles",
+            "Ingredients of Hadoop",
+            "Hadoop characteristics and data-flow",
+            "Components of the Hadoop ecosystem",
+            "Hadoop characteristics and data-flow"
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Setup and Installation of Hadoop",
+          "content": [
+            "SETUP AND INSTALLATION OF SINGLE-NODE HADOOP CLUSTER",
+            "SETUP AND INSTALLATION OF HADOOP MULTI-NODE CLUSTER"
+          ]
+        },
+        {
+          "no": 4,
+          "title": "HDFS – The Storage Layer",
+          "content": [
+            "What is HDFS (Hadoop Distributed File System)",
+            "HDFS daemons and architecture",
+            "Hadoop HDFS characteristics and design principles",
+            "Responsibility of HDFS Master – NameNode",
+            "Dictionaries in Python – how to use them in live projects",
+            "SResponsibility of HDFS Master – NameNode",
+            "Work of HDFS Slaves – DataNodes",
+            "Data Blocks and distributed storage",
+            "Replication of blocks, reliability, and high availability",
+            "Rack-awareness, scalability, and other features",
+            "Different HDFS APIs and terminologies",
+            "Commissioning of nodes and addition of more nodes",
+            "Expanding clusters in real-time",
+            "Hadoop HDFS Web UI and HDFS explorer",
+            "HDFS best practices and hardware discussion"
+          ]
+        },
+        {
+          "no": 5,
+          "title": "A Deep Dive into MapReduce",
+          "content": [
+            "A Deep Dive into MapReduce",
+            "The need for a distributed processing framework",
+            "Issues before MapReduce and its evolution",
+            "List processing concepts",
+            "Components of MapReduce – Mapper and Reducer",
+            "MapReduce terminologies- keys, values, lists, and more",
+            "Hadoop MapReduce execution flow",
+            "Mapping and reducing data based on keys",
+            "MapReduce word-count example to understand the flow",
+            "Execution of Map and Reduce together",
+            "MapReduce word-count example to understand the flow",
+            "Optimization of MapReduce Jobs",
+            "Fault-tolerance and data locality",
+            "Working with map-only jobs",
+            "Fault-tolerance and data locality",
+            "How MR jobs can be optimized using combiners"
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Working with map-only jobs",
+          "content": [
+            "Working with map-only jobs",
+            "Hadoop MapReduce data types",
+            "PDeveloping custom data types using Writable & Comparable",
+            "InputFormats in MapReduce",
+            "InputSplit as a unit of work",
+            "How Partitioners partition data",
+            "Customization of RecordReader",
+            "Moving data from mapper to reducer – shuffling & sorting",
+            "Distributed cache and job chaining",
+            "Different Hadoop case-studies to customize each component",
+            "Job scheduling in MapReduce"
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Hive – Data Analysis Tool",
+          "content": [
+            "The need for an adhoc SQL based solution – Apache Hive",
+            "Introduction to and architecture of Hadoop Hive",
+            "Playing with the Hive shell and running HQL queries",
+            "Hive DDL and DML operations",
+            "Hive execution flow",
+            "Schema design and other Hive operations",
+            "Schema design and other Hive operations",
+            "Meta-store management and the need for RDBMS",
+            "Limitations of the default meta-store",
+            "Using SerDe to handle different types of data",
+            "Optimization of performance using partitioning",
+            "Different Hive applications and use cases"
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Pig – Data Analysis Tool",
+          "content": [
+            "Pig – Data Analysis Tool",
+            "How Pig complements Hadoop with a scripting language",
+            "What is Pig",
+            "Pig execution flow",
+            "Different Pig operations like filter and join",
+            "Compilation of Pig code into MapReduce",
+            "Comparison - Pig vs MapReduce"
+          ]
+        }
+      ],
+      [
+        {
+          "no": 9,
+          "title": " NoSQL Database - HBase",
+          "content": [
+            "NoSQL databases and their need in the industry",
+            "Introduction to Apache HBase",
+            "Internals of the HBase architecture",
+            "The HBase Master and Slave Model",
+            "Column-oriented, 3-dimensional, schema-less datastores",
+            "Data modeling in Hadoop HBase",
+            "Storing multiple versions of data",
+            "Data high-availability and reliability",
+            "Comparison - HBase vs HDFS",
+            "Comparison - HBase vs RDBMS",
+            "Data access mechanisms",
+            "Work with HBase using the shell"
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Data Collection using Sqoop",
+          "content": [
+            "Data Collection using Sqoop",
+            "Introduction and working of Sqoop",
+            "Importing data from RDBMS to HDFS",
+            "Exporting data to RDBMS from HDFS",
+            "Conversion of data import/export queries into MapReduce jobs"
+          ]
+        },
+        {
+          "no": 11,
+          "title": "Data Collection using Flume",
+          "content": [
+            "What is Apache Flume",
+            "Flume architecture and aggregation flow",
+            "Understanding Flume components like data Sources and Sinks",
+            "Flume channels to buffer events",
+            "Reliable & scalable data collection tools",
+            "Aggregating streams using Fan-in",
+            "Separating streams using Fan-out",
+            "Internals of the agent architecture",
+            "Production architecture of Flume",
+            "Collecting data from different sources to Hadoop HDFS",
+            "Multi-tier Flume flow for collection of volumes of data using AVRO"
+          ]
+        },
+        {
+          "no": 12,
+          "title": "Apache YARN & advanced concepts in the latest version",
+          "content": [
+            "The need for and the evolution of YARN",
+            "YARN and its eco-system",
+            "YARN daemon architecture",
+            "Master of YARN – Resource Manager",
+            "Slave of YARN – Node Manager",
+            "Requesting resources from the application master",
+            "Dynamic slots (containers)",
+            "Application execution flow",
+            "MapReduce version 2 application over Yarn",
+            "Hadoop Federation and Namenode HA"
+          ]
+        },
+        {
+          "no": 13,
+          "title": "Processing data with Apache Spark",
+          "content": [
+            "Processing data with Apache Spark",
+            "Comparison - Hadoop MapReduce vs Apache Spark",
+            "Spark key features",
+            "RDD and various RDD operations",
+            "RDD abstraction, interfacing, and creation of RDDs",
+            "Fault Tolerance in Spark",
+            "The Spark Programming Model",
+            "Data flow in Spark",
+            "The Spark Ecosystem, Hadoop compatibility, & integration",
+            "Installation & configuration of Spark",
+            "Processing Big Data using Spark"
+          ]
+        },
+        {
+          "no": 14,
+          "title": "Real-Life Project on Big Data",
+          "content": [
+            "A live Big Data Hadoop project based on industry use-cases using Hadoop components like Pig, HBase, MapReduce, and Hive to solve real-world problems in Big Data Analytics"
+          ]
+        }
+      ]
+    ],
+    "features": [
+      {
+        "img": "./images/course-img/course-features/time.png",
+        "title": "50+ Hrs of Video based session"
+      },
+      {
+        "img": "./images/course-img/course-features/support.png",
+        "title": "Lifetime access to course with support"
+      },
+      {
+        "img": "./images/course-img/course-features/project.png",
+        "title": "Real time capstone projects"
+      },
+      {
+        "img": "./images/course-img/course-features/certificate.png",
+        "title": "Industry renowned Certification"
+      },
+      {
+        "img": "./images/course-features/brainstorming.png",
+        "title": "Discussion forum for queries and interaction"
+      }
+    ],
+    "forWho": [
+      {
+        "que": "Is this Big Data Hadoop course for you?",
+        "ans": "Big Data is the truth of today and Hadoop proves to be efficient in processing it. So while anyone can benefit from a career in it, here are the kind of professionals who go for this Hadoop course:<ul><li>Software developers, project managers, and architects</li><li>BI, ETL and Data Warehousing professionals</li><li>Mainframe and testing professionals</li><li>Business analysts and analytics professionals</li><li>DBAs and DB professionals</li><li>Professionals willing to learn Data Science techniques</li><li>Any graduate focusing to build a career in Apache Spark and Scala</li></ul>"
+      }
+    ],
+    "companies": {
+      "title": "Companies you can expect when you get Python-certified with us",
+      "img": "./images/companies.png"
+    },
+    "faq": [
+      [
+        {
+          "que": "How will you help me if I miss any Hadoop training session?",
+          "ans": "If you miss any session, you need not worry as recordings will be uploaded in LMS immediately as the session gets over. You can go through it and get your queries cleared from the instructor during next session. You can also ask him to explain the concepts that you did not understand and were covered in session you missed. Alternatively you can attend the missed session in any other batch running parallely."
+        },
+        {
+          "que": "How will I perform the Big Data Hadoop practicals at home??",
+          "ans": "Instructor will help you in setting virtual machine on your own system at which you can do practicals anytime from anywhere. Manual to set virtual machine will be available in your LMS in case you want to go through the steps again. Virtual machine can be set on MAC or Windows machine also."
+        },
+        {
+          "que": "How long will the Hadoop course recording be available?",
+          "ans": "All the Hadoop training sessions will be recorded and you will have lifetime access to the recordings along with the complete Hadoop study material, POCs, Hadoop project etc."
+        },
+        {
+          "que": "What things do I need to attend the online classes?",
+          "ans": "To attend online Hadoop training, you just need a laptop or PC with a good internet connection of around 1 MBPS (But the lesser speed of 512 KBPS will also work). The broadband connection is recommended but you can connect through data card as well."
+        },
+        {
+          "que": "How do I clear my doubts after a class?",
+          "ans": "If you have any doubts during sessions, you can clear it with the instructor immediately. If you get queries after the session, you can get it cleared from the instructor in the next session as before starting any session, instructor spends around 15 minutes in doubt clearing. Post training, you can post your query over discussion forum and our support team will assist you. Still if you are not comfortable, you can drop mail to instructor or directly interact with him."
+        },
+        {
+          "que": "What are the system specifications required to learn Hadoop?",
+          "ans": "Recommended is a minimum of an i3 processor, a 20 GB disk, and 4 GB RAM in order to learn Hadoop, although students have learnt Hadoop on 2 GB RAM as well."
+        },
+        {
+          "que": "How will this Hadoop course help me in getting a Big Data job?",
+          "ans": "Our training includes multiple workshops, POCs and projects. Those will prepare you to a level where you can start working from day 1 wherever you go. You will be assisted in resume preparation. The mock interviews will help you get ready to face real interviews. We will also guide you with job openings matching your resume. These things will help you get your dream Big Data job in the industry."
+        },
+        {
+          "que": "What will the end result be of this Hadoop online course?",
+          "ans": "You will be skilled with practical and theoretical knowledge that the industry looks for and will become a certified Hadoop professional who is ready to take on Big Data Projects in top organizations."
+        },
+        {
+          "que": "Where do DataFlair students come from?",
+          "ans": "DataFlair has blend of students from across the globe. Apart from India, we provide Hadoop training in the US, UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, etc to cover the complete globe."
+        },
+        {
+          "que": "How will I be able to interact with the instructor during the training?",
+          "ans": "Both voice and chat will be enabled during the Big Data Hadoop training sessions. You can talk with the instructor or can also interact via chatting."
+        },
+        {
+          "que": "Is this Hadoop training classroom-based or online?",
+          "ans": "This is completely online training with a batch size of 10-12 students only. You will be able to interact with trainer through voice or chat and individual attention will be provided to all. The trainer ensures that every student is clear of all the concepts taught before proceeding ahead. So there will be complete environment of classroom learning."
+        }
+      ],
+      [
+        {
+          "que": "Will you provide any Hadoop certification after the training?",
+          "ans": "Yes, you will be provided DataFlair Certification. At the end of this course, you will work on a real time Project. Once you are successfully through the project, you will be awarded a certificate."
+        },
+        {
+          "que": "How do I get in touch with you for further queries?",
+          "ans": "You can feel free to contact us by placing a CALL at +91 8451097879 OR dropping your queries on our email at info@data-flair.training"
+        },
+        {
+          "que": "Why should I learn Hadoop?",
+          "ans": "Big data is the latest and the most demanding technology with continuously increasing demand in the Indian market and abroad. Hadoop professionals are among the highest paid IT professionals today with salary $135k (source: indeed job portal). You can check our blog related to Why should I learn Big Data?"
+        },
+        {
+          "que": "What type of projects I will be doing during the training?",
+          "ans": "You will be doing real-time Hadoop projects in different domains like retail, banking, and finance, etc. using different technologies like Hadoop HDFS, MapReduce, Apache Pig, Apache Hive, Apache HBase, Apache Oozie, Apache Flume and Apache Sqoop."
+        },
+        {
+          "que": "Do you provide placement assistance?",
+          "ans": "The Hadoop course from DataFlair is 100% job oriented that will prepare you completely for interview and Big Data job perspective. Post Big Data course completion, we will provide you assistance in resume preparation and tips to clear Hadoop interviews. We will also let you know for Hadoop jobs across the globe matching your resume."
+        },
+        {
+          "que": "Can I attend a demo session before enrolling for this Hadoop course?",
+          "ans": "Yes, you can attend the Hadoop demo class recording on our Big data Hadoop course page itself to understand the quality and level of Big Data training we provide and that creates the difference between DataFlair and other Hadoop online training providers."
+        },
+        {
+          "que": "Can you guide me about the career aspects of Big Data hadoop developers?",
+          "ans": "Hadoop is one of the hottest career options available today for all the software engineers to boost their professional career. In the US itself there are approximately 12,000 jobs currently for Hadoop developers and demand for Hadoop developers are increasing day by day rapidly far more than the availability."
+        }
+      ]
+    ]
+  },
+  {
+    "id": 2,
+    "price": "Free",
+    "courseName": "Free C Programming Course in Hindi",
+    "bannerImg": "../images/course-img/course-banner/c.jpg",
+    "shortName": "C Programming",
+    "tag": ["C", "Programming"],
+    "videoSrc": "https://www.youtube.com/embed/7Dh73z3icd8",
+    "overview": "DataFlair’s free C programming course is designed for you to master the C language. Learn C from basics to advanced concepts like pointers, memory allocation, etc., and basic topics, this course will help you gain a foundation in C programming. It is also developed to be hands on which will help you acquainted with core topics with ease.",
+    "rating": "5",
+    "learners": "8103",
+    "reasons": {
+      "enroll": [
+        "70+ Real-time C projects with implementation",
+        "170+ hrs of study material, practicals, quizzes",
+        "Practical C course with real-time case-studies",
+        "Lifetime access with industry renowned certification"
+      ],
+      "learn": [
+        [
+          "Lifetime access with industry renowned certification",
+          "Build a strong foundation in Evergreen language C",
+          "Learn data types, pointers, memory allocation",
+          "Get knowledge of various concepts of data structures",
+          "Master loops, conditions, switch-case, operators",
+          "Work on standard industry use-cases and live projects"
+        ],
+        [
+          "Learn to apply knowledge gained to build optimized code",
+          "Unleash the power of Functional Programming with C",
+          "Beginner friendly course which makes you an expert",
+          "learn to use array, struct, union efficiently",
+          "Discover powerful libraries used in live projects",
+          "Deepen your understanding of programming skills"
+        ]
+      ]
+    },
+    "why": [
+      {
+        "title": "C is used in the tech stack of products including Telegram, GitHub, Oracle, Windows, Linux, Mozilla Firefox, & Mastercard ",
+        "src": "Google"
+      },
+      {
+        "title": "C language combines all the power of assembly language with ease-of-use",
+        "src": "Mark Pearce"
+      },
+      {
+        "title": "C was developed by Dennis Ritchie in 1972 is an evergreen programming language of all time",
+        "src": "Google"
+      },
+      {
+        "title": "TThe average salary of C developers today is $91,850",
+        "src": "Indeed"
+      }
+    ],
+    "prerequisite": {
+      "que": "What to do before you begin your Free C online training?",
+      "ans": "Nothing!",
+      "suggest": "All you need to make the most out of this free C course is a desire to learn and a penchant for solving real-world problems"
+    },
+    "details": {
+      "when": "Self-Paced",
+      "time": "Whenever you'd like",
+      "duration": "50+ hrs",
+      "price": ["19990 | $396", "0 | $0"]
+    },
+    "curriculum": [
+      [
+        {
+          "no": 1,
+          "title": "learn C Language Basics",
+          "content": [
+            "Introduction to C Programming",
+            "C Environment Setup – installation & configuration",
+            "Features of C Programming",
+            "C Program Structure – The preprocessos, The #include statement, Displaying Output",
+            "Reading input from the terminal",
+            "Comments in C",
+            "Why you should Learn C",
+            "Benefits and Limitations of C",
+            "Career in C",
+            "Real-time applications of C language"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Variables and Datatypes",
+          "content": [
+            "What are variables",
+            "Naming Rules",
+            "Datatypes – Range of Datatypes, Format Specifiers",
+            "Const in C",
+            "Void type",
+            "Type conversion in C",
+            "Enums and Chars"
+          ]
+        },
+        {
+          "no": 3,
+          "title": " C Operators",
+          "content": [
+            "Arithmetic Operators",
+            "Comparison Operators",
+            "Logical Operators",
+            "Assingnment Operators in C",
+            "Bitwise Operators",
+            "The Cast and sizeof Operators",
+            "Operator Precedence in C Programming"
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Control Flow in C",
+          "content": [
+            "If else in C",
+            "Nested If else",
+            "Switch statement in C",
+            "C Loop",
+            "C For Loop",
+            "While and Do-While loops in C, do c",
+            "Nested Loops",
+            "Break & Continue statements in C"
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Functions in C Programming",
+          "content": [
+            "Defining Functions in C",
+            "Arguments and Parameters",
+            "Returning data from functions",
+            "Local and Global Variables",
+            "Decorators in Python – master the advanced concepts",
+            "Recursion in C",
+            "Call by Value"
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Call by Value",
+          "content": [
+            "Declaring and Initializing Arrays in C",
+            "Array Traversal",
+            "Check if Array is Sorted, Maximum in an Array, etc.",
+            "Variable Length Arrays",
+            "Multidimensional Arrays in C",
+            "Multidimensional Arrays in C"
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Strings in C",
+          "content": [
+            "Play with String handling in C",
+            "Memory presentation of string",
+            "Common String Functions in C Programming",
+            "String Comparison, String Traversal, Reverse a String, Pattern Searching, etc"
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Structures and Unions in C",
+          "content": [
+            "Struct in C",
+            "structures in c programming",
+            "Structure Alignment and Padding",
+            "Array of structure",
+            "Nested Structures",
+            "Structures and Functions",
+            "Union in C",
+            "Structure vs Union in C Language"
+          ]
+        }
+      ],
+      [
+        {
+          "no": 9,
+          "title": "Pointers in C",
+          "content": [
+            "Introduction to Pointers in C Programming",
+            "Function Parameter and Pointers",
+            "Nullptr in C",
+            "void pointers",
+            "Pointer Arithmetic",
+            "Pointers and Arrays in C",
+            "C Pointers and Strings",
+            "Call by Reference in C",
+            "Call by Value in C",
+            "Structures and Pointers",
+            "Dynamic Memory Allocation",
+            "Static Memory Vs Dynamic Memory",
+            "malloc, calloc, and realloc"
+          ]
+        },
+        {
+          "no": 10,
+          "title": "File Handeling in C",
+          "content": [
+            "File Input and Output in C",
+            "Accessing Files in C",
+            "Reading for a file in C",
+            "Writing to a file",
+            "Binary file I/O"
+          ]
+        },
+        {
+          "no": 11,
+          "title": "Standard C library",
+          "content": [
+            "Standard Header Files",
+            "Various Functions",
+            "Math Functions in C Programming",
+            "Utility Functions in C"
+          ]
+        },
+
+        {
+          "no": 12,
+          "title": "Hashing in C Programming",
+
+          "content": [
+            "Concept of hashing",
+            "Direct Address Table",
+            "Collision Handling",
+            "Play with urllib",
+            "Chaining in C",
+            "Open addressing",
+            "Double Hashing"
+          ]
+        },
+        {
+          "no": 13,
+          "title": " Searching and Sorting in C",
+          "content": [
+            "Linear & Binary search in C",
+            "Different sorting techniques with their analysis"
+          ]
+        },
+        {
+          "no": 14,
+          "title": "Linked Lists using C",
+          "content": [
+            "Linked List Creation, Traversing, Reversal, and Deletion in C",
+            "Double Linked list in C",
+            "Circular Linked List in C"
+          ]
+        },
+        {
+          "no": 15,
+          "title": "Stack and Queues in C",
+          "content": [
+            "Insertion and Deletion",
+            "Array based implementation",
+            "Linked List based implementation",
+            "Circular queues in C",
+            "Prefix, Infix, and Postfix expressions"
+          ]
+        },
+        {
+          "no": 16,
+          "title": "Trees",
+          "content": [
+            "Introduction of Trees and Applications",
+            "Binary Tree & Binary Search Tree BST",
+            "Traversal of Tree",
+            "Implementation of Preorder, Inorder and Postorder traversal",
+            "Iterative Inorder and Preorder"
+          ]
+        },
+        {
+          "no": 17,
+          "title": "Heap",
+          "content": [
+            "Heap Introduction",
+            "Implementation of Heap",
+            "Binary Heap",
+            "Heapify and Extract"
+          ]
+        },
+        {
+          "no": 18,
+          "title": "Graph",
+          "content": [
+            "Introduction to Graph",
+            "Representation",
+            "Traversal of Tree",
+            "Adjacency List and Adjacency Matrix",
+            "Implementation of Adjacency List",
+            "Application of BFS and DFS"
+          ]
+        }
+      ]
+    ],
+    "features": [
+      {
+        "img": "./images/course-img/course-features/time.png",
+        "title": "50+ Hrs of Video based session"
+      },
+      {
+        "img": "./images/course-img/course-features/support.png",
+        "title": "Lifetime access to course with support"
+      },
+      {
+        "img": "./images/course-img/course-features/project.png",
+        "title": "Real time capstone projects"
+      },
+      {
+        "img": "./images/course-img/course-features/certificate.png",
+        "title": "Industry renowned Certification"
+      },
+      {
+        "img": "./images/course-features/brainstorming.png",
+        "title": "Discussion forum for queries and interaction"
+      }
+    ],
+    "forWho": [
+      {
+        "que": "Is this free online C Programming course for beginners?",
+        "ans": "C is an evergreen programming language. Anyone can benefit from a career in it, here are the kind of professionals / freshers / C beginners who should go for this free C training course:<ul><li>System developer / OS developer</li><li>Software developers and architects</li><li>Game Developers</li><li>Freshers / Graduates focusing to build a rock solid career</li></ul>"
+      }
+    ],
+    "companies": {
+      "title": "Companies you can expect when you get Python-certified with us",
+      "img": "./images/companies.png"
+    },
+    "faq": [
+      [
+        {
+          "que": "Is the C course free or is it paid?",
+          "ans": "This C course offered by Dataflair is a free course. Even C Certification is also Free."
+        },
+        {
+          "que": "How long will the C Programming course recordings be available?",
+          "ans": "Once enrolled, the C Language course materials can be accessed for a lifetime. All the sessions, material, Codes, and projects will be available forever."
+        },
+        {
+          "que": "What do I need in order to take this C language course?",
+          "ans": "To attend this C language course, you need to have a laptop or PC with a good internet connection. An elementary machine with 4 GB RAM is enough for the practicals."
+        },
+        {
+          "que": "How do I clear my C related queries?",
+          "ans": "You can post your queries/doubts/issues in the comment section of video or study material. The instructor will answer your questions."
+        },
+        {
+          "que": "What are the system specifications required?",
+          "ans": "Any basic  / elementary PC is sufficient to learn C, it is recommended to have minimum of an i3 processor (or dual core), a 20 GB disk, and 4 GB RAM for installing and practising C."
+        },
+        {
+          "que": "What will be the end result of this Free online C programming course?",
+          "ans": "At the end of the C course, you will greatly understand C coding, algorithms, and data structures in C. This knowledge will help you get placed in a job of your choice and also act as a foundation for you to learn any other programming language."
+        },
+        {
+          "que": "Where do all the students come from?",
+          "ans": "DataFlair has blend of students from across the globe. Apart from India, we provide training in the US, the UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, and many others covering the globe."
+        },
+        {
+          "que": "Is this Free C Programming Course for Beginners?",
+          "ans": "This Free C Programming course covers all the topics from basics to advanced level. So this is a C training for anyone looking learn C programming language from scratch."
+        },
+        {
+          "que": "Where do DataFlair students come from?",
+          "ans": "DataFlair has blend of students from across the globe. Apart from India, we provide Hadoop training in the US, UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, etc to cover the complete globe."
+        },
+        {
+          "que": "How will I be able to interact with the instructor during the training?",
+          "ans": "Both voice and chat will be enabled during the Big Data Hadoop training sessions. You can talk with the instructor or can also interact via chatting."
+        }
+      ],
+      [
+        {
+          "que": "Is this Free C language training classroom-based or online?",
+          "ans": "This free training program on C is entirely online and self-paced. You need not to travel anywhere rather learn c programming from the comfort of your home."
+        },
+        {
+          "que": "Will I get any certificate at the end of this course?",
+          "ans": "Yes, we will provide an industry-recognized C certificate declaring your proficiency. You will work on real-time C projects at the end of this free C course. Once you have successfully made it through the C projects, you will be awarded DataFlair C certification."
+        },
+        {
+          "que": "Why should I learn Hadoop?",
+          "ans": "Big data is the latest and the most demanding technology with continuously increasing demand in the Indian market and abroad. Hadoop professionals are among the highest paid IT professionals today with salary $135k (source: indeed job portal). You can check our blog related to Why should I learn Big Data?"
+        },
+        {
+          "que": "How do I get in touch with you for further queries?",
+          "ans": "You are free to contact us by dropping a mail to info@data-flair.training Although the course is self explanatory, we start with introduction to programming in c. In this c programming for beginners with focus on practical c programming rather than theoretical aspects. And C projects is the added advantage at the end. This approach covers all the queries automatically."
+        },
+        {
+          "que": "Why should I learn C Programming?",
+          "ans": "C is a language which forms a base for many of the present programming languages. It is also a part of tech stack of major projects including Telegram, GitHub, Oracle, Windows, Linux, Mozilla Firefox, and Mastercard. The concepts learned in this course will help you form a foundation for your programming skills"
+        },
+        {
+          "que": "What type of C projects will I be doing during the training?",
+          "ans": "You will be doing real life projects in different domains like retail, banking, and finance."
+        },
+        {
+          "que": "Do you provide placement assistance?",
+          "ans": "This C course from DataFlair is 100% job-oriented and will prepare you entirely for interviews for top product companies"
+        }
+      ]
+    ]
+  },
+  {
+    "id": 3,
+    "price": "Free",
+    "courseName": "Free ML Course in Hindi",
+    "bannerImg": "../images/course-img/course-banner/ML.jpg",
+    "shortName": "Machine Learning",
+    "tag": ["AI", "ML"],
+    "videoSrc": "https://www.youtube.com/embed/jyd4uH5dWJ8",
+    "overview": "A perfect blend of in-depth Machine Learning knowledge and strong practical skills using Python ML libraries to become a Data Scientist. This free machine learning course provides the implementation of real-time machine learning projects to give you a headstart and enables you to bag top ML jobs.",
+    "rating": "5",
+    "learners": "8103",
+    "reasons": {
+      "enroll": [
+        "70+ Real-time ML projects with implementation",
+        "170+ hrs of study material, practicals, quizzes",
+        "Practical ML course with real-time case-studies",
+        "Lifetime access with industry renowned certification"
+      ],
+      "learn": [
+        [
+          "Lifetime access with industry renowned certification",
+          "Kickstart your career with a rock-strong ML foundation",
+          "Understand various types of Machine Learning models",
+          "Work on Supervised, Unsupervised, and Reinforcement Learning",
+          "Understand data manipulation along with visualization",
+          "Work on standard industry use-cases and live projects"
+        ],
+        [
+          "Learn to apply knowledge gained to build optimized code",
+          "Learn to develop efficient solutions using Python ML libraries",
+          "Work on linear as well as logistic regression",
+          "Learn how to use various classification models",
+          "Learn about the impact of dimensions within data",
+          "Work on time series analysis to forecast dependent variables based on time"
+        ]
+      ]
+    },
+    "why": [
+      {
+        "title": "Machine Learning Engineers rank among the top emerging jobs.",
+        "src": "LinkedIn"
+      },
+      {
+        "title": "Global ML market is expected to grow with Compound Annual Growth Rate of 44.1%",
+        "src": "MarketsandMarkets"
+      },
+      {
+        "title": "There will be around 11.5 million new jobs for Data Science professionals by 2026",
+        "src": "U.S. Bureau of Labor Statistics"
+      },
+      {
+        "title": "The median salary for an experienced Data Scientist is $1628,00",
+        "src": "Zip Recuriter"
+      }
+    ],
+    "prerequisite": {
+      "que": "What to do before you begin your Free ML online training?",
+      "ans": "Nothing!",
+      "suggest": "All you need to make the most out of this free ML course is a desire to learn and a penchant for solving real-world problems"
+    },
+    "details": {
+      "when": "Self-Paced",
+      "time": "Whenever you'd like",
+      "duration": "50+ hrs",
+      "price": ["39990 | $796", "0 | $0"]
+    },
+    "curriculum": [
+      [
+        {
+          "no": 1,
+          "title": "Statistics and Mathematics for Machine Learning",
+          "content": [
+            "Statistical Inference",
+            "Descriptive Statistics",
+            "Introduction to Probability, Conditional probability, Bayes theorem",
+            "Probability Distribution",
+            "Introduction to inferential statistics",
+            "Normality, Normal Distribution",
+            "Measures of Central Tendencies",
+            "Hypothesis Testing"
+          ]
+        },
+        {
+          "no": 2,
+          "title": " Data Visualization, Analysis & Manipulation",
+          "content": [
+            "Data visualization using matplotlib and seaborn",
+            "Exploratory data analysis",
+            "Concatenation, Join, Aggregation, Merging, GroupBy using Pandast",
+            "Reading and Writing data from Excel/CSV formats into Pandas",
+            "NumPy – arrays & Operations",
+            "Indexing slicing and iterating",
+            "What is SciPy?"
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Introduction to Machine Learning with Python",
+          "content": [
+            "Machine Learning introduction",
+            "Machine Learning applications & use-cases",
+            "Machine Learning Flows",
+            "Machine Learning categories",
+            "Linear regression",
+            "Gradient descent",
+            "Model evaluation"
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Supervised Learning",
+          "content": [
+            "What is Supervised Learning?",
+            "Logistic Regression in Python",
+            "Classification & implementations",
+            "Decision Tree",
+            "Confusion Matrix",
+            "Random Forest",
+            "Tree based Ensemble",
+            "Hyper-parameter tuning"
+          ]
+        },
+        {
+          "no": 5,
+          "title": " Unsupervised Learning",
+          "content": [
+            "What is Unsupervised Learning",
+            "Clustering",
+            "K-means Clustering",
+            "Optimal clustering",
+            "C-means Clustering",
+            "Hierarchical Clustering",
+            "Association Rules"
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Reinforcement Learning",
+          "content": [
+            "What is Reinforcement Learning?",
+            "Exploration vs Exploitation",
+            "Epsilon Greedy Algorithm",
+            "Markov Decision Process",
+            "Q values and V values",
+            "Q – Learning"
+          ]
+        }
+      ],
+      [
+        {
+          "no": 7,
+          "title": "Time Series Analysis",
+          "content": [
+            "Introduction to Time Series Analysis",
+            "Univariate Analysis",
+            "Multivarate modelling",
+            "AR, MA, ARMA, ARIMA model",
+            "Model Selection",
+            "Cross-Validation",
+            "Boosting Algorithms"
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Dimensionality Reduction",
+          "content": [
+            "What is Dimensionality?",
+            "The Curse of Dimensionality",
+            "Why Dimensionality Reduction",
+            "PCA and Kernel PCA",
+            "Factor Analysis"
+          ]
+        },
+        {
+          "no": 9,
+          "title": "Tensorflow and ANN",
+          "content": [
+            "Introduction to TensorFlow, Architecture & Operations on Tensorflow",
+            "Introduction to Neural Networks:",
+            "Optimization Techniques",
+            "Loss Functions like Cross-entropy loss, MSE etcs"
+          ]
+        },
+
+        {
+          "no": 10,
+          "title": "Deep Neural networks",
+
+          "content": [
+            "Convolutional Neural Networks",
+            "CNN implementations",
+            "CNN Applications"
+          ]
+        },
+        {
+          "no": 11,
+          "title": " Conversational AI",
+          "content": [
+            "NLP",
+            "Recurrent Neural Networks with Tensorflow",
+            "Working with text data",
+            "NLP – Natural Language processing using RNN"
+          ]
+        },
+        {
+          "no": 12,
+          "title": "Machine Learning Projects",
+          "content": [
+            "Digit / Character Classification & Recognition",
+            "Stock Price Prediction",
+            "Fake News Detection",
+            "Credit Card Fraud Detection",
+            "Sign Language Recognition",
+            "Sentiment Analysis",
+            "Speech Emotion Recognition",
+            "License Number Plate Recognition",
+            "Image Segmentation",
+            "Road Lane Line Detection"
+          ]
+        }
+      ]
+    ],
+    "features": [
+      {
+        "img": "./images/course-img/course-features/time.png",
+        "title": "50+ Hrs of Video based session"
+      },
+      {
+        "img": "./images/course-img/course-features/support.png",
+        "title": "Lifetime access to course with support"
+      },
+      {
+        "img": "./images/course-img/course-features/project.png",
+        "title": "Real time capstone projects"
+      },
+      {
+        "img": "./images/course-img/course-features/certificate.png",
+        "title": "Industry renowned Certification"
+      },
+      {
+        "img": "./images/course-features/brainstorming.png",
+        "title": "Discussion forum for queries and interaction"
+      }
+    ],
+    "forWho": [
+      {
+        "que": "Is this free online Machine Learning course for beginners (like me)?",
+        "ans": "This course will help you with your basic understanding of Machine Learning topics. The curated course will be beneficial for you in establishing a strong foundation to ensure an even stronger future hold on the topics. While anyone can benefit from it in their career, here are the kind of professionals / beginners who should go for this Free Machine Learning Course:<ul><li>Software developers, project managers, and architects</li><li>BI, ETL and Data Warehousing professionals</li><li>Web developers, Mobile app developers</li><li>Freshers / Graduates focusing to build a rock solid career</li></ul>"
+      }
+    ],
+    "companies": {
+      "title": "Companies you can expect when you get Python-certified with us",
+      "img": "./images/companies.png"
+    },
+    "faq": [
+      [
+        {
+          "que": "Is the ML course free or is it paid?",
+          "ans": "This course offered by Dataflair is a free course. Even C Certification is also Free."
+        },
+        {
+          "que": "How long will the course recordings be available?",
+          "ans": "Once enrolled, the  course materials can be accessed for a lifetime. All the sessions, material, Codes, and projects will be available forever."
+        },
+        {
+          "que": "What do I need in order to take this  course?",
+          "ans": "To attend this  course, you need to have a laptop or PC with a good internet connection. An elementary machine with 4 GB RAM is enough for the practicals."
+        },
+        {
+          "que": "How do I clear my ML related queries?",
+          "ans": "You can post your queries/doubts/issues in the comment section of video or study material. The instructor will answer your questions."
+        },
+        {
+          "que": "What are the system specifications required?",
+          "ans": "Any basic  / elementary PC is sufficient to learn C, it is recommended to have minimum of an i3 processor (or dual core), a 20 GB disk, and 4 GB RAM for installing and practising C."
+        },
+        {
+          "que": "What will be the end result of this Free online  course?",
+          "ans": "At the end of the course, you will greatly understand  ML algorithms. This knowledge will help you get placed in a job of your choice."
+        },
+        {
+          "que": "Where do all the students come from?",
+          "ans": "DataFlair has blend of students from across the globe. Apart from India, we provide training in the US, the UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, and many others covering the globe."
+        },
+        {
+          "que": "Is this Course for Beginners?",
+          "ans": "This Free  course covers all the topics from basics to advanced level.."
+        },
+        {
+          "que": "Where do DataFlair students come from?",
+          "ans": "DataFlair has blend of students from across the globe. Apart from India, we provide Hadoop training in the US, UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, etc to cover the complete globe."
+        },
+        {
+          "que": "How will I be able to interact with the instructor during the training?",
+          "ans": "Both voice and chat will be enabled during the Big Data Hadoop training sessions. You can talk with the instructor or can also interact via chatting."
+        }
+      ],
+      [
+        {
+          "que": "Is this Free ML training classroom-based or online?",
+          "ans": "This free training program on ML is entirely online and self-paced. You need not to travel anywhere rather learn c programming from the comfort of your home."
+        },
+        {
+          "que": "Will I get any certificate at the end of this course?",
+          "ans": "Yes, we will provide an industry-recognized  certificate declaring your proficiency. You will work on real-time  projects at the end of this free course."
+        },
+        {
+          "que": "How will this Machine Learning course be beneficial to me?",
+          "ans": "This Machine Learning course will provide you with all the basics that you will require for a hassle-free Machine Learning industry experience. It will teach you the basics as well as the complex topics of Machine Learning with ease. Apart from this, you will also gain practical knowledge for deploying Machine Learning models with the help of live Machine Learning projects."
+        },
+        {
+          "que": "How do I get in touch with you for further queries?",
+          "ans": "You are free to contact us by dropping a mail to info@data-flair.training "
+        },
+        {
+          "que": "I am a complete beginner at Machine Learning. Will that become a problem while doing this ML course?",
+          "ans": "Not at all. This Machine Learning course aims at making basic Machine Learning topics accessible to beginners. This course is curated in such a way that you will not have to worry about any prerequisites and enjoy your journey of attaining thorough knowledge and expertise in Machine Learning."
+        },
+        {
+          "que": "What type projects will I be doing during the training?",
+          "ans": "You will be doing real life projects in different domains"
+        },
+        {
+          "que": "Do you provide placement assistance?",
+          "ans": "This course from DataFlair is 100% job-oriented and will prepare you entirely for interviews for top product companies"
+        }
+      ]
+    ]
+  },
+  {
+    "id": 4,
+    "courseName": "Free JAVA Course in Hindi",
+    "price": "Free",
+    "bannerImg": "../images/course-img/course-banner/java.jpg",
+    "shortName": "Java",
+    "tag": ["Java", "Programming"],
+    "videoSrc": "https://www.youtube.com/embed/KXe5S6gyDA4",
+    "overview": "A perfect blend of in-depth Java theoretical knowledge and strong practical skills, this Free course for Java introduces real-time Java projects to give you a headstart in learning Java and enables you to bag top Java jobs in the industry.",
+    "rating": "5",
+    "learners": "8103",
+    "reasons": {
+      "enroll": [
+        "5+ Real-time ML projects with implementation",
+        "170+ hrs of study material, practicals, quizzes",
+        "Practice oriented course with live case-studies to gain hands-on expertise",
+        "Lifetime access with industry renowned certification"
+      ],
+      "learn": [
+        [
+          "Lifetime access with industry renowned certification",
+          "Kickstart your career with a rock-strong Java foundation",
+          "Build a strong foundation in Java",
+          "Understand how Java helps in real-time applications",
+          "Understand data manipulation along with visualization",
+          "Work on standard industry use-cases and live projects"
+        ],
+        [
+          "Learn to apply knowledge gained to build optimized code",
+          "Learn complex concepts like Collections & File Handling",
+          "Get to know the top frameworks of Java",
+          "Build Desktop Applications with Java",
+          "Learn to build your own modules and packages",
+          "Unleash the power of Object-Oriented Programming with Java"
+        ]
+      ]
+    },
+    "why": [
+      {
+        "title": "Java is the second most popular programming language",
+        "src": "Google"
+      },
+      {
+        "title": "In one year Java gets downloaded one billion times",
+        "src": "Gartner"
+      },
+      {
+        "title": "Today, More than 13 billion devices run Java worldwide",
+        "src": "Oracle"
+      },
+      {
+        "title": "The average salary of all Java developers today is $129,470",
+        "src": "Indeed"
+      }
+    ],
+    "prerequisite": {
+      "que": "What to do before you begin your Free online training?",
+      "ans": "Nothing!",
+      "suggest": "All you need to make the most out of this free course is a desire to learn and a penchant for solving real-world problems"
+    },
+    "details": {
+      "when": "Self-Paced",
+      "time": "Whenever you'd like",
+      "duration": "50+ hrs",
+      "price": ["19990 | $196", "0 | $0"]
+    },
+    "curriculum": [
+      [
+        {
+          "no": 1,
+          "title": "Core",
+          "content": [
+            "Java Introduction",
+            "Software required",
+            "FirstCode in Java",
+            "Java Variables and Keywords"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Operators in Java",
+          "content": [
+            "Assignment, PostIncrement and PreIncrement",
+            "Relational Operators in Java",
+            "Conditional Operators in Java",
+            "Bitwise Operators",
+            "Left Shift and Right Shift"
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Conditions & Loops in java",
+          "content": [
+            "If Else in Java",
+            "If Else IfElse in Java",
+            "Switch Case in Java",
+            "While Loop",
+            "Do While Loop",
+            "For Loop",
+            "Star Pattern in Java"
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Oops in Java Part 1",
+          "content": [
+            "Oops Basics",
+            "Encapsulation",
+            "Abstraction",
+            "Object",
+            "This Keyword in Java",
+            "Inheritance",
+            "Constructor in Java",
+            "Anonymous Object in Java"
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Oops in Java Part 2",
+          "content": [
+            "Static and Instance Method in Java",
+            "Polymorphism",
+            "Method Overloading in Java",
+            "Method Overriding",
+            "Constructor Overloading",
+            "Object Creation of Super class using Sub class Object",
+            "Object Creation of Super class using Sub class Object using Super keyword"
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Arrays in Java",
+          "content": [
+            "What is Array?",
+            "Array using Enhanced For Loop",
+            "Array 2D"
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Abstract Class and Interface in Java",
+          "content": [
+            "Abstract Class in Java",
+            "Abstract Class and Method Introduction",
+            "AInterface in Java",
+            "Interface Application"
+          ]
+        }
+      ],
+      [
+        {
+          "no": 8,
+          "title": "Inner Classes in Java",
+          "content": [
+            "Inner Class Member",
+            "Inner Class Nested",
+            "Inner Class Anonymous",
+            "Interface With Anonymous Class"
+          ]
+        },
+        {
+          "no": 9,
+          "title": "Exception Handling in Java",
+          "content": [
+            "Exception Handling in Java",
+            "Exception Handling Try Catch",
+            "Exception Handling Try With Multiple Catch",
+            "Exception Handling Checked Exception BufferedReader",
+            "Exception Handling Checked Exception BufferedReader"
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Exception Handling Checked Exception BufferedReader",
+          "content": [
+            "Threads in Java",
+            "Java MultiThreading",
+            "MultiThreading Thread Class",
+            "MultiThreading Thread Class"
+          ]
+        },
+
+        {
+          "no": 11,
+          "title": "Collections in Java",
+
+          "content": [
+            "Java Collections",
+            "Collection List",
+            "Collection list generics",
+            "Collection list Methods in Java",
+            "Collection List Sort using Collections Class",
+            "Collection List Sort using Comparator Interface",
+            "Collection Comparable Interface",
+            "Equals and Hashcode Method"
+          ]
+        },
+        {
+          "no": 12,
+          "title": "File Handling in Java",
+          "content": [
+            "BufferedReader Class in Java",
+            "File Handling",
+            "Serialization in Java",
+            "Serializable Interface"
+          ]
+        },
+        {
+          "no": 13,
+          "title": "Java Real Time Projects",
+          "content": [
+            "Multiple real-time Java capstone projects based on industry use cases and requirements to master the Java language."
+          ]
+        }
+      ]
+    ],
+    "features": [
+      {
+        "img": "./images/course-img/course-features/time.png",
+        "title": "50+ Hrs of Video based session"
+      },
+      {
+        "img": "./images/course-img/course-features/support.png",
+        "title": "Lifetime access to course with support"
+      },
+      {
+        "img": "./images/course-img/course-features/project.png",
+        "title": "Real time capstone projects"
+      },
+      {
+        "img": "./images/course-img/course-features/certificate.png",
+        "title": "Industry renowned Certification"
+      },
+      {
+        "img": "./images/course-features/brainstorming.png",
+        "title": "Discussion forum for queries and interaction"
+      }
+    ],
+    "forWho": [
+      {
+        "que": "Is this free online Java course for beginners?",
+        "ans": "Java is an evergreen language and is continuously booming. Java has secured a good place in the Banking sector where we need a high level of security, similarly, almost all sectors are using Java. And while anyone can benefit from a career in it, here are the kind of professionals / Java beginners who go for this free Java training course:<ul><li>Software developers</li><li>App Developers</li><li>Web developers, Mobile app developers</li><li>Freshers / Graduates focusing to build a rock solid career</li></ul>"
+      }
+    ],
+    "companies": {
+      "title": "Companies you can expect when you get Python-certified with us",
+      "img": "./images/companies.png"
+    },
+    "faq": [
+      [
+        {
+          "que": "Is the course free or is it paid?",
+          "ans": "This course offered by Dataflair is a free course. Even C Certification is also Free."
+        },
+        {
+          "que": "How long will the course recordings be available?",
+          "ans": "Once enrolled, the  course materials can be accessed for a lifetime. All the sessions, material, Codes, and projects will be available forever."
+        },
+        {
+          "que": "What do I need in order to take this  course?",
+          "ans": "To attend this  course, you need to have a laptop or PC with a good internet connection. An elementary machine with 4 GB RAM is enough for the practicals."
+        },
+        {
+          "que": "How do I clear my JAVA related queries?",
+          "ans": "You can post your queries/doubts/issues in the comment section of video or study material. The instructor will answer your questions."
+        },
+        {
+          "que": "What are the system specifications required?",
+          "ans": "Any basic  / elementary PC is sufficient to learn C, it is recommended to have minimum of an i3 processor (or dual core), a 20 GB disk, and 4 GB RAM for installing and practising C."
+        },
+        {
+          "que": "What will be the end result of this Free online  course?",
+          "ans": "At the end of the course, you will greatly understand  ML algorithms. This knowledge will help you get placed in a job of your choice."
+        },
+        {
+          "que": "Where do all the students come from?",
+          "ans": "DataFlair has blend of students from across the globe. Apart from India, we provide training in the US, the UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, and many others covering the globe."
+        },
+        {
+          "que": "Is this Course for Beginners?",
+          "ans": "This Free  course covers all the topics from basics to advanced level.."
+        },
+        {
+          "que": "Where do DataFlair students come from?",
+          "ans": "DataFlair has blend of students from across the globe. Apart from India, we provide Hadoop training in the US, UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, etc to cover the complete globe."
+        },
+        {
+          "que": "How will I be able to interact with the instructor during the training?",
+          "ans": "Both voice and chat will be enabled during the Big Data Hadoop training sessions. You can talk with the instructor or can also interact via chatting."
+        }
+      ],
+      [
+        {
+          "que": "Is this Free training classroom-based or online?",
+          "ans": "This free training program on ML is entirely online and self-paced. You need not to travel anywhere rather learn c programming from the comfort of your home."
+        },
+        {
+          "que": "Will I get any certificate at the end of this course?",
+          "ans": "Yes, we will provide an industry-recognized  certificate declaring your proficiency. You will work on real-time  projects at the end of this free course."
+        },
+        {
+          "que": "How will I perform the Java practicals?",
+          "ans": "To work on Java, video for java installation is available in LMS and you need to install it on your system at home."
+        },
+        {
+          "que": "How do I get in touch with you for further queries?",
+          "ans": "You are free to contact us by dropping a mail to info@data-flair.training "
+        },
+        {
+          "que": "What type projects will I be doing during the training?",
+          "ans": "You will be doing real life projects in different domains"
+        },
+        {
+          "que": "Do you provide placement assistance?",
+          "ans": "This course from DataFlair is 100% job-oriented and will prepare you entirely for interviews for top product companies"
+        }
+      ]
+    ]
+  },
+  {
+    "id": 5,
+    "courseName": "Free Big Data Certification Course with Hadoop & Spark",
+    "price": "Free",
+    "bannerImg": "../images/course-img/course-banner/hadoop-spark.jpg",
+    "shortName": "Big Data, Hadoop & Spark",
+    "tag": ["Data", "Hadoop"],
+    "videoSrc": "https://www.youtube.com/embed/ByjLuByuK-M",
+    "overview": "A perfect blend of in-depth Hadoop and Spark theoretical knowledge and strong practical skills via implementation of real-time Hadoop and Spark projects to give you a headstart and enable you to bag top Hadoop jobs in the Big Data industry.",
+    "rating": "5",
+    "learners": "8103",
+    "reasons": {
+      "enroll": [
+        "5+ Real-time ML projects with implementation",
+        "170+ hrs of study material, practicals, quizzes",
+        "Practice oriented course with live case-studies to gain hands-on expertise",
+        "Lifetime access with industry renowned certification"
+      ],
+      "learn": [
+        [
+          "Lifetime access with industry renowned certification",
+          "Kickstart your career with a rock-strong foundation",
+          "Build a strong foundation in Big Data, Hadoop & Spark",
+          "Understand how Big Data helps in real-time applications",
+          "Understand data manipulation along with visualization",
+          "Work on standard industry use-cases and live projects"
+        ],
+        [
+          "Learn to apply knowledge gained to build optimized code",
+          "Learn complex concepts",
+          "Become adept in the latest version of Apache Hadoop",
+          "Develop a complex game-changing MapReduce application",
+          "Master the Hadoop ecosystem components",
+          "Grasp the concepts of Apache Spark and its components"
+        ]
+      ]
+    },
+    "why": [
+      {
+        "title": "The Hadoop market will reach almost $99B by 2022 at the CAGR of around 42%",
+        "src": "Forbes"
+      },
+      {
+        "title": "More than 77% of organizations consider Big Data a top priority",
+        "src": "Peer Research"
+      },
+      {
+        "title": "TThe average salary of all Hadoop developers today is the amount of $135k",
+        "src": "Oracle"
+      },
+      {
+        "title": "The world’s most valuable resource is Big Data, no longer oil.",
+        "src": "The Economist"
+      }
+    ],
+    "prerequisite": {
+      "que": "What to do before you begin your Free online training?",
+      "ans": "Nothing!",
+      "suggest": "All you need to make the most out of this free course is a desire to learn and a penchant for solving real-world problems"
+    },
+    "details": {
+      "when": "Self-Paced",
+      "time": "Whenever you'd like",
+      "duration": "50+ hrs",
+      "price": ["19990 | $196", "0 | $0"]
+    },
+    "curriculum": [
+      [
+        {
+          "no": 1,
+          "title": "The big picture of Big Data",
+          "content": [
+            "Necessity of Big Data and Hadoop in the industry",
+            "Paradigm shift - why the industry is shifting to Big Data tools",
+            "Different dimensions of Big Data",
+            "Data explosion in the Big Data industry"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Demystifying Hadoop",
+          "content": [
+            "Why Hadoop is at the heart of every Big Data solution",
+            "Introduction to the Big Data Hadoop framework",
+            "Hadoop architecture and design principles",
+            "Ingredients of Hadoop",
+            "Hadoop characteristics and data-flow"
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Setup and Installation of Hadoop",
+          "content": [
+            "SETUP AND INSTALLATION OF SINGLE-NODE HADOOP CLUSTER",
+            "SETUP AND INSTALLATION OF HADOOP MULTI-NODE CLUSTER"
+          ]
+        },
+        {
+          "no": 4,
+          "title": "HDFS – The Storage Layer",
+          "content": [
+            "What is HDFS (Hadoop Distributed File System)",
+            "HDFS daemons and architecture",
+            "HDFS data flow and storage mechanism",
+            "Hadoop HDFS characteristics and design principles",
+            "Responsibility of HDFS Master – NameNode",
+            "Storage mechanism of Hadoop meta-data",
+            "Work of HDFS Slaves – DataNodes",
+            "Data Blocks and distributed storage"
+          ]
+        },
+        {
+          "no": 5,
+          "title": " A Deep Dive into MapReduce",
+          "content": [
+            "What is MapReduce, the processing layer of Hadoop",
+            "The need for a distributed processing framework",
+            "Issues before MapReduce and its evolution",
+            "List processing concepts",
+            "Components of MapReduce – Mapper and Reducer",
+            "MapReduce terminologies- keys, values, lists, and more",
+            "Hadoop MapReduce execution flow"
+          ]
+        },
+        {
+          "no": 6,
+          "title": "MapReduce - Advanced Concepts",
+          "content": [
+            "Anatomy of MapReduce",
+            "Hadoop MapReduce data types",
+            "Developing custom data types using Writable & WritableComparable",
+            "InputFormats in MapReduce"
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Hive – Data Analysis Tool",
+          "content": [
+            "The need for an adhoc SQL based solution – Apache Hive",
+            "Introduction to and architecture of Hadoop Hive",
+            "Playing with the Hive shell and running HQL queries",
+            "Hive DDL and DML operations"
+          ]
+        }
+      ],
+      [
+        {
+          "no": 8,
+          "title": "Pig - Data Analysis Tool",
+          "content": [
+            "The need for a high level query language - Apache Pig",
+            "How Pig complements Hadoop with a scripting language",
+            "What is Pig",
+            "Pig execution flow",
+            "Different Pig operations like filter and join"
+          ]
+        },
+        {
+          "no": 9,
+          "title": "NoSQL Database - HBase",
+          "content": [
+            "NoSQL databases and their need in the industry",
+            "Introduction to Apache HBase",
+            "Internals of the HBase architecture",
+            "The HBase Master and Slave Model",
+            "Column-oriented, 3-dimensional, schema-less datastores"
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Data Collection using Sqoop",
+          "content": [
+            "The need for Apache Sqoop",
+            "Introduction and working of Sqoop",
+            "Importing data from RDBMS to HDFS",
+            "Exporting data to RDBMS from HDFS"
+          ]
+        },
+
+        {
+          "no": 11,
+          "title": "Data Collection using Flume",
+
+          "content": [
+            "What is Apache Flume",
+            "Flume architecture and aggregation flow",
+            "Understanding Flume components like data Sources and Sinks",
+            "Flume channels to buffer events",
+            "Reliable & scalable data collection tools",
+            "Aggregating streams using Fan-in",
+            "Separating streams using Fan-out",
+            "Internals of the agent architecture"
+          ]
+        },
+        {
+          "no": 12,
+          "title": ". Exploring Scala",
+          "content": [
+            "Introducing Scala",
+            "Installation and configuration of Scala",
+            "Developing, debugging, and running basic Scala programs",
+            "Various Scala operations"
+          ]
+        },
+        {
+          "no": 13,
+          "title": "Real Life Hadoop & Spark Project",
+          "content": [
+            "Multiple real-time Java capstone projects based on industry use cases and requirements to master the Java language."
+          ]
+        }
+      ]
+    ],
+    "features": [
+      {
+        "img": "./images/course-img/course-features/time.png",
+        "title": "50+ Hrs of Video based session"
+      },
+      {
+        "img": "./images/course-img/course-features/support.png",
+        "title": "Lifetime access to course with support"
+      },
+      {
+        "img": "./images/course-img/course-features/project.png",
+        "title": "Real time capstone projects"
+      },
+      {
+        "img": "./images/course-img/course-features/certificate.png",
+        "title": "Industry renowned Certification"
+      },
+      {
+        "img": "./images/course-features/brainstorming.png",
+        "title": "Discussion forum for queries and interaction"
+      }
+    ],
+    "forWho": [
+      {
+        "que": "Is this online Hadoop Spark course for you?",
+        "ans": "Big Data is the truth of today and Hadoop and Spark prove to be efficient in processing it. So while anyone can benefit from a career in it, here are the kind of professionals who go for this Hadoop and Spark course:<ul><li>Software developers</li><li>App Developers</li><li>Web developers, Mobile app developers</li><li>Freshers / Graduates focusing to build a rock solid career</li></ul>"
+      }
+    ],
+    "companies": {
+      "title": "Companies you can expect when you get Python-certified with us",
+      "img": "./images/companies.png"
+    },
+    "faq": [
+      [
+        {
+          "que": "Is the course free or is it paid?",
+          "ans": "This course offered by Dataflair is a free course. Even C Certification is also Free."
+        },
+        {
+          "que": "How long will the course recordings be available?",
+          "ans": "Once enrolled, the  course materials can be accessed for a lifetime. All the sessions, material, Codes, and projects will be available forever."
+        },
+        {
+          "que": "What do I need in order to take this  course?",
+          "ans": "To attend this  course, you need to have a laptop or PC with a good internet connection. An elementary machine with 4 GB RAM is enough for the practicals."
+        },
+        {
+          "que": "How do I clear my course related queries?",
+          "ans": "You can post your queries/doubts/issues in the comment section of video or study material. The instructor will answer your questions."
+        },
+        {
+          "que": "What are the system specifications required?",
+          "ans": "Any basic  / elementary PC is sufficient to learn C, it is recommended to have minimum of an i3 processor (or dual core), a 20 GB disk, and 4 GB RAM for installing and practising C."
+        },
+        {
+          "que": "What will be the end result of this Free online  course?",
+          "ans": "At the end of the course, you will greatly understand  ML algorithms. This knowledge will help you get placed in a job of your choice."
+        },
+        {
+          "que": "Where do all the students come from?",
+          "ans": "DataFlair has blend of students from across the globe. Apart from India, we provide training in the US, the UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, and many others covering the globe."
+        },
+        {
+          "que": "Is this Course for Beginners?",
+          "ans": "This Free  course covers all the topics from basics to advanced level.."
+        },
+        {
+          "que": "Where do DataFlair students come from?",
+          "ans": "DataFlair has blend of students from across the globe. Apart from India, we provide Hadoop training in the US, UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, etc to cover the complete globe."
+        },
+        {
+          "que": "How will I be able to interact with the instructor during the training?",
+          "ans": "Both voice and chat will be enabled during the Big Data Hadoop training sessions. You can talk with the instructor or can also interact via chatting."
+        }
+      ],
+      [
+        {
+          "que": "Is this Free training classroom-based or online?",
+          "ans": "This free training program on ML is entirely online and self-paced. You need not to travel anywhere rather learn c programming from the comfort of your home."
+        },
+        {
+          "que": "Will I get any certificate at the end of this course?",
+          "ans": "Yes, we will provide an industry-recognized  certificate declaring your proficiency. You will work on real-time  projects at the end of this free course."
+        },
+        {
+          "que": "How do I get in touch with you for further queries?",
+          "ans": "You are free to contact us by dropping a mail to info@data-flair.training "
+        },
+        {
+          "que": "What type projects will I be doing during the training?",
+          "ans": "You will be doing real life projects in different domains"
+        },
+        {
+          "que": "Do you provide placement assistance?",
+          "ans": "This course from DataFlair is 100% job-oriented and will prepare you entirely for interviews for top product companies"
+        }
+      ]
+    ]
+  },
+  {
+    "id": 6,
+    "courseName": "Free Apache Kafka Certification Course",
+    "price": "Free",
+    "bannerImg": "../images/course-img/course-banner/kafka.jpg",
+    "shortName": "Apache Kafka",
+    "tag": ["Apache", "Kafka"],
+    "videoSrc": "https://www.youtube.com/embed/g5TKP4yFgOY",
+    "overview": "DataFlair’s Free Kafka Training will give you a perfect blend of in-depth Kafka theoretical knowledge and strong practical skills. This Kafka certification training course introduces real-time Kafka projects to give you a headstart in learning Kafka and enables you to bag top Kafka jobs in the industry.",
+    "rating": "5",
+    "learners": "8103",
+    "reasons": {
+      "enroll": [
+        "5+ Real-time projects with implementation",
+        "170+ hrs of study material, practicals, quizzes",
+        "Practice oriented course with live case-studies to gain hands-on expertise",
+        "Lifetime access with industry renowned certification"
+      ],
+      "learn": [
+        [
+          "Lifetime access with industry renowned certification",
+          "Kickstart your career with a rock-strong foundation",
+          "Build a strong foundation in Apache Spark",
+          "Perform different operations on topics",
+          "Understand data manipulation along with visualization",
+          "Work on standard industry use-cases and live projects"
+        ],
+        [
+          "Learn to apply knowledge gained to build optimized code",
+          "Learn complex concepts",
+          "Become adept in the latest version of Apache kafka",
+          "Learn concepts of the latest version of Kafka",
+          "Develop real-time Kafka applications",
+          "Learn Zookeeper and its installation"
+        ]
+      ]
+    },
+    "why": [
+      {
+        "title": "Next-gen messaging queue, mandatory component for all real-time Big Data project",
+        "src": "Forbes"
+      },
+      {
+        "title": "Linkedin, Uber, Airbnb, and other 1000s of companies are using Kafka.",
+        "src": "Peer Research"
+      },
+      {
+        "title": "Kafka revolutionizes Big Data, whose market will reach $99B in next 2 yrs.",
+        "src": "Gartner"
+      },
+      {
+        "title": "Average Salary of Kafka Professional is 122,000 USD per annum.",
+        "src": "Indeed"
+      }
+    ],
+    "prerequisite": {
+      "que": "What to do before you begin your Free online training?",
+      "ans": "Nothing!",
+      "suggest": "All you need to make the most out of this free course is a desire to learn and a penchant for solving real-world problems"
+    },
+    "details": {
+      "when": "Self-Paced",
+      "time": "Whenever you'd like",
+      "duration": "50+ hrs",
+      "price": ["29990 | $196", "0 | $0"]
+    },
+    "curriculum": [
+      [
+        {
+          "no": 1,
+          "title": "Demystifying Apache Kafka",
+          "content": [
+            "Introduction to Big data",
+            "Importance for messaging queue",
+            "Need for distributed messaging queue",
+            "Conventional solutions and associated problems"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Kafka Introduction",
+          "content": [
+            "What is Apache Kafka?",
+            "Kafka Features and terminologies",
+            "High-level kafka architecture",
+            "Real-life Kafka Case Studies"
+          ]
+        },
+        {
+          "no": 3,
+          "title": "A Deep Dive into the Kafka Architecture",
+          "content": [
+            "Internals of architecture and core concepts",
+            "Kafka components - Broker, Producer, Consumer, Topics, Partitions",
+            "Different versions of Kafka"
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Understanding Brokers",
+          "content": [
+            "Working of a broker",
+            "Broker Deployment",
+            "Multiple brokers on a single machine",
+            "Decommisioning brokers"
+          ]
+        },
+        {
+          "no": 5,
+          "title": " Understanding Producers",
+          "content": [
+            "Basics of producers",
+            "The producer architecture",
+            "Producer partition- Custom, Round Robin, Field-Based Partition",
+            "Producer Java API",
+            "Types of producers - sync, async",
+            "Different producer configurations",
+            "Sync and async producer hands on"
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Understanding Consumers",
+          "content": [
+            "Basics of consumers",
+            "Consumer queuing, consumer groups, and consumer broadcast",
+            "The Consumer Java API",
+            "Producer and Consumer Hands-on"
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Mirroring Kafka",
+          "content": [
+            "What is mirroring?",
+            "How mirroring works",
+            "Mirror Maker and its role",
+            "Kafka Mirroring Hands-on"
+          ]
+        }
+      ],
+      [
+        {
+          "no": 8,
+          "title": "Topics and Partitions",
+          "content": [
+            "The need for a high level query language - Apache Pig",
+            "How Pig complements Hadoop with a scripting language",
+            "What is Pig",
+            "Pig execution flow",
+            "Different Pig operations like filter and join"
+          ]
+        },
+        {
+          "no": 9,
+          "title": "NoSQL Database - HBase",
+          "content": [
+            "NoSQL databases and their need in the industry",
+            "Introduction to Apache HBase",
+            "Internals of the HBase architecture",
+            "The HBase Master and Slave Model",
+            "Column-oriented, 3-dimensional, schema-less datastores"
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Data Collection using Sqoop",
+          "content": [
+            "The need for Apache Sqoop",
+            "Introduction and working of Sqoop",
+            "Importing data from RDBMS to HDFS",
+            "Exporting data to RDBMS from HDFS"
+          ]
+        },
+
+        {
+          "no": 11,
+          "title": "Data Collection using Flume",
+
+          "content": [
+            "What is Apache Flume",
+            "Flume architecture and aggregation flow",
+            "Understanding Flume components like data Sources and Sinks",
+            "Flume channels to buffer events",
+            "Reliable & scalable data collection tools",
+            "Aggregating streams using Fan-in",
+            "Separating streams using Fan-out",
+            "Internals of the agent architecture"
+          ]
+        },
+        {
+          "no": 12,
+          "title": ". Exploring Scala",
+          "content": [
+            "Introducing Scala",
+            "Installation and configuration of Scala",
+            "Developing, debugging, and running basic Scala programs",
+            "Various Scala operations"
+          ]
+        },
+        {
+          "no": 13,
+          "title": "Real Life Hadoop & Spark Project",
+          "content": [
+            "Multiple real-time Java capstone projects based on industry use cases and requirements to master the Java language."
+          ]
+        }
+      ]
+    ],
+    "features": [
+      {
+        "img": "./images/course-img/course-features/time.png",
+        "title": "50+ Hrs of Video based session"
+      },
+      {
+        "img": "./images/course-img/course-features/support.png",
+        "title": "Lifetime access to course with support"
+      },
+      {
+        "img": "./images/course-img/course-features/project.png",
+        "title": "Real time capstone projects"
+      },
+      {
+        "img": "./images/course-img/course-features/certificate.png",
+        "title": "Industry renowned Certification"
+      },
+      {
+        "img": "./images/course-features/brainstorming.png",
+        "title": "Discussion forum for queries and interaction"
+      }
+    ],
+    "forWho": [
+      {
+        "que": "Is this online Hadoop Spark course for you?",
+        "ans": "Big Data is the truth of today and Hadoop and Spark prove to be efficient in processing it. So while anyone can benefit from a career in it, here are the kind of professionals who go for this Hadoop and Spark course:<ul><li>Software developers</li><li>App Developers</li><li>Web developers, Mobile app developers</li><li>Freshers / Graduates focusing to build a rock solid career</li></ul>"
+      }
+    ],
+    "companies": {
+      "title": "Companies you can expect when you get Python-certified with us",
+      "img": "./images/companies.png"
+    },
+    "faq": [
+      [
+        {
+          "que": "Is the course free or is it paid?",
+          "ans": "This course offered by Dataflair is a free course. Even C Certification is also Free."
+        },
+        {
+          "que": "How long will the course recordings be available?",
+          "ans": "Once enrolled, the  course materials can be accessed for a lifetime. All the sessions, material, Codes, and projects will be available forever."
+        },
+        {
+          "que": "What do I need in order to take this  course?",
+          "ans": "To attend this  course, you need to have a laptop or PC with a good internet connection. An elementary machine with 4 GB RAM is enough for the practicals."
+        },
+        {
+          "que": "How do I clear my course related queries?",
+          "ans": "You can post your queries/doubts/issues in the comment section of video or study material. The instructor will answer your questions."
+        },
+        {
+          "que": "What are the system specifications required?",
+          "ans": "Any basic  / elementary PC is sufficient to learn C, it is recommended to have minimum of an i3 processor (or dual core), a 20 GB disk, and 4 GB RAM for installing and practising C."
+        },
+        {
+          "que": "What will be the end result of this Free online  course?",
+          "ans": "At the end of the course, you will greatly understand  ML algorithms. This knowledge will help you get placed in a job of your choice."
+        },
+        {
+          "que": "Where do all the students come from?",
+          "ans": "DataFlair has blend of students from across the globe. Apart from India, we provide training in the US, the UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, and many others covering the globe."
+        },
+        {
+          "que": "Is this Course for Beginners?",
+          "ans": "This Free  course covers all the topics from basics to advanced level.."
+        },
+        {
+          "que": "Where do DataFlair students come from?",
+          "ans": "DataFlair has blend of students from across the globe. Apart from India, we provide Hadoop training in the US, UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, etc to cover the complete globe."
+        },
+        {
+          "que": "How will I be able to interact with the instructor during the training?",
+          "ans": "Both voice and chat will be enabled during the Big Data Hadoop training sessions. You can talk with the instructor or can also interact via chatting."
+        }
+      ],
+      [
+        {
+          "que": "Is this Free training classroom-based or online?",
+          "ans": "This free training program on ML is entirely online and self-paced. You need not to travel anywhere rather learn c programming from the comfort of your home."
+        },
+        {
+          "que": "Will I get any certificate at the end of this course?",
+          "ans": "Yes, we will provide an industry-recognized  certificate declaring your proficiency. You will work on real-time  projects at the end of this free course."
+        },
+        {
+          "que": "How do I get in touch with you for further queries?",
+          "ans": "You are free to contact us by dropping a mail to info@data-flair.training "
+        },
+        {
+          "que": "What type projects will I be doing during the training?",
+          "ans": "You will be doing real life projects in different domains"
+        },
+        {
+          "que": "Do you provide placement assistance?",
+          "ans": "This course from DataFlair is 100% job-oriented and will prepare you entirely for interviews for top product companies"
         }
       ]
     ]
