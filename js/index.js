@@ -11,7 +11,7 @@ const typed = new Typed(".type", {
 
 $(document).ready(function () {
   $(".counter").counterUp({
-    delay: 30,
+    delay: 10,
     time: 700,
   });
 });
