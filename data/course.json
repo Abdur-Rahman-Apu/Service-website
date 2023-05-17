@@ -2,8 +2,8 @@
   {
     "id": 0,
     "price": "Free",
-    "courseName": "Free Python Course in Hindi – Learn Python from Scratch",
-    "bannerImg": "../images/course-img/course-banner/python.png",
+    "courseName": "Free Python Certification Course in Hindi",
+    "bannerImg": "./images/course-img/course-banner/python.png",
     "shortName": "python",
     "tag": ["Python", "Programming"],
     "videoSrc": "https://www.youtube.com/embed/6ZjfKLsR7Ps",
@@ -425,7 +425,7 @@
     "id": 1,
     "price": "Free",
     "courseName": "Free Big Data and Hadoop Certification Course",
-    "bannerImg": "../images/course-img/course-banner/hadoop.jpg",
+    "bannerImg": "./images/course-img/course-banner/hadoop.jpg",
     "shortName": "Big Data & Hadoop",
     "tag": ["Data", "Hadoop"],
     "videoSrc": "https://www.youtube.com/embed/aJXuMkhN9aY",
@@ -821,7 +821,7 @@
     "id": 2,
     "price": "Free",
     "courseName": "Free C Programming Course in Hindi",
-    "bannerImg": "../images/course-img/course-banner/c.jpg",
+    "bannerImg": "./images/course-img/course-banner/c.jpg",
     "shortName": "C Programming",
     "tag": ["C", "Programming"],
     "videoSrc": "https://www.youtube.com/embed/7Dh73z3icd8",
@@ -1221,7 +1221,7 @@
     "id": 3,
     "price": "Free",
     "courseName": "Free ML Course in Hindi",
-    "bannerImg": "../images/course-img/course-banner/ML.jpg",
+    "bannerImg": "./images/course-img/course-banner/ML.jpg",
     "shortName": "Machine Learning",
     "tag": ["AI", "ML"],
     "videoSrc": "https://www.youtube.com/embed/jyd4uH5dWJ8",
@@ -1550,7 +1550,7 @@
     "id": 4,
     "courseName": "Free JAVA Course in Hindi",
     "price": "Free",
-    "bannerImg": "../images/course-img/course-banner/java.jpg",
+    "bannerImg": "./images/course-img/course-banner/java.jpg",
     "shortName": "Java",
     "tag": ["Java", "Programming"],
     "videoSrc": "https://www.youtube.com/embed/KXe5S6gyDA4",
@@ -1869,7 +1869,7 @@
     "id": 5,
     "courseName": "Free Big Data Certification Course with Hadoop & Spark",
     "price": "Free",
-    "bannerImg": "../images/course-img/course-banner/hadoop-spark.jpg",
+    "bannerImg": "./images/course-img/course-banner/hadoop-spark.jpg",
     "shortName": "Big Data, Hadoop & Spark",
     "tag": ["Data", "Hadoop"],
     "videoSrc": "https://www.youtube.com/embed/ByjLuByuK-M",
@@ -2181,7 +2181,7 @@
     "id": 6,
     "courseName": "Free Apache Kafka Certification Course",
     "price": "Free",
-    "bannerImg": "../images/course-img/course-banner/kafka.jpg",
+    "bannerImg": "./images/course-img/course-banner/kafka.jpg",
     "shortName": "Apache Kafka",
     "tag": ["Apache", "Kafka"],
     "videoSrc": "https://www.youtube.com/embed/g5TKP4yFgOY",
@@ -2323,65 +2323,79 @@
           "no": 8,
           "title": "Topics and Partitions",
           "content": [
-            "The need for a high level query language - Apache Pig",
-            "How Pig complements Hadoop with a scripting language",
-            "What is Pig",
-            "Pig execution flow",
-            "Different Pig operations like filter and join"
+            "Working with topics and updating them",
+            "Performance optimization and configurations",
+            "Using Partitions and distribution of partitions",
+            "Partition reassignment - Automatic migrating",
+            "Partition reassignment - Manual migrating"
           ]
         },
         {
           "no": 9,
-          "title": "NoSQL Database - HBase",
+          "title": "Replication in Kafka",
           "content": [
-            "NoSQL databases and their need in the industry",
-            "Introduction to Apache HBase",
-            "Internals of the HBase architecture",
-            "The HBase Master and Slave Model",
-            "Column-oriented, 3-dimensional, schema-less datastores"
+            "High availability and reliability using replication",
+            "ISR - In Sync Replication",
+            "Primary Replication and Quorum Replication",
+            "Partition reassignment - Increasing Replication",
+            "Topic, Partition and Replication Hands-on"
           ]
         },
         {
           "no": 10,
-          "title": "Data Collection using Sqoop",
+          "title": "Introduction to Zookeeper",
           "content": [
-            "The need for Apache Sqoop",
-            "Introduction and working of Sqoop",
-            "Importing data from RDBMS to HDFS",
-            "Exporting data to RDBMS from HDFS"
+            "What is Zookeeper?",
+            "Leader Election by Zookeeper",
+            "Applications using Zookeeper",
+            "Zookeeper Architecture",
+            "Zookeeper configuration and installation",
+            "Zookeeper troubleshooting"
           ]
         },
 
         {
           "no": 11,
-          "title": "Data Collection using Flume",
+          "title": "Installation of Kafka",
 
           "content": [
-            "What is Apache Flume",
-            "Flume architecture and aggregation flow",
-            "Understanding Flume components like data Sources and Sinks",
-            "Flume channels to buffer events",
-            "Reliable & scalable data collection tools",
-            "Aggregating streams using Fan-in",
-            "Separating streams using Fan-out",
-            "Internals of the agent architecture"
+            "Setup environment and pre-requisites",
+            "Configuration of different components",
+            "Deploying Apache Kafka on single node cluster",
+            "Deploying Apache Kafka on multi-node cluster",
+            "Balancing Leadership",
+            "Scaling Kafka cluster and troubleshooting"
           ]
         },
         {
           "no": 12,
-          "title": ". Exploring Scala",
+          "title": "Kafka Advanced Operations - Part 1",
           "content": [
-            "Introducing Scala",
-            "Installation and configuration of Scala",
-            "Developing, debugging, and running basic Scala programs",
-            "Various Scala operations"
+            "Working with multiple topics for different type of data",
+            "Developing applications using high and low level APIs",
+            "Buffering data in Apache Kafka",
+            "Best practices of data distribution",
+            "Different types of consumers high level & low level",
+            "Multiple consumers grouping"
           ]
         },
         {
           "no": 13,
-          "title": "Real Life Hadoop & Spark Project",
+          "title": "Kafka Advanced Operations - Part 2",
           "content": [
-            "Multiple real-time Java capstone projects based on industry use cases and requirements to master the Java language."
+            "Multiple partitions and multi-threaded consumers.",
+            "Best practices for consumers",
+            "Configuring multiple producers & consumers together",
+            "Log Segment and Data Retention",
+            "Monitoring and management of Kafka Cluster",
+            "JMX Monitor and Kafka administration tools"
+          ]
+        },
+        {
+          "no": 14,
+          "title": "Real-life Kafka Project",
+          "content": [
+            "Live Kafka project based on industry use-cases to solve real world problems"
           ]
         }
       ]
@@ -2389,7 +2403,7 @@
     "features": [
       {
         "img": "./images/course-img/course-features/time.png",
-        "title": "50+ Hrs of Video based session"
+        "title": "24+ Hrs of Video based session"
       },
       {
         "img": "./images/course-img/course-features/support.png",
@@ -2410,8 +2424,8 @@
     ],
     "forWho": [
       {
-        "que": "Is this online Hadoop Spark course for you?",
-        "ans": "Big Data is the truth of today and Hadoop and Spark prove to be efficient in processing it. So while anyone can benefit from a career in it, here are the kind of professionals who go for this Hadoop and Spark course:<ul><li>Software developers</li><li>App Developers</li><li>Web developers, Mobile app developers</li><li>Freshers / Graduates focusing to build a rock solid career</li></ul>"
+        "que": "Is this Apache Kafka training course for you?",
+        "ans": "Kafka has quickly made a name for itself. Of all Fortune 500 companies, more than 50% use it. And while anyone can benefit from a career in it, here are the kind of professionals who go for this online Kafka course:<ul><li>Software engineers, leads, and architects</li><li>Data engineers, ETL professionals, DBAs & Data professionals</li><li>Project managers, BI and analytics professionals</li><li>Big Data professionals willing to accelerate their career as Kafka developer</li></ul>"
       }
     ],
     "companies": {

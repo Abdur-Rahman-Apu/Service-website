@@ -13,4 +13,4 @@ viewAllBtn.setAttribute("data-aos-duration", 3000);
 
 caseStudySection.appendChild(viewAllBtn);
 
-getAllData(featuredProjects, 3);
+getAllData("data/data.json", featuredProjects, 3);

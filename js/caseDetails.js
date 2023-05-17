@@ -80,4 +80,4 @@ const caseDetails = (data, projectId) => {
   $(".owl-carousel").imagePreviewer();
 };
 
-getAllData(caseDetails, queryString);
+getAllData("data/data.json", caseDetails, queryString);

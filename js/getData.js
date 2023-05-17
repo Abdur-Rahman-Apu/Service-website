@@ -1,12 +1,14 @@
 // get data from the api
 
-const getAllData = (callback, showData) => {
-  fetch("data/data.json")
+const getAllData = (url, callback, showData) => {
+  fetch(url)
     .then((res) => res.json())
     .then((data) => {
       callback(data, showData);
     });
 };
+
+// case studies  structure
 
 const featuredDiv = document.querySelector(".featured-projects");
 const caseStudySection = document.querySelector(".case-study-section");
@@ -39,5 +41,40 @@ const featuredProjects = (data, showData) => {
       document.location.href = `./case-study-detail.html?${id}`;
     });
     featuredDiv.appendChild(projectParentDiv);
+  }
+};
+
+// courses structure
+
+const courseContainer = document.querySelector(".course-container");
+
+const courses = (data, showData) => {
+  console.log(data);
+
+  for (i = 0; i < showData; i++) {
+    const { bannerImg, price, tag, courseName, id } = data[i];
+
+    // course parent div
+
+    const courseDiv = document.createElement("div");
+    courseDiv.classList.add("course-card");
+    courseDiv.innerHTML = `
+                    <a href="#">
+                        <div class="course-banner">
+                            <img src=${bannerImg} />
+                        </div>
+
+                   
+
+                            <h1 class="course-title">${courseName}</h1>
+
+                        
+
+                      
+                        </div>    
+                    </a>
+            `;
+
+    courseContainer.appendChild(courseDiv);
   }
 };

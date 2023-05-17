@@ -10,63 +10,160 @@
     <link rel="stylesheet" href="./css/owl.carousel.min.css">
     <link rel="stylesheet" href="./css/owl.theme.green.min.css">
     <link rel="stylesheet" href="./css/zoomify.min.css">
+    <script src="https://kit.fontawesome.com/3b7a96cd6e.js" crossorigin="anonymous"></script>
 
     <style>
         body {
-            background-image: linear-gradient(to right top, #fff5f7, #fef8fb, #fefafd, #fefdfe, #ffffff);
+            background: linear-gradient(to right top, #fff5f7, #fef8fb, #fefafd, #fefdfe, #ffffff);
         }
 
-        .case-detail-section {
-            padding: 0 10%;
+        .featured-courses {
+            background-color: #F8F8FC;
+            padding: 40px 3%;
+
         }
 
-        .case-detail-section .title {
+        .featured-courses>span {
+            background-color: #f5df4e;
+            font-weight: bold;
+            display: block;
+            width: fit-content;
+            padding: 3px 9px;
+            font-size: 14px;
+            margin: 18px auto;
+        }
+
+        .featured-courses>p {
             text-align: center;
-            margin: 30px 0;
-            text-transform: uppercase;
-            color: #706fd3;
+            color: #7f8c8d;
+            font-size: 18px;
         }
 
-        .case-detail-section .project-logo {
+        .course-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-column-gap: 20px;
+            margin: 50px 0;
+            padding: 0 3%;
+
+
+        }
+
+        .course-card {
+            background-color: #fff;
+            box-shadow: 0 0 10px #bdc3c7;
+            border-radius: 15px;
+        }
+
+        .course-card>a {
+            text-decoration: none;
+        }
+
+        .course-info {
+            padding: 9%;
+        }
+
+        .course-banner {
+            width: 100%;
+            height: 180px;
+            border-radius: 15px;
+            position: relative;
+        }
+
+        .course-banner img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+            filter: brightness(0.9);
+        }
+
+        .course-price {
+            position: absolute;
+            right: 20px;
+            bottom: -20px;
+            width: 70px;
+            height: 70px;
+            background-color: #F14D5D;
+            font-size: 20px;
+            font-weight: bold;
+            color: #fff;
+            border-radius: 50%;
             display: flex;
             justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 15px #F14D5D;
         }
 
-        .project-logo img {
-            width: 400px;
-        }
-
-        .case-detail-section hr {
-            width: 80%;
-            margin: 20px auto;
-        }
-
-        .project-detail {
-            margin: 50px 10%;
-            font-size: 19px;
-            text-align: justify;
-            text-transform: capitalize;
-        }
-
-        .project-detail span {
+        .tag span {
+            width: fit-content;
+            padding: 4px 8px;
+            color: #fff;
+            font-size: 13px;
             font-weight: bold;
-            font-size: 20px;
+            border-radius: 3px;
         }
 
-        .project-detail p {
-            margin: 10px 0;
+        .tag span:first-child {
+            background-color: #FFA100;
+            box-shadow: 0 0 5px #FFA100;
+            margin-right: 10px;
         }
 
-        .owl-carousel .owl-item img {
-            object-fit: cover;
-            height: 200px;
+        .tag span:last-child {
+            background-color: #1DC295;
+            box-shadow: 0 0 5px #1DC295;
         }
 
-        .project-view .view-title {
+        .course-title {
+            font-size: 16px;
+            margin: 20px 0;
             text-align: center;
-            margin: 40px 0;
-            text-transform: uppercase;
-            color: #706fd3;
+            padding: 0 20px;
+            color: black;
+        }
+
+        .course-info hr {
+            border: 0;
+            outline: 0;
+            height: 1px;
+            background-color: #7f8c8d;
+        }
+
+        .card-bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0 0;
+        }
+
+        .card-bottom .course-rating {
+            font-size: 12px;
+            color: #FFA100;
+        }
+
+        .card-bottom .course-btn {
+            text-decoration: none;
+            background: #fd746c;
+            background: linear-gradient(to right, #ff9068, #fd746c);
+            color: #fff;
+            padding: 4px 10px;
+            border-radius: 4px;
+        }
+
+
+        @media screen and (max-width:900px) {
+            .course-container {
+                grid-template-columns: repeat(2, 1fr);
+                grid-row-gap: 30px;
+            }
+        }
+
+        @media screen and (max-width:700px) {
+            .course-container {
+                grid-template-columns: repeat(1, 1fr);
+                grid-row-gap: 30px;
+            }
         }
     </style>
 </head>
@@ -130,106 +227,95 @@
     </div>
 
 
-    <section class="case-detail-section">
+    <section class="featured-courses">
+        <span>Featured Courses</span>
+        <p>Increase Your knowledge by learning</p>
 
-        <h1 class="title">the alex</h1>
-
-        <div class="project-logo">
-            <img src="./images/projects-gallery/alex/The+Alex.gif">
-        </div>
-
-        <hr>
-
-        <div class="project-detail">
-            <p><span>Client:</span> The Alex Theater</p>
-            <p><span>Category:</span> Entertainment</p>
-            <p><span>Scope:</span> brand identity, full brand ecosystem visualization</p>
-            <p><span>Project objectives:</span> <br> The Alex Theater is historical art deco theater in Glendale, CA
-                that is undergoing a rejuvenation. Having been mismanaged for years and left in the dust of other
-                growing entertainment venues in what is certainly one of the entertainment capitals of the world, The
-                Alex Theater was coming back to life. To break back onto the scene, The Alex needed a total re-brand to
-                signal its new chapter and to make a bold visual statement. Verhaal, breaking the common design norm of
-                a single static logo - designed a modular brand identity system that has multiple variations and changes
-                and morphs, reflecting the bold energy of The Alex.</p>
+        <div class="course-container">
 
         </div>
-
-        <div class="project-view">
-            <h1 class="view-title">Project view</h1>
-
-            <div class="owl-carousel owl-theme">
-
-            </div>
-        </div>
-
     </section>
 
-    <script src="./js/carousel/jquery.min.js"></script>
+    <!-- <script src="./js/carousel/jquery.min.js"></script>
     <script src="./js/carousel/owl.carousel.min.js"></script>
-    <script src="./js/zoom/jquery-imagepreviewer.min.js"></script>
-
+    <script src="./js/zoom/jquery-imagepreviewer.min.js"></script> -->
+    <script src="./js/getData.js"></script>
+    <script src="./js/common.js"></script>
+    <script src="./js/getCourses.js"></script>
 
 
 
     <script>
 
 
-        const caseDetailSection = document.querySelector('.case-detail-section')
 
-        const images = [
-            "./images/projects-gallery/alex/ALEX-Color-Palette_Low_Res_03.jpg",
-            "./images/projects-gallery/alex/THEALEX_Cover-Image_Master-Low-Res.jpg",
-            "./images/projects-gallery/alex/THEALEX_Business-Stationery_Mockup-Low-Res.jpg",
-            "./images/projects-gallery/alex/THEALEX_Playbill_Mockup_Low_Res.jpg",
-            "./images/projects-gallery/alex/THEALEX_Street-Banner_Mockup_Low_Res2.jpg",
-            "./images/projects-gallery/alex/THEALEX_Hoodie_Mockup_Low_Res.jpg",
-            "./images/projects-gallery/alex/THEALEX_TShirt_Mockup_White_Low_Res.jpg",
-            "./images/projects-gallery/alex/THEALEX_Cups_Mockup_Low_Res.jpg",
-            "./images/projects-gallery/alex/THEALEX_Bag_Mockup_Low_Res.jpg",
-            "./images/projects-gallery/alex/THEALEX_Outdoor_Poster_Mockup_01.jpg",
-            "./images/projects-gallery/alex/THEALEX_Facebook-Profile_Website_Mockup3.jpg"
-        ]
-
-        const carouselDiv = document.querySelector('.owl-carousel')
-
-        images.forEach(link => {
-
-            const itemDiv = document.createElement('div')
-            itemDiv.classList.add('item')
-            itemDiv.innerHTML = `
-                    <img src=${link} data-action="zoom">
-            `
-
-            carouselDiv.appendChild(itemDiv)
-        })
+        const courseContainer = document.querySelector('.course-container');
 
 
 
 
-        $(document).ready(function () {
-            $(".owl-carousel").owlCarousel({
-                loop: true,
-                margin: 10,
-                autoplay: true,
-                autoplayTimeout: 3000,
-                autoplayHoverPause: true,
-                responsive: {
-                    0: {
-                        items: 1
-                    },
-                    600: {
-                        items: 3
-                    },
-                    1000: {
-                        items: 5
-                    }
-                }
-            });
-        });
+        const courses = (data, showData) => {
+            console.log(data);
+
+            for (i = 0; i < showData; i++) {
+
+                const { bannerImg, price, tag, courseName, id } = data[i];
+
+                // course parent div 
+
+                const courseDiv = document.createElement('div');
+                courseDiv.classList.add('course-card')
+                courseDiv.innerHTML = `
+                    <a href="#">
+                        <div class="course-banner">
+                            <img src=${bannerImg} />
+                        </div>
+
+                   
+
+                            <h1 class="course-title">${courseName}</h1>
+
+                        
+
+                      
+                        </div>    
+                    </a>
+            `;
+
+                courseContainer.appendChild(courseDiv)
+            }
+        }
+
+
+        getAllData("data/course.json", courses, 4)
 
 
 
-        $(".owl-carousel").imagePreviewer();
+
+        // $(document).ready(function () {
+        //     $(".owl-carousel").owlCarousel({
+        //         loop: true,
+        //         margin: 10,
+        //         autoplay: true,
+        //         autoplayTimeout: 3000,
+        //         autoplayHoverPause: true,
+        //         responsive: {
+        //             0: {
+        //                 items: 1
+        //             },
+        //             600: {
+        //                 items: 3
+        //             },
+        //             1000: {
+        //                 items: 5
+        //             }
+        //         }
+        //     });
+        // });
+
+
+
+        // $(".owl-carousel").imagePreviewer();
     </script>
 
 </body>

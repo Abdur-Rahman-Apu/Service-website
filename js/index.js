@@ -15,3 +15,11 @@ $(document).ready(function () {
     time: 700,
   });
 });
+
+const courseContainer = document.querySelector(".featured-courses");
+
+const viewAllCourseBtn = document.createElement("a");
+viewAllCourseBtn.classList.add("view-btn");
+courseContainer.add.appendChild(" courses");");
+
+getAllData("data/course.json", courses, 4);
