@@ -45,6 +45,7 @@
 }
 
 .navbar .contact {
+  width: 130px;
   height: 100%;
   display: flex;
   justify-content: space-between;
