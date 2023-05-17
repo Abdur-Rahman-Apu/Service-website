@@ -19,7 +19,7 @@ function toggleMenu() {
     closeIcon.style.display = "block";
     humburgerMenus.style.display = "block";
     localStorage.setItem("menu-icon", "close");
-  } else {
+  } else if (localStorage.getItem("menu-icon") === "close") {
     humburgerIcon.style.display = "block";
     closeIcon.style.display = "none";
     humburgerMenus.style.display = "none";
