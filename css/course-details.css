@@ -42,7 +42,8 @@ body {
   background-color: #f5df4e;
   padding: 6px 10px;
   border-radius: 4px;
-  margin: 10px 0;
+  margin: 10px 0 12px;
+  font-size: 13px;
 }
 
 .table {
