@@ -14,7 +14,6 @@ body {
 } */
 
 .course-detail-header {
-  height: 300px;
 }
 
 .course-detail-header .course-title {
@@ -115,6 +114,7 @@ body {
 }
 
 .achievements-details {
+  font-family: ;
   display: flex;
   justify-content: space-around;
   margin: 30px 0;
@@ -127,9 +127,7 @@ body {
 }
 
 .achievements-details .left-side {
-  background: #ffafbd;
-  background: -webkit-linear-gradient(to right, #ffc3a0, #ffafbd);
-  background: linear-gradient(to right, #ffc3a0, #ffafbd);
+  background-color: #f5df4e;
   padding: 20px;
 }
 
