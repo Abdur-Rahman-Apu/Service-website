@@ -2,12 +2,12 @@
   {
     "id": 0,
     "price": "Free",
-    "courseName": "Free Python Certification Course in Hindi",
+    "courseName": "Python Certification Course in English",
     "bannerImg": "./images/course-img/course-banner/python.png",
     "shortName": "python",
     "tag": ["Python", "Programming"],
     "videoSrc": "https://www.youtube.com/embed/6ZjfKLsR7Ps",
-    "overview": "Learn Python starting basics to advanced with this Free Python course in Hindi. Giving an exposure to both theoretical and practical knowledge, this python training course is designed to match the current industry demands. Enroll now to prepare yourself for the in-demanding skills.",
+    "overview": "Learn Python with our all-inclusive course! Learn theory, practice coding with hands-on projects, and test your skills with engaging quizzes. Start your Python journey now!",
     "rating": "5",
     "learners": "686729",
     "reasons": {

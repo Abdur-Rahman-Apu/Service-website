@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Titillium+Web:wght@400;600&display=swap");
 @import url(./common.css);
 
 body {
@@ -12,26 +13,54 @@ body {
 }
 
 .course-detail-container {
-  padding: 20px 3%;
+  font-family: "Titillium Web", sans-serif;
+  padding: 0 3%;
+}
+
+/* .course-detail-container div:first-child {
+  padding: 20px;
+} */
+
+.course-detail-header {
+  height: 300px;
 }
 
 .course-detail-header .course-title {
-  font-size: 29px;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  background-color: #f5df4e;
+  padding: 10px;
+}
+
+.course-detail-header .course-overview {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
 }
 
 .course-detail-header .overview {
-  font-size: 14px;
+  font-size: 18px;
   text-align: justify;
   margin: 5px 0 10px;
 }
 
 .course-detail-header {
-  display: flex;
   margin: 20px 0;
 }
 
-.course-detail-header div {
-  flex-basis: 50%;
+.course-detail-header img {
+  width: 40%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.course-detail-header p {
+  flex-basis: 55%;
+}
+
+.course-detail-header img {
+  flex-basis: 25%;
 }
 
 .back-btn {

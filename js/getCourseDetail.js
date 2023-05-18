@@ -6,6 +6,7 @@ const courseDetails = (data, courseId) => {
 
   const {
     courseName,
+    bannerImg,
     overview,
     details,
     learners,
@@ -29,65 +30,17 @@ const courseDetails = (data, courseId) => {
   };
 
   courseDetailContainer.innerHTML = `
-
-  <a href="./courses.html" class="back-btn" onclick="back()" data-aos="fade-right">Back <i class="fa fa-backward" aria-hidden="true"></i></a>
-
   <div class="course-detail-header">
-      <div data-aos="fade-up">
-          <h1 class="course-title">${courseName}</h1>
-          <p class="overview">${overview}</p>
-          <div class="enroll-info">
-
-              <div class="table">
-                  <table class="styled-table">
-                      <thead>
-                          <tr>
-                              <th>When</th>
-                              <th>Time</th>
-                              <th>Duration</th>
-                              <th>Price</th>
-                          </tr>
-                      </thead>
-                      <tbody>
-                          <tr>
-                              <td>${details?.when}</td>
-                              <td>${details?.time}</td>
-                              <td>${details?.duration}</td>
-                              <td>
-                                  <div style="text-decoration:line-through">Rs. ${details?.price[0]}</div>
-                                  <div>Rs. ${details?.price[1]}</div>
-                              </td>
-                          </tr>
-                      </tbody>
-                  </table>
-              </div>
-              
-              <div class="enroll-details">
-
-                  <div class="rating">
-                      <p>Review</p>
-                      <div class="stars">
-                          <i class="fa-solid fa-star"></i>
-                          <i class="fa-solid fa-star"></i>
-                          <i class="fa-solid fa-star"></i>
-                          <i class="fa-solid fa-star"></i>
-                          <i class="fa-solid fa-star"></i>    
-                      </div>
-                  </div>
-
-                  <div class="learners">
-                      <p>Learners</p>
-                      <span>${learners}</span>
-                  </div>
-              </div>
-          </div>
-
-          <a href="#" class="enroll-btn">Enroll</a>
-      </div>
-      <div class="video-player" data-aos="fade-left">
+  <div data-aos="fade-up">
+  
+  <h1 class="course-title">${courseName}</h1>
           
-          <iframe  src=${videoSrc} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      </div>
+  <div class="course-overview">
+  <p class="overview">${overview}</p>
+    
+          <img src=${bannerImg} />
+  </div>
+      
   </div>
 
 
