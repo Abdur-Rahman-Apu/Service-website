@@ -51,26 +51,29 @@ const courseContainer = document.querySelector(".course-container");
 const courses = (data, showData) => {
   console.log(data);
 
+  if (showData == "all") {
+    showData = data.length;
+  }
+
   for (i = 0; i < showData; i++) {
     const { bannerImg, price, tag, courseName, id } = data[i];
 
+    console.log(id);
+
     // course parent div
 
+    const courseDetailPath = "./course-detail.html?" + id;
+
     const courseDiv = document.createElement("div");
+    courseDiv.setAttribute("data-aos", "fade-up");
+    courseDiv.setAttribute("data-aos-duration", 3000);
     courseDiv.classList.add("course-card");
     courseDiv.innerHTML = `
-                    <a href="#">
+                    <a href=${courseDetailPath}>
                         <div class="course-banner">
                             <img src=${bannerImg} />
                         </div>
-
-                   
-
                             <h1 class="course-title">${courseName}</h1>
-
-                        
-
-                      
                         </div>    
                     </a>
             `;

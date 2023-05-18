@@ -1,9 +1,7 @@
 @import url(./common.css);
-@import url(./navbar.css);
-@import url("./scroll-up.css");
 
 body {
-  background-image: linear-gradient(
+  background: linear-gradient(
     to right top,
     #fff5f7,
     #fef8fb,

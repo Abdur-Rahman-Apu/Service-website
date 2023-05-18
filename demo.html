@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="./css/owl.carousel.min.css">
     <link rel="stylesheet" href="./css/owl.theme.green.min.css">
     <link rel="stylesheet" href="./css/zoomify.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <script src="https://kit.fontawesome.com/3b7a96cd6e.js" crossorigin="anonymous"></script>
 
     <style>
@@ -17,152 +19,604 @@
             background: linear-gradient(to right top, #fff5f7, #fef8fb, #fefafd, #fefdfe, #ffffff);
         }
 
-        .featured-courses {
-            background-color: #F8F8FC;
-            padding: 40px 3%;
+        .course-detail-container {
+            padding: 20px 3%;
 
         }
 
-        .featured-courses>span {
-            background-color: #f5df4e;
-            font-weight: bold;
+        .course-detail-header .course-title {
+            font-size: 29px;
+        }
+
+        .course-detail-header .overview {
+            font-size: 14px;
+            text-align: justify;
+            margin: 5px 0 10px;
+        }
+
+        .course-detail-header {
+            display: flex;
+            margin: 20px 0;
+        }
+
+        .course-detail-header div {
+            flex-basis: 50%;
+        }
+
+        .back-btn {
+            text-decoration: none;
+            color: #000;
             display: block;
             width: fit-content;
-            padding: 3px 9px;
-            font-size: 14px;
-            margin: 18px auto;
+            background-color: #f5df4e;
+            padding: 6px 10px;
+            border-radius: 4px;
+            margin: 10px 0;
         }
 
-        .featured-courses>p {
+        .table {
+            overflow: auto;
+        }
+
+        .styled-table {
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 0.9em;
+            font-family: sans-serif;
+            min-width: 400px;
+            overflow-x: auto;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .styled-table thead tr {
+            background-color: #f5df4e;
+            text-align: left;
+        }
+
+        .styled-table th,
+        .styled-table td {
+            padding: 12px 15px;
             text-align: center;
-            color: #7f8c8d;
+        }
+
+        .enroll-btn {
+            text-decoration: none;
+            background-color: #F14D5D;
+            display: block;
+            width: fit-content;
+            color: #fff;
+            padding: 10px 60px;
+            margin: 40px 0 10px;
+            font-weight: 500;
+            border-radius: 30px;
+            box-shadow: 0 0 10px #F14D5D;
+        }
+
+        .enroll-details {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .rating p,
+        .learners p {
+            font-weight: 600;
+
+            color: #F14D5D;
             font-size: 18px;
         }
 
-        .course-container {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            grid-column-gap: 20px;
-            margin: 50px 0;
-            padding: 0 3%;
+        .rating .stars i {
+            font-size: 10px;
+            color: #F14D5D;
+        }
 
+        .video-player {
+            padding-left: 60px;
 
         }
 
-        .course-card {
-            background-color: #fff;
-            box-shadow: 0 0 10px #bdc3c7;
-            border-radius: 15px;
-        }
-
-        .course-card>a {
-            text-decoration: none;
-        }
-
-        .course-info {
-            padding: 9%;
-        }
-
-        .course-banner {
+        .video-player iframe {
+            border-radius: 10px;
             width: 100%;
-            height: 180px;
-            border-radius: 15px;
+            height: 315px;
+        }
+
+        /* reason to enroll  */
+        .reason-to-enroll,
+        .prerequisite {
+            display: flex;
+            align-items: center;
+            margin: 80px 0 50px;
+        }
+
+        .reason-to-enroll ul {
+
+            margin: 30px auto;
+        }
+
+        .reason-to-enroll div,
+        .prerequisite div {
+            flex-basis: 50%;
+        }
+
+        .reason-to-enroll div:first-child {
+            height: 400px;
+        }
+
+        .reason-to-enroll img,
+        .prerequisite img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .prerequisite {
+            padding: 60px 0;
+        }
+
+        .prerequisite div:first-child b {
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .prerequisite div:first-child p {
+
+            margin-top: 5px;
+        }
+
+        .achievements {
+            margin: 60px 0;
+        }
+
+        .achievements h1 {
+            text-align: center;
+            margin: 20px 0 40px;
+        }
+
+        .achievements-details {
+            display: flex;
+            justify-content: space-around;
+            margin: 30px 0;
+        }
+
+        .achievements-details .left-side,
+        .achievements-details .right-side {
+            flex-basis: 40%;
+            border-radius: 30px;
+        }
+
+        .achievements-details .left-side {
+
+            background: #FFAFBD;
+            background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);
+            background: linear-gradient(to right, #ffc3a0, #FFAFBD);
+            padding: 20px;
+
+
+        }
+
+        .achievements-details .right-side {
+            padding: 20px;
+
+        }
+
+
+        .achievements-details .left-side p,
+        .achievements-details .right-side p {
+            margin: 20px 0;
+            font-weight: 600;
+
+        }
+
+        .achievements-details .left-side,
+        .achievements-details .right-side {
+            min-height: 400px;
+            background-color: #f5df4e;
+        }
+
+
+
+
+        .reason-to-learn h2 {
+            text-transform: uppercase;
+            background-color: #F14D5D;
+            padding: 10px;
+            color: #fff;
+            width: 50%;
+            margin: 50px auto;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .reason-to-learn .reasons {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+        }
+
+        .reason-to-learn .reasons div {
+            padding: 10px 0;
+            margin: 10px 0;
+            text-align: center;
+            border-radius: 6px;
+            background-color: #4682b4;
+            box-shadow: 0 2px 5px #4682b4;
+            color: white;
+        }
+
+        .course-contents {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .course-contents .left-side,
+        .course-contents .right-side {
+            flex-basis: 40%;
+        }
+
+        .course-content-section {
+            margin: 50px 0;
+        }
+
+        .course-content-section h2 {
+            font-size: 28px;
+            margin: 80px auto;
+            width: fit-content;
+            text-transform: uppercase;
             position: relative;
         }
 
-        .course-banner img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            border-radius: 10px;
-            filter: brightness(0.9);
-        }
-
-        .course-price {
+        .course-content-section h2::after {
+            content: '';
             position: absolute;
-            right: 20px;
-            bottom: -20px;
-            width: 70px;
-            height: 70px;
+            bottom: -10px;
+            left: 80px;
+            width: 100px;
+            height: 4px;
             background-color: #F14D5D;
-            font-size: 20px;
+        }
+
+        .course-content-section h2::before {
+            content: '';
+            position: absolute;
+            bottom: -20px;
+            left: 80px;
+            width: 100px;
+            height: 4px;
+            background-color: #F14D5D;
+        }
+
+        .course-contents .left-side>div,
+        .course-contents .right-side>div {
+            background-color: #fff;
+            border: 1px solid #F14D5D;
+        }
+
+        .faqs .faq-left>div,
+        .faqs .faq-right>div {
+            background-color: #fff;
+            border: 1px solid #F14D5D;
+        }
+
+        .course-contents .left-side p,
+        .course-contents .right-side p {
+            margin-left: 30px;
+        }
+
+        .course-contents .right-side div {
+            display: block;
+            padding: 0;
+
+        }
+
+        .course-contents .right-side .vcollapse-content {
+            padding: 5px;
+        }
+
+        .vcollapse-toggle,
+        .course-contents .right-side .vcollapse-toggle {
+            padding: 20px 10px;
+            cursor: pointer;
+        }
+
+        .vcollapse-toggle.active {
+            background-color: #F14D5D;
             font-weight: bold;
             color: #fff;
-            border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            box-shadow: 0 0 15px #F14D5D;
         }
 
-        .tag span {
-            width: fit-content;
-            padding: 4px 8px;
-            color: #fff;
-            font-size: 13px;
-            font-weight: bold;
-            border-radius: 3px;
+        .vcollapse-content.active {
+            padding: 10px;
         }
 
-        .tag span:first-child {
-            background-color: #FFA100;
-            box-shadow: 0 0 5px #FFA100;
-            margin-right: 10px;
+        .vcollapse-content ol {
+            padding-left: 30px;
         }
 
-        .tag span:last-child {
-            background-color: #1DC295;
-            box-shadow: 0 0 5px #1DC295;
+        .vcollapse-content ol li {
+            margin: 10px 0;
         }
 
-        .course-title {
-            font-size: 16px;
+
+
+        /* course features section  */
+        .course-features-section {
+
+            padding: 30px 3%;
+            margin: 60px 0;
+        }
+
+        .course-features-section h2 {
+            text-transform: uppercase;
             margin: 20px 0;
             text-align: center;
-            padding: 0 20px;
-            color: black;
         }
 
-        .course-info hr {
-            border: 0;
-            outline: 0;
-            height: 1px;
-            background-color: #7f8c8d;
-        }
 
-        .card-bottom {
+        .course-feature-container {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 15px 0 0;
+            flex-wrap: wrap;
         }
 
-        .card-bottom .course-rating {
-            font-size: 12px;
-            color: #FFA100;
+        .course-feature-container div {
+            width: 150px;
+            margin: 30px 0;
+            text-align: center;
+
         }
 
-        .card-bottom .course-btn {
-            text-decoration: none;
-            background: #fd746c;
-            background: linear-gradient(to right, #ff9068, #fd746c);
+        .course-feature-container .feature-img img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+
+
+        /* course-for-whom section  */
+        .course-for-whom h1 {
+            background-color: #f5df4e;
+            padding-left: 30px;
+        }
+
+        .course-for-whom p {
+            margin: 10px 0;
+            text-align: justify;
+            padding: 30px;
+        }
+
+        .course-for-whom ul {
+            margin-left: 50px;
+        }
+
+        .course-for-whom ul li {
+            background-color: #F14D5D;
+            display: inline-block;
+            width: fit-content;
+            padding: 10px;
             color: #fff;
-            padding: 4px 10px;
-            border-radius: 4px;
+            margin: 10px;
+            border-radius: 10px;
+
         }
 
+        /* companies section  */
+
+        .companies h1 {
+            margin-bottom: 60px;
+            /* background-color: #F14D5D; */
+            text-transform: uppercase;
+            /* color: #F14D5D; */
+            text-align: center;
+        }
+
+        .companies-img img {
+            width: 100%;
+        }
+
+        .faq-container {
+            margin: 30px 0;
+        }
+
+        .faq-container h1 {
+            text-align: center;
+            text-transform: capitalize;
+            margin: 40px 0 60px;
+        }
+
+        .faqs {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .faqs .faq-left,
+        .faqs .faq-right {
+            flex-basis: 45%;
+        }
+
+        .faqs .vcollapse-content p {
+            margin: 30px 0;
+        }
 
         @media screen and (max-width:900px) {
-            .course-container {
-                grid-template-columns: repeat(2, 1fr);
-                grid-row-gap: 30px;
+            .course-detail-header {
+                flex-direction: column;
             }
+
+            .course-detail-header div {
+                flex-basis: 100%;
+            }
+
+            .course-detail-header .course-title {
+                text-align: center;
+                font-size: 25px;
+                margin: 30px 0;
+            }
+
+            .course-detail-header .overview {
+                font-size: 13px;
+            }
+
+            .styled-table {
+                margin: 25px auto;
+            }
+
+            .video-player {
+                padding-left: 0;
+            }
+
+            .video-player iframe {
+                margin-top: 60px;
+            }
+
+            .enroll-btn {
+                margin: 40px auto 20px;
+            }
+
+            .reason-to-enroll h1 {
+                font-size: 20px;
+            }
+
+            .reason-to-enroll ul {
+                width: 90%;
+            }
+
+            .prerequisite h1 {
+                font-size: 20px;
+            }
+
+            .prerequisite b {
+                font-size: 14px;
+            }
+
+            .prerequisite p {
+                font-size: 12px;
+            }
+
+            .achievements h1 {
+                font-size: 20px;
+            }
+
+            .achievements-details {
+                flex-direction: column;
+            }
+
+            .achievements-details .left-side,
+            .achievements-details .right-side {
+                flex-basis: 100%;
+            }
+
+            .achievements-details .right-side {
+                margin-top: 30px;
+            }
+
+            .reason-to-learn h2,
+
+            .companies h1,
+            .faq-container h1 {
+                font-size: 20px;
+            }
+
+            .course-for-whom h1 {
+                font-size: 24px;
+            }
+
+            .course-for-whom p,
+            .course-for-whom ul {
+                font-size: 14px;
+            }
+
+
         }
 
         @media screen and (max-width:700px) {
-            .course-container {
-                grid-template-columns: repeat(1, 1fr);
-                grid-row-gap: 30px;
+            .prerequisite h1 {
+                font-size: 16px;
+            }
+
+            .prerequisite b {
+                font-size: 12px;
+            }
+
+            .prerequisite p {
+                font-size: 10px;
+            }
+
+            .reason-to-learn h2 {
+                font-size: 16px;
+            }
+
+            .reason-to-learn .reasons div {
+                font-size: 14px;
+            }
+
+            .course-content-section h2 {
+                font-size: 25px;
+            }
+
+            .course-content-section h2::before,
+            .course-content-section h2::after {
+                left: 50px;
+            }
+
+            .course-contents {
+                flex-direction: column;
+            }
+
+            .course-contents .left-side,
+            .faqs .faq-left {
+                margin-bottom: 20px;
+            }
+
+            .course-feature-container div {
+                margin-right: 20px;
+            }
+
+            .faqs {
+                flex-direction: column;
+            }
+
+
+        }
+
+        @media screen and (max-width:440px) {
+            .reason-to-enroll h1 {
+                font-size: 13px;
+                text-align: center;
+            }
+
+            .reason-to-enroll ul {
+                font-size: 11px;
+            }
+
+            .prerequisite {
+                flex-direction: column;
+            }
+
+            .prerequisite img {
+                margin: 20px 0;
+            }
+
+            .achievements h1 {
+                font-size: 16px;
+            }
+
+            .reason-to-learn h2 {
+                font-size: 12px;
+            }
+
+            .reason-to-learn .reasons div {
+                font-size: 10px;
+            }
+
+            .course-feature-container {
+                justify-content: center;
+            }
+
+            .course-for-whom h1 {
+                font-size: 18px;
             }
         }
     </style>
@@ -227,67 +681,444 @@
     </div>
 
 
-    <section class="featured-courses">
-        <span>Featured Courses</span>
-        <p>Increase Your knowledge by learning</p>
+    <div class="course-detail-container"></div>
 
-        <div class="course-container">
-
-        </div>
-    </section>
-
-    <!-- <script src="./js/carousel/jquery.min.js"></script>
-    <script src="./js/carousel/owl.carousel.min.js"></script>
-    <script src="./js/zoom/jquery-imagepreviewer.min.js"></script> -->
+    <!-- <script src="./js/carousel/jquery.min.js"></script> -->
+    <!-- <script src="./js/carousel/owl.carousel.min.js"></script> -->
+    <!-- <script src="./js/zoom/jquery-imagepreviewer.min.js"></script> -->
     <script src="./js/getData.js"></script>
     <script src="./js/common.js"></script>
     <script src="./js/getCourses.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="vcollapse.js"></script>
+    <!-- <script src="./js/vcollapse.min.js"></script> -->
+
+    <script>
+        fetch('data/course.json')
+            .then(res => res.json())
+            .then(data => {
+                const courseFind = data.find(course => course.id == 0)
+                console.log(courseFind);
+
+                const { courseName, overview, details, learners, videoSrc, shortName, reasons, why, curriculum, features, faq, forWho, prerequisite } = courseFind;
+
+                const courseDetailContainer = document.querySelector('.course-detail-container')
+
+                const back = () => {
+                    window.history.back()
+                }
+
+                courseDetailContainer.innerHTML = `
+
+                <a href="./courses.html" class="back-btn" onclick="back()" data-aos="fade-right">Back <i class="fa fa-backward" aria-hidden="true"></i></a>
+
+                <div class="course-detail-header">
+                    <div data-aos="fade-up">
+                        <h1 class="course-title">${courseName}</h1>
+                        <p class="overview">${overview}</p>
+                        <div class="enroll-info">
+
+                            <div class="table">
+                                <table class="styled-table">
+                                    <thead>
+                                        <tr>
+                                            <th>When</th>
+                                            <th>Time</th>
+                                            <th>Duration</th>
+                                            <th>Price</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>${details?.when}</td>
+                                            <td>${details?.time}</td>
+                                            <td>${details?.duration}</td>
+                                            <td>
+                                                <div style="text-decoration:line-through">Rs. ${details?.price[0]}</div>
+                                                <div>Rs. ${details?.price[1]}</div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            
+                            <div class="enroll-details">
+
+                                <div class="rating">
+                                    <p>Review</p>
+                                    <div class="stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>    
+                                    </div>
+                                </div>
+
+                                <div class="learners">
+                                    <p>Learners</p>
+                                    <span>${learners}</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="#" class="enroll-btn">Enroll</a>
+                    </div>
+                    <div class="video-player" data-aos="fade-left">
+                        
+                        <iframe  src=${videoSrc} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
 
 
+
+                <div class="reason-to-enroll">
+                    
+                    <div data-aos="fade-right">
+                        <img src='./images/course-img/course-details/girl.jpg' />
+                    </div>
+                    
+                    <div data-aos="zoom-in">
+                        <h1>Why should you enroll in this Free ${shortName} Course?</h1>
+
+                        <ul></ul>
+                    </div>
+
+                    
+                </div>
+
+
+                <div class="prerequisite">
+                    <div data-aos="fade-right" data-aos-easing="ease-in-sine">
+                        <h1>${prerequisite.que}</h1>
+                        <b>${prerequisite.ans}</b>
+                        <p>${prerequisite.suggest}</p>
+                    </div>
+                    <div>
+                        <img src="./images/course-img/course-details/boy.jpg" />
+                    </div>
+                </div>
+
+
+                <div class="achievements">
+                    <h1 data-aos="fade-right">What will you take home from this ${shortName} Free Online course?</h1>
+
+                    <div class="achievements-details">
+                        <div class="left-side" data-aos="zoom-in"></div>
+                        <div class="right-side" data-aos="zoom-in"></div>
+                    </div>
+                </div>
+
+
+
+                <div class="reason-to-learn">
+                    <h2 data-aos="zoom-in" data-aos-duration=3000>Why should you learn ${shortName}?</h2>
+                    <div class="reasons"></div>
+                </div>
+
+
+                <div class="course-content-section">
+                    <h2 data-aos="zoom-in">Course Content</h2>
+
+                    <div class="course-contents">
+                        <div class="left-side" data-aos="zoom-in"></div>
+                        <div class="right-side" data-aos="zoom-in"></div>    
+                    </div>
+                </div>
+
+
+                <div class="course-features-section">
+                    <h2 data-aos="fade-right" data-aos-animation=1000>Features of ${shortName} free course</h2>
+
+                    <div class="course-feature-container" data-aos="fade-up" data-aos-duration=1000>
+                        
+                    </div>
+                </div>
+
+
+                <div class="course-for-whom">
+                    <h1 data-aos="fade-right" data-aos-duration=1000>${forWho.que}</h1>
+                    <p data-aos="zoom-in" data-aos-duration=1000>${forWho.ans}</p>
+                </div>
+
+                <div class="companies">
+                    <h1 data-aos="zoom-in">Companies you can expect <br> when you get Python-certified with us</h1>
+
+                    <div class="companies-img" data-aos="fade-up" data-aos-duration=1000>
+                        <img src="./images/companies.png" alt="companies image">
+                    </div>
+                </div>
+
+
+                <div class='faq-container'>
+                    <h1 data-aos="fade-right">${shortName} Online Training FAQs</h1>
+
+                    <div class="faqs" data-aos="fade-up" data-aos-duration=1000>
+
+                        <div class="faq-left"></div>
+                        <div class="faq-right"></div>
+
+                    </div>
+                </div>
+                
+                `;
+
+
+
+
+
+
+
+                // reason to enroll 
+                const ulContainer = document.querySelector('.reason-to-enroll ul');
+
+                reasons?.enroll.forEach(item => {
+                    const li = document.createElement('li')
+
+                    li.textContent = `${item}`
+                    ulContainer.appendChild(li)
+                })
+
+                // take home section
+                const achievementsLeft = document.querySelector('.achievements-details .left-side')
+                const achievementsRight = document.querySelector('.achievements-details .right-side')
+
+
+                // achievement left side 
+                reasons?.learn[0].forEach(item => {
+                    const p = document.createElement('p')
+                    p.textContent = `${item}`
+                    achievementsLeft.appendChild(p)
+                })
+
+                // achievements right side 
+                reasons?.learn[1].forEach(item => {
+                    const p = document.createElement('p')
+                    p.textContent = `${item}`
+                    achievementsRight.appendChild(p)
+                })
+
+
+                // why should learn python
+                const reasonsContainer = document.querySelector('.reason-to-learn .reasons')
+
+                why.forEach(item => {
+                    const containerDiv = document.createElement('div')
+                    containerDiv.setAttribute('data-aos', 'fade-right')
+                    containerDiv.setAttribute('data-aos-duration', 1000)
+
+                    const p = document.createElement('p')
+                    p.textContent = `${item.title}`
+
+
+                    const span = document.createElement('span')
+                    span.style.fontWeight = 'bold'
+                    span.textContent = `-${item.src}`
+
+                    containerDiv.append(p, span)
+
+                    reasonsContainer.appendChild(containerDiv)
+                })
+
+                // course content left side
+
+                const leftSideContent = document.querySelector('.course-contents .left-side')
+
+                curriculum[0].forEach((item, index) => {
+                    const targetId = `ls${index}`
+                    const target = `#ls${index}`
+
+                    const containerDiv = document.createElement('div');
+                    containerDiv.innerHTML = `
+
+                        <div class="vcollapse-toggle" data-target=${target}>
+                            <p>${item.no}. ${item.title}</p>
+
+                        </div>
+
+                        <div class="vcollapse-content" id=${targetId}>
+
+                            <ol></ol>
+
+                        </div>
+                    `;
+
+                    leftSideContent.appendChild(containerDiv)
+
+                    const contentSelector = `#${targetId} ol`
+                    const contentList = document.querySelector(contentSelector)
+
+                    item.content.forEach(text => {
+                        const li = document.createElement('li')
+                        li.textContent = `${text}`
+
+                        contentList.appendChild(li)
+                    })
+                })
+
+                // course content right side
+                const rightSideContent = document.querySelector('.course-contents .right-side')
+
+                curriculum[1].forEach((item, index) => {
+                    const targetId = `rs${index}`
+                    const target = `#rs${index}`
+
+                    const containerDiv = document.createElement('div');
+                    containerDiv.innerHTML = `
+
+                                <div class="vcollapse-toggle" data-target=${target}>
+                                    <p>${item.no}. ${item.title}</p>
+
+                                </div>
+
+                                <div class="vcollapse-content" id=${targetId}>
+
+                                    <ol></ol>
+
+                                </div>
+                            `;
+
+                    rightSideContent.appendChild(containerDiv)
+
+                    const contentSelector = `#${targetId} ol`
+                    const contentList = document.querySelector(contentSelector)
+
+                    item.content.forEach(text => {
+                        const li = document.createElement('li')
+                        li.textContent = `${text}`
+
+                        contentList.appendChild(li)
+                    })
+                })
+
+
+
+
+                // course features 
+                const courseFeatureContainer = document.querySelector('.course-feature-container')
+
+                features.forEach(feature => {
+                    const parentDiv = document.createElement('div')
+                    parentDiv.innerHTML = `
+                <div class="feature-img">
+                    <img src=${feature.img} />
+                </div>
+
+                <p>${feature.title}</p>`
+
+                    courseFeatureContainer.appendChild(parentDiv)
+                })
+
+
+                // faq part 
+
+                const faqDiv = document.querySelector('.faqs')
+                const faqLeftSide = document.querySelector('.faqs .faq-left')
+                const faqRightSide = document.querySelector('.faqs .faq-right')
+
+
+
+                // faq left side 
+                faq[0].forEach((item, index) => {
+                    const targetId = `fql${index}`
+                    const target = `#fql${index}`
+
+                    const containerDiv = document.createElement('div');
+                    containerDiv.innerHTML = `
+
+                                <div class="vcollapse-toggle" data-target=${target}>
+                                    <p>${item.que}</p>
+
+                                </div>
+
+                                <div class="vcollapse-content" id=${targetId}>
+
+                                  <p> ${item.ans}</p>
+
+                                </div>
+                            `;
+
+                    faqLeftSide.appendChild(containerDiv)
+
+
+                })
+
+                // faq right side 
+                faq[1].forEach((item, index) => {
+                    const targetId = `fqr${index}`
+                    const target = `#fqr${index}`
+
+                    const containerDiv = document.createElement('div');
+                    containerDiv.innerHTML = `
+
+                                <div class="vcollapse-toggle" data-target=${target}>
+                                    <p>${item.que}</p>
+
+                                </div>
+
+                                <div class="vcollapse-content" id=${targetId}>
+
+                                  <p> ${item.ans}</p>
+
+                                </div>
+                            `;
+
+                    faqRightSide.appendChild(containerDiv)
+
+
+                })
+
+
+
+
+                //jquery accordion 
+                $('.course-contents .left-side').vCollapse({
+                    'any': true,
+                    'onLoad': 0,
+                    'speed': 300,
+                    'easing': 'ease-in',
+                })
+
+                $('.course-contents .right-side').vCollapse({
+                    'any': true,
+                    'onLoad': 0,
+                    'speed': 300,
+                    'easing': 'ease-in',
+                })
+
+                $('.faqs .faq-left').vCollapse({
+                    'any': true,
+                    'onLoad': 0,
+                    'speed': 300,
+                    'easing': 'ease-in',
+                })
+
+                $('.faqs .faq-right').vCollapse({
+                    'any': true,
+                    'onLoad': 0,
+                    'speed': 300,
+                    'easing': 'ease-in',
+                })
+
+
+
+
+
+
+            })
+
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
     <script>
 
 
 
-        const courseContainer = document.querySelector('.course-container');
 
-
-
-
-        const courses = (data, showData) => {
-            console.log(data);
-
-            for (i = 0; i < showData; i++) {
-
-                const { bannerImg, price, tag, courseName, id } = data[i];
-
-                // course parent div 
-
-                const courseDiv = document.createElement('div');
-                courseDiv.classList.add('course-card')
-                courseDiv.innerHTML = `
-                    <a href="#">
-                        <div class="course-banner">
-                            <img src=${bannerImg} />
-                        </div>
-
-                   
-
-                            <h1 class="course-title">${courseName}</h1>
-
-                        
-
-                      
-                        </div>    
-                    </a>
-            `;
-
-                courseContainer.appendChild(courseDiv)
-            }
-        }
-
-
-        getAllData("data/course.json", courses, 4)
 
 
 

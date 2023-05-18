@@ -16,10 +16,14 @@ $(document).ready(function () {
   });
 });
 
-const courseContainer = document.querySelector(".featured-courses");
+// all courses
+
+const courseSection = document.querySelector(".featured-courses");
 
 const viewAllCourseBtn = document.createElement("a");
-viewAllCourseBtn.classList.add("view-btn");
-courseContainer.add.appendChild(" courses");");
+viewAllCourseBtn.classList.add("view-course-btn");
+viewAllCourseBtn.textContent = "view all courses";
+viewAllCourseBtn.setAttribute("href", "./courses.html");
+courseSection.appendChild(viewAllCourseBtn);
 
 getAllData("data/course.json", courses, 4);

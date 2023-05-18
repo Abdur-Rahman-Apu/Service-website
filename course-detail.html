@@ -5,17 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Case studies</title>
-    <!-- css files  -->
+    <title>Course detail</title>
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/case-studies.css">
-    <!-- font awesome  -->
-    <script src="https://kit.fontawesome.com/3b7a96cd6e.js" crossorigin="anonymous"></script>
-    <!-- aos animation  -->
+    <link rel="stylesheet" href="./css/course-details.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <script src="https://kit.fontawesome.com/3b7a96cd6e.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+
 
     <!-- scroll-to-top  -->
     <div class="up">
@@ -26,15 +25,15 @@
     </div>
 
     <!-- navbar  -->
-    <div class="navbar">
+    <div class="navbar" data-aos="fade-in" data-aos-duration="1000">
         <div class="logo">
             <img src="./images/logo.png" alt="logo">
         </div>
         <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./index.html">About</a></li>
-            <li><a href="./index.html">Services</a></li>
-            <li><a class="active" href="./case-studies.html">Case Study</a></li>
+            <li><a class="active" href="./index.html">Home</a></li>
+            <li><a href="#about-section">About</a></li>
+            <li><a href="#service-section">Services</a></li>
+            <li><a href="./case-studies.html">Case Study</a></li>
             <li><a href="./courses.html">Courses</a></li>
             <li><a href="#">Certificates</a></li>
             <li><a href="#">Webinar</a></li>
@@ -46,14 +45,16 @@
         <div class="contact">
             <div class="humburger" onclick="toggleMenu()">
                 <i class="fa-solid fa-bars" id="humburger-icon"></i>
+
                 <span></span>
+
                 <i class="fa-regular fa-circle-xmark" id="close-icon"></i>
 
                 <ul class="humburger-menus">
-                    <li><a href="./index.html">Home</a></li>
+                    <li><a class="active" href="./index.html">Home</a></li>
                     <li><a href="#about-section">About</a></li>
                     <li><a href="#service-section">Services</a></li>
-                    <li><a href="./case-studies.html" class="active">Case Study</a></li>
+                    <li><a href="./case-studies.html">Case Study</a></li>
                     <li><a href="./courses.html">Courses</a></li>
                     <li><a href="#">Certificates</a></li>
                     <li><a href="#">Webinar</a></li>
@@ -87,25 +88,21 @@
         </div>
     </div>
 
-    <!-- case study section  -->
-    <section class="case-study-section">
-        <h1 class="case-study-title">
-            Our client work
-        </h1>
 
-        <div class="featured-projects">
+    <div class="course-detail-container"></div>
 
-        </div>
-    </section>
+
+    <!-- js files  -->
+    <script src="./js/getData.js"></script>
+    <script src="./js/common.js"></script>
+    <script src="./js/getCourseDetail.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="./js/vcollapse.js"></script>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
-    <script src="./js/common.js"></script>
-    <script src="./js/getData.js"></script>
-    <script src="./js/caseStudies.js"></script>
-
 </body>
 
 </html>

@@ -211,13 +211,10 @@
             "Python Testing with unittest"
           ]
         },
+
         {
           "no": 12,
           "title": "Python Advanced Concepts",
-          "content": [""]
-        },
-        {
-          "title": "Demystifying Python",
           "content": [
             "Python Regular Expressions – Powerful data manipulation tool",
             "Python Virtual Environments",
@@ -310,18 +307,31 @@
       ]
     ],
     "features": [
-      { "img": "", "title": "50+ Hrs of Video based session" },
-      { "img": "", "title": "Lifetime access to course with support" },
-      { "img": "", "title": "Real time capstone projects" },
-      { "img": "", "title": "Industry renowned Certification" },
-      { "img": "", "title": "Discussion forum for queries and interaction" }
-    ],
-    "forWho": [
       {
-        "que": "Is this online Python training course for beginners?",
-        "ans": "Yes, this free python course starts from scratch, and any newbie can learn easily.<br>Python is the most popular programming language on the planet. It has quickly become a preferred language for everything from desktop apps, web development to Data Science and Machine Learning. Although anyone can learn Python and carve his/her career, here are the kind of professionals / beginners who can easily go for this free Python course:<ul><li>Machine Learning, AI professionals</li><li>Software developers, Testers, Leads and architects</li><li>Data Science aspirants</li><li>Freshers / Graduates focusing to build a rock solid career</li></ul>"
+        "img": "./images/course-img/course-features/time.png",
+        "title": "50+ Hrs of Video based session"
+      },
+      {
+        "img": "./images/course-img/course-features/support.png",
+        "title": "Lifetime access to course with support"
+      },
+      {
+        "img": "./images/course-img/course-features/project.png",
+        "title": "Real time capstone projects"
+      },
+      {
+        "img": "./images/course-img/course-features/certificate.png",
+        "title": "Industry renowned Certification"
+      },
+      {
+        "img": "./images/course-img/course-features/brainstorming.png",
+        "title": "Discussion forum for queries and interaction"
       }
     ],
+    "forWho": {
+      "que": "Is this online Python training course for beginners?",
+      "ans": "Yes, this free python course starts from scratch, and any newbie can learn easily.<br>Python is the most popular programming language on the planet. It has quickly become a preferred language for everything from desktop apps, web development to Data Science and Machine Learning. Although anyone can learn Python and carve his/her career, here are the kind of professionals / beginners who can easily go for this free Python course:<ul><li>Machine Learning, AI professionals</li><li>Software developers, Testers, Leads and architects</li><li>Data Science aspirants</li><li>Freshers / Graduates focusing to build a rock solid career</li></ul>"
+    },
     "companies": {
       "title": "Companies you can expect when you get Python-certified with us",
       "img": "./images/companies.png"
