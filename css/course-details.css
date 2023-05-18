@@ -13,9 +13,6 @@ body {
   padding: 20px;
 } */
 
-.course-detail-header {
-}
-
 .course-detail-header .course-title {
   font-family: "Titillium Web", sans-serif;
   font-weight: 600;
@@ -60,6 +57,7 @@ body {
   display: flex;
   align-items: center;
   margin: 80px 0 50px;
+  font-family: "Titillium Web", sans-serif;
 }
 
 .reason-to-enroll ul {
@@ -131,6 +129,11 @@ body {
   padding: 20px;
 }
 
+.achievements-details .left-side i,
+.achievements-details .right-side i {
+  font-size: 20px;
+}
+
 .achievements-details .right-side {
   padding: 20px;
 }
@@ -149,9 +152,9 @@ body {
 
 .reason-to-learn h2 {
   text-transform: uppercase;
-  background-color: #f14d5d;
+
   padding: 10px;
-  color: #fff;
+
   width: 50%;
   margin: 50px auto;
   border-radius: 10px;
@@ -314,13 +317,9 @@ body {
 }
 
 .course-for-whom ul li {
-  background-color: #f14d5d;
-  display: inline-block;
-  width: fit-content;
   padding: 10px;
-  color: #fff;
+
   margin: 10px;
-  border-radius: 10px;
 }
 
 /* companies section  */

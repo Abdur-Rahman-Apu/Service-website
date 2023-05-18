@@ -157,14 +157,14 @@ const courseDetails = (data, courseId) => {
   // achievement left side
   reasons?.learn[0].forEach((item) => {
     const p = document.createElement("p");
-    p.textContent = `${item}`;
+    p.innerHTML = `<i class="fa-solid fa-check"></i>  ${item}`;
     achievementsLeft.appendChild(p);
   });
 
   // achievements right side
   reasons?.learn[1].forEach((item) => {
     const p = document.createElement("p");
-    p.textContent = `${item}`;
+    p.innerHTML = `<i class="fa-solid fa-check"></i> ${item}`;
     achievementsRight.appendChild(p);
   });
 
