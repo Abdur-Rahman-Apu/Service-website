@@ -52,7 +52,7 @@ const courseDetails = (data, courseId) => {
       </div>
       
       <div data-aos="zoom-in">
-          <h1>Why should you enroll in this Free ${shortName} Course?</h1>
+          <h1>Why should you enroll in this ${shortName} Course?</h1>
 
           <ul></ul>
       </div>
@@ -142,7 +142,7 @@ const courseDetails = (data, courseId) => {
   reasons?.enroll.forEach((item) => {
     const li = document.createElement("li");
 
-    li.textContent = `${item}`;
+    li.innerHTML = `<i class="fa-solid fa-check"></i> ${item}`;
     ulContainer.appendChild(li);
   });
 
