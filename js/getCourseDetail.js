@@ -56,12 +56,12 @@ const courseDetails = (data, courseId) => {
 
   <div class="reason-to-enroll">
       
-      <div data-aos="fade-right">
+      <div data-aos="fade-right" class="reason-to-enroll-left-side">
           <img src='./images/course-img/course-details/girl.jpg' />
       </div>
       
-      <div data-aos="zoom-in">
-          <h1>Why should you enroll in this ${shortName} Course?</h1>
+      <div data-aos="zoom-in" class="reason-to-enroll-right-side">
+          <h1>Why should you enroll in this ${shortName}Course?</h1>
 
           <ul></ul>
       </div>
