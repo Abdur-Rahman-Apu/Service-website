@@ -18,7 +18,6 @@ body {
 }
 
 .course-detail-header .course-info {
-  margin-top: 80px;
   flex-basis: 50%;
 }
 
@@ -28,7 +27,6 @@ body {
 
 .banner-img img {
   width: 100%;
-  height: 100%;
   object-fit: cover;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
