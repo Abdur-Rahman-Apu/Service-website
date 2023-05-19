@@ -1,7 +1,7 @@
 [
   {
     "id": 0,
-    "price": "Free",
+    "price": "",
     "courseName": "Python Certification Course in English",
     "bannerImg": "./images/course-img/course-banner/python.png",
     "shortName": "python",
@@ -53,9 +53,9 @@
       }
     ],
     "prerequisite": {
-      "que": "What to do before you begin your Free Python Course?",
+      "que": "What to do before you begin your  Python Course?",
       "ans": "Nothing!",
-      "suggest": "ll you need to make the most out of this free python course is a desire to learn and a penchant for solving problems"
+      "suggest": "ll you need to make the most out of this  python course is a desire to learn and a penchant for solving problems"
     },
     "details": {
       "when": "Self-Paced",
@@ -321,7 +321,7 @@
     ],
     "forWho": {
       "que": "Is this online Python training course for beginners?",
-      "ans": "Yes, this free python course starts from scratch, and any newbie can learn easily.<br>Python is the most popular programming language on the planet. It has quickly become a preferred language for everything from desktop apps, web development to Data Science and Machine Learning. Although anyone can learn Python and carve his/her career, here are the kind of professionals / beginners who can easily go for this free Python course:<ul><li> <i class='fa-solid fa-check'></i> Machine Learning, AI professionals</li><li> <i class='fa-solid fa-check'></i> Software developers, Testers, Leads and architects</li><li> <i class='fa-solid fa-check'></i> Data Science aspirants</li><li> <i class='fa-solid fa-check'></i> Freshers / Graduates focusing to build a rock solid career</li></ul>"
+      "ans": "Yes, this python course starts from scratch, and any newbie can learn easily.<br>Python is the most popular programming language on the planet. It has quickly become a preferred language for everything from desktop apps, web development to Data Science and Machine Learning. Although anyone can learn Python and carve his/her career, here are the kind of professionals / beginners who can easily go for this  Python course:<ul><li> <i class='fa-solid fa-check'></i> Machine Learning, AI professionals</li><li> <i class='fa-solid fa-check'></i> Software developers, Testers, Leads and architects</li><li> <i class='fa-solid fa-check'></i> Data Science aspirants</li><li> <i class='fa-solid fa-check'></i> Freshers / Graduates focusing to build a rock solid career</li></ul>"
     },
     "companies": {
       "title": "Companies you can expect when you get Python-certified with us",
@@ -330,15 +330,15 @@
     "faq": [
       [
         {
-          "que": "Is the Python course free or is it paid?",
-          "ans": "It is a completely free python course and there is no payment required"
+          "que": "Is the Python course  or is it paid?",
+          "ans": "It is a completely  python course and there is no payment required"
         },
         {
-          "que": "How long are the free python course materials accessible?",
+          "que": "How long are the  python course materials accessible?",
           "ans": "The python for beginners course will be available for the lifetime, which includes sessions along with the complete Python study material, python practicals, and python projects."
         },
         {
-          "que": "Is this Free Python Course for Beginners?",
+          "que": "Is this  Python Course for Beginners?",
           "ans": "This Python course covers all the topics from scratch till the advanced level (ie python basics to advanced). So, any beginner or a person with experience can take advantage of this python training."
         },
         {
@@ -351,33 +351,33 @@
         },
         {
           "que": "What do I need in order to attend the course?",
-          "ans": "To attend this free Python training, you just need a laptop or PC with a good internet connection. You must be eager to learn in order to carve your career in a booming field."
+          "ans": "To attend this  Python training, you just need a laptop or PC with a good internet connection. You must be eager to learn in order to carve your career in a booming field."
         },
         {
           "que": "What things do I need to learn Python through this course?",
-          "ans": "To attend this free online Python training, you just need a laptop or a PC with minimum 4GB RAM. Nothing else is required to learn it."
+          "ans": "To attend this  online Python training, you just need a laptop or a PC with minimum 4GB RAM. Nothing else is required to learn it."
         },
         {
           "que": "What are the system specifications required to attend this python course?",
-          "ans": "It is recommended to have a minimum of an i3 processor, 20 GB free disk, and 4 GB RAM for installing python and related software."
+          "ans": "It is recommended to have a minimum of an i3 processor, 20 GB  disk, and 4 GB RAM for installing python and related software."
         },
         {
           "que": "Is this python course for one looking for Data Science carrer option?",
-          "ans": "Yes, this python course in hindi covers all the basics python concepts to learn python programming and also includes the foundation topics for a person looking for data science job. Our free python training starts with basics then we cover multiple workshops, POCs, and live projects. These python classes will help you get your dream Data Science job in the industry."
+          "ans": "Yes, this python course in hindi covers all the basics python concepts to learn python programming and also includes the foundation topics for a person looking for data science job. Our  python training starts with basics then we cover multiple workshops, POCs, and live projects. These python classes will help you get your dream Data Science job in the industry."
         },
         {
-          "que": "What will be the end result of DataFlair Free online Python training course?",
-          "ans": "This python course not only covers python basics for beginners but also includes full stack python development. When you finish this free course, you will be equipped with practical skills and theoretical knowledge the industry looks for. You will bloom into a certified Python professional who is ready to take on Data Science Projects in top organizations."
+          "que": "What will be the end result of DataFlair  online Python training course?",
+          "ans": "This python course not only covers python basics for beginners but also includes full stack python development. When you finish this  course, you will be equipped with practical skills and theoretical knowledge the industry looks for. You will bloom into a certified Python professional who is ready to take on Data Science Projects in top organizations."
         },
         {
           "que": "Where do python students come from?",
-          "ans": "DataFlair has blend of students from 130+ Countries. Apart from India, we provide training in the US, UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, and many others covering the globe. You can learn python free from across the world with our innovative online training."
+          "ans": "DataFlair has blend of students from 130+ Countries. Apart from India, we provide training in the US, UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, and many others covering the globe. You can learn python  from across the world with our innovative online training."
         }
       ],
       [
         {
-          "que": "Is this Free python course for programmers classroom-based?",
-          "ans": "This free python training program in hindi is entirely online and self-paced."
+          "que": "Is this  python course for programmers classroom-based?",
+          "ans": "This  python training program in hindi is entirely online and self-paced."
         },
         {
           "que": "Why should I learn Python?",
@@ -389,7 +389,7 @@
         },
         {
           "que": "How do I get in touch for further queries?",
-          "ans": "Feel free to contact us by dropping a mail to <br>info@data-flair.training</br> BTW this python for programmers course is self explanatory and covers details about each and every topic"
+          "ans": "Feel  to contact us by dropping a mail to <br>info@data-flair.training</br> BTW this python for programmers course is self explanatory and covers details about each and every topic"
         },
         {
           "que": "What type of python projects will I be doing during the training?",
@@ -404,7 +404,7 @@
           "ans": "This python hindi course contains both theoretical and practical concepts as well as real-time python projects.<br>Here you can learn python from scratch with fundamental concepts, after that you can jump to intermediate level and make hands dirty with python practicals. At the end work on live projects to master the python programming language."
         },
         {
-          "que": "Can I attend a demo session before enrolling for this free Python course?",
+          "que": "Can I attend a demo session before enrolling for this  Python course?",
           "ans": "Yes, you can attend the demo Python class recording on this course page to understand the python training quality we provide. This is what creates the difference between DataFlair and other online Python training providers."
         },
         {
@@ -412,20 +412,20 @@
           "ans": "Python is the technology that will open many doors for you. Not only is it a general-purpose language, it is used everywhere from scripting and web scraping to hot topics like Data Science and Machine Learning. With Python, you can be a:<br><ul><li>Python Developer</li><li>Data Scientist</li><li>Python Research Analyst</li><li>Software Engineer</li><li>Software Developer</li><li>Data Analyst</li></ul>"
         },
         {
-          "que": "Why should I enroll in this Free Python Course?",
-          "ans": "This free python course in Hindi gives hands-on learning with basics of python programming to real-time python projects.<br>This course includes python tutorial, data structures with python, basic coding in python, python programming basics, real-time examples of python programming to make you a python expert.<br>Self paced training with lifetime access to the course, study material, practical codes, quizzes, interview guides,"
+          "que": "Why should I enroll in this  Python Course?",
+          "ans": "This  python course in Hindi gives hands-on learning with basics of python programming to real-time python projects.<br>This course includes python tutorial, data structures with python, basic coding in python, python programming basics, real-time examples of python programming to make you a python expert.<br>Self paced training with lifetime access to the course, study material, practical codes, quizzes, interview guides,"
         },
         {
-          "que": "Is this Python course completely free or do I need to pay anything in between?",
-          "ans": "It’s a completely Free python course in Hindi and you need not pay anything for it. Even Python Certification is also free – ie we offer free python course with certificate."
+          "que": "Is this Python course completely  or do I need to pay anything in between?",
+          "ans": "It’s a completely  python course in Hindi and you need not pay anything for it. Even Python Certification is also  – ie we offer  python course with certificate."
         }
       ]
     ]
   },
   {
     "id": 1,
-    "price": "Free",
-    "courseName": "Free Big Data and Hadoop Certification Course",
+    "price": "",
+    "courseName": " Big Data and Hadoop Certification Course",
     "bannerImg": "./images/course-img/course-banner/hadoop.jpg",
     "shortName": "Big Data & Hadoop",
     "tag": ["Data", "Hadoop"],
@@ -793,7 +793,7 @@
         },
         {
           "que": "How do I get in touch with you for further queries?",
-          "ans": "You can feel free to contact us by placing a CALL at +91 8451097879 OR dropping your queries on our email at info@data-flair.training"
+          "ans": "You can feel  to contact us by placing a CALL at +91 8451097879 OR dropping your queries on our email at info@data-flair.training"
         },
         {
           "que": "Why should I learn Hadoop?",
@@ -820,13 +820,13 @@
   },
   {
     "id": 2,
-    "price": "Free",
-    "courseName": "Free C Programming Course in Hindi",
+    "price": "",
+    "courseName": " C Programming Course in Hindi",
     "bannerImg": "./images/course-img/course-banner/c.jpg",
     "shortName": "C Programming",
     "tag": ["C", "Programming"],
     "videoSrc": "https://www.youtube.com/embed/7Dh73z3icd8",
-    "overview": "DataFlair’s free C programming course is designed for you to master the C language. Learn C from basics to advanced concepts like pointers, memory allocation, etc., and basic topics, this course will help you gain a foundation in C programming. It is also developed to be hands on which will help you acquainted with core topics with ease.",
+    "overview": "DataFlair’s  C programming course is designed for you to master the C language. Learn C from basics to advanced concepts like pointers, memory allocation, etc., and basic topics, this course will help you gain a foundation in C programming. It is also developed to be hands on which will help you acquainted with core topics with ease.",
     "rating": "5",
     "learners": "8103",
     "reasons": {
@@ -874,9 +874,9 @@
       }
     ],
     "prerequisite": {
-      "que": "What to do before you begin your Free C online training?",
+      "que": "What to do before you begin your  C online training?",
       "ans": "Nothing!",
-      "suggest": "All you need to make the most out of this free C course is a desire to learn and a penchant for solving real-world problems"
+      "suggest": "All you need to make the most out of this  C course is a desire to learn and a penchant for solving real-world problems"
     },
     "details": {
       "when": "Self-Paced",
@@ -1135,8 +1135,8 @@
     ],
     "forWho": [
       {
-        "que": "Is this free online C Programming course for beginners?",
-        "ans": "C is an evergreen programming language. Anyone can benefit from a career in it, here are the kind of professionals / freshers / C beginners who should go for this free C training course:<ul><li>System developer / OS developer</li><li>Software developers and architects</li><li>Game Developers</li><li>Freshers / Graduates focusing to build a rock solid career</li></ul>"
+        "que": "Is this  online C Programming course for beginners?",
+        "ans": "C is an evergreen programming language. Anyone can benefit from a career in it, here are the kind of professionals / freshers / C beginners who should go for this  C training course:<ul><li>System developer / OS developer</li><li>Software developers and architects</li><li>Game Developers</li><li>Freshers / Graduates focusing to build a rock solid career</li></ul>"
       }
     ],
     "companies": {
@@ -1146,8 +1146,8 @@
     "faq": [
       [
         {
-          "que": "Is the C course free or is it paid?",
-          "ans": "This C course offered by Dataflair is a free course. Even C Certification is also Free."
+          "que": "Is the C course  or is it paid?",
+          "ans": "This C course offered by Dataflair is a  course. Even C Certification is also ."
         },
         {
           "que": "How long will the C Programming course recordings be available?",
@@ -1166,7 +1166,7 @@
           "ans": "Any basic  / elementary PC is sufficient to learn C, it is recommended to have minimum of an i3 processor (or dual core), a 20 GB disk, and 4 GB RAM for installing and practising C."
         },
         {
-          "que": "What will be the end result of this Free online C programming course?",
+          "que": "What will be the end result of this  online C programming course?",
           "ans": "At the end of the C course, you will greatly understand C coding, algorithms, and data structures in C. This knowledge will help you get placed in a job of your choice and also act as a foundation for you to learn any other programming language."
         },
         {
@@ -1174,8 +1174,8 @@
           "ans": "DataFlair has blend of students from across the globe. Apart from India, we provide training in the US, the UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, and many others covering the globe."
         },
         {
-          "que": "Is this Free C Programming Course for Beginners?",
-          "ans": "This Free C Programming course covers all the topics from basics to advanced level. So this is a C training for anyone looking learn C programming language from scratch."
+          "que": "Is this  C Programming Course for Beginners?",
+          "ans": "This  C Programming course covers all the topics from basics to advanced level. So this is a C training for anyone looking learn C programming language from scratch."
         },
         {
           "que": "Where do DataFlair students come from?",
@@ -1188,12 +1188,12 @@
       ],
       [
         {
-          "que": "Is this Free C language training classroom-based or online?",
-          "ans": "This free training program on C is entirely online and self-paced. You need not to travel anywhere rather learn c programming from the comfort of your home."
+          "que": "Is this  C language training classroom-based or online?",
+          "ans": "This  training program on C is entirely online and self-paced. You need not to travel anywhere rather learn c programming from the comfort of your home."
         },
         {
           "que": "Will I get any certificate at the end of this course?",
-          "ans": "Yes, we will provide an industry-recognized C certificate declaring your proficiency. You will work on real-time C projects at the end of this free C course. Once you have successfully made it through the C projects, you will be awarded DataFlair C certification."
+          "ans": "Yes, we will provide an industry-recognized C certificate declaring your proficiency. You will work on real-time C projects at the end of this  C course. Once you have successfully made it through the C projects, you will be awarded DataFlair C certification."
         },
         {
           "que": "Why should I learn Hadoop?",
@@ -1201,7 +1201,7 @@
         },
         {
           "que": "How do I get in touch with you for further queries?",
-          "ans": "You are free to contact us by dropping a mail to info@data-flair.training Although the course is self explanatory, we start with introduction to programming in c. In this c programming for beginners with focus on practical c programming rather than theoretical aspects. And C projects is the added advantage at the end. This approach covers all the queries automatically."
+          "ans": "You are  to contact us by dropping a mail to info@data-flair.training Although the course is self explanatory, we start with introduction to programming in c. In this c programming for beginners with focus on practical c programming rather than theoretical aspects. And C projects is the added advantage at the end. This approach covers all the queries automatically."
         },
         {
           "que": "Why should I learn C Programming?",
@@ -1220,13 +1220,13 @@
   },
   {
     "id": 3,
-    "price": "Free",
-    "courseName": "Free ML Course in Hindi",
+    "price": "",
+    "courseName": " ML Course in Hindi",
     "bannerImg": "./images/course-img/course-banner/ML.jpg",
     "shortName": "Machine Learning",
     "tag": ["AI", "ML"],
     "videoSrc": "https://www.youtube.com/embed/jyd4uH5dWJ8",
-    "overview": "A perfect blend of in-depth Machine Learning knowledge and strong practical skills using Python ML libraries to become a Data Scientist. This free machine learning course provides the implementation of real-time machine learning projects to give you a headstart and enables you to bag top ML jobs.",
+    "overview": "A perfect blend of in-depth Machine Learning knowledge and strong practical skills using Python ML libraries to become a Data Scientist. This  machine learning course provides the implementation of real-time machine learning projects to give you a headstart and enables you to bag top ML jobs.",
     "rating": "5",
     "learners": "8103",
     "reasons": {
@@ -1274,9 +1274,9 @@
       }
     ],
     "prerequisite": {
-      "que": "What to do before you begin your Free ML online training?",
+      "que": "What to do before you begin your  ML online training?",
       "ans": "Nothing!",
-      "suggest": "All you need to make the most out of this free ML course is a desire to learn and a penchant for solving real-world problems"
+      "suggest": "All you need to make the most out of this  ML course is a desire to learn and a penchant for solving real-world problems"
     },
     "details": {
       "when": "Self-Paced",
@@ -1464,8 +1464,8 @@
     ],
     "forWho": [
       {
-        "que": "Is this free online Machine Learning course for beginners (like me)?",
-        "ans": "This course will help you with your basic understanding of Machine Learning topics. The curated course will be beneficial for you in establishing a strong foundation to ensure an even stronger future hold on the topics. While anyone can benefit from it in their career, here are the kind of professionals / beginners who should go for this Free Machine Learning Course:<ul><li>Software developers, project managers, and architects</li><li>BI, ETL and Data Warehousing professionals</li><li>Web developers, Mobile app developers</li><li>Freshers / Graduates focusing to build a rock solid career</li></ul>"
+        "que": "Is this  online Machine Learning course for beginners (like me)?",
+        "ans": "This course will help you with your basic understanding of Machine Learning topics. The curated course will be beneficial for you in establishing a strong foundation to ensure an even stronger future hold on the topics. While anyone can benefit from it in their career, here are the kind of professionals / beginners who should go for this  Machine Learning Course:<ul><li>Software developers, project managers, and architects</li><li>BI, ETL and Data Warehousing professionals</li><li>Web developers, Mobile app developers</li><li>Freshers / Graduates focusing to build a rock solid career</li></ul>"
       }
     ],
     "companies": {
@@ -1475,8 +1475,8 @@
     "faq": [
       [
         {
-          "que": "Is the ML course free or is it paid?",
-          "ans": "This course offered by Dataflair is a free course. Even C Certification is also Free."
+          "que": "Is the ML course  or is it paid?",
+          "ans": "This course offered by Dataflair is a  course. Even C Certification is also ."
         },
         {
           "que": "How long will the course recordings be available?",
@@ -1495,7 +1495,7 @@
           "ans": "Any basic  / elementary PC is sufficient to learn C, it is recommended to have minimum of an i3 processor (or dual core), a 20 GB disk, and 4 GB RAM for installing and practising C."
         },
         {
-          "que": "What will be the end result of this Free online  course?",
+          "que": "What will be the end result of this  online  course?",
           "ans": "At the end of the course, you will greatly understand  ML algorithms. This knowledge will help you get placed in a job of your choice."
         },
         {
@@ -1504,7 +1504,7 @@
         },
         {
           "que": "Is this Course for Beginners?",
-          "ans": "This Free  course covers all the topics from basics to advanced level.."
+          "ans": "This   course covers all the topics from basics to advanced level.."
         },
         {
           "que": "Where do DataFlair students come from?",
@@ -1517,20 +1517,20 @@
       ],
       [
         {
-          "que": "Is this Free ML training classroom-based or online?",
-          "ans": "This free training program on ML is entirely online and self-paced. You need not to travel anywhere rather learn c programming from the comfort of your home."
+          "que": "Is this  ML training classroom-based or online?",
+          "ans": "This  training program on ML is entirely online and self-paced. You need not to travel anywhere rather learn c programming from the comfort of your home."
         },
         {
           "que": "Will I get any certificate at the end of this course?",
-          "ans": "Yes, we will provide an industry-recognized  certificate declaring your proficiency. You will work on real-time  projects at the end of this free course."
+          "ans": "Yes, we will provide an industry-recognized  certificate declaring your proficiency. You will work on real-time  projects at the end of this  course."
         },
         {
           "que": "How will this Machine Learning course be beneficial to me?",
-          "ans": "This Machine Learning course will provide you with all the basics that you will require for a hassle-free Machine Learning industry experience. It will teach you the basics as well as the complex topics of Machine Learning with ease. Apart from this, you will also gain practical knowledge for deploying Machine Learning models with the help of live Machine Learning projects."
+          "ans": "This Machine Learning course will provide you with all the basics that you will require for a hassle- Machine Learning industry experience. It will teach you the basics as well as the complex topics of Machine Learning with ease. Apart from this, you will also gain practical knowledge for deploying Machine Learning models with the help of live Machine Learning projects."
         },
         {
           "que": "How do I get in touch with you for further queries?",
-          "ans": "You are free to contact us by dropping a mail to info@data-flair.training "
+          "ans": "You are  to contact us by dropping a mail to info@data-flair.training "
         },
         {
           "que": "I am a complete beginner at Machine Learning. Will that become a problem while doing this ML course?",
@@ -1549,13 +1549,13 @@
   },
   {
     "id": 4,
-    "courseName": "Free JAVA Course in Hindi",
-    "price": "Free",
+    "courseName": " JAVA Course in Hindi",
+    "price": "",
     "bannerImg": "./images/course-img/course-banner/java.jpg",
     "shortName": "Java",
     "tag": ["Java", "Programming"],
     "videoSrc": "https://www.youtube.com/embed/KXe5S6gyDA4",
-    "overview": "A perfect blend of in-depth Java theoretical knowledge and strong practical skills, this Free course for Java introduces real-time Java projects to give you a headstart in learning Java and enables you to bag top Java jobs in the industry.",
+    "overview": "A perfect blend of in-depth Java theoretical knowledge and strong practical skills, this  course for Java introduces real-time Java projects to give you a headstart in learning Java and enables you to bag top Java jobs in the industry.",
     "rating": "5",
     "learners": "8103",
     "reasons": {
@@ -1603,9 +1603,9 @@
       }
     ],
     "prerequisite": {
-      "que": "What to do before you begin your Free online training?",
+      "que": "What to do before you begin your  online training?",
       "ans": "Nothing!",
-      "suggest": "All you need to make the most out of this free course is a desire to learn and a penchant for solving real-world problems"
+      "suggest": "All you need to make the most out of this  course is a desire to learn and a penchant for solving real-world problems"
     },
     "details": {
       "when": "Self-Paced",
@@ -1787,8 +1787,8 @@
     ],
     "forWho": [
       {
-        "que": "Is this free online Java course for beginners?",
-        "ans": "Java is an evergreen language and is continuously booming. Java has secured a good place in the Banking sector where we need a high level of security, similarly, almost all sectors are using Java. And while anyone can benefit from a career in it, here are the kind of professionals / Java beginners who go for this free Java training course:<ul><li>Software developers</li><li>App Developers</li><li>Web developers, Mobile app developers</li><li>Freshers / Graduates focusing to build a rock solid career</li></ul>"
+        "que": "Is this  online Java course for beginners?",
+        "ans": "Java is an evergreen language and is continuously booming. Java has secured a good place in the Banking sector where we need a high level of security, similarly, almost all sectors are using Java. And while anyone can benefit from a career in it, here are the kind of professionals / Java beginners who go for this  Java training course:<ul><li>Software developers</li><li>App Developers</li><li>Web developers, Mobile app developers</li><li>Freshers / Graduates focusing to build a rock solid career</li></ul>"
       }
     ],
     "companies": {
@@ -1798,8 +1798,8 @@
     "faq": [
       [
         {
-          "que": "Is the course free or is it paid?",
-          "ans": "This course offered by Dataflair is a free course. Even C Certification is also Free."
+          "que": "Is the course  or is it paid?",
+          "ans": "This course offered by Dataflair is a  course. Even C Certification is also ."
         },
         {
           "que": "How long will the course recordings be available?",
@@ -1818,7 +1818,7 @@
           "ans": "Any basic  / elementary PC is sufficient to learn C, it is recommended to have minimum of an i3 processor (or dual core), a 20 GB disk, and 4 GB RAM for installing and practising C."
         },
         {
-          "que": "What will be the end result of this Free online  course?",
+          "que": "What will be the end result of this  online  course?",
           "ans": "At the end of the course, you will greatly understand  ML algorithms. This knowledge will help you get placed in a job of your choice."
         },
         {
@@ -1827,7 +1827,7 @@
         },
         {
           "que": "Is this Course for Beginners?",
-          "ans": "This Free  course covers all the topics from basics to advanced level.."
+          "ans": "This   course covers all the topics from basics to advanced level.."
         },
         {
           "que": "Where do DataFlair students come from?",
@@ -1840,12 +1840,12 @@
       ],
       [
         {
-          "que": "Is this Free training classroom-based or online?",
-          "ans": "This free training program on ML is entirely online and self-paced. You need not to travel anywhere rather learn c programming from the comfort of your home."
+          "que": "Is this  training classroom-based or online?",
+          "ans": "This  training program on ML is entirely online and self-paced. You need not to travel anywhere rather learn c programming from the comfort of your home."
         },
         {
           "que": "Will I get any certificate at the end of this course?",
-          "ans": "Yes, we will provide an industry-recognized  certificate declaring your proficiency. You will work on real-time  projects at the end of this free course."
+          "ans": "Yes, we will provide an industry-recognized  certificate declaring your proficiency. You will work on real-time  projects at the end of this  course."
         },
         {
           "que": "How will I perform the Java practicals?",
@@ -1853,7 +1853,7 @@
         },
         {
           "que": "How do I get in touch with you for further queries?",
-          "ans": "You are free to contact us by dropping a mail to info@data-flair.training "
+          "ans": "You are  to contact us by dropping a mail to info@data-flair.training "
         },
         {
           "que": "What type projects will I be doing during the training?",
@@ -1868,8 +1868,8 @@
   },
   {
     "id": 5,
-    "courseName": "Free Big Data Certification Course with Hadoop & Spark",
-    "price": "Free",
+    "courseName": " Big Data Certification Course with Hadoop & Spark",
+    "price": "",
     "bannerImg": "./images/course-img/course-banner/hadoop-spark.jpg",
     "shortName": "Big Data, Hadoop & Spark",
     "tag": ["Data", "Hadoop"],
@@ -1922,9 +1922,9 @@
       }
     ],
     "prerequisite": {
-      "que": "What to do before you begin your Free online training?",
+      "que": "What to do before you begin your  online training?",
       "ans": "Nothing!",
-      "suggest": "All you need to make the most out of this free course is a desire to learn and a penchant for solving real-world problems"
+      "suggest": "All you need to make the most out of this  course is a desire to learn and a penchant for solving real-world problems"
     },
     "details": {
       "when": "Self-Paced",
@@ -2114,8 +2114,8 @@
     "faq": [
       [
         {
-          "que": "Is the course free or is it paid?",
-          "ans": "This course offered by Dataflair is a free course. Even C Certification is also Free."
+          "que": "Is the course  or is it paid?",
+          "ans": "This course offered by Dataflair is a  course. Even C Certification is also ."
         },
         {
           "que": "How long will the course recordings be available?",
@@ -2134,7 +2134,7 @@
           "ans": "Any basic  / elementary PC is sufficient to learn C, it is recommended to have minimum of an i3 processor (or dual core), a 20 GB disk, and 4 GB RAM for installing and practising C."
         },
         {
-          "que": "What will be the end result of this Free online  course?",
+          "que": "What will be the end result of this  online  course?",
           "ans": "At the end of the course, you will greatly understand  ML algorithms. This knowledge will help you get placed in a job of your choice."
         },
         {
@@ -2143,7 +2143,7 @@
         },
         {
           "que": "Is this Course for Beginners?",
-          "ans": "This Free  course covers all the topics from basics to advanced level.."
+          "ans": "This   course covers all the topics from basics to advanced level.."
         },
         {
           "que": "Where do DataFlair students come from?",
@@ -2156,16 +2156,16 @@
       ],
       [
         {
-          "que": "Is this Free training classroom-based or online?",
-          "ans": "This free training program on ML is entirely online and self-paced. You need not to travel anywhere rather learn c programming from the comfort of your home."
+          "que": "Is this  training classroom-based or online?",
+          "ans": "This  training program on ML is entirely online and self-paced. You need not to travel anywhere rather learn c programming from the comfort of your home."
         },
         {
           "que": "Will I get any certificate at the end of this course?",
-          "ans": "Yes, we will provide an industry-recognized  certificate declaring your proficiency. You will work on real-time  projects at the end of this free course."
+          "ans": "Yes, we will provide an industry-recognized  certificate declaring your proficiency. You will work on real-time  projects at the end of this  course."
         },
         {
           "que": "How do I get in touch with you for further queries?",
-          "ans": "You are free to contact us by dropping a mail to info@data-flair.training "
+          "ans": "You are  to contact us by dropping a mail to info@data-flair.training "
         },
         {
           "que": "What type projects will I be doing during the training?",
@@ -2180,13 +2180,13 @@
   },
   {
     "id": 6,
-    "courseName": "Free Apache Kafka Certification Course",
-    "price": "Free",
+    "courseName": " Apache Kafka Certification Course",
+    "price": "",
     "bannerImg": "./images/course-img/course-banner/kafka.jpg",
     "shortName": "Apache Kafka",
     "tag": ["Apache", "Kafka"],
     "videoSrc": "https://www.youtube.com/embed/g5TKP4yFgOY",
-    "overview": "DataFlair’s Free Kafka Training will give you a perfect blend of in-depth Kafka theoretical knowledge and strong practical skills. This Kafka certification training course introduces real-time Kafka projects to give you a headstart in learning Kafka and enables you to bag top Kafka jobs in the industry.",
+    "overview": "DataFlair’s  Kafka Training will give you a perfect blend of in-depth Kafka theoretical knowledge and strong practical skills. This Kafka certification training course introduces real-time Kafka projects to give you a headstart in learning Kafka and enables you to bag top Kafka jobs in the industry.",
     "rating": "5",
     "learners": "8103",
     "reasons": {
@@ -2234,9 +2234,9 @@
       }
     ],
     "prerequisite": {
-      "que": "What to do before you begin your Free online training?",
+      "que": "What to do before you begin your  online training?",
       "ans": "Nothing!",
-      "suggest": "All you need to make the most out of this free course is a desire to learn and a penchant for solving real-world problems"
+      "suggest": "All you need to make the most out of this  course is a desire to learn and a penchant for solving real-world problems"
     },
     "details": {
       "when": "Self-Paced",
@@ -2436,8 +2436,8 @@
     "faq": [
       [
         {
-          "que": "Is the course free or is it paid?",
-          "ans": "This course offered by Dataflair is a free course. Even C Certification is also Free."
+          "que": "Is the course  or is it paid?",
+          "ans": "This course offered by Dataflair is a  course. Even C Certification is also ."
         },
         {
           "que": "How long will the course recordings be available?",
@@ -2456,7 +2456,7 @@
           "ans": "Any basic  / elementary PC is sufficient to learn C, it is recommended to have minimum of an i3 processor (or dual core), a 20 GB disk, and 4 GB RAM for installing and practising C."
         },
         {
-          "que": "What will be the end result of this Free online  course?",
+          "que": "What will be the end result of this  online  course?",
           "ans": "At the end of the course, you will greatly understand  ML algorithms. This knowledge will help you get placed in a job of your choice."
         },
         {
@@ -2465,7 +2465,7 @@
         },
         {
           "que": "Is this Course for Beginners?",
-          "ans": "This Free  course covers all the topics from basics to advanced level.."
+          "ans": "This   course covers all the topics from basics to advanced level.."
         },
         {
           "que": "Where do DataFlair students come from?",
@@ -2478,16 +2478,16 @@
       ],
       [
         {
-          "que": "Is this Free training classroom-based or online?",
-          "ans": "This free training program on ML is entirely online and self-paced. You need not to travel anywhere rather learn c programming from the comfort of your home."
+          "que": "Is this  training classroom-based or online?",
+          "ans": "This  training program on ML is entirely online and self-paced. You need not to travel anywhere rather learn c programming from the comfort of your home."
         },
         {
           "que": "Will I get any certificate at the end of this course?",
-          "ans": "Yes, we will provide an industry-recognized  certificate declaring your proficiency. You will work on real-time  projects at the end of this free course."
+          "ans": "Yes, we will provide an industry-recognized  certificate declaring your proficiency. You will work on real-time  projects at the end of this  course."
         },
         {
           "que": "How do I get in touch with you for further queries?",
-          "ans": "You are free to contact us by dropping a mail to info@data-flair.training "
+          "ans": "You are  to contact us by dropping a mail to info@data-flair.training "
         },
         {
           "que": "What type projects will I be doing during the training?",

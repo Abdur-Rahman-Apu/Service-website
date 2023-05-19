@@ -9,9 +9,6 @@ body {
   padding: 3px 6px;
 }
 
-.course-detail-container {
-}
-
 .course-detail-header {
   background-color: rgba(255, 234, 167, 0.1);
   min-height: 110vh;
@@ -83,6 +80,7 @@ body {
   text-align: center;
   margin: 20px 0 40px;
   position: relative;
+  font-size: 36px;
 }
 
 .achievements h1::after {
@@ -146,6 +144,7 @@ body {
 
 .reason-to-enroll h1 {
   font-weight: 600;
+  font-size: 40px;
 }
 
 .reason-to-enroll ul {
@@ -197,6 +196,7 @@ body {
 }
 
 .prerequisite h1 {
+  font-size: 40px;
   font-weight: 600;
   margin-bottom: 20px;
 }
@@ -215,11 +215,9 @@ body {
 
 .reason-to-learn h2 {
   position: relative;
-
-  text-transform: uppercase;
-  font-size: 30px;
-  width: 50%;
-  margin: 20px auto 30px;
+  text-transform: capitalize;
+  font-size: 40px;
+  margin: 70px 0;
   border-radius: 10px;
   text-align: center;
 }
@@ -227,9 +225,9 @@ body {
 .reason-to-learn h2::after {
   position: absolute;
   content: "";
-  left: 33%;
+  left: 40%;
   bottom: -15px;
-  width: 30%;
+  width: 20%;
   height: 4px;
   background-color: #f5df4e;
 }
@@ -274,7 +272,7 @@ body {
 }
 
 .course-content-section h2 {
-  font-size: 28px;
+  font-size: 36px;
   margin: 80px auto;
   width: fit-content;
   text-transform: uppercase;
@@ -285,7 +283,7 @@ body {
   content: "";
   position: absolute;
   bottom: -10px;
-  left: 60px;
+  left: 120px;
   width: 100px;
   height: 4px;
   background-color: #f5df4e;
@@ -295,7 +293,7 @@ body {
   content: "";
   position: absolute;
   bottom: -20px;
-  left: 60px;
+  left: 120px;
   width: 100px;
   height: 4px;
   background-color: #f5df4e;
@@ -344,13 +342,6 @@ body {
   color: #000;
 }
 
-/* .vcollapse-content.active {
-  padding: 10px;
-} */
-
-.vcollapse-toggle p {
-}
-
 .vcollapse-content ol {
   padding-left: 30px;
   margin-bottom: 10px;
@@ -376,9 +367,9 @@ body {
 }
 
 .course-features-section h2 {
-  font-size: 30px;
+  font-size: 36px;
   font-weight: bolder;
-  text-transform: uppercase;
+  text-transform: capitalize;
   margin: 20px 0 50px;
   text-align: center;
 }
@@ -440,7 +431,7 @@ body {
   padding-left: 30px;
   text-align: center;
   margin-bottom: 60px;
-  font-size: 36px;
+  font-size: 38px;
   position: relative;
 }
 
@@ -491,6 +482,7 @@ body {
   margin-bottom: 60px;
   text-transform: uppercase;
   text-align: center;
+  font-size: 38px;
 }
 
 .companies-img {
@@ -509,6 +501,7 @@ body {
 }
 
 .faq-container h1 {
+  font-size: 38px;
   text-align: center;
   text-transform: capitalize;
   margin: 40px 0 60px;
