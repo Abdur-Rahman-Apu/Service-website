@@ -349,6 +349,10 @@ body {
   margin: 10px 0;
 }
 
+.course-contents .vcollapse-content {
+  font-size: 15px;
+}
+
 /* course features section  */
 
 .course-features-section {
@@ -528,8 +532,14 @@ body {
   padding-right: 19px;
 }
 
-.faqs .vcollapse-content p {
+.faqs .vcollapse-content p,
+.faqs .vcollapse-content ul {
   padding: 15px 15px 15px 20px;
+  font-size: 15px;
+}
+
+.faqs .vcollapse-content ul {
+  margin-left: 40px;
 }
 
 /* media query  */
