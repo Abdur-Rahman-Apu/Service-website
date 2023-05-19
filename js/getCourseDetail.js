@@ -63,7 +63,14 @@ const courseDetails = (data, courseId) => {
       <div data-aos="zoom-in" class="reason-to-enroll-right-side">
           <h1>Why should you enroll in this ${shortName} course?</h1>
 
-          <ul></ul>
+            <div class="reason-part-one">
+              <ul></ul>
+            </div>
+            
+            <div class="reason-part-two">
+              <ul></ul>
+            </div>
+          
       </div>
 
       
@@ -80,9 +87,6 @@ const courseDetails = (data, courseId) => {
           <img src="./images/course-img/course-details/boy.jpg" data-aos="zoom-in-up" />
       </div>
   </div>
-
-
-  
 
 
 
@@ -146,13 +150,26 @@ const courseDetails = (data, courseId) => {
   `;
 
   // reason to enroll
-  const ulContainer = document.querySelector(".reason-to-enroll ul");
+  const ulContainerPartOne = document.querySelector(
+    ".reason-to-enroll .reason-part-one ul"
+  );
 
-  reasons?.enroll.forEach((item) => {
+  const ulContainerPartTwo = document.querySelector(
+    ".reason-to-enroll .reason-part-two ul"
+  );
+
+  reasons?.enroll[0].forEach((item) => {
     const li = document.createElement("li");
 
     li.innerHTML = `<i class="fa-solid fa-check"></i> ${item}`;
-    ulContainer.appendChild(li);
+    ulContainerPartOne.appendChild(li);
+  });
+
+  reasons?.enroll[1].forEach((item) => {
+    const li = document.createElement("li");
+
+    li.innerHTML = `<i class="fa-solid fa-check"></i> ${item}`;
+    ulContainerPartTwo.appendChild(li);
   });
 
   // take home section

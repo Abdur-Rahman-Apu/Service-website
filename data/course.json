@@ -1,28 +1,34 @@
 [
   {
     "id": 0,
-    "price": "",
     "courseName": "Python Certification Course in English",
     "bannerImg": "./images/course-img/course-banner/python.png",
     "shortName": "python",
-    "tag": ["Python", "Programming"],
-    "videoSrc": "https://www.youtube.com/embed/6ZjfKLsR7Ps",
     "overview": "Learn Python with our all-inclusive course! Learn theory, practice coding with hands-on projects, and test your skills with engaging quizzes. Start your Python journey now!",
-    "rating": "5",
-    "learners": "686729",
     "reasons": {
       "enroll": [
-        "Get 70+ Real-time projects with implementation",
-        "170+ hrs of study material, practicals, quizzes",
-        "Practical course with real-time case-studies",
-        " Lifetime access with industry renowned certification"
+        [
+          "Learn Python from scratch",
+          "Learn full stack Python development",
+          "Work on real-time use-cases and live projects",
+          "Learn advanced python concepts like decorators",
+          "Get to know the top python frameworks",
+          "Understand how Python helps in Machine Learning"
+        ],
+        [
+          "Build industry-grad GUIs with Python",
+          "Able to use Python to solve tasks and implement it",
+          "Learn to build your own modules and packages",
+          "Learn to use the object oriented programming with Python",
+          "Beginner friendly course which makes you an expert",
+          "Work with images and files"
+        ]
       ],
       "learn": [
         [
           "50+ hrs of self-paced video course",
           "70+ Real-time projects with implementation",
-          "170+ hrs of study material, practicals, quizzes",
-          "Learn full stack Python development"
+          "170+ hrs of study material, practicals, quizzes"
         ],
         [
           "Practical course with real-time case-studies",
