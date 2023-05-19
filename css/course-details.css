@@ -265,14 +265,20 @@ body {
   color: #000;
 }
 
-.course-contents {
+/* course content section  */
+
+.course-contents,
+.faqs {
   display: flex;
   justify-content: space-between;
+  padding: 0 6%;
 }
 
 .course-contents .left-side,
-.course-contents .right-side {
-  flex-basis: 40%;
+.course-contents .right-side,
+.faqs .faq-left,
+.faqs .faq-right {
+  flex-basis: 48%;
 }
 
 .course-content-section {
@@ -309,14 +315,9 @@ body {
 
 .course-contents .left-side > div,
 .course-contents .right-side > div {
+  font-family: "Titillium Web", sans-serif;
   background-color: #fff;
-  border: 1px solid #f14d5d;
-}
-
-.faqs .faq-left > div,
-.faqs .faq-right > div {
-  background-color: #fff;
-  border: 1px solid #f14d5d;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .course-contents .left-side p,
@@ -329,31 +330,49 @@ body {
   padding: 0;
 }
 
-.course-contents .right-side .vcollapse-content {
-  padding: 5px;
-}
-
 .vcollapse-toggle,
 .course-contents .right-side .vcollapse-toggle {
+  position: relative;
   padding: 20px 10px;
   cursor: pointer;
+  background-color: rgba(255, 234, 167, 0.1);
 }
 
-.vcollapse-toggle.active {
-  background-color: #f14d5d;
+.vcollapse-toggle::after {
+  content: "\002B";
+  font-size: 1.4rem;
+  position: absolute;
+  top: 15px;
+  right: 1.2rem;
+}
+
+.vcollapse-toggle.active::after {
+  content: "\2212";
+}
+
+.vcollapse-toggle.active,
+.course-contents .right-side .vcollapse-toggle.active {
+  background-color: #f5df4e;
   font-weight: bold;
-  color: #fff;
+  color: #000;
 }
 
-.vcollapse-content.active {
+/* .vcollapse-content.active {
   padding: 10px;
+} */
+
+.vcollapse-toggle p {
+  font-family: "Titillium Web", sans-serif;
 }
 
 .vcollapse-content ol {
   padding-left: 30px;
+  margin-bottom: 10px;
+  list-style-position: inside;
 }
 
 .vcollapse-content ol li {
+  font-family: "Titillium Web", sans-serif;
   margin: 10px 0;
 }
 
@@ -414,14 +433,20 @@ body {
 
 .companies h1 {
   margin-bottom: 60px;
-  /* background-color: #F14D5D; */
   text-transform: uppercase;
-  /* color: #F14D5D; */
   text-align: center;
 }
 
 .companies-img img {
   width: 100%;
+}
+
+/* faq part  */
+
+.faqs .faq-left > div,
+.faqs .faq-right > div {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .faq-container {
@@ -434,18 +459,9 @@ body {
   margin: 40px 0 60px;
 }
 
-.faqs {
-  display: flex;
-  justify-content: space-between;
-}
-
-.faqs .faq-left,
-.faqs .faq-right {
-  flex-basis: 45%;
-}
-
 .faqs .vcollapse-content p {
-  margin: 30px 0;
+  padding: 15px 15px 15px 20px;
+  font-family: "Titillium Web", sans-serif;
 }
 
 @media screen and (max-width: 900px) {

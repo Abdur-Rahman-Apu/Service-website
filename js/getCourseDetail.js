@@ -335,28 +335,28 @@ const courseDetails = (data, courseId) => {
   //jquery accordion
   $(".course-contents .left-side").vCollapse({
     any: true,
-    onLoad: 0,
+    onLoad: -1,
     speed: 300,
     easing: "ease-in",
   });
 
   $(".course-contents .right-side").vCollapse({
     any: true,
-    onLoad: 0,
+    onLoad: -1,
     speed: 300,
     easing: "ease-in",
   });
 
   $(".faqs .faq-left").vCollapse({
     any: true,
-    onLoad: 0,
+    onLoad: -1,
     speed: 300,
     easing: "ease-in",
   });
 
   $(".faqs .faq-right").vCollapse({
     any: true,
-    onLoad: 0,
+    onLoad: -1,
     speed: 300,
     easing: "ease-in",
   });
