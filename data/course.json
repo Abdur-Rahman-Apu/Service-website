@@ -76,7 +76,7 @@
           "title": "Demystifying Python",
           "content": [
             "Introduction to Python",
-            "installation & configuration of Python",
+            "installation & configuration of Python <ul><li>Statements, Indentation-alignment, and Comments</li></ul>",
             "Python Features",
             "Basic Python Programming Syntax",
             "Reasons – Why you must learn Python",

@@ -244,7 +244,7 @@ const courseDetails = (data, courseId) => {
 
     item.content.forEach((text) => {
       const li = document.createElement("li");
-      li.textContent = `${text}`;
+      li.innerHTML = `${text}`;
 
       contentList.appendChild(li);
     });
