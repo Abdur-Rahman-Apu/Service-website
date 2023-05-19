@@ -73,7 +73,7 @@ const courseDetails = (data, courseId) => {
   <div class="prerequisite">
       <div data-aos="fade-right" data-aos-easing="ease-in-sine">
           <h1>${prerequisite.que}</h1>
-          <b>${prerequisite.ans}</b>
+          <b><span class="highlight">${prerequisite.ans}</span></b>
           <p>${prerequisite.suggest}</p>
       </div>
       <div>

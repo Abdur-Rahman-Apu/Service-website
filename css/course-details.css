@@ -4,15 +4,9 @@
 body {
   box-sizing: border-box;
 }
-.highlight::after {
-  content: "";
-  position: absolute;
+.highlight {
   background-color: #f5df4e;
-  bottom: 0;
-  left: 0;
-  width: 80%;
-  height: 3px;
-  text-transform: capitalize;
+  padding: 3px 6px;
 }
 
 .course-detail-container {
@@ -139,8 +133,7 @@ body {
 }
 
 /* reason to enroll  */
-.reason-to-enroll,
-.prerequisite {
+.reason-to-enroll {
   display: flex;
   align-items: center;
   margin: 20px 0 50px;
@@ -200,16 +193,28 @@ body {
 }
 
 .prerequisite {
-  padding: 60px 0;
+  display: flex;
+  align-items: center;
+  margin: 20px 0 50px;
+  padding: 60px 6%;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.prerequisite h1 {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  margin-bottom: 20px;
 }
 
 .prerequisite div:first-child b {
   display: inline-block;
-  margin-top: 10px;
+  font-family: "Titillium Web", sans-serif;
+  margin: 10px 0;
 }
 
 .prerequisite div:first-child p {
   margin-top: 5px;
+  font-family: "Titillium Web", sans-serif;
 }
 
 .reason-to-learn h2 {
