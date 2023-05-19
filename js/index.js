@@ -22,7 +22,7 @@ const courseSection = document.querySelector(".featured-courses");
 
 const viewAllCourseBtn = document.createElement("a");
 viewAllCourseBtn.classList.add("view-course-btn");
-viewAllCourseBtn.textContent = "view all courses";
+viewAllCourseBtn.innerText = "view all courses";
 viewAllCourseBtn.setAttribute("href", "./courses.html");
 courseSection.appendChild(viewAllCourseBtn);
 

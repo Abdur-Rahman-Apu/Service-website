@@ -327,9 +327,9 @@ header .profile-img {
   content: "";
   position: absolute;
   bottom: -10px;
-  left: 40%;
-  width: 20%;
-  height: 5px;
+  left: 45%;
+  width: 10%;
+  height: 6px;
   background-color: #f5df4e;
 }
 
@@ -409,9 +409,9 @@ header .profile-img {
   content: "";
   position: absolute;
   bottom: -14px;
-  left: 40%;
-  width: 20%;
-  height: 4px;
+  left: 45%;
+  width: 10%;
+  height: 6px;
   background-color: #f5df4e;
 }
 
