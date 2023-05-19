@@ -11,7 +11,6 @@ body {
 
 .course-detail-header {
   background-color: rgba(255, 234, 167, 0.1);
-  min-height: 110vh;
   display: flex;
   justify-content: space-between;
   padding: 100px 90px;
@@ -545,6 +544,7 @@ body {
 @media screen and (max-width: 900px) {
   .course-detail-header {
     flex-direction: column;
+    justify-content: flex-start;
   }
 
   .course-detail-header div {
