@@ -30,16 +30,18 @@ const courseDetails = (data, courseId) => {
   };
 
   courseDetailContainer.innerHTML = `
-  <div class="course-detail-header">
-  <div data-aos="fade-up">
   
-  <h1 class="course-title">${courseName}</h1>
+  <div class="course-detail-header">
+  
+    <div class="course-info" data-aos="fade-down">
+      <h1 class="course-title">${courseName}</h1>
+      <p class="overview">${overview}</p>
+      <a href="#" class="book-btn">Book a Session</a>
+    </div>
           
-  <div class="course-overview">
-  <p class="overview">${overview}</p>
-    
-          <img src=${bannerImg} />
-  </div>
+    <div class="banner-img">
+        <img src=${bannerImg} data-aos="fade-up" />
+    </div>
       
   </div>
 
