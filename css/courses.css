@@ -11,7 +11,18 @@
 .course-card {
   background-color: #fff;
   box-shadow: 0 0 10px #bdc3c7;
-  border-radius: 15px;
+  border-radius: 25px;
+  margin: 10px 0;
+}
+
+.course-card a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.course-card:hover {
+  transform: scale(1.1) !important;
+  z-index: 1000;
 }
 
 .course-card > a {
@@ -25,7 +36,7 @@
 .course-banner {
   width: 100%;
   height: 180px;
-  border-radius: 15px;
+  border-radius: 25px;
   position: relative;
 }
 
@@ -33,8 +44,8 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
 }
 
 /* .course-price {
