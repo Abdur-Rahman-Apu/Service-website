@@ -26,4 +26,4 @@ viewAllCourseBtn.innerText = "view all courses";
 viewAllCourseBtn.setAttribute("href", "./courses.html");
 courseSection.appendChild(viewAllCourseBtn);
 
-getAllData("data/course.json", courses, 4);
+getAllData("data/course.json", courses, 3);
