@@ -229,7 +229,7 @@ header .profile-img {
 
 .service-header h1 {
   color: #000;
-  font-size: 42px;
+  font-size: 38px;
   margin: 20px 0 30px;
 }
 
@@ -402,13 +402,24 @@ header .profile-img {
   margin: 30px 0;
   text-align: center;
   text-transform: capitalize;
+  position: relative;
+}
+
+.statistics-section .statistics-title::after {
+  content: "";
+  position: absolute;
+  bottom: -14px;
+  left: 40%;
+  width: 20%;
+  height: 4px;
+  background-color: #f5df4e;
 }
 
 .statistics-detail {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-gap: 15px;
-  margin: 60px 0;
+  margin: 90px 0;
   box-shadow: 0 3px 10px #f3f5f9;
 }
 
