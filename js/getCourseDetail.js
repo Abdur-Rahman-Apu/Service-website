@@ -61,7 +61,7 @@ const courseDetails = (data, courseId) => {
       </div>
       
       <div data-aos="zoom-in" class="reason-to-enroll-right-side">
-          <h1>Why should you enroll in this ${shortName}Course?</h1>
+          <h1>Why should you enroll in this ${shortName} course?</h1>
 
           <ul></ul>
       </div>
@@ -77,7 +77,7 @@ const courseDetails = (data, courseId) => {
           <p>${prerequisite.suggest}</p>
       </div>
       <div>
-          <img src="./images/course-img/course-details/boy.jpg" />
+          <img src="./images/course-img/course-details/boy.jpg" data-aos="zoom-in-up" />
       </div>
   </div>
 
@@ -112,8 +112,15 @@ const courseDetails = (data, courseId) => {
 
 
   <div class="course-for-whom">
-      <h1 data-aos="fade-right" data-aos-duration=1000>${forWho.que}</h1>
-      <p data-aos="zoom-in" data-aos-duration=1000>${forWho.ans}</p>
+  <h1 data-aos="fade-right" data-aos-duration=1000>${forWho.que}</h1>
+        <div class="course-for-whom-ans">
+        <div class="course-for-whom-details">
+        <p data-aos="zoom-in" data-aos-duration=1000>${forWho.ans}</p>
+      </div>
+      <div class="course-for-whom-img">
+        <img src="./images/confusion.jpg" data-aos="fade-up" />
+      </div>
+        </div>
   </div>
 
   <div class="companies">

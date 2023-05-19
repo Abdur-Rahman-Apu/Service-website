@@ -321,7 +321,7 @@
     ],
     "forWho": {
       "que": "Is this online Python training course for beginners?",
-      "ans": "Yes, this free python course starts from scratch, and any newbie can learn easily.<br>Python is the most popular programming language on the planet. It has quickly become a preferred language for everything from desktop apps, web development to Data Science and Machine Learning. Although anyone can learn Python and carve his/her career, here are the kind of professionals / beginners who can easily go for this free Python course:<ul><li>Machine Learning, AI professionals</li><li>Software developers, Testers, Leads and architects</li><li>Data Science aspirants</li><li>Freshers / Graduates focusing to build a rock solid career</li></ul>"
+      "ans": "Yes, this free python course starts from scratch, and any newbie can learn easily.<br>Python is the most popular programming language on the planet. It has quickly become a preferred language for everything from desktop apps, web development to Data Science and Machine Learning. Although anyone can learn Python and carve his/her career, here are the kind of professionals / beginners who can easily go for this free Python course:<ul><li> <i class='fa-solid fa-check'></i> Machine Learning, AI professionals</li><li> <i class='fa-solid fa-check'></i> Software developers, Testers, Leads and architects</li><li> <i class='fa-solid fa-check'></i> Data Science aspirants</li><li> <i class='fa-solid fa-check'></i> Freshers / Graduates focusing to build a rock solid career</li></ul>"
     },
     "companies": {
       "title": "Companies you can expect when you get Python-certified with us",
