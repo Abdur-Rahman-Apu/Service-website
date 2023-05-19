@@ -283,6 +283,7 @@ body {
 }
 
 .course-content-section h2 {
+  font-family: "Titillium Web", sans-serif;
   font-size: 28px;
   margin: 80px auto;
   width: fit-content;
@@ -294,7 +295,7 @@ body {
   content: "";
   position: absolute;
   bottom: -10px;
-  left: 80px;
+  left: 60px;
   width: 100px;
   height: 4px;
   background-color: #f5df4e;
@@ -304,7 +305,7 @@ body {
   content: "";
   position: absolute;
   bottom: -20px;
-  left: 80px;
+  left: 60px;
   width: 100px;
   height: 4px;
   background-color: #f5df4e;
