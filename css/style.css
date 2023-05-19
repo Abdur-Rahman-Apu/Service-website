@@ -222,7 +222,7 @@ header .profile-img {
 .service-header span {
   display: inline-block;
   padding: 3px 5px;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 600;
   background-color: #f5df4e;
 }
@@ -243,7 +243,7 @@ header .profile-img {
 .services .service {
   height: 300px;
   border: 2px solid #000;
-  border-radius: 25px;
+  border-radius: 35px;
   padding: 30px;
   margin-top: 30px;
   position: relative;
@@ -317,9 +317,20 @@ header .profile-img {
 
 .case-study-section .case-study-title {
   text-align: center;
-  margin: 30px 0;
-  text-transform: uppercase;
-  color: #706fd3;
+  margin: 30px 0 50px;
+  text-transform: capitalize;
+  font-size: 38px;
+  position: relative;
+}
+
+.case-study-section .case-study-title::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 40%;
+  width: 20%;
+  height: 5px;
+  background-color: #f5df4e;
 }
 
 .featured-projects {
@@ -378,123 +389,6 @@ header .profile-img {
 .view-all-btn:hover {
   box-shadow: 0 0 3px #f5df4e;
 }
-/* project section  */
-.project-section {
-  min-height: 400px;
-  padding: 30px 4%;
-  margin: 30px 0;
-}
-
-.project-section > span {
-  display: block;
-  margin: 0 auto 30px;
-  background-color: #f5df4e;
-  width: fit-content;
-  padding: 4px 8px;
-  font-size: 15px;
-}
-
-.project-inner-section {
-  margin: 80px 0;
-  display: flex;
-}
-
-.left-side,
-.right-side {
-  flex-basis: 50%;
-}
-
-.left-side h2 {
-  font-size: 32px;
-  text-transform: uppercase;
-}
-
-.left-side h2 span {
-  position: relative;
-}
-
-.left-side h2 span::after {
-  content: "";
-  position: absolute;
-  bottom: -5px;
-  left: 0;
-  background-color: #f5df4e;
-  width: 70%;
-  height: 3px;
-}
-
-.dynamic-writing {
-  margin: 20px 0;
-}
-
-.dynamic-writing h3 {
-  font-size: 24px;
-  font-weight: 500;
-  color: #fff;
-  text-align: center;
-}
-
-.dynamic-writing .type {
-  color: #706fd3;
-  font-weight: bold;
-}
-
-.project-stats {
-  display: flex;
-  justify-content: space-between;
-}
-
-.project-stats div p {
-  margin-top: 10px;
-}
-.select-inspire {
-  margin: 30px 0;
-}
-
-.select-inspire p {
-  font-size: 18px;
-  font-weight: 600;
-}
-
-.select-inspire span {
-  font-size: 14px;
-  color: #979791;
-}
-
-.explore-more {
-  text-decoration: none;
-  font-weight: 500;
-  color: #000;
-  display: inline-block;
-  background-color: #f5df4e;
-  padding: 10px 15px;
-  border-radius: 30px;
-  transition: all 0.4s;
-}
-
-.explore-more:hover {
-  box-shadow: 0 5px 10px #f5df4e;
-}
-
-.right-side div {
-  padding: 12px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.right-side div img {
-  width: 80%;
-  padding: 10px;
-  outline: 5px;
-  background-color: #706fd3;
-  cursor: pointer;
-  transition: all 0.3s;
-}
-
-.right-side div img:hover {
-  transform: scale(1.1);
-}
 
 /* statistics section  */
 
@@ -504,9 +398,10 @@ header .profile-img {
 }
 
 .statistics-section .statistics-title {
+  font-size: 38px;
   margin: 30px 0;
   text-align: center;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .statistics-detail {
@@ -602,19 +497,18 @@ header .profile-img {
 }
 
 .featured-courses > span {
-  background-color: #f5df4e;
   font-weight: bold;
   display: block;
   width: fit-content;
   padding: 3px 9px;
-  font-size: 14px;
-  margin: 18px auto;
+  font-size: 38px;
+  margin: 18px auto 0;
 }
 
 .featured-courses > p {
   text-align: center;
   color: #7f8c8d;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .view-course-btn {
