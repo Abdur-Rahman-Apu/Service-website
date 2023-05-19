@@ -45,7 +45,14 @@ const courseDetails = (data, courseId) => {
       
   </div>
 
+  <div class="achievements">
+      <h1 data-aos="fade-right">What will you take home <br> from this ${shortName} Online course?</h1>
 
+      <div class="achievements-details">
+          <div class="left-side" data-aos="zoom-in"></div>
+          <div class="right-side" data-aos="zoom-in"></div>
+      </div>
+  </div>
 
   <div class="reason-to-enroll">
       
@@ -75,14 +82,7 @@ const courseDetails = (data, courseId) => {
   </div>
 
 
-  <div class="achievements">
-      <h1 data-aos="fade-right">What will you take home from this ${shortName} Free Online course?</h1>
-
-      <div class="achievements-details">
-          <div class="left-side" data-aos="zoom-in"></div>
-          <div class="right-side" data-aos="zoom-in"></div>
-      </div>
-  </div>
+  
 
 
 

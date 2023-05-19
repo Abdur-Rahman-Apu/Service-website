@@ -2,6 +2,10 @@
 @import url(./common.css);
 
 body {
+  box-sizing: border-box;
+}
+.color-yellow {
+  color: #f5df4e;
 }
 
 .course-detail-container {
@@ -71,6 +75,65 @@ body {
   text-decoration: none;
 }
 
+.achievements {
+  margin: 60px 0;
+}
+
+.achievements h1 {
+  text-align: center;
+  margin: 20px 0 40px;
+  position: relative;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.achievements h1::after {
+  content: "";
+  position: absolute;
+  width: 10%;
+  height: 4px;
+  bottom: -20px;
+  left: 45%;
+  background-color: #f5df4e;
+}
+
+.achievements-details {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+}
+
+.achievements-details .left-side,
+.achievements-details .right-side {
+  min-height: 400px;
+  flex-basis: 40%;
+  border-radius: 30px;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.achievements-details .left-side {
+  padding: 20px;
+}
+
+.achievements-details .left-side i,
+.achievements-details .right-side i {
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 4px;
+}
+
+.achievements-details .left-side p,
+.achievements-details .right-side p {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  font-weight: 600;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.achievements-details .right-side {
+  padding: 20px;
+}
+
 /* reason to enroll  */
 .reason-to-enroll,
 .prerequisite {
@@ -120,54 +183,6 @@ body {
 
 .prerequisite div:first-child p {
   margin-top: 5px;
-}
-
-.achievements {
-  margin: 60px 0;
-}
-
-.achievements h1 {
-  text-align: center;
-  margin: 20px 0 40px;
-}
-
-.achievements-details {
-  font-family: ;
-  display: flex;
-  justify-content: space-around;
-  margin: 30px 0;
-}
-
-.achievements-details .left-side,
-.achievements-details .right-side {
-  flex-basis: 40%;
-  border-radius: 30px;
-}
-
-.achievements-details .left-side {
-  background-color: #f5df4e;
-  padding: 20px;
-}
-
-.achievements-details .left-side i,
-.achievements-details .right-side i {
-  font-size: 20px;
-}
-
-.achievements-details .right-side {
-  padding: 20px;
-}
-
-.achievements-details .left-side p,
-.achievements-details .right-side p {
-  margin: 20px 0;
-  font-weight: 600;
-}
-
-.achievements-details .left-side,
-.achievements-details .right-side {
-  min-height: 400px;
-  background-color: #f5df4e;
 }
 
 .reason-to-learn h2 {
