@@ -103,7 +103,7 @@ const courseDetails = (data, courseId) => {
 
 
   <div class="course-features-section">
-      <h2 data-aos="fade-right" data-aos-animation=1000>Features of ${shortName} free course</h2>
+      <h2 data-aos="fade-right" data-aos-animation=1000>Features of ${shortName} course</h2>
 
       <div class="course-feature-container" data-aos="fade-up" data-aos-duration=1000>
           
@@ -270,6 +270,8 @@ const courseDetails = (data, courseId) => {
 
   features.forEach((feature) => {
     const parentDiv = document.createElement("div");
+    parentDiv.classList.add("feature");
+    parentDiv.setAttribute("data-aos", "flip-right");
     parentDiv.innerHTML = `
   <div class="feature-img">
       <img src=${feature.img} />

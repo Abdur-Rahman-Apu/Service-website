@@ -267,17 +267,14 @@ body {
 
 /* course content section  */
 
-.course-contents,
-.faqs {
+.course-contents {
   display: flex;
   justify-content: space-between;
   padding: 0 6%;
 }
 
 .course-contents .left-side,
-.course-contents .right-side,
-.faqs .faq-left,
-.faqs .faq-right {
+.course-contents .right-side {
   flex-basis: 48%;
 }
 
@@ -377,12 +374,23 @@ body {
 }
 
 /* course features section  */
+
 .course-features-section {
-  padding: 30px 3%;
-  margin: 60px 0;
+  background-image: linear-gradient(
+    to right,
+    #ffb347 0%,
+    #ffcc33 51%,
+    #ffb347 100%
+  );
+  padding: 90px 3%;
+  margin: 120px 0;
+  min-height: 500px;
 }
 
 .course-features-section h2 {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
   text-transform: uppercase;
   margin: 20px 0;
   text-align: center;
@@ -393,21 +401,42 @@ body {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  padding: 0 1%;
 }
 
-.course-feature-container div {
-  width: 150px;
+.course-feature-container .feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 220px;
+  height: 240px;
   margin: 30px 0;
   text-align: center;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
 }
 
 .course-feature-container .feature-img img {
-  width: 100%;
-  height: 150px;
+  width: 90px;
+  height: auto;
   object-fit: cover;
 }
 
+.course-feature-container .feature p {
+  font-family: "Titillium Web", sans-serif;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.course-feature-container .feature:hover {
+  box-shadow: 0 0 10px #fff;
+}
+
 /* course-for-whom section  */
+
 .course-for-whom h1 {
   background-color: #f5df4e;
   padding-left: 30px;
@@ -438,20 +467,19 @@ body {
   text-align: center;
 }
 
+.companies-img {
+  padding: 0 2%;
+}
+
 .companies-img img {
   width: 100%;
 }
 
 /* faq part  */
 
-.faqs .faq-left > div,
-.faqs .faq-right > div {
-  background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-}
-
 .faq-container {
   margin: 30px 0;
+  padding: 40px 0;
 }
 
 .faq-container h1 {
@@ -461,10 +489,34 @@ body {
   margin: 40px 0 60px;
 }
 
+.faqs {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2%;
+}
+
+.faqs .faq-left,
+.faqs .faq-right {
+  flex-basis: 49%;
+}
+
+.faqs .faq-left > div,
+.faqs .faq-right > div {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.faq-left .vcollapse-toggle p,
+.faq-right .vcollapse-toggle p {
+  padding-left: 16px;
+}
+
 .faqs .vcollapse-content p {
   padding: 15px 15px 15px 20px;
   font-family: "Titillium Web", sans-serif;
 }
+
+/* media query  */
 
 @media screen and (max-width: 900px) {
   .course-detail-header {
