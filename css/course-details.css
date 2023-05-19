@@ -432,6 +432,7 @@ body {
 /* companies section  */
 
 .companies h1 {
+  font-family: "Titillium Web", sans-serif;
   margin-bottom: 60px;
   text-transform: uppercase;
   text-align: center;
@@ -454,6 +455,7 @@ body {
 }
 
 .faq-container h1 {
+  font-family: "Titillium Web", sans-serif;
   text-align: center;
   text-transform: capitalize;
   margin: 40px 0 60px;
