@@ -3990,7 +3990,7 @@
           "no": 6,
           "title": "Angular Directives",
           "content": [
-            "Types of Directives <ul><<li>Components</li><li>Attribute Directives<li>Structural Directives<ul><li>ngFor</li><li>ngIf</li></ul><li>ngSwitchcase</li><li>ngClass and ngStyle</li>/ul>"
+            "Types of Directives <ul><li>Components</li><li>Attribute Directives<li>Structural Directives<ul><li>ngFor</li><li>ngIf</li></ul><li>ngSwitchcase</li><li>ngClass and ngStyle</li></ul>"
           ]
         },
         {
