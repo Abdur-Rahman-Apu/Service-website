@@ -8497,10 +8497,10 @@
   },
   {
     "id": 25,
-    "courseName": "Illustrator Certification Course in English",
+    "courseName": "Adobe Illustrator Certification Course in English",
     "bannerImg": "./images/course-img/course-banner/illustrator.jpg",
     "shortName": "Illustrator",
-    "overview": "Illustrator course offers a perfect blend of in-depth theoretical knowledge and strong practical skills via implementation of real-life Angular projects to give you a headstart and enable you to bag top Angular jobs in the industry.",
+    "overview": "Adobe Illustrator course offers a perfect blend of in-depth theoretical knowledge and strong practical skills via implementation of real-life Angular projects to give you a headstart and enable you to bag top Angular jobs in the industry.",
     "reasons": {
       "enroll": [
         [
@@ -8551,7 +8551,7 @@
       }
     ],
     "prerequisite": {
-      "que": "What to do before you begin your Illustrator online training?",
+      "que": "What to do before you begin your Adobe Illustrator online training?",
       "ans": "Nothing!",
       "suggest": "Although if you’d like, you can brush up on your skills with our complementary HTML material right in your LMS."
     },
@@ -8747,7 +8747,667 @@
       }
     ],
     "forWho": {
-      "que": "Is this Illustrator Course for you?",
+      "que": "Is this Adobe Illustrator Course for you?",
+      "ans": "Web development is the truth of today and Angular proves to be one of the most popular open-source web application frameworks. So while anyone can benefit from a career in it, here are the kind of professionals who go for this Angular course:<ul><li>Software developers, engineers</li><li>Sr/Jr Frontend developers</li><li>System Architect</li><li>UI/Ux Designers</li><li>Any graduate focusing to build a career in Angular</li></ul>"
+    },
+    "companies": {
+      "title": "Companies you can expect when you get Angular-certified with us",
+      "img": "./images/companies.png"
+    },
+    "faq": [
+      [
+        {
+          "que": "How will I perform the Angular practicals at home?",
+          "ans": "For Angular practice, manual and video for Angular installation are available in LMS and you need to install it on your system at home."
+        },
+        {
+          "que": "How long will the Angular course recordings be available?",
+          "ans": "All the Angular training sessions along with the complete Angular study material, POCs, and Angular projects will be available for lifetime."
+        },
+        {
+          "que": "What things do I need to learn Angular through this course?",
+          "ans": "To attend this online Angular training, you just need a laptop or a PC with a minimum 4GB RAM. Nothing else is required to learn it."
+        },
+        {
+          "que": "How do I clear my Angular related doubts?",
+          "ans": "You can post your queries on the discussion forum. Our support team will be happy to assist you."
+        },
+        {
+          "que": "What are the system specifications required to learn Angular?",
+          "ans": "The recommendation is a minimum of an i3 processor, a 20 GB disk, and a 4 GB RAM for installing Angular."
+        },
+        {
+          "que": "How will this Angular course help me in getting a job?",
+          "ans": "Our Angular training includes multiple workshops, POCs, and projects. These will vigorously prepare you for Angular interviews so you can be confident in your work from day one. These things will help you get your dream Angular job in the industry."
+        },
+        {
+          "que": "What will the end result be of this online Angular training course?",
+          "ans": "When you finish this course, you will be equipped with practical skills and theoretical knowledge the industry looks for. You will bloom into a certified Angular professional who is ready to take on Angular Projects in top organizations."
+        },
+        {
+          "que": "Where do all the students come from?",
+          "ans": "DataFlair has a blend of students from across the globe. Apart from India, we provide training in the US, the UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, and many others covering the globe."
+        }
+      ],
+      [
+        {
+          "que": "Is this Angular training classroom-based or online?",
+          "ans": "This training is completely online and self-paced."
+        },
+        {
+          "que": "Will you be providing Angular certificate after the training?",
+          "ans": "Yes, you will be provided with an industry-recognizable certificate declaring your proficiency with Angular. At the end of this Angular course, you will work on real-time Angular projects. Once you have successfully made it through the projects, you will be awarded DataFlair Angular certificate."
+        },
+        {
+          "que": "How do I get in touch with you for further queries?",
+          "ans": "You are  to contact us by placing a call at +91-8451097879 or by dropping a mail to info@data-flair.training"
+        },
+        {
+          "que": "Why should I learn Angular?",
+          "ans": "Angular is the latest and the most demanding technology with a continuously increasing demand in the Indian market and abroad. It is changing the world. So learn Angular to start a career in trending technologies."
+        },
+        {
+          "que": "What type of Angular projects will I be doing during the training?",
+          "ans": "You will be doing Angular real-life projects in different domains like retail, banking, and finance."
+        },
+        {
+          "que": "Do you provide placement assistance?",
+          "ans": "This Angular course from DataFlair is 100% job-oriented and will prepare you completely for interviews from Angular job perspective."
+        },
+        {
+          "que": "Can I attend a demo session before enrolling for this Angular course?",
+          "ans": "Yes, you can attend the Angular demo class recording on this course page itself to understand the quality of training we provide. This is what creates the difference between DataFlair and other online Angular training providers."
+        },
+        {
+          "que": "Can you guide me about the career aspects of Angular developers?",
+          "ans": "Angular is the technology that will open many doors for you. With Angular, you can be a:<ul><li>Front End Developer</li><li>Software Developer</li><li>Software Engineer</li><li>Software architect</li></ul>"
+        }
+      ]
+    ]
+  },
+  {
+    "id": 26,
+    "courseName": "Linux Certification Course in English",
+    "bannerImg": "./images/course-img/course-banner/linux.png",
+    "shortName": "Linux",
+    "overview": "Linux course offers a perfect blend of in-depth theoretical knowledge and strong practical skills via implementation of real-life Angular projects to give you a headstart and enable you to bag top Angular jobs in the industry.",
+    "reasons": {
+      "enroll": [
+        [
+          "3 Real-time projects + tons of live practicals",
+          "70+ hrs of study material, quizzes & manuals"
+        ],
+        [
+          "Practical oriented course with case-studies",
+          "Lifetime access of LMS with videos & material"
+        ]
+      ],
+      "learn": [
+        [
+          "Learn how to develop professional websites",
+          " Grasp concepts of Angular",
+          " Become adept in web development",
+          " Understand the Angular architecture",
+          " Basics to advanced concepts of Angular"
+        ],
+        [
+          "Develop real-time Angular applications",
+          "Projects with connectivity with back end like node/express.js",
+          "Master the advanced concepts like routing, pipes, i18N",
+          "Work on live Angular project to get hands-on experience"
+        ]
+      ]
+    },
+    "why": [
+      {
+        "title": "Angular ranked second in “most used technology” in the Stack Overflow Survey",
+        "src": "Stack Overflow"
+      },
+      {
+        "title": "Developed, maintained, managed and monitored by Google Developers",
+        "src": "Google"
+      },
+      {
+        "title": "Average base pay of an Angular Developers is more than INR 460,000 per year in India",
+        "src": "Glassdoor"
+      },
+      {
+        "title": "The world’s most valuable resource is Big Data, no longer oil.",
+        "src": "The Economist"
+      },
+      {
+        "title": "Rapid application development, Plays a role of front end in MEAN stack development",
+        "src": ""
+      }
+    ],
+    "prerequisite": {
+      "que": "What to do before you begin your Linux online training?",
+      "ans": "Nothing!",
+      "suggest": "Although if you’d like, you can brush up on your skills with our complementary HTML material right in your LMS."
+    },
+    "curriculum": [
+      [
+        {
+          "no": 1,
+          "title": "Diving into Angular",
+          "content": [
+            "What is Angular",
+            "Angular or Angular JS?",
+            "History and Version Releases",
+            "Why Angular is most popular web development framework?"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Getting Ready to Learn Angular",
+          "content": [
+            "Pre-requisite",
+            "Software installation and configurations",
+            "Upgrading the existing Angular version to the latest version",
+            "Create the first Angular Application"
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Angular Architecture",
+          "content": [
+            "Building blocks of Angular",
+            "Building blocks of Angular <ul><li>Component</li><li>Services</li></ul>",
+            "Exploring first application - Hello world"
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Working with Angular Components",
+          "content": [
+            "Customizing appComponent",
+            "Data Binding",
+            "Life Cycle of Component",
+            "Adding new Component"
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Component Interaction and Lifecycle hooks",
+          "content": [
+            "Parent-Child component Structure",
+            "@Input directive",
+            "@Output directive",
+            "Lifecycle hooks of components"
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Angular Directives",
+          "content": [
+            "Types of Directives <ul><li>Components</li><li>Attribute Directives<li>Structural Directives<ul><li>ngFor</li><li>ngIf</li></ul><li>ngSwitchcase</li><li>ngClass and ngStyle</li></ul>"
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Angular Pipes",
+          "content": [
+            "Parent-Child component Structure  in Angular",
+            "@Input directive",
+            "@Output directive",
+            "Lifecycle hooks of components"
+          ]
+        },
+        {
+          "no": 8,
+          "title": " Working on Services",
+          "content": [
+            "Why and what is a Service",
+            "Creation of services in Angular",
+            "Utilizing Service"
+          ]
+        }
+      ],
+      [
+        {
+          "no": 9,
+          "title": "Demystifying HttpObservables",
+
+          "content": [
+            "What is Observable",
+            "mplementing Observable Service",
+            "Communicating with server via observable in Angular"
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Learning Routing in Angular",
+
+          "content": [
+            "What is routing",
+            "Steps for creation of routing",
+            "Route Matching Strategies",
+            "Working with Route Parameters",
+            "Working with Route Guards",
+            "Working with Child Route",
+            "Lazy Module Loading"
+          ]
+        },
+        {
+          "no": 11,
+          "title": " Working with Forms and Reactive Forms",
+
+          "content": [
+            "Forms <ul><li>Types of forms</li><li>Building blocks</li><li>Creating Forms</li><li>Data flow mechanism</li></ul>",
+            "Reactive Forms<ul><li>Building Reactive Form</li><li>Update elements</li><li>Nested FormGroup</li><li>setValue and setPatch</li><li>Working with FormBuilder</li><li>Playing with Dynamic Form</li</ul>",
+            "Communicating with server via observable in Angular"
+          ]
+        },
+        {
+          "no": 12,
+          "title": "Template Driven Forms",
+
+          "content": [
+            "Building Template Driven Forms",
+            "Playing with two-way data binding using ngModel",
+            "ngModel Validations",
+            "Submitting the form"
+          ]
+        },
+        {
+          "no": 13,
+          "title": "Demystifying HttpObservables",
+
+          "content": [
+            "Implement Template Driven Form Validation",
+            "Reactive Form Validation",
+            "Develop Custom Validations",
+            "Cross Field Validations"
+          ]
+        },
+        {
+          "no": 14,
+          "title": "Working with i18N",
+
+          "content": [
+            "Need for i18N",
+            "Step by step setup of i18N support",
+            "Steps for i18N",
+            "Demystifying language information file",
+            "Managing configuration file"
+          ]
+        },
+        {
+          "no": 15,
+          "title": "Demystifying HttpObservables",
+
+          "content": [
+            "Importance of Testing & Debugging",
+            "Types of testing in Angular",
+            "Working on Karma",
+            "How to test angular components and services"
+          ]
+        },
+        {
+          "no": 16,
+          "title": "Real Life Angular Projects",
+
+          "content": [
+            "What is Observable",
+            "Live Angular projects based on real industry scenarios. Work on real life problems and handle become industry ready"
+          ]
+        }
+      ]
+    ],
+    "features": [
+      {
+        "img": "./images/course-img/course-features/time.png",
+        "title": "20+ Hrs instructor based video lessons"
+      },
+      {
+        "img": "./images/course-img/course-features/support.png",
+        "title": "Lifetime access to course with support"
+      },
+      {
+        "img": "./images/course-img/course-features/project.png",
+        "title": "Real time capstone projects"
+      },
+      {
+        "img": "./images/course-img/course-features/certificate.png",
+        "title": "Industry renowned Certification"
+      },
+      {
+        "img": "./images/course-img/course-features/brainstorming.png",
+        "title": "Discussion forum for queries and interaction"
+      }
+    ],
+    "forWho": {
+      "que": "Is this Linux Course for you?",
+      "ans": "Web development is the truth of today and Angular proves to be one of the most popular open-source web application frameworks. So while anyone can benefit from a career in it, here are the kind of professionals who go for this Angular course:<ul><li>Software developers, engineers</li><li>Sr/Jr Frontend developers</li><li>System Architect</li><li>UI/Ux Designers</li><li>Any graduate focusing to build a career in Angular</li></ul>"
+    },
+    "companies": {
+      "title": "Companies you can expect when you get Angular-certified with us",
+      "img": "./images/companies.png"
+    },
+    "faq": [
+      [
+        {
+          "que": "How will I perform the Angular practicals at home?",
+          "ans": "For Angular practice, manual and video for Angular installation are available in LMS and you need to install it on your system at home."
+        },
+        {
+          "que": "How long will the Angular course recordings be available?",
+          "ans": "All the Angular training sessions along with the complete Angular study material, POCs, and Angular projects will be available for lifetime."
+        },
+        {
+          "que": "What things do I need to learn Angular through this course?",
+          "ans": "To attend this online Angular training, you just need a laptop or a PC with a minimum 4GB RAM. Nothing else is required to learn it."
+        },
+        {
+          "que": "How do I clear my Angular related doubts?",
+          "ans": "You can post your queries on the discussion forum. Our support team will be happy to assist you."
+        },
+        {
+          "que": "What are the system specifications required to learn Angular?",
+          "ans": "The recommendation is a minimum of an i3 processor, a 20 GB disk, and a 4 GB RAM for installing Angular."
+        },
+        {
+          "que": "How will this Angular course help me in getting a job?",
+          "ans": "Our Angular training includes multiple workshops, POCs, and projects. These will vigorously prepare you for Angular interviews so you can be confident in your work from day one. These things will help you get your dream Angular job in the industry."
+        },
+        {
+          "que": "What will the end result be of this online Angular training course?",
+          "ans": "When you finish this course, you will be equipped with practical skills and theoretical knowledge the industry looks for. You will bloom into a certified Angular professional who is ready to take on Angular Projects in top organizations."
+        },
+        {
+          "que": "Where do all the students come from?",
+          "ans": "DataFlair has a blend of students from across the globe. Apart from India, we provide training in the US, the UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, and many others covering the globe."
+        }
+      ],
+      [
+        {
+          "que": "Is this Angular training classroom-based or online?",
+          "ans": "This training is completely online and self-paced."
+        },
+        {
+          "que": "Will you be providing Angular certificate after the training?",
+          "ans": "Yes, you will be provided with an industry-recognizable certificate declaring your proficiency with Angular. At the end of this Angular course, you will work on real-time Angular projects. Once you have successfully made it through the projects, you will be awarded DataFlair Angular certificate."
+        },
+        {
+          "que": "How do I get in touch with you for further queries?",
+          "ans": "You are  to contact us by placing a call at +91-8451097879 or by dropping a mail to info@data-flair.training"
+        },
+        {
+          "que": "Why should I learn Angular?",
+          "ans": "Angular is the latest and the most demanding technology with a continuously increasing demand in the Indian market and abroad. It is changing the world. So learn Angular to start a career in trending technologies."
+        },
+        {
+          "que": "What type of Angular projects will I be doing during the training?",
+          "ans": "You will be doing Angular real-life projects in different domains like retail, banking, and finance."
+        },
+        {
+          "que": "Do you provide placement assistance?",
+          "ans": "This Angular course from DataFlair is 100% job-oriented and will prepare you completely for interviews from Angular job perspective."
+        },
+        {
+          "que": "Can I attend a demo session before enrolling for this Angular course?",
+          "ans": "Yes, you can attend the Angular demo class recording on this course page itself to understand the quality of training we provide. This is what creates the difference between DataFlair and other online Angular training providers."
+        },
+        {
+          "que": "Can you guide me about the career aspects of Angular developers?",
+          "ans": "Angular is the technology that will open many doors for you. With Angular, you can be a:<ul><li>Front End Developer</li><li>Software Developer</li><li>Software Engineer</li><li>Software architect</li></ul>"
+        }
+      ]
+    ]
+  },
+  {
+    "id": 27,
+    "courseName": "Microsoft Azure Certification Course in English",
+    "bannerImg": "./images/course-img/course-banner/Microsoft-Azure.png",
+    "shortName": "Microsoft Azure",
+    "overview": "Microsoft Azure course offers a perfect blend of in-depth theoretical knowledge and strong practical skills via implementation of real-life Angular projects to give you a headstart and enable you to bag top Angular jobs in the industry.",
+    "reasons": {
+      "enroll": [
+        [
+          "3 Real-time projects + tons of live practicals",
+          "70+ hrs of study material, quizzes & manuals"
+        ],
+        [
+          "Practical oriented course with case-studies",
+          "Lifetime access of LMS with videos & material"
+        ]
+      ],
+      "learn": [
+        [
+          "Learn how to develop professional websites",
+          " Grasp concepts of Angular",
+          " Become adept in web development",
+          " Understand the Angular architecture",
+          " Basics to advanced concepts of Angular"
+        ],
+        [
+          "Develop real-time Angular applications",
+          "Projects with connectivity with back end like node/express.js",
+          "Master the advanced concepts like routing, pipes, i18N",
+          "Work on live Angular project to get hands-on experience"
+        ]
+      ]
+    },
+    "why": [
+      {
+        "title": "Angular ranked second in “most used technology” in the Stack Overflow Survey",
+        "src": "Stack Overflow"
+      },
+      {
+        "title": "Developed, maintained, managed and monitored by Google Developers",
+        "src": "Google"
+      },
+      {
+        "title": "Average base pay of an Angular Developers is more than INR 460,000 per year in India",
+        "src": "Glassdoor"
+      },
+      {
+        "title": "The world’s most valuable resource is Big Data, no longer oil.",
+        "src": "The Economist"
+      },
+      {
+        "title": "Rapid application development, Plays a role of front end in MEAN stack development",
+        "src": ""
+      }
+    ],
+    "prerequisite": {
+      "que": "What to do before you begin your Microsoft Azure online training?",
+      "ans": "Nothing!",
+      "suggest": "Although if you’d like, you can brush up on your skills with our complementary HTML material right in your LMS."
+    },
+    "curriculum": [
+      [
+        {
+          "no": 1,
+          "title": "Diving into Angular",
+          "content": [
+            "What is Angular",
+            "Angular or Angular JS?",
+            "History and Version Releases",
+            "Why Angular is most popular web development framework?"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Getting Ready to Learn Angular",
+          "content": [
+            "Pre-requisite",
+            "Software installation and configurations",
+            "Upgrading the existing Angular version to the latest version",
+            "Create the first Angular Application"
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Angular Architecture",
+          "content": [
+            "Building blocks of Angular",
+            "Building blocks of Angular <ul><li>Component</li><li>Services</li></ul>",
+            "Exploring first application - Hello world"
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Working with Angular Components",
+          "content": [
+            "Customizing appComponent",
+            "Data Binding",
+            "Life Cycle of Component",
+            "Adding new Component"
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Component Interaction and Lifecycle hooks",
+          "content": [
+            "Parent-Child component Structure",
+            "@Input directive",
+            "@Output directive",
+            "Lifecycle hooks of components"
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Angular Directives",
+          "content": [
+            "Types of Directives <ul><li>Components</li><li>Attribute Directives<li>Structural Directives<ul><li>ngFor</li><li>ngIf</li></ul><li>ngSwitchcase</li><li>ngClass and ngStyle</li></ul>"
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Angular Pipes",
+          "content": [
+            "Parent-Child component Structure  in Angular",
+            "@Input directive",
+            "@Output directive",
+            "Lifecycle hooks of components"
+          ]
+        },
+        {
+          "no": 8,
+          "title": " Working on Services",
+          "content": [
+            "Why and what is a Service",
+            "Creation of services in Angular",
+            "Utilizing Service"
+          ]
+        }
+      ],
+      [
+        {
+          "no": 9,
+          "title": "Demystifying HttpObservables",
+
+          "content": [
+            "What is Observable",
+            "mplementing Observable Service",
+            "Communicating with server via observable in Angular"
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Learning Routing in Angular",
+
+          "content": [
+            "What is routing",
+            "Steps for creation of routing",
+            "Route Matching Strategies",
+            "Working with Route Parameters",
+            "Working with Route Guards",
+            "Working with Child Route",
+            "Lazy Module Loading"
+          ]
+        },
+        {
+          "no": 11,
+          "title": " Working with Forms and Reactive Forms",
+
+          "content": [
+            "Forms <ul><li>Types of forms</li><li>Building blocks</li><li>Creating Forms</li><li>Data flow mechanism</li></ul>",
+            "Reactive Forms<ul><li>Building Reactive Form</li><li>Update elements</li><li>Nested FormGroup</li><li>setValue and setPatch</li><li>Working with FormBuilder</li><li>Playing with Dynamic Form</li</ul>",
+            "Communicating with server via observable in Angular"
+          ]
+        },
+        {
+          "no": 12,
+          "title": "Template Driven Forms",
+
+          "content": [
+            "Building Template Driven Forms",
+            "Playing with two-way data binding using ngModel",
+            "ngModel Validations",
+            "Submitting the form"
+          ]
+        },
+        {
+          "no": 13,
+          "title": "Demystifying HttpObservables",
+
+          "content": [
+            "Implement Template Driven Form Validation",
+            "Reactive Form Validation",
+            "Develop Custom Validations",
+            "Cross Field Validations"
+          ]
+        },
+        {
+          "no": 14,
+          "title": "Working with i18N",
+
+          "content": [
+            "Need for i18N",
+            "Step by step setup of i18N support",
+            "Steps for i18N",
+            "Demystifying language information file",
+            "Managing configuration file"
+          ]
+        },
+        {
+          "no": 15,
+          "title": "Demystifying HttpObservables",
+
+          "content": [
+            "Importance of Testing & Debugging",
+            "Types of testing in Angular",
+            "Working on Karma",
+            "How to test angular components and services"
+          ]
+        },
+        {
+          "no": 16,
+          "title": "Real Life Angular Projects",
+
+          "content": [
+            "What is Observable",
+            "Live Angular projects based on real industry scenarios. Work on real life problems and handle become industry ready"
+          ]
+        }
+      ]
+    ],
+    "features": [
+      {
+        "img": "./images/course-img/course-features/time.png",
+        "title": "20+ Hrs instructor based video lessons"
+      },
+      {
+        "img": "./images/course-img/course-features/support.png",
+        "title": "Lifetime access to course with support"
+      },
+      {
+        "img": "./images/course-img/course-features/project.png",
+        "title": "Real time capstone projects"
+      },
+      {
+        "img": "./images/course-img/course-features/certificate.png",
+        "title": "Industry renowned Certification"
+      },
+      {
+        "img": "./images/course-img/course-features/brainstorming.png",
+        "title": "Discussion forum for queries and interaction"
+      }
+    ],
+    "forWho": {
+      "que": "Is this Microsoft Azure Course for you?",
       "ans": "Web development is the truth of today and Angular proves to be one of the most popular open-source web application frameworks. So while anyone can benefit from a career in it, here are the kind of professionals who go for this Angular course:<ul><li>Software developers, engineers</li><li>Sr/Jr Frontend developers</li><li>System Architect</li><li>UI/Ux Designers</li><li>Any graduate focusing to build a career in Angular</li></ul>"
     },
     "companies": {
