@@ -13,7 +13,7 @@
   box-shadow: 0 0 10px #bdc3c7;
   border-radius: 25px;
   margin: 10px 0;
-  transition: box-shadow 1s !important;
+  transition: box-shadow 1s;
 }
 
 .course-card a {
