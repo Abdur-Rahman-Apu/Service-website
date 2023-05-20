@@ -25,10 +25,6 @@ const courseDetails = (data, courseId) => {
     ".course-detail-container"
   );
 
-  const back = () => {
-    window.history.back();
-  };
-
   courseDetailContainer.innerHTML = `
   
   <div class="course-detail-header">
@@ -128,7 +124,7 @@ const courseDetails = (data, courseId) => {
   </div>
 
   <div class="companies">
-      <h1 data-aos="zoom-in">Companies you can expect <br> when you get Python-certified with us</h1>
+      <h1 data-aos="zoom-in">Companies you can expect <br> when you get ${shortName}-certified with us</h1>
 
       <div class="companies-img" data-aos="fade-up" data-aos-duration=1000>
           <img src="./images/companies.png" alt="companies image">
@@ -281,7 +277,7 @@ const courseDetails = (data, courseId) => {
 
     item.content.forEach((text) => {
       const li = document.createElement("li");
-      li.textContent = `${text}`;
+      li.innerHTML = `${text}`;
 
       contentList.appendChild(li);
     });

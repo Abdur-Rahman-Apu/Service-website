@@ -118,7 +118,6 @@ body {
 .achievements-details .left-side p,
 .achievements-details .right-side p {
   display: flex;
-  align-items: center;
   margin: 20px 0;
   font-weight: 600;
 }
@@ -462,7 +461,7 @@ body {
 .course-for-whom ul li {
   padding: 5px;
   margin: 5px;
-  list-style: none;
+  list-style: square;
 }
 
 .course-for-whom-img {
