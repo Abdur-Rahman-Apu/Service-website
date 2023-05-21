@@ -9782,5 +9782,2269 @@
         }
       ]
     ]
+  },
+  {
+    "id": 29,
+    "courseName": "Adobe Premiere Pro Certification Course in English",
+    "bannerImg": "./images/course-img/course-banner/premiere-pro.jpg",
+    "shortName": "Adobe Premiere Pro",
+    "overview": "After the internet boom lots of new opportunities have emerged. You can create videos and earn thousands of rupees, from uploading it in YouTube, Instagram or other social media. However previously earning from doing jobs related to videography was not easy. But we are living in a new age, and the future of technology is bright. So as those people who know software like Adobe premiere pro. It is a product offered by adobe which is not only one of the favorites for Youtubers, but also it is widely accepted and used in the film industry.",
+    "reasons": {
+      "enroll": [
+        [
+          "3 Real-time projects + tons of live practicals",
+          "70+ hrs of study material, quizzes & manuals"
+        ],
+        [
+          "Practical oriented course with case-studies",
+          "Lifetime access of LMS with videos & material"
+        ]
+      ],
+      "learn": [
+        [
+          "Learn to edit videos for documentry social media etc with premiere pro",
+          "Color grading video using LUTs & Looks",
+          "Add animated text & lower thirds",
+          "Removing echo, background noise like fans, aircon & fridge hum",
+          "Syncing aligning video & audio automatically",
+          "Mastering the Essentials Graphics panel",
+          "Working with green screens"
+        ],
+        [
+          "Create video transitions",
+          "Video effects like Cinema effects, Black & White, Film Grain, Vignettes, Orange & Teal effect.",
+          "How to organize your video editing footage like a Pro",
+          "Work with transition & video effects presets and templates.",
+          "How to create motion graphic",
+          "How to work with B-Roll",
+          "The ultimate Premiere Pro shortcuts"
+        ]
+      ]
+    },
+    "why": [
+      {
+        "title": "Angular ranked second in “most used technology” in the Stack Overflow Survey",
+        "src": "Stack Overflow"
+      },
+      {
+        "title": "Developed, maintained, managed and monitored by Google Developers",
+        "src": "Google"
+      },
+      {
+        "title": "Average base pay of an Angular Developers is more than INR 460,000 per year in India",
+        "src": "Glassdoor"
+      },
+      {
+        "title": "The world’s most valuable resource is Big Data, no longer oil.",
+        "src": "The Economist"
+      },
+      {
+        "title": "Rapid application development, Plays a role of front end in MEAN stack development",
+        "src": ""
+      }
+    ],
+    "prerequisite": {
+      "que": "What to do before you begin your Adobe Premiere Pro online training?",
+      "ans": "Nothing!",
+      "suggest": "Although if you’d like, you can brush up on your skills with our complementary HTML material right in your LMS."
+    },
+    "curriculum": [
+      [
+        {
+          "no": 1,
+          "title": "Introduction",
+          "content": [
+            "Introduction"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Previewing, importing and organizing your media",
+          "content": [
+            "Using the media browser to locate, prview, select and import media",
+            "Using the project panel to organize your media: list view",
+            "Performing searches & creating search bins",
+            "Final step - organizing your project"
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Editing techniques & editing tools",
+          "content": [
+            "Zooming vertically on the timeline",
+            "Re-trimming clips from the timeline in the source monitor",
+            "Lifts, extracts and basic trims",
+            "Using the ripple edit tool",
+            "Refining transitions in the trim monitor: rolling & ripple edit tools",
+            "Changing relative clip content & position"
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Essential audio editing",
+          "content": [
+            "Audio channels - from mono to stereo and vice versa",
+            "Gain or volume - what's the difference volume adjustment - Audio Clip Mixer and Audio Track Mixer",
+            "Using presets to enhance audio"
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Adding, editing and creating transition: video, audio and stills",
+          "content": [
+            "Clip handles: the key to smooth transitions",
+            "Refining transitions in the effect controls panel",
+            "The effects panel transitions: adding, replacing and special properties",
+            "Combining standard transitions with video effects",
+            "Custom transitions with color mattes"
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Color grading",
+          "content": [
+            "What is color grading?",
+            "Using on adjustment layer to apply color grading to your project",
+            "Color grading effects from the lumetri presets",
+            "Saving or exporting your color grading effects"
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Post-production training - start creating your demo-reel now",
+          "content": [
+            "Workflow: post-production for this documentory",
+            "Step one: download, import, preview and organize your media",
+            "Step two: interview master clips color correcting and color grading",
+            "Step three: creating interview subclips",
+            "Step four: creating your montage interview",
+            "Step five: adding b-roll clips",
+            "Step six: refining your rough montag",
+            "Step seven: refining the edits",
+            "Step eight: b-roll color correction",
+            "Step nine: b-roll color grading",
+            "Step ten: adding music and adjusting volumes",
+            "Step 11: adding graphics - titles, lower thirds, intro, outro...",
+            "Finally: export and share"
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Your first project: easy video editing in premier pro cc",
+          "content": [
+            "Create your first project & import your media",
+            "Assemble your first movie - your first montage",
+            "Add stills and text",
+            "Add graphics",
+            "Add transitions",
+            "Export and produce your video",
+            "How to re-link offline media your first practice activity and assignment"
+          ]
+        }
+      ],
+      [
+        {
+          "no": 9,
+          "title": "Adding, inserting and arranging clips in a sequence: tools & techniques",
+
+          "content": [
+            "Editing a documentary with an interview working in the source monitor - playing & marketing",
+            "Rough cutting & creating subclips",
+            "Multiple ways to create a new sequence",
+            "Performing insert edits, lifts & inserts",
+            "Performing overwrite edits with track section",
+            "Performing insert edit and lift & insert with modifier key",
+            "Selecting and moving contiguous clips - Track Select Tool",
+            "Detecting duplicate clips and duplicate frames",
+            "Synchronizing audio and video",
+            "Timeline navigation & selection techniques"
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Manipulating clip speed",
+
+          "content": [
+            "Freeze and still frames",
+            "Forcing speed changes with fill-to-fit changing speed with the rate stretch tool",
+            "Changing speed with the speed duration panel"
+          ]
+        },
+        {
+          "no": 11,
+          "title": "The graphics workspace: texts, shapes, lower thirds and more",
+
+          "content": [
+           "Starting the graphics workspace",
+           "Creating a graphics clip",
+           "Editing your graphics",
+           "Animating clips: keyframes concept animating graphic layers within the clip",
+           "Upgrading to master graphics clips using the default essential graphics", 
+           "templates"
+          ]
+        },
+        {
+          "no": 12,
+          "title": "The color correction process and workflow",
+
+          "content": [
+            "Color correction - what you should never do",
+            "The color correction workflow",
+            "Intro to the lumetri color panel the lumetri scopes",
+            "Adjusting tonality using the lumetri scope: waveform",
+            "Lumetri color: how to use curves to achieve color correction",
+            "Balancing color, removing color cast with lumetri scope: RGB parade",
+            "How to use the HSL secondary for additional color correction",
+            "Hue & saturation using the lumetri scopes: the vectorscopes"
+          ]
+        },
+        {
+          "no": 13,
+          "title": "Essential motion effects",
+
+          "content": [
+           "Chromakeying - concepts and how to work",
+           "Using masks to reduce work",
+           "Cleaning up the matte",
+           "Adding shadows",
+           "Working with a blue screen"
+          ]
+        },
+        {
+          "no": 14,
+          "title": "Conclusion",
+
+          "content": [
+            "Thanks"
+          ]
+        }
+      ]
+    ],
+    "features": [
+      {
+        "img": "./images/course-img/course-features/time.png",
+        "title": "20+ Hrs instructor based video lessons"
+      },
+      {
+        "img": "./images/course-img/course-features/support.png",
+        "title": "Lifetime access to course with support"
+      },
+      {
+        "img": "./images/course-img/course-features/project.png",
+        "title": "Real time capstone projects"
+      },
+      {
+        "img": "./images/course-img/course-features/certificate.png",
+        "title": "Industry renowned Certification"
+      },
+      {
+        "img": "./images/course-img/course-features/brainstorming.png",
+        "title": "Discussion forum for queries and interaction"
+      }
+    ],
+    "forWho": {
+      "que": "Is this Adobe Premiere Pro Course for you?",
+      "ans": "After the internet boom lots of new opportunities have emerged. You can create videos and earn thousands of rupees, from uploading it in YouTube, Instagram or other social media. However previously earning from doing jobs related to videography was not easy. But we are living in a new age, and the future of technology is bright. So as those people who know software like Adobe premiere pro. It is a product offered by adobe which is not only one of the favorites for Youtubers, but also it is widely accepted and used in the film industry. So while anyone can benefit from a career in it, here are the kind of professionals who go for this Adobe Premiere Pro course:<ul><li>Youtuber</li><li>Social media influencer</li><li>People who wants to work in a big production house</li><li>Any graduate focusing to build a career in video editing</li></ul>"
+    },
+    "companies": {
+      "title": "Companies you can expect when you get Adobe Premiere Pro-certified with us",
+      "img": "./images/companies.png"
+    },
+    "faq": [
+      [
+        {
+          "que": "How will I perform the Adobe Premiere Pro practicals at home?",
+          "ans": "For practice, manual and video for setup are available in LMS and you need to install it on your system at home."
+        },
+        {
+          "que": "How long will the Adobe Premiere Pro course recordings be available?",
+          "ans": "All the Adobe Premiere Pro training sessions along with the complete Adobe Premiere Pro study material, POCs, and Adobe Premiere Pro projects will be available for lifetime."
+        },
+        {
+          "que": "What things do I need to learn Adobe Premiere Pro through this course?",
+          "ans": "To attend this online Adobe Premiere Pro training, you just need a laptop or a PC with a minimum 4GB RAM. Nothing else is required to learn it."
+        },
+        {
+          "que": "How do I clear my Adobe Premiere Pro related doubts?",
+          "ans": "You can post your queries on the discussion forum. Our support team will be happy to assist you."
+        },
+        {
+          "que": "What are the system specifications required to learn Adobe Premiere Pro?",
+          "ans": "The recommendation is a minimum of an i3 processor, a 20 GB disk, and a 4 GB RAM for practicing Adobe Premiere Pro."
+        },
+        {
+          "que": "How will this Adobe Premiere Pro course help me in getting a job?",
+          "ans": "Our Adobe Premiere Pro training includes multiple workshops, POCs, and projects. These will vigorously prepare you for Adobe Premiere Pro interviews so you can be confident in your work from day one. These things will help you get your dream Adobe Premiere Pro job in the industry."
+        },
+        {
+          "que": "What will the end result be of this online Adobe Premiere Pro training course?",
+          "ans": "When you finish this course, you will be equipped with practical skills and theoretical knowledge the industry looks for. You will bloom into a certified Adobe Premiere Pro professional who is ready to take on Adobe Premiere Pro Projects in top organizations."
+        },
+        {
+          "que": "Where do all the students come from?",
+          "ans": "We have a blend of students from across the globe. Apart from India, we provide training in the US, the UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, and many others covering the globe."
+        }
+      ],
+      [
+        {
+          "que": "Is this Adobe Premiere Pro training classroom-based or online?",
+          "ans": "This training is completely online and self-paced."
+        },
+        {
+          "que": "Will you be providing Adobe Premiere Pro certificate after the training?",
+          "ans": "Yes, you will be provided with an industry-recognizable certificate declaring your proficiency with Adobe Premiere Pro. At the end of this Adobe Premiere Pro course, you will work on real-time projects. Once you have successfully made it through the projects, you will be awarded Adobe Premiere Pro certificate."
+        },
+        {
+          "que": "How do I get in touch with you for further queries?",
+          "ans": "You are  to contact us by placing a call at +91-8451097879 or by dropping a mail to info@data-flair.training"
+        },
+        {
+          "que": "What type of Adobe Premiere Pro projects will I be doing during the training?",
+          "ans": "You will be doing Adobe Premiere Pro real-life projects in different domains"
+        },
+        {
+          "que": "Do you provide placement assistance?",
+          "ans": "This Adobe Premiere Pro course from us is 100% job-oriented and will prepare you completely for interviews from Adobe Premiere Pro job perspective."
+        },
+        {
+          "que": "Can I attend a demo session before enrolling for this Adobe Premiere Pro?",
+          "ans": "Yes, you can attend the Adobe Premiere Pro demo class recording on this course page itself to understand the quality of training we provide. This is what creates the difference between us and other online Adobe Premiere Pro training providers."
+        }
+      ]
+    ]
+  },
+  {
+    "id": 30,
+    "courseName": "Adobe Photoshop Certification Course in English",
+    "bannerImg": "./images/course-img/course-banner/photoshop.jpg",
+    "shortName": "Adobe Photoshop",
+    "overview": "Photoshop is a photo editing and raster graphic design software developed by Adobe Systems for both Windows and MacOS. It allows users to create, edit, and manipulate various graphics as well as digital art. Photoshop provides many image editing features for pixel-based images, raster graphics, and vector graphics",
+    "reasons": {
+      "enroll": [
+        [
+          "3 Real-time projects + tons of live practicals",
+          "70+ hrs of study material, quizzes & manuals"
+        ],
+        [
+          "Practical oriented course with case-studies",
+          "Lifetime access of LMS with videos & material"
+        ]
+      ],
+      "learn": [
+        [
+          "Have a complete and comprehensive knowledge of the tools inside Photoshop CC.",
+          "Learn to 'photoshop' your pictures, like an expert! You will learn how to take even the shabbiest looking drab photograph from your cellphone, and convert it into a head-turner.",
+          "Learn to retouch, heal and apply filters to photographs!"
+        ],
+        [
+          "Become a full time graphic designer or a freelancer and get amazing gigs.",
+          "Learn Color Correction, Color Grading and several effects that you can apply to Photographs inside Photoshop.",
+          "Learn Creative styles to apply to photos; Make them look Jaw-dropping awesome!"
+        ]
+      ]
+    },
+    "why": [
+      {
+        "title": "Angular ranked second in “most used technology” in the Stack Overflow Survey",
+        "src": "Stack Overflow"
+      },
+      {
+        "title": "Developed, maintained, managed and monitored by Google Developers",
+        "src": "Google"
+      },
+      {
+        "title": "Average base pay of an Angular Developers is more than INR 460,000 per year in India",
+        "src": "Glassdoor"
+      },
+      {
+        "title": "The world’s most valuable resource is Big Data, no longer oil.",
+        "src": "The Economist"
+      },
+      {
+        "title": "Rapid application development, Plays a role of front end in MEAN stack development",
+        "src": ""
+      }
+    ],
+    "prerequisite": {
+      "que": "What to do before you begin your Adobe Photoshop online training?",
+      "ans": "Nothing!",
+      "suggest": "Although if you’d like, you can brush up on your skills with our complementary HTML material right in your LMS."
+    },
+    "curriculum": [
+      [
+        {
+          "no": 1,
+          "title": "Introduction",
+          "content": [
+            "Introduction"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Photoshop basics",
+          "content": [
+            "Understanding the photoshop interface",
+            "Customize your workspace and panels",
+            "Create a new Photoshop file",
+            "Place photos and graphics in your project",
+            "Moving & zooming around a project",
+            "Use artboards in your photoshop workflow"
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Understand layer panels",
+          "content": [
+            "The layers panel",
+            "Aligning layers in photoshop",
+            "Organizing the layers panel",
+            "Linking layers",
+            "Adding layer styles and adjustments",
+            "Using layer masks project: Photo Compositing Basics (Resizing and placing layers",
+            "Project solution: photo compositing basics (Resizing and placing layers)"
+            
+          ]
+        },
+        {
+          "no": 4,
+          "title": "The selection tools",
+          "content": [
+            "Intro to the selection tools",
+            "The magic wand and object selection tools",
+            "Improving edge selections with the refine edge tools",
+            "Selecting a specific color",
+            "Easily remove objects from a photo with content aware fill",
+            "Project: Abstract art graphic",
+            "Project solution: Abstract art graphic"
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Titles and text",
+          "content": [
+            "Adding text to your projects",
+            "Warping text",
+            "Making text follow a linear or shape",
+            "Project: Design a poster with just text",
+            "Project solution: design a poster with just text"
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Layer styles",
+          "content": [
+            "How to add a line (Stroke) around your layers",
+            "Adding glow to your layers",
+            "Adding level and emboss to your layers",
+            "More layer styles"
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Blend modes",
+          "content": [
+           "Introduction to Blend Modes",
+           "Easily remove a black or white background with blend modes",
+           "How to create space inside a juice glass",
+           "Creating a camera flare with blend modes",
+           "Project: design a modern graphic with blend modes",
+           "Project solution: design a modern graphic with blend modes"
+          ]
+        }
+      ],
+      [
+        
+        {
+          "no": 8,
+          "title": "The filter gallery cc",
+          "content": [
+            "The filter gallery",
+            "Adjusting the strength of a filter"
+          ]
+        },
+        {
+          "no": 9,
+          "title": "Retouching photos in Photoshop",
+
+          "content": [
+            "Intro to retouching and how to remove blemishes in Photoshop",
+            "Smoothing skin",
+            "Removing bags under the eye",
+            "Professional dodging and burning to enhance a portrait",
+            "Enhance Eye color",
+            "Enhancing the eyes",
+            "Using the powerful liquify tool"
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Editing raw photos with camera raw",
+
+          "content": [
+            "Intro to editing with camera RAW",
+            "Cropping photos in camera RAW",
+            "White balance adjustments",
+            "Proper photo editing workflow",
+            "Exposure and brightness adjustments",
+            "Color and saturation adjustments",
+            "Sharpening and noise reduction",
+            "Tone curve adjustments",
+            "Effects like vignettes, grain and dehaze",
+            "Saving photos from camera raw",
+            "HSL and grayscale adjustments",
+            "Lens corrections",
+            "Spot removal and blemish removal",
+            "Targeted adjustments",
+            "Straighten and transform tools",
+            "Graduated, radial and brush filters",
+            "Range masks",
+            "A full landscape edit",
+            "A full portrait edit",
+            "Editing together an HDR photo"
+          ]
+        },
+        {
+          "no": 11,
+          "title": "Adobe library",
+
+          "content": [
+           "Speed up your workflow with the adobe library"
+          ]
+        },
+        {
+          "no": 12,
+          "title": "Saving and exporting",
+
+          "content": [
+            "How to save your Photoshop project and export it for any purpose",
+            "Quickly save JPEGs from Photoshop",
+            "Exporting projects using Artboards"
+          ]
+        },
+        {
+          "no": 13,
+          "title": "Full length projects",
+
+          "content": [
+           "Intro to these additional project demonstrations",
+           "Project: Fantasy Walk",
+           "Project: Badge logo",
+           "Project: Mystical cat",
+           "Project: Infographic"
+          ]
+        },
+        {
+          "no": 14,
+          "title": "Conclusion",
+
+          "content": [
+            "Thanks"
+          ]
+        }
+      ]
+    ],
+    "features": [
+      {
+        "img": "./images/course-img/course-features/time.png",
+        "title": "20+ Hrs instructor based video lessons"
+      },
+      {
+        "img": "./images/course-img/course-features/support.png",
+        "title": "Lifetime access to course with support"
+      },
+      {
+        "img": "./images/course-img/course-features/project.png",
+        "title": "Real time capstone projects"
+      },
+      {
+        "img": "./images/course-img/course-features/certificate.png",
+        "title": "Industry renowned Certification"
+      },
+      {
+        "img": "./images/course-img/course-features/brainstorming.png",
+        "title": "Discussion forum for queries and interaction"
+      }
+    ],
+    "forWho": {
+      "que": "Is this Adobe Photoshop Course for you?",
+      "ans": "Photoshop is a photo editing and raster graphic design software developed by Adobe Systems for both Windows and MacOS. It allows users to create, edit, and manipulate various graphics as well as digital art. Photoshop provides many image editing features for pixel-based images, raster graphics, and vector graphics So while anyone can benefit from a career in it, here are the kind of professionals who go for this Adobe Photoshop course:<ul><li>Youtuber</li><li>Social media influencer</li><li>People who wants to work in a big production house</li><li>Any graduate focusing to build a career in photo editing</li></ul>"
+    },
+    "companies": {
+      "title": "Companies you can expect when you get Adobe Photoshop-certified with us",
+      "img": "./images/companies.png"
+    },
+    "faq": [
+      [
+        {
+          "que": "How will I perform the Adobe Photoshop practicals at home?",
+          "ans": "For practice, manual and video for setup are available in LMS and you need to install it on your system at home."
+        },
+        {
+          "que": "How long will the Adobe Photoshop course recordings be available?",
+          "ans": "All the Adobe Photoshop training sessions along with the complete Adobe Photoshop study material, POCs, and Adobe Photoshop projects will be available for lifetime."
+        },
+        {
+          "que": "What things do I need to learn Adobe Photoshop through this course?",
+          "ans": "To attend this online Adobe Photoshop training, you just need a laptop or a PC with a minimum 4GB RAM. Nothing else is required to learn it."
+        },
+        {
+          "que": "How do I clear my Adobe Photoshop related doubts?",
+          "ans": "You can post your queries on the discussion forum. Our support team will be happy to assist you."
+        },
+        {
+          "que": "What are the system specifications required to learn Adobe Photoshop?",
+          "ans": "The recommendation is a minimum of an i3 processor, a 20 GB disk, and a 4 GB RAM for practicing Adobe Photoshop."
+        },
+        {
+          "que": "How will this Adobe Photoshop course help me in getting a job?",
+          "ans": "Our Adobe Photoshop training includes multiple workshops, POCs, and projects. These will vigorously prepare you for Adobe Photoshop interviews so you can be confident in your work from day one. These things will help you get your dream Adobe Photoshop job in the industry."
+        },
+        {
+          "que": "What will the end result be of this online Adobe Photoshop training course?",
+          "ans": "When you finish this course, you will be equipped with practical skills and theoretical knowledge the industry looks for. You will bloom into a certified Adobe Photoshop professional who is ready to take on Adobe Photoshop Projects in top organizations."
+        }
+        
+      ],
+      [
+        {
+          "que": "Where do all the students come from?",
+          "ans": "We have a blend of students from across the globe. Apart from India, we provide training in the US, the UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, and many others covering the globe."
+        },
+        {
+          "que": "Is this Adobe Photoshop training classroom-based or online?",
+          "ans": "This training is completely online and self-paced."
+        },
+        {
+          "que": "Will you be providing Adobe Photoshop certificate after the training?",
+          "ans": "Yes, you will be provided with an industry-recognizable certificate declaring your proficiency with Adobe Photoshop. At the end of this Adobe Photoshop course, you will work on real-time projects. Once you have successfully made it through the projects, you will be awarded Adobe Photoshop certificate."
+        },
+        {
+          "que": "How do I get in touch with you for further queries?",
+          "ans": "You are  to contact us by placing a call at +91-8451097879 or by dropping a mail to info@data-flair.training"
+        },
+        {
+          "que": "What type of Adobe Photoshop projects will I be doing during the training?",
+          "ans": "You will be doing Adobe Photoshop real-life projects in different domains"
+        },
+        {
+          "que": "Do you provide placement assistance?",
+          "ans": "This Adobe Photoshop course from us is 100% job-oriented and will prepare you completely for interviews from Adobe Photoshop job perspective."
+        },
+        {
+          "que": "Can I attend a demo session before enrolling for this Adobe Photoshop?",
+          "ans": "Yes, you can attend the Adobe Photoshop demo class recording on this course page itself to understand the quality of training we provide. This is what creates the difference between us and other online Adobe Photoshop training providers."
+        }
+      ]
+    ]
+  },
+  {
+    "id": 31,
+    "courseName": "Microsoft Word Certification Course in English",
+    "bannerImg": "./images/course-img/course-banner/microsoft-word.jpg",
+    "shortName": "Microsoft Word",
+    "overview": "Photoshop is a photo editing and raster graphic design software developed by Adobe Systems for both Windows and MacOS. It allows users to create, edit, and manipulate various graphics as well as digital art. Photoshop provides many image editing features for pixel-based images, raster graphics, and vector graphics",
+    "reasons": {
+      "enroll": [
+        [
+          "3 Real-time projects + tons of live practicals",
+          "70+ hrs of study material, quizzes & manuals"
+        ],
+        [
+          "Practical oriented course with case-studies",
+          "Lifetime access of LMS with videos & material"
+        ]
+      ],
+      "learn": [
+        [
+          "Have a complete and comprehensive knowledge of the tools inside Photoshop CC.",
+          "Learn to 'photoshop' your pictures, like an expert! You will learn how to take even the shabbiest looking drab photograph from your cellphone, and convert it into a head-turner.",
+          "Learn to retouch, heal and apply filters to photographs!"
+        ],
+        [
+          "Become a full time graphic designer or a freelancer and get amazing gigs.",
+          "Learn Color Correction, Color Grading and several effects that you can apply to Photographs inside Photoshop.",
+          "Learn Creative styles to apply to photos; Make them look Jaw-dropping awesome!"
+        ]
+      ]
+    },
+    "why": [
+      {
+        "title": "Angular ranked second in “most used technology” in the Stack Overflow Survey",
+        "src": "Stack Overflow"
+      },
+      {
+        "title": "Developed, maintained, managed and monitored by Google Developers",
+        "src": "Google"
+      },
+      {
+        "title": "Average base pay of an Angular Developers is more than INR 460,000 per year in India",
+        "src": "Glassdoor"
+      },
+      {
+        "title": "The world’s most valuable resource is Big Data, no longer oil.",
+        "src": "The Economist"
+      },
+      {
+        "title": "Rapid application development, Plays a role of front end in MEAN stack development",
+        "src": ""
+      }
+    ],
+    "prerequisite": {
+      "que": "What to do before you begin your Microsoft Word online training?",
+      "ans": "Nothing!",
+      "suggest": "Although if you’d like, you can brush up on your skills with our complementary HTML material right in your LMS."
+    },
+    "curriculum": [
+      [
+        {
+          "no": 1,
+          "title": "Introduction",
+          "content": [
+            "Introduction"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Photoshop basics",
+          "content": [
+            "Understanding the photoshop interface",
+            "Customize your workspace and panels",
+            "Create a new Photoshop file",
+            "Place photos and graphics in your project",
+            "Moving & zooming around a project",
+            "Use artboards in your photoshop workflow"
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Understand layer panels",
+          "content": [
+            "The layers panel",
+            "Aligning layers in photoshop",
+            "Organizing the layers panel",
+            "Linking layers",
+            "Adding layer styles and adjustments",
+            "Using layer masks project: Photo Compositing Basics (Resizing and placing layers",
+            "Project solution: photo compositing basics (Resizing and placing layers)"
+            
+          ]
+        },
+        {
+          "no": 4,
+          "title": "The selection tools",
+          "content": [
+            "Intro to the selection tools",
+            "The magic wand and object selection tools",
+            "Improving edge selections with the refine edge tools",
+            "Selecting a specific color",
+            "Easily remove objects from a photo with content aware fill",
+            "Project: Abstract art graphic",
+            "Project solution: Abstract art graphic"
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Titles and text",
+          "content": [
+            "Adding text to your projects",
+            "Warping text",
+            "Making text follow a linear or shape",
+            "Project: Design a poster with just text",
+            "Project solution: design a poster with just text"
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Layer styles",
+          "content": [
+            "How to add a line (Stroke) around your layers",
+            "Adding glow to your layers",
+            "Adding level and emboss to your layers",
+            "More layer styles"
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Blend modes",
+          "content": [
+           "Introduction to Blend Modes",
+           "Easily remove a black or white background with blend modes",
+           "How to create space inside a juice glass",
+           "Creating a camera flare with blend modes",
+           "Project: design a modern graphic with blend modes",
+           "Project solution: design a modern graphic with blend modes"
+          ]
+        },
+        {
+          "no": 8,
+          "title": "The filter gallery cc",
+          "content": [
+            "The filter gallery",
+            "Adjusting the strength of a filter"
+          ]
+        }
+      ],
+      [
+        {
+          "no": 9,
+          "title": "Retouching photos in Photoshop",
+
+          "content": [
+            "Intro to retouching and how to remove blemishes in Photoshop",
+            "Smoothing skin",
+            "Removing bags under the eye",
+            "Professional dodging and burning to enhance a portrait",
+            "Enhance Eye color",
+            "Enhancing the eyes",
+            "Using the powerful liquify tool"
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Editing raw photos with camera raw",
+
+          "content": [
+            "Intro to editing with camera RAW",
+            "Cropping photos in camera RAW",
+            "White balance adjustments",
+            "Proper photo editing workflow",
+            "Exposure and brightness adjustments",
+            "Color and saturation adjustments",
+            "Sharpening and noise reduction",
+            "Tone curve adjustments",
+            "Effects like vignettes, grain and dehaze",
+            "Saving photos from camera raw",
+            "HSL and grayscale adjustments",
+            "Lens corrections",
+            "Spot removal and blemish removal",
+            "Targeted adjustments",
+            "Straighten and transform tools",
+            "Graduated, radial and brush filters",
+            "Range masks",
+            "A full landscape edit",
+            "A full portrait edit",
+            "Editing together an HDR photo"
+          ]
+        },
+        {
+          "no": 11,
+          "title": "Adobe library",
+
+          "content": [
+           "Speed up your workflow with the adobe library"
+          ]
+        },
+        {
+          "no": 12,
+          "title": "Saving and exporting",
+
+          "content": [
+            "How to save your Photoshop project and export it for any purpose",
+            "Quickly save JPEGs from Photoshop",
+            "Exporting projects using Artboards"
+          ]
+        },
+        {
+          "no": 13,
+          "title": "Full length projects",
+
+          "content": [
+           "Intro to these additional project demonstrations",
+           "Project: Fantasy Walk",
+           "Project: Badge logo",
+           "Project: Mystical cat",
+           "Project: Infographic"
+          ]
+        },
+        {
+          "no": 14,
+          "title": "Conclusion",
+
+          "content": [
+            "Thanks"
+          ]
+        }
+      ]
+    ],
+    "features": [
+      {
+        "img": "./images/course-img/course-features/time.png",
+        "title": "20+ Hrs instructor based video lessons"
+      },
+      {
+        "img": "./images/course-img/course-features/support.png",
+        "title": "Lifetime access to course with support"
+      },
+      {
+        "img": "./images/course-img/course-features/project.png",
+        "title": "Real time capstone projects"
+      },
+      {
+        "img": "./images/course-img/course-features/certificate.png",
+        "title": "Industry renowned Certification"
+      },
+      {
+        "img": "./images/course-img/course-features/brainstorming.png",
+        "title": "Discussion forum for queries and interaction"
+      }
+    ],
+    "forWho": {
+      "que": "Is this Microsoft Word Course for you?",
+      "ans": "Photoshop is a photo editing and raster graphic design software developed by Adobe Systems for both Windows and MacOS. It allows users to create, edit, and manipulate various graphics as well as digital art. Photoshop provides many image editing features for pixel-based images, raster graphics, and vector graphics So while anyone can benefit from a career in it, here are the kind of professionals who go for this Microsoft Word course:<ul><li>Youtuber</li><li>Social media influencer</li><li>People who wants to work in a big production house</li><li>Any graduate focusing to build a career in photo editing</li></ul>"
+    },
+    "companies": {
+      "title": "Companies you can expect when you get Microsoft Word-certified with us",
+      "img": "./images/companies.png"
+    },
+    "faq": [
+      [
+        {
+          "que": "How will I perform the Microsoft Word practicals at home?",
+          "ans": "For practice, manual and video for setup are available in LMS and you need to install it on your system at home."
+        },
+        {
+          "que": "How long will the Microsoft Word course recordings be available?",
+          "ans": "All the Microsoft Word training sessions along with the complete Microsoft Word study material, POCs, and Microsoft Word projects will be available for lifetime."
+        },
+        {
+          "que": "What things do I need to learn Microsoft Word through this course?",
+          "ans": "To attend this online Microsoft Word training, you just need a laptop or a PC with a minimum 4GB RAM. Nothing else is required to learn it."
+        },
+        {
+          "que": "How do I clear my Microsoft Word related doubts?",
+          "ans": "You can post your queries on the discussion forum. Our support team will be happy to assist you."
+        },
+        {
+          "que": "What are the system specifications required to learn Microsoft Word?",
+          "ans": "The recommendation is a minimum of an i3 processor, a 20 GB disk, and a 4 GB RAM for practicing Microsoft Word."
+        },
+        {
+          "que": "How will this Microsoft Word course help me in getting a job?",
+          "ans": "Our Microsoft Word training includes multiple workshops, POCs, and projects. These will vigorously prepare you for Microsoft Word interviews so you can be confident in your work from day one. These things will help you get your dream Microsoft Word job in the industry."
+        },
+        {
+          "que": "What will the end result be of this online Microsoft Word training course?",
+          "ans": "When you finish this course, you will be equipped with practical skills and theoretical knowledge the industry looks for. You will bloom into a certified Microsoft Word professional who is ready to take on Microsoft Word Projects in top organizations."
+        },
+        {
+          "que": "Where do all the students come from?",
+          "ans": "We have a blend of students from across the globe. Apart from India, we provide training in the US, the UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, and many others covering the globe."
+        }
+      ],
+      [
+        {
+          "que": "Is this Microsoft Word training classroom-based or online?",
+          "ans": "This training is completely online and self-paced."
+        },
+        {
+          "que": "Will you be providing Microsoft Word certificate after the training?",
+          "ans": "Yes, you will be provided with an industry-recognizable certificate declaring your proficiency with Microsoft Word. At the end of this Microsoft Word course, you will work on real-time projects. Once you have successfully made it through the projects, you will be awarded Microsoft Word certificate."
+        },
+        {
+          "que": "How do I get in touch with you for further queries?",
+          "ans": "You are  to contact us by placing a call at +91-8451097879 or by dropping a mail to info@data-flair.training"
+        },
+        {
+          "que": "What type of Microsoft Word projects will I be doing during the training?",
+          "ans": "You will be doing Microsoft Word real-life projects in different domains"
+        },
+        {
+          "que": "Do you provide placement assistance?",
+          "ans": "This Microsoft Word course from us is 100% job-oriented and will prepare you completely for interviews from Microsoft Word job perspective."
+        },
+        {
+          "que": "Can I attend a demo session before enrolling for this Microsoft Word?",
+          "ans": "Yes, you can attend the Microsoft Word demo class recording on this course page itself to understand the quality of training we provide. This is what creates the difference between us and other online Microsoft Word training providers."
+        }
+      ]
+    ]
+  },
+  {
+    "id": 32,
+    "courseName": "Microsoft Excel Certification Course in English",
+    "bannerImg": "./images/course-img/course-banner/microsoft-excel.jpg",
+    "shortName": "Microsoft Excel",
+    "overview": "Photoshop is a photo editing and raster graphic design software developed by Adobe Systems for both Windows and MacOS. It allows users to create, edit, and manipulate various graphics as well as digital art. Photoshop provides many image editing features for pixel-based images, raster graphics, and vector graphics",
+    "reasons": {
+      "enroll": [
+        [
+          "3 Real-time projects + tons of live practicals",
+          "70+ hrs of study material, quizzes & manuals"
+        ],
+        [
+          "Practical oriented course with case-studies",
+          "Lifetime access of LMS with videos & material"
+        ]
+      ],
+      "learn": [
+        [
+          "Have a complete and comprehensive knowledge of the tools inside Photoshop CC.",
+          "Learn to 'photoshop' your pictures, like an expert! You will learn how to take even the shabbiest looking drab photograph from your cellphone, and convert it into a head-turner.",
+          "Learn to retouch, heal and apply filters to photographs!"
+        ],
+        [
+          "Become a full time graphic designer or a freelancer and get amazing gigs.",
+          "Learn Color Correction, Color Grading and several effects that you can apply to Photographs inside Photoshop.",
+          "Learn Creative styles to apply to photos; Make them look Jaw-dropping awesome!"
+        ]
+      ]
+    },
+    "why": [
+      {
+        "title": "Angular ranked second in “most used technology” in the Stack Overflow Survey",
+        "src": "Stack Overflow"
+      },
+      {
+        "title": "Developed, maintained, managed and monitored by Google Developers",
+        "src": "Google"
+      },
+      {
+        "title": "Average base pay of an Angular Developers is more than INR 460,000 per year in India",
+        "src": "Glassdoor"
+      },
+      {
+        "title": "The world’s most valuable resource is Big Data, no longer oil.",
+        "src": "The Economist"
+      },
+      {
+        "title": "Rapid application development, Plays a role of front end in MEAN stack development",
+        "src": ""
+      }
+    ],
+    "prerequisite": {
+      "que": "What to do before you begin your Microsoft Excel online training?",
+      "ans": "Nothing!",
+      "suggest": "Although if you’d like, you can brush up on your skills with our complementary HTML material right in your LMS."
+    },
+    "curriculum": [
+      [
+        {
+          "no": 1,
+          "title": "Introduction",
+          "content": [
+            "Introduction"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Photoshop basics",
+          "content": [
+            "Understanding the photoshop interface",
+            "Customize your workspace and panels",
+            "Create a new Photoshop file",
+            "Place photos and graphics in your project",
+            "Moving & zooming around a project",
+            "Use artboards in your photoshop workflow"
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Understand layer panels",
+          "content": [
+            "The layers panel",
+            "Aligning layers in photoshop",
+            "Organizing the layers panel",
+            "Linking layers",
+            "Adding layer styles and adjustments",
+            "Using layer masks project: Photo Compositing Basics (Resizing and placing layers",
+            "Project solution: photo compositing basics (Resizing and placing layers)"
+            
+          ]
+        },
+        {
+          "no": 4,
+          "title": "The selection tools",
+          "content": [
+            "Intro to the selection tools",
+            "The magic wand and object selection tools",
+            "Improving edge selections with the refine edge tools",
+            "Selecting a specific color",
+            "Easily remove objects from a photo with content aware fill",
+            "Project: Abstract art graphic",
+            "Project solution: Abstract art graphic"
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Titles and text",
+          "content": [
+            "Adding text to your projects",
+            "Warping text",
+            "Making text follow a linear or shape",
+            "Project: Design a poster with just text",
+            "Project solution: design a poster with just text"
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Layer styles",
+          "content": [
+            "How to add a line (Stroke) around your layers",
+            "Adding glow to your layers",
+            "Adding level and emboss to your layers",
+            "More layer styles"
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Blend modes",
+          "content": [
+           "Introduction to Blend Modes",
+           "Easily remove a black or white background with blend modes",
+           "How to create space inside a juice glass",
+           "Creating a camera flare with blend modes",
+           "Project: design a modern graphic with blend modes",
+           "Project solution: design a modern graphic with blend modes"
+          ]
+        },
+        {
+          "no": 8,
+          "title": "The filter gallery cc",
+          "content": [
+            "The filter gallery",
+            "Adjusting the strength of a filter"
+          ]
+        }
+      ],
+      [
+        {
+          "no": 9,
+          "title": "Retouching photos in Photoshop",
+
+          "content": [
+            "Intro to retouching and how to remove blemishes in Photoshop",
+            "Smoothing skin",
+            "Removing bags under the eye",
+            "Professional dodging and burning to enhance a portrait",
+            "Enhance Eye color",
+            "Enhancing the eyes",
+            "Using the powerful liquify tool"
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Editing raw photos with camera raw",
+
+          "content": [
+            "Intro to editing with camera RAW",
+            "Cropping photos in camera RAW",
+            "White balance adjustments",
+            "Proper photo editing workflow",
+            "Exposure and brightness adjustments",
+            "Color and saturation adjustments",
+            "Sharpening and noise reduction",
+            "Tone curve adjustments",
+            "Effects like vignettes, grain and dehaze",
+            "Saving photos from camera raw",
+            "HSL and grayscale adjustments",
+            "Lens corrections",
+            "Spot removal and blemish removal",
+            "Targeted adjustments",
+            "Straighten and transform tools",
+            "Graduated, radial and brush filters",
+            "Range masks",
+            "A full landscape edit",
+            "A full portrait edit",
+            "Editing together an HDR photo"
+          ]
+        },
+        {
+          "no": 11,
+          "title": "Adobe library",
+
+          "content": [
+           "Speed up your workflow with the adobe library"
+          ]
+        },
+        {
+          "no": 12,
+          "title": "Saving and exporting",
+
+          "content": [
+            "How to save your Photoshop project and export it for any purpose",
+            "Quickly save JPEGs from Photoshop",
+            "Exporting projects using Artboards"
+          ]
+        },
+        {
+          "no": 13,
+          "title": "Full length projects",
+
+          "content": [
+           "Intro to these additional project demonstrations",
+           "Project: Fantasy Walk",
+           "Project: Badge logo",
+           "Project: Mystical cat",
+           "Project: Infographic"
+          ]
+        },
+        {
+          "no": 14,
+          "title": "Conclusion",
+
+          "content": [
+            "Thanks"
+          ]
+        }
+      ]
+    ],
+    "features": [
+      {
+        "img": "./images/course-img/course-features/time.png",
+        "title": "20+ Hrs instructor based video lessons"
+      },
+      {
+        "img": "./images/course-img/course-features/support.png",
+        "title": "Lifetime access to course with support"
+      },
+      {
+        "img": "./images/course-img/course-features/project.png",
+        "title": "Real time capstone projects"
+      },
+      {
+        "img": "./images/course-img/course-features/certificate.png",
+        "title": "Industry renowned Certification"
+      },
+      {
+        "img": "./images/course-img/course-features/brainstorming.png",
+        "title": "Discussion forum for queries and interaction"
+      }
+    ],
+    "forWho": {
+      "que": "Is this Microsoft Excel Course for you?",
+      "ans": "Photoshop is a photo editing and raster graphic design software developed by Adobe Systems for both Windows and MacOS. It allows users to create, edit, and manipulate various graphics as well as digital art. Photoshop provides many image editing features for pixel-based images, raster graphics, and vector graphics So while anyone can benefit from a career in it, here are the kind of professionals who go for this Microsoft Excel course:<ul><li>Youtuber</li><li>Social media influencer</li><li>People who wants to work in a big production house</li><li>Any graduate focusing to build a career in photo editing</li></ul>"
+    },
+    "companies": {
+      "title": "Companies you can expect when you get Microsoft Excel-certified with us",
+      "img": "./images/companies.png"
+    },
+    "faq": [
+      [
+        {
+          "que": "How will I perform the Microsoft Excel practicals at home?",
+          "ans": "For practice, manual and video for setup are available in LMS and you need to install it on your system at home."
+        },
+        {
+          "que": "How long will the Microsoft Excel course recordings be available?",
+          "ans": "All the Microsoft Excel training sessions along with the complete Microsoft Excel study material, POCs, and Microsoft Excel projects will be available for lifetime."
+        },
+        {
+          "que": "What things do I need to learn Microsoft Excel through this course?",
+          "ans": "To attend this online Microsoft Excel training, you just need a laptop or a PC with a minimum 4GB RAM. Nothing else is required to learn it."
+        },
+        {
+          "que": "How do I clear my Microsoft Excel related doubts?",
+          "ans": "You can post your queries on the discussion forum. Our support team will be happy to assist you."
+        },
+        {
+          "que": "What are the system specifications required to learn Microsoft Excel?",
+          "ans": "The recommendation is a minimum of an i3 processor, a 20 GB disk, and a 4 GB RAM for practicing Microsoft Excel."
+        },
+        {
+          "que": "How will this Microsoft Excel course help me in getting a job?",
+          "ans": "Our Microsoft Excel training includes multiple workshops, POCs, and projects. These will vigorously prepare you for Microsoft Excel interviews so you can be confident in your work from day one. These things will help you get your dream Microsoft Excel job in the industry."
+        },
+        {
+          "que": "What will the end result be of this online Microsoft Excel training course?",
+          "ans": "When you finish this course, you will be equipped with practical skills and theoretical knowledge the industry looks for. You will bloom into a certified Microsoft Excel professional who is ready to take on Microsoft Excel Projects in top organizations."
+        },
+        {
+          "que": "Where do all the students come from?",
+          "ans": "We have a blend of students from across the globe. Apart from India, we provide training in the US, the UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, and many others covering the globe."
+        }
+      ],
+      [
+        {
+          "que": "Is this Microsoft Excel training classroom-based or online?",
+          "ans": "This training is completely online and self-paced."
+        },
+        {
+          "que": "Will you be providing Microsoft Excel certificate after the training?",
+          "ans": "Yes, you will be provided with an industry-recognizable certificate declaring your proficiency with Microsoft Excel. At the end of this Microsoft Excel course, you will work on real-time projects. Once you have successfully made it through the projects, you will be awarded Microsoft Excel certificate."
+        },
+        {
+          "que": "How do I get in touch with you for further queries?",
+          "ans": "You are  to contact us by placing a call at +91-8451097879 or by dropping a mail to info@data-flair.training"
+        },
+        {
+          "que": "What type of Microsoft Excel projects will I be doing during the training?",
+          "ans": "You will be doing Microsoft Excel real-life projects in different domains"
+        },
+        {
+          "que": "Do you provide placement assistance?",
+          "ans": "This Microsoft Excel course from us is 100% job-oriented and will prepare you completely for interviews from Microsoft Excel job perspective."
+        },
+        {
+          "que": "Can I attend a demo session before enrolling for this Microsoft Excel?",
+          "ans": "Yes, you can attend the Microsoft Excel demo class recording on this course page itself to understand the quality of training we provide. This is what creates the difference between us and other online Microsoft Excel training providers."
+        }
+      ]
+    ]
+  },
+  {
+    "id": 33,
+    "courseName": "Microsoft Powerpoint Certification Course in English",
+    "bannerImg": "./images/course-img/course-banner/ms-powerpoint.jpg",
+    "shortName": "Microsoft Powerpoint",
+    "overview": "Photoshop is a photo editing and raster graphic design software developed by Adobe Systems for both Windows and MacOS. It allows users to create, edit, and manipulate various graphics as well as digital art. Photoshop provides many image editing features for pixel-based images, raster graphics, and vector graphics",
+    "reasons": {
+      "enroll": [
+        [
+          "3 Real-time projects + tons of live practicals",
+          "70+ hrs of study material, quizzes & manuals"
+        ],
+        [
+          "Practical oriented course with case-studies",
+          "Lifetime access of LMS with videos & material"
+        ]
+      ],
+      "learn": [
+        [
+          "Have a complete and comprehensive knowledge of the tools inside Photoshop CC.",
+          "Learn to 'photoshop' your pictures, like an expert! You will learn how to take even the shabbiest looking drab photograph from your cellphone, and convert it into a head-turner.",
+          "Learn to retouch, heal and apply filters to photographs!"
+        ],
+        [
+          "Become a full time graphic designer or a freelancer and get amazing gigs.",
+          "Learn Color Correction, Color Grading and several effects that you can apply to Photographs inside Photoshop.",
+          "Learn Creative styles to apply to photos; Make them look Jaw-dropping awesome!"
+        ]
+      ]
+    },
+    "why": [
+      {
+        "title": "Angular ranked second in “most used technology” in the Stack Overflow Survey",
+        "src": "Stack Overflow"
+      },
+      {
+        "title": "Developed, maintained, managed and monitored by Google Developers",
+        "src": "Google"
+      },
+      {
+        "title": "Average base pay of an Angular Developers is more than INR 460,000 per year in India",
+        "src": "Glassdoor"
+      },
+      {
+        "title": "The world’s most valuable resource is Big Data, no longer oil.",
+        "src": "The Economist"
+      },
+      {
+        "title": "Rapid application development, Plays a role of front end in MEAN stack development",
+        "src": ""
+      }
+    ],
+    "prerequisite": {
+      "que": "What to do before you begin your Microsoft Powerpoint online training?",
+      "ans": "Nothing!",
+      "suggest": "Although if you’d like, you can brush up on your skills with our complementary HTML material right in your LMS."
+    },
+    "curriculum": [
+      [
+        {
+          "no": 1,
+          "title": "Introduction",
+          "content": [
+            "Introduction"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Photoshop basics",
+          "content": [
+            "Understanding the photoshop interface",
+            "Customize your workspace and panels",
+            "Create a new Photoshop file",
+            "Place photos and graphics in your project",
+            "Moving & zooming around a project",
+            "Use artboards in your photoshop workflow"
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Understand layer panels",
+          "content": [
+            "The layers panel",
+            "Aligning layers in photoshop",
+            "Organizing the layers panel",
+            "Linking layers",
+            "Adding layer styles and adjustments",
+            "Using layer masks project: Photo Compositing Basics (Resizing and placing layers",
+            "Project solution: photo compositing basics (Resizing and placing layers)"
+            
+          ]
+        },
+        {
+          "no": 4,
+          "title": "The selection tools",
+          "content": [
+            "Intro to the selection tools",
+            "The magic wand and object selection tools",
+            "Improving edge selections with the refine edge tools",
+            "Selecting a specific color",
+            "Easily remove objects from a photo with content aware fill",
+            "Project: Abstract art graphic",
+            "Project solution: Abstract art graphic"
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Titles and text",
+          "content": [
+            "Adding text to your projects",
+            "Warping text",
+            "Making text follow a linear or shape",
+            "Project: Design a poster with just text",
+            "Project solution: design a poster with just text"
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Layer styles",
+          "content": [
+            "How to add a line (Stroke) around your layers",
+            "Adding glow to your layers",
+            "Adding level and emboss to your layers",
+            "More layer styles"
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Blend modes",
+          "content": [
+           "Introduction to Blend Modes",
+           "Easily remove a black or white background with blend modes",
+           "How to create space inside a juice glass",
+           "Creating a camera flare with blend modes",
+           "Project: design a modern graphic with blend modes",
+           "Project solution: design a modern graphic with blend modes"
+          ]
+        },
+        {
+          "no": 8,
+          "title": "The filter gallery cc",
+          "content": [
+            "The filter gallery",
+            "Adjusting the strength of a filter"
+          ]
+        }
+      ],
+      [
+        {
+          "no": 9,
+          "title": "Retouching photos in Photoshop",
+
+          "content": [
+            "Intro to retouching and how to remove blemishes in Photoshop",
+            "Smoothing skin",
+            "Removing bags under the eye",
+            "Professional dodging and burning to enhance a portrait",
+            "Enhance Eye color",
+            "Enhancing the eyes",
+            "Using the powerful liquify tool"
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Editing raw photos with camera raw",
+
+          "content": [
+            "Intro to editing with camera RAW",
+            "Cropping photos in camera RAW",
+            "White balance adjustments",
+            "Proper photo editing workflow",
+            "Exposure and brightness adjustments",
+            "Color and saturation adjustments",
+            "Sharpening and noise reduction",
+            "Tone curve adjustments",
+            "Effects like vignettes, grain and dehaze",
+            "Saving photos from camera raw",
+            "HSL and grayscale adjustments",
+            "Lens corrections",
+            "Spot removal and blemish removal",
+            "Targeted adjustments",
+            "Straighten and transform tools",
+            "Graduated, radial and brush filters",
+            "Range masks",
+            "A full landscape edit",
+            "A full portrait edit",
+            "Editing together an HDR photo"
+          ]
+        },
+        {
+          "no": 11,
+          "title": "Adobe library",
+
+          "content": [
+           "Speed up your workflow with the adobe library"
+          ]
+        },
+        {
+          "no": 12,
+          "title": "Saving and exporting",
+
+          "content": [
+            "How to save your Photoshop project and export it for any purpose",
+            "Quickly save JPEGs from Photoshop",
+            "Exporting projects using Artboards"
+          ]
+        },
+        {
+          "no": 13,
+          "title": "Full length projects",
+
+          "content": [
+           "Intro to these additional project demonstrations",
+           "Project: Fantasy Walk",
+           "Project: Badge logo",
+           "Project: Mystical cat",
+           "Project: Infographic"
+          ]
+        },
+        {
+          "no": 14,
+          "title": "Conclusion",
+
+          "content": [
+            "Thanks"
+          ]
+        }
+      ]
+    ],
+    "features": [
+      {
+        "img": "./images/course-img/course-features/time.png",
+        "title": "20+ Hrs instructor based video lessons"
+      },
+      {
+        "img": "./images/course-img/course-features/support.png",
+        "title": "Lifetime access to course with support"
+      },
+      {
+        "img": "./images/course-img/course-features/project.png",
+        "title": "Real time capstone projects"
+      },
+      {
+        "img": "./images/course-img/course-features/certificate.png",
+        "title": "Industry renowned Certification"
+      },
+      {
+        "img": "./images/course-img/course-features/brainstorming.png",
+        "title": "Discussion forum for queries and interaction"
+      }
+    ],
+    "forWho": {
+      "que": "Is this Microsoft Powerpoint Course for you?",
+      "ans": "Photoshop is a photo editing and raster graphic design software developed by Adobe Systems for both Windows and MacOS. It allows users to create, edit, and manipulate various graphics as well as digital art. Photoshop provides many image editing features for pixel-based images, raster graphics, and vector graphics So while anyone can benefit from a career in it, here are the kind of professionals who go for this Microsoft Powerpoint course:<ul><li>Youtuber</li><li>Social media influencer</li><li>People who wants to work in a big production house</li><li>Any graduate focusing to build a career in photo editing</li></ul>"
+    },
+    "companies": {
+      "title": "Companies you can expect when you get Microsoft Powerpoint-certified with us",
+      "img": "./images/companies.png"
+    },
+    "faq": [
+      [
+        {
+          "que": "How will I perform the Microsoft Powerpoint practicals at home?",
+          "ans": "For practice, manual and video for setup are available in LMS and you need to install it on your system at home."
+        },
+        {
+          "que": "How long will the Microsoft Powerpoint course recordings be available?",
+          "ans": "All the Microsoft Powerpoint training sessions along with the complete Microsoft Powerpoint study material, POCs, and Microsoft Powerpoint projects will be available for lifetime."
+        },
+        {
+          "que": "What things do I need to learn Microsoft Powerpoint through this course?",
+          "ans": "To attend this online Microsoft Powerpoint training, you just need a laptop or a PC with a minimum 4GB RAM. Nothing else is required to learn it."
+        },
+        {
+          "que": "How do I clear my Microsoft Powerpoint related doubts?",
+          "ans": "You can post your queries on the discussion forum. Our support team will be happy to assist you."
+        },
+        {
+          "que": "What are the system specifications required to learn Microsoft Powerpoint?",
+          "ans": "The recommendation is a minimum of an i3 processor, a 20 GB disk, and a 4 GB RAM for practicing Microsoft Powerpoint."
+        },
+        {
+          "que": "How will this Microsoft Powerpoint course help me in getting a job?",
+          "ans": "Our Microsoft Powerpoint training includes multiple workshops, POCs, and projects. These will vigorously prepare you for Microsoft Powerpoint interviews so you can be confident in your work from day one. These things will help you get your dream Microsoft Powerpoint job in the industry."
+        },
+        {
+          "que": "What will the end result be of this online Microsoft Powerpoint training course?",
+          "ans": "When you finish this course, you will be equipped with practical skills and theoretical knowledge the industry looks for. You will bloom into a certified Microsoft Powerpoint professional who is ready to take on Microsoft Powerpoint Projects in top organizations."
+        },
+        {
+          "que": "Where do all the students come from?",
+          "ans": "We have a blend of students from across the globe. Apart from India, we provide training in the US, the UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, and many others covering the globe."
+        }
+      ],
+      [
+        {
+          "que": "Is this Microsoft Powerpoint training classroom-based or online?",
+          "ans": "This training is completely online and self-paced."
+        },
+        {
+          "que": "Will you be providing Microsoft Powerpoint certificate after the training?",
+          "ans": "Yes, you will be provided with an industry-recognizable certificate declaring your proficiency with Microsoft Powerpoint. At the end of this Microsoft Powerpoint course, you will work on real-time projects. Once you have successfully made it through the projects, you will be awarded Microsoft Powerpoint certificate."
+        },
+        {
+          "que": "How do I get in touch with you for further queries?",
+          "ans": "You are  to contact us by placing a call at +91-8451097879 or by dropping a mail to info@data-flair.training"
+        },
+        {
+          "que": "What type of Microsoft Powerpoint projects will I be doing during the training?",
+          "ans": "You will be doing Microsoft Powerpoint real-life projects in different domains"
+        },
+        {
+          "que": "Do you provide placement assistance?",
+          "ans": "This Microsoft Powerpoint course from us is 100% job-oriented and will prepare you completely for interviews from Microsoft Powerpoint job perspective."
+        },
+        {
+          "que": "Can I attend a demo session before enrolling for this Microsoft Powerpoint?",
+          "ans": "Yes, you can attend the Microsoft Powerpoint demo class recording on this course page itself to understand the quality of training we provide. This is what creates the difference between us and other online Microsoft Powerpoint training providers."
+        }
+      ]
+    ]
+  },
+  {
+    "id": 34,
+    "courseName": "Sales Force Certification Course in English",
+    "bannerImg": "./images/course-img/course-banner/sales-force.png",
+    "shortName": "Sales Force",
+    "overview": "Photoshop is a photo editing and raster graphic design software developed by Adobe Systems for both Windows and MacOS. It allows users to create, edit, and manipulate various graphics as well as digital art. Photoshop provides many image editing features for pixel-based images, raster graphics, and vector graphics",
+    "reasons": {
+      "enroll": [
+        [
+          "3 Real-time projects + tons of live practicals",
+          "70+ hrs of study material, quizzes & manuals"
+        ],
+        [
+          "Practical oriented course with case-studies",
+          "Lifetime access of LMS with videos & material"
+        ]
+      ],
+      "learn": [
+        [
+          "Have a complete and comprehensive knowledge of the tools inside Photoshop CC.",
+          "Learn to 'photoshop' your pictures, like an expert! You will learn how to take even the shabbiest looking drab photograph from your cellphone, and convert it into a head-turner.",
+          "Learn to retouch, heal and apply filters to photographs!"
+        ],
+        [
+          "Become a full time graphic designer or a freelancer and get amazing gigs.",
+          "Learn Color Correction, Color Grading and several effects that you can apply to Photographs inside Photoshop.",
+          "Learn Creative styles to apply to photos; Make them look Jaw-dropping awesome!"
+        ]
+      ]
+    },
+    "why": [
+      {
+        "title": "Angular ranked second in “most used technology” in the Stack Overflow Survey",
+        "src": "Stack Overflow"
+      },
+      {
+        "title": "Developed, maintained, managed and monitored by Google Developers",
+        "src": "Google"
+      },
+      {
+        "title": "Average base pay of an Angular Developers is more than INR 460,000 per year in India",
+        "src": "Glassdoor"
+      },
+      {
+        "title": "The world’s most valuable resource is Big Data, no longer oil.",
+        "src": "The Economist"
+      },
+      {
+        "title": "Rapid application development, Plays a role of front end in MEAN stack development",
+        "src": ""
+      }
+    ],
+    "prerequisite": {
+      "que": "What to do before you begin your Sales Force online training?",
+      "ans": "Nothing!",
+      "suggest": "Although if you’d like, you can brush up on your skills with our complementary HTML material right in your LMS."
+    },
+    "curriculum": [
+      [
+        {
+          "no": 1,
+          "title": "Introduction",
+          "content": [
+            "Introduction"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Photoshop basics",
+          "content": [
+            "Understanding the photoshop interface",
+            "Customize your workspace and panels",
+            "Create a new Photoshop file",
+            "Place photos and graphics in your project",
+            "Moving & zooming around a project",
+            "Use artboards in your photoshop workflow"
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Understand layer panels",
+          "content": [
+            "The layers panel",
+            "Aligning layers in photoshop",
+            "Organizing the layers panel",
+            "Linking layers",
+            "Adding layer styles and adjustments",
+            "Using layer masks project: Photo Compositing Basics (Resizing and placing layers",
+            "Project solution: photo compositing basics (Resizing and placing layers)"
+            
+          ]
+        },
+        {
+          "no": 4,
+          "title": "The selection tools",
+          "content": [
+            "Intro to the selection tools",
+            "The magic wand and object selection tools",
+            "Improving edge selections with the refine edge tools",
+            "Selecting a specific color",
+            "Easily remove objects from a photo with content aware fill",
+            "Project: Abstract art graphic",
+            "Project solution: Abstract art graphic"
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Titles and text",
+          "content": [
+            "Adding text to your projects",
+            "Warping text",
+            "Making text follow a linear or shape",
+            "Project: Design a poster with just text",
+            "Project solution: design a poster with just text"
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Layer styles",
+          "content": [
+            "How to add a line (Stroke) around your layers",
+            "Adding glow to your layers",
+            "Adding level and emboss to your layers",
+            "More layer styles"
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Blend modes",
+          "content": [
+           "Introduction to Blend Modes",
+           "Easily remove a black or white background with blend modes",
+           "How to create space inside a juice glass",
+           "Creating a camera flare with blend modes",
+           "Project: design a modern graphic with blend modes",
+           "Project solution: design a modern graphic with blend modes"
+          ]
+        },
+        {
+          "no": 8,
+          "title": "The filter gallery cc",
+          "content": [
+            "The filter gallery",
+            "Adjusting the strength of a filter"
+          ]
+        }
+      ],
+      [
+        {
+          "no": 9,
+          "title": "Retouching photos in Photoshop",
+
+          "content": [
+            "Intro to retouching and how to remove blemishes in Photoshop",
+            "Smoothing skin",
+            "Removing bags under the eye",
+            "Professional dodging and burning to enhance a portrait",
+            "Enhance Eye color",
+            "Enhancing the eyes",
+            "Using the powerful liquify tool"
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Editing raw photos with camera raw",
+
+          "content": [
+            "Intro to editing with camera RAW",
+            "Cropping photos in camera RAW",
+            "White balance adjustments",
+            "Proper photo editing workflow",
+            "Exposure and brightness adjustments",
+            "Color and saturation adjustments",
+            "Sharpening and noise reduction",
+            "Tone curve adjustments",
+            "Effects like vignettes, grain and dehaze",
+            "Saving photos from camera raw",
+            "HSL and grayscale adjustments",
+            "Lens corrections",
+            "Spot removal and blemish removal",
+            "Targeted adjustments",
+            "Straighten and transform tools",
+            "Graduated, radial and brush filters",
+            "Range masks",
+            "A full landscape edit",
+            "A full portrait edit",
+            "Editing together an HDR photo"
+          ]
+        },
+        {
+          "no": 11,
+          "title": "Adobe library",
+
+          "content": [
+           "Speed up your workflow with the adobe library"
+          ]
+        },
+        {
+          "no": 12,
+          "title": "Saving and exporting",
+
+          "content": [
+            "How to save your Photoshop project and export it for any purpose",
+            "Quickly save JPEGs from Photoshop",
+            "Exporting projects using Artboards"
+          ]
+        },
+        {
+          "no": 13,
+          "title": "Full length projects",
+
+          "content": [
+           "Intro to these additional project demonstrations",
+           "Project: Fantasy Walk",
+           "Project: Badge logo",
+           "Project: Mystical cat",
+           "Project: Infographic"
+          ]
+        },
+        {
+          "no": 14,
+          "title": "Conclusion",
+
+          "content": [
+            "Thanks"
+          ]
+        }
+      ]
+    ],
+    "features": [
+      {
+        "img": "./images/course-img/course-features/time.png",
+        "title": "20+ Hrs instructor based video lessons"
+      },
+      {
+        "img": "./images/course-img/course-features/support.png",
+        "title": "Lifetime access to course with support"
+      },
+      {
+        "img": "./images/course-img/course-features/project.png",
+        "title": "Real time capstone projects"
+      },
+      {
+        "img": "./images/course-img/course-features/certificate.png",
+        "title": "Industry renowned Certification"
+      },
+      {
+        "img": "./images/course-img/course-features/brainstorming.png",
+        "title": "Discussion forum for queries and interaction"
+      }
+    ],
+    "forWho": {
+      "que": "Is this Sales Force Course for you?",
+      "ans": "Photoshop is a photo editing and raster graphic design software developed by Adobe Systems for both Windows and MacOS. It allows users to create, edit, and manipulate various graphics as well as digital art. Photoshop provides many image editing features for pixel-based images, raster graphics, and vector graphics So while anyone can benefit from a career in it, here are the kind of professionals who go for this Sales Force course:<ul><li>Youtuber</li><li>Social media influencer</li><li>People who wants to work in a big production house</li><li>Any graduate focusing to build a career in photo editing</li></ul>"
+    },
+    "companies": {
+      "title": "Companies you can expect when you get Sales Force-certified with us",
+      "img": "./images/companies.png"
+    },
+    "faq": [
+      [
+        {
+          "que": "How will I perform the Sales Force practicals at home?",
+          "ans": "For practice, manual and video for setup are available in LMS and you need to install it on your system at home."
+        },
+        {
+          "que": "How long will the Sales Force course recordings be available?",
+          "ans": "All the Sales Force training sessions along with the complete Sales Force study material, POCs, and Sales Force projects will be available for lifetime."
+        },
+        {
+          "que": "What things do I need to learn Sales Force through this course?",
+          "ans": "To attend this online Sales Force training, you just need a laptop or a PC with a minimum 4GB RAM. Nothing else is required to learn it."
+        },
+        {
+          "que": "How do I clear my Sales Force related doubts?",
+          "ans": "You can post your queries on the discussion forum. Our support team will be happy to assist you."
+        },
+        {
+          "que": "What are the system specifications required to learn Sales Force?",
+          "ans": "The recommendation is a minimum of an i3 processor, a 20 GB disk, and a 4 GB RAM for practicing Sales Force."
+        },
+        {
+          "que": "How will this Sales Force course help me in getting a job?",
+          "ans": "Our Sales Force training includes multiple workshops, POCs, and projects. These will vigorously prepare you for Sales Force interviews so you can be confident in your work from day one. These things will help you get your dream Sales Force job in the industry."
+        },
+        {
+          "que": "What will the end result be of this online Sales Force training course?",
+          "ans": "When you finish this course, you will be equipped with practical skills and theoretical knowledge the industry looks for. You will bloom into a certified Sales Force professional who is ready to take on Sales Force Projects in top organizations."
+        },
+        {
+          "que": "Where do all the students come from?",
+          "ans": "We have a blend of students from across the globe. Apart from India, we provide training in the US, the UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, and many others covering the globe."
+        }
+      ],
+      [
+        {
+          "que": "Is this Sales Force training classroom-based or online?",
+          "ans": "This training is completely online and self-paced."
+        },
+        {
+          "que": "Will you be providing Sales Force certificate after the training?",
+          "ans": "Yes, you will be provided with an industry-recognizable certificate declaring your proficiency with Sales Force. At the end of this Sales Force course, you will work on real-time projects. Once you have successfully made it through the projects, you will be awarded Sales Force certificate."
+        },
+        {
+          "que": "How do I get in touch with you for further queries?",
+          "ans": "You are  to contact us by placing a call at +91-8451097879 or by dropping a mail to info@data-flair.training"
+        },
+        {
+          "que": "What type of Sales Force projects will I be doing during the training?",
+          "ans": "You will be doing Sales Force real-life projects in different domains"
+        },
+        {
+          "que": "Do you provide placement assistance?",
+          "ans": "This Sales Force course from us is 100% job-oriented and will prepare you completely for interviews from Sales Force job perspective."
+        },
+        {
+          "que": "Can I attend a demo session before enrolling for this Sales Force?",
+          "ans": "Yes, you can attend the Sales Force demo class recording on this course page itself to understand the quality of training we provide. This is what creates the difference between us and other online Sales Force training providers."
+        }
+      ]
+    ]
+  },
+  {
+    "id": 35,
+    "courseName": "Wordpress Certification Course in English",
+    "bannerImg": "./images/course-img/course-banner/wordpress.jpg",
+    "shortName": "Wordpress",
+    "overview": "Photoshop is a photo editing and raster graphic design software developed by Adobe Systems for both Windows and MacOS. It allows users to create, edit, and manipulate various graphics as well as digital art. Photoshop provides many image editing features for pixel-based images, raster graphics, and vector graphics",
+    "reasons": {
+      "enroll": [
+        [
+          "3 Real-time projects + tons of live practicals",
+          "70+ hrs of study material, quizzes & manuals"
+        ],
+        [
+          "Practical oriented course with case-studies",
+          "Lifetime access of LMS with videos & material"
+        ]
+      ],
+      "learn": [
+        [
+          "Have a complete and comprehensive knowledge of the tools inside Photoshop CC.",
+          "Learn to 'photoshop' your pictures, like an expert! You will learn how to take even the shabbiest looking drab photograph from your cellphone, and convert it into a head-turner.",
+          "Learn to retouch, heal and apply filters to photographs!"
+        ],
+        [
+          "Become a full time graphic designer or a freelancer and get amazing gigs.",
+          "Learn Color Correction, Color Grading and several effects that you can apply to Photographs inside Photoshop.",
+          "Learn Creative styles to apply to photos; Make them look Jaw-dropping awesome!"
+        ]
+      ]
+    },
+    "why": [
+      {
+        "title": "Angular ranked second in “most used technology” in the Stack Overflow Survey",
+        "src": "Stack Overflow"
+      },
+      {
+        "title": "Developed, maintained, managed and monitored by Google Developers",
+        "src": "Google"
+      },
+      {
+        "title": "Average base pay of an Angular Developers is more than INR 460,000 per year in India",
+        "src": "Glassdoor"
+      },
+      {
+        "title": "The world’s most valuable resource is Big Data, no longer oil.",
+        "src": "The Economist"
+      },
+      {
+        "title": "Rapid application development, Plays a role of front end in MEAN stack development",
+        "src": ""
+      }
+    ],
+    "prerequisite": {
+      "que": "What to do before you begin your Wordpress online training?",
+      "ans": "Nothing!",
+      "suggest": "Although if you’d like, you can brush up on your skills with our complementary HTML material right in your LMS."
+    },
+    "curriculum": [
+      [
+        {
+          "no": 1,
+          "title": "Introduction",
+          "content": [
+            "Introduction"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Photoshop basics",
+          "content": [
+            "Understanding the photoshop interface",
+            "Customize your workspace and panels",
+            "Create a new Photoshop file",
+            "Place photos and graphics in your project",
+            "Moving & zooming around a project",
+            "Use artboards in your photoshop workflow"
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Understand layer panels",
+          "content": [
+            "The layers panel",
+            "Aligning layers in photoshop",
+            "Organizing the layers panel",
+            "Linking layers",
+            "Adding layer styles and adjustments",
+            "Using layer masks project: Photo Compositing Basics (Resizing and placing layers",
+            "Project solution: photo compositing basics (Resizing and placing layers)"
+            
+          ]
+        },
+        {
+          "no": 4,
+          "title": "The selection tools",
+          "content": [
+            "Intro to the selection tools",
+            "The magic wand and object selection tools",
+            "Improving edge selections with the refine edge tools",
+            "Selecting a specific color",
+            "Easily remove objects from a photo with content aware fill",
+            "Project: Abstract art graphic",
+            "Project solution: Abstract art graphic"
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Titles and text",
+          "content": [
+            "Adding text to your projects",
+            "Warping text",
+            "Making text follow a linear or shape",
+            "Project: Design a poster with just text",
+            "Project solution: design a poster with just text"
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Layer styles",
+          "content": [
+            "How to add a line (Stroke) around your layers",
+            "Adding glow to your layers",
+            "Adding level and emboss to your layers",
+            "More layer styles"
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Blend modes",
+          "content": [
+           "Introduction to Blend Modes",
+           "Easily remove a black or white background with blend modes",
+           "How to create space inside a juice glass",
+           "Creating a camera flare with blend modes",
+           "Project: design a modern graphic with blend modes",
+           "Project solution: design a modern graphic with blend modes"
+          ]
+        },
+        {
+          "no": 8,
+          "title": "The filter gallery cc",
+          "content": [
+            "The filter gallery",
+            "Adjusting the strength of a filter"
+          ]
+        }
+      ],
+      [
+        {
+          "no": 9,
+          "title": "Retouching photos in Photoshop",
+
+          "content": [
+            "Intro to retouching and how to remove blemishes in Photoshop",
+            "Smoothing skin",
+            "Removing bags under the eye",
+            "Professional dodging and burning to enhance a portrait",
+            "Enhance Eye color",
+            "Enhancing the eyes",
+            "Using the powerful liquify tool"
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Editing raw photos with camera raw",
+
+          "content": [
+            "Intro to editing with camera RAW",
+            "Cropping photos in camera RAW",
+            "White balance adjustments",
+            "Proper photo editing workflow",
+            "Exposure and brightness adjustments",
+            "Color and saturation adjustments",
+            "Sharpening and noise reduction",
+            "Tone curve adjustments",
+            "Effects like vignettes, grain and dehaze",
+            "Saving photos from camera raw",
+            "HSL and grayscale adjustments",
+            "Lens corrections",
+            "Spot removal and blemish removal",
+            "Targeted adjustments",
+            "Straighten and transform tools",
+            "Graduated, radial and brush filters",
+            "Range masks",
+            "A full landscape edit",
+            "A full portrait edit",
+            "Editing together an HDR photo"
+          ]
+        },
+        {
+          "no": 11,
+          "title": "Adobe library",
+
+          "content": [
+           "Speed up your workflow with the adobe library"
+          ]
+        },
+        {
+          "no": 12,
+          "title": "Saving and exporting",
+
+          "content": [
+            "How to save your Photoshop project and export it for any purpose",
+            "Quickly save JPEGs from Photoshop",
+            "Exporting projects using Artboards"
+          ]
+        },
+        {
+          "no": 13,
+          "title": "Full length projects",
+
+          "content": [
+           "Intro to these additional project demonstrations",
+           "Project: Fantasy Walk",
+           "Project: Badge logo",
+           "Project: Mystical cat",
+           "Project: Infographic"
+          ]
+        },
+        {
+          "no": 14,
+          "title": "Conclusion",
+
+          "content": [
+            "Thanks"
+          ]
+        }
+      ]
+    ],
+    "features": [
+      {
+        "img": "./images/course-img/course-features/time.png",
+        "title": "20+ Hrs instructor based video lessons"
+      },
+      {
+        "img": "./images/course-img/course-features/support.png",
+        "title": "Lifetime access to course with support"
+      },
+      {
+        "img": "./images/course-img/course-features/project.png",
+        "title": "Real time capstone projects"
+      },
+      {
+        "img": "./images/course-img/course-features/certificate.png",
+        "title": "Industry renowned Certification"
+      },
+      {
+        "img": "./images/course-img/course-features/brainstorming.png",
+        "title": "Discussion forum for queries and interaction"
+      }
+    ],
+    "forWho": {
+      "que": "Is this Wordpress Course for you?",
+      "ans": "Photoshop is a photo editing and raster graphic design software developed by Adobe Systems for both Windows and MacOS. It allows users to create, edit, and manipulate various graphics as well as digital art. Photoshop provides many image editing features for pixel-based images, raster graphics, and vector graphics So while anyone can benefit from a career in it, here are the kind of professionals who go for this Wordpress course:<ul><li>Youtuber</li><li>Social media influencer</li><li>People who wants to work in a big production house</li><li>Any graduate focusing to build a career in photo editing</li></ul>"
+    },
+    "companies": {
+      "title": "Companies you can expect when you get Wordpress-certified with us",
+      "img": "./images/companies.png"
+    },
+    "faq": [
+      [
+        {
+          "que": "How will I perform the Wordpress practicals at home?",
+          "ans": "For practice, manual and video for setup are available in LMS and you need to install it on your system at home."
+        },
+        {
+          "que": "How long will the Wordpress course recordings be available?",
+          "ans": "All the Wordpress training sessions along with the complete Wordpress study material, POCs, and Wordpress projects will be available for lifetime."
+        },
+        {
+          "que": "What things do I need to learn Wordpress through this course?",
+          "ans": "To attend this online Wordpress training, you just need a laptop or a PC with a minimum 4GB RAM. Nothing else is required to learn it."
+        },
+        {
+          "que": "How do I clear my Wordpress related doubts?",
+          "ans": "You can post your queries on the discussion forum. Our support team will be happy to assist you."
+        },
+        {
+          "que": "What are the system specifications required to learn Wordpress?",
+          "ans": "The recommendation is a minimum of an i3 processor, a 20 GB disk, and a 4 GB RAM for practicing Wordpress."
+        },
+        {
+          "que": "How will this Wordpress course help me in getting a job?",
+          "ans": "Our Wordpress training includes multiple workshops, POCs, and projects. These will vigorously prepare you for Wordpress interviews so you can be confident in your work from day one. These things will help you get your dream Wordpress job in the industry."
+        },
+        {
+          "que": "What will the end result be of this online Wordpress training course?",
+          "ans": "When you finish this course, you will be equipped with practical skills and theoretical knowledge the industry looks for. You will bloom into a certified Wordpress professional who is ready to take on Wordpress Projects in top organizations."
+        },
+        {
+          "que": "Where do all the students come from?",
+          "ans": "We have a blend of students from across the globe. Apart from India, we provide training in the US, the UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, and many others covering the globe."
+        }
+      ],
+      [
+        {
+          "que": "Is this Wordpress training classroom-based or online?",
+          "ans": "This training is completely online and self-paced."
+        },
+        {
+          "que": "Will you be providing Wordpress certificate after the training?",
+          "ans": "Yes, you will be provided with an industry-recognizable certificate declaring your proficiency with Wordpress. At the end of this Wordpress course, you will work on real-time projects. Once you have successfully made it through the projects, you will be awarded Wordpress certificate."
+        },
+        {
+          "que": "How do I get in touch with you for further queries?",
+          "ans": "You are  to contact us by placing a call at +91-8451097879 or by dropping a mail to info@data-flair.training"
+        },
+        {
+          "que": "What type of Wordpress projects will I be doing during the training?",
+          "ans": "You will be doing Wordpress real-life projects in different domains"
+        },
+        {
+          "que": "Do you provide placement assistance?",
+          "ans": "This Wordpress course from us is 100% job-oriented and will prepare you completely for interviews from Wordpress job perspective."
+        },
+        {
+          "que": "Can I attend a demo session before enrolling for this Wordpress?",
+          "ans": "Yes, you can attend the Wordpress demo class recording on this course page itself to understand the quality of training we provide. This is what creates the difference between us and other online Wordpress training providers."
+        }
+      ]
+    ]
   }
 ]
