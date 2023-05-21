@@ -8,9 +8,6 @@ const courseDetails = (data, courseId) => {
     courseName,
     bannerImg,
     overview,
-    details,
-    learners,
-    videoSrc,
     shortName,
     reasons,
     why,
@@ -96,8 +93,7 @@ const courseDetails = (data, courseId) => {
       <h2 data-aos="zoom-in">Course Content</h2>
 
       <div class="course-contents">
-          <div class="left-side" data-aos="zoom-in"></div>
-          <div class="right-side" data-aos="zoom-in"></div>    
+          
       </div>
   </div>
 
@@ -145,199 +141,166 @@ const courseDetails = (data, courseId) => {
   
   `;
 
-  // reason to enroll
-  const ulContainerPartOne = document.querySelector(
-    ".reason-to-enroll .reason-part-one ul"
-  );
 
-  const ulContainerPartTwo = document.querySelector(
-    ".reason-to-enroll .reason-part-two ul"
-  );
+                // reason to enroll
+                const ulContainerPartOne = document.querySelector(
+                    ".reason-to-enroll .reason-part-one ul"
+                );
 
-  reasons?.enroll[0].forEach((item) => {
-    const li = document.createElement("li");
+                const ulContainerPartTwo = document.querySelector(
+                    ".reason-to-enroll .reason-part-two ul"
+                );
 
-    li.innerHTML = `<i class="fa-solid fa-check"></i> ${item}`;
-    ulContainerPartOne.appendChild(li);
-  });
+                reasons?.enroll[0].forEach((item) => {
+                    const li = document.createElement("li");
 
-  reasons?.enroll[1].forEach((item) => {
-    const li = document.createElement("li");
+                    li.innerHTML = `<i class="fa-solid fa-check"></i> ${item}`;
+                    ulContainerPartOne.appendChild(li);
+                });
 
-    li.innerHTML = `<i class="fa-solid fa-check"></i> ${item}`;
-    ulContainerPartTwo.appendChild(li);
-  });
+                reasons?.enroll[1].forEach((item) => {
+                    const li = document.createElement("li");
 
-  // take home section
-  const achievementsLeft = document.querySelector(
-    ".achievements-details .left-side"
-  );
-  const achievementsRight = document.querySelector(
-    ".achievements-details .right-side"
-  );
+                    li.innerHTML = `<i class="fa-solid fa-check"></i> ${item}`;
+                    ulContainerPartTwo.appendChild(li);
+                });
 
-  // achievement left side
-  reasons?.learn[0].forEach((item) => {
-    const p = document.createElement("p");
-    p.innerHTML = `<i class="fa-solid fa-check"></i>  ${item}`;
-    achievementsLeft.appendChild(p);
-  });
+                // take home section
+                const achievementsLeft = document.querySelector(
+                    ".achievements-details .left-side"
+                );
+                const achievementsRight = document.querySelector(
+                    ".achievements-details .right-side"
+                );
 
-  // achievements right side
-  reasons?.learn[1].forEach((item) => {
-    const p = document.createElement("p");
-    p.innerHTML = `<i class="fa-solid fa-check"></i> ${item}`;
-    achievementsRight.appendChild(p);
-  });
+                // achievement left side
+                reasons?.learn[0].forEach((item) => {
+                    const p = document.createElement("p");
+                    p.innerHTML = `<i class="fa-solid fa-check"></i>  ${item}`;
+                    achievementsLeft.appendChild(p);
+                });
 
-  // why should learn python
-  const reasonsContainer = document.querySelector(".reason-to-learn .reasons");
+                // achievements right side
+                reasons?.learn[1].forEach((item) => {
+                    const p = document.createElement("p");
+                    p.innerHTML = `<i class="fa-solid fa-check"></i> ${item}`;
+                    achievementsRight.appendChild(p);
+                });
 
-  why.forEach((item) => {
-    const containerDiv = document.createElement("div");
-    containerDiv.setAttribute("data-aos", "fade-right");
-    containerDiv.setAttribute("data-aos-duration", 1000);
+                // why should learn python
+                const reasonsContainer = document.querySelector(".reason-to-learn .reasons");
 
-    const p = document.createElement("p");
-    p.textContent = `${item.title}`;
+                why.forEach((item) => {
+                    const containerDiv = document.createElement("div");
+                    containerDiv.setAttribute("data-aos", "fade-right");
+                    containerDiv.setAttribute("data-aos-duration", 1000);
 
-    const span = document.createElement("span");
-    span.style.fontWeight = "bold";
-    span.textContent = `-${item.src}`;
+                    const p = document.createElement("p");
+                    p.textContent = `${item.title}`;
 
-    containerDiv.append(p, span);
+                    const span = document.createElement("span");
+                    span.style.fontWeight = "bold";
+                    span.textContent = `-${item.src}`;
 
-    reasonsContainer.appendChild(containerDiv);
-  });
+                    containerDiv.append(p, span);
 
-  // course content left side
+                    reasonsContainer.appendChild(containerDiv);
+                });
 
-  const leftSideContent = document.querySelector(".course-contents .left-side");
 
-  curriculum[0].forEach((item, index) => {
-    const targetId = `ls${index}`;
-    const target = `#ls${index}`;
 
-    const containerDiv = document.createElement("div");
-    containerDiv.innerHTML = `
+                // content
+                const courseNo = ['courseOne', 'courseTwo', 'courseThree', 'courseFour']
 
-           <div class="vcollapse-toggle" data-target=${target}>
-               <p>${item.no}. ${item.title}</p>
+                const courseContentSection = document.querySelector('.course-contents')
+                console.log(courseContentSection);
 
-           </div>
+                for (let i = 0; i < curriculum.length; i++) {
+                    console.log(i);
 
-           <div class="vcollapse-content" id=${targetId}>
+                    const contentHolderDiv = document.createElement('div')
 
-               <ol></ol>
+                    curriculum[i].forEach((item, index) => {
 
-           </div>
-       `;
+                        const targetId = `${courseNo[i] + index}`;
+                        const target = `#${courseNo[i] + index}`;
 
-    leftSideContent.appendChild(containerDiv);
+                        console.log(item);
 
-    const contentSelector = `#${targetId} ol`;
-    const contentList = document.querySelector(contentSelector);
 
-    item.content.forEach((text) => {
-      const li = document.createElement("li");
-      li.innerHTML = `${text}`;
+                        const parentDiv = document.createElement('div');
 
-      contentList.appendChild(li);
-    });
-  });
+                        parentDiv.innerHTML = `
+                        
 
-  // course content right side
-  const rightSideContent = document.querySelector(
-    ".course-contents .right-side"
-  );
+                            <div class="vcollapse-toggle" data-target=${target}>
+                                <p>${item.no}. ${item.title}</p>
+                            </div>
 
-  curriculum[1].forEach((item, index) => {
-    const targetId = `rs${index}`;
-    const target = `#rs${index}`;
+                            <div class="vcollapse-content" id=${targetId}>
 
-    const containerDiv = document.createElement("div");
-    containerDiv.innerHTML = `
+                                <ol></ol>
 
-                   <div class="vcollapse-toggle" data-target=${target}>
-                       <p>${item.no}. ${item.title}</p>
+                            </div>
 
-                   </div>
+                       
+                        
+                        `;
 
-                   <div class="vcollapse-content" id=${targetId}>
+                        contentHolderDiv.appendChild(parentDiv)
 
-                       <ol></ol>
+                        courseContentSection.appendChild(contentHolderDiv)
 
-                   </div>
-               `;
 
-    rightSideContent.appendChild(containerDiv);
+                        const contentSelector = `.course-contents #${targetId} ol`;
+                        const contentList = document.querySelector(contentSelector);
+                        console.log(contentList);
 
-    const contentSelector = `#${targetId} ol`;
-    const contentList = document.querySelector(contentSelector);
+                        item.content.forEach((text) => {
+                            const li = document.createElement("li");
+                            li.innerHTML = `${text}`;
 
-    item.content.forEach((text) => {
-      const li = document.createElement("li");
-      li.innerHTML = `${text}`;
+                            contentList.appendChild(li);
+                        });
 
-      contentList.appendChild(li);
-    });
-  });
+                    })
 
-  // course features
-  const courseFeatureContainer = document.querySelector(
-    ".course-feature-container"
-  );
+                }
 
-  features.forEach((feature) => {
-    const parentDiv = document.createElement("div");
-    parentDiv.classList.add("feature");
-    parentDiv.setAttribute("data-aos", "flip-right");
-    parentDiv.innerHTML = `
+
+
+                // course features
+                const courseFeatureContainer = document.querySelector(
+                    ".course-feature-container"
+                );
+
+                features.forEach((feature) => {
+                    const parentDiv = document.createElement("div");
+                    parentDiv.classList.add("feature");
+                    parentDiv.setAttribute("data-aos", "flip-right");
+                    parentDiv.innerHTML = `
   <div class="feature-img">
       <img src=${feature.img} />
   </div>
 
   <p>${feature.title}</p>`;
 
-    courseFeatureContainer.appendChild(parentDiv);
-  });
+                    courseFeatureContainer.appendChild(parentDiv);
+                });
 
-  // faq part
+                // faq part
 
-  const faqDiv = document.querySelector(".faqs");
-  const faqLeftSide = document.querySelector(".faqs .faq-left");
-  const faqRightSide = document.querySelector(".faqs .faq-right");
+                const faqDiv = document.querySelector(".faqs");
+                const faqLeftSide = document.querySelector(".faqs .faq-left");
+                const faqRightSide = document.querySelector(".faqs .faq-right");
 
-  // faq left side
-  faq[0].forEach((item, index) => {
-    const targetId = `fql${index}`;
-    const target = `#fql${index}`;
+                // faq left side
+                faq[0].forEach((item, index) => {
+                    const targetId = `fql${index}`;
+                    const target = `#fql${index}`;
 
-    const containerDiv = document.createElement("div");
-    containerDiv.innerHTML = `
-
-                  <div class="vcollapse-toggle" data-target=${target}>
-                      <p>${item.que}</p>
-
-                  </div>
-
-                  <div class="vcollapse-content" id=${targetId}>
-
-                    <p> ${item.ans}</p>
-
-                  </div>
-              `;
-
-    faqLeftSide.appendChild(containerDiv);
-  });
-
-  // faq right side
-  faq[1].forEach((item, index) => {
-    const targetId = `fqr${index}`;
-    const target = `#fqr${index}`;
-
-    const containerDiv = document.createElement("div");
-    containerDiv.innerHTML = `
+                    const containerDiv = document.createElement("div");
+                    containerDiv.innerHTML = `
 
                   <div class="vcollapse-toggle" data-target=${target}>
                       <p>${item.que}</p>
@@ -351,36 +314,58 @@ const courseDetails = (data, courseId) => {
                   </div>
               `;
 
-    faqRightSide.appendChild(containerDiv);
-  });
+                    faqLeftSide.appendChild(containerDiv);
+                });
 
-  //jquery accordion
-  $(".course-contents .left-side").vCollapse({
-    any: true,
-    onLoad: -1,
-    speed: 300,
-    easing: "ease-in",
-  });
+                // faq right side
+                faq[1].forEach((item, index) => {
+                    const targetId = `fqr${index}`;
+                    const target = `#fqr${index}`;
 
-  $(".course-contents .right-side").vCollapse({
-    any: true,
-    onLoad: -1,
-    speed: 300,
-    easing: "ease-in",
-  });
+                    const containerDiv = document.createElement("div");
+                    containerDiv.innerHTML = `
 
-  $(".faqs .faq-left").vCollapse({
-    any: true,
-    onLoad: -1,
-    speed: 300,
-    easing: "ease-in",
-  });
+                  <div class="vcollapse-toggle" data-target=${target}>
+                      <p>${item.que}</p>
 
-  $(".faqs .faq-right").vCollapse({
-    any: true,
-    onLoad: -1,
-    speed: 300,
-    easing: "ease-in",
-  });
+                  </div>
+
+                  <div class="vcollapse-content" id=${targetId}>
+
+                    <p> ${item.ans}</p>
+
+                  </div>
+              `;
+
+                    faqRightSide.appendChild(containerDiv);
+                });
+                //jquery accordion
+                $(".course-contents > div").vCollapse({
+                    any: true,
+                    onLoad: -1,
+                    speed: 300,
+                    easing: "ease-in",
+                });
+
+                // $(".course-contents > div").vCollapse({
+                //     any: true,
+                //     onLoad: -1,
+                //     speed: 300,
+                //     easing: "ease-in",
+                // });
+
+                $(".faqs .faq-left").vCollapse({
+                    any: true,
+                    onLoad: -1,
+                    speed: 300,
+                    easing: "ease-in",
+                });
+
+                $(".faqs .faq-right").vCollapse({
+                    any: true,
+                    onLoad: -1,
+                    speed: 300,
+                    easing: "ease-in",
+                });
 };
 getAllData("data/course.json", courseDetails, queryString);

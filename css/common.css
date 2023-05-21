@@ -14,3 +14,8 @@
 ::selection {
   background-color: #f5df4e;
 }
+
+
+#loader{
+  min-height: 90vh;
+}

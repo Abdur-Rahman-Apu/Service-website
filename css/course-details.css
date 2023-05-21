@@ -2,771 +2,781 @@
 @import url(./common.css);
 
 body {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
+
 .highlight {
-  background-color: #f5df4e;
-  padding: 3px 6px;
+    background-color: #f5df4e;
+    padding: 3px 6px;
 }
 
 .course-detail-header {
-  background-color: rgba(255, 234, 167, 0.1);
-  display: flex;
-  justify-content: space-between;
-  padding: 100px 90px;
+    background-color: rgba(255, 234, 167, 0.1);
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 90px;
 }
 
 .course-detail-header .course-info {
-  flex-basis: 50%;
+    flex-basis: 50%;
 }
 
 .course-detail-header .banner-img {
-  flex-basis: 45%;
+    flex-basis: 45%;
 }
 
 .banner-img img {
-  width: 100%;
-  object-fit: cover;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
+    width: 100%;
+    object-fit: cover;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .course-detail-header .course-title {
-  font-weight: bold;
-  font-size: 48px;
+    font-weight: bold;
+    font-size: 48px;
 }
 
 .course-detail-header p {
-  margin-top: 15px;
-  font-size: 14px;
+    margin-top: 15px;
+    font-size: 14px;
 }
 
 .course-detail-header .book-btn {
-  background-image: linear-gradient(
-    to right,
-    #ffb347 0%,
-    #ffcc33 51%,
-    #ffb347 100%
-  );
-  margin: 50px 0 10px;
-  padding: 15px 45px;
-  text-align: center;
-  text-transform: uppercase;
-  transition: 0.5s;
-  background-size: 200% auto;
-  color: #fff;
-  box-shadow: 0 0 20px #eee;
-  border-radius: 10px;
-  display: inline-block;
-  border-radius: 30px;
-  text-decoration: none;
-  font-weight: bold;
+    background-image: linear-gradient(to right,
+            #ffb347 0%,
+            #ffcc33 51%,
+            #ffb347 100%);
+    margin: 50px 0 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #fff;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: inline-block;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .course-detail-header .book-btn:hover {
-  background-position: right center;
-  color: #fff;
-  text-decoration: none;
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
 }
 
 .achievements {
-  margin: 60px 0;
+    margin: 60px 0;
 }
 
 .achievements h1 {
-  text-align: center;
-  margin: 20px 0 40px;
-  position: relative;
-  font-size: 38px;
+    text-align: center;
+    margin: 20px 0 40px;
+    position: relative;
+    font-size: 38px;
 }
 
 .achievements h1::after {
-  content: "";
-  position: absolute;
-  width: 10%;
-  height: 4px;
-  bottom: -20px;
-  left: 45%;
-  background-color: #f5df4e;
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 4px;
+    bottom: -20px;
+    left: 45%;
+    background-color: #f5df4e;
 }
 
 .achievements-details {
-  display: flex;
-  justify-content: space-around;
-  margin: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
 }
 
 .achievements-details .left-side,
 .achievements-details .right-side {
-  min-height: fit-content;
-  flex-basis: 40%;
-  border-radius: 30px;
+    min-height: fit-content;
+    flex-basis: 40%;
+    border-radius: 30px;
 }
 
 .achievements-details .left-side,
 .achievements-details .right-side {
-  padding: 20px;
+    padding: 20px;
 }
 
 .achievements-details .left-side i,
 .achievements-details .right-side i {
-  font-size: 20px;
-  font-weight: 600;
-  margin-right: 4px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 4px;
 }
 
 .achievements-details .left-side p,
 .achievements-details .right-side p {
-  display: flex;
-  margin: 20px 0;
-  font-weight: 600;
+    display: flex;
+    margin: 20px 0;
+    font-weight: 600;
 }
 
 /* reason to enroll  */
 
 .reason-to-enroll {
-  display: flex;
-  align-items: center;
-  margin: 20px 0 50px;
+    display: flex;
+    align-items: center;
+    margin: 20px 0 50px;
 }
 
 .reason-to-enroll .reason-to-enroll-left-side {
-  flex-basis: 35%;
+    flex-basis: 35%;
 }
+
 .reason-to-enroll .reason-to-enroll-right-side {
-  flex-basis: 65%;
-  margin-left: 30px;
+    flex-basis: 65%;
+    margin-left: 30px;
 }
 
 .reason-to-enroll h1 {
-  font-size: 38px;
+    font-size: 38px;
 }
 
 .reason-to-enroll ul {
-  margin: 30px auto;
+    margin: 30px auto;
 }
 
 .reason-to-enroll ul li {
-  list-style: none;
-  margin: 8px 0;
-  display: flex;
-  align-items: center;
+    list-style: none;
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
 }
 
 .reason-to-enroll ul li i {
-  font-size: 20px;
-  font-weight: bold;
-  margin-right: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 8px;
 }
 
 .reason-to-enroll div,
 .prerequisite div {
-  flex-basis: 50%;
+    flex-basis: 50%;
 }
 
 .reason-to-enroll div:first-child {
-  height: 400px;
+    height: 400px;
 }
 
 .reason-to-enroll img {
-  height: 100%;
-  object-fit: contain;
-  float: right;
+    height: 100%;
+    object-fit: contain;
+    float: right;
 }
 
 /* prerequisite part  */
 
 .prerequisite img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .prerequisite {
-  display: flex;
-  align-items: center;
-  margin: 20px 0 50px;
-  padding: 60px 6%;
+    display: flex;
+    align-items: center;
+    margin: 20px 0 50px;
+    padding: 60px 6%;
 }
 
 .prerequisite h1 {
-  font-size: 38px;
-  margin-bottom: 20px;
+    font-size: 38px;
+    margin-bottom: 20px;
 }
 
 .prerequisite div:first-child b {
-  display: inline-block;
+    display: inline-block;
 
-  margin: 10px 0;
+    margin: 10px 0;
 }
 
 .prerequisite div:first-child p {
-  margin-top: 5px;
+    margin-top: 5px;
 }
 
 /* reason to learn part  */
 
 .reason-to-learn h2 {
-  position: relative;
-  text-transform: capitalize;
-  font-size: 38px;
-  margin: 70px 0;
-  border-radius: 10px;
-  text-align: center;
+    position: relative;
+    text-transform: capitalize;
+    font-size: 38px;
+    margin: 70px 0;
+    border-radius: 10px;
+    text-align: center;
 }
 
 .reason-to-learn h2::after {
-  position: absolute;
-  content: "";
-  left: 40%;
-  bottom: -15px;
-  width: 20%;
-  height: 4px;
-  background-color: #f5df4e;
+    position: absolute;
+    content: "";
+    left: 40%;
+    bottom: -15px;
+    width: 20%;
+    height: 4px;
+    background-color: #f5df4e;
 }
 
 .reason-to-learn .reasons {
-  display: flex;
-  flex-direction: column;
-  margin-top: 20px;
-  padding: 0 6%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 0 6%;
 }
 
 .reason-to-learn .reasons div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-wrap: wrap;
-  height: 100px;
-  padding: 10px 0;
-  margin: 10px 0;
-  text-align: center;
-  border-radius: 6px;
-  background-color: #f5df4e;
-  box-shadow: 0 2px 5px #4682b4;
-  color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100px;
+    padding: 10px 0;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 6px;
+    background-color: #f5df4e;
+    box-shadow: 0 2px 5px #4682b4;
+    color: #000;
 }
 
 /* course content section  */
 
 .course-contents {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 6%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 6%;
 }
 
-.course-contents .left-side,
-.course-contents .right-side {
-  flex-basis: 48%;
+.course-contents>div {
+    flex-basis: 48%;
+    margin-top: 30px;
 }
 
 .course-content-section {
-  margin: 50px 0;
+    margin: 50px 0;
 }
 
 .course-content-section h2 {
-  font-size: 38px;
-  margin: 80px auto;
-  width: fit-content;
-  text-transform: uppercase;
-  position: relative;
+    font-size: 38px;
+    margin: 80px auto;
+    width: fit-content;
+    text-transform: uppercase;
+    position: relative;
 }
 
 .course-content-section h2::after {
-  content: "";
-  position: absolute;
-  bottom: -10px;
-  left: 120px;
-  width: 100px;
-  height: 4px;
-  background-color: #f5df4e;
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 120px;
+    width: 100px;
+    height: 4px;
+    background-color: #f5df4e;
 }
 
 .course-content-section h2::before {
-  content: "";
-  position: absolute;
-  bottom: -20px;
-  left: 120px;
-  width: 100px;
-  height: 4px;
-  background-color: #f5df4e;
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 120px;
+    width: 100px;
+    height: 4px;
+    background-color: #f5df4e;
 }
 
-.course-contents .left-side > div,
-.course-contents .right-side > div {
-  background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+.course-contents>div>div,
+.course-contents>div>div {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.course-contents .left-side p,
-.course-contents .right-side p {
-  margin-left: 30px;
+.course-contents>div p,
+.course-contents>div p {
+    margin-left: 30px;
+    padding-right: 30px;
 }
 
-.course-contents .right-side div {
-  display: block;
-  padding: 0;
+.course-contents>div>div {
+    display: block;
+    padding: 0;
 }
 
 .course-contents .vcollapse-content ul {
-  margin-left: 30px;
-  list-style: square;
+    margin-left: 30px;
+    list-style: square;
 }
 
-.vcollapse-toggle,
-.course-contents .right-side .vcollapse-toggle {
-  position: relative;
-  padding: 20px 10px;
-  cursor: pointer;
-  background-color: rgba(255, 234, 167, 0.1);
+.vcollapse-toggle {
+    position: relative;
+    padding: 20px 10px;
+    cursor: pointer;
+    background-color: rgba(255, 234, 167, 0.1);
 }
 
 .vcollapse-toggle::after {
-  content: "\002B";
-  font-size: 1.4rem;
-  position: absolute;
-  top: 15px;
-  right: 1.2rem;
+    content: "\002B";
+    font-size: 1.4rem;
+    position: absolute;
+    top: 15px;
+    right: 1.2rem;
 }
 
 .vcollapse-toggle.active::after {
-  content: "\2212";
+    content: "\2212";
 }
 
-.vcollapse-toggle.active,
-.course-contents .right-side .vcollapse-toggle.active {
-  background-color: #f5df4e;
-  font-weight: bold;
-  color: #000;
+.vcollapse-toggle.active {
+    background-color: #f5df4e;
+    font-weight: bold;
+    color: #000;
 }
 
 .vcollapse-content ol {
-  padding-left: 30px;
-  margin-bottom: 10px;
-  list-style-position: inside;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    list-style-position: inside;
 }
 
 .vcollapse-content ol li {
-  margin: 10px 0;
+    margin: 10px 0;
 }
 
 .course-contents .vcollapse-content {
-  font-size: 15px;
+    font-size: 15px;
 }
 
 /* course features section  */
 
 .course-features-section {
-  background-image: linear-gradient(
-    to right,
-    #ffb347 0%,
-    #ffcc33 51%,
-    #ffb347 100%
-  );
-  padding: 90px 3%;
-  margin: 120px 0;
-  min-height: 500px;
+    background-image: linear-gradient(to right,
+            #ffb347 0%,
+            #ffcc33 51%,
+            #ffb347 100%);
+    padding: 90px 3%;
+    margin: 120px 0;
+    min-height: 500px;
 }
 
 .course-features-section h2 {
-  font-size: 36px;
-  font-weight: bolder;
-  text-transform: capitalize;
-  margin: 20px 0 50px;
-  text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    margin: 20px 0 50px;
+    text-align: center;
 }
 
 .course-feature-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 0 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 1%;
 }
 
 .course-feature-container .feature {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 220px;
-  height: 240px;
-  margin: 30px 0;
-  text-align: center;
-  background-color: #fff;
-  padding: 10px;
-  border-radius: 20px;
-  cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 220px;
+    height: 240px;
+    margin: 30px 0;
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
 }
 
 .course-feature-container .feature-img img {
-  width: 90px;
-  height: auto;
-  object-fit: cover;
+    width: 90px;
+    height: auto;
+    object-fit: cover;
 }
 
 .course-feature-container .feature p {
-  margin-top: 20px;
-  font-size: 16px;
-  font-weight: 600;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .course-feature-container .feature:hover {
-  box-shadow: 0 0 10px #fff;
+    box-shadow: 0 0 10px #fff;
 }
 
 /* course-for-whom section  */
 
 .course-for-whom {
-  padding: 30px 4%;
+    padding: 30px 4%;
 }
 
 .course-for-whom .course-for-whom-ans {
-  display: flex;
-  margin: 40px 0 10px;
+    display: flex;
+    margin: 40px 0 10px;
 }
 
 .course-for-whom div {
-  flex-basis: 50%;
+    flex-basis: 50%;
 }
 
 .course-for-whom h1 {
-  padding-left: 30px;
-  text-align: center;
-  margin-bottom: 60px;
-  font-size: 38px;
-  position: relative;
+    padding-left: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 38px;
+    position: relative;
 }
 
 .course-for-whom h1::after {
-  content: "";
-  position: absolute;
-  bottom: -15px;
-  left: 40%;
-  width: 20%;
-  height: 6px;
-  background-color: #f5df4e;
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 40%;
+    width: 20%;
+    height: 6px;
+    background-color: #f5df4e;
 }
 
 .course-for-whom p {
-  font-size: 15px;
-  text-align: justify;
-  padding: 30px;
+    font-size: 15px;
+    text-align: justify;
+    padding: 30px;
 }
 
 .course-for-whom ul {
-  margin-left: 50px;
-  font-size: 15px;
+    margin-left: 50px;
+    font-size: 15px;
 }
 
 .course-for-whom ul li {
-  padding: 5px;
-  margin: 5px;
-  list-style: square;
+    padding: 5px;
+    margin: 5px;
+    list-style: square;
 }
 
 .course-for-whom-img {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .course-for-whom .course-for-whom-img img {
-  width: 80%;
-  margin: 0 auto;
+    width: 80%;
+    margin: 0 auto;
 }
 
 /* companies section  */
 
 .companies {
-  margin: 120px 0 0;
+    margin: 120px 0 0;
 }
 
 .companies h1 {
-  margin-bottom: 60px;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 38px;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 38px;
 }
 
 .companies-img {
-  padding: 0 2%;
+    padding: 0 2%;
 }
 
 .companies-img img {
-  width: 100%;
+    width: 100%;
 }
 
 /* faq part  */
 
 .faq-container {
-  margin: 30px 0;
-  padding: 40px 0;
+    margin: 30px 0;
+    padding: 40px 0;
 }
 
 .faq-container h1 {
-  font-size: 38px;
-  text-align: center;
-  text-transform: capitalize;
-  margin: 40px 0 60px;
+    font-size: 38px;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 40px 0 60px;
 }
 
 .faqs {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 2%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2%;
 }
 
 .faqs .faq-left,
 .faqs .faq-right {
-  flex-basis: 49%;
+    flex-basis: 49%;
 }
 
-.faqs .faq-left > div,
-.faqs .faq-right > div {
-  background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+.faqs .faq-left>div,
+.faqs .faq-right>div {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .faq-left .vcollapse-toggle p,
 .faq-right .vcollapse-toggle p {
-  font-size: 15px;
-  padding-left: 16px;
-  padding-right: 19px;
+    font-size: 15px;
+    padding-left: 16px;
+    padding-right: 19px;
 }
 
 .faqs .vcollapse-content p,
 .faqs .vcollapse-content ul {
-  padding: 15px 15px 15px 20px;
-  font-size: 15px;
+    padding: 15px 15px 15px 20px;
+    font-size: 15px;
 }
 
 .faqs .vcollapse-content ul {
-  margin-left: 40px;
+    margin-left: 40px;
 }
 
 /* media query  */
 
 @media screen and (max-width: 900px) {
-  .course-detail-header {
-    flex-direction: column;
-    justify-content: flex-start;
-  }
+    .course-detail-header {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
 
-  .course-detail-header div {
-    flex-basis: 100%;
-  }
+    .course-detail-header div {
+        flex-basis: 100%;
 
-  .course-detail-header {
-    padding: 30px 90px 100px;
-  }
+    }
 
-  .course-detail-header .course-info {
-    margin-top: 0;
-    margin-bottom: 60px;
-  }
+    .course-detail-header {
+        padding: 30px 90px 100px;
+    }
 
-  .course-detail-header .course-title {
-    font-size: 30px;
-    margin: 30px 0;
-  }
+    .course-detail-header .course-info {
+        margin-top: 0;
+        margin-bottom: 60px;
+    }
 
-  .course-detail-header .overview {
-    font-size: 13px;
-  }
+    .course-detail-header .course-title {
+        font-size: 30px;
+        margin: 30px 0;
+    }
 
-  .reason-to-enroll h1 {
-    font-size: 20px;
-  }
+    .course-detail-header .overview {
+        font-size: 13px;
+    }
 
-  .reason-to-enroll ul {
-    width: 90%;
-  }
-  .achievements-details {
-    align-items: center;
-  }
+    .reason-to-enroll h1 {
+        font-size: 20px;
+    }
 
-  .achievements-details .left-side,
-  .achievements-details .right-side {
-    padding: 0 20px 0;
-  }
-  .achievements-details .right-side {
-    margin-top: 0;
-  }
+    .reason-to-enroll ul {
+        width: 90%;
+    }
 
-  .reason-to-enroll-right-side h1 {
-    position: relative;
-    margin-bottom: 40px;
-  }
+    .achievements-details {
+        align-items: center;
+    }
 
-  .reason-to-enroll-right-side h1:after {
-    content: "";
-    position: absolute;
-    width: 20%;
-    height: 3px;
-    bottom: -16px;
-    left: 40%;
-    background-color: #f5df4e;
-  }
+    .achievements-details .left-side,
+    .achievements-details .right-side {
+        padding: 0 20px 0;
+    }
 
-  .prerequisite h1 {
-    font-size: 20px;
-  }
+    .achievements-details .right-side {
+        margin-top: 0;
+    }
 
-  .prerequisite b {
-    font-size: 14px;
-  }
+    .reason-to-enroll-right-side h1 {
+        position: relative;
+        margin-bottom: 40px;
+    }
 
-  .prerequisite p {
-    font-size: 12px;
-  }
+    .reason-to-enroll-right-side h1:after {
+        content: "";
+        position: absolute;
+        width: 20%;
+        height: 3px;
+        bottom: -16px;
+        left: 40%;
+        background-color: #f5df4e;
+    }
 
-  .achievements h1 {
-    font-size: 20px;
-  }
+    .prerequisite h1 {
+        font-size: 20px;
+    }
 
-  .achievements-details {
-    flex-direction: column;
-  }
+    .prerequisite b {
+        font-size: 14px;
+    }
 
-  .achievements-details .left-side,
-  .achievements-details .right-side {
-    flex-basis: 100%;
-  }
+    .prerequisite p {
+        font-size: 12px;
+    }
 
-  .achievements-details .right-side {
-    margin-top: 30px;
-  }
+    .achievements h1 {
+        font-size: 20px;
+    }
 
-  .reason-to-learn h2,
-  .companies h1,
-  .faq-container h1 {
-    font-size: 20px;
-  }
+    .achievements-details {
+        flex-direction: column;
+    }
 
-  .course-for-whom .course-for-whom-ans {
-    flex-direction: column;
-  }
+    .achievements-details .left-side,
+    .achievements-details .right-side {
+        flex-basis: 100%;
+    }
 
-  .course-for-whom h1 {
-    font-size: 24px;
-  }
+    .achievements-details .right-side {
+        margin-top: 30px;
+    }
 
-  .course-for-whom p,
-  .course-for-whom ul {
-    font-size: 14px;
-  }
+    .reason-to-learn h2,
+    .companies h1,
+    .faq-container h1 {
+        font-size: 20px;
+    }
+
+    .course-for-whom .course-for-whom-ans {
+        flex-direction: column;
+    }
+
+    .course-for-whom h1 {
+        font-size: 24px;
+    }
+
+    .course-for-whom p,
+    .course-for-whom ul {
+        font-size: 14px;
+    }
+
+    .course-contents>div {
+        flex-basis: 100%;
+        margin-top: 20px;
+    }
 }
 
 @media screen and (max-width: 700px) {
-  .course-detail-header .course-title {
-    font-size: 20px;
-  }
+    .course-detail-header .course-title {
+        font-size: 20px;
+    }
 
-  .prerequisite h1 {
-    font-size: 16px;
-  }
+    .prerequisite h1 {
+        font-size: 16px;
+    }
 
-  .prerequisite b {
-    font-size: 12px;
-  }
+    .prerequisite b {
+        font-size: 12px;
+    }
 
-  .prerequisite p {
-    font-size: 10px;
-  }
+    .prerequisite p {
+        font-size: 10px;
+    }
 
-  .reason-to-learn h2 {
-    font-size: 16px;
-  }
+    .reason-to-learn h2 {
+        font-size: 16px;
+    }
 
-  .reason-to-enroll img {
-    height: 80%;
-  }
+    .reason-to-enroll img {
+        height: 80%;
+    }
 
-  .reason-to-enroll ul li {
-    font-size: 12px;
-  }
+    .reason-to-enroll ul li {
+        font-size: 12px;
+    }
 
-  .reason-to-learn .reasons div {
-    font-size: 14px;
-  }
+    .reason-to-learn .reasons div {
+        font-size: 14px;
+    }
 
-  .course-content-section h2 {
-    font-size: 25px;
-  }
+    .course-content-section h2 {
+        font-size: 25px;
+    }
 
-  .course-content-section h2::before,
-  .course-content-section h2::after {
-    left: 50px;
-  }
+    .course-content-section h2::before,
+    .course-content-section h2::after {
+        left: 50px;
+    }
 
-  .course-contents {
-    flex-direction: column;
-  }
+    .course-contents {
+        flex-direction: column;
+    }
 
-  .course-contents .left-side,
-  .faqs .faq-left {
-    margin-bottom: 20px;
-  }
+    .faqs .faq-left {
+        margin-bottom: 20px;
+    }
 
-  .course-feature-container div {
-    margin-right: 20px;
-  }
+    .course-feature-container div {
+        margin-right: 20px;
+    }
 
-  .faqs {
-    flex-direction: column;
-  }
+    .faqs {
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width: 440px) {
-  .course-detail-header {
-    padding: 30px 30px 100px;
-  }
+    .course-detail-header {
+        padding: 30px 30px 100px;
+    }
 
-  .course-detail-header .course-title {
-    font-size: 18px;
-  }
+    .course-detail-header .course-title {
+        font-size: 18px;
+    }
 
-  .reason-to-enroll .reason-to-enroll-left-side {
-    display: none;
-  }
-  .reason-to-enroll .reason-to-enroll-right-side {
-    flex-basis: 100%;
-    margin-left: 0;
-  }
+    .reason-to-enroll .reason-to-enroll-left-side {
+        display: none;
+    }
 
-  .reason-to-enroll h1 {
-    font-size: 18px;
-    text-align: center;
-  }
+    .reason-to-enroll .reason-to-enroll-right-side {
+        flex-basis: 100%;
+        margin-left: 0;
+    }
 
-  .reason-to-enroll ul {
-    font-size: 11px;
-  }
+    .reason-to-enroll h1 {
+        font-size: 18px;
+        text-align: center;
+    }
 
-  .prerequisite {
-    flex-direction: column;
-  }
+    .reason-to-enroll ul {
+        font-size: 11px;
+    }
 
-  .prerequisite img {
-    margin: 20px 0;
-  }
+    .prerequisite {
+        flex-direction: column;
+    }
 
-  .achievements h1 {
-    font-size: 16px;
-  }
+    .prerequisite img {
+        margin: 20px 0;
+    }
 
-  .reason-to-learn h2 {
-    font-size: 12px;
-  }
+    .achievements h1 {
+        font-size: 16px;
+    }
 
-  .reason-to-learn .reasons div {
-    font-size: 10px;
-  }
+    .reason-to-learn h2 {
+        font-size: 12px;
+    }
 
-  .course-feature-container {
-    justify-content: center;
-  }
+    .reason-to-learn .reasons div {
+        font-size: 10px;
+    }
 
-  .course-for-whom h1 {
-    font-size: 18px;
-  }
+    .course-feature-container {
+        justify-content: center;
+    }
+
+    .course-for-whom h1 {
+        font-size: 18px;
+    }
+
+    .course-contents>div p {
+        font-size: 14px;
+    }
 }
