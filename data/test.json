@@ -1,229 +1,386 @@
 [
   {
-    "id": 33,
-    "courseName": "Sales Force Certification Course in English",
-    "bannerImg": "./images/course-img/course-banner/sales-force.png",
-    "shortName": "Sales Force",
-    "overview": "Photoshop is a photo editing and raster graphic design software developed by Adobe Systems for both Windows and MacOS. It allows users to create, edit, and manipulate various graphics as well as digital art. Photoshop provides many image editing features for pixel-based images, raster graphics, and vector graphics",
+    "id": 9,
+    "courseName": "Full Stack Web Development Certification Course in English",
+    "bannerImg": "./images/course-img/course-banner/FULL-STACK.png",
+    "shortName": "Full Stack Web Development",
+    "overview": "Are you searching for a place to learn web development? Then this  Web Development Course is for you! This course offers a comprehensive understanding of the concepts of web development and comprises of topics from scratch as well as the major tools and technologies in it. It covers HTML, CSS, and JavaScript.",
     "reasons": {
       "enroll": [
         [
-          "3 Real-time projects + tons of live practicals",
-          "70+ hrs of study material, quizzes & manuals"
+          "30+ Real-time Web Development projects",
+          "130+ hrs of study material, practicals, quizzes"
         ],
         [
-          "Practical oriented course with case-studies",
-          "Lifetime access of LMS with videos & material"
+          "Practical course with real-time case-studies",
+          " Lifetime access with industry renowned certification"
         ]
       ],
       "learn": [
         [
-          "Have a complete and comprehensive knowledge of the tools inside Photoshop CC.",
-          "Learn to 'photoshop' your pictures, like an expert! You will learn how to take even the shabbiest looking drab photograph from your cellphone, and convert it into a head-turner.",
-          "Learn to retouch, heal and apply filters to photographs!"
+          "Learn HTML and build the basic websites",
+          "Learn CSS and Style websites",
+          "Learn JavaScript and Build responsive websites",
+          "Master the responsive website development"
         ],
         [
-          "Become a full time graphic designer or a freelancer and get amazing gigs.",
-          "Learn Color Correction, Color Grading and several effects that you can apply to Photographs inside Photoshop.",
-          "Learn Creative styles to apply to photos; Make them look Jaw-dropping awesome!"
+          "Apply validations with java script",
+          "Learn to use different HTML tags",
+          "Work on standard industry use-cases",
+          "Beginner friendly course to make you HTML, CSS & JS expert"
         ]
       ]
     },
     "why": [
       {
-        "title": "Angular ranked second in “most used technology” in the Stack Overflow Survey",
-        "src": "Stack Overflow"
+        "title": "Web development is one of the most aspired and in demand carrer options",
+        "src": "Industry Survey"
       },
       {
-        "title": "Developed, maintained, managed and monitored by Google Developers",
+        "title": "With digitalization in trend, web developer requirements will continuously soar",
         "src": "Google"
       },
       {
-        "title": "Average base pay of an Angular Developers is more than INR 460,000 per year in India",
-        "src": "Glassdoor"
+        "title": "Web development is a fundamental need, a fresh graduate must have these skills",
+        "src": "Indeed"
       },
       {
-        "title": "The world’s most valuable resource is Big Data, no longer oil.",
-        "src": "The Economist"
-      },
-      {
-        "title": "Rapid application development, Plays a role of front end in MEAN stack development",
-        "src": ""
+        "title": "Web development is a well paying job with average salary of $97,160",
+        "src": "Indeed"
       }
     ],
     "prerequisite": {
-      "que": "What to do before you begin your Sales Force online training?",
+      "que": "What to do before you begin your Web Development online training?",
       "ans": "Nothing!",
-      "suggest": "Although if you’d like, you can brush up on your skills with our complementary HTML material right in your LMS."
+      "suggest": "There are no prerequisites for this web development course. Anyone interested in learning web development can learn HTML, CSS and Javascript."
     },
+
     "curriculum": [
       [
         {
           "no": 1,
           "title": "Introduction",
           "content": [
-            "Introduction"
+            "Introduction to the course",
+            "How internet works?",
+            "What is web development?"
           ]
         },
         {
           "no": 2,
-          "title": "Photoshop basics",
+          "title": "HTML",
           "content": [
-            "Understanding the photoshop interface",
-            "Customize your workspace and panels",
-            "Create a new Photoshop file",
-            "Place photos and graphics in your project",
-            "Moving & zooming around a project",
-            "Use artboards in your photoshop workflow"
+            "Your first webpage",
+            "The structure of a webpage",
+            "Creating a full webpage",
+            "Header tags",
+            "Paragraph tags",
+            "Formatting tags",
+            "Unordered list",
+            "Ordered list",
+            "Image tags",
+            "Forms in HTML",
+            "Tables",
+            "Links",
+            "HTML entities",
+            "iFrame",
+            "Project - putting it all together"
           ]
         },
         {
           "no": 3,
-          "title": "Understand layer panels",
+          "title": "CSS3",
           "content": [
-            "The layers panel",
-            "Aligning layers in photoshop",
-            "Organizing the layers panel",
-            "Linking layers",
-            "Adding layer styles and adjustments",
-            "Using layer masks project: Photo Compositing Basics (Resizing and placing layers",
-            "Project solution: photo compositing basics (Resizing and placing layers)"
-            
+            "What is CSS?",
+            "Inline CSS",
+            "Internal CSS",
+            "Class and id",
+            "Div",
+            "Color",
+            "Floating",
+            "Positions",
+            "Margins",
+            "Padding",
+            "Borders",
+            "Font style",
+            "Styling text",
+            "Aligning text",
+            "Styling links",
+            "FlexBox in CSS"
           ]
         },
         {
           "no": 4,
-          "title": "The selection tools",
+          "title": "Bootstrap",
           "content": [
-            "Intro to the selection tools",
-            "The magic wand and object selection tools",
-            "Improving edge selections with the refine edge tools",
-            "Selecting a specific color",
-            "Easily remove objects from a photo with content aware fill",
-            "Project: Abstract art graphic",
-            "Project solution: Abstract art graphic"
+            "Intro to Bootstrap",
+            "Your first bootstrap site",
+            "Grid",
+            "Card in bootstrap",
+            "Tables and Form",
+            "Modals, popover and tooltips",
+            "Scrollspy",
+            "Project - app landing project",
+            "Themes in bootstrap"
           ]
-        },
-        {
+        }, {
           "no": 5,
-          "title": "Titles and text",
+          "title": "JavaScript - I",
           "content": [
-            "Adding text to your projects",
-            "Warping text",
-            "Making text follow a linear or shape",
-            "Project: Design a poster with just text",
-            "Project solution: design a poster with just text"
+            "Inline JavaScript",
+            "Internal JavaScript",
+            "Accessing elements",
+            "Onclick event",
+            "Changing website content",
+            "Manupulating styles with JavaScript",
+            "Disappearing circles",
+            "Variables",
+            "Array",
+            "If statement",
+            "Random number guessing game",
+            "For loop",
+            "While loop",
+            "Project - reaction tester project",
+            "External JavaScript"
           ]
         },
         {
           "no": 6,
-          "title": "Layer styles",
+          "title": "JavaScript - II",
           "content": [
-            "How to add a line (Stroke) around your layers",
-            "Adding glow to your layers",
-            "Adding level and emboss to your layers",
-            "More layer styles"
+            "DOM intro",
+            "Naming conventions",
+            "String concat",
+            "Length property in strings",
+            "Slicing",
+            "Changing case of string",
+            "Operation in JS",
+            "Functions",
+            "Objects",
+            "How to add event listener in JS"
           ]
         },
         {
           "no": 7,
-          "title": "Blend modes",
+          "title": "JQuery",
           "content": [
-           "Introduction to Blend Modes",
-           "Easily remove a black or white background with blend modes",
-           "How to create space inside a juice glass",
-           "Creating a camera flare with blend modes",
-           "Project: design a modern graphic with blend modes",
-           "Project solution: design a modern graphic with blend modes"
+            "What is JQuery?",
+            "Including JQuery on our webpage",
+            "Detecting a click",
+            "Changing website content using JQuery",
+            "Changing website styles",
+            "Fading content",
+            "Regular expression",
+            "Project - form validation",
+            "Intro to JQuery UI plugin",
+            "Droppable",
+            "Jqui widget"
+          ]
+        },{
+          "no": 8,
+          "title": "The killer website (Frontend project",
+
+          "content": [
+            "Setting upl the folder structure",
+            "Responsive grid system",
+            "Header section - part 1",
+            "Header section - part 2",
+            "Header section - part 3",
+            "Feature section - part 1",
+            "Feature section - part 2",
+            "Creating favorite meal section - part 1",
+            "Creating favorite meal section - part 2",
+            "Creating how it works section - part 1",
+            "Creating how it works section - part 2",
+            "Creating the city section - part 1",
+            "Creating the city section - part 2",
+            "Creating customer testimonial section - part 1",
+            "Creating customer testimonial section - part 2",
+            "Creating sign up section - part 1",
+            "Creating sign up section - part 2",
+            "Creating the contact form section - part 1",
+            "Creating the contact form section - part 2",
+            "Creating the footer section - part 1",
+            "Creating the footer section - part 2",
+            "Making webpage responsive -part 1",
+            "Making webpage responsive -part 2",
+            "Including JQuery",
+            "Scrolling effect",
+            "Adding animations"
           ]
         },
         {
-          "no": 8,
-          "title": "The filter gallery cc",
-          "content": [
-            "The filter gallery",
-            "Adjusting the strength of a filter"
-          ]
-        }
-      ],
-      [
-        {
           "no": 9,
-          "title": "Retouching photos in Photoshop",
+          "title": "React js",
 
           "content": [
-            "Intro to retouching and how to remove blemishes in Photoshop",
-            "Smoothing skin",
-            "Removing bags under the eye",
-            "Professional dodging and burning to enhance a portrait",
-            "Enhance Eye color",
-            "Enhancing the eyes",
-            "Using the powerful liquify tool"
+            "Intro to React JS",
+            "Code sandbox",
+            "JSX and babel",
+            "JSX practice",
+            "Javascript expression in JSX practice",
+            "Javascript expression in JSX",
+            "JSX styling react elements",
+            "Inline style for react elements",
+            "React styling practice",
+            "React components",
+            "React component practice",
+            "Import and export",
+            "Export and import practice",
+            "Keeper app project part -1",
+            "Props in ReactJs",
+            "Adding react js developer tools",
+            "Mapping data to components",
+            "Map function practice challenge",
+            "Map reduce and filter function in js ES6",
+            "Arrow function in ES6",
+            "Keeper app project part 2",
+            "React conditional rendering",
+            "React JS states",
+            "React hooks usestate",
+            "Hook use state practice",
+            "Destructure concept in ES6",
+            "Handling events in React",
+            "Form events",
+            "Class component vs hooks",
+            "Handling multiple states in react js app",
+            "Spread operator",
+            "Component tree structure",
+            "Keeper app project - 3",
+            "Material UI"
           ]
         },
         {
           "no": 10,
-          "title": "Editing raw photos with camera raw",
+          "title": "Intro to backend",
 
           "content": [
-            "Intro to editing with camera RAW",
-            "Cropping photos in camera RAW",
-            "White balance adjustments",
-            "Proper photo editing workflow",
-            "Exposure and brightness adjustments",
-            "Color and saturation adjustments",
-            "Sharpening and noise reduction",
-            "Tone curve adjustments",
-            "Effects like vignettes, grain and dehaze",
-            "Saving photos from camera raw",
-            "HSL and grayscale adjustments",
-            "Lens corrections",
-            "Spot removal and blemish removal",
-            "Targeted adjustments",
-            "Straighten and transform tools",
-            "Graduated, radial and brush filters",
-            "Range masks",
-            "A full landscape edit",
-            "A full portrait edit",
-            "Editing together an HDR photo"
+            "Backend"
           ]
-        },
+        }
+      ],
+      [
+       
+        
         {
           "no": 11,
-          "title": "Adobe library",
+          "title": "Intro to nodejs",
 
           "content": [
-           "Speed up your workflow with the adobe library"
+            "Nodejs",
+            "REPL",
+            "Native modules",
+            "Modules in nodejs"
           ]
         },
         {
           "no": 12,
-          "title": "Saving and exporting",
+          "title": "Express with Nodejs",
 
           "content": [
-            "How to save your Photoshop project and export it for any purpose",
-            "Quickly save JPEGs from Photoshop",
-            "Exporting projects using Artboards"
+            "Express framework",
+            "Creating a server using express",
+            "Routes",
+            "Sending html file as a response",
+            "Post request in express"
           ]
         },
         {
           "no": 13,
-          "title": "Full length projects",
+          "title": "API",
 
           "content": [
-           "Intro to these additional project demonstrations",
-           "Project: Fantasy Walk",
-           "Project: Badge logo",
-           "Project: Mystical cat",
-           "Project: Infographic"
+            "API",
+            "Authentication and JSON",
+            "Weather app"
           ]
         },
         {
           "no": 14,
-          "title": "Conclusion",
+          "title": "Git and GitHub",
 
           "content": [
-            "Thanks"
+            "Git",
+            "Version control using git",
+            "Github and remote repositories",
+            "Cloning",
+            "Forking and pulling request"
+          ]
+        },
+        {
+          "no": 15,
+          "title": "EJS",
+
+          "content": [
+            "EJS",
+            "Creating EJS template",
+            "Creating a todo list project part - 1",
+            "Creating a todo list part 2",
+            "Layout in EJS",
+            "Creating our own modules"
+          ]
+        },
+        {
+          "no": 16,
+          "title": "Mongodb Database",
+
+          "content": [
+            "What is database?",
+            "Installing mongodb",
+            "Create in CRUD",
+            "Read in CRUD",
+            "Update and delete in CRUD",
+            "Relationship in mongodb"
+          ]
+        },
+        {
+          "no": 17,
+          "title": "Mongoose",
+
+          "content": [
+            "Mongoose",
+            "Retriving data from database",
+            "Data validation",
+            "Delete and update",
+            "Connecting documents"
+          ]
+        },
+        {
+          "no": 18,
+          "title": "Authentication and security",
+
+          "content": [
+            "Intro to authentication and security",
+            "Setting up folder structure",
+            "Register and login",
+            "Encryption",
+            "Cookies and session"
+          ]
+        },
+        {
+          "no": 19,
+          "title": "Build your own Restful API from  scratch",
+
+          "content": [
+            "What REST",
+            "Setting up Robo 3T",
+            "Get all articles",
+            "Post a new article",
+            "Delete request",
+            "Making a specific get request",
+            "Put operation on a specific record",
+            "Patch request",
+            "Deleting a specific record"
+          ]
+        },
+        {
+          "no": 20,
+          "title": "Putting it all together",
+
+          "content": [
+            "Storing list items permanently part -1",
+            "Storing list items permanently part -2",
+            "Deleting a task from todo list"
           ]
         }
       ]
@@ -231,7 +388,7 @@
     "features": [
       {
         "img": "./images/course-img/course-features/time.png",
-        "title": "20+ Hrs instructor based video lessons"
+        "title": "Instructor based video lessons"
       },
       {
         "img": "./images/course-img/course-features/support.png",
@@ -251,72 +408,88 @@
       }
     ],
     "forWho": {
-      "que": "Is this Sales Force Course for you?",
-      "ans": "Photoshop is a photo editing and raster graphic design software developed by Adobe Systems for both Windows and MacOS. It allows users to create, edit, and manipulate various graphics as well as digital art. Photoshop provides many image editing features for pixel-based images, raster graphics, and vector graphics So while anyone can benefit from a career in it, here are the kind of professionals who go for this Sales Force course:<ul><li>Youtuber</li><li>Social media influencer</li><li>People who wants to work in a big production house</li><li>Any graduate focusing to build a career in photo editing</li></ul>"
+      "que": "Is this Web Development Course for beginners?",
+      "ans": "Web development skills are basic necessity for fresh graduates. While anyone can benefit from a career in it, here are the kind of professionals / beginners who go for this  web development training course:<ul><li>Fresh Graduate, Professionals planning for a career in an evergreen field</li><li>Software developers and Testers, QA Professionals</li><li>Mobile app developers</li><li>Under-graduates focusing to build a solid career</li></ul>"
     },
     "companies": {
-      "title": "Companies you can expect when you get Sales Force-certified with us",
+      "title": "Companies you can expect when you get Web Development-certified with us",
       "img": "./images/companies.png"
     },
     "faq": [
       [
         {
-          "que": "How will I perform the Sales Force practicals at home?",
-          "ans": "For practice, manual and video for setup are available in LMS and you need to install it on your system at home."
+          "que": "How will you help me if I miss any session?",
+          "ans": "If you miss any session, you need not worry as we will not let you lose anything. All sessions will be recorded and recordings will be uploaded in LMS immediately as the session gets over. You can go through it and get your queries cleared from the instructor during next session. Alternatively you can attend the missed session in any other batch running parallely."
         },
         {
-          "que": "How long will the Sales Force course recordings be available?",
-          "ans": "All the Sales Force training sessions along with the complete Sales Force study material, POCs, and Sales Force projects will be available for lifetime."
+          "que": "Are the course materials available for limited time?",
+          "ans": "No, anyone who enrolled in this  web development course can access the training materials for lifetime."
         },
         {
-          "que": "What things do I need to learn Sales Force through this course?",
-          "ans": "To attend this online Sales Force training, you just need a laptop or a PC with a minimum 4GB RAM. Nothing else is required to learn it."
+          "que": "Is this for front-end development?",
+          "ans": "This course covers concepts of HTML, CSS, and Javascript. So, this course is for anyone who wants to be a web developer, irrespective of the career option one wants to choose."
         },
         {
-          "que": "How do I clear my Sales Force related doubts?",
-          "ans": "You can post your queries on the discussion forum. Our support team will be happy to assist you."
+          "que": "Why should I enroll in this  web development course in Hindi?",
+          "ans": "This course covers the topics from scratch and helps to build strong fundamentals in web development. This course is designed to give a hands on experience for anyone to be a professional web developer<br>Inclusive of concept materials, quizzes, and projects. A renowned certification is provided at the end of this course"
         },
         {
-          "que": "What are the system specifications required to learn Sales Force?",
-          "ans": "The recommendation is a minimum of an i3 processor, a 20 GB disk, and a 4 GB RAM for practicing Sales Force."
+          "que": "Will there be any certification provided as a part of this course?",
+          "ans": "Yes, a certificate will be provided upon completing this web development course."
         },
         {
-          "que": "How will this Sales Force course help me in getting a job?",
-          "ans": "Our Sales Force training includes multiple workshops, POCs, and projects. These will vigorously prepare you for Sales Force interviews so you can be confident in your work from day one. These things will help you get your dream Sales Force job in the industry."
+          "que": "What is the difference between front-end, back-end, and full-stack development?",
+          "ans": "Front-end developers handle the parts that users see and interact with like templates, buttons, text boxes, etc. Back-end developers are responsible for all of the operations and servers that host and support websites and applications. Whereas full-stack developers do both front-end and back-end development."
         },
         {
-          "que": "What will the end result be of this online Sales Force training course?",
-          "ans": "When you finish this course, you will be equipped with practical skills and theoretical knowledge the industry looks for. You will bloom into a certified Sales Force professional who is ready to take on Sales Force Projects in top organizations."
+          "que": "What skills are required to become a web developer?",
+          "ans": "To become a web developer, you must have a good understanding of HTML, CSS, and JavaScript. You should also be familiar with web development frameworks. Additionally, you should have strong problem-solving skills and the ability to work in a team."
         },
         {
-          "que": "Where do all the students come from?",
-          "ans": "We have a blend of students from across the globe. Apart from India, we provide training in the US, the UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, and many others covering the globe."
+          "que": "Are there any projects provided as a part of this  hindi web development course?",
+          "ans": "Yes, real world application related projects are provided as a part of this  course."
+        },
+        {
+          "que": "What are the system specifications for attending this course?",
+          "ans": "You are recommended to have a laptop with a minimum of an i3 processor, a 20 GB disk, and 4 GB RAM."
         }
       ],
       [
         {
-          "que": "Is this Sales Force training classroom-based or online?",
-          "ans": "This training is completely online and self-paced."
+          "que": "What are the benefits of learning web development?",
+          "ans": "Learning web development can open up various career opportunities, including front-end, web design, and UI/UX design. It can also help you create your own websites and web applications or even start your own business."
         },
         {
-          "que": "Will you be providing Sales Force certificate after the training?",
-          "ans": "Yes, you will be provided with an industry-recognizable certificate declaring your proficiency with Sales Force. At the end of this Sales Force course, you will work on real-time projects. Once you have successfully made it through the projects, you will be awarded Sales Force certificate."
+          "que": "What is the difference between front-end and back-end web development?",
+          "ans": "Front-end web development involves designing and building the user interface of a website, using HTML, CSS, and JavaScript.<br>Back-end web development involves creating the server-side of a website, which involves working with databases, server-side languages such as PHP or Python, and web servers"
         },
         {
-          "que": "How do I get in touch with you for further queries?",
-          "ans": "You are  to contact us by placing a call at +91-8451097879 or by dropping a mail to info@data-flair.training"
+          "que": "What tools are required for web development?",
+          "ans": "To get started with web development, you will need a text editor such as Visual Studio Code or Sublime Text, as well as a web browser. You may also need to install additional software depending on the specific web development framework or programming language you are using."
         },
         {
-          "que": "What type of Sales Force projects will I be doing during the training?",
-          "ans": "You will be doing Sales Force real-life projects in different domains"
+          "que": "What are some common web development frameworks?",
+          "ans": "Some popular web development frameworks include React, Angular, Vue, Ruby on Rails, Django, and Laravel. These frameworks provide pre-built components and tools to help you build web applications more efficiently."
         },
         {
-          "que": "Do you provide placement assistance?",
-          "ans": "This Sales Force course from us is 100% job-oriented and will prepare you completely for interviews from Sales Force job perspective."
+          "que": "How can I practice web development skills?",
+          "ans": "One of the best ways to practice web development skills is to work on real-world projects, such as building a personal website or creating a web application. You can also participate in online coding challenges and join coding communities to network with other web developers."
         },
         {
-          "que": "Can I attend a demo session before enrolling for this Sales Force?",
-          "ans": "Yes, you can attend the Sales Force demo class recording on this course page itself to understand the quality of training we provide. This is what creates the difference between us and other online Sales Force training providers."
+          "que": "What is the best way to get started with web development?",
+          "ans": "The best way to get started with web development is to first learn the basics of HTML, CSS, and JavaScript."
+        },
+        {
+          "que": "What are some common challenges faced by web developers?",
+          "ans": "Some common challenges web developers face include browser compatibility issues, security concerns, and staying up-to-date with new web technologies and trends.<br>It’s essential to stay informed and continually learn new skills to overcome these challenges."
+        },
+        {
+          "que": "What are some common web development job titles?",
+          "ans": "Common web development job titles include front-end developer, back-end developer, full-stack developer, web designer, UI/UX designer, and software engineer. The specific job title may depend on the skills and experience required for the role."
+        },
+        {
+          "que": "How important is mobile optimization in web development?",
+          "ans": "Mobile optimization is becoming increasingly important in web development, as more people access websites on mobile devices. It’s important to ensure your website is optimized for different screen sizes and devices to provide a good user experience for all visitors."
         }
       ]
     ]

@@ -3170,9 +3170,9 @@
   },
   {
     "id": 9,
-    "courseName": "Fulll Stack Web Development Certification Course in English",
+    "courseName": "Full Stack Web Development Certification Course in English",
     "bannerImg": "./images/course-img/course-banner/FULL-STACK.png",
-    "shortName": "Fulll Stack Web Development",
+    "shortName": "Full Stack Web Development",
     "overview": "Are you searching for a place to learn web development? Then this  Web Development Course is for you! This course offers a comprehensive understanding of the concepts of web development and comprises of topics from scratch as well as the major tools and technologies in it. It covers HTML, CSS, and JavaScript.",
     "reasons": {
       "enroll": [
@@ -3210,7 +3210,7 @@
         "src": "Google"
       },
       {
-        "title": "Web development is a fundamental need, a fresh graudate must have these skills",
+        "title": "Web development is a fundamental need, a fresh graduate must have these skills",
         "src": "Indeed"
       },
       {
@@ -3219,7 +3219,7 @@
       }
     ],
     "prerequisite": {
-      "que": "What to do before you begin your Web Developmen online training?",
+      "que": "What to do before you begin your Web Development online training?",
       "ans": "Nothing!",
       "suggest": "There are no prerequisites for this web development course. Anyone interested in learning web development can learn HTML, CSS and Javascript."
     },
@@ -3230,133 +3230,209 @@
           "no": 1,
           "title": "Introduction",
           "content": [
-            "Introduction to web development",
-            "Core components of web development",
-            "Key aspects of website development",
-            "Need for web development",
-            "Web development technologies",
-            "Understand client-server model"
+            "Introduction to the course",
+            "How internet works?",
+            "What is web development?"
           ]
         },
         {
           "no": 2,
-          "title": "Getting started",
+          "title": "HTML",
           "content": [
-            "Environment setup",
-            "Installing and setting up visual studio",
-            "Creating first Program"
+            "Your first webpage",
+            "The structure of a webpage",
+            "Creating a full webpage",
+            "Header tags",
+            "Paragraph tags",
+            "Formatting tags",
+            "Unordered list",
+            "Ordered list",
+            "Image tags",
+            "Forms in HTML",
+            "Tables",
+            "Links",
+            "HTML entities",
+            "iFrame",
+            "Project - putting it all together"
           ]
         },
         {
           "no": 3,
-          "title": "Learn HTML",
+          "title": "CSS3",
           "content": [
-            "Introduction to HTML",
-            "HTML Document Structure",
-            "HTML elements",
-            "Inputs",
-            "Metadata and Sectioning Elements",
-            "Formatting Text and Nesting Tags",
-            "Check boxes radio buttons, and select options",
-            "Adding Images and Links",
-            "Images and Storage",
-            "Lists and Tables"
+            "What is CSS?",
+            "Inline CSS",
+            "Internal CSS",
+            "Class and id",
+            "Div",
+            "Color",
+            "Floating",
+            "Positions",
+            "Margins",
+            "Padding",
+            "Borders",
+            "Font style",
+            "Styling text",
+            "Aligning text",
+            "Styling links",
+            "FlexBox in CSS"
           ]
         },
         {
           "no": 4,
-          "title": "Deep Dive into HTML",
+          "title": "Bootstrap",
           "content": [
-            "Working with Tags",
-            "Design a web page",
-            "Play with heading tags, comment tag, Paragraph Tag, Anchor Tag",
-            "Learn to use br,hr,i,b tags",
-            "subscript and superscript tag",
-            "header, footer and main, article, aside and section tags",
-            "textarea, select element tag, video tag, iframe tag, span tag"
+            "Intro to Bootstrap",
+            "Your first bootstrap site",
+            "Grid",
+            "Card in bootstrap",
+            "Tables and Form",
+            "Modals, popover and tooltips",
+            "Scrollspy",
+            "Project - app landing project",
+            "Themes in bootstrap"
           ]
         }, {
           "no": 5,
-          "title": "Learn CSS",
+          "title": "JavaScript - I",
           "content": [
-            "Introduction to CSS",
-            "Color and Background",
-            "Element specificity and ID",
-            "Padding margin, float",
-            "Font style",
-            "Text decoration and spacing",
-            "Pseudo states/li>",
-            "Border radius",
-            "Positions",
-            "Pseudo elements",
-            "Transition property"
+            "Inline JavaScript",
+            "Internal JavaScript",
+            "Accessing elements",
+            "Onclick event",
+            "Changing website content",
+            "Manupulating styles with JavaScript",
+            "Disappearing circles",
+            "Variables",
+            "Array",
+            "If statement",
+            "Random number guessing game",
+            "For loop",
+            "While loop",
+            "Project - reaction tester project",
+            "External JavaScript"
           ]
         },
         {
           "no": 6,
-          "title": "Working with CSS",
+          "title": "JavaScript - II",
           "content": [
-            "Design mobile friendly website",
-            "Learn to use css based on screen size",
-            "class",
-            "grid",
-            "z-index",
-            "scrollbars",
-            "float",
-            "display",
-            "cursors"
+            "DOM intro",
+            "Naming conventions",
+            "String concat",
+            "Length property in strings",
+            "Slicing",
+            "Changing case of string",
+            "Operation in JS",
+            "Functions",
+            "Objects",
+            "How to add event listener in JS"
           ]
         },
         {
           "no": 7,
-          "title": "Learn Java Script",
+          "title": "JQuery",
           "content": [
-            "Learn Java Script",
-            "Alerts and Console logging",
-            "Integers, strings, Variables",
-            "Operators",
-            "Loops and Conditional statements",
-            "Arrays",
-            "Functions",
-            "Classes",
-            "Testing methodologies",
-            "Searching and Sorting Algorithms",
-            "Advanced Data Structures"
+            "What is JQuery?",
+            "Including JQuery on our webpage",
+            "Detecting a click",
+            "Changing website content using JQuery",
+            "Changing website styles",
+            "Fading content",
+            "Regular expression",
+            "Project - form validation",
+            "Intro to JQuery UI plugin",
+            "Droppable",
+            "Jqui widget"
           ]
-        }
-      ],
-      [
-       
-        {
+        },{
           "no": 8,
-          "title": "JavaScript Implementation",
+          "title": "The killer website (Frontend project",
 
           "content": [
-            "Ecmascript, expressions",
-            "map, filter and reduce",
-            "asynchronous js, async / await",
-            "oops in js, cookies in js",
-            "table navigation, matches, closest and contains",
-            "setInterval and setTimeout",
-            "Handling browser events, events handling, callbacks",
-            "error handling, then & catch errors, clause",
-            "local storage and session storage",
-            "constructors, static method, getters and setters, destructuring",
-            "local and global scope",
-            "arrow functions",
-            "prototypes"
+            "Setting upl the folder structure",
+            "Responsive grid system",
+            "Header section - part 1",
+            "Header section - part 2",
+            "Header section - part 3",
+            "Feature section - part 1",
+            "Feature section - part 2",
+            "Creating favorite meal section - part 1",
+            "Creating favorite meal section - part 2",
+            "Creating how it works section - part 1",
+            "Creating how it works section - part 2",
+            "Creating the city section - part 1",
+            "Creating the city section - part 2",
+            "Creating customer testimonial section - part 1",
+            "Creating customer testimonial section - part 2",
+            "Creating sign up section - part 1",
+            "Creating sign up section - part 2",
+            "Creating the contact form section - part 1",
+            "Creating the contact form section - part 2",
+            "Creating the footer section - part 1",
+            "Creating the footer section - part 2",
+            "Making webpage responsive -part 1",
+            "Making webpage responsive -part 2",
+            "Including JQuery",
+            "Scrolling effect",
+            "Adding animations"
           ]
         },
         {
           "no": 9,
+          "title": "React js",
+
+          "content": [
+            "Intro to React JS",
+            "Code sandbox",
+            "JSX and babel",
+            "JSX practice",
+            "Javascript expression in JSX practice",
+            "Javascript expression in JSX",
+            "JSX styling react elements",
+            "Inline style for react elements",
+            "React styling practice",
+            "React components",
+            "React component practice",
+            "Import and export",
+            "Export and import practice",
+            "Keeper app project part -1",
+            "Props in ReactJs",
+            "Adding react js developer tools",
+            "Mapping data to components",
+            "Map function practice challenge",
+            "Map reduce and filter function in js ES6",
+            "Arrow function in ES6",
+            "Keeper app project part 2",
+            "React conditional rendering",
+            "React JS states",
+            "React hooks usestate",
+            "Hook use state practice",
+            "Destructure concept in ES6",
+            "Handling events in React",
+            "Form events",
+            "Class component vs hooks",
+            "Handling multiple states in react js app",
+            "Spread operator",
+            "Component tree structure",
+            "Keeper app project - 3",
+            "Material UI"
+          ]
+        },
+        {
+          "no": 10,
           "title": "Intro to backend",
 
           "content": [
             "Backend"
           ]
-        },
+        }
+      ],
+      [
+       
+        
         {
-          "no": 10,
+          "no": 11,
           "title": "Intro to nodejs",
 
           "content": [
@@ -3367,7 +3443,7 @@
           ]
         },
         {
-          "no": 11,
+          "no": 12,
           "title": "Express with Nodejs",
 
           "content": [
@@ -3379,7 +3455,42 @@
           ]
         },
         {
-          "no": 12,
+          "no": 13,
+          "title": "API",
+
+          "content": [
+            "API",
+            "Authentication and JSON",
+            "Weather app"
+          ]
+        },
+        {
+          "no": 14,
+          "title": "Git and GitHub",
+
+          "content": [
+            "Git",
+            "Version control using git",
+            "Github and remote repositories",
+            "Cloning",
+            "Forking and pulling request"
+          ]
+        },
+        {
+          "no": 15,
+          "title": "EJS",
+
+          "content": [
+            "EJS",
+            "Creating EJS template",
+            "Creating a todo list project part - 1",
+            "Creating a todo list part 2",
+            "Layout in EJS",
+            "Creating our own modules"
+          ]
+        },
+        {
+          "no": 16,
           "title": "Mongodb Database",
 
           "content": [
@@ -3392,7 +3503,19 @@
           ]
         },
         {
-          "no": 13,
+          "no": 17,
+          "title": "Mongoose",
+
+          "content": [
+            "Mongoose",
+            "Retriving data from database",
+            "Data validation",
+            "Delete and update",
+            "Connecting documents"
+          ]
+        },
+        {
+          "no": 18,
           "title": "Authentication and security",
 
           "content": [
@@ -3404,44 +3527,29 @@
           ]
         },
         {
-          "no": 14,
-          "title": "React js",
+          "no": 19,
+          "title": "Build your own Restful API from  scratch",
 
           "content": [
-            "Intro to React JS",
-            "Code sandbox",
-            "JSX and babel",
-            "JSX practice",
-            "Javascript expression in JSX practice",
-            "Javascript expression in JSX",
-            "JSX styling react elements",
-            "Inline style for react elements",
-            "React styling practive",
-            "React components",
-            "React component practice",
-            "Import and export",
-            "Export and import practice",
-            "Keeper app project part -1",
-            "Props in reactjs",
-            "Adding react js developer tools",
-            "Mapping data to components",
-            "Map function practice challege",
-            "Map reduce and filter function in js ES6",
-            "Arrow funcion in ES6",
-            "Keeper app project part 2",
-            "React conditional rendering",
-            "React JS states",
-            "React hooks usestate",
-            "Hook use state pratice",
-            "Destructure concept in ES6",
-            "Handling events in React",
-            "Form events",
-            "Class component vs hooks",
-            "Handling multiple states in react js app",
-            "Spread operator",
-            "Component tree structure",
-            "Keeper app project - 3",
-            "Material UI"
+            "What REST",
+            "Setting up Robo 3T",
+            "Get all articles",
+            "Post a new article",
+            "Delete request",
+            "Making a specific get request",
+            "Put operation on a specific record",
+            "Patch request",
+            "Deleting a specific record"
+          ]
+        },
+        {
+          "no": 20,
+          "title": "Putting it all together",
+
+          "content": [
+            "Storing list items permanently part -1",
+            "Storing list items permanently part -2",
+            "Deleting a task from todo list"
           ]
         }
       ]
@@ -3469,7 +3577,7 @@
       }
     ],
     "forWho": {
-      "que": "Is this  Web Development Course for beginners?",
+      "que": "Is this Web Development Course for beginners?",
       "ans": "Web development skills are basic necessity for fresh graduates. While anyone can benefit from a career in it, here are the kind of professionals / beginners who go for this  web development training course:<ul><li>Fresh Graduate, Professionals planning for a career in an evergreen field</li><li>Software developers and Testers, QA Professionals</li><li>Mobile app developers</li><li>Under-graduates focusing to build a solid career</li></ul>"
     },
     "companies": {
@@ -3500,7 +3608,7 @@
         },
         {
           "que": "What is the difference between front-end, back-end, and full-stack development?",
-          "ans": "Front-end developers handle the parts that users see and interact with like templates, buttons, text boxes, etc. Back-end developers are responsible for all of the operations and servers that host and support websites and applications. Whereas full-stack developers do both front-end and back-end develpment."
+          "ans": "Front-end developers handle the parts that users see and interact with like templates, buttons, text boxes, etc. Back-end developers are responsible for all of the operations and servers that host and support websites and applications. Whereas full-stack developers do both front-end and back-end development."
         },
         {
           "que": "What skills are required to become a web developer?",
