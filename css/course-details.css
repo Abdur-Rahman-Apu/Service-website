@@ -449,13 +449,13 @@ body {
 
 .course-for-whom p {
   font-size: 15px;
-
   text-align: justify;
   padding: 30px;
 }
 
 .course-for-whom ul {
   margin-left: 50px;
+  font-size: 15px;
 }
 
 .course-for-whom ul li {

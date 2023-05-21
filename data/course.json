@@ -3275,10 +3275,7 @@
             "header, footer and main, article, aside and section tags",
             "textarea, select element tag, video tag, iframe tag, span tag"
           ]
-        }
-      ],
-      [
-        {
+        }, {
           "no": 5,
           "title": "Learn CSS",
           "content": [
@@ -3326,7 +3323,10 @@
             "Searching and Sorting Algorithms",
             "Advanced Data Structures"
           ]
-        },
+        }
+      ],
+      [
+       
         {
           "no": 8,
           "title": "JavaScript Implementation",
@@ -3345,6 +3345,103 @@
             "local and global scope",
             "arrow functions",
             "prototypes"
+          ]
+        },
+        {
+          "no": 9,
+          "title": "Intro to backend",
+
+          "content": [
+            "Backend"
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Intro to nodejs",
+
+          "content": [
+            "Nodejs",
+            "REPL",
+            "Native modules",
+            "Modules in nodejs"
+          ]
+        },
+        {
+          "no": 11,
+          "title": "Express with Nodejs",
+
+          "content": [
+            "Express framework",
+            "Creating a server using express",
+            "Routes",
+            "Sending html file as a response",
+            "Post request in express"
+          ]
+        },
+        {
+          "no": 12,
+          "title": "Mongodb Database",
+
+          "content": [
+            "What is database?",
+            "Installing mongodb",
+            "Create in CRUD",
+            "Read in CRUD",
+            "Update and delete in CRUD",
+            "Relationship in mongodb"
+          ]
+        },
+        {
+          "no": 13,
+          "title": "Authentication and security",
+
+          "content": [
+            "Intro to authentication and security",
+            "Setting up folder structure",
+            "Register and login",
+            "Encryption",
+            "Cookies and session"
+          ]
+        },
+        {
+          "no": 14,
+          "title": "React js",
+
+          "content": [
+            "Intro to React JS",
+            "Code sandbox",
+            "JSX and babel",
+            "JSX practice",
+            "Javascript expression in JSX practice",
+            "Javascript expression in JSX",
+            "JSX styling react elements",
+            "Inline style for react elements",
+            "React styling practive",
+            "React components",
+            "React component practice",
+            "Import and export",
+            "Export and import practice",
+            "Keeper app project part -1",
+            "Props in reactjs",
+            "Adding react js developer tools",
+            "Mapping data to components",
+            "Map function practice challege",
+            "Map reduce and filter function in js ES6",
+            "Arrow funcion in ES6",
+            "Keeper app project part 2",
+            "React conditional rendering",
+            "React JS states",
+            "React hooks usestate",
+            "Hook use state pratice",
+            "Destructure concept in ES6",
+            "Handling events in React",
+            "Form events",
+            "Class component vs hooks",
+            "Handling multiple states in react js app",
+            "Spread operator",
+            "Component tree structure",
+            "Keeper app project - 3",
+            "Material UI"
           ]
         }
       ]
