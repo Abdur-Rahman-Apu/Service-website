@@ -37,7 +37,7 @@ header .profile-img {
 }
 
 .dynamic-writing .type{
-  color: #706fd3;
+  color: #f5df4e;
 }
 
 .intro h1 {
@@ -128,19 +128,13 @@ header .profile-img {
   margin-bottom: 40px;
 }
 
-.about-info {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
 .about-intro {
-  flex-basis: 63%;
+  text-align: justify;
 }
 
 .about-intro h2 {
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 2.2rem;
   margin-bottom: 10px;
 }
 
@@ -161,30 +155,37 @@ header .profile-img {
 }
 
 .about-intro p {
-  font-size: 20px;
+  font-size: 17px;
 }
 .about-experience {
-  flex-basis: 35%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
+  margin-top: 90px;
 }
 
 .about-experience div {
-  width: 120px;
-  height: 120px;
+  width: 220px;
+  height: 220px;
   background-color: #f5df4e;
   border-radius: 50%;
 }
 
 .about-experience h1 {
   position: absolute;
-  top: -40px;
-  font-size: 9rem;
+  top: -30px;
+  font-size: 12rem;
   font-weight: 400;
   color: #4c4d4d;
+}
+
+.about-experience .plus-sign{
+  position: inherit;
+  font-size: 80px;
+  right: -55px;
+  top: 30%;
 }
 
 .about-experience h3 {
@@ -436,6 +437,11 @@ header .profile-img {
 .statistics-detail .detail-container {
   background: #fff;
   border-radius: 6%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  
 }
 
 .detail-container .icon {
@@ -452,6 +458,7 @@ header .profile-img {
 
 .statistics-info {
   padding: 0 10% 16px;
+  text-align: center;
 }
 
 .statistics-info > span {
@@ -629,10 +636,10 @@ header .profile-img {
     font-size: 15px;
   }
 
-  .about-experience h1 {
+  /* .about-experience h1 {
     font-size: 5rem;
     top: -5px;
-  }
+  } */
 
   .about-experience h3 {
     font-size: 1.3rem;
