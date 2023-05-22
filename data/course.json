@@ -6444,7 +6444,12 @@
           "no": 1,
           "title": "CCSP - Exam objectives",
           "content": [
-            "CCSP Exam ojectives"
+            "CCSP Exam ojectives",
+            "Practice Exam #1",
+            "Practice Exam #2",
+            "Practice Exam #3",
+            "Practice Exam #4",
+            "Practice Exam #5"
           ]
         },
         {
@@ -12085,8 +12090,10 @@
             "Multi-Tenant architecture - why everything has a limit in salesforce",
             "Customre 360",
             "Sales cloud overview",
+            "Service cloud overview",
+            "Marketing cloud overview",
             "Commerce cloud",
-            "Experience cloud overview",
+            "Experience cloud overview (Formerly community cloud and before that... profits)",
             "Salesforce for non-profits",
             "Tableau for analytics",
             "Mulesoft for intgrations",
@@ -12099,7 +12106,7 @@
           "no": 3,
           "title": "Navigation",
           "content": [
-            "Introduction",
+            "Navigation section introduction",
             "Accessing and launching your hands-on org",
             "Getting your login credentials and setting your password",
             "Logging into salesforce using your username and password",
@@ -12120,7 +12127,7 @@
             "Setting email signature in salesforce",
             "Creating a user account",
             "Enabling lightning for a user and switching from classic to lightning",
-            "Editin a user account - changing name, email and/or username considerations",
+            "Editing a user account - changing name, email and/or username considerations",
             "Viewing user login history",
             "My favorites",
             "Chater - following records and receiving notifications",
@@ -12129,12 +12136,15 @@
             "Filtering global search results using natural language search"
             
           ]
-        },
+        }
+        
+      ],
+      [
         {
           "no": 4,
           "title": "Data model",
           "content": [
-            "Introduction",
+            "Data model section introduction",
             "Salesforce glossary",
             "Standard objects & the object manager",
             "Schema builder - relationship between core standard objects",
@@ -12145,69 +12155,76 @@
             "Custom objects",
             "Standard fields",
             "Creating a custom lookup fiels",
+            "Creating a custom picklist field and setting a default value",
+            "Adding fields to our custom object related list",
+            "Master-Detail relationships",
             "Creating a roll up summary field",
             "Creating a formula field for a Roll-Up summary sum",
+            "Validation rule on a roll-up summary field",
             "Creating a text area field",
-            "Validation rule",
+            "Validation rule - require reason lost example",
             "Testing our validation rule",
+            "Setting default values in fields using formulas",
             "Removing fields form a page layout",
+            "Disabling cache in your org",
+            "Changing field types and potential for data loss",
+            "Dependant picklists",
             "Creating record types",
+            "Renaming page layouts based on assignments by record types and profile",
+            "Testing our record types and page layout assignments",
             "Removing a field dependencty",
+            "Adding the record type field to your page layouts",
+            "A guide to sharing architecture",
             "profiles",
             "Permission sets",
+            "Org-wide defaults",
+            "Role hierarchy",
+            "Creating a sharing rule",
+            "Public groups and private (Chatter) groups",
+            "Manual sharing",
+            "Queues - call center - service cloud",
+            "Publishing a digital experience for salesforce knwoledge and case deflection",
             "Dynamic forms",
             "Declarative vs programmatic",
             "Sandboxes - logging in and deployment"
           ]
-        }
-      ],
-      [
+        },
         {
           "no": 5,
           "title": "Report & dasboards",
           "content": [
-            "Creating a report",
+            "Reports & Dashboards section introduction",
+            "The reports tab",
+            "Report folders",
+            "Report types",
+            "Creating a report - Tabular report",
+            "Report row display limits (2000)",
             "Exporting a report",
             "Creating a summary report by adding a row grouping to a report",
+            "Adding charts to reports",
             "Summary report toggles",
+            "Matrix reports - grouped by row and column",
             "Creating a joined report",
+            "Adding a row grouping and charts to a joined report",
             "Sharing a report folder",
+            "Creating Line charts to display values over time",
+            "Reports - All favorites",
+            "Reports - All folders",
+            "Reports - All reports",
+            "Subscribing to and scheduling reports",
+            "Locating reports via global search",
+            "Adding a custom summary formula field to a report (Limit is 5)",
             "Creating a dashboard",
             "Refreshing a dashboard",
-            "Applying a dashboard",
-            "Download a dashboard",
+            "Subscribing to a dashboard",
+            "Applying dashboard filters",
+            "Dynamic dashboards - running user",
+            "Downloading a dashboard",
+            "Creating a custom lightning homepage and adding a dashboard",
+            "Enabling logging in as another user in your org",
             "Combining multiple reports on a single screen - joined reports vs dashboards",
+            "Installing reports & dashboards from the AppExchange",
             "Bonus lesson"
-          ]
-        },
-        {
-          "no": 6,
-          "title": "Layer styles",
-          "content": [
-            "How to add a line (Stroke) around your layers",
-            "Adding glow to your layers",
-            "Adding level and emboss to your layers",
-            "More layer styles"
-          ]
-        },
-        {
-          "no": 7,
-          "title": "Blend modes",
-          "content": [
-           "Introduction to Blend Modes",
-           "Easily remove a black or white background with blend modes",
-           "How to create space inside a juice glass",
-           "Creating a camera flare with blend modes",
-           "Project: design a modern graphic with blend modes",
-           "Project solution: design a modern graphic with blend modes"
-          ]
-        },
-        {
-          "no": 8,
-          "title": "The filter gallery cc",
-          "content": [
-            "The filter gallery",
-            "Adjusting the strength of a filter"
           ]
         }
       ]
