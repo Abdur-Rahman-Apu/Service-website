@@ -10917,7 +10917,7 @@
       "enroll": [
         [
           "Live practicals",
-          "2+ hrs of study material, quizzes & manuals"
+          "8+ hrs of study material, quizzes & manuals"
         ],
         [
           "Practical oriented course with case-studies",
@@ -11012,10 +11012,7 @@
             "Wildcard matching in XLookup",
             "Search modes in XLookup"
           ]
-        }
-        
-      ],
-      [
+        },
         {
           "no": 5,
           "title": "Data tools",
@@ -11049,13 +11046,120 @@
            "Pivot tables",
            "Exercise 8: Pivot tables"
           ]
+        },
+        {
+          "no": 9,
+          "title": "Excel charts ",
+          "content": [
+           "Excel charts - categories of messages that can be conveyed",
+           "Elements of charts",
+           "The easy way of creating charts",
+           "Bar and column charts",
+           "Formatting charts",
+           "Line charts",
+           "Area charts",
+           "Pie and doughnut charts",
+           "Why we should avoid pie charts",
+           "Scatter plot or XY chart",
+           "Frequency distribution and histograms",
+           "Waterfall charts",
+           "Hierarchy charts: sunburst and treemap",
+           "Combination charts",
+           "Sparklines",
+           "Exercise 9: charts"
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Pivot charts",
+          "content": [
+           "Pivot charts"
+          ]
+        }
+        
+      ],
+      [
+        
+        {
+          "no": 11,
+          "title": "New! Maps chart - only for Excel 2019 and above ",
+          "content": [
+           "Maps chart"
+          ]
+        },
+        {
+          "no": 12,
+          "title": "Special purpose charts ",
+          "content": [
+           "Stock charts",
+           "Radar charts",
+           "Surface charts",
+           "Heatmaps"
+          ]
+        },
+        {
+          "no": 13,
+          "title": "Named ranges ",
+          "content": [
+           "Named ranges",
+           "Indirect function"
+          ]
+        },
+        {
+          "no": 14,
+          "title": "Excel shortcuts ",
+          "content": [
+           "Shortcuts",
+           "Exercise 10: shortcuts"
+          ]
+        },
+        {
+          "no": 15,
+          "title": "Macros ",
+          "content": [
+           "Macros",
+           "Exercise 11: Macros"
+          ]
+        },
+        {
+          "no": 16,
+          "title": "NEW! Importing data from PDF and websites ",
+          "content": [
+           "Importing tables from PDF - Excel 2021 and office 365",
+           "Importing data from website - Excel 2019 and above"
+          ]
+        },
+        {
+          "no": 17,
+          "title": "Advanced Excel ",
+          "content": [
+           "Advanced Excel Analytics in Excel",
+           "Solving a transportation problem using Excel",
+           "Income Tax calculation - Slabs based tax"
+          ]
+        },
+        {
+          "no": 18,
+          "title": "Creative infographics ",
+          "content": [
+           "Infographic example 1",
+           "Infographic example 2"
+          ]
+        },
+        {
+          "no": 19,
+          "title": "Congratulations & about your certificate ",
+          "content": [
+           "The final milestone!",
+           "Bonus lecture"
+          ]
         }
       ]
     ],
     "features": [
       {
         "img": "./images/course-img/course-features/time.png",
-        "title": "2+ Hrs instructor based video lessons"
+        "title": "8+ Hrs instructor based video lessons"
       },
       {
         "img": "./images/course-img/course-features/support.png",
