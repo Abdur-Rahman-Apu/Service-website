@@ -26,4 +26,4 @@ viewAllCourseBtn.innerText = "view all courses";
 viewAllCourseBtn.setAttribute("href", "./courses.html");
 courseSection.appendChild(viewAllCourseBtn);
 
-getAllData("data/course.json", courses, 3);
+getAllData("data/course.json", featuredCourses, ['cyber warrior','figma','aws']);
