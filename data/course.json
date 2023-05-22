@@ -11870,5 +11870,1515 @@
         }
       ]
     ]
+  },
+  {
+    "id": 36,
+    "courseName": "Career Clarity Certification Course in English",
+    "bannerImg": "./images/course-img/course-banner/career.png",
+    "shortName": "Career Clarity",
+    "overview": "If you’re looking for an instructor with a deep understanding and even more importantly – with a proven record of working in top-level institutions, then you met your dream right here.",
+    "reasons": {
+      "enroll": [
+        [
+          "To understand your goal",
+          "To learn which is suitable for you"
+        ],
+        [
+          "To get idea about the career",
+          "Lifetime access of LMS with videos & material"
+        ]
+      ],
+      "learn": [
+        [
+          "Identify what is important for you to feel happy and fulfilled.",
+          "Get clarity in relation to your career"
+        ],
+        [
+          "Identify what motivates and drives you",
+          "Know yourself better"
+        ]
+      ]
+    },
+    "why": [
+      {
+        "title": "If you want to identify what is important for you to feel happy",
+        "src": ""
+      },
+      {
+        "title": "To identify your strengths and talents",
+        "src": ""
+      },
+      {
+        "title": "To choose your career",
+        "src": ""
+      }
+    ],
+    "prerequisite": {
+      "que": "What to do before you begin your Career Clarity online training?",
+      "ans": "Nothing!",
+      "suggest": "Although if you’d like, you can brush up on your skills with our complementary HTML material right in your LMS."
+    },
+    "curriculum": [
+      [
+        {
+          "no": 1,
+          "title": "Why this course?",
+          "content": [
+            "Introduction"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Career QA",
+          "content": [
+            "Forensic or Cyber Security",
+            "Switching career from other domains",
+            "Can you get job without degree",
+            "CEH or OSCP which one I should do",
+            "Not getting job in cyber security",
+            "Apart from course what I should learn"
+          ]
+        }
+      ],
+      [
+        {
+          "no": 3,
+          "title": "Apart from 9-5 how to earn bread and butter",
+          "content": [
+            "Apart from 9-5"
+            
+          ]
+        },
+        {
+          "no": 4,
+          "title": "How to get job",
+          "content": [
+            "How to get job",
+            "How to get internship"
+          ]
+        }
+      ]
+    ],
+    "features": [
+      {
+        "img": "./images/course-img/course-features/time.png",
+        "title": "1+ Hrs instructor based video lessons"
+      },
+      {
+        "img": "./images/course-img/course-features/support.png",
+        "title": "Lifetime access to course with support"
+      },
+      {
+        "img": "./images/course-img/course-features/brainstorming.png",
+        "title": "Discussion forum for queries and interaction"
+      }
+    ],
+    "forWho": {
+      "que": "Is this Career Clarity Course for you?",
+      "ans": "I have developed this program that is designed not only to help you get clarity on what you want, but to help you to know yourself better. If you are unhappy in your job, if you know you could be doing something more and you feel you are not reaching your full potential, this is the course for you. 21 Days challenge to job satisfaction is a series of videos with fun exercises that will lead you to discover what your dream job is. The videos and exercises will help you to get clarity on what you want to do, what is important for you and what makes you happy."
+    },
+    "companies": {
+      "title": "Companies you can expect when you get Career Clarity -certified with us",
+      "img": "./images/companies.png"
+    },
+    "faq": [
+      [
+        {
+          "que": "How long will the Career Clarity course recordings be available?",
+          "ans": "All the Career Clarity training sessions along with the complete Career Clarity study material, POCs, and Career Clarity projects will be available for lifetime."
+        },
+        {
+          "que": "What things do I need to learn Career Clarity through this course?",
+          "ans": "To attend this online Career Clarity training, you just need a laptop or a PC with a minimum 4GB RAM. Nothing else is required to learn it."
+        },
+        {
+          "que": "How do I clear my Career Clarity related doubts?",
+          "ans": "You can post your queries on the discussion forum. Our support team will be happy to assist you."
+        },
+        {
+          "que": "What are the system specifications required to learn Career Clarity?",
+          "ans": "The recommendation is a minimum of an i3 processor, a 20 GB disk, and a 4 GB RAM."
+        },
+        {
+          "que": "What will the end result be of this online Career Clarity training course?",
+          "ans": "You will find your strengths. You can choose your career path. And finally you will get a certificate."
+        }
+      ],
+      [
+        {
+          "que": "Where do all the students come from?",
+          "ans": "We have a blend of students from across the globe. Apart from India, we provide training in the US, the UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, and many others covering the globe."
+        },
+        {
+          "que": "Is this Career Clarity training classroom-based or online?",
+          "ans": "This training is completely online and self-paced."
+        },
+        {
+          "que": "Will you be providing Career Clarity certificate after the training?",
+          "ans": "Yes"
+        },
+        {
+          "que": "How do I get in touch with you for further queries?",
+          "ans": "You are  to contact us by placing a call at +91-8451097879 or by dropping a mail to info@data-flair.training"
+        },
+        {
+          "que": "Can I attend a demo session?",
+          "ans": "Yes, you can attend the Career Clarity demo class recording on this course page itself to understand the quality of training we provide."
+        }
+      ]
+    ]
+  },
+  {
+    "id": 37,
+    "courseName": "Computer Forensics Certification Course in English",
+    "bannerImg": "./images/course-img/course-banner/COMPUTER.png",
+    "shortName": "Computer Forensics",
+    "overview": "Are you eager to learn Computer Forensics and Cyber Crime Investigation  and want to be a profound Forensics Investigator ? If your answer is YES, then this course is only for you. I specially framed this course to Transform Your Life from what you are today to what you actually want to be. ",
+    "reasons": {
+      "enroll": [
+        [
+          "To understand your goal",
+          "To learn which is suitable for you"
+        ],
+        [
+          "To get idea about the career",
+          "Lifetime access of LMS with videos & material"
+        ]
+      ],
+      "learn": [
+        [
+          "Investigation process in Computer forensics",
+          "Legal issues involved in Digital Forensics investigations",
+          "Searching evidence and digital foorprints on Criminal Computer",
+          "Use of Kali Linux in Computer forensics",
+          "Methodologies of Acquisition and seizing Digital devices",
+          "Digital evidence, their types, examination processes",
+          "Electronic crime and their categories",
+          "Setting up forensic lab in computer",
+          "Knowledge of windows  forensics"
+        ],
+        [
+          "Volatile and non-volatile information gatherings",
+          "Forensics analysis of RAM Dump",
+          "Recover deleted files and hard disk partitions",
+          "Steganography, Steganalysis",
+          "Concepts of password cracking and investigating password attacks",
+          "Generating investigative reports",
+          "Multimedia Forensics",
+          "Anti-Forensics Techniques used by Hackers to erase evidences and many more...."
+        ]
+      ]
+    },
+    "why": [
+      {
+        "title": "Computer forensics becomes more relevant daily as the world becomes increasingly digitally connected. ",
+        "src": "Coursera"
+      },
+      {
+        "title": " The management of digital evidence is critical for solving cyber crimes and recovering important, compromised data. A computer forensics investigator's job is to collect, examine, and safeguard this evidence.",
+        "src": "Courseera"
+      },
+      {
+        "title": "Digital forensics analysts make $75,005 as an average salary",
+        "src": "Google"
+      }
+    ],
+    "prerequisite": {
+      "que": "What to do before you begin your Computer Forensics online training?",
+      "ans": "Nothing!",
+      "suggest": "Although if you’d like, you can brush up on your skills with our complementary HTML material right in your LMS."
+    },
+    "curriculum": [
+      [
+        {
+          "no": 1,
+          "title": "Requirement",
+          "content": [
+            "What is Digital Forensics?",
+            "Process of Digital Forensics investigation"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Inevitability during Computer Forensics investigation legal issues",
+          "content": [
+            "Maintaining chain of custody",
+            "Write-blockers",
+            "Maintaining integrity using regshot"
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Imaging acquisition of operating system",
+          "content": [
+            "Installing FTK imager",
+            "Create forensics image of hard disk pen drive or any storage device "
+            
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Computer forensics lab setup",
+          "content": [
+            "Install Kali Linux"
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Digital Forensics investigation analysis of acquired image",
+          "content": [
+            "OS forensics: finding artifacts in windows",
+            "Windows forensics analysis part - 1",
+            "Windows forensics analysis part - 2",
+            "Windows forensics analysis part - 3",
+            "Dump analysis using Bulk extractor",
+            "Dump analysis using Foremost",
+            "Hashing and Data Fingerprinting in Digital Forensics"
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Browser Forensics",
+          "content": [
+            "Finding browsing history bookmarks and lot of evidence"
+          ]
+        }
+      ],
+      [
+        
+        {
+          "no": 7,
+          "title": "Multimedia Forensics",
+          "content": [
+            "Multimedia Forensics"
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Picture analysis with Ghiro",
+          "content": [
+            "Picture analysis with Ghiro"
+          ]
+        },
+        {
+          "no": 9,
+          "title": "Tacking RAM Dump & volatile memory analysis",
+          "content": [
+            "How to dump Ram Memory",
+            "Analysis of RAM dump"
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Anti-Forensics techniques & detection",
+          "content": [
+            "What is Anti-Forensics",
+            "Anti-Forensics techniques"
+          ]
+        },
+        {
+          "no":11,
+          "title": "Bonus Cyber Crime Investigation",
+          "content": [
+            "Website crime investigation"
+          ]
+        },
+        {
+          "no": 12,
+          "title": "Computer Forensic using Autopsy",
+          "content": [
+            "Computer Forensic using Autospy"
+          ]
+        }
+      ]
+    ],
+    "features": [
+      {
+        "img": "./images/course-img/course-features/time.png",
+        "title": "1+ Hrs instructor based video lessons"
+      },
+      {
+        "img": "./images/course-img/course-features/support.png",
+        "title": "Lifetime access to course with support"
+      },
+      {
+        "img": "./images/course-img/course-features/brainstorming.png",
+        "title": "Discussion forum for queries and interaction"
+      }
+    ],
+    "forWho": {
+      "que": "Is this Computer Forensics Course for you?",
+      "ans": "Are you eager to learn Computer Forensics and Cyber Crime Investigation  and want to be a profound Forensics Investigator ? If your answer is YES, then this course is only for you. I specially framed this course to Transform Your Life from what you are today to what you actually want to be. "
+    },
+    "companies": {
+      "title": "Companies you can expect when you get Computer Forensics -certified with us",
+      "img": "./images/companies.png"
+    },
+    "faq": [
+      [
+        {
+          "que": "How long will the Computer Forensics course recordings be available?",
+          "ans": "All the Computer Forensics training sessions along with the complete Computer Forensics study material, POCs, and Computer Forensics projects will be available for lifetime."
+        },
+        {
+          "que": "What things do I need to learn Computer Forensics through this course?",
+          "ans": "To attend this online Computer Forensics training, you just need a laptop or a PC with a minimum 4GB RAM. Nothing else is required to learn it."
+        },
+        {
+          "que": "How do I clear my Computer Forensics related doubts?",
+          "ans": "You can post your queries on the discussion forum. Our support team will be happy to assist you."
+        },
+        {
+          "que": "What are the system specifications required to learn Computer Forensics?",
+          "ans": "The recommendation is a minimum of an i3 processor, a 20 GB disk, and a 4 GB RAM."
+        },
+        {
+          "que": "What will the end result be of this online Computer Forensics training course?",
+          "ans": "You will find your strengths. You can choose your career path. And finally you will get a certificate."
+        },
+        {
+          "que": "Where do all the students come from?",
+          "ans": "We have a blend of students from across the globe. Apart from India, we provide training in the US, the UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, and many others covering the globe."
+        }
+      ],
+      [
+        {
+          "que": "Is this Computer Forensics training classroom-based or online?",
+          "ans": "This training is completely online and self-paced."
+        },
+        {
+          "que": "Will you be providing Computer Forensics certificate after the training?",
+          "ans": "Yes"
+        },
+        {
+          "que": "How do I get in touch with you for further queries?",
+          "ans": "You are  to contact us by placing a call at +91-8451097879 or by dropping a mail to info@data-flair.training"
+        },
+        {
+          "que": "Can I attend a demo session?",
+          "ans": "Yes, you can attend the Computer Forensics demo class recording on this course page itself to understand the quality of training we provide."
+        }
+      ]
+    ]
+  },
+  {
+    "id": 38,
+    "courseName": "Bug Bounty Certification Course in English",
+    "bannerImg": "./images/course-img/course-banner/bug-bounting.png",
+    "shortName": "Bug Bounty",
+    "overview": "This course assumes you have NO prior knowledge in Bug Bounty Hunting  and by the end of it you'll be at a high level, being able to Hunt Bug like Black-Hat Hackers That Can Earn You a Fortune!<br>You can earn a side income by hunting bugs on bug bounty programs by spending only few hours every week as little as 5-10 hrs/week.",
+    "reasons": {
+      "enroll": [
+        [
+          "To understand the bug bounty",
+          "To learn advanced concepts of Bug Bounty"
+        ],
+        [
+          "24/7 support",
+          "Lifetime access of LMS with videos & material"
+        ]
+      ],
+      "learn": [
+        [
+          "Discover the most common web application bugs and vulnerabilities.",
+          "Discover bugs from the OWASP top 10 most common security threats.",
+          "The bug hunter / hacker mentality.",
+          "Efficiency use Burp Suite to discover bugs and vulnerabilities."
+        ],
+        [
+          "Gather information about websites & applications",
+          "Discover CSRF vulnerabilities.",
+          "Discover IDOR vulnerabilities",
+          "Bypass filters & security on all of the covered bugs & vulnerabilities."
+        ]
+      ]
+    },
+    "why": [
+      {
+        "title": "Currently skilled bug hunters are making 100k$+, according to Inside The Mind Of The Hacker ",
+        "src": "Bugcrowd"
+      },
+      {
+        "title": "Organizations like Google, Facebook, Twitter, and numerous more reward bug bounty hunters for reporting security issues in their system. ",
+        "src": ""
+      },
+      {
+        "title": "A bug bounty program is a deal offered by many websites by which individuals can receive recognition and compensation for reporting bugs, especially those pertaining to exploits and vulnerabilities.",
+        "src": ""
+      },
+      {
+        "title": " Hackers Earned $19 Million in Bug Bounties in 2018 from their platform.",
+        "src": "HackerOne"
+      }
+    ],
+    "prerequisite": {
+      "que": "What to do before you begin your Bug Bounty online training?",
+      "ans": "Nothing!",
+      "suggest": "Although if you’d like, you can brush up on your skills with our complementary HTML material right in your LMS."
+    },
+    "curriculum": [
+      [
+        {
+          "no": 1,
+          "title": "Introduction",
+          "content": [
+            "Request - bug hunting",
+            "Important lesson"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Engagement with HTTP and client server architecture",
+          "content": [
+            "What is HTTP and how it works?",
+            "HTTP response code and methods",
+            "Love with HTTP book"
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Basics for Bug Hunting",
+          "content": [
+            "Active information gathering",
+            "Passive information gathering",
+            "Identify technology"
+            
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Brute force attack",
+          "content": [
+            "Brute force attack"
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Burp Suite",
+          "content": [
+            "Installing Burp Suite",
+            "Configuration Burp Suite",
+            "Intercepting HTTPs Traffic"
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Website hacking using SQL injection vulnerability",
+          "content": [
+            "Website hacking using SQL login bypass vulnerability",
+            "SQL login bypass cheatsheet",
+            "eCommerce website hacking [Bug Patched]"
+          ]
+        }
+      ],
+      [
+        
+        {
+          "no": 7,
+          "title": "Cross site scripting vulnerability",
+          "content": [
+            "Cross site scripting vulnerability (XSS Theory)",
+            "XSS practical",
+            "XSS CheatSheat",
+            "Mastering XSS resource"
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Command execution vulnerability",
+          "content": [
+            "Command execution vulnerability theory",
+            "Command execution vulnerability"
+          ]
+        },
+        {
+          "no": 9,
+          "title": "Missing SPF record",
+          "content": [
+            "What is SPF?",
+            "Sender policy framework practical"
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Cross site request forgery (CSRF)",
+          "content": [
+            "Cross site request forgery (CSRF) theory",
+            "Cross site request forgery (CSRF) practical"
+          ]
+        },
+        {
+          "no":11,
+          "title": "Bonus resources",
+          "content": [
+            "Web security audit basics",
+            "Bug Bounty Hunting platforms",
+            "Automating the bug hunting process",
+            "Important community",
+            "Complete Bug Bounty cheat Sheet"
+          ]
+        }
+      ]
+    ],
+    "features": [
+      {
+        "img": "./images/course-img/course-features/time.png",
+        "title": "1+ Hrs instructor based video lessons"
+      },
+      {
+        "img": "./images/course-img/course-features/support.png",
+        "title": "Lifetime access to course with support"
+      },
+      {
+        "img": "./images/course-img/course-features/brainstorming.png",
+        "title": "Discussion forum for queries and interaction"
+      }
+    ],
+    "forWho": {
+      "que": "Is this Bug Bounty Course for you?",
+      "ans": "A bug bounty program is a deal offered by many websites by which individuals can receive recognition and compensation for reporting bugs, especially those pertaining to exploits and vulnerabilities. Million Dollars have been earned by many bug hunters.If you want to begin your career in Bug Bounty. Then this course is for you. "
+    },
+    "companies": {
+      "title": "Companies you can expect when you get Bug Bounty -certified with us",
+      "img": "./images/companies.png"
+    },
+    "faq": [
+      [
+        {
+          "que": "How long will the Bug Bounty course recordings be available?",
+          "ans": "All the Bug Bounty training sessions along with the complete Bug Bounty study material, POCs, and Bug Bounty projects will be available for lifetime."
+        },
+        {
+          "que": "What things do I need to learn Bug Bounty through this course?",
+          "ans": "To attend this online Bug Bounty training, you just need a laptop or a PC with a minimum 4GB RAM. Nothing else is required to learn it."
+        },
+        {
+          "que": "How do I clear my Bug Bounty related doubts?",
+          "ans": "You can post your queries on the discussion forum. Our support team will be happy to assist you."
+        },
+        {
+          "que": "What are the system specifications required to learn Bug Bounty?",
+          "ans": "The recommendation is a minimum of an i3 processor, a 20 GB disk, and a 4 GB RAM."
+        },
+        {
+          "que": "What will the end result be of this online Bug Bounty training course?",
+          "ans": "You will find your strengths. You can choose your career path. And finally you will get a certificate."
+        },
+        {
+          "que": "Where do all the students come from?",
+          "ans": "We have a blend of students from across the globe. Apart from India, we provide training in the US, the UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, and many others covering the globe."
+        }
+      ],
+      [
+        {
+          "que": "Is this Bug Bounty training classroom-based or online?",
+          "ans": "This training is completely online and self-paced."
+        },
+        {
+          "que": "Will you be providing Bug Bounty certificate after the training?",
+          "ans": "Yes"
+        },
+        {
+          "que": "How do I get in touch with you for further queries?",
+          "ans": "You are  to contact us by placing a call at +91-8451097879 or by dropping a mail to info@data-flair.training"
+        },
+        {
+          "que": "Can I attend a demo session?",
+          "ans": "Yes, you can attend the Bug Bounty demo class recording on this course page itself to understand the quality of training we provide."
+        }
+      ]
+    ]
+  },
+  {
+    "id": 39,
+    "courseName": "Dark Net Certification Course in English",
+    "bannerImg": "./images/course-img/course-banner/Deep-Web.png",
+    "shortName": "Dark Net",
+    "overview": "This specialized course is designed for Darknet & Deep Web Enthusiastic, Computer Science Students, Trainers, Government and Police Investigators, to understand how to browse into the hidden internet and access social media, darknet market place and how to operate in this new environment. ",
+    "reasons": {
+      "enroll": [
+        [
+          "To understand the Dark Net",
+          "To explore the Dark Net"
+        ],
+        [
+          "24/7 support",
+          "Lifetime access of LMS with videos & material"
+        ]
+      ],
+      "learn": [
+        [
+          "Basic Terminology, Setting Up Secure And Safe Environment to Accessing the Deep Web or Dark Net.",
+          "Installing TOR to Access Darknet and Deepweb",
+          "Difference between Darknet, Deep Web and surface web.",
+          "Accessing Darknet & DeepWeb without using TOR.",
+          "Access Social Media and Email service providers in Darknet"
+        ],
+        [
+          "Drug, weapons, fake document selling online market on darknet",
+          "Redrooms + hiring hacker services demonstration",
+          "Darknet Hosting & darknet Search Engine",
+          "Finding new Darknet Links",
+          "Easily host your own website on darknet"
+        ]
+      ]
+    },
+    "why": [
+      {
+        "title": "The darknet is a very real concern for today’s businesses",
+        "src": ""
+      },
+      {
+        "title": "the dark web/darknet is a collection of thousands of websites that can’t be accessed via normal means and aren’t indexed by search engines like Google or Yahoo. ",
+        "src": ""
+      },
+      {
+        "title": "To learn what is darknet and How to escape from this danger?",
+        "src": ""
+      }
+    ],
+    "prerequisite": {
+      "que": "What to do before you begin your Dark Net online training?",
+      "ans": "Laptop required!",
+      "suggest": "Although if you’d like, you can brush up on your skills with our complementary HTML material right in your LMS."
+    },
+    "curriculum": [
+      [
+        {
+          "no": 1,
+          "title": "Welcome in DarkNet and Deep Web world",
+          "content": [
+            "Weapons to be carried to enter into DarkNet & Deep Web",
+            "Request"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Setting up Lab environment for DarkNet & Deep Web",
+          "content": [
+            "Install Kali Linux"
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Installing TOR to Access DarkNet and DeepWeb",
+          "content": [
+            "Installing TOR in Kali Linux to access DarkNet & Deep Web",
+            "Installing TOR in MAC OS to access DarkNet & Deep Web"
+            
+          ]
+        },
+        {
+          "no": 4,
+          "title": "WTF is DarkNet and Deep Web",
+          "content": [
+            "WTF is Deep Web",
+            "Surface web vs deep web",
+            "WTF is DarkNet",
+            "Access onion website without using TOR",
+            "DarkNet vs Deep Web"
+          ]
+        }
+      ],
+      [
+        {
+          "no": 5,
+          "title": "Accessing DarkNet & Deep Web",
+          "content": [
+            "What is TOR and hidden services",
+            "Access Facebook in DarkNet",
+            "Anonymous email services",
+            "Hire your hacker",
+            "Hire Hitman",
+            "Escrow"
+          ]
+        },
+        {
+          "no": 6,
+          "title": "DarkNet Hosting & Search Engine",
+          "content": [
+            "DarkNet search engine",
+            "How to find DarkNet links",
+            "Seized DarkNet websites"
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Setup DarkNet and Deep Web setup your own DarkNet website",
+          "content": [
+            "Setup own Onion/ DarkNet website easiest way part - 1",
+            "Setup own Onion/ DarkNet website easiest way part - 2"
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Darknet Cases",
+          "content": [
+            "Case 1",
+            "Case 2"
+          ]
+        }
+      ]
+    ],
+    "features": [
+      {
+        "img": "./images/course-img/course-features/time.png",
+        "title": "5+ Hrs instructor based video lessons"
+      },
+      {
+        "img": "./images/course-img/course-features/support.png",
+        "title": "Lifetime access to course with support"
+      },
+      {
+        "img": "./images/course-img/course-features/brainstorming.png",
+        "title": "Discussion forum for queries and interaction"
+      }
+    ],
+    "forWho": {
+      "que": "Is this Dark Net Course for you?",
+      "ans": "This course is highly practical but won't neglect the theory, first you'll understand the inner-workings of each topic and each technique covered, then you'll learn how to apply it in real-life scenarios.If you want to explore Dark Net safely. Then this course is for you. "
+    },
+    "companies": {
+      "title": "Companies you can expect when you get Dark Net -certified with us",
+      "img": "./images/companies.png"
+    },
+    "faq": [
+      [
+        {
+          "que": "How long will the Dark Net course recordings be available?",
+          "ans": "All the Dark Net training sessions along with the complete Dark Net study material, POCs, and Dark Net projects will be available for lifetime."
+        },
+        {
+          "que": "What things do I need to learn Dark Net through this course?",
+          "ans": "To attend this online Dark Net training, you just need a laptop or a PC with a minimum 4GB RAM. Nothing else is required to learn it."
+        },
+        {
+          "que": "How do I clear my Dark Net related doubts?",
+          "ans": "You can post your queries on the discussion forum. Our support team will be happy to assist you."
+        },
+        {
+          "que": "What are the system specifications required to learn Dark Net?",
+          "ans": "The recommendation is a minimum of an i3 processor, a 20 GB disk, and a 4 GB RAM."
+        },
+        {
+          "que": "What will the end result be of this online Dark Net training course?",
+          "ans": "You will find your strengths. You can choose your career path. And finally you will get a certificate."
+        },
+        {
+          "que": "Where do all the students come from?",
+          "ans": "We have a blend of students from across the globe. Apart from India, we provide training in the US, the UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, and many others covering the globe."
+        }
+      ],
+      [
+        {
+          "que": "Is this Dark Net training classroom-based or online?",
+          "ans": "This training is completely online and self-paced."
+        },
+        {
+          "que": "Will you be providing Dark Net certificate after the training?",
+          "ans": "Yes"
+        },
+        {
+          "que": "How do I get in touch with you for further queries?",
+          "ans": "You are  to contact us by placing a call at +91-8451097879 or by dropping a mail to info@data-flair.training"
+        },
+        {
+          "que": "Can I attend a demo session?",
+          "ans": "Yes, you can attend the Dark Net demo class recording on this course page itself to understand the quality of training we provide."
+        }
+      ]
+    ]
+  },
+  {
+    "id": 40,
+    "courseName": "Certified Cyber Ninja Course in English",
+    "bannerImg": "./images/course-img/course-banner/cyber-ninja.png",
+    "shortName": "Cyber Ninja",
+    "overview": "Although this Ethical Hacking & Cyber Security class focused on the practical side of Hacking, the theory behind every attack is also covered along with. Before jumping into Hacking, you will first learn how to set up a lab and install needed software to practice these hacking techniques on your own machine. All the attacks explained are launched against real devices in my Hacking Lab. ",
+    "reasons": {
+      "enroll": [
+        [
+          "To Learn hacking from beginner to expert",
+          "Real-time projects with implementation",
+          "Study material, practicals, quizzes"
+        ],
+        [
+          "24/7 support",
+          "Lifetime access of LMS with videos & material"
+        ]
+      ],
+      "learn": [
+        [
+          "Setup Ethical Hacking, Cyber Security Lab",
+          "Methodology of Ethical Hacking and Cyber Security",
+          "Open Source Intelligence and Information Gathering",
+          "Google Hacking Database and Google Dorks",
+          "Bug Bounty Hunting : Web Application Penetration Testing",
+          "Ethical Hacking & Cyber Security Tools and Techniques",
+          "Windows Password & Operating System Hacking",
+          "Account Hacking Techniques ",
+          "Anonymous Call, Message and Email Ethical Hacking",
+          "Hacking OS Kali Linux Commands from Depth to Get Start"
+        ],
+        [
+          "Hacking Windows 7,8,10 Like Blackhat : Metasploit Extreme on Kali Linux",
+          "Access Darknet or Darkweb Using TOR : Anonymous Browsing",
+          "Hiding Secret Message using Steganography",
+          "Android Mobile Phone Tracking",
+          "Art Of Spying Using Keylogger : System Hacking",
+          "Art of Social Engineering Using Spear Phishing",
+          "Static & Dynamic Malware Analysis and Investigation"
+        ]
+      ]
+    },
+    "why": [
+      {
+        "title": "Hacking is an attempt to exploit a computer system or a private network inside a computer.",
+        "src": "Zsecurity"
+      },
+      {
+        "title": "By learning hacking, you can implement the strongest possible security practices. ",
+        "src": ""
+      },
+      {
+        "title": "The estimated total pay for a Hack is $92,471 per year in the United States area, with an average salary of $67,489 per year.",
+        "src": "Glassdoor"
+      },
+      {
+        "title": "Bright future",
+        "src": ""
+      }
+    ],
+    "prerequisite": {
+      "que": "What to do before you begin your Cyber Ninja online training?",
+      "ans": "Laptop/PC required!",
+      "suggest": "Although if you’d like, you can brush up on your skills with our complementary HTML material right in your LMS."
+    },
+    "curriculum": [
+      [
+        {
+          "no": 1,
+          "title": "Orientation Call",
+          "content": [
+            "Orientation call"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Important note",
+          "content": [
+            "Welcome IMP note"
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Weapons to be carried",
+          "content": [
+            "Requirement"
+            
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Process of hacking",
+          "content": [
+            "Process of hacking"
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Footprinting",
+          "content": [
+            "Footprinting"
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Information Gathering",
+          "content": [
+            "Information Gathering"
+          ]
+        }
+      ],
+      [
+        
+        {
+          "no": 7,
+          "title": "Open source intelligence",
+          "content": [
+            "Open source intelligence"
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Google hacking & Google Dorks",
+          "content": [
+            "Google Hacking & Google Dorks - I",
+            "Google Hacking & Google Dorks - II",
+            "Google Hacking & Google Dorks - III",
+            "Google Hacking & Google Dorks - IV"
+          ]
+        },
+        {
+          "no": 9,
+          "title": "Anonymous call & email",
+          "content": [
+            "Anonymous call & email",
+            "Temporary emails"
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Keylogger - The art of spying",
+          "content": [
+            "Keylogger - I",
+            "Keylogger - II"
+          ]
+        },
+        {
+          "no":11,
+          "title": "DarkNet & DeepWeb",
+          "content": [
+            "What is DarkNet?",
+            "Tor installation",
+            "Social Media on Tor"
+          ]
+        },
+        {
+          "no":12,
+          "title": "Steganography hiding secret message",
+          "content": [
+            "Steganography using tool",
+            "Steganography without using tool"
+          ]
+        },
+        {
+          "no":13,
+          "title": "Spear phising art of social engineering",
+          "content": [
+            "Sear phising",
+            "Phish tank: secure yourself"
+          ]
+        },
+        {
+          "no":14,
+          "title": "Window password hacking and cracking",
+          "content": [
+            "Windows password cracking",
+            "Windows password cracking in seconds"
+          ]
+        },
+        {
+          "no":15,
+          "title": "Computer Forensics investigation",
+          "content": [
+            "What is Digital Forensics?",
+            "Process of Digital Forensics investigation",
+            "Dump analysis"
+          ]
+        },
+        {
+          "no":16,
+          "title": "Web application hacking",
+          "content": [
+            "Distributed Denial Of Service Attack - DDOS",
+            "Login Page Bypass",
+            "eCommerce website hacking POC [Bug Patched]"
+          ]
+        },
+        {
+          "no":17,
+          "title": "Malware analysis",
+          "content": [
+            "Malware Game"
+          ]
+        },
+        {
+          "no":18,
+          "title": "Find lost android device",
+          "content": [
+            "Android device manager"
+          ]
+        },
+        {
+          "no":19,
+          "title": "Metasploit extreme on Kali Linux",
+          "content": [
+            "Hacking windows 7-8-10 like Black Hat Hacker Part - 1",
+            "Hacking windows 7-8-10 like Black Hat Hacker Part - 2"
+          ]
+        },
+        {
+          "no":20,
+          "title": "What next after Cyber Ninja",
+          "content": [
+            "What Next?",
+            "Limited Discount Offer",
+            "How to get Cyber Ninja Certificate"
+          ]
+        }
+      ]
+    ],
+    "features": [
+      {
+        "img": "./images/course-img/course-features/time.png",
+        "title": "70+ Hrs instructor based video lessons"
+      },
+      {
+        "img": "./images/course-img/course-features/support.png",
+        "title": "Lifetime access to course with support"
+      },
+      {
+        "img": "./images/course-img/course-features/project.png",
+        "title": "Real time capstone projects"
+      },
+      {
+        "img": "./images/course-img/course-features/certificate.png",
+        "title": "Industry renowned Certification"
+      },
+      {
+        "img": "./images/course-img/course-features/brainstorming.png",
+        "title": "Discussion forum for queries and interaction"
+      }
+    ],
+    "forWho": {
+      "que": "Is this Cyber Ninja Course for you?",
+      "ans": "This course is highly practical but won't neglect the theory, first you'll understand the inner-workings of each topic and each technique covered, then you'll learn how to apply it in real-life scenarios.If you want to explore Cyber Ninja safely. Then this course is for you. "
+    },
+    "companies": {
+      "title": "Companies you can expect when you get Cyber Ninja -certified with us",
+      "img": "./images/companies.png"
+    },
+    "faq": [
+      [
+        {
+          "que": "How long will the Cyber Ninja course recordings be available?",
+          "ans": "All the Cyber Ninja training sessions along with the complete Cyber Ninja study material, POCs, and Cyber Ninja projects will be available for lifetime."
+        },
+        {
+          "que": "What things do I need to learn Cyber Ninja through this course?",
+          "ans": "To attend this online Cyber Ninja training, you just need a laptop or a PC with a minimum 4GB RAM. Nothing else is required to learn it."
+        },
+        {
+          "que": "How do I clear my Cyber Ninja related doubts?",
+          "ans": "You can post your queries on the discussion forum. Our support team will be happy to assist you."
+        },
+        {
+          "que": "What are the system specifications required to learn Cyber Ninja?",
+          "ans": "The recommendation is a minimum of an i3 processor, a 20 GB disk, and a 4 GB RAM."
+        },
+        {
+          "que": "What will the end result be of this online Cyber Ninja training course?",
+          "ans": "You will find your strengths. You can choose your career path. And finally you will get a certificate."
+        },
+        {
+          "que": "Where do all the students come from?",
+          "ans": "We have a blend of students from across the globe. Apart from India, we provide training in the US, the UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, and many others covering the globe."
+        }
+      ],
+      [
+        {
+          "que": "Is this Cyber Ninja training classroom-based or online?",
+          "ans": "This training is completely online and self-paced."
+        },
+        {
+          "que": "Will you be providing Cyber Ninja certificate after the training?",
+          "ans": "Yes"
+        },
+        {
+          "que": "How do I get in touch with you for further queries?",
+          "ans": "You are  to contact us by placing a call at +91-8451097879 or by dropping a mail to info@data-flair.training"
+        },
+        {
+          "que": "Can I attend a demo session?",
+          "ans": "Yes, you can attend the Cyber Ninja demo class recording on this course page itself to understand the quality of training we provide."
+        }
+      ]
+    ]
+  },
+  {
+    "id": 41,
+    "courseName": "Malware Analysis and Dissecting Malicious Softwares Certification Course",
+    "bannerImg": "./images/course-img/course-banner/Malware-Analysis-and-Dissecting-Malicious-Softwares.png",
+    "shortName": "Malware Analysis and Dissecting Malicious Softwares",
+    "overview": "Although this Ethical Hacking & Cyber Security class focused on the practical side of Hacking, the theory behind every attack is also covered along with. Before jumping into Hacking, you will first learn how to set up a lab and install needed software to practice these hacking techniques on your own machine. All the attacks explained are launched against real devices in my Hacking Lab. ",
+    "reasons": {
+      "enroll": [
+        [
+          "To analysis Malware and dissect Malicious softwares",
+          "Real-time projects with implementation",
+          "Study material, practicals, quizzes"
+        ],
+        [
+          "24/7 support",
+          "Lifetime access of LMS with videos & material"
+        ]
+      ],
+      "learn": [
+        [
+          "You will learn to analyze, prevent and codify a keylogger",
+          "You will learn to analyze, prevent and codify a malicious dll",
+          "ou will learn to analyze, prevent and codify an injector to infect a legitimate Windows process (proof of concept)."
+        ],
+        [
+          "You will learn how a malware connects to a Command and Control Center and what is its function.",
+          "You will learn how to capture malicious traffic on your network.",
+          "You will learn to capture malware on your operating system."
+        ]
+      ]
+    },
+    "why": [
+      {
+        "title": "Hacking is an attempt to exploit a computer system or a private network inside a computer.",
+        "src": "Zsecurity"
+      },
+      {
+        "title": "To protect your device from malwares ",
+        "src": ""
+      },
+      {
+        "title": "Median malware analyst salary in the United States is $91,886.",
+        "src": "Salary.com"
+      },
+      {
+        "title": "Huge jobs opportunities",
+        "src": "Google"
+      }
+    ],
+    "prerequisite": {
+      "que": "What to do before you begin your Malware Analysis and Dissecting Malicious Softwares online training?",
+      "ans": "Laptop / PC required!",
+      "suggest": "Although if you’d like, you can brush up on your skills with our complementary HTML material right in your LMS."
+    },
+    "curriculum": [
+      [
+        {
+          "no": 1,
+          "title": "Introduction to Malware",
+          "content": [
+            "WTF is Malware",
+            "Types of Malware",
+            "Introduction to different Malware Analysis Techniques"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Setting up Malware analysis laboratory",
+          "content": [
+            "Snapshot and important guideline for Malware analysis",
+            "Installing REMnux Malware analysis operating system",
+            "Download Malware samples"
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Static Malware analysis",
+          "content": [
+            "Hashing of Malware",
+            "Finding malicious strings",
+            "Resource hacker",
+            "Finding packers"
+            
+          ]
+        }
+        
+      ],
+      [
+        {
+          "no": 4,
+          "title": "Dynamic Malware analysis",
+          "content": [
+            "Sandbox",
+            "Monitoring a malware",
+            "Regshot",
+            "Monitoring the process of malware",
+            "ApateDNS"
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Android malware analysis",
+          "content": [
+            "Google play store and android permission",
+            "How to detect android malware"
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Bonus",
+          "content": [
+            "Hacking android mobile like Ninja Hacker"
+          ]
+        }
+      ]
+    ],
+    "features": [
+      {
+        "img": "./images/course-img/course-features/time.png",
+        "title": "20+ Hrs instructor based video lessons"
+      },
+      {
+        "img": "./images/course-img/course-features/support.png",
+        "title": "Lifetime access to course with support"
+      },
+      {
+        "img": "./images/course-img/course-features/project.png",
+        "title": "Real time capstone projects"
+      },
+      {
+        "img": "./images/course-img/course-features/certificate.png",
+        "title": "Industry renowned Certification"
+      },
+      {
+        "img": "./images/course-img/course-features/brainstorming.png",
+        "title": "Discussion forum for queries and interaction"
+      }
+    ],
+    "forWho": {
+      "que": "Is this Malware Analysis and Dissecting Malicious Softwares Course for you?",
+      "ans": "This course is highly practical but won't neglect the theory, first you'll understand the inner-workings of each topic and each technique covered, then you'll learn how to apply it in real-life scenarios.If you want to explore Malware Analysis and Dissecting Malicious Softwares safely. Then this course is for you. "
+    },
+    "companies": {
+      "title": "Companies you can expect when you get Malware Analysis and Dissecting Malicious Softwares -certified with us",
+      "img": "./images/companies.png"
+    },
+    "faq": [
+      [
+        {
+          "que": "How long will the Malware Analysis and Dissecting Malicious Softwares course recordings be available?",
+          "ans": "All the Malware Analysis and Dissecting Malicious Softwares training sessions along with the complete Malware Analysis and Dissecting Malicious Softwares study material, POCs, and Malware Analysis and Dissecting Malicious Softwares projects will be available for lifetime."
+        },
+        {
+          "que": "What things do I need to learn Malware Analysis and Dissecting Malicious Softwares through this course?",
+          "ans": "To attend this online Malware Analysis and Dissecting Malicious Softwares training, you just need a laptop or a PC with a minimum 4GB RAM. Nothing else is required to learn it."
+        },
+        {
+          "que": "How do I clear my Malware Analysis and Dissecting Malicious Softwares related doubts?",
+          "ans": "You can post your queries on the discussion forum. Our support team will be happy to assist you."
+        },
+        {
+          "que": "What are the system specifications required to learn Malware Analysis and Dissecting Malicious Softwares?",
+          "ans": "The recommendation is a minimum of an i3 processor, a 20 GB disk, and a 4 GB RAM."
+        },
+        {
+          "que": "What will the end result be of this online Malware Analysis and Dissecting Malicious Softwares training course?",
+          "ans": "You will find your strengths. You can choose your career path. And finally you will get a certificate."
+        },
+        {
+          "que": "Where do all the students come from?",
+          "ans": "We have a blend of students from across the globe. Apart from India, we provide training in the US, the UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, and many others covering the globe."
+        }
+      ],
+      [
+        {
+          "que": "Is this Malware Analysis and Dissecting Malicious Softwares training classroom-based or online?",
+          "ans": "This training is completely online and self-paced."
+        },
+        {
+          "que": "Will you be providing Malware Analysis and Dissecting Malicious Softwares certificate after the training?",
+          "ans": "Yes"
+        },
+        {
+          "que": "How do I get in touch with you for further queries?",
+          "ans": "You are  to contact us by placing a call at +91-8451097879 or by dropping a mail to info@data-flair.training"
+        },
+        {
+          "que": "Can I attend a demo session?",
+          "ans": "Yes, you can attend the Malware Analysis and Dissecting Malicious Softwares demo class recording on this course page itself to understand the quality of training we provide."
+        }
+      ]
+    ]
+  },
+  {
+    "id": 42,
+    "courseName": "Cyber Warrior Certification Course",
+    "bannerImg": "./images/course-img/course-banner/cyber-warrior.png",
+    "shortName": "Cyber Warrior",
+    "overview": "Although this Ethical Hacking & Cyber Security class focused on the practical side of Hacking, the theory behind every attack is also covered along with. Before jumping into Hacking, you will first learn how to set up a lab and install needed software to practice these hacking techniques on your own machine. All the attacks explained are launched against real devices in my Hacking Lab. ",
+    "reasons": {
+      "enroll": [
+        [
+          "To learn and explore hacking",
+          "Real-time projects with implementation",
+          "Study material, practicals, quizzes"
+        ],
+        [
+          "24/7 support",
+          "Lifetime access of LMS with videos & material"
+        ]
+      ],
+      "learn": [
+        [
+          "Practical Cyber Security skills through hands on labs",
+          "The very latest up-to-date information and methods.",
+          "Start a career in cyber security. Become a cyber security specialist."
+        ],
+        [
+          "You will learn about nation state secret tracking and hacking infrastructure.",
+          "You will learn how to capture malicious traffic on your network.",
+          "You will learn to capture malware on your operating system."
+        ]
+      ]
+    },
+    "why": [
+      {
+        "title": "Hacking is an attempt to exploit a computer system or a private network inside a computer.",
+        "src": "Zsecurity"
+      },
+      {
+        "title": "To protect your device from malwares ",
+        "src": ""
+      },
+      {
+        "title": "The median salary for cybersecurity analysts in the US in 2020 was $102,600,",
+        "src": "The US Bureau of Labor Statistics (BLS)"
+      },
+      {
+        "title": "Huge jobs opportunities",
+        "src": "Google"
+      }
+    ],
+    "prerequisite": {
+      "que": "What to do before you begin your Cyber Warrior online training?",
+      "ans": "Laptop / PC required!",
+      "suggest": "Although if you’d like, you can brush up on your skills with our complementary HTML material right in your LMS."
+    },
+    "curriculum": [
+      [
+        {
+          "no": 1,
+          "title": "Bug Bounty Hunting",
+          "content": [
+            "Web Hacking 101",
+            "Web application hacker handbook",
+            "OWASP testing guide"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Hacking and Cyber security",
+          "content": [
+            "Mastering Metasploit",
+            "Kali Linux",
+            "Hacker Playbook",
+            "Cyber security with BlockChain"
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Penetration Testing",
+          "content": [
+            "Master Nessus",
+            "Advanced Penetration Testing",
+            "Penetration testing"
+            
+          ]
+        }
+        
+      ],
+      [
+        {
+          "no": 4,
+          "title": "Digital Forensics",
+          "content": [
+            "Android Forensics"
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Open source intelligence",
+          "content": [
+            "Master Shodan"
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Black Hat Asia",
+          "content": [
+            "AS-22-Borrello-Dynamic-Process-Isolation",
+            "AS-22-Borrello-Dynamic-Process-Isolation",
+            "AS-22-Fitzl-macOS-vulnerabilities-hiding-in-plain-sight-wp",
+            "AS-22-Geers-The-Virtual-Battlefield"
+          ]
+        }
+      ]
+    ],
+    "features": [
+      {
+        "img": "./images/course-img/course-features/time.png",
+        "title": "10+ Hrs instructor based video lessons"
+      },
+      {
+        "img": "./images/course-img/course-features/support.png",
+        "title": "Lifetime access to course with support"
+      },
+      {
+        "img": "./images/course-img/course-features/project.png",
+        "title": "Real time capstone projects"
+      },
+      {
+        "img": "./images/course-img/course-features/certificate.png",
+        "title": "Industry renowned Certification"
+      },
+      {
+        "img": "./images/course-img/course-features/brainstorming.png",
+        "title": "Discussion forum for queries and interaction"
+      }
+    ],
+    "forWho": {
+      "que": "Is this Cyber Warrior Course for you?",
+      "ans": "This course is highly practical but won't neglect the theory, first you'll understand the inner-workings of each topic and each technique covered, then you'll learn how to apply it in real-life scenarios.If you want to explore Cyber Warrior safely. Then this course is for you. "
+    },
+    "companies": {
+      "title": "Companies you can expect when you get Cyber Warrior -certified with us",
+      "img": "./images/companies.png"
+    },
+    "faq": [
+      [
+        {
+          "que": "How long will the Cyber Warrior course recordings be available?",
+          "ans": "All the Cyber Warrior training sessions along with the complete Cyber Warrior study material, POCs, and Cyber Warrior projects will be available for lifetime."
+        },
+        {
+          "que": "What things do I need to learn Cyber Warrior through this course?",
+          "ans": "To attend this online Cyber Warrior training, you just need a laptop or a PC with a minimum 4GB RAM. Nothing else is required to learn it."
+        },
+        {
+          "que": "How do I clear my Cyber Warrior related doubts?",
+          "ans": "You can post your queries on the discussion forum. Our support team will be happy to assist you."
+        },
+        {
+          "que": "What are the system specifications required to learn Cyber Warrior?",
+          "ans": "The recommendation is a minimum of an i3 processor, a 20 GB disk, and a 4 GB RAM."
+        },
+        {
+          "que": "What will the end result be of this online Cyber Warrior training course?",
+          "ans": "You will find your strengths. You can choose your career path. And finally you will get a certificate."
+        }
+        
+      ],
+      [
+        {
+          "que": "Where do all the students come from?",
+          "ans": "We have a blend of students from across the globe. Apart from India, we provide training in the US, the UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, and many others covering the globe."
+        },
+        {
+          "que": "Is this Cyber Warrior training classroom-based or online?",
+          "ans": "This training is completely online and self-paced."
+        },
+        {
+          "que": "Will you be providing Cyber Warrior certificate after the training?",
+          "ans": "Yes"
+        },
+        {
+          "que": "How do I get in touch with you for further queries?",
+          "ans": "You are  to contact us by placing a call at +91-8451097879 or by dropping a mail to info@data-flair.training"
+        },
+        {
+          "que": "Can I attend a demo session?",
+          "ans": "Yes, you can attend the Cyber Warrior demo class recording on this course page itself to understand the quality of training we provide."
+        }
+      ]
+    ]
   }
 ]

@@ -1,386 +1,229 @@
 [
   {
-    "id": 9,
-    "courseName": "Full Stack Web Development Certification Course in English",
-    "bannerImg": "./images/course-img/course-banner/FULL-STACK.png",
-    "shortName": "Full Stack Web Development",
-    "overview": "Are you searching for a place to learn web development? Then this  Web Development Course is for you! This course offers a comprehensive understanding of the concepts of web development and comprises of topics from scratch as well as the major tools and technologies in it. It covers HTML, CSS, and JavaScript.",
+    "id": 42,
+    "courseName": "Cyber Warrior Certification Course",
+    "bannerImg": "./images/course-img/course-banner/cyber-warrior.png",
+    "shortName": "Cyber Warrior",
+    "overview": "Although this Ethical Hacking & Cyber Security class focused on the practical side of Hacking, the theory behind every attack is also covered along with. Before jumping into Hacking, you will first learn how to set up a lab and install needed software to practice these hacking techniques on your own machine. All the attacks explained are launched against real devices in my Hacking Lab. ",
     "reasons": {
       "enroll": [
         [
-          "30+ Real-time Web Development projects",
-          "130+ hrs of study material, practicals, quizzes"
+          "To learn and explore hacking",
+          "Real-time projects with implementation",
+          "Study material, practicals, quizzes"
         ],
         [
-          "Practical course with real-time case-studies",
-          " Lifetime access with industry renowned certification"
+          "24/7 support",
+          "Lifetime access of LMS with videos & material"
         ]
       ],
       "learn": [
         [
-          "Learn HTML and build the basic websites",
-          "Learn CSS and Style websites",
-          "Learn JavaScript and Build responsive websites",
-          "Master the responsive website development"
+          "Practical Cyber Security skills through hands on labs",
+          "The very latest up-to-date information and methods.",
+          "Start a career in cyber security. Become a cyber security specialist."
         ],
         [
-          "Apply validations with java script",
-          "Learn to use different HTML tags",
-          "Work on standard industry use-cases",
-          "Beginner friendly course to make you HTML, CSS & JS expert"
+          "You will learn about nation state secret tracking and hacking infrastructure.",
+          "You will learn how to capture malicious traffic on your network.",
+          "You will learn to capture malware on your operating system."
         ]
       ]
     },
     "why": [
       {
-        "title": "Web development is one of the most aspired and in demand carrer options",
-        "src": "Industry Survey"
+        "title": "Hacking is an attempt to exploit a computer system or a private network inside a computer.",
+        "src": "Zsecurity"
       },
       {
-        "title": "With digitalization in trend, web developer requirements will continuously soar",
+        "title": "To protect your device from malwares ",
+        "src": ""
+      },
+      {
+        "title": "The median salary for cybersecurity analysts in the US in 2020 was $102,600,",
+        "src": "The US Bureau of Labor Statistics (BLS)"
+      },
+      {
+        "title": "Huge jobs opportunities",
         "src": "Google"
-      },
-      {
-        "title": "Web development is a fundamental need, a fresh graduate must have these skills",
-        "src": "Indeed"
-      },
-      {
-        "title": "Web development is a well paying job with average salary of $97,160",
-        "src": "Indeed"
       }
     ],
     "prerequisite": {
-      "que": "What to do before you begin your Web Development online training?",
-      "ans": "Nothing!",
-      "suggest": "There are no prerequisites for this web development course. Anyone interested in learning web development can learn HTML, CSS and Javascript."
+      "que": "What to do before you begin your Cyber Warrior online training?",
+      "ans": "Laptop / PC required!",
+      "suggest": "Although if you’d like, you can brush up on your skills with our complementary HTML material right in your LMS."
     },
-
     "curriculum": [
       [
         {
           "no": 1,
-          "title": "Introduction",
+          "title": "Bug Bounty Hunting",
           "content": [
-            "Introduction to the course",
-            "How internet works?",
-            "What is web development?"
+            "Web Hacking 101",
+            "Web application hacker handbook",
+            "OWASP testing guide"
           ]
         },
         {
           "no": 2,
-          "title": "HTML",
+          "title": "Hacking and Cyber security",
           "content": [
-            "Your first webpage",
-            "The structure of a webpage",
-            "Creating a full webpage",
-            "Header tags",
-            "Paragraph tags",
-            "Formatting tags",
-            "Unordered list",
-            "Ordered list",
-            "Image tags",
-            "Forms in HTML",
-            "Tables",
-            "Links",
-            "HTML entities",
-            "iFrame",
-            "Project - putting it all together"
+            "Mastering Metasploit",
+            "Kali Linux",
+            "Hacker Playbook",
+            "Cyber security with BlockChain"
           ]
         },
         {
           "no": 3,
-          "title": "CSS3",
+          "title": "Penetration Testing",
           "content": [
-            "What is CSS?",
-            "Inline CSS",
-            "Internal CSS",
-            "Class and id",
-            "Div",
-            "Color",
-            "Floating",
-            "Positions",
-            "Margins",
-            "Padding",
-            "Borders",
-            "Font style",
-            "Styling text",
-            "Aligning text",
-            "Styling links",
-            "FlexBox in CSS"
+            "Master Nessus",
+            "Advanced Penetration Testing",
+            "Penetration testing"
+            
           ]
         },
         {
           "no": 4,
-          "title": "Bootstrap",
+          "title": "Digital Forensics",
           "content": [
-            "Intro to Bootstrap",
-            "Your first bootstrap site",
-            "Grid",
-            "Card in bootstrap",
-            "Tables and Form",
-            "Modals, popover and tooltips",
-            "Scrollspy",
-            "Project - app landing project",
-            "Themes in bootstrap"
+            "Android Forensics"
           ]
-        }, {
+        },
+        {
           "no": 5,
-          "title": "JavaScript - I",
+          "title": "Open source intelligence",
           "content": [
-            "Inline JavaScript",
-            "Internal JavaScript",
-            "Accessing elements",
-            "Onclick event",
-            "Changing website content",
-            "Manupulating styles with JavaScript",
-            "Disappearing circles",
-            "Variables",
-            "Array",
-            "If statement",
-            "Random number guessing game",
-            "For loop",
-            "While loop",
-            "Project - reaction tester project",
-            "External JavaScript"
+            "Master Shodan"
           ]
         },
         {
           "no": 6,
-          "title": "JavaScript - II",
+          "title": "Black Hat Asia",
           "content": [
-            "DOM intro",
-            "Naming conventions",
-            "String concat",
-            "Length property in strings",
-            "Slicing",
-            "Changing case of string",
-            "Operation in JS",
-            "Functions",
-            "Objects",
-            "How to add event listener in JS"
-          ]
-        },
-        {
-          "no": 7,
-          "title": "JQuery",
-          "content": [
-            "What is JQuery?",
-            "Including JQuery on our webpage",
-            "Detecting a click",
-            "Changing website content using JQuery",
-            "Changing website styles",
-            "Fading content",
-            "Regular expression",
-            "Project - form validation",
-            "Intro to JQuery UI plugin",
-            "Droppable",
-            "Jqui widget"
-          ]
-        },{
-          "no": 8,
-          "title": "The killer website (Frontend project",
-
-          "content": [
-            "Setting upl the folder structure",
-            "Responsive grid system",
-            "Header section - part 1",
-            "Header section - part 2",
-            "Header section - part 3",
-            "Feature section - part 1",
-            "Feature section - part 2",
-            "Creating favorite meal section - part 1",
-            "Creating favorite meal section - part 2",
-            "Creating how it works section - part 1",
-            "Creating how it works section - part 2",
-            "Creating the city section - part 1",
-            "Creating the city section - part 2",
-            "Creating customer testimonial section - part 1",
-            "Creating customer testimonial section - part 2",
-            "Creating sign up section - part 1",
-            "Creating sign up section - part 2",
-            "Creating the contact form section - part 1",
-            "Creating the contact form section - part 2",
-            "Creating the footer section - part 1",
-            "Creating the footer section - part 2",
-            "Making webpage responsive -part 1",
-            "Making webpage responsive -part 2",
-            "Including JQuery",
-            "Scrolling effect",
-            "Adding animations"
-          ]
-        },
-        {
-          "no": 9,
-          "title": "React js",
-
-          "content": [
-            "Intro to React JS",
-            "Code sandbox",
-            "JSX and babel",
-            "JSX practice",
-            "Javascript expression in JSX practice",
-            "Javascript expression in JSX",
-            "JSX styling react elements",
-            "Inline style for react elements",
-            "React styling practice",
-            "React components",
-            "React component practice",
-            "Import and export",
-            "Export and import practice",
-            "Keeper app project part -1",
-            "Props in ReactJs",
-            "Adding react js developer tools",
-            "Mapping data to components",
-            "Map function practice challenge",
-            "Map reduce and filter function in js ES6",
-            "Arrow function in ES6",
-            "Keeper app project part 2",
-            "React conditional rendering",
-            "React JS states",
-            "React hooks usestate",
-            "Hook use state practice",
-            "Destructure concept in ES6",
-            "Handling events in React",
-            "Form events",
-            "Class component vs hooks",
-            "Handling multiple states in react js app",
-            "Spread operator",
-            "Component tree structure",
-            "Keeper app project - 3",
-            "Material UI"
-          ]
-        },
-        {
-          "no": 10,
-          "title": "Intro to backend",
-
-          "content": [
-            "Backend"
+            "AS-22-Borrello-Dynamic-Process-Isolation",
+            "AS-22-Borrello-Dynamic-Process-Isolation",
+            "AS-22-Fitzl-macOS-vulnerabilities-hiding-in-plain-sight-wp",
+            "AS-22-Geers-The-Virtual-Battlefield"
           ]
         }
       ],
       [
-       
         
         {
-          "no": 11,
-          "title": "Intro to nodejs",
-
+          "no": 7,
+          "title": "Open source intelligence",
           "content": [
-            "Nodejs",
-            "REPL",
-            "Native modules",
-            "Modules in nodejs"
+            "Open source intelligence"
           ]
         },
         {
-          "no": 12,
-          "title": "Express with Nodejs",
-
+          "no": 8,
+          "title": "Google hacking & Google Dorks",
           "content": [
-            "Express framework",
-            "Creating a server using express",
-            "Routes",
-            "Sending html file as a response",
-            "Post request in express"
+            "Google Hacking & Google Dorks - I",
+            "Google Hacking & Google Dorks - II",
+            "Google Hacking & Google Dorks - III",
+            "Google Hacking & Google Dorks - IV"
           ]
         },
         {
-          "no": 13,
-          "title": "API",
-
+          "no": 9,
+          "title": "Anonymous call & email",
           "content": [
-            "API",
-            "Authentication and JSON",
-            "Weather app"
+            "Anonymous call & email",
+            "Temporary emails"
           ]
         },
         {
-          "no": 14,
-          "title": "Git and GitHub",
-
+          "no": 10,
+          "title": "Keylogger - The art of spying",
           "content": [
-            "Git",
-            "Version control using git",
-            "Github and remote repositories",
-            "Cloning",
-            "Forking and pulling request"
+            "Keylogger - I",
+            "Keylogger - II"
           ]
         },
         {
-          "no": 15,
-          "title": "EJS",
-
+          "no":11,
+          "title": "DarkNet & DeepWeb",
           "content": [
-            "EJS",
-            "Creating EJS template",
-            "Creating a todo list project part - 1",
-            "Creating a todo list part 2",
-            "Layout in EJS",
-            "Creating our own modules"
+            "What is DarkNet?",
+            "Tor installation",
+            "Social Media on Tor"
           ]
         },
         {
-          "no": 16,
-          "title": "Mongodb Database",
-
+          "no":12,
+          "title": "Steganography hiding secret message",
           "content": [
-            "What is database?",
-            "Installing mongodb",
-            "Create in CRUD",
-            "Read in CRUD",
-            "Update and delete in CRUD",
-            "Relationship in mongodb"
+            "Steganography using tool",
+            "Steganography without using tool"
           ]
         },
         {
-          "no": 17,
-          "title": "Mongoose",
-
+          "no":13,
+          "title": "Spear phising art of social engineering",
           "content": [
-            "Mongoose",
-            "Retriving data from database",
-            "Data validation",
-            "Delete and update",
-            "Connecting documents"
+            "Sear phising",
+            "Phish tank: secure yourself"
           ]
         },
         {
-          "no": 18,
-          "title": "Authentication and security",
-
+          "no":14,
+          "title": "Window password hacking and cracking",
           "content": [
-            "Intro to authentication and security",
-            "Setting up folder structure",
-            "Register and login",
-            "Encryption",
-            "Cookies and session"
+            "Windows password cracking",
+            "Windows password cracking in seconds"
           ]
         },
         {
-          "no": 19,
-          "title": "Build your own Restful API from  scratch",
-
+          "no":15,
+          "title": "Computer Forensics investigation",
           "content": [
-            "What REST",
-            "Setting up Robo 3T",
-            "Get all articles",
-            "Post a new article",
-            "Delete request",
-            "Making a specific get request",
-            "Put operation on a specific record",
-            "Patch request",
-            "Deleting a specific record"
+            "What is Digital Forensics?",
+            "Process of Digital Forensics investigation",
+            "Dump analysis"
           ]
         },
         {
-          "no": 20,
-          "title": "Putting it all together",
-
+          "no":16,
+          "title": "Web application hacking",
           "content": [
-            "Storing list items permanently part -1",
-            "Storing list items permanently part -2",
-            "Deleting a task from todo list"
+            "Distributed Denial Of Service Attack - DDOS",
+            "Login Page Bypass",
+            "eCommerce website hacking POC [Bug Patched]"
+          ]
+        },
+        {
+          "no":17,
+          "title": "Malware analysis",
+          "content": [
+            "Malware Game"
+          ]
+        },
+        {
+          "no":18,
+          "title": "Find lost android device",
+          "content": [
+            "Android device manager"
+          ]
+        },
+        {
+          "no":19,
+          "title": "Metasploit extreme on Kali Linux",
+          "content": [
+            "Hacking windows 7-8-10 like Black Hat Hacker Part - 1",
+            "Hacking windows 7-8-10 like Black Hat Hacker Part - 2"
+          ]
+        },
+        {
+          "no":20,
+          "title": "What next after Cyber Warrior",
+          "content": [
+            "What Next?",
+            "Limited Discount Offer",
+            "How to get Cyber Warrior Certificate"
           ]
         }
       ]
@@ -388,7 +231,7 @@
     "features": [
       {
         "img": "./images/course-img/course-features/time.png",
-        "title": "Instructor based video lessons"
+        "title": "10+ Hrs instructor based video lessons"
       },
       {
         "img": "./images/course-img/course-features/support.png",
@@ -408,88 +251,56 @@
       }
     ],
     "forWho": {
-      "que": "Is this Web Development Course for beginners?",
-      "ans": "Web development skills are basic necessity for fresh graduates. While anyone can benefit from a career in it, here are the kind of professionals / beginners who go for this  web development training course:<ul><li>Fresh Graduate, Professionals planning for a career in an evergreen field</li><li>Software developers and Testers, QA Professionals</li><li>Mobile app developers</li><li>Under-graduates focusing to build a solid career</li></ul>"
+      "que": "Is this Cyber Warrior Course for you?",
+      "ans": "This course is highly practical but won't neglect the theory, first you'll understand the inner-workings of each topic and each technique covered, then you'll learn how to apply it in real-life scenarios.If you want to explore Cyber Warrior safely. Then this course is for you. "
     },
     "companies": {
-      "title": "Companies you can expect when you get Web Development-certified with us",
+      "title": "Companies you can expect when you get Cyber Warrior -certified with us",
       "img": "./images/companies.png"
     },
     "faq": [
       [
         {
-          "que": "How will you help me if I miss any session?",
-          "ans": "If you miss any session, you need not worry as we will not let you lose anything. All sessions will be recorded and recordings will be uploaded in LMS immediately as the session gets over. You can go through it and get your queries cleared from the instructor during next session. Alternatively you can attend the missed session in any other batch running parallely."
+          "que": "How long will the Cyber Warrior course recordings be available?",
+          "ans": "All the Cyber Warrior training sessions along with the complete Cyber Warrior study material, POCs, and Cyber Warrior projects will be available for lifetime."
         },
         {
-          "que": "Are the course materials available for limited time?",
-          "ans": "No, anyone who enrolled in this  web development course can access the training materials for lifetime."
+          "que": "What things do I need to learn Cyber Warrior through this course?",
+          "ans": "To attend this online Cyber Warrior training, you just need a laptop or a PC with a minimum 4GB RAM. Nothing else is required to learn it."
         },
         {
-          "que": "Is this for front-end development?",
-          "ans": "This course covers concepts of HTML, CSS, and Javascript. So, this course is for anyone who wants to be a web developer, irrespective of the career option one wants to choose."
+          "que": "How do I clear my Cyber Warrior related doubts?",
+          "ans": "You can post your queries on the discussion forum. Our support team will be happy to assist you."
         },
         {
-          "que": "Why should I enroll in this  web development course in Hindi?",
-          "ans": "This course covers the topics from scratch and helps to build strong fundamentals in web development. This course is designed to give a hands on experience for anyone to be a professional web developer<br>Inclusive of concept materials, quizzes, and projects. A renowned certification is provided at the end of this course"
+          "que": "What are the system specifications required to learn Cyber Warrior?",
+          "ans": "The recommendation is a minimum of an i3 processor, a 20 GB disk, and a 4 GB RAM."
         },
         {
-          "que": "Will there be any certification provided as a part of this course?",
-          "ans": "Yes, a certificate will be provided upon completing this web development course."
+          "que": "What will the end result be of this online Cyber Warrior training course?",
+          "ans": "You will find your strengths. You can choose your career path. And finally you will get a certificate."
         },
         {
-          "que": "What is the difference between front-end, back-end, and full-stack development?",
-          "ans": "Front-end developers handle the parts that users see and interact with like templates, buttons, text boxes, etc. Back-end developers are responsible for all of the operations and servers that host and support websites and applications. Whereas full-stack developers do both front-end and back-end development."
-        },
-        {
-          "que": "What skills are required to become a web developer?",
-          "ans": "To become a web developer, you must have a good understanding of HTML, CSS, and JavaScript. You should also be familiar with web development frameworks. Additionally, you should have strong problem-solving skills and the ability to work in a team."
-        },
-        {
-          "que": "Are there any projects provided as a part of this  hindi web development course?",
-          "ans": "Yes, real world application related projects are provided as a part of this  course."
-        },
-        {
-          "que": "What are the system specifications for attending this course?",
-          "ans": "You are recommended to have a laptop with a minimum of an i3 processor, a 20 GB disk, and 4 GB RAM."
+          "que": "Where do all the students come from?",
+          "ans": "We have a blend of students from across the globe. Apart from India, we provide training in the US, the UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, and many others covering the globe."
         }
       ],
       [
         {
-          "que": "What are the benefits of learning web development?",
-          "ans": "Learning web development can open up various career opportunities, including front-end, web design, and UI/UX design. It can also help you create your own websites and web applications or even start your own business."
+          "que": "Is this Cyber Warrior training classroom-based or online?",
+          "ans": "This training is completely online and self-paced."
         },
         {
-          "que": "What is the difference between front-end and back-end web development?",
-          "ans": "Front-end web development involves designing and building the user interface of a website, using HTML, CSS, and JavaScript.<br>Back-end web development involves creating the server-side of a website, which involves working with databases, server-side languages such as PHP or Python, and web servers"
+          "que": "Will you be providing Cyber Warrior certificate after the training?",
+          "ans": "Yes"
         },
         {
-          "que": "What tools are required for web development?",
-          "ans": "To get started with web development, you will need a text editor such as Visual Studio Code or Sublime Text, as well as a web browser. You may also need to install additional software depending on the specific web development framework or programming language you are using."
+          "que": "How do I get in touch with you for further queries?",
+          "ans": "You are  to contact us by placing a call at +91-8451097879 or by dropping a mail to info@data-flair.training"
         },
         {
-          "que": "What are some common web development frameworks?",
-          "ans": "Some popular web development frameworks include React, Angular, Vue, Ruby on Rails, Django, and Laravel. These frameworks provide pre-built components and tools to help you build web applications more efficiently."
-        },
-        {
-          "que": "How can I practice web development skills?",
-          "ans": "One of the best ways to practice web development skills is to work on real-world projects, such as building a personal website or creating a web application. You can also participate in online coding challenges and join coding communities to network with other web developers."
-        },
-        {
-          "que": "What is the best way to get started with web development?",
-          "ans": "The best way to get started with web development is to first learn the basics of HTML, CSS, and JavaScript."
-        },
-        {
-          "que": "What are some common challenges faced by web developers?",
-          "ans": "Some common challenges web developers face include browser compatibility issues, security concerns, and staying up-to-date with new web technologies and trends.<br>It’s essential to stay informed and continually learn new skills to overcome these challenges."
-        },
-        {
-          "que": "What are some common web development job titles?",
-          "ans": "Common web development job titles include front-end developer, back-end developer, full-stack developer, web designer, UI/UX designer, and software engineer. The specific job title may depend on the skills and experience required for the role."
-        },
-        {
-          "que": "How important is mobile optimization in web development?",
-          "ans": "Mobile optimization is becoming increasingly important in web development, as more people access websites on mobile devices. It’s important to ensure your website is optimized for different screen sizes and devices to provide a good user experience for all visitors."
+          "que": "Can I attend a demo session?",
+          "ans": "Yes, you can attend the Cyber Warrior demo class recording on this course page itself to understand the quality of training we provide."
         }
       ]
     ]
