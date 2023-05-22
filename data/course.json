@@ -10968,46 +10968,49 @@
         },
         {
           "no": 2,
-          "title": "Formatting and keyboar shortcuts",
+          "title": "Excel Basics",
           "content": [
-            "Font coloring & assumptions",
-            "Other formatting best practices",
-            "Basic keyboard shortcuts",
-            "Basic keyboard shortcuts II",
-            "The almighty alt key",
-            "Customizing the quick access toolbar",
-            "Ctrl + Shift key",
-            "Quiz"
+            "Getting started with Excel",
+            "Course resources",
+            "This is a milestone!",
+            "Worksheet basics",
+            "Entering values and formulas",
+            "Data formats",
+            "Data handling basics - cut, copy and paste",
+            "Saving and printing in Excel"
           ]
         },
         {
           "no": 3,
-          "title": "Formula",
+          "title": "Essential Excel functions",
           "content": [
-            "Absolute call references",
-            "SUMIFS pt.I",
-            "SUMIFS pt.II",
-            "COUNTIFS",
-            "VLOOKUP introduction",
-            "VLOOKUP formula",
-            "VLOOKUP common pitfalls",
-            "Case study - part 1",
-            "Case study - part 2",
-            "Quiz"
+            "Basic formula operations",
+            "Mathematical functions - part 1",
+            "Mathematical functions - part 2",
+            "Quiz",
+          "Difference between RANK, RANK, AVG and RANK.EQ",
+          "Exercise 1: Mathematical functions",
+          "Textual functions - part 1",
+          "Textual functions - part 2",
+          "Exercise 2: Textual functions",
+          "Quiz",
+          "Logical functions",
+          "Exercise 3: logical functions",
+          "Date-time functions",
+          "Exercise 4: Date-time functions",
+          "Lookup functions (V Lookup, Hlookup, Index-Match)",
+          "Exercise 5: Lookup functions"
             
           ]
         },
         {
           "no": 4,
-          "title": "Formula II",
+          "title": "New! XLookup - only for Excel 2021 and Office 365",
           "content": [
-            "IF statements",
-            "Nested IF statements",
-            "EDATE and EOMONTH",
-            "YEAR,MONTH and DAY",
-            "LEFT, RIGHT and MID",
-            "TRIM",
-            "Quiz"
+            "XLookup as a replacement of Vlookup",
+            "Handling #NA and approximates match in Xlookup",
+            "Wildcard matching in XLookup",
+            "Search modes in XLookup"
           ]
         }
         
@@ -11015,35 +11018,36 @@
       [
         {
           "no": 5,
-          "title": "Working w/Date and conditional formatting",
+          "title": "Data tools",
           "content": [
-            "Text to columns",
-            "Remove duplicates",
-            "Conditional formating part 1",
-            "Conditional formating part 2",
-            "Conditional formating part 3",
-            "Quiz"
+            "Data tools part 1",
+            "Data tools part 2",
+            "Exercise 6: Data tools"
           ]
         },
         {
           "no": 6,
-          "title": "Pivot tables & slicers",
+          "title": "Formatting data and tables",
           "content": [
-            "Introduction",
-            "Drilling into our data",
-            "Formatting our PivotTable",
-            "Slicers",
-            "Case study 2 Part 1",
-            "Case study 2 Part 2",
-            "Case study 2 Part 3",
-            "Quix"
+            "Data tools part 1",
+            "Data tools part 2",
+            "Exercise 6: Data tools"
           ]
         },
         {
           "no": 7,
-          "title": "Conclusion",
+          "title": "Formatting data and tables",
           "content": [
-           "Conclusion"
+           "Formatting data and tables",
+           "Exercise 7: formatting"
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Pivot ",
+          "content": [
+           "Pivot tables",
+           "Exercise 8: Pivot tables"
           ]
         }
       ]

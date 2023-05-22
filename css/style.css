@@ -31,6 +31,15 @@ header .profile-img {
   border-radius: 50%;
 }
 
+.dynamic-writing{
+  text-align: center;
+  color: #fff;
+}
+
+.dynamic-writing .type{
+  color: #706fd3;
+}
+
 .intro h1 {
   text-align: center;
   color: #fff;
