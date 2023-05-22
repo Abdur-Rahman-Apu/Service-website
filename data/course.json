@@ -9696,7 +9696,10 @@
           "title": "Welcome",
           "content": [
             "Course introduction",
-            "How this course is organized"
+            "Join the cloud and software architects community",
+            "Who is this course for",
+            "How this course is organized",
+            "Agenda"
           ]
         },
         {
@@ -9734,7 +9737,8 @@
             "Finding the resource",
             "The resource page",
             "Removing a resource",
-            "Azure CLI & PowrShell"
+            "Azure CLI & PowrShell",
+            "TASK: Remove the resource group"
           ]
         },
         {
@@ -9744,7 +9748,6 @@
             "Regions",
             "Resource groups",
             "Storage accounts",
-            "Nested Classes, Visibility Rules",
             "SLA",
             "SLA calculators",
             "Cost",
@@ -9757,7 +9760,7 @@
           "title": "Introducing our app",
           "content": [
             "Introduction",
-            "Rdadlt demo",
+            "Readlt demo",
             "Installing .NET SDK",
             "Installing VS code",
             "Installing Extensions",
@@ -9788,25 +9791,38 @@
             "ReadIt Resources Helper List",
             "Setting up the catalog app",
             "Setting up the weather API",
+            "Virtual Machines tips and tricks",
+            "A quick reminder",
             "Azure architecture diagrams",
             "A word of caution",
             "Shut down the machines",
             "App services",
             "App service tiers",
+            "Auto scaling app service",
+            "Setting the inventory app service",
+            "App services tips and tricks",
+            "Shutting down app service",
+            "Current architecture",
             "AKS",
             "Containers",
             "Introduction to Docker",
             "Containers management",
             "Introduction to Kubernetes",
             "Installing Docker on Windows 10/11 home",
+            "Working with containers",
+            "Working with AKS",
+            "Current architecture",
             "Azure Functions",
             "Azure Functions hosting planc",
             "Durable functions",
             "Running Functions locally",
+            "Changing the default log source in Azure functions",
+            "Running functions on Azure",
             "Current Architecture",
+            "A quick reminder",
             "How to choose computer type",
             "More compute options",
-            "Quiz"
+            "Quiz: Azure compute"
           ]
         },
         {
@@ -9816,6 +9832,7 @@
             "Networking in Azure",
             "Virtual networks",
             "CIDR notation",
+            "CIDR notation tip",
             "Subnets",
             "Looking at the ReadIt VNet",
             "Creating a virtual network",
@@ -9824,16 +9841,35 @@
             "Setting up the catalog's NSG",
             "Setting up the weather API's NSG",
             "Moving the weather API to a new subnet",
+            "Network security groups tips and tricks",
             "Network peering",
             "Moving the weather API to a new VNet",
             "Using network peering",
             "Network topology",
             "Current architecture",
             "Secure VM access",
+            "Using Bastion",
+            "Service endpoint",
+            "Private link",
+            "Service endpoint vs private link",
+            "VNet integration",
+            "Access restrictions",
+            "ASE",
+            "Load balancer",
+            "Application gateway",
+            "Creating application gateway",
+            "Troubleshooting the application gateway",
+            "Connecting the inventory app service to the application gateway",
+            "Connecting the catalog VM to the application gateway",
+            "Cost of application gateway in this course",
             "Application gateway and AKS",
             "Application gateway and Function Apps",
             "Current Architecture",
-            "Secure network design"
+            "Affinity",
+            "Stateless architecture",
+            "Aplication gateway and cookies",
+            "Secure network design",
+            "Quiz: Azure networking"
           ]
         },
         {
@@ -9845,24 +9881,39 @@
             "Major database features",
             "Database on VM",
             "Azure SQL",
+            "Azure SQL pricing",
             "Which Azure SQL to choose?",
             "Creating and connecting to Azure SQL",
             "Connecting the catalog to the database",
             "Securing the database connection",
             "Connecting the inventory to the database",
+            "A quick reminder",
             "Cosmos DB",
             "SQL vs NoSQL databases",
+            "Cosmos DB consistency levels",
+            "Cosmos DB pricing",
+            "Creating the orders function to cosmos DB",
+            "Cosmos DB tips and tricks",
             "Azure MySQL",
+            "Azure MySQL pricing",
             "Creating and using Azure MySQL",
             "Azure PostgreSQL",
+            "Azure storage",
             "Azure Blob storage pricing",
             "Creating and using storage account",
+            "Accessing private Blobs with keys and SAS token",
+            "Networking and fail over of storage account",
+            "CDN and automation",
+            "Creating storage account for the Readlt app",
             "Azure storage explorer name change",
+            "Azure storage explorer",
             "Azure Redis",
+            "Azure Redis pricing",
             "Creating Redis and connection the catalog",
             "Connecting the shopping cart to Redis",
             "Current architecture",
-            "Quiz"
+            "How to select data store solution",
+            "Quiz: Data in Azure"
           ]
         },
         {
@@ -9874,14 +9925,20 @@
             "Storage queue",
             "Using storage queue",
             "Event grid",
+            "Event grid pricing",
+            "A note about using EventGrid in code",
             "Connecting event grid to the orders function",
             "Connecting the shopping cart to the storage account",
             "Protecting the orders function",
             "Service bus",
+            "Service bus pricing",
+            "Using service bus",
             "Event Hubs",
+            "Event Hubs pricing",
+            "Using Event Hubs",
             "Selecting messaging solution",
             "Current architecture",
-            "Quiz"
+            "Quiz: Messaging in Azure"
           ]
         },
         {
@@ -9897,8 +9954,10 @@
             "Azure AD licenses",
             "MFA",
             "Security defaults",
-            "RDD abstraction, interfacing, and creation of RDDs",
+            "Using security defaults",
+            "RBAC",
             "Azure roles",
+            "Using Azure roles",
             "Managed identities",
             "Using managed identity with the inventory app service",
             "Using Azure AD to authenticate our APP",
@@ -9908,7 +9967,7 @@
             "Azure AD B2C",
             "Current architecture",
             "Synchronizing Azure AD with On-Prem AD",
-            "Quiz"
+            "Quiz: Azure AD"
           ]
         },
         {
