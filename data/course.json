@@ -4373,8 +4373,8 @@
         "src": "Peer Research"
       },
       {
-        "title": "The average salary of all Big Data Spark developers today is $135k",
-        "src": "Indeed"
+        "title": "Scala is pretty useful if you're working with Big Data tools like Apache Spark",
+        "src": ""
       },
       {
         "title": "The world’s most valuable resource is Big Data, no longer oil.",
@@ -4537,7 +4537,7 @@
       "ans": "Scala is of the fastest growing language. So while anyone can benefit from a career in it, here are the kind of professionals who go for this Scala course:<ul><li>Software developers, project managers, and architects</li><li>Software developers, project managers, and architects</li><li>Mainframe and testing professionals</li><li>Business analysts and analytics professionals</li><li>DBAs and DB professionals</li><li>Professionals willing to learn Data Science techniques</li><li>Any graduate focusing to build a career in Apache Spark and Scala</li></ul>"
     },
     "companies": {
-      "title": "Companies you can expect when you get Spark-certified with us",
+      "title": "Companies you can expect when you get Scala-certified with us",
       "img": "./images/companies.png"
     },
     "faq": [
@@ -4831,7 +4831,7 @@
       }
     ],
     "forWho": {
-      "que": "Is this Scala Course for you?",
+      "que": "Is this Angular Course for you?",
       "ans": "Web development is the truth of today and Angular proves to be one of the most popular open-source web application frameworks. So while anyone can benefit from a career in it, here are the kind of professionals who go for this Angular course:<ul><li>Software developers, engineers</li><li>Sr/Jr Frontend developers</li><li>System Architect</li><li>UI/Ux Designers</li><li>Any graduate focusing to build a career in Angular</li></ul>"
     },
     "companies": {
@@ -4914,12 +4914,12 @@
     "courseName": "ADOBE-XD Certification Course in English",
     "bannerImg": "./images/course-img/course-banner/ADOBE-XD.jpg",
     "shortName": "ADOBE-XD ",
-    "overview": "ADOBE-XD course offers a perfect blend of in-depth theoretical knowledge and strong practical skills via implementation of real-life Angular projects to give you a headstart and enable you to bag top Angular jobs in the industry.",
+    "overview": "This course is aimed at people interested in UI/UX Design. We’ll start from the very beginning and work all the way through, step by step. If you already have some UI/UX Design experience but want to get up to speed using Adobe XD then this course is perfect for you too!",
     "reasons": {
       "enroll": [
         [
-          "3 Real-time projects + tons of live practicals",
-          "70+ hrs of study material, quizzes & manuals"
+          "Real-time projects + tons of live practicals",
+          "Study material, quizzes & manuals"
         ],
         [
           "Practical oriented course with case-studies",
@@ -4928,40 +4928,36 @@
       ],
       "learn": [
         [
-          "Learn how to develop professional websites",
-          " Grasp concepts of Angular",
-          " Become adept in web development",
-          " Understand the Angular architecture",
-          " Basics to advanced concepts of Angular"
+          "Learn to design websites & mobile phone apps",
+          "Learn professional workflow tricks & shortcuts",
+          "All the techniques used by UX professionals",
+          "You'll learn how to pick the correct fonts"
         ],
         [
-          "Develop real-time Angular applications",
-          "Projects with connectivity with back end like node/express.js",
-          "Master the advanced concepts like routing, pipes, i18N",
-          "Work on live Angular project to get hands-on experience"
+          "You'll learn how to choose colors",
+          "How to use permade UI kits",
+          "Become a UI designer",
+          "You will be able to add UX designer to your CV",
+          "Become a UX designer"
         ]
       ]
     },
     "why": [
       {
-        "title": "Angular ranked second in “most used technology” in the Stack Overflow Survey",
-        "src": "Stack Overflow"
-      },
-      {
-        "title": "Developed, maintained, managed and monitored by Google Developers",
-        "src": "Google"
-      },
-      {
-        "title": "Average base pay of an Angular Developers is more than INR 460,000 per year in India",
-        "src": "Glassdoor"
-      },
-      {
-        "title": "The world’s most valuable resource is Big Data, no longer oil.",
-        "src": "The Economist"
-      },
-      {
-        "title": "Rapid application development, Plays a role of front end in MEAN stack development",
+        "title": "Adobe XD is an ideal skill for web designers and UX/UI developers to learn as a dedicated web interface design tool.",
         "src": ""
+      },
+      {
+        "title": "25,869 companies that use Adobe XD.",
+        "src": "Enlyft"
+      },
+      {
+        "title": "As of Apr 17, 2023, the average annual pay for an Adobe XD in the United States is $118,563 a year.",
+        "src": "ZipRecruiter"
+      },
+      {
+        "title": "Adobe XD has a market share of about 2.3%",
+        "src": "Enlyft"
       }
     ],
     "prerequisite": {
@@ -4973,167 +4969,171 @@
       [
         {
           "no": 1,
-          "title": "Diving into Angular",
+          "title": "Getting started",
           "content": [
-            "What is Angular",
-            "Angular or Angular JS?",
-            "History and Version Releases",
-            "Why Angular is most popular web development framework?"
+            "Getting started with your Adobe XD project",
+            "What is Adobe XD for & does it do the coding",
+            "What's the difference between UI and UX in Adobe XD",
+            "What we are making in this Adobe XD course",
+            "What is a persona & task flow in UX design",
+            "Class project 01 - Create your own brief",
+            "Class project 01 - Create your own brief"
           ]
         },
         {
           "no": 2,
-          "title": "Getting Ready to Learn Angular",
+          "title": "Wireframing low fidelity",
           "content": [
-            "Pre-requisite",
-            "Software installation and configurations",
-            "Upgrading the existing Angular version to the latest version",
-            "Create the first Angular Application"
+            "What is LoFi wireframe vs high fidelity in Adobe XD",
+            "Artboards & how wide should my website or app be in Adobe XD"
           ]
         },
         {
           "no": 3,
-          "title": "Angular Architecture",
+          "title": "Type, Color & Icon introduction",
           "content": [
-            "Building blocks of Angular",
-            "Building blocks of Angular <ul><li>Component</li><li>Services</li></ul>",
-            "Exploring first application - Hello world"
+            "Working with type in your XD wireframes",
+            "Rectangles, circles, buttons and rounded corners in Adobe XD",
+            "How to use color in Adobe XD",
+            "Strokes & copy & paste appearance in Adobe XD",
+            "Class project 02 - wireframe",
+            "Free icons for your Adobe XD & UX UI projects",
+            "How to find and use existing UI kits in Adobe XD",
+            "Groups & issues editing icons in Adobe XD",
+            "class project 3 - icons"
           ]
         },
         {
           "no": 4,
-          "title": "Working with Angular Components",
+          "title": "Prototyping - level 1",
           "content": [
-            "Customizing appComponent",
-            "Data Binding",
-            "Life Cycle of Component",
-            "Adding new Component"
+            "How to add interaction to your prototype in Adobe XD",
+            "Prototype animation & easing in Adobe XD",
+            "How see your design on XD app on iPhone & Android",
+            "Class project 04 - testing on your phone"
           ]
         },
         {
           "no": 5,
-          "title": "Component Interaction and Lifecycle hooks",
+          "title": "Animation",
           "content": [
-            "Parent-Child component Structure",
-            "@Input directive",
-            "@Output directive",
-            "Lifecycle hooks of components"
+            "Getting started with auto-animations in Adobe XD",
+            "Understanding more about animation in Adobe XD",
+            "Class project 05 - My first animation"
           ]
         },
         {
           "no": 6,
-          "title": "Angular Directives",
+          "title": "Feedback & commenting",
           "content": [
-            "Types of Directives <ul><li>Components</li><li>Attribute Directives<li>Structural Directives<ul><li>ngFor</li><li>ngIf</li></ul><li>ngSwitchcase</li><li>ngClass and ngStyle</li></ul>"
+            "Sharing wireframes for comments in Adobe XD"
           ]
         },
         {
           "no": 7,
-          "title": "Angular Pipes",
+          "title": "Moodboard - high fidelity UI design",
           "content": [
-            "Parent-Child component Structure  in Angular",
-            "@Input directive",
-            "@Output directive",
-            "Lifecycle hooks of components"
+            "Mood boards & resources for HI fidelity UI design in Adobe XD",
+            "Class project 06 - Moodboard"
           ]
         },
         {
           "no": 8,
-          "title": " Working on Services",
+          "title": "Columns & Grids",
           "content": [
-            "Why and what is a Service",
-            "Creation of services in Angular",
-            "Utilizing Service"
+            "How to work with columns & grids",
+            "View port aka dotted line on the page",
+            "How to add & delete guides"
           ]
         }
       ],
       [
         {
           "no": 9,
-          "title": "Demystifying HttpObservables",
+          "title": "Colors",
 
           "content": [
-            "What is Observable",
-            "mplementing Observable Service",
-            "Communicating with server via observable in Angular"
+            "Color inspiration & the eyedropper",
+            "How to create a color palette",
+            "How to create gradients",
+            "How to save and reused color seatches",
+            "Class project 07 - colors & columns"
           ]
         },
         {
           "no": 10,
-          "title": "Learning Routing in Angular",
+          "title": "Text & Fonts - Level 2",
 
           "content": [
-            "What is routing",
-            "Steps for creation of routing",
-            "Route Matching Strategies",
-            "Working with Route Parameters",
-            "Working with Route Guards",
-            "Working with Child Route",
-            "Lazy Module Loading"
+            "What fonts can I use in my wrb or app design",
+            "Check what other font's people have used",
+            "What common font size should I choose in web design",
+            "How to make character styles",
+            "Plugin - adding our first plugin lorem ipsum to Adobe XD",
+            "Class project 08 -Text"
           ]
         },
         {
           "no": 11,
-          "title": " Working with Forms and Reactive Forms",
+          "title": "Drawing",
 
           "content": [
-            "Forms <ul><li>Types of forms</li><li>Building blocks</li><li>Creating Forms</li><li>Data flow mechanism</li></ul>",
-            "Reactive Forms<ul><li>Building Reactive Form</li><li>Update elements</li><li>Nested FormGroup</li><li>setValue and setPatch</li><li>Working with FormBuilder</li><li>Playing with Dynamic Form</li</ul>",
-            "Communicating with server via observable in Angular"
+            "Drawing & editing shapes",
+            "Strangeness with shapes",
+            "Learn to draw with pen tool",
+            "Working with strokes & lines",
+            "Class project 09 - Icons & Buttons"
           ]
         },
         {
           "no": 12,
-          "title": "Template Driven Forms",
+          "title": "Working with Illustrator",
 
           "content": [
-            "Building Template Driven Forms",
-            "Playing with two-way data binding using ngModel",
-            "ngModel Validations",
-            "Submitting the form"
+            "Do I need to know Illustrator with Adobe XD"
           ]
         },
         {
           "no": 13,
-          "title": "Demystifying HttpObservables",
+          "title": "Images",
 
           "content": [
-            "Implement Template Driven Form Validation",
-            "Reactive Form Validation",
-            "Develop Custom Validations",
-            "Cross Field Validations"
+            "Masking & cropping images",
+            "Free images to use in your XD mockups - unplash pexels free image",
+            "Darkening background images wiht opacity",
+            "Blurring backgrounds and objects"
           ]
         },
         {
           "no": 14,
-          "title": "Working with i18N",
+          "title": "Working with Photoshop",
 
           "content": [
-            "Need for i18N",
-            "Step by step setup of i18N support",
-            "Steps for i18N",
-            "Demystifying language information file",
-            "Managing configuration file"
+            "Do I need to know Photoshop with Adobe XD",
+            "Snack bar toast banners using masked image in Adobe XD",
+            "Class Project 10 - Images"
           ]
         },
         {
           "no": 15,
-          "title": "Demystifying HttpObservables",
+          "title": "Exporting",
 
           "content": [
-            "Importance of Testing & Debugging",
-            "Types of testing in Angular",
-            "Working on Karma",
-            "How to test angular components and services"
+            "How to share your document with clients & stakeholders & user testers",
+            "Talking to your developer early in the XD design process",
+            "Exporting the right image file formats from Adobe XD",
+            "Batch export images at once using mark for expert in XD",
+            "How to export code in XD for engineers using design specs",
+            "What is style guide in Adobe XD",
+            "Class project - Final design"
           ]
         },
         {
           "no": 16,
-          "title": "Real Life Angular Projects",
+          "title": "What next",
 
           "content": [
-            "What is Observable",
-            "Live Angular projects based on real industry scenarios. Work on real life problems and handle become industry ready"
+            "Whats next after Adobe XD essentials"
           ]
         }
       ]
@@ -5161,80 +5161,72 @@
       }
     ],
     "forWho": {
-      "que": "Is this Scala Course for you?",
-      "ans": "Web development is the truth of today and Angular proves to be one of the most popular open-source web application frameworks. So while anyone can benefit from a career in it, here are the kind of professionals who go for this Angular course:<ul><li>Software developers, engineers</li><li>Sr/Jr Frontend developers</li><li>System Architect</li><li>UI/Ux Designers</li><li>Any graduate focusing to build a career in Angular</li></ul>"
+      "que": "Is this Adobe-XD Course for you?",
+      "ans": "Adobe XD is an ideal skill for web designers and UX/UI developers to learn as a dedicated web interface design tool. So while anyone can benefit from a career in it, here are the kind of professionals who go for this Adobe XD course:<ul><li>Anyone who wants to start using Adobe XD in their career & get paid for their user experience design skills.</li><li>This course is for beginners, newbies & amateurs in the field of UX design.</li><li>Aimed at people new to the world of design & user experience.</li><li>Any graduate focusing to build a career in Angular</li></ul>"
     },
     "companies": {
-      "title": "Companies you can expect when you get Angular-certified with us",
+      "title": "Companies you can expect when you get Adobe-XD-certified with us",
       "img": "./images/companies.png"
     },
     "faq": [
       [
         {
-          "que": "How will I perform the Angular practicals at home?",
-          "ans": "For Angular practice, manual and video for Angular installation are available in LMS and you need to install it on your system at home."
+          "que": "How will I perform the Adobe-XD practicals at home?",
+          "ans": "For practice, manual and video for installation are available in LMS and you need to install it on your system at home."
         },
         {
-          "que": "How long will the Angular course recordings be available?",
-          "ans": "All the Angular training sessions along with the complete Angular study material, POCs, and Angular projects will be available for lifetime."
+          "que": "How long will the Adobe-XD course recordings be available?",
+          "ans": "All the Adobe-XD training sessions along with the complete Adobe-XD study material, POCs, and Adobe-XD projects will be available for lifetime."
         },
         {
-          "que": "What things do I need to learn Angular through this course?",
-          "ans": "To attend this online Angular training, you just need a laptop or a PC with a minimum 4GB RAM. Nothing else is required to learn it."
+          "que": "What things do I need to learn Adobe-XD through this course?",
+          "ans": "To attend this online Adobe-XD training, you just need a laptop or a PC with a minimum 4GB RAM. Nothing else is required to learn it."
         },
         {
-          "que": "How do I clear my Angular related doubts?",
+          "que": "How do I clear my Adobe-XD related doubts?",
           "ans": "You can post your queries on the discussion forum. Our support team will be happy to assist you."
         },
         {
-          "que": "What are the system specifications required to learn Angular?",
-          "ans": "The recommendation is a minimum of an i3 processor, a 20 GB disk, and a 4 GB RAM for installing Angular."
+          "que": "What are the system specifications required to learn Adobe-XD?",
+          "ans": "The recommendation is a minimum of an i3 processor, a 20 GB disk, and a 4 GB RAM."
         },
         {
-          "que": "How will this Angular course help me in getting a job?",
-          "ans": "Our Angular training includes multiple workshops, POCs, and projects. These will vigorously prepare you for Angular interviews so you can be confident in your work from day one. These things will help you get your dream Angular job in the industry."
+          "que": "How will this Adobe-XD course help me in getting a job?",
+          "ans": "Our Adobe-XD training includes multiple workshops, POCs, and projects. These will vigorously prepare you for Adobe-XD interviews so you can be confident in your work from day one. These things will help you get your dream Adobe-XD job in the industry."
         },
         {
-          "que": "What will the end result be of this online Angular training course?",
-          "ans": "When you finish this course, you will be equipped with practical skills and theoretical knowledge the industry looks for. You will bloom into a certified Angular professional who is ready to take on Angular Projects in top organizations."
-        },
-        {
-          "que": "Where do all the students come from?",
-          "ans": "DataFlair has a blend of students from across the globe. Apart from India, we provide training in the US, the UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, and many others covering the globe."
+          "que": "What will the end result be of this online Adobe-XD training course?",
+          "ans": "When you finish this course, you will be equipped with practical skills and theoretical knowledge the industry looks for. You will bloom into a certified Adobe-XD professional who is ready to take on Adobe-XD Projects in top organizations."
         }
       ],
       [
         {
-          "que": "Is this Angular training classroom-based or online?",
+          "que": "Where do all the students come from?",
+          "ans": "We have a blend of students from across the globe. Apart from India, we provide training in the US, the UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, and many others covering the globe."
+        },
+        {
+          "que": "Is this Adobe-XD training classroom-based or online?",
           "ans": "This training is completely online and self-paced."
         },
         {
-          "que": "Will you be providing Angular certificate after the training?",
-          "ans": "Yes, you will be provided with an industry-recognizable certificate declaring your proficiency with Angular. At the end of this Angular course, you will work on real-time Angular projects. Once you have successfully made it through the projects, you will be awarded DataFlair Angular certificate."
+          "que": "Will you be providing Adobe-XD certificate after the training?",
+          "ans": "Yes, you will be provided with an industry-recognizable certificate declaring your proficiency with Adobe-XD. At the end of this Adobe-XD course, you will work on real-time Adobe-XD projects. Once you have successfully made it through the projects, you will be awarded DataFlair Adobe-XD certificate."
         },
         {
           "que": "How do I get in touch with you for further queries?",
           "ans": "You are  to contact us by placing a call at +91-8451097879 or by dropping a mail to info@data-flair.training"
         },
         {
-          "que": "Why should I learn Angular?",
-          "ans": "Angular is the latest and the most demanding technology with a continuously increasing demand in the Indian market and abroad. It is changing the world. So learn Angular to start a career in trending technologies."
-        },
-        {
-          "que": "What type of Angular projects will I be doing during the training?",
-          "ans": "You will be doing Angular real-life projects in different domains like retail, banking, and finance."
+          "que": "What type of Adobe-XD projects will I be doing during the training?",
+          "ans": "You will be doing Adobe-XD real-life projects in different domains like retail, banking, and finance."
         },
         {
           "que": "Do you provide placement assistance?",
-          "ans": "This Angular course from DataFlair is 100% job-oriented and will prepare you completely for interviews from Angular job perspective."
+          "ans": "This Adobe-XD course from us is 100% job-oriented and will prepare you completely for interviews from Adobe-XD job perspective."
         },
         {
-          "que": "Can I attend a demo session before enrolling for this Angular course?",
-          "ans": "Yes, you can attend the Angular demo class recording on this course page itself to understand the quality of training we provide. This is what creates the difference between DataFlair and other online Angular training providers."
-        },
-        {
-          "que": "Can you guide me about the career aspects of Angular developers?",
-          "ans": "Angular is the technology that will open many doors for you. With Angular, you can be a:<ul><li>Front End Developer</li><li>Software Developer</li><li>Software Engineer</li><li>Software architect</li></ul>"
+          "que": "Can I attend a demo session before enrolling for this Adobe-XD course?",
+          "ans": "Yes, you can attend the Adobe-XD demo class recording on this course page itself to understand the quality of training we provide. This is what creates the difference between us and other online Adobe-XD training providers."
         }
       ]
     ]
@@ -5248,8 +5240,8 @@
     "reasons": {
       "enroll": [
         [
-          "3 Real-time projects + tons of live practicals",
-          "70+ hrs of study material, quizzes & manuals"
+          "Real-time projects + tons of live practicals",
+          "Study materials, quizzes & manuals"
         ],
         [
           "Practical oriented course with case-studies",
@@ -5258,37 +5250,29 @@
       ],
       "learn": [
         [
-          "Learn how to develop professional websites",
-          " Grasp concepts of Android Development",
-          "Build major projects which makes your resume stand apart alongwith course completion certifications"
+          "Learn to take Excel spread sheets and animate this in After Effects.",
+          "Learn how to make animated pie charts, line charts & bar graphs.",
+          "Techniques used by professional motion graphic designers."
           
         ],
         [
           "Get liftetime course access on each course",
-          "Understand Basics to advanced concepts"
+          "Downloadable exercise files & cheat sheet."
         ]
       ]
     },
     "why": [
       {
-        "title": "Angular ranked second in “most used technology” in the Stack Overflow Survey",
-        "src": "Stack Overflow"
+        "title": "After Effects is commonly used to create motion graphics and visual effects.",
+        "src": "Learntube"
       },
       {
-        "title": "Developed, maintained, managed and monitored by Google Developers",
-        "src": "Google"
-      },
-      {
-        "title": "Average base pay of an Angular Developers is more than INR 460,000 per year in India",
-        "src": "Glassdoor"
-      },
-      {
-        "title": "The world’s most valuable resource is Big Data, no longer oil.",
-        "src": "The Economist"
-      },
-      {
-        "title": "Rapid application development, Plays a role of front end in MEAN stack development",
+        "title": "You can produce amazing visual stuff since the editing process has been made to be highly frictionless. ",
         "src": ""
+      },
+      {
+        "title": "The estimated total pay for a After Effects Artist is $61,070 per year in the United States area, with an average salary of $56,374 per year.",
+        "src": "Glassdoor"
       }
     ],
     "prerequisite": {
@@ -5501,7 +5485,7 @@
         },
         {
           "que": "What are the system specifications required to learn Adobe After Effect?",
-          "ans": "The recommendation is a minimum of an i3 processor, a 20 GB disk, and a 4 GB RAM for installing Angular."
+          "ans": "The recommendation is a minimum of an i3 processor, a 20 GB disk, and a 4 GB RAM."
         },
         {
           "que": "How will this course help me in getting a job?",
@@ -5550,12 +5534,12 @@
     "courseName": "Artificial Intelligence Certification Course in English",
     "bannerImg": "./images/course-img/course-banner/ai.png",
     "shortName": "Artificial Intelligence",
-    "overview": "Artificial Intelligence course offers a perfect blend of in-depth theoretical knowledge and strong practical skills via implementation of real-life Angular projects to give you a headstart and enable you to bag top Angular jobs in the industry.",
+    "overview": "Artificial intelligence is one of the top tech fields to be in right now! <br>AI is widely adopted in Finance, banking, healthcare, transportation, and technology. <br>The purpose of this course is to provide you with knowledge of key aspects of modern AI without any intimidating mathematics and in a practical, easy, and fun way. The course provides students with practical hands-on experience using real-world datasets.",
     "reasons": {
       "enroll": [
         [
-          "3 Real-time projects + tons of live practicals",
-          "70+ hrs of study material, quizzes & manuals"
+          "5 Real-time projects + tons of live practicals",
+          "9+ hrs of study material, quizzes & manuals"
         ],
         [
           "Practical oriented course with case-studies",
@@ -5564,14 +5548,15 @@
       ],
       "learn": [
         [
-          "Learn how to develop professional websites",
-          " Grasp concepts of Android Development",
-          "Build major projects which makes your resume stand apart alongwith course completion certifications",
-          "Get liftetime course access on each course",
+          "Build, train and deploy AI models to detect people emotions using Google Teachable Machine",
+          "Evaluate trained AI models using various KPIs such as confusion matrix, classification accuracy, and error rate",
+          "Understand the theory and intuition behind residual networks, a state-of-the-art deep neural networks that are widely adopted in business, and healthcare",
           "Understand Basics to advanced concepts"
         ],
         [
-          
+          "Learn how to train multiple AI models based on XG-Boost, Artificial Neural Networks, Random Forest Classifiers and compare their performance in DataRobot",
+          "Learn how to use SageMaker Studio AutoML tool to build, train and deploy AI/Ml models which requires almost zero coding experience",
+          "Learn how to use SageMaker Studio AutoML tool to build, train and deploy AI/Ml models which requires almost zero coding experience"
         ]
       ]
     },
@@ -5602,167 +5587,92 @@
       [
         {
           "no": 1,
-          "title": "Diving into Angular",
+          "title": "Course introduction, key learning outcomes, and key tips for success",
           "content": [
-            "What is Angular",
-            "Angular or Angular JS?",
-            "History and Version Releases",
-            "Why Angular is most popular web development framework?"
+            "Course introduction and welcome message",
+            "Course introduction key tips for success, best practices and getting certified",
+            "What is Artificial Intelligence (AI)?",
+            "AI recipe and key ingredients!",
+            "Supervised vs unsupervised AI training",
+            "Course outline and key learning outcomes"
           ]
         },
         {
           "no": 2,
-          "title": "Getting Ready to Learn Angular",
+          "title": "AI in healthcare: disease detection with AI-powered Google teachable machine",
           "content": [
-            "Pre-requisite",
-            "Software installation and configurations",
-            "Upgrading the existing Angular version to the latest version",
-            "Create the first Angular Application"
+            "Case study 1: chest disease detection using Google Teachable Machine",
+            "The rise of AI in HealthCare",
+            "Project overview",
+            "AI model training & testing in Google Teachable Machines",
+            "Under the hood - Artificial Neural Networks simplified",
+            "Under the hood - Artificial Neural Networks training & testing process",
+            "Under the hood - AI lingo demystified",
+            "Under the hood - Confusion Matrix",
+            "ANN demo in Tensorflow playground",
+            "Export, save and deploy the AI model",
+            "Convolutional Neural Networks (CNNs) deep dive",
+            "Covid-Net overview",
+            "Final project solution"
           ]
         },
         {
           "no": 3,
-          "title": "Angular Architecture",
+          "title": "Emotion AI with AI-powered Google Teachable Machines",
           "content": [
-            "Building blocks of Angular",
-            "Building blocks of Angular <ul><li>Component</li><li>Services</li></ul>",
-            "Exploring first application - Hello world"
+            "Case study 2: Emotion AI with Google Teachable Machine",
+            "Introduction to Emotion AI and project overview",
+            "Teachable Machine demo #1 - Data collection",
+            "Teachable Machine demo #1 - Model training",
+            "Teachable Machine demo #1 - Model deployment testing",
+            "Classification Models KPIs - Part #1",
+            "Classification Models KPIs - Part #2",
+            "Transfer learning",
+            "Off the shelf networks, ResNets and ImageNet",
+            "Final Project overview",
+            "Final project solution"
           ]
         },
         {
           "no": 4,
-          "title": "Working with Angular Components",
+          "title": "AI for Cardiovascular disease detection with DataRobot",
           "content": [
-            "Customizing appComponent",
-            "Data Binding",
-            "Life Cycle of Component",
-            "Adding new Component"
+            "Case study 3: Cardiovascular disease detection with DateRobot",
+            "Project overview: Cardiovascular disease detection",
+            "DataRobot demo #1: Signup and data upload",
+            "DataRobot demo #2: Target selection & exploration data analysis",
+            "DataRobot demo #3:  Model training and feature importance",
+            "Precision, Recall, ROC and AUC",
+            "DataRobot demo #4: model eva;iatopm amd assess,emt",
+            "DataRobot demo #5:  Model deployment and inference"
           ]
         },
         {
           "no": 5,
-          "title": "Component Interaction and Lifecycle hooks",
+          "title": "AI business with AWS autopilot",
           "content": [
-            "Parent-Child component Structure",
-            "@Input directive",
-            "@Output directive",
-            "Lifecycle hooks of components"
+            "Case study 4: AI in business",
+            "Introduction to AI in business with AWS",
+            "Project overview: Insurance premier prediction",
+            "Simple and multiple linear regression",
+            "Amazon web services (AWS)",
+            "Amazon web services",
+            "Amazon S3 and EC2"
           ]
         },
         {
           "no": 6,
-          "title": "Angular Directives",
+          "title": "AI for food recognition & explained AI with DataRobot",
           "content": [
-            "Types of Directives <ul><li>Components</li><li>Attribute Directives<li>Structural Directives<ul><li>ngFor</li><li>ngIf</li></ul><li>ngSwitchcase</li><li>ngClass and ngStyle</li></ul>"
-          ]
-        },
-        {
-          "no": 7,
-          "title": "Angular Pipes",
-          "content": [
-            "Parent-Child component Structure  in Angular",
-            "@Input directive",
-            "@Output directive",
-            "Lifecycle hooks of components"
-          ]
-        },
-        {
-          "no": 8,
-          "title": " Working on Services",
-          "content": [
-            "Why and what is a Service",
-            "Creation of services in Angular",
-            "Utilizing Service"
-          ]
-        }
-      ],
-      [
-        {
-          "no": 9,
-          "title": "Demystifying HttpObservables",
-
-          "content": [
-            "What is Observable",
-            "mplementing Observable Service",
-            "Communicating with server via observable in Angular"
-          ]
-        },
-        {
-          "no": 10,
-          "title": "Learning Routing in Angular",
-
-          "content": [
-            "What is routing",
-            "Steps for creation of routing",
-            "Route Matching Strategies",
-            "Working with Route Parameters",
-            "Working with Route Guards",
-            "Working with Child Route",
-            "Lazy Module Loading"
-          ]
-        },
-        {
-          "no": 11,
-          "title": " Working with Forms and Reactive Forms",
-
-          "content": [
-            "Forms <ul><li>Types of forms</li><li>Building blocks</li><li>Creating Forms</li><li>Data flow mechanism</li></ul>",
-            "Reactive Forms<ul><li>Building Reactive Form</li><li>Update elements</li><li>Nested FormGroup</li><li>setValue and setPatch</li><li>Working with FormBuilder</li><li>Playing with Dynamic Form</li</ul>",
-            "Communicating with server via observable in Angular"
-          ]
-        },
-        {
-          "no": 12,
-          "title": "Template Driven Forms",
-
-          "content": [
-            "Building Template Driven Forms",
-            "Playing with two-way data binding using ngModel",
-            "ngModel Validations",
-            "Submitting the form"
-          ]
-        },
-        {
-          "no": 13,
-          "title": "Demystifying HttpObservables",
-
-          "content": [
-            "Implement Template Driven Form Validation",
-            "Reactive Form Validation",
-            "Develop Custom Validations",
-            "Cross Field Validations"
-          ]
-        },
-        {
-          "no": 14,
-          "title": "Working with i18N",
-
-          "content": [
-            "Need for i18N",
-            "Step by step setup of i18N support",
-            "Steps for i18N",
-            "Demystifying language information file",
-            "Managing configuration file"
-          ]
-        },
-        {
-          "no": 15,
-          "title": "Demystifying HttpObservables",
-
-          "content": [
-            "Importance of Testing & Debugging",
-            "Types of testing in Angular",
-            "Working on Karma",
-            "How to test angular components and services"
-          ]
-        },
-        {
-          "no": 16,
-          "title": "Real Life Angular Projects",
-
-          "content": [
-            "What is Observable",
-            "Live Angular projects based on real industry scenarios. Work on real life problems and handle become industry ready"
+            "Food recognition with AI & explainable AI",
+            "Project interoduuction: Food recognition with AI",
+            "DataRobot demo #1 - upload & explore dataset",
+            "DataRobot Demo #2 - Train AI model",
+            "DataRobot demo #3 - Explainable AI",
+            "Logistic Regression Theory",
+            "Bias, Variance, Tradeoff",
+            "L1 & L2 Regularization part #1",
+            "L1 & L2 Regularization part #2"
           ]
         }
       ]
@@ -5839,7 +5749,7 @@
         },
         {
           "que": "Will you be providing AI certificate after the training?",
-          "ans": "Yes, you will be provided with an industry-recognizable certificate declaring your proficiency with Angular. At the end of this Angular course, you will work on real-time Angular projects. Once you have successfully made it through the projects, you will be awarded DataFlair Angular certificate."
+          "ans": "Yes, you will be provided with an industry-recognizable certificate declaring your proficiency with AI. At the end of this AI course, you will work on real-time AI projects. Once you have successfully made it through the projects, you will be awarded DataFlair AI certificate."
         },
         {
           "que": "How do I get in touch with you for further queries?",
@@ -5855,7 +5765,7 @@
         },
         {
           "que": "Do you provide placement assistance?",
-          "ans": "This course from us is 100% job-oriented and will prepare you completely for interviews from Angular job perspective."
+          "ans": "This course from us is 100% job-oriented and will prepare you completely for interviews from AI job perspective."
         },
         {
           "que": "Can I attend a demo session before enrolling for this  course?",
@@ -6182,7 +6092,7 @@
         },
         {
           "que": "Do you provide placement assistance?",
-          "ans": "This Angular course from DataFlair is 100% job-oriented and will prepare you completely for interviews from Angular job perspective."
+          "ans": "This course is 100% job-oriented and will prepare you completely for interviews from app develpment job perspective."
         },
         {
           "que": "Can I attend a demo session before enrolling for this course?",
@@ -6196,12 +6106,12 @@
     "courseName": "CCNA Certification Course in English",
     "bannerImg": "./images/course-img/course-banner/CCNA.png",
     "shortName": "CCNA",
-    "overview": "CCNA course offers a perfect blend of in-depth theoretical knowledge and strong practical skills via implementation of real-life Angular projects to give you a headstart and enable you to bag top Angular jobs in the industry.",
+    "overview": "This CCNA course will help you to improve yourself about networking basics, switching & routing technologies, IPv4 and IPv6. If you are a beginner for networking technologies, our CCNA certification program is great for you! You will get the certification easily with this CCNA course and begin your career in networking industry.",
     "reasons": {
       "enroll": [
         [
-          "3 Real-time projects + tons of live practicals",
-          "70+ hrs of study material, quizzes & manuals"
+          "Live practicals",
+          "Study material, quizzes & manuals"
         ],
         [
           "Practical oriented course with case-studies",
@@ -6210,40 +6120,30 @@
       ],
       "learn": [
         [
-          "Learn how to develop professional websites",
-          " Grasp concepts of Angular",
-          " Become adept in web development",
-          " Understand the Angular architecture",
-          " Basics to advanced concepts of Angular"
+          "You will learn about networking basics, switching, routing, IPv4 and IPv6.",
+          " Grasp concepts of networking",
+          " Become adept in networking",
+          " Basics to advanced concepts of networking"
         ],
         [
-          "Develop real-time Angular applications",
-          "Projects with connectivity with back end like node/express.js",
-          "Master the advanced concepts like routing, pipes, i18N",
-          "Work on live Angular project to get hands-on experience"
+          "Develop real-time networking projects",
+          "Master the advanced concepts like routing",
+          "Work on live networking project to get hands-on experience"
         ]
       ]
     },
     "why": [
       {
-        "title": "Angular ranked second in “most used technology” in the Stack Overflow Survey",
-        "src": "Stack Overflow"
+        "title": "People with IT and networking skills are in short supply worldwide.",
+        "src": "Alexis Raymond"
       },
       {
-        "title": "Developed, maintained, managed and monitored by Google Developers",
-        "src": "Google"
+        "title": "The employment of network and computer systems administrators will grow by 31 percent from 2014 to 2024.",
+        "src": "The U.S. Department of Labor"
       },
       {
-        "title": "Average base pay of an Angular Developers is more than INR 460,000 per year in India",
+        "title": "The national average salary for a Computer Networking is ₹34,786 in India",
         "src": "Glassdoor"
-      },
-      {
-        "title": "The world’s most valuable resource is Big Data, no longer oil.",
-        "src": "The Economist"
-      },
-      {
-        "title": "Rapid application development, Plays a role of front end in MEAN stack development",
-        "src": ""
       }
     ],
     "prerequisite": {
@@ -6255,167 +6155,137 @@
       [
         {
           "no": 1,
-          "title": "Diving into Angular",
+          "title": "About Cisco CCNA exam and training",
           "content": [
-            "What is Angular",
-            "Angular or Angular JS?",
-            "History and Version Releases",
-            "Why Angular is most popular web development framework?"
+            "CCNA exam overview",
+            "Cisco packet tracer"
           ]
         },
         {
           "no": 2,
-          "title": "Getting Ready to Learn Angular",
+          "title": "Network fundamentals",
           "content": [
             "Pre-requisite",
-            "Software installation and configurations",
-            "Upgrading the existing Angular version to the latest version",
-            "Create the first Angular Application"
+            "Introduction to networks",
+            "Network protocols",
+            "Network access",
+            "Ethernet",
+            "Network layer",
+            "Transport layer",
+            "Cisco IOS",
+            "IP addressing",
+            "White board practice: subnetting",
+            "Lab: basic router configuration",
+            "Lab: IPv6 interface configuration",
+            "Application layer",
+            "Ideal network",
+            "Network topology architectures"
           ]
         },
         {
           "no": 3,
-          "title": "Angular Architecture",
+          "title": "Routing and switching essentials",
           "content": [
-            "Building blocks of Angular",
-            "Building blocks of Angular <ul><li>Component</li><li>Services</li></ul>",
-            "Exploring first application - Hello world"
+            "Switched networks overview",
+            "Lab: basic switch configuration",
+            "Lab: basic switch port configuration",
+            "VLAN",
+            "Routing basics",
+            "Lab: static routing configuration",
+            "InterVLAN routing",
+            "Lab: InerVLAN routing configuration",
+            "Dynamic routing",
+            "Access control lists",
+            "Lab: access control lists configuration",
+            "DHCP",
+            "NAT",
+            "Divice discovery & management & maintenance"
           ]
         },
         {
           "no": 4,
-          "title": "Working with Angular Components",
+          "title": "Scalling networks",
           "content": [
-            "Customizing appComponent",
-            "Data Binding",
-            "Life Cycle of Component",
-            "Adding new Component"
+            "Scalling networks overview",
+            "Lab: VTP configuration",
+            "LAN redundancy",
+            "Lab: spanning tree configuration",
+            "First hop redundancy protocols - HSRP",
+            "Lab: HSRP configuration",
+            "First Hop Redundancy Protocols - VRRP",
+            "First Hop Redundancy Protocols - GLBP",
+            "Link aggregation",
+            "Lab: Etherchannel configuration",
+            "Wireless LAN",
+            "Cisco wireless architecture",
+            "OSPF basics & single area OSPF configuration",
+            "Lab: single area OSPF configuration",
+            "Lab: OSPFv3 configuration",
+            "Multi area OSPF",
+            "EIGRP overview & basic configuration",
+            "Lab: EIGRP configuration",
+            "Advanced EIGRP configuration & troubleshooting",
+            "IOS images & licensing"
           ]
-        },
+        }
+        
+      ],
+      [
         {
           "no": 5,
-          "title": "Component Interaction and Lifecycle hooks",
+          "title": "Connecting networks",
           "content": [
-            "Parent-Child component Structure",
-            "@Input directive",
-            "@Output directive",
-            "Lifecycle hooks of components"
+            "Wide Area Network",
+            "Point-To-Point",
+            "Broadband",
+            "eBGP",
+            "Lab: eBGP configuration",
+            "Site-to-Site connectivity security",
+            "Network monitoring",
+            "Troubleshooting",
+            "Quality of services",
+            "Cloud & network programming"
           ]
         },
         {
           "no": 6,
-          "title": "Angular Directives",
+          "title": "Security fundamentals",
           "content": [
-            "Types of Directives <ul><li>Components</li><li>Attribute Directives<li>Structural Directives<ul><li>ngFor</li><li>ngIf</li></ul><li>ngSwitchcase</li><li>ngClass and ngStyle</li></ul>"
+            "Key security concepts",
+            "Password policies elements and password alternatives",
+            "Next generation firewall and IPS",
+            "Wireless security protocols"
           ]
         },
         {
           "no": 7,
-          "title": "Angular Pipes",
+          "title": "Network automation and programmability",
           "content": [
-            "Parent-Child component Structure  in Angular",
-            "@Input directive",
-            "@Output directive",
-            "Lifecycle hooks of components"
+            "Why we need network automation?",
+            "Traditional networks vs Controller based networks",
+            "Control plane and data plane",
+            "Network controllers (Cisco DNA and wireless controllers)",
+            "Cisco software defined access",
+            "Nortbound and southbound APIs",
+            "REST APIs",
+            "Configuration management mechanisms (Ansible,Chef and Puppet)",
+            "Interpret JSON encoded data"
           ]
         },
         {
           "no": 8,
-          "title": " Working on Services",
+          "title": " Bonus: CCNP training demo videos",
           "content": [
-            "Why and what is a Service",
-            "Creation of services in Angular",
-            "Utilizing Service"
-          ]
-        }
-      ],
-      [
-        {
-          "no": 9,
-          "title": "Demystifying HttpObservables",
-
-          "content": [
-            "What is Observable",
-            "mplementing Observable Service",
-            "Communicating with server via observable in Angular"
-          ]
-        },
-        {
-          "no": 10,
-          "title": "Learning Routing in Angular",
-
-          "content": [
-            "What is routing",
-            "Steps for creation of routing",
-            "Route Matching Strategies",
-            "Working with Route Parameters",
-            "Working with Route Guards",
-            "Working with Child Route",
-            "Lazy Module Loading"
-          ]
-        },
-        {
-          "no": 11,
-          "title": " Working with Forms and Reactive Forms",
-
-          "content": [
-            "Forms <ul><li>Types of forms</li><li>Building blocks</li><li>Creating Forms</li><li>Data flow mechanism</li></ul>",
-            "Reactive Forms<ul><li>Building Reactive Form</li><li>Update elements</li><li>Nested FormGroup</li><li>setValue and setPatch</li><li>Working with FormBuilder</li><li>Playing with Dynamic Form</li</ul>",
-            "Communicating with server via observable in Angular"
-          ]
-        },
-        {
-          "no": 12,
-          "title": "Template Driven Forms",
-
-          "content": [
-            "Building Template Driven Forms",
-            "Playing with two-way data binding using ngModel",
-            "ngModel Validations",
-            "Submitting the form"
-          ]
-        },
-        {
-          "no": 13,
-          "title": "Demystifying HttpObservables",
-
-          "content": [
-            "Implement Template Driven Form Validation",
-            "Reactive Form Validation",
-            "Develop Custom Validations",
-            "Cross Field Validations"
-          ]
-        },
-        {
-          "no": 14,
-          "title": "Working with i18N",
-
-          "content": [
-            "Need for i18N",
-            "Step by step setup of i18N support",
-            "Steps for i18N",
-            "Demystifying language information file",
-            "Managing configuration file"
-          ]
-        },
-        {
-          "no": 15,
-          "title": "Demystifying HttpObservables",
-
-          "content": [
-            "Importance of Testing & Debugging",
-            "Types of testing in Angular",
-            "Working on Karma",
-            "How to test angular components and services"
-          ]
-        },
-        {
-          "no": 16,
-          "title": "Real Life Angular Projects",
-
-          "content": [
-            "What is Observable",
-            "Live Angular projects based on real industry scenarios. Work on real life problems and handle become industry ready"
+            "1_1 Dynamic routing protocols",
+            "3_1 VLAN and trunking applications in campus network",
+            "6_1 HSRP",
+            "7_1 BGP basics and applications",
+            "1_1- Basic switching concepts",
+            "10_3- Storm Control",
+            "Lab: DHCP snooping configuration",
+            "3_3 OSPF optimization",
+            "LAB - Advanced OSPF configuration",
+            "7_2 Basic BGP configuration"
           ]
         }
       ]
@@ -6444,79 +6314,72 @@
     ],
     "forWho": {
       "que": "Is this CCNA Course for you?",
-      "ans": "Web development is the truth of today and Angular proves to be one of the most popular open-source web application frameworks. So while anyone can benefit from a career in it, here are the kind of professionals who go for this Angular course:<ul><li>Software developers, engineers</li><li>Sr/Jr Frontend developers</li><li>System Architect</li><li>UI/Ux Designers</li><li>Any graduate focusing to build a career in Angular</li></ul>"
+      "ans": "Web development is the truth of today and Angular proves to be one of the most popular open-source web application frameworks. So while anyone can benefit from a career in it, here are the kind of professionals who go for this Angular course:<ul><li>Everybody who wants to prepare for CCNA 200-301 (New CCNA) exam</li><li>Anyone who needs to build a cereer in networking industry</li><li>Students that currently in college or university</li><li>Any graduate focusing to build a career in networking industry</li></ul>"
     },
     "companies": {
-      "title": "Companies you can expect when you get Angular-certified with us",
+      "title": "Companies you can expect when you get CCNA-certified with us",
       "img": "./images/companies.png"
     },
     "faq": [
       [
         {
-          "que": "How will I perform the Angular practicals at home?",
-          "ans": "For Angular practice, manual and video for Angular installation are available in LMS and you need to install it on your system at home."
+          "que": "How will I perform the CCNA practicals at home?",
+          "ans": "For practice, manual and video for installation are available in LMS and you need to install it on your system at home."
         },
         {
-          "que": "How long will the Angular course recordings be available?",
-          "ans": "All the Angular training sessions along with the complete Angular study material, POCs, and Angular projects will be available for lifetime."
+          "que": "How long will the course recordings be available?",
+          "ans": "All the training sessions along with the complete study material, POCs, and projects will be available for lifetime."
         },
         {
-          "que": "What things do I need to learn Angular through this course?",
-          "ans": "To attend this online Angular training, you just need a laptop or a PC with a minimum 4GB RAM. Nothing else is required to learn it."
+          "que": "What things do I need to learn networking through this course?",
+          "ans": "To attend this online training, you just need a laptop or a PC with a minimum 4GB RAM. Nothing else is required to learn it."
         },
         {
-          "que": "How do I clear my Angular related doubts?",
+          "que": "How do I clear my course related doubts?",
           "ans": "You can post your queries on the discussion forum. Our support team will be happy to assist you."
         },
         {
-          "que": "What are the system specifications required to learn Angular?",
-          "ans": "The recommendation is a minimum of an i3 processor, a 20 GB disk, and a 4 GB RAM for installing Angular."
+          "que": "What are the system specifications required to learn CCNA?",
+          "ans": "The recommendation is a minimum of an i3 processor, a 20 GB disk, and a 4 GB RAM."
         },
         {
-          "que": "How will this Angular course help me in getting a job?",
-          "ans": "Our Angular training includes multiple workshops, POCs, and projects. These will vigorously prepare you for Angular interviews so you can be confident in your work from day one. These things will help you get your dream Angular job in the industry."
+          "que": "How will this course help me in getting a job?",
+          "ans": "Our training includes multiple workshops, POCs, and projects. These will vigorously prepare you for interviews so you can be confident in your work from day one. These things will help you get your dream job in the networking industry."
         },
         {
-          "que": "What will the end result be of this online Angular training course?",
-          "ans": "When you finish this course, you will be equipped with practical skills and theoretical knowledge the industry looks for. You will bloom into a certified Angular professional who is ready to take on Angular Projects in top organizations."
-        },
-        {
-          "que": "Where do all the students come from?",
-          "ans": "DataFlair has a blend of students from across the globe. Apart from India, we provide training in the US, the UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, and many others covering the globe."
+          "que": "What will the end result be of this online training course?",
+          "ans": "When you finish this course, you will be equipped with practical skills and theoretical knowledge the industry looks for. You will bloom into a certified CCNA professional who is ready to take on Networking Projects in top organizations."
         }
+        
       ],
       [
         {
-          "que": "Is this Angular training classroom-based or online?",
+          "que": "Where do all the students come from?",
+          "ans": "We have a blend of students from across the globe. Apart from India, we provide training in the US, the UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, and many others covering the globe."
+        },
+        {
+          "que": "Is this CCNA training classroom-based or online?",
           "ans": "This training is completely online and self-paced."
         },
         {
-          "que": "Will you be providing Angular certificate after the training?",
-          "ans": "Yes, you will be provided with an industry-recognizable certificate declaring your proficiency with Angular. At the end of this Angular course, you will work on real-time Angular projects. Once you have successfully made it through the projects, you will be awarded DataFlair Angular certificate."
+          "que": "Will you be providing certificate after the training?",
+          "ans": "Yes, you will be provided with an industry-recognizable certificate declaring your proficiency with CCNA."
         },
         {
           "que": "How do I get in touch with you for further queries?",
           "ans": "You are  to contact us by placing a call at +91-8451097879 or by dropping a mail to info@data-flair.training"
         },
         {
-          "que": "Why should I learn Angular?",
-          "ans": "Angular is the latest and the most demanding technology with a continuously increasing demand in the Indian market and abroad. It is changing the world. So learn Angular to start a career in trending technologies."
-        },
-        {
-          "que": "What type of Angular projects will I be doing during the training?",
-          "ans": "You will be doing Angular real-life projects in different domains like retail, banking, and finance."
+          "que": "What type of projects will I be doing during the training?",
+          "ans": "You will be doing real-life projects."
         },
         {
           "que": "Do you provide placement assistance?",
-          "ans": "This Angular course from DataFlair is 100% job-oriented and will prepare you completely for interviews from Angular job perspective."
+          "ans": "This course is 100% job-oriented and will prepare you completely for interviews."
         },
         {
-          "que": "Can I attend a demo session before enrolling for this Angular course?",
-          "ans": "Yes, you can attend the Angular demo class recording on this course page itself to understand the quality of training we provide. This is what creates the difference between DataFlair and other online Angular training providers."
-        },
-        {
-          "que": "Can you guide me about the career aspects of Angular developers?",
-          "ans": "Angular is the technology that will open many doors for you. With Angular, you can be a:<ul><li>Front End Developer</li><li>Software Developer</li><li>Software Engineer</li><li>Software architect</li></ul>"
+          "que": "Can I attend a demo session before enrolling for this CCNA course?",
+          "ans": "Yes, you can attend the CCNA demo class recording on this course page itself to understand the quality of training we provide. This is what creates the difference between us and other online CCNA training providers."
         }
       ]
     ]
@@ -6526,12 +6389,12 @@
     "courseName": "CCSP Certification Course in English",
     "bannerImg": "./images/course-img/course-banner/CCSP.png",
     "shortName": "CCSP",
-    "overview": "CCSP course offers a perfect blend of in-depth theoretical knowledge and strong practical skills via implementation of real-life Angular projects to give you a headstart and enable you to bag top Angular jobs in the industry.",
+    "overview": "The Certified Cloud Security Professional (CCSP) exam is a certification exam designed to test an applicant’s knowledge of the principles of securing cloud-based environments.<br>In this course, we have addressed every aspect of the exam requirements and will continually, and weekly, add more content or quizzes to enable you master and pass the certification exam!!",
     "reasons": {
       "enroll": [
         [
-          "3 Real-time projects + tons of live practicals",
-          "70+ hrs of study material, quizzes & manuals"
+          "Practice Exams",
+          "8+ hrs of study material, quizzes & manuals"
         ],
         [
           "Practical oriented course with case-studies",
@@ -6541,211 +6404,153 @@
       "learn": [
         [
           "Learn how to develop professional websites",
-          " Grasp concepts of Angular",
-          " Become adept in web development",
-          " Understand the Angular architecture",
-          " Basics to advanced concepts of Angular"
+          " Grasp concepts of CCSP",
+          " Become adept in CCSP",
+          " Understand the CCSP architecture"
+          
         ],
         [
-          "Develop real-time Angular applications",
-          "Projects with connectivity with back end like node/express.js",
-          "Master the advanced concepts like routing, pipes, i18N",
-          "Work on live Angular project to get hands-on experience"
+          "You will learn what it takes to become a Cloud Security Professional and the material required to pass the CCSP certification",
+          "Master the advanced concepts",
+          "Basics to advanced concepts"
         ]
       ]
     },
     "why": [
       {
-        "title": "Angular ranked second in “most used technology” in the Stack Overflow Survey",
-        "src": "Stack Overflow"
+        "title": "The Certified Cloud Security Professional (CCSP) is a certification designed for those with some experience in information technology (IT) and security looking to advance their careers in cloud-based cybersecurity",
+        "src": "Coursera"
       },
       {
-        "title": "Developed, maintained, managed and monitored by Google Developers",
-        "src": "Google"
+        "title": "Cloud security skills command the highest premium at $15,025",
+        "src": "Burning Glass Technologies"
       },
       {
-        "title": "Average base pay of an Angular Developers is more than INR 460,000 per year in India",
-        "src": "Glassdoor"
-      },
-      {
-        "title": "The world’s most valuable resource is Big Data, no longer oil.",
-        "src": "The Economist"
-      },
-      {
-        "title": "Rapid application development, Plays a role of front end in MEAN stack development",
-        "src": ""
+        "title": "The average salary for CCSP ranges from approximately $88,510 to $113,726 annually",
+        "src": "Wage"
       }
     ],
     "prerequisite": {
       "que": "What to do before you begin your CCSP online training?",
-      "ans": "Nothing!",
+      "ans": "CISSP will be highly advantageous. The CCSP is highly assumptive of the fact that you have extensive knowledge of cybersecurity.!",
       "suggest": "Although if you’d like, you can brush up on your skills with our complementary HTML material right in your LMS."
     },
     "curriculum": [
       [
         {
           "no": 1,
-          "title": "Diving into Angular",
+          "title": "CCSP - Exam objectives",
           "content": [
-            "What is Angular",
-            "Angular or Angular JS?",
-            "History and Version Releases",
-            "Why Angular is most popular web development framework?"
+            "CCSP Exam ojectives"
           ]
         },
         {
           "no": 2,
-          "title": "Getting Ready to Learn Angular",
+          "title": "Question & answers deep dive - arcitecture concepts",
           "content": [
-            "Pre-requisite",
-            "Software installation and configurations",
-            "Upgrading the existing Angular version to the latest version",
-            "Create the first Angular Application"
+            "Q&A deep dive #1"
           ]
         },
         {
           "no": 3,
-          "title": "Angular Architecture",
+          "title": "Architecture Concepts",
           "content": [
-            "Building blocks of Angular",
-            "Building blocks of Angular <ul><li>Component</li><li>Services</li></ul>",
-            "Exploring first application - Hello world"
+            "Architecture concepts"
           ]
         },
         {
           "no": 4,
-          "title": "Working with Angular Components",
+          "title": "Design requirements",
           "content": [
-            "Customizing appComponent",
-            "Data Binding",
-            "Life Cycle of Component",
-            "Adding new Component"
+            "CISSP review: Business Impace Analysis (BIA)",
+            "Design requirements"
           ]
         },
         {
           "no": 5,
-          "title": "Component Interaction and Lifecycle hooks",
+          "title": "Data classification",
           "content": [
-            "Parent-Child component Structure",
-            "@Input directive",
-            "@Output directive",
-            "Lifecycle hooks of components"
+            "CISSP review: Data classification",
+            "Data classification"
           ]
         },
         {
           "no": 6,
-          "title": "Angular Directives",
+          "title": "Cloud data security",
           "content": [
-            "Types of Directives <ul><li>Components</li><li>Attribute Directives<li>Structural Directives<ul><li>ngFor</li><li>ngIf</li></ul><li>ngSwitchcase</li><li>ngClass and ngStyle</li></ul>"
+            "Cloud data security"
           ]
         },
         {
           "no": 7,
-          "title": "Angular Pipes",
+          "title": "Security in the cloud",
           "content": [
-            "Parent-Child component Structure  in Angular",
-            "@Input directive",
-            "@Output directive",
-            "Lifecycle hooks of components"
-          ]
-        },
-        {
-          "no": 8,
-          "title": " Working on Services",
-          "content": [
-            "Why and what is a Service",
-            "Creation of services in Angular",
-            "Utilizing Service"
+            "Security in the cloud"
           ]
         }
+        
       ],
       [
         {
+          "no": 8,
+          "title": "Responsibilities in the cloud",
+          "content": [
+            "Responsibilities in the cloud"
+          ]
+        },
+        {
           "no": 9,
-          "title": "Demystifying HttpObservables",
+          "title": "Cloud application security",
 
           "content": [
-            "What is Observable",
-            "mplementing Observable Service",
-            "Communicating with server via observable in Angular"
+            "Training awareness and the Software Development Lifecycle (SDLC)",
+            "ISO/IEC 27034-1/Standards for secure application development",
+            "Identity and Access Management (IAM)",
+            "Cloud application assurance and validation",
+            "Three approaches to decomposing application threats",
+            "[New - April 2021]: Application Security Testing - tools and best practices"
           ]
         },
         {
           "no": 10,
-          "title": "Learning Routing in Angular",
+          "title": "Operation elements",
 
           "content": [
-            "What is routing",
-            "Steps for creation of routing",
-            "Route Matching Strategies",
-            "Working with Route Parameters",
-            "Working with Route Guards",
-            "Working with Child Route",
-            "Lazy Module Loading"
+            "Operation elements"
           ]
         },
         {
           "no": 11,
-          "title": " Working with Forms and Reactive Forms",
+          "title": "Operation management",
 
           "content": [
-            "Forms <ul><li>Types of forms</li><li>Building blocks</li><li>Creating Forms</li><li>Data flow mechanism</li></ul>",
-            "Reactive Forms<ul><li>Building Reactive Form</li><li>Update elements</li><li>Nested FormGroup</li><li>setValue and setPatch</li><li>Working with FormBuilder</li><li>Playing with Dynamic Form</li</ul>",
-            "Communicating with server via observable in Angular"
+            "Monitoring, Capacity and Maintenance",
+            "Change and Configuration Management (CM)",
+            "Buisness continuity and disaster recovery"
           ]
         },
         {
           "no": 12,
-          "title": "Template Driven Forms",
+          "title": "Legal and compilance",
 
           "content": [
-            "Building Template Driven Forms",
-            "Playing with two-way data binding using ngModel",
-            "ngModel Validations",
-            "Submitting the form"
+            "Legal concepts",
+            "US & International laws",
+            "EU data protection directive and the GDPR",
+            "Other lasws and PCI DSS",
+            "eDiscovery, evidence, forensics and audit reporting"
           ]
         },
         {
           "no": 13,
-          "title": "Demystifying HttpObservables",
+          "title": "Enterprice Risk Management (ERM)",
 
           "content": [
-            "Implement Template Driven Form Validation",
-            "Reactive Form Validation",
-            "Develop Custom Validations",
-            "Cross Field Validations"
-          ]
-        },
-        {
-          "no": 14,
-          "title": "Working with i18N",
-
-          "content": [
-            "Need for i18N",
-            "Step by step setup of i18N support",
-            "Steps for i18N",
-            "Demystifying language information file",
-            "Managing configuration file"
-          ]
-        },
-        {
-          "no": 15,
-          "title": "Demystifying HttpObservables",
-
-          "content": [
-            "Importance of Testing & Debugging",
-            "Types of testing in Angular",
-            "Working on Karma",
-            "How to test angular components and services"
-          ]
-        },
-        {
-          "no": 16,
-          "title": "Real Life Angular Projects",
-
-          "content": [
-            "What is Observable",
-            "Live Angular projects based on real industry scenarios. Work on real life problems and handle become industry ready"
+            "Security policy",
+            "Risk management overview",
+            "Countermeasure selection and implementation",
+            "Risk management framework",
+            "Identifying appropriate supply chain & vendor management processes"
           ]
         }
       ]
@@ -6753,7 +6558,7 @@
     "features": [
       {
         "img": "./images/course-img/course-features/time.png",
-        "title": "20+ Hrs instructor based video lessons"
+        "title": "8+ Hrs instructor based video lessons"
       },
       {
         "img": "./images/course-img/course-features/support.png",
@@ -6774,79 +6579,72 @@
     ],
     "forWho": {
       "que": "Is this CCSP Course for you?",
-      "ans": "Web development is the truth of today and Angular proves to be one of the most popular open-source web application frameworks. So while anyone can benefit from a career in it, here are the kind of professionals who go for this Angular course:<ul><li>Software developers, engineers</li><li>Sr/Jr Frontend developers</li><li>System Architect</li><li>UI/Ux Designers</li><li>Any graduate focusing to build a career in Angular</li></ul>"
+      "ans": "The Certified Cloud Security Professional (CCSP) exam is a certification exam designed to test an applicant’s knowledge of the principles of securing cloud-based environments. So while anyone can benefit from a career in it, here are the kind of professionals who go for this CCSP course:<ul><li>Enterprise Architects</li><li>Security Administrators</li><li>System Architect</li><li>Systems Engineers</li><li>Security Architect</li></ul>"
     },
     "companies": {
-      "title": "Companies you can expect when you get Angular-certified with us",
+      "title": "Companies you can expect when you get CCSP-certified with us",
       "img": "./images/companies.png"
     },
     "faq": [
       [
         {
-          "que": "How will I perform the Angular practicals at home?",
-          "ans": "For Angular practice, manual and video for Angular installation are available in LMS and you need to install it on your system at home."
+          "que": "How will I perform the CCSP practicals at home?",
+          "ans": "For practice, manual and video for installation are available in LMS and you need to install it on your system at home."
         },
         {
-          "que": "How long will the Angular course recordings be available?",
-          "ans": "All the Angular training sessions along with the complete Angular study material, POCs, and Angular projects will be available for lifetime."
+          "que": "How long will the course recordings be available?",
+          "ans": "All the training sessions along with the complete study material, POCs, and projects will be available for lifetime."
         },
         {
-          "que": "What things do I need to learn Angular through this course?",
-          "ans": "To attend this online Angular training, you just need a laptop or a PC with a minimum 4GB RAM. Nothing else is required to learn it."
+          "que": "What things do I need to learn CCSP through this course?",
+          "ans": "To attend this online training, you just need a laptop or a PC with a minimum 4GB RAM. Nothing else is required to learn it."
         },
         {
-          "que": "How do I clear my Angular related doubts?",
+          "que": "How do I clear my course related doubts?",
           "ans": "You can post your queries on the discussion forum. Our support team will be happy to assist you."
         },
         {
           "que": "What are the system specifications required to learn Angular?",
-          "ans": "The recommendation is a minimum of an i3 processor, a 20 GB disk, and a 4 GB RAM for installing Angular."
+          "ans": "The recommendation is a minimum of an i3 processor, a 20 GB disk, and a 4 GB RAM."
         },
         {
-          "que": "How will this Angular course help me in getting a job?",
-          "ans": "Our Angular training includes multiple workshops, POCs, and projects. These will vigorously prepare you for Angular interviews so you can be confident in your work from day one. These things will help you get your dream Angular job in the industry."
+          "que": "How will this course help me in getting a job?",
+          "ans": "Our training includes multiple workshops, POCs, and projects. These will vigorously prepare you for interviews so you can be confident in your work from day one. These things will help you get your dream job in the industry."
         },
         {
-          "que": "What will the end result be of this online Angular training course?",
-          "ans": "When you finish this course, you will be equipped with practical skills and theoretical knowledge the industry looks for. You will bloom into a certified Angular professional who is ready to take on Angular Projects in top organizations."
-        },
-        {
-          "que": "Where do all the students come from?",
-          "ans": "DataFlair has a blend of students from across the globe. Apart from India, we provide training in the US, the UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, and many others covering the globe."
+          "que": "What will the end result be of this online training course?",
+          "ans": "When you finish this course, you will be equipped with practical skills and theoretical knowledge the industry looks for. You will bloom into a certified CCSP professional who is ready to take on Angular Projects in top organizations."
         }
+       
       ],
       [
         {
-          "que": "Is this Angular training classroom-based or online?",
+          "que": "Where do all the students come from?",
+          "ans": "We have a blend of students from across the globe. Apart from India, we provide training in the US, the UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, and many others covering the globe."
+        },
+        {
+          "que": "Is this CCSP training classroom-based or online?",
           "ans": "This training is completely online and self-paced."
         },
         {
-          "que": "Will you be providing Angular certificate after the training?",
-          "ans": "Yes, you will be provided with an industry-recognizable certificate declaring your proficiency with Angular. At the end of this Angular course, you will work on real-time Angular projects. Once you have successfully made it through the projects, you will be awarded DataFlair Angular certificate."
+          "que": "Will you be providing CCSP certificate after the training?",
+          "ans": "Yes, you will be provided with an industry-recognizable certificate declaring your proficiency with CCSP. At the end of this course, you will work on real-time CCSP projects. Once you have successfully made it through the projects, you will be awarded CCSP certificate."
         },
         {
           "que": "How do I get in touch with you for further queries?",
           "ans": "You are  to contact us by placing a call at +91-8451097879 or by dropping a mail to info@data-flair.training"
         },
         {
-          "que": "Why should I learn Angular?",
-          "ans": "Angular is the latest and the most demanding technology with a continuously increasing demand in the Indian market and abroad. It is changing the world. So learn Angular to start a career in trending technologies."
-        },
-        {
-          "que": "What type of Angular projects will I be doing during the training?",
-          "ans": "You will be doing Angular real-life projects in different domains like retail, banking, and finance."
+          "que": "What type of CCSP projects will I be doing during the training?",
+          "ans": "You will be doing real-life projects."
         },
         {
           "que": "Do you provide placement assistance?",
-          "ans": "This Angular course from DataFlair is 100% job-oriented and will prepare you completely for interviews from Angular job perspective."
+          "ans": "This course is 100% job-oriented and will prepare you completely for interviews."
         },
         {
-          "que": "Can I attend a demo session before enrolling for this Angular course?",
-          "ans": "Yes, you can attend the Angular demo class recording on this course page itself to understand the quality of training we provide. This is what creates the difference between DataFlair and other online Angular training providers."
-        },
-        {
-          "que": "Can you guide me about the career aspects of Angular developers?",
-          "ans": "Angular is the technology that will open many doors for you. With Angular, you can be a:<ul><li>Front End Developer</li><li>Software Developer</li><li>Software Engineer</li><li>Software architect</li></ul>"
+          "que": "Can I attend a demo session before enrolling for this course?",
+          "ans": "Yes, you can attend the demo class recording on this course page itself to understand the quality of training we provide. This is what creates the difference between us and other online CCSP training providers."
         }
       ]
     ]
@@ -6856,12 +6654,12 @@
     "courseName": "ChatGPT Certification Course in English",
     "bannerImg": "./images/course-img/course-banner/chat-GPT.png",
     "shortName": "ChatGPT",
-    "overview": "ChatGPT course offers a perfect blend of in-depth theoretical knowledge and strong practical skills via implementation of real-life Angular projects to give you a headstart and enable you to bag top Angular jobs in the industry.",
+    "overview": "ChatGPT offers an incredible opportunity for entrepreneurs, enterprises, and individuals to be on the cutting edge of this amazing technology and quickly create, optimize, and scale their businesses online. In this course, we’re going to show you how we use ChatGPT and OpenAI at a professional level and how you can too!",
     "reasons": {
       "enroll": [
         [
-          "3 Real-time projects + tons of live practicals",
-          "70+ hrs of study material, quizzes & manuals"
+          "Downloadable resources",
+          "8+ hrs of study material, quizzes & manuals"
         ],
         [
           "Practical oriented course with case-studies",
@@ -6870,212 +6668,153 @@
       ],
       "learn": [
         [
-          "Learn how to develop professional websites",
-          " Grasp concepts of Angular",
-          " Become adept in web development",
-          " Understand the Angular architecture",
-          " Basics to advanced concepts of Angular"
+          "How to create SEO, E-commerce, translation, Amazon, and sales-copy using ChatGPT",
+          "How to quickly craft podcasts and other long-form content using ChatGPT",
+          "How to build a website and create landing pages/sales funnels using ChatGPT",
+          "Techniques for using ChatGPT to create personalized, profitable, and engaging Youtube content",
+          "How to create high quality images using Dalle"
         ],
         [
-          "Develop real-time Angular applications",
-          "Projects with connectivity with back end like node/express.js",
-          "Master the advanced concepts like routing, pipes, i18N",
-          "Work on live Angular project to get hands-on experience"
+          "How to give ChatGPT access to information from 2023 and bypass its limits on indexed information",
+          "How students can use ChatGPT to breeze through coursework and create powerpoint presentations in seconds",
+          "How students can use ChatGPT to breeze through coursework and create powerpoint presentations in seconds",
+          "Create code and apps using the open api of OpenAI"
         ]
       ]
     },
     "why": [
       {
-        "title": "Angular ranked second in “most used technology” in the Stack Overflow Survey",
-        "src": "Stack Overflow"
+        "title": "ChatGPT is an AI-based tool that can help make content creation faster and easier by generating optimized content tailored to your website's needs",
+        "src": ""
       },
       {
-        "title": "Developed, maintained, managed and monitored by Google Developers",
+        "title": "AI is getting incredibly powerful at an unprecedented speed",
         "src": "Google"
       },
       {
-        "title": "Average base pay of an Angular Developers is more than INR 460,000 per year in India",
-        "src": "Glassdoor"
-      },
-      {
-        "title": "The world’s most valuable resource is Big Data, no longer oil.",
-        "src": "The Economist"
-      },
-      {
-        "title": "Rapid application development, Plays a role of front end in MEAN stack development",
-        "src": ""
+        "title": "The dialogue format makes it possible for ChatGPT to answer follow-up questions, admit its mistakes, challenge incorrect premises, and reject inappropriate requests",
+        "src": "OpenAI"
       }
     ],
     "prerequisite": {
       "que": "What to do before you begin your ChatGPT online training?",
       "ans": "Nothing!",
-      "suggest": "Although if you’d like, you can brush up on your skills with our complementary HTML material right in your LMS."
+      "suggest": "None needed! Just a willingness to learn and a desire to take advantage of the absolutely amazing technology that is ChatGPT and Dalle!"
     },
     "curriculum": [
       [
         {
           "no": 1,
-          "title": "Diving into Angular",
+          "title": "Picking up ChatGPT",
           "content": [
-            "What is Angular",
-            "Angular or Angular JS?",
-            "History and Version Releases",
-            "Why Angular is most popular web development framework?"
+            "Introduction",
+            "ChatGPT setup/ Best practices for getiing the most out of this course",
+            "ChatGPT as a search engine",
+            "Prompt engineering: using the RELIC framework for amazing output"
           ]
         },
         {
           "no": 2,
-          "title": "Getting Ready to Learn Angular",
+          "title": "The course condensed! Live workshop by the GPT agency",
           "content": [
-            "Pre-requisite",
-            "Software installation and configurations",
-            "Upgrading the existing Angular version to the latest version",
-            "Create the first Angular Application"
+            "Live workshop including Q&A with masterclass students"
           ]
         },
         {
           "no": 3,
-          "title": "Angular Architecture",
+          "title": "Build, optimize and scale your business using ChatGPT",
           "content": [
-            "Building blocks of Angular",
-            "Building blocks of Angular <ul><li>Component</li><li>Services</li></ul>",
-            "Exploring first application - Hello world"
+            "Language translation/ My favorite ChatGPT based buisness for new entrepreneurs",
+            "SEO basics for ChatGPT",
+            "How to build an online course using ChatGPT",
+            "A podcast in minutes: ChatGPT for Long-Form script writing",
+            "Amazing SEO with ChatGPT",
+            "Selling competitive products with ChatGPT",
+            "3 different types of emails you can build with ChatGPT",
+            "Creating Social media posts with ChatGP",
+            "Using copy.Ai for instagram captions",
+            "Write with voice: ChatGPT for YouTube scripts",
+            "ChatGPT for growing a business",
+            "RapGPT: writing original songs, chords and lyrics wih ChatGPT"
           ]
         },
         {
           "no": 4,
-          "title": "Working with Angular Components",
+          "title": "ChatGPT deep dives update weekly!",
           "content": [
-            "Customizing appComponent",
-            "Data Binding",
-            "Life Cycle of Component",
-            "Adding new Component"
+            "First look at GPT-4",
+            "Advanced podcast creation/ Video essays from scratch with ChatGPT",
+            "Advanced SEO for digital marketers and agency work",
+            "Translation part 2: English buisness communication for non native speajers",
+            "ChatGPT for Big TIcket sales/competitive research  with ChatGPT",
+            "Bypass AI detection: Using chatgpt",
+            "ChatGPT for email marketeremainin",
+            "Advanced search with chatGPT browsing/ ChatGPT for recall"
           ]
         },
         {
           "no": 5,
-          "title": "Component Interaction and Lifecycle hooks",
+          "title": "ChatGPT for students",
           "content": [
-            "Parent-Child component Structure",
-            "@Input directive",
-            "@Output directive",
-            "Lifecycle hooks of components"
+            "ChatGPT for interview prep!",
+            "A powerpoint seconds: Tome.Ai for slideshow presentations",
+            "Advanced job searching using ChatGPT",
+            "Write a novel with me: ChatGPT for creative fiction and screenplays"
           ]
-        },
+        }
+        
+      ],
+      [
         {
           "no": 6,
-          "title": "Angular Directives",
+          "title": "The full power of ChatGPT: odds and ends + protips",
           "content": [
-            "Types of Directives <ul><li>Components</li><li>Attribute Directives<li>Structural Directives<ul><li>ngFor</li><li>ngIf</li></ul><li>ngSwitchcase</li><li>ngClass and ngStyle</li></ul>"
+            "ChatGPT plus: first look",
+            "Nutritionist GPT: make meal plans and measure calories with ChatGPT",
+            "Common error message and fixes with ChatGPT",
+            "GPT on the go: ChatGPT mobile app vs web browser",
+            "A texas sized goodbye! Thank you for joining us:)"
           ]
         },
         {
           "no": 7,
-          "title": "Angular Pipes",
+          "title": "Beyond GPT: the best tools and plug ins using AI",
           "content": [
-            "Parent-Child component Structure  in Angular",
-            "@Input directive",
-            "@Output directive",
-            "Lifecycle hooks of components"
+            "Introduction to the best AI tools on the internet",
+            "3x your social media output: vidyo.AI for content repurposing",
+            "Integrating ChatGPT with google sheets",
+            "Integrating ChatGPT with slack"
           ]
         },
         {
           "no": 8,
-          "title": " Working on Services",
+          "title": "Create incredible art with Dall-E 2",
           "content": [
-            "Why and what is a Service",
-            "Creation of services in Angular",
-            "Utilizing Service"
+            "Intro to Dall-E 2",
+            "Dall-E 2 prompt design",
+            "Dall-E 2 editing deep dive",
+            "Making money with Dall-E 2"
           ]
-        }
-      ],
-      [
+        },
         {
           "no": 9,
-          "title": "Demystifying HttpObservables",
+          "title": "Programming with ChatGPT",
 
           "content": [
-            "What is Observable",
-            "mplementing Observable Service",
-            "Communicating with server via observable in Angular"
+            "ChatGPT for programmers",
+            "Code generation with ChatGPT",
+            "Algorithms with ChatGPT Pt 1",
+            "Algorithms with ChatGPT Pt 2",
+            "Documentation with ChatGPT",
+            "Code debugging with ChatGPT"
           ]
         },
         {
           "no": 10,
-          "title": "Learning Routing in Angular",
+          "title": "Learn from other members of the ChatGPT community",
 
           "content": [
-            "What is routing",
-            "Steps for creation of routing",
-            "Route Matching Strategies",
-            "Working with Route Parameters",
-            "Working with Route Guards",
-            "Working with Child Route",
-            "Lazy Module Loading"
-          ]
-        },
-        {
-          "no": 11,
-          "title": " Working with Forms and Reactive Forms",
-
-          "content": [
-            "Forms <ul><li>Types of forms</li><li>Building blocks</li><li>Creating Forms</li><li>Data flow mechanism</li></ul>",
-            "Reactive Forms<ul><li>Building Reactive Form</li><li>Update elements</li><li>Nested FormGroup</li><li>setValue and setPatch</li><li>Working with FormBuilder</li><li>Playing with Dynamic Form</li</ul>",
-            "Communicating with server via observable in Angular"
-          ]
-        },
-        {
-          "no": 12,
-          "title": "Template Driven Forms",
-
-          "content": [
-            "Building Template Driven Forms",
-            "Playing with two-way data binding using ngModel",
-            "ngModel Validations",
-            "Submitting the form"
-          ]
-        },
-        {
-          "no": 13,
-          "title": "Demystifying HttpObservables",
-
-          "content": [
-            "Implement Template Driven Form Validation",
-            "Reactive Form Validation",
-            "Develop Custom Validations",
-            "Cross Field Validations"
-          ]
-        },
-        {
-          "no": 14,
-          "title": "Working with i18N",
-
-          "content": [
-            "Need for i18N",
-            "Step by step setup of i18N support",
-            "Steps for i18N",
-            "Demystifying language information file",
-            "Managing configuration file"
-          ]
-        },
-        {
-          "no": 15,
-          "title": "Demystifying HttpObservables",
-
-          "content": [
-            "Importance of Testing & Debugging",
-            "Types of testing in Angular",
-            "Working on Karma",
-            "How to test angular components and services"
-          ]
-        },
-        {
-          "no": 16,
-          "title": "Real Life Angular Projects",
-
-          "content": [
-            "What is Observable",
-            "Live Angular projects based on real industry scenarios. Work on real life problems and handle become industry ready"
+            "Bonus lecture"
           ]
         }
       ]
@@ -7083,7 +6822,7 @@
     "features": [
       {
         "img": "./images/course-img/course-features/time.png",
-        "title": "20+ Hrs instructor based video lessons"
+        "title": "8+ Hrs instructor based video lessons"
       },
       {
         "img": "./images/course-img/course-features/support.png",
@@ -7104,7 +6843,7 @@
     ],
     "forWho": {
       "que": "Is this ChatGPT Course for you?",
-      "ans": "Web development is the truth of today and Angular proves to be one of the most popular open-source web application frameworks. So while anyone can benefit from a career in it, here are the kind of professionals who go for this Angular course:<ul><li>Software developers, engineers</li><li>Sr/Jr Frontend developers</li><li>System Architect</li><li>UI/Ux Designers</li><li>Any graduate focusing to build a career in Angular</li></ul>"
+      "ans": "ChatGPT offers an incredible opportunity for entrepreneurs, enterprises, and individuals to be on the cutting edge of this amazing technology and quickly create, optimize, and scale their businesses online. So while anyone can benefit from a career in it, here are the kind of professionals who go for this ChatGPT course:<ul><li>Entrepreneurs looking to produce content on the internet!</li><li>SEO and marketing experts who want to use ChatGPT to take on 5-10x the amount of clients they are currently able to!</li><li>Creatives, marketers, programmers, and artists who have heard that, AI is coming to take your jobs and want to capitalize on the opportunity rather than be obsoleted by it!</li><li>Anyone! Seriously, anyone! This tech is so powerful and easy to use, I can't think of any person from any background who won't be able to take advantage!</li></ul>"
     },
     "companies": {
       "title": "Companies you can expect when you get Angular-certified with us",
@@ -7113,70 +6852,59 @@
     "faq": [
       [
         {
-          "que": "How will I perform the Angular practicals at home?",
-          "ans": "For Angular practice, manual and video for Angular installation are available in LMS and you need to install it on your system at home."
+          "que": "How will I perform the course practicals at home?",
+          "ans": "For practice, manual and video for installation are available in LMS and you need to install it on your system at home."
         },
         {
-          "que": "How long will the Angular course recordings be available?",
-          "ans": "All the Angular training sessions along with the complete Angular study material, POCs, and Angular projects will be available for lifetime."
+          "que": "How long will the course recordings be available?",
+          "ans": "All the training sessions along with the complete study material, POCs, and course projects will be available for lifetime."
         },
         {
-          "que": "What things do I need to learn Angular through this course?",
-          "ans": "To attend this online Angular training, you just need a laptop or a PC with a minimum 4GB RAM. Nothing else is required to learn it."
+          "que": "What things do I need to learn ChatGPT through this course?",
+          "ans": "To attend this online Angular training, you just need a laptop or a android phone or a PC with a minimum 4GB RAM. Nothing else is required to learn it."
         },
         {
-          "que": "How do I clear my Angular related doubts?",
+          "que": "How do I clear my course related doubts?",
           "ans": "You can post your queries on the discussion forum. Our support team will be happy to assist you."
         },
         {
-          "que": "What are the system specifications required to learn Angular?",
-          "ans": "The recommendation is a minimum of an i3 processor, a 20 GB disk, and a 4 GB RAM for installing Angular."
+          "que": "What are the system specifications required to learn ChatGPT?",
+          "ans": "You just need a android phone or a laptop or a PC"
         },
         {
-          "que": "How will this Angular course help me in getting a job?",
-          "ans": "Our Angular training includes multiple workshops, POCs, and projects. These will vigorously prepare you for Angular interviews so you can be confident in your work from day one. These things will help you get your dream Angular job in the industry."
+          "que": "How will this course help me in getting a job?",
+          "ans": "Our training includes multiple workshops, POCs, and projects. This course will reduce your time from wasting time to do a work"
         },
         {
-          "que": "What will the end result be of this online Angular training course?",
-          "ans": "When you finish this course, you will be equipped with practical skills and theoretical knowledge the industry looks for. You will bloom into a certified Angular professional who is ready to take on Angular Projects in top organizations."
-        },
-        {
-          "que": "Where do all the students come from?",
-          "ans": "DataFlair has a blend of students from across the globe. Apart from India, we provide training in the US, the UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, and many others covering the globe."
+          "que": "What will the end result be of this online training course?",
+          "ans": "When you finish this course, you will be equipped with practical skills and theoretical knowledge the industry looks for. You will bloom into a certified ChatGPT professional."
         }
+        
       ],
       [
         {
-          "que": "Is this Angular training classroom-based or online?",
+          "que": "Where do all the students come from?",
+          "ans": "We have a blend of students from across the globe. Apart from India, we provide training in the US, the UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, and many others covering the globe."
+        },
+        {
+          "que": "Is this ChatGPT training classroom-based or online?",
           "ans": "This training is completely online and self-paced."
         },
         {
           "que": "Will you be providing Angular certificate after the training?",
-          "ans": "Yes, you will be provided with an industry-recognizable certificate declaring your proficiency with Angular. At the end of this Angular course, you will work on real-time Angular projects. Once you have successfully made it through the projects, you will be awarded DataFlair Angular certificate."
+          "ans": "Yes, you will be provided with an industry-recognizable certificate declaring your proficiency with ChaGPT."
         },
         {
           "que": "How do I get in touch with you for further queries?",
           "ans": "You are  to contact us by placing a call at +91-8451097879 or by dropping a mail to info@data-flair.training"
         },
         {
-          "que": "Why should I learn Angular?",
-          "ans": "Angular is the latest and the most demanding technology with a continuously increasing demand in the Indian market and abroad. It is changing the world. So learn Angular to start a career in trending technologies."
-        },
-        {
-          "que": "What type of Angular projects will I be doing during the training?",
-          "ans": "You will be doing Angular real-life projects in different domains like retail, banking, and finance."
-        },
-        {
           "que": "Do you provide placement assistance?",
-          "ans": "This Angular course from DataFlair is 100% job-oriented and will prepare you completely for interviews from Angular job perspective."
+          "ans": "This course is 100% job-oriented."
         },
         {
-          "que": "Can I attend a demo session before enrolling for this Angular course?",
-          "ans": "Yes, you can attend the Angular demo class recording on this course page itself to understand the quality of training we provide. This is what creates the difference between DataFlair and other online Angular training providers."
-        },
-        {
-          "que": "Can you guide me about the career aspects of Angular developers?",
-          "ans": "Angular is the technology that will open many doors for you. With Angular, you can be a:<ul><li>Front End Developer</li><li>Software Developer</li><li>Software Engineer</li><li>Software architect</li></ul>"
+          "que": "Can I attend a demo session before enrolling for this ChatGPT course?",
+          "ans": "Yes, you can attend the ChatGPT demo class recording on this course page itself to understand the quality of training we provide."
         }
       ]
     ]
@@ -7186,12 +6914,12 @@
     "courseName": "Cloud Computing Certification Course in English",
     "bannerImg": "./images/course-img/course-banner/CLOUD-COMPUTING.png",
     "shortName": "Cloud Computing",
-    "overview": "Cloud Computing course offers a perfect blend of in-depth theoretical knowledge and strong practical skills via implementation of real-life Angular projects to give you a headstart and enable you to bag top Angular jobs in the industry.",
+    "overview": "Today we hear about many IT fields which are growing very fast and are the future of our world, Big Data, IoT, Artificial intelligence, machine learning, data science, and many others,...All these technologies could not exist or evolve without the presence of Cloud Computing.<br>This course will give you general information about cloud computing without discussing a specific cloud solution like AWS or Azure, but at the same time we will have an idea about the most popular cloud computing solutions and providers.",
     "reasons": {
       "enroll": [
         [
-          "3 Real-time projects + tons of live practicals",
-          "70+ hrs of study material, quizzes & manuals"
+          "3 hrs of study material, quizzes & manuals",
+          "Downloadable resources"
         ],
         [
           "Practical oriented course with case-studies",
@@ -7200,212 +6928,161 @@
       ],
       "learn": [
         [
-          "Learn how to develop professional websites",
-          " Grasp concepts of Angular",
-          " Become adept in web development",
-          " Understand the Angular architecture",
-          " Basics to advanced concepts of Angular"
+          "During this course you will gain an introduction to the cloud computing world.",
+          "You will know the big players in the cloud computing field and their different services provided by their cloud computing solutions.",
+          "You will gain best practices to secure your cloud computing environment"
         ],
         [
-          "Develop real-time Angular applications",
-          "Projects with connectivity with back end like node/express.js",
-          "Master the advanced concepts like routing, pipes, i18N",
-          "Work on live Angular project to get hands-on experience"
+          "You will be able to define the cloud computing and all the aspects linked to it.",
+          "You will discover the most important Challenges when moving to Cloud Computing",
+          "You will know how to buil your cloud environment at home"
         ]
       ]
     },
     "why": [
       {
-        "title": "Angular ranked second in “most used technology” in the Stack Overflow Survey",
-        "src": "Stack Overflow"
+        "title": "BigData,Artificial intelligence, machine learning and many more technologies could not exist or evolve without the presence of Cloud Computing",
+        "src": "Udemy"
       },
       {
-        "title": "Developed, maintained, managed and monitored by Google Developers",
-        "src": "Google"
+        "title": "Between 2017 and 2020, employers have posted over 790,000 jobs requiring cloud computing skills, with employer demand for cloud professionals increasing nearly 150% during this timeframe. ",
+        "src": "Emsi"
       },
       {
-        "title": "Average base pay of an Angular Developers is more than INR 460,000 per year in India",
-        "src": "Glassdoor"
-      },
-      {
-        "title": "The world’s most valuable resource is Big Data, no longer oil.",
-        "src": "The Economist"
-      },
-      {
-        "title": "Rapid application development, Plays a role of front end in MEAN stack development",
-        "src": ""
+        "title": "The average annual base salary for a cloud computing professional in the US is $ 81,519",
+        "src": "Coursera"
       }
     ],
     "prerequisite": {
       "que": "What to do before you begin your Cloud Computing online training?",
       "ans": "Nothing!",
-      "suggest": "Although if you’d like, you can brush up on your skills with our complementary HTML material right in your LMS."
+      "suggest": "You need only your laptop and enjoy the course."
     },
     "curriculum": [
       [
         {
           "no": 1,
-          "title": "Diving into Angular",
+          "title": "Welcome section",
           "content": [
-            "What is Angular",
-            "Angular or Angular JS?",
-            "History and Version Releases",
-            "Why Angular is most popular web development framework?"
+            "Welcome to cloud computing course"
           ]
         },
         {
           "no": 2,
-          "title": "Getting Ready to Learn Angular",
+          "title": "Intro to cloud computing",
           "content": [
-            "Pre-requisite",
-            "Software installation and configurations",
-            "Upgrading the existing Angular version to the latest version",
-            "Create the first Angular Application"
+            "Cloud computing historical overview",
+            "On the road to cloud computing: virtualiation & containerization",
+            "Are we using cloud computing?",
+            "What is cloud computing?",
+            "Cloud computing first quiz"
           ]
         },
         {
           "no": 3,
-          "title": "Angular Architecture",
+          "title": "Cloud service models",
           "content": [
-            "Building blocks of Angular",
-            "Building blocks of Angular <ul><li>Component</li><li>Services</li></ul>",
-            "Exploring first application - Hello world"
+            "Cloud service models overview",
+            "Pizza as a service model",
+            "What is IaaS: infrastructure as a service?",
+            "What is Paas: platform as a service?",
+            "What is SaaS: software as a service?"
           ]
         },
         {
           "no": 4,
-          "title": "Working with Angular Components",
+          "title": "Cloud computing deployment models",
           "content": [
-            "Customizing appComponent",
-            "Data Binding",
-            "Life Cycle of Component",
-            "Adding new Component"
+            "Cloud computing deployment models overview",
+            "Public cloud",
+            "Private cloud",
+            "Hybrid cloud",
+            "Which cloud model should you choose?"
           ]
         },
         {
           "no": 5,
-          "title": "Component Interaction and Lifecycle hooks",
+          "title": "Best practices to benefit from cloud computing services",
           "content": [
-            "Parent-Child component Structure",
-            "@Input directive",
-            "@Output directive",
-            "Lifecycle hooks of components"
+            "Introduction",
+            "Which cloud provider is the best for your needs",
+            "Conclusion"
           ]
-        },
+        }
+        
+      ],
+      [
         {
           "no": 6,
-          "title": "Angular Directives",
+          "title": "Cloud computing challenges",
           "content": [
-            "Types of Directives <ul><li>Components</li><li>Attribute Directives<li>Structural Directives<ul><li>ngFor</li><li>ngIf</li></ul><li>ngSwitchcase</li><li>ngClass and ngStyle</li></ul>"
+            "Cloud computing challenges intro",
+            "Security",
+            "Managing cloud spend",
+            "Governance",
+            "Lack of resources and/or expertise",
+            "Compilance",
+            "BYOL: bring your own license",
+            "Managing multi-cloud",
+            "Cloud migration"
           ]
         },
         {
           "no": 7,
-          "title": "Angular Pipes",
+          "title": "Cloud computing security: issues identify by CSA",
           "content": [
-            "Parent-Child component Structure  in Angular",
-            "@Input directive",
-            "@Output directive",
-            "Lifecycle hooks of components"
+            "What is cloud security?",
+            "CSA cloud security alliance",
+            "Cloud computing security issues:identified by CSA",
+            "Data breaches",
+            "Misconfiguration and Inadequate change control",
+            "Lack of cloud security architecture and strategy",
+            "Insufficient identity, credentials and access management",
+            "Accound hijacking",
+            "Insider threat",
+            "Insecure interfaces and APIs",
+            "Weak control plane",
+            "Metastructure and applistructure failures",
+            "Limited cloud usage visibility",
+            "Abuse and nefarious use of cloud services",
+            "Keep in mind!!!",
+            "Cyber attacks in action"
           ]
         },
         {
           "no": 8,
-          "title": " Working on Services",
+          "title": "Cloud computing security strategies",
           "content": [
-            "Why and what is a Service",
-            "Creation of services in Angular",
-            "Utilizing Service"
+            "Cloud computing securit strategies: overview",
+            "End-to-end data encryption",
+            "Secure data transfers",
+            "Local data backups",
+            "Distributed Denial-of-Service protections",
+            "Vulnerability assessments",
+            "Access management",
+            "keep in Mind!!!",
+            "Quiz: Cloud Computing security strategies"
           ]
-        }
-      ],
-      [
+        },
         {
           "no": 9,
-          "title": "Demystifying HttpObservables",
+          "title": "Commercial vs OpenSource cloud solutions",
 
           "content": [
-            "What is Observable",
-            "mplementing Observable Service",
-            "Communicating with server via observable in Angular"
+            "Introduction",
+            "Amazon web services",
+            "Microsoft Azure",
+            "Openstack",
+            "Apache cloudstack",
+            "Open source or commercial:which one to adopt?"
           ]
         },
         {
           "no": 10,
-          "title": "Learning Routing in Angular",
+          "title": "Build your own private cloud at home",
 
           "content": [
-            "What is routing",
-            "Steps for creation of routing",
-            "Route Matching Strategies",
-            "Working with Route Parameters",
-            "Working with Route Guards",
-            "Working with Child Route",
-            "Lazy Module Loading"
-          ]
-        },
-        {
-          "no": 11,
-          "title": " Working with Forms and Reactive Forms",
-
-          "content": [
-            "Forms <ul><li>Types of forms</li><li>Building blocks</li><li>Creating Forms</li><li>Data flow mechanism</li></ul>",
-            "Reactive Forms<ul><li>Building Reactive Form</li><li>Update elements</li><li>Nested FormGroup</li><li>setValue and setPatch</li><li>Working with FormBuilder</li><li>Playing with Dynamic Form</li</ul>",
-            "Communicating with server via observable in Angular"
-          ]
-        },
-        {
-          "no": 12,
-          "title": "Template Driven Forms",
-
-          "content": [
-            "Building Template Driven Forms",
-            "Playing with two-way data binding using ngModel",
-            "ngModel Validations",
-            "Submitting the form"
-          ]
-        },
-        {
-          "no": 13,
-          "title": "Demystifying HttpObservables",
-
-          "content": [
-            "Implement Template Driven Form Validation",
-            "Reactive Form Validation",
-            "Develop Custom Validations",
-            "Cross Field Validations"
-          ]
-        },
-        {
-          "no": 14,
-          "title": "Working with i18N",
-
-          "content": [
-            "Need for i18N",
-            "Step by step setup of i18N support",
-            "Steps for i18N",
-            "Demystifying language information file",
-            "Managing configuration file"
-          ]
-        },
-        {
-          "no": 15,
-          "title": "Demystifying HttpObservables",
-
-          "content": [
-            "Importance of Testing & Debugging",
-            "Types of testing in Angular",
-            "Working on Karma",
-            "How to test angular components and services"
-          ]
-        },
-        {
-          "no": 16,
-          "title": "Real Life Angular Projects",
-
-          "content": [
-            "What is Observable",
-            "Live Angular projects based on real industry scenarios. Work on real life problems and handle become industry ready"
+            "Build your own private cloud: Devstack installation"
           ]
         }
       ]
@@ -7413,7 +7090,7 @@
     "features": [
       {
         "img": "./images/course-img/course-features/time.png",
-        "title": "20+ Hrs instructor based video lessons"
+        "title": "3 Hrs instructor based video lessons"
       },
       {
         "img": "./images/course-img/course-features/support.png",
@@ -7434,79 +7111,68 @@
     ],
     "forWho": {
       "que": "Is this Cloud Computing Course for you?",
-      "ans": "Web development is the truth of today and Angular proves to be one of the most popular open-source web application frameworks. So while anyone can benefit from a career in it, here are the kind of professionals who go for this Angular course:<ul><li>Software developers, engineers</li><li>Sr/Jr Frontend developers</li><li>System Architect</li><li>UI/Ux Designers</li><li>Any graduate focusing to build a career in Angular</li></ul>"
+      "ans": "Big Data, Artificial intelligence, machine learning and many more technologies could not exist or evolve without the presence of Cloud Computing So while anyone can benefit from a career in it, here are the kind of professionals who go for this course:<ul><li>IT lovers, Students and Professional who wants to discover the cloud computing world or to improve their Knowledges in this field.</li><li>Professionals who want to enter the cloud computing field and they want a boost to access this world :)</li></ul>"
     },
     "companies": {
-      "title": "Companies you can expect when you get Angular-certified with us",
+      "title": "Companies you can expect when you get Cloud Computing-certified with us",
       "img": "./images/companies.png"
     },
     "faq": [
       [
         {
-          "que": "How will I perform the Angular practicals at home?",
-          "ans": "For Angular practice, manual and video for Angular installation are available in LMS and you need to install it on your system at home."
+          "que": "How will I perform the Cloud Computing practicals at home?",
+          "ans": "For practice, manual and video for installation are available in LMS and you need to install it on your system at home."
         },
         {
-          "que": "How long will the Angular course recordings be available?",
-          "ans": "All the Angular training sessions along with the complete Angular study material, POCs, and Angular projects will be available for lifetime."
+          "que": "How long will the course recordings be available?",
+          "ans": "All the training sessions along with the complete study material, POCs, and projects will be available for lifetime."
         },
         {
-          "que": "What things do I need to learn Angular through this course?",
-          "ans": "To attend this online Angular training, you just need a laptop or a PC with a minimum 4GB RAM. Nothing else is required to learn it."
+          "que": "What things do I need to learn Cloud Computing through this course?",
+          "ans": "To attend this online Cloud Computing training, you just need a laptop or a PC with a minimum 4GB RAM. Nothing else is required to learn it."
         },
         {
-          "que": "How do I clear my Angular related doubts?",
+          "que": "How do I clear my Cloud Computing related doubts?",
           "ans": "You can post your queries on the discussion forum. Our support team will be happy to assist you."
         },
         {
-          "que": "What are the system specifications required to learn Angular?",
-          "ans": "The recommendation is a minimum of an i3 processor, a 20 GB disk, and a 4 GB RAM for installing Angular."
+          "que": "What are the system specifications required to learn Cloud Computing?",
+          "ans": "The recommendation is a minimum of an i3 processor, a 20 GB disk, and a 4 GB RAM."
         },
         {
-          "que": "How will this Angular course help me in getting a job?",
-          "ans": "Our Angular training includes multiple workshops, POCs, and projects. These will vigorously prepare you for Angular interviews so you can be confident in your work from day one. These things will help you get your dream Angular job in the industry."
+          "que": "How will this Cloud Computng course help me in getting a job?",
+          "ans": "Our training includes multiple workshops, POCs, and projects. These will vigorously prepare you for Cloud Computing interviews so you can be confident in your work from day one. These things will help you get your dream Cloud Computing job in the industry."
         },
         {
-          "que": "What will the end result be of this online Angular training course?",
-          "ans": "When you finish this course, you will be equipped with practical skills and theoretical knowledge the industry looks for. You will bloom into a certified Angular professional who is ready to take on Angular Projects in top organizations."
-        },
-        {
-          "que": "Where do all the students come from?",
-          "ans": "DataFlair has a blend of students from across the globe. Apart from India, we provide training in the US, the UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, and many others covering the globe."
+          "que": "What will the end result be of this online Cloud Computing training course?",
+          "ans": "When you finish this course, you will be equipped with practical skills and theoretical knowledge the industry looks for. You will bloom into a certified Cloud Computing professional who is ready to take on Cloud Computing Projects in top organizations."
         }
+        
       ],
       [
         {
-          "que": "Is this Angular training classroom-based or online?",
+          "que": "Where do all the students come from?",
+          "ans": "We have a blend of students from across the globe. Apart from India, we provide training in the US, the UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, and many others covering the globe."
+        },
+        {
+          "que": "Is this Cloud Computing training classroom-based or online?",
           "ans": "This training is completely online and self-paced."
         },
         {
-          "que": "Will you be providing Angular certificate after the training?",
-          "ans": "Yes, you will be provided with an industry-recognizable certificate declaring your proficiency with Angular. At the end of this Angular course, you will work on real-time Angular projects. Once you have successfully made it through the projects, you will be awarded DataFlair Angular certificate."
+          "que": "Will you be providing Cloud Computing certificate after the training?",
+          "ans": "Yes, you will be provided with an industry-recognizable certificate declaring your proficiency with Cloud Computing."
         },
         {
           "que": "How do I get in touch with you for further queries?",
           "ans": "You are  to contact us by placing a call at +91-8451097879 or by dropping a mail to info@data-flair.training"
         },
         {
-          "que": "Why should I learn Angular?",
-          "ans": "Angular is the latest and the most demanding technology with a continuously increasing demand in the Indian market and abroad. It is changing the world. So learn Angular to start a career in trending technologies."
-        },
-        {
-          "que": "What type of Angular projects will I be doing during the training?",
-          "ans": "You will be doing Angular real-life projects in different domains like retail, banking, and finance."
-        },
-        {
           "que": "Do you provide placement assistance?",
-          "ans": "This Angular course from DataFlair is 100% job-oriented and will prepare you completely for interviews from Angular job perspective."
+          "ans": "This course is 100% job-oriented and will prepare you completely for interviews from Cloud Computing job perspective."
         },
         {
-          "que": "Can I attend a demo session before enrolling for this Angular course?",
-          "ans": "Yes, you can attend the Angular demo class recording on this course page itself to understand the quality of training we provide. This is what creates the difference between DataFlair and other online Angular training providers."
-        },
-        {
-          "que": "Can you guide me about the career aspects of Angular developers?",
-          "ans": "Angular is the technology that will open many doors for you. With Angular, you can be a:<ul><li>Front End Developer</li><li>Software Developer</li><li>Software Engineer</li><li>Software architect</li></ul>"
+          "que": "Can I attend a demo session before enrolling for this Cloud Computing course?",
+          "ans": "Yes, you can attend the Cloud Computing demo class recording on this course page itself to understand the quality of training we provide. This is what creates the difference between us and other online Angular training providers."
         }
       ]
     ]
@@ -7521,7 +7187,7 @@
       "enroll": [
         [
           "3 Real-time projects + tons of live practicals",
-          "70+ hrs of study material, quizzes & manuals"
+          "20+ hrs of study material, quizzes & manuals"
         ],
         [
           "Practical oriented course with case-studies",
@@ -7760,7 +7426,7 @@
       [
         {
           "que": "How will I perform the data science practicals at home?",
-          "ans": "For practice, manual and video for Angular installation are available in LMS and you need to install it on your system at home."
+          "ans": "For practice, manual and video for installation are available in LMS and you need to install it on your system at home."
         },
         {
           "que": "How long will the course recordings be available?",
@@ -7776,7 +7442,7 @@
         },
         {
           "que": "What are the system specifications required to learn Data science?",
-          "ans": "The recommendation is a minimum of an i3 processor, a 20 GB disk, and a 4 GB RAM for doing setup."
+          "ans": "The recommendation is a minimum of an i3 processor, a 20 GB disk, and a 4 GB RAM for completing the full setup."
         },
         {
           "que": "How will this course help me in getting a job?",
@@ -7829,7 +7495,7 @@
       "enroll": [
         [
           "3 Real-time projects + tons of live practicals",
-          "70+ hrs of study material, quizzes & manuals"
+          "20+ hrs of study material, quizzes & manuals"
         ],
         [
           "Practical oriented course with case-studies",
@@ -7852,24 +7518,16 @@
     },
     "why": [
       {
-        "title": "Angular ranked second in “most used technology” in the Stack Overflow Survey",
-        "src": "Stack Overflow"
+        "title": "DevOps allows organizations to design and improve products at a faster pace than they can with traditional software development approaches.",
+        "src": "DZone"
       },
       {
-        "title": "Developed, maintained, managed and monitored by Google Developers",
-        "src": "Google"
+        "title": " The DevOps has to play a significant role in integrating all the services like IaaS, PaaS, and DBaaS to host the application on a different platform. That is why there is a bright future for DevOps",
+        "src": "DZone"
       },
       {
-        "title": "Average base pay of an Angular Developers is more than INR 460,000 per year in India",
+        "title": "The estimated total pay for a Devops is $130,625 per year in the United States area, with an average salary of $101,921 per year. ",
         "src": "Glassdoor"
-      },
-      {
-        "title": "The world’s most valuable resource is Big Data, no longer oil.",
-        "src": "The Economist"
-      },
-      {
-        "title": "Rapid application development, Plays a role of front end in MEAN stack development",
-        "src": ""
       }
     ],
     "prerequisite": {
@@ -8085,7 +7743,7 @@
     ],
     "forWho": {
       "que": "Is this DevOps Course for you?",
-      "ans": "DevOps is a methodology in the software development and IT industry. So while anyone can benefit from a career in it, here are the kind of professionals who go for this DevOps course:<ul><li>Software developers, engineers</li><li>Sr/Jr Frontend developers</li><li>System Architect</li><li>UI/Ux Designers</li><li>Any graduate focusing to build a career in DevOps</li></ul>"
+      "ans": "DevOps is a methodology in the software development and IT industry. So while anyone can benefit from a career in it, here are the kind of professionals who go for this DevOps course:<ul><li>Software developers, engineers</li><li>System Administrators</li><li>Solutions Architects</li><li>Managers (Non-Technical)</li><li>Any graduate focusing to build a career in DevOps</li></ul>"
     },
     "companies": {
       "title": "Companies you can expect when you get DevOps-certified with us",
@@ -8095,7 +7753,7 @@
       [
         {
           "que": "How will I perform the DevOps practicals at home?",
-          "ans": "For Angular practice, manual and video for DevOps installation are available in LMS and you need to install it on your system at home."
+          "ans": "For practice, manual and video for DevOps installation are available in LMS and you need to install it on your system at home."
         },
         {
           "que": "How long will the DevOps course recordings be available?",
@@ -8111,7 +7769,7 @@
         },
         {
           "que": "What are the system specifications required to learn DevOps?",
-          "ans": "The recommendation is a minimum of an i3 processor, a 20 GB disk, and a 4 GB RAM for installing DevOps."
+          "ans": "The recommendation is a minimum of an i3 processor, a 20 GB disk, and a 4 GB RAM for working with DevOps."
         },
         {
           "que": "How will this DevOps course help me in getting a job?",
@@ -8134,7 +7792,7 @@
         },
         {
           "que": "Will you be providing DevOps certificate after the training?",
-          "ans": "Yes, you will be provided with an industry-recognizable certificate declaring your proficiency with DevOps. At the end of this DevOps course, you will work on real-time DevOps projects. Once you have successfully made it through the projects, you will be awarded DataFlair DevOps certificate."
+          "ans": "Yes, you will be provided with an industry-recognizable certificate declaring your proficiency with DevOps. At the end of this DevOps course, you will work on real-time DevOps projects. Once you have successfully made it through the projects, you will be awarded DevOps certificate."
         },
         {
           "que": "How do I get in touch with you for further queries?",
@@ -8142,11 +7800,11 @@
         },
         {
           "que": "What type of DevOps projects will I be doing during the training?",
-          "ans": "You will be doing DevOps real-life projects in different domains like retail, banking, and finance."
+          "ans": "You will be doing DevOps real-life projects."
         },
         {
           "que": "Do you provide placement assistance?",
-          "ans": "This DevOps course from us is 100% job-oriented and will prepare you completely for interviews from DevOps job perspective."
+          "ans": "This DevOps course  is 100% job-oriented and will prepare you completely for interviews from DevOps job perspective."
         },
         {
           "que": "Can I attend a demo session before enrolling for this DevOps course?",
@@ -8160,12 +7818,12 @@
     "courseName": "Digital Marketing Certification Course in English",
     "bannerImg": "./images/course-img/course-banner/DIGITAL-MARKETING.jpg",
     "shortName": "Digital Marketing",
-    "overview": "Digital Marketing course offers a perfect blend of in-depth theoretical knowledge and strong practical skills via implementation of real-life projects to give you a headstart and enable you to bag top Digital Marketing jobs in the industry.",
+    "overview": "Digital marketing is a form of marketing that leverages the internet and digital technologies, such as computers and smartphones, to connect with customers.This course will help you to learn digital marketing and you can get a job as a digital marketer",
     "reasons": {
       "enroll": [
         [
-          "3 Real-time projects + tons of live practicals",
-          "70+ hrs of study material, quizzes & manuals"
+          "Real-time projects + tons of live practicals",
+          "20+ hrs of study material, quizzes & manuals"
         ],
         [
           "Practical oriented course with case-studies",
@@ -8187,24 +7845,16 @@
     },
     "why": [
       {
-        "title": "Angular ranked second in “most used technology” in the Stack Overflow Survey",
-        "src": "Stack Overflow"
+        "title": "A digital marketing strategy is now an essential part of any successful business, as companies look to target the 78% of internet users that conduct product research online.",
+        "src": "Future Learn"
       },
       {
-        "title": "Developed, maintained, managed and monitored by Google Developers",
-        "src": "Google"
+        "title": "Relatively easy to get on the career ladder",
+        "src": "Internet"
       },
       {
-        "title": "Average base pay of an Angular Developers is more than INR 460,000 per year in India",
+        "title": "The national average salary for a Digital Marketing is $52,689 per year in United States.",
         "src": "Glassdoor"
-      },
-      {
-        "title": "The world’s most valuable resource is Big Data, no longer oil.",
-        "src": "The Economist"
-      },
-      {
-        "title": "Rapid application development, Plays a role of front end in MEAN stack development",
-        "src": ""
       }
     ],
     "prerequisite": {
@@ -8596,7 +8246,7 @@
         },
         {
           "que": "What will the end result be of this online Digital Marketing training course?",
-          "ans": "When you finish this course, you will be equipped with practical skills and theoretical knowledge the industry looks for. You will bloom into a certified Digital Marketing professional who is ready to take on Angular Projects in top organizations."
+          "ans": "When you finish this course, you will be equipped with practical skills and theoretical knowledge the industry looks for. You will bloom into a certified Digital Marketing professional who is ready to take on Digital Marketing Projects in top organizations."
         }
         
       ],
@@ -8611,7 +8261,7 @@
         },
         {
           "que": "Will you be providing a certificate after the training?",
-          "ans": "Yes, you will be provided with an industry-recognizable certificate declaring your proficiency with Digital Marketing. At the end of this course, you will work on real-time Digital Marketing projects. Once you have successfully made it through the projects, you will be awarded DataFlair Digital Marketing certificate."
+          "ans": "Yes, you will be provided with an industry-recognizable certificate declaring your proficiency with Digital Marketing. At the end of this course, you will work on real-time Digital Marketing projects. Once you have successfully made it through the projects, you will be awarded  Digital Marketing certificate."
         },
         {
           "que": "How do I get in touch with you for further queries?",
@@ -8637,12 +8287,12 @@
     "courseName": "Ethical Hacking Certification Course in English",
     "bannerImg": "./images/course-img/course-banner/Ethical-Hacking.png",
     "shortName": "Ethical Hacking",
-    "overview": "Ethical Hacking course offers a perfect blend of in-depth theoretical knowledge and strong practical skills via implementation of real-life projects to give you a headstart and enable you to bag top Ethical hacking jobs in the industry.",
+    "overview": "Ethical hacking involves an authorized attempt to gain unauthorized access to a computer system, application, or data. This course is highly practical but it won't neglect the theory; we'll start with ethical hacking basics.",
     "reasons": {
       "enroll": [
         [
-          "3 Real-time projects + tons of live practicals",
-          "70+ hrs of study material, quizzes & manuals"
+          "Real-time projects + tons of live practicals",
+          "20+ hrs of study material, quizzes & manuals"
         ],
         [
           "Practical oriented course with case-studies",
@@ -8666,24 +8316,16 @@
     },
     "why": [
       {
-        "title": "Angular ranked second in “most used technology” in the Stack Overflow Survey",
-        "src": "Stack Overflow"
+        "title": "The most obvious benefit of learning ethical hacking is its potential to improve and inform on how a corporate network is defended. ",
+        "src": "Internet"
       },
       {
-        "title": "Developed, maintained, managed and monitored by Google Developers",
-        "src": "Google"
-      },
-      {
-        "title": "Average base pay of an Angular Developers is more than INR 460,000 per year in India",
-        "src": "Glassdoor"
-      },
-      {
-        "title": "The world’s most valuable resource is Big Data, no longer oil.",
-        "src": "The Economist"
-      },
-      {
-        "title": "Rapid application development, Plays a role of front end in MEAN stack development",
+        "title": "By ethical hacking into the system, you can learn about ample security options, which otherwise might have resulted in security breaches.",
         "src": ""
+      },
+      {
+        "title": "The average salary for a Certified Ethical Hacker is $71,331 per annum.",
+        "src": "INFOSEC Institute"
       }
     ],
     "prerequisite": {
@@ -8950,8 +8592,8 @@
     "reasons": {
       "enroll": [
         [
-          "3 Real-time projects + tons of live practicals",
-          "70+ hrs of study material, quizzes & manuals"
+          "Real-time projects + tons of live practicals",
+          "20+ hrs of study material, quizzes & manuals"
         ],
         [
           "Practical oriented course with case-studies",
@@ -8974,24 +8616,16 @@
     },
     "why": [
       {
-        "title": "Angular ranked second in “most used technology” in the Stack Overflow Survey",
-        "src": "Stack Overflow"
+        "title": "Figma is a cloud-based design tool that allows designers to collaborate in real-time on user interface design, vector design, prototyping, and more.",
+        "src": "42 interactive"
       },
       {
-        "title": "Developed, maintained, managed and monitored by Google Developers",
-        "src": "Google"
+        "title": "Back in 2020, the number of UX designer hires was 5x the hires made in 2019",
+        "src": "LinkedIn"
       },
       {
-        "title": "Average base pay of an Angular Developers is more than INR 460,000 per year in India",
+        "title": "The average Figma salary ranges from approximately $80,103 per year for a Product Support Specialist to $194,860 per year for an Account Executive",
         "src": "Glassdoor"
-      },
-      {
-        "title": "The world’s most valuable resource is Big Data, no longer oil.",
-        "src": "The Economist"
-      },
-      {
-        "title": "Rapid application development, Plays a role of front end in MEAN stack development",
-        "src": ""
       }
     ],
     "prerequisite": {
@@ -9356,7 +8990,7 @@
         },
         {
           "que": "Do you provide placement assistance?",
-          "ans": "This course from us is 100% job-oriented and will prepare you completely for interviews from Figma design job perspective."
+          "ans": "This course is 100% job-oriented and will prepare you completely for interviews from Figma design job perspective."
         },
         {
           "que": "Can I attend a demo session before enrolling for this course?",
@@ -9378,8 +9012,8 @@
     "reasons": {
       "enroll": [
         [
-          "3 Real-time projects + tons of live practicals",
-          "70+ hrs of study material, quizzes & manuals"
+          "Real-time projects + tons of live practicals",
+          "20+ hrs of study material, quizzes & manuals"
         ],
         [
           "Practical oriented course with case-studies",
@@ -9407,23 +9041,19 @@
     },
     "why": [
       {
-        "title": "Angular ranked second in “most used technology” in the Stack Overflow Survey",
-        "src": "Stack Overflow"
-      },
-      {
-        "title": "Developed, maintained, managed and monitored by Google Developers",
+        "title": "It is used in several industries to design logos and branding icons.",
         "src": "Google"
       },
       {
-        "title": "Average base pay of an Angular Developers is more than INR 460,000 per year in India",
-        "src": "Glassdoor"
+        "title": "You can express your ideas",
+        "src": ""
       },
       {
-        "title": "The world’s most valuable resource is Big Data, no longer oil.",
-        "src": "The Economist"
+        "title": "The average salary for a illustrator is $54,034 per year in the United States.",
+        "src": "Indeed"
       },
       {
-        "title": "Rapid application development, Plays a role of front end in MEAN stack development",
+        "title": "You can create logo, draw objects, cartoons, icons, map etc...",
         "src": ""
       }
     ],
@@ -9653,7 +9283,7 @@
         },
         {
           "que": "What are the system specifications required to learn Illustrator?",
-          "ans": "The recommendation is a minimum of an i3 processor, a 20 GB disk, and a 4 GB RAM for installing Angular."
+          "ans": "The recommendation is a minimum of an i3 processor, a 20 GB disk, and a 4 GB RAM for doing this course."
         },
         {
           "que": "How will this Illustrator course help me in getting a job?",
@@ -9691,7 +9321,7 @@
         },
         {
           "que": "Do you provide placement assistance?",
-          "ans": "This course from us is 100% job-oriented and will prepare you completely for interviews from Illustrator job perspective."
+          "ans": "This course is 100% job-oriented and will prepare you completely for interviews from Illustrator job perspective."
         },
         {
           "que": "Can I attend a demo session before enrolling for this course?",
@@ -9709,8 +9339,8 @@
     "reasons": {
       "enroll": [
         [
-          "3 Real-time projects + tons of live practicals",
-          "70+ hrs of study material, quizzes & manuals"
+          "Real-time projects + tons of live practicals",
+          "20+ hrs of study material, quizzes & manuals"
         ],
         [
           "Practical oriented course with case-studies",
