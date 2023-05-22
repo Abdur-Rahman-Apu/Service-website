@@ -9768,10 +9768,7 @@
             "Running the catalog locally",
             "Going throught the code"
           ]
-        }
-        
-      ],
-      [
+        },
         {
           "no": 7,
           "title": "Azure Compute",
@@ -9940,7 +9937,11 @@
             "Current architecture",
             "Quiz: Messaging in Azure"
           ]
-        },
+        }
+        
+      ],
+      [
+        
         {
           "no": 11,
           "title": "Azure AD",
@@ -9972,12 +9973,137 @@
         },
         {
           "no": 12,
-          "title": "Conclusion",
+          "title": "Monitoring in Azure",
 
           "content": [
-            "Download the Azure architecture summary",
-            "Conclusion",
-            "Bonus: next steps"
+            "Introduction",
+            "Rsource monitoring",
+            "Using metrics",
+            "Azure Dashboard",
+            "Alerts",
+            "Using alerts",
+            "Logs & analytics workspace",
+            "Creating and using log analytics",
+            "Connecting log analytics to event logs and performance counters",
+            "Log analytics with dashboard and alerts",
+            "App service logs",
+            "Insights",
+            "Using insights",
+            "Azure monitor",
+            "Using Azure monitor and application insights",
+            "Application insights tips and tricks",
+            "Tags",
+            "Using tags and the resource graph explorer",
+            "Current architecture",
+            "Quiz: Azure monitoring"
+          ]
+        },
+        {
+          "no": 13,
+          "title": "Security in Azure",
+          "content": [
+           "Introduction",
+           "VM security best practices",
+           "Networking security best practices",
+           "Database security best practices",
+           "App service security best practices",
+           "Keyvault",
+           "Troubleshooting keyvault",
+           "Using KeyVault in the catalog app",
+           "Publishing the KeyVault code and using insights",
+           "KeyVault tips and tricks",
+           "A quick note about security center",
+           "Security center",
+           "Using Security center",
+           "Current architecture",
+           "Quiz: Azure Security"
+          ]
+        },
+        {
+          "no": 14,
+          "title": "DR in Azure",
+          "content": [
+           "Introduction to DR",
+           "DR concepts",
+           "Basics of DR implementation",
+           "DR of compute in Azure",
+           "Routing in DR",
+           "Azure Traffic Manager",
+           "Using Azure Traffic Manager",
+           "Azure front door",
+           "Using Azure Front Door",
+           "Traffic Manager vs Front Door",
+           "Current Architecture",
+           "Quiz: DR in Azure"
+          ]
+        },
+        {
+          "no": 15,
+          "title": "Managing costs in Azure",
+          "content": [
+           "Introduction",
+           "Looking at cost management",
+           "Quiz: managing costs in Azure"
+          ]
+        },
+        {
+          "no": 16,
+          "title": "Azure Policy",
+          "content": [
+           "Introduction",
+           "Defining Initiative and policies",
+           "Custom policies",
+           "Defining custom policy and testing the policies",
+           "Quiz: Azure Policy",
+           "Completing the demo and saving costs"
+          ]
+        },
+        {
+          "no": 17,
+          "title": "Architecting apps for Azure",
+          "content": [
+           "Introduction",
+           "Choosing compute platform",
+           "Choosing data platform",
+           "Choosing messaging platform",
+           "Implementing security",
+           "Implementing logging and monitoring",
+           "Azure architecture center"
+          ]
+        },
+        {
+          "no": 18,
+          "title": "Migrating to the cloud",
+          "content": [
+           "Introduction",
+           "The migration process",
+           "Motivation assessment",
+           "Migration strategies",
+           "System assessment",
+           "Migration",
+           "App enhancements",
+           "Testing",
+           "Go Live"
+          ]
+        },
+        {
+          "no": 19,
+          "title": "Advanced services",
+          "content": [
+           "Introduction",
+           "IOT Hub",
+           "Notification Hub",
+           "Cognitive services",
+           "Summary"
+          ]
+        },
+        {
+          "no": 20,
+          "title": "Conclusion",
+          "content": [
+           "Download the Azure Architecture summary",
+           "Conclusion",
+           "BONUS: Next steps"
           ]
         }
       ]
