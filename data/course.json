@@ -9388,26 +9388,34 @@
           "no": 1,
           "title": "Introduction",
           "content": [
-            "Syllabus Overview"
+            "Introduction",
+            "Good news",
+            "Syllabus Overview",
+            "Downoload syllabus",
+            "Thank you"
           ]
         },
         {
           "no": 2,
-          "title": "Understanding Linux concepts",
+          "title": "Module 1 - Understanding Linux concepts",
           "content": [
+            "Welcome to Module 1",
+            "Everyday Linux",
             "What is Linux?",
             "Unix vs Linux",
             "Linux distributions",
             "Linux users",
             "Linux vs Windows",
-            "Quiz",
-            "Homework"
+            "Module 1 - Quiz",
+            "Module 1 -  Homework",
+            "Module 1 - Handouts"
           ]
         },
         {
           "no": 3,
-          "title": "Download, Install and configure",
+          "title": "Module 2 - Download, Install and configure",
           "content": [
+            "Welcome to Module 2",
             "Lab design",
             "What is Virtual Box?",
             "Downloading and installing Oracle VirtualBox",
@@ -9425,15 +9433,16 @@
             "Take a snapshot of VM",
             "Virtual Machine management",
             "Keyboard keys used in Linux",
-            "Quiz",
-            "Homework",
-            "Handouts"
+            "Module 2 - Quiz",
+            "Module 2 - Homework",
+            "Module 2 - Handouts"
           ]
         },
         {
           "no": 4,
-          "title": "System access and file system",
+          "title": "Module 3 - System access and file system",
           "content": [
+            "Welcme to module 3",
             "Important things to remember in Linux",
             "Access to Linux system",
             "Download and install Putty",
@@ -9454,18 +9463,16 @@
             "Difference between find and locate commands",
             "WildCards (*,?,^,[])",
             "Soft and hard links (In)",
-            "Quiz",
-            "Homework",
-            "Handouts"
+            "Module 3 - Quiz",
+            "Module 3 - Homework",
+            "Module 3 - Handouts"
           ]
-        }
-       
-      ],
-      [
+        },
         {
           "no": 5,
-          "title": "Linux fundamentals",
+          "title": "Module 4 - Linux fundamentals",
           "content": [
+            "Welcome to Module 4",
             "Linux command syntax",
             "Files and directory permissions (chmod)",
             "File permissions using numeric mode",
@@ -9490,16 +9497,17 @@
             "Truncate file size (truncate)",
             "Combining and splitting files",
             "Linux vs windows commands",
-            "Quiz",
-            "Homwwork",
-            "Handouts"
+            "Module 4 - Quiz",
+            "Module 4 - Homwwork",
+            "Module 4 - Handouts"
 
           ]
         },
         {
           "no": 6,
-          "title": "System administration",
+          "title": "Module 5 - System administration",
           "content": [
+            "Welcome to Module 5",
             "Linux file editor (vi)",
             "Difference between vi and vim editors",
             "'sed' command",
@@ -9507,6 +9515,7 @@
             "Enable password aging",
             "Switch users and sudo access (su, sudo)",
             "Monitor users (users, wall, write)",
+            "Talking to users (users, wall, write)",
             "Linux directory service - account authentication",
             "Difference between active directory, LDAP, IDM, WinBIND, OpenLDAP etc.",
             "System utility commands (date, uptime, hostname, uname, which, cal, bc)",
@@ -9521,22 +9530,210 @@
             "Process management (bg, fg, nice)",
             "System monitoring commands (df, dmesg, iostat 1,netstat, free, top)",
             "System Logs Monitor (/Vag/log)",
-            "Quiz",
-            "Homework"
+            "System maintenance commands (shutdown, ini, reboot, halt)",
+            "Changing system hostname (hostnamectl)",
+            "Finding system information (uname, dmindecode)",
+            "Finding system architecture (arch)",
+            "Terminal Control Keys",
+            "Terminal Commands (clear, exit, script)",
+            "Recover root password",
+            "SOS report",
+            "Environment variables",
+            "Module 5 - Quiz",
+            "Module 5 - Homework",
+            "Module 5 - Handouts"
           ]
         },
         {
           "no": 7,
-          "title": "Shell scripting",
+          "title": "Module 6 - Shell scripting",
           "content": [
+            "Welcome to Module 6",
+            "Linux kernel",
             "What is Shell?",
             "Types of shells",
+            "Shell scripting",
             "Basic Shell scripts",
             "Input and output of script",
             "if-then scripts",
             "for loop scripts",
             "do-while scripts",
-            "Case statement scripts"
+            "Case statement scripts",
+            "Check remote servers connectivity",
+            "Aliases (alias)",
+            "User and global aliases",
+            "Shell history (history)",
+            "Module 6 Quiz",
+            "Module 6 Homework",
+            "Module 6 Handouts"
+          ]
+        }
+       
+      ],
+      [
+        {
+          "no": 8,
+          "title": "Module 7 - Networking, services and system updates ",
+          "content": [
+           "Welcome to Module 7",
+           "Enable internet on Linux VM",
+           "Network components",
+           "Network files and commands (ping, ifconfig, ifup, ifdown, netstat, tcpdump)",
+           "NIC information (ethtool)",
+           "NIC or Port Bonding",
+           "New Network utilities (nmtui, nmcli, nm-connection-editor and GNOME settings",
+           "Downloading files or apps (wget)",
+           "curl and ping commands",
+           "FTP - File Transfer Protocol",
+           "SCP - Secure Copy Protocol",
+           "rsync - Reomote synchronization",
+           "System upgrade and patch management",
+           "Create local repository (Yum server)",
+           "Advance package management",
+           "Rollback patches and updates",
+           "SSH and Telnet",
+           "DNS - Download, install and configure (Domain Name System)",
+           "Hostname or IP Lookup (nslookup and dig)",
+           "Network time protocol (ntp)",
+           "New system utility command (timedatectl)",
+           "Sendmail",
+           "Web server (Apache - HTTP)",
+           "Central Logger (rsyslog)",
+           "Securing Linux Machine (OS Hardening)",
+           "OpenLDAP installation",
+           "Tracing Network traffic (traceroute)",
+           "How to open image file throught command line",
+           "Configure and secure SSH",
+           "SSH keys - access remote server without password",
+           "Linux web-based administration (cockpit)",
+           "Firewall",
+           "Tune system performance (tuned, nice and renice)",
+           "Run containers - dockers and podman",
+           "Kickstart (Automate Linux installation)",
+           "DHCP server",
+           "Module 7 Quiz",        
+           "Module 7 Homework",        
+           "Module 7 Handouts"        
+          ]
+        },
+        {
+          "no": 9,
+          "title": "Module 8 - Disk management and run levels  ",
+          "content": [
+           "Welcome to Module 8",
+           "System run levels (0 thru 6)",
+           "Computer boost process",
+           "Linux boot process",
+           "Linux boot process (Neweer versions)",
+           "Message of the Day",
+           "Customize message of the day",
+           "Storage",
+           "Disk partition (df, fdisk)",
+           "Add disk and create standard partition",
+           "Logical Volume Management (LVM)",
+           "LVM configuration during installation",
+           "Add disk and create new LVM partition (pvcreate,vgcreate,lvcreate)",
+           "Extend disk using LVM",
+           "Adding swap space",
+           "Advance storage management with stratis",
+           "RAID",
+           "File system check (fsck and xfs_repair)",
+           "System backup (dd command)",
+           "Network File System (NFS)",
+           "Samba installation and configuration",
+           "NAS drive for NFS or Samba",
+           "SATA and SAS",
+           "Difference between CentOS/Redhat 5, 6 and 7",
+           "Difference between CentOS/RHEL 7 and 8",
+           "Module 8 Quiz",
+           "Module 8 Homework",
+           "Module 8 Handouts"
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Module 9 - All about resume ",
+          "content": [
+           "Welcome to Module 9",
+           "Resume workshop",
+           "Resumen design and format",
+           "Grammatical mistakes",
+           "Objective or summary",
+           "Support your Resume",
+           "Cover Letter",
+           "Post resume and what to expect",
+           "Linux administrator job duties",
+           "Exposure to other technologies",
+           "Module 9 Homework",
+           "Module 9 Handouts"
+          ]
+        },
+        {
+          "no":11,
+          "title": "All about interview ",
+          "content": [
+           "Welcome to Module 10",
+           "What is IT?",
+           "Facts about IT",
+           "Linux operating system jobs",
+           "It management jobs",
+           "Interview workshop",
+           "College degree",
+           "IT certification",
+           "IT related diplomas",
+           "New to IT (A+ certification)",
+           "Review competitive resumes",
+           "Redhat certifications (RHCSA, RHCE etc.)",
+           "Join Linux communities and forums",
+           "3000+ interview questions",
+           "Module 10 Homework",
+           "Module 10 Handouts"
+          ]
+        },
+        {
+          "no": 12,
+          "title": "Course recap ",
+          "content": [
+           "Welcome to course recap",
+           "Commands we have learned",
+           "Don't give up",
+           "Congratulations",
+           "Recap - Handout",
+           "Final Exam"
+          ]
+        },
+        {
+          "no": 13,
+          "title": "Additional resources",
+          "content": [
+           "Welcome to additonal resources",
+           "Troubleshooting putty connection",
+           "Changing default file permissin (umask)",
+           "Create VM on VMWare player",
+           "Install Oracle Virtualbox on MAC",
+           "Install Oracle guest addition (tools)",
+           "File system color definition",
+           "Troubleshooting file issues",
+           "Troubleshooting change directory issues",
+           "Fixing corrupted file system",
+           "Linux system performance issues",
+           "IP assigned but not reachable",
+           "Remove unnecessary or orphan packages",
+           "SELinux",
+           "Types of security threats",
+           "Running Linux on web browser",
+           "Improve typing skills",
+           "What is virtualizatin and its benefits?",
+           "Introduction to VMWare",
+           "Additional resources - handout"
+          ]
+        },
+        {
+          "no": 14,
+          "title": "Bonus ",
+          "content": [
+           "Welcome to bonus section",
+           "Bonus lecture"
           ]
         }
       ]
@@ -10211,7 +10408,7 @@
     "reasons": {
       "enroll": [
         [
-          "3 Real-time projects + tons of live practicals",
+          "Real-time projects + tons of live practicals",
           "20+ hrs of study material, quizzes & manuals"
         ],
         [
@@ -10338,7 +10535,10 @@
             "Step 11: adding graphics - titles, lower thirds, intro, outro...",
             "Finally: export and share"
           ]
-        },
+        }
+        
+      ],
+      [
         {
           "no": 8,
           "title": "Your first project: easy video editing in premier pro cc",
@@ -10351,9 +10551,7 @@
             "Export and produce your video",
             "How to re-link offline media your first practice activity and assignment"
           ]
-        }
-      ],
-      [
+        },
         {
           "no": 9,
           "title": "Adding, inserting and arranging clips in a sequence: tools & techniques",
@@ -10490,13 +10688,14 @@
         {
           "que": "What will the end result be of this online Adobe Premiere Pro training course?",
           "ans": "When you finish this course, you will be equipped with practical skills and theoretical knowledge the industry looks for. You will bloom into a certified Adobe Premiere Pro professional who is ready to take on Adobe Premiere Pro Projects in top organizations."
-        },
+        }
+        
+      ],
+      [
         {
           "que": "Where do all the students come from?",
           "ans": "We have a blend of students from across the globe. Apart from India, we provide training in the US, the UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, and many others covering the globe."
-        }
-      ],
-      [
+        },
         {
           "que": "Is this Adobe Premiere Pro training classroom-based or online?",
           "ans": "This training is completely online and self-paced."
