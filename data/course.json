@@ -9335,12 +9335,12 @@
     "courseName": "Linux Certification Course in English",
     "bannerImg": "./images/course-img/course-banner/linux.png",
     "shortName": "Linux",
-    "overview": "Linux course offers a perfect blend of in-depth theoretical knowledge and strong practical skills via implementation of real-life Angular projects to give you a headstart and enable you to bag top Angular jobs in the industry.",
+    "overview": "Linux is the number ONE operating system in the Corporate world.  Linux is a popular open-source operating system that’s easy to use and highly secure. In this course you will  learn Linux installation, configuration, administration, troubleshooting, shell scripting, command line, OS tools and much more...",
     "reasons": {
       "enroll": [
         [
-          "Real-time projects + tons of live practicals",
-          "20+ hrs of study material, quizzes & manuals"
+          "Live practicals",
+          "35+ hrs of study material, quizzes & manuals"
         ],
         [
           "Practical oriented course with case-studies",
@@ -9349,40 +9349,29 @@
       ],
       "learn": [
         [
-          "Learn how to develop professional websites",
-          " Grasp concepts of Angular",
-          " Become adept in web development",
-          " Understand the Angular architecture",
-          " Basics to advanced concepts of Angular"
+          "By the end of this course you will be a professional Linux administrator and be able to apply for Linux jobs",
+          "You will learn 200+ Linux system administration commands",
+          "You will manage Linux servers in a corporate environment"
         ],
         [
-          "Develop real-time Angular applications",
-          "Projects with connectivity with back end like node/express.js",
-          "Master the advanced concepts like routing, pipes, i18N",
-          "Work on live Angular project to get hands-on experience"
+          "You will be able to troubleshoot everyday Linux related issues",
+          "You will write basic to advance level shell scripts",
+          "Understand the concept of permissions and how to set them for files and directories"
         ]
       ]
     },
     "why": [
       {
-        "title": "Angular ranked second in “most used technology” in the Stack Overflow Survey",
-        "src": "Stack Overflow"
+        "title": "Linux is the number ONE operating system in the Corporate world.",
+        "src": "Udemy"
       },
       {
-        "title": "Developed, maintained, managed and monitored by Google Developers",
+        "title": "Linux is a popular open-source operating system that’s easy to use and highly secure",
         "src": "Google"
       },
       {
-        "title": "Average base pay of an Angular Developers is more than INR 460,000 per year in India",
-        "src": "Glassdoor"
-      },
-      {
-        "title": "The world’s most valuable resource is Big Data, no longer oil.",
-        "src": "The Economist"
-      },
-      {
-        "title": "Rapid application development, Plays a role of front end in MEAN stack development",
-        "src": ""
+        "title": "The average salary for a linux engineer is $118,290 per year in the United States",
+        "src": "Indeed"
       }
     ],
     "prerequisite": {
@@ -9394,167 +9383,157 @@
       [
         {
           "no": 1,
-          "title": "Diving into Angular",
+          "title": "Introduction",
           "content": [
-            "What is Angular",
-            "Angular or Angular JS?",
-            "History and Version Releases",
-            "Why Angular is most popular web development framework?"
+            "Syllabus Overview"
           ]
         },
         {
           "no": 2,
-          "title": "Getting Ready to Learn Angular",
+          "title": "Understanding Linux concepts",
           "content": [
-            "Pre-requisite",
-            "Software installation and configurations",
-            "Upgrading the existing Angular version to the latest version",
-            "Create the first Angular Application"
+            "What is Linux?",
+            "Unix vs Linux",
+            "Linux distributions",
+            "Linux users",
+            "Linux vs Windows",
+            "Quiz",
+            "Homework"
           ]
         },
         {
           "no": 3,
-          "title": "Angular Architecture",
+          "title": "Download, Install and configure",
           "content": [
-            "Building blocks of Angular",
-            "Building blocks of Angular <ul><li>Component</li><li>Services</li></ul>",
-            "Exploring first application - Hello world"
+            "Lab design",
+            "What is Virtual Box?",
+            "Downloading and installing Oracle VirtualBox",
+            "Download and install VMWare Player (Optional)",
+            "CentOS vs. CentOS stream",
+            "Different ways to install Linux",
+            "Creating at Virtual Machine",
+            "Download and install Linux (CentOS 7)",
+            "Download and install Linux (CentOS 8)",
+            "Download and install Linux (CentOS 9)",
+            "Option 2 - Linux installation on cloud",
+            "Message for redhat installation",
+            "Redhat Linux installation (Optional)",
+            "Ubuntu Linux installation (Optional)",
+            "Take a snapshot of VM",
+            "Virtual Machine management",
+            "Keyboard keys used in Linux",
+            "Quiz",
+            "Homework",
+            "Handouts"
           ]
         },
         {
           "no": 4,
-          "title": "Working with Angular Components",
+          "title": "System access and file system",
           "content": [
-            "Customizing appComponent",
-            "Data Binding",
-            "Life Cycle of Component",
-            "Adding new Component"
+            "Important things to remember in Linux",
+            "Access to Linux system",
+            "Download and install Putty",
+            "Access Linux via Putty or SSH command line",
+            "Command prompts and getting prompts back",
+            "Introduction to Linux file system",
+            "File system structure and description",
+            "File system navigation commands (cd, ls and pwd)",
+            "Linux file or directory properties",
+            "Linux file or directory properties",
+            "Linux file types",
+            "What is root?",
+            "Changing password",
+            "Absolute and relative paths",
+            "Creating files and directories (touch, cp, vi, mkdir)",
+            "Copying directories",
+            "Finding files and directiories (find,locate)",
+            "Difference between find and locate commands",
+            "WildCards (*,?,^,[])",
+            "Soft and hard links (In)",
+            "Quiz",
+            "Homework",
+            "Handouts"
           ]
-        },
+        }
+       
+      ],
+      [
         {
           "no": 5,
-          "title": "Component Interaction and Lifecycle hooks",
+          "title": "Linux fundamentals",
           "content": [
-            "Parent-Child component Structure",
-            "@Input directive",
-            "@Output directive",
-            "Lifecycle hooks of components"
+            "Linux command syntax",
+            "Files and directory permissions (chmod)",
+            "File permissions using numeric mode",
+            "File ownership commands (Chown, chgrp)",
+            "Access control list (ACL)",
+            "Help commands",
+            "TAB completion and Up Arrow Keys",
+            "Adding text to files",
+            "Input and output redirects (>,>>,<,stdin, stdout and stderr)",
+            "Standard output to a file (tee command)",
+            "Pipes (|)",
+            "File maintenance commands (cp,rm,mv,mkdir,rmdir)",
+            "File display commands (cat, less, more, head, tail)",
+            "Filters/text processing commands",
+            "cut - Text processors commands",
+            "awk - Text processors commands",
+            "grep/egrep - Text processors commands",
+            "sort/uniq - Text processors commands",
+            "wc - Text processors commands",
+            "Compare files (diff and cmp)",
+            "Compress and uncompress (tar, gzip, gunzip)",
+            "Truncate file size (truncate)",
+            "Combining and splitting files",
+            "Linux vs windows commands",
+            "Quiz",
+            "Homwwork",
+            "Handouts"
+
           ]
         },
         {
           "no": 6,
-          "title": "Angular Directives",
+          "title": "System administration",
           "content": [
-            "Types of Directives <ul><li>Components</li><li>Attribute Directives<li>Structural Directives<ul><li>ngFor</li><li>ngIf</li></ul><li>ngSwitchcase</li><li>ngClass and ngStyle</li></ul>"
+            "Linux file editor (vi)",
+            "Difference between vi and vim editors",
+            "'sed' command",
+            "User accound management (useradd, groupadd, usermod, userdel, groupdel)",
+            "Enable password aging",
+            "Switch users and sudo access (su, sudo)",
+            "Monitor users (users, wall, write)",
+            "Linux directory service - account authentication",
+            "Difference between active directory, LDAP, IDM, WinBIND, OpenLDAP etc.",
+            "System utility commands (date, uptime, hostname, uname, which, cal, bc)",
+            "Processes, Jobs and scheduling",
+            "Systemctl command",
+            "ps command",
+            "top command",
+            "kill command",
+            "crontb command",
+            "at command",
+            "Additional cronjobs (hourly, daily, weekly, monthly)",
+            "Process management (bg, fg, nice)",
+            "System monitoring commands (df, dmesg, iostat 1,netstat, free, top)",
+            "System Logs Monitor (/Vag/log)",
+            "Quiz",
+            "Homework"
           ]
         },
         {
           "no": 7,
-          "title": "Angular Pipes",
+          "title": "Shell scripting",
           "content": [
-            "Parent-Child component Structure  in Angular",
-            "@Input directive",
-            "@Output directive",
-            "Lifecycle hooks of components"
-          ]
-        },
-        {
-          "no": 8,
-          "title": " Working on Services",
-          "content": [
-            "Why and what is a Service",
-            "Creation of services in Angular",
-            "Utilizing Service"
-          ]
-        }
-      ],
-      [
-        {
-          "no": 9,
-          "title": "Demystifying HttpObservables",
-
-          "content": [
-            "What is Observable",
-            "mplementing Observable Service",
-            "Communicating with server via observable in Angular"
-          ]
-        },
-        {
-          "no": 10,
-          "title": "Learning Routing in Angular",
-
-          "content": [
-            "What is routing",
-            "Steps for creation of routing",
-            "Route Matching Strategies",
-            "Working with Route Parameters",
-            "Working with Route Guards",
-            "Working with Child Route",
-            "Lazy Module Loading"
-          ]
-        },
-        {
-          "no": 11,
-          "title": " Working with Forms and Reactive Forms",
-
-          "content": [
-            "Forms <ul><li>Types of forms</li><li>Building blocks</li><li>Creating Forms</li><li>Data flow mechanism</li></ul>",
-            "Reactive Forms<ul><li>Building Reactive Form</li><li>Update elements</li><li>Nested FormGroup</li><li>setValue and setPatch</li><li>Working with FormBuilder</li><li>Playing with Dynamic Form</li</ul>",
-            "Communicating with server via observable in Angular"
-          ]
-        },
-        {
-          "no": 12,
-          "title": "Template Driven Forms",
-
-          "content": [
-            "Building Template Driven Forms",
-            "Playing with two-way data binding using ngModel",
-            "ngModel Validations",
-            "Submitting the form"
-          ]
-        },
-        {
-          "no": 13,
-          "title": "Demystifying HttpObservables",
-
-          "content": [
-            "Implement Template Driven Form Validation",
-            "Reactive Form Validation",
-            "Develop Custom Validations",
-            "Cross Field Validations"
-          ]
-        },
-        {
-          "no": 14,
-          "title": "Working with i18N",
-
-          "content": [
-            "Need for i18N",
-            "Step by step setup of i18N support",
-            "Steps for i18N",
-            "Demystifying language information file",
-            "Managing configuration file"
-          ]
-        },
-        {
-          "no": 15,
-          "title": "Demystifying HttpObservables",
-
-          "content": [
-            "Importance of Testing & Debugging",
-            "Types of testing in Angular",
-            "Working on Karma",
-            "How to test angular components and services"
-          ]
-        },
-        {
-          "no": 16,
-          "title": "Real Life Angular Projects",
-
-          "content": [
-            "What is Observable",
-            "Live Angular projects based on real industry scenarios. Work on real life problems and handle become industry ready"
+            "What is Shell?",
+            "Types of shells",
+            "Basic Shell scripts",
+            "Input and output of script",
+            "if-then scripts",
+            "for loop scripts",
+            "do-while scripts",
+            "Case statement scripts"
           ]
         }
       ]
@@ -9562,7 +9541,7 @@
     "features": [
       {
         "img": "./images/course-img/course-features/time.png",
-        "title": "20+ Hrs instructor based video lessons"
+        "title": "35+ Hrs instructor based video lessons"
       },
       {
         "img": "./images/course-img/course-features/support.png",
@@ -9618,13 +9597,14 @@
         {
           "que": "What will the end result be of this online Linux training course?",
           "ans": "When you finish this course, you will be equipped with practical skills and theoretical knowledge the industry looks for. You will bloom into a certified Linux professional who is ready to take on Linux Projects in top organizations."
-        },
+        }
+        
+      ],
+      [
         {
           "que": "Where do all the students come from?",
           "ans": "We have a blend of students from across the globe. Apart from India, we provide training in the US, the UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, and many others covering the globe."
-        }
-      ],
-      [
+        },
         {
           "que": "Is this Linux training classroom-based or online?",
           "ans": "This training is completely online and self-paced."
@@ -9643,7 +9623,7 @@
         },
         {
           "que": "Do you provide placement assistance?",
-          "ans": "This Linux course from us is 100% job-oriented and will prepare you completely for interviews from Linux job perspective."
+          "ans": "This Linux course is 100% job-oriented and will prepare you completely for interviews from Linux job perspective."
         },
         {
           "que": "Can I attend a demo session before enrolling for this Linux course?",
@@ -9657,12 +9637,12 @@
     "courseName": "Microsoft Azure Certification Course in English",
     "bannerImg": "./images/course-img/course-banner/Microsoft-Azure.png",
     "shortName": "Microsoft Azure",
-    "overview": "Microsoft Azure course offers a perfect blend of in-depth theoretical knowledge and strong practical skills via implementation of real-life projects to give you a headstart and enable you to bag top Microsoft Azure jobs in the industry.",
+    "overview": "Microsoft Azure is one of the most popular public clouds in the industry, and it gets bigger and bigger by the day.If you'll take this course, you'll become a real expert in Microsoft Azure.We start from the very basics.",
     "reasons": {
       "enroll": [
         [
-          "3 Real-time projects + tons of live practicals",
-          "70+ hrs of study material, quizzes & manuals"
+          "Real-time projects + tons of live practicals",
+          "20+ hrs of study material, quizzes & manuals"
         ],
         [
           "Practical oriented course with case-studies",
@@ -9671,38 +9651,34 @@
       ],
       "learn": [
         [
-          "Learn how to work with Microsoft Azure",
-          " Grasp concepts of Microsoft Azure",
-          " Understand the Microsoft Azure architecture",
-          " Basics to advanced concepts of Microsoft Azure"
+          "Basic terminology of the cloud: Regions, Zones, etc.",
+          "Working with the Azure portal",
+          "Fundamentals of Microsoft Azure - Resource Groups, Storage Account, Budgets and more",
+          "Architecting applications for Azure"
         ],
         [
-          "Develop real-time Microsoft Azure applications",
-          "Master the advanced concepts",
-          "Work on live project to get hands-on experience"
+          "How to secure your apps in Azure",
+          "Manage costs in Azure",
+          "How to migrate existing applications to Azure"
         ]
       ]
     },
     "why": [
       {
-        "title": "Angular ranked second in “most used technology” in the Stack Overflow Survey",
-        "src": "Stack Overflow"
+        "title": "Microsoft Azure certifications are very important when pursuing a career in cloud computing",
+        "src": "Cloud academy"
       },
       {
-        "title": "Developed, maintained, managed and monitored by Google Developers",
+        "title": "It is Easy to Learn for New Developers",
         "src": "Google"
       },
       {
-        "title": "Average base pay of an Angular Developers is more than INR 460,000 per year in India",
+        "title": "The national average salary for an Azure Developer is $102,958 per year in United States.",
         "src": "Glassdoor"
       },
       {
-        "title": "The world’s most valuable resource is Big Data, no longer oil.",
-        "src": "The Economist"
-      },
-      {
-        "title": "Rapid application development, Plays a role of front end in MEAN stack development",
-        "src": ""
+        "title": "It is in High Demand at The Moment.",
+        "src": "Google"
       }
     ],
     "prerequisite": {
@@ -9714,167 +9690,232 @@
       [
         {
           "no": 1,
-          "title": "Diving into Angular",
+          "title": "Welcome",
           "content": [
-            "What is Angular",
-            "Angular or Angular JS?",
-            "History and Version Releases",
-            "Why Angular is most popular web development framework?"
+            "Course introduction",
+            "How this course is organized"
           ]
         },
         {
           "no": 2,
-          "title": "Getting Ready to Learn Angular",
+          "title": "Introduction to the cloud",
           "content": [
-            "Pre-requisite",
-            "Software installation and configurations",
-            "Upgrading the existing Angular version to the latest version",
-            "Create the first Angular Application"
+            "Current status in computing",
+            "What is the cloud?",
+            "Characteristics of the cloud",
+            "CapEx vs OpEx",
+            "IaaS, PaaS, SaaS",
+            "Types of clouds",
+            "Mian cloud providers"
           ]
         },
         {
           "no": 3,
-          "title": "Angular Architecture",
+          "title": "Introduction to Azure",
           "content": [
-            "Building blocks of Angular",
-            "Building blocks of Angular <ul><li>Component</li><li>Services</li></ul>",
-            "Exploring first application - Hello world"
+            "Introduction",
+            "Regions and Zones",
+            "Azure Services",
+            "Creating Account"
           ]
         },
         {
           "no": 4,
-          "title": "Working with Angular Components",
+          "title": "First look at Azure",
           "content": [
-            "Customizing appComponent",
-            "Data Binding",
-            "Life Cycle of Component",
-            "Adding new Component"
+            "The Azure portal",
+            "Accessing the portal in the future",
+            "Account and subscription",
+            "Changes in Azure Portal",
+            "Creating Resource",
+            "Finding the resource",
+            "The resource page",
+            "Removing a resource",
+            "Azure CLI & PowrShell"
           ]
         },
         {
           "no": 5,
-          "title": "Component Interaction and Lifecycle hooks",
+          "title": "Azure basic concepts",
           "content": [
-            "Parent-Child component Structure",
-            "@Input directive",
-            "@Output directive",
-            "Lifecycle hooks of components"
+            "Regions",
+            "Resource groups",
+            "Storage accounts",
+            "Nested Classes, Visibility Rules",
+            "SLA",
+            "SLA calculators",
+            "Cost",
+            "Setting budget",
+            "Architects and the cloud"
           ]
         },
         {
           "no": 6,
-          "title": "Angular Directives",
+          "title": "Introducing our app",
           "content": [
-            "Types of Directives <ul><li>Components</li><li>Attribute Directives<li>Structural Directives<ul><li>ngFor</li><li>ngIf</li></ul><li>ngSwitchcase</li><li>ngClass and ngStyle</li></ul>"
+            "Introduction",
+            "Rdadlt demo",
+            "Installing .NET SDK",
+            "Installing VS code",
+            "Installing Extensions",
+            "Troubleshooting the local Catalog",
+            "Running the catalog locally",
+            "Going throught the code"
           ]
-        },
+        }
+        
+      ],
+      [
         {
           "no": 7,
-          "title": "Angular Pipes",
+          "title": "Azure Compute",
           "content": [
-            "Parent-Child component Structure  in Angular",
-            "@Input directive",
-            "@Output directive",
-            "Lifecycle hooks of components"
+            "Introduction",
+            "Virtual Machines",
+            "Creating Virtual Machine",
+            "The real cost of VM",
+            "Reducing the cost of VM",
+            "Availability of VMs",
+            "Creating Available & cost effective VM",
+            "ARM template",
+            "Using ARM template",
+            "Deleting Virtual Machines",
+            "Using Scale Set",
+            "Azure Instance Metadata services",
+            "ReadIt Resources Helper List",
+            "Setting up the catalog app",
+            "Setting up the weather API",
+            "Azure architecture diagrams",
+            "A word of caution",
+            "Shut down the machines",
+            "App services",
+            "App service tiers",
+            "AKS",
+            "Containers",
+            "Introduction to Docker",
+            "Containers management",
+            "Introduction to Kubernetes",
+            "Installing Docker on Windows 10/11 home",
+            "Azure Functions",
+            "Azure Functions hosting planc",
+            "Durable functions",
+            "Running Functions locally",
+            "Current Architecture",
+            "How to choose computer type",
+            "More compute options",
+            "Quiz"
           ]
         },
         {
           "no": 8,
-          "title": " Working on Services",
+          "title": "Azure Networking",
           "content": [
-            "Why and what is a Service",
-            "Creation of services in Angular",
-            "Utilizing Service"
+            "Networking in Azure",
+            "Virtual networks",
+            "CIDR notation",
+            "Subnets",
+            "Looking at the ReadIt VNet",
+            "Creating a virtual network",
+            "Working with VNets",
+            "Network security groups",
+            "Setting up the catalog's NSG",
+            "Setting up the weather API's NSG",
+            "Moving the weather API to a new subnet",
+            "Network peering",
+            "Moving the weather API to a new VNet",
+            "Using network peering",
+            "Network topology",
+            "Current architecture",
+            "Secure VM access",
+            "Application gateway and AKS",
+            "Application gateway and Function Apps",
+            "Current Architecture",
+            "Secure network design"
           ]
-        }
-      ],
-      [
+        },
         {
           "no": 9,
-          "title": "Demystifying HttpObservables",
+          "title": "Data in Azure",
 
           "content": [
-            "What is Observable",
-            "mplementing Observable Service",
-            "Communicating with server via observable in Angular"
+            "Introduction",
+            "Major database features",
+            "Database on VM",
+            "Azure SQL",
+            "Which Azure SQL to choose?",
+            "Creating and connecting to Azure SQL",
+            "Connecting the catalog to the database",
+            "Securing the database connection",
+            "Connecting the inventory to the database",
+            "Cosmos DB",
+            "SQL vs NoSQL databases",
+            "Azure MySQL",
+            "Creating and using Azure MySQL",
+            "Azure PostgreSQL",
+            "Azure Blob storage pricing",
+            "Creating and using storage account",
+            "Azure storage explorer name change",
+            "Azure Redis",
+            "Creating Redis and connection the catalog",
+            "Connecting the shopping cart to Redis",
+            "Current architecture",
+            "Quiz"
           ]
         },
         {
           "no": 10,
-          "title": "Learning Routing in Angular",
+          "title": "Messaging in Azure",
 
           "content": [
-            "What is routing",
-            "Steps for creation of routing",
-            "Route Matching Strategies",
-            "Working with Route Parameters",
-            "Working with Route Guards",
-            "Working with Child Route",
-            "Lazy Module Loading"
+            "Messaging in Azure",
+            "Storage queue",
+            "Using storage queue",
+            "Event grid",
+            "Connecting event grid to the orders function",
+            "Connecting the shopping cart to the storage account",
+            "Protecting the orders function",
+            "Service bus",
+            "Event Hubs",
+            "Selecting messaging solution",
+            "Current architecture",
+            "Quiz"
           ]
         },
         {
           "no": 11,
-          "title": " Working with Forms and Reactive Forms",
+          "title": "Azure AD",
 
           "content": [
-            "Forms <ul><li>Types of forms</li><li>Building blocks</li><li>Creating Forms</li><li>Data flow mechanism</li></ul>",
-            "Reactive Forms<ul><li>Building Reactive Form</li><li>Update elements</li><li>Nested FormGroup</li><li>setValue and setPatch</li><li>Working with FormBuilder</li><li>Playing with Dynamic Form</li</ul>",
-            "Communicating with server via observable in Angular"
+            "Introduction",
+            "Tenants",
+            "A look around Azure AD",
+            "Users and groups",
+            "Working with users and groups",
+            "Azure AD licenses",
+            "MFA",
+            "Security defaults",
+            "RDD abstraction, interfacing, and creation of RDDs",
+            "Azure roles",
+            "Managed identities",
+            "Using managed identity with the inventory app service",
+            "Using Azure AD to authenticate our APP",
+            "OAuth & JWT",
+            "Configuration Azure AD and the inventory app service for authentication",
+            "Adapting the inventory code and using Azure AD",
+            "Azure AD B2C",
+            "Current architecture",
+            "Synchronizing Azure AD with On-Prem AD",
+            "Quiz"
           ]
         },
         {
           "no": 12,
-          "title": "Template Driven Forms",
+          "title": "Conclusion",
 
           "content": [
-            "Building Template Driven Forms",
-            "Playing with two-way data binding using ngModel",
-            "ngModel Validations",
-            "Submitting the form"
-          ]
-        },
-        {
-          "no": 13,
-          "title": "Demystifying HttpObservables",
-
-          "content": [
-            "Implement Template Driven Form Validation",
-            "Reactive Form Validation",
-            "Develop Custom Validations",
-            "Cross Field Validations"
-          ]
-        },
-        {
-          "no": 14,
-          "title": "Working with i18N",
-
-          "content": [
-            "Need for i18N",
-            "Step by step setup of i18N support",
-            "Steps for i18N",
-            "Demystifying language information file",
-            "Managing configuration file"
-          ]
-        },
-        {
-          "no": 15,
-          "title": "Demystifying HttpObservables",
-
-          "content": [
-            "Importance of Testing & Debugging",
-            "Types of testing in Angular",
-            "Working on Karma",
-            "How to test angular components and services"
-          ]
-        },
-        {
-          "no": 16,
-          "title": "Real Life Angular Projects",
-
-          "content": [
-            "What is Observable",
-            "Live Angular projects based on real industry scenarios. Work on real life problems and handle become industry ready"
+            "Download the Azure architecture summary",
+            "Conclusion",
+            "Bonus: next steps"
           ]
         }
       ]
@@ -9903,7 +9944,7 @@
     ],
     "forWho": {
       "que": "Is this Microsoft Azure Course for you?",
-      "ans": "Microsoft Azure, often referred to as Azure , is a cloud computing platform operated by Microsoft that provides access, management, and development of applications and services via globally-distributed data centers. So while anyone can benefit from a career in it, here are the kind of professionals who go for this Microsoft Azure course:<ul><li>Software developers, engineers</li><li>Sr/Jr Frontend developers</li><li>System Architect</li><li>UI/Ux Designers</li><li>Any graduate focusing to build a career in Angular</li></ul>"
+      "ans": "Microsoft Azure, often referred to as Azure , is a cloud computing platform operated by Microsoft that provides access, management, and development of applications and services via globally-distributed data centers. So while anyone can benefit from a career in it, here are the kind of professionals who go for this Microsoft Azure course:<ul><li>Software Architects</li><li>Developers</li><li>IT Admins</li><li>DevOps experts</li><li>Anyone who wants to learn about Microsoft Azure :-)</li></ul>"
     },
     "companies": {
       "title": "Companies you can expect when you get Microsoft Azure-certified with us",
@@ -9938,13 +9979,14 @@
         {
           "que": "What will the end result be of this online Microsoft Azure training course?",
           "ans": "When you finish this course, you will be equipped with practical skills and theoretical knowledge the industry looks for. You will bloom into a certified Microsoft Azure professional who is ready to take on Microsoft Azure Projects in top organizations."
-        },
+        }
+        
+      ],
+      [
         {
           "que": "Where do all the students come from?",
           "ans": "We have a blend of students from across the globe. Apart from India, we provide training in the US, the UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, and many others covering the globe."
-        }
-      ],
-      [
+        },
         {
           "que": "Is this Microsoft Azure training classroom-based or online?",
           "ans": "This training is completely online and self-paced."
@@ -9982,7 +10024,7 @@
       "enroll": [
         [
           "3 Real-time projects + tons of live practicals",
-          "70+ hrs of study material, quizzes & manuals"
+          "20+ hrs of study material, quizzes & manuals"
         ],
         [
           "Practical oriented course with case-studies",
@@ -10012,24 +10054,16 @@
     },
     "why": [
       {
-        "title": "Angular ranked second in “most used technology” in the Stack Overflow Survey",
-        "src": "Stack Overflow"
-      },
-      {
-        "title": "Developed, maintained, managed and monitored by Google Developers",
+        "title": "Premiere Pro (Pr) is a video editing software that is part of the Adobe Creative Cloud.",
         "src": "Google"
       },
       {
-        "title": "Average base pay of an Angular Developers is more than INR 460,000 per year in India",
-        "src": "Glassdoor"
+        "title": "Premiere Pro program may be used for producing broadcast-quality and high-definition videos.",
+        "src": "Google"
       },
       {
-        "title": "The world’s most valuable resource is Big Data, no longer oil.",
-        "src": "The Economist"
-      },
-      {
-        "title": "Rapid application development, Plays a role of front end in MEAN stack development",
-        "src": ""
+        "title": "As of Apr 28, 2023, the average annual pay for an Adobe Premiere Pro in the United States is $57,070 a year",
+        "src": "Zip Recuriter"
       }
     ],
     "prerequisite": {
@@ -10311,8 +10345,8 @@
     "reasons": {
       "enroll": [
         [
-          "3 Real-time projects + tons of live practicals",
-          "70+ hrs of study material, quizzes & manuals"
+          "Real-time projects + tons of live practicals",
+          "20+ hrs of study material, quizzes & manuals"
         ],
         [
           "Practical oriented course with case-studies",
@@ -10334,24 +10368,20 @@
     },
     "why": [
       {
-        "title": "Angular ranked second in “most used technology” in the Stack Overflow Survey",
-        "src": "Stack Overflow"
-      },
-      {
-        "title": "Developed, maintained, managed and monitored by Google Developers",
+        "title": "Photoshop is a photo editing",
         "src": "Google"
       },
       {
-        "title": "Average base pay of an Angular Developers is more than INR 460,000 per year in India",
+        "title": "It can help you create stunning visuals.",
+        "src": "Google"
+      },
+      {
+        "title": "The estimated total pay for a Photoshop is $58,322 per year in the United States area, with an average salary of $54,032 per year.",
         "src": "Glassdoor"
       },
       {
-        "title": "The world’s most valuable resource is Big Data, no longer oil.",
-        "src": "The Economist"
-      },
-      {
-        "title": "Rapid application development, Plays a role of front end in MEAN stack development",
-        "src": ""
+        "title": "Graphic & web designers should learn Photoshop.",
+        "src": "Google"
       }
     ],
     "prerequisite": {
@@ -10631,12 +10661,12 @@
     "courseName": "Microsoft Word Certification Course in English",
     "bannerImg": "./images/course-img/course-banner/microsoft-word.jpg",
     "shortName": "Microsoft Word",
-    "overview": "Photoshop is a photo editing and raster graphic design software developed by Adobe Systems for both Windows and MacOS. It allows users to create, edit, and manipulate various graphics as well as digital art. Photoshop provides many image editing features for pixel-based images, raster graphics, and vector graphics",
+    "overview": "Microsoft Word is the most popular word processor in use today.A strong understanding of Word can pay serious dividends in your productivity, efficiency, and the appearance of your documents. With this course, you'll learn to put your most professional written work out there. ",
     "reasons": {
       "enroll": [
         [
-          "3 Real-time projects + tons of live practicals",
-          "70+ hrs of study material, quizzes & manuals"
+          "Live practicals",
+          "1+ hrs of study material, quizzes & manuals"
         ],
         [
           "Practical oriented course with case-studies",
@@ -10645,37 +10675,33 @@
       ],
       "learn": [
         [
-          "Have a complete and comprehensive knowledge of the tools inside Photoshop CC.",
-          "Learn to 'photoshop' your pictures, like an expert! You will learn how to take even the shabbiest looking drab photograph from your cellphone, and convert it into a head-turner.",
-          "Learn to retouch, heal and apply filters to photographs!"
+          "How to create new or open existing document",
+          "Learn Cut, Copy, Paste, and Paste special commands and shortcuts, and how to locate other 'scraps' from the clipboard",
+          "Learn advanced concepts"
         ],
         [
-          "Become a full time graphic designer or a freelancer and get amazing gigs.",
-          "Learn Color Correction, Color Grading and several effects that you can apply to Photographs inside Photoshop.",
-          "Learn Creative styles to apply to photos; Make them look Jaw-dropping awesome!"
+          "Insert and manage headers, footers and page numbers",
+          "Use the accessibility checker",
+          "Introduce and manage changes to shared documents."
         ]
       ]
     },
     "why": [
       {
-        "title": "Angular ranked second in “most used technology” in the Stack Overflow Survey",
-        "src": "Stack Overflow"
+        "title": "Microsoft Word is the most popular word processor in use today. ",
+        "src": "Udemy"
       },
       {
-        "title": "Developed, maintained, managed and monitored by Google Developers",
+        "title": "It is used across industries in virtually any position requiring communication skills.",
         "src": "Google"
       },
       {
-        "title": "Average base pay of an Angular Developers is more than INR 460,000 per year in India",
-        "src": "Glassdoor"
+        "title": "Employees who knows Microsoft Word earn an average of $169k, mostly ranging from $120k per year to $311k per year based on 45 profiles.",
+        "src": "6figr"
       },
       {
-        "title": "The world’s most valuable resource is Big Data, no longer oil.",
-        "src": "The Economist"
-      },
-      {
-        "title": "Rapid application development, Plays a role of front end in MEAN stack development",
-        "src": ""
+        "title": "Hundreds of thousands of job positions require Microsoft Word as a skill.",
+        "src": "Google"
       }
     ],
     "prerequisite": {
@@ -10687,178 +10713,100 @@
       [
         {
           "no": 1,
-          "title": "Introduction",
+          "title": "Welcome and what you will learn",
           "content": [
-            "Introduction"
+            "Introduction",
+            "What is Microsoft 365"
           ]
         },
         {
           "no": 2,
-          "title": "Photoshop basics",
+          "title": "Open, save and print",
           "content": [
-            "Understanding the photoshop interface",
-            "Customize your workspace and panels",
-            "Create a new Photoshop file",
-            "Place photos and graphics in your project",
-            "Moving & zooming around a project",
-            "Use artboards in your photoshop workflow"
+            "Open",
+            "Save",
+            "Print"
           ]
         },
         {
           "no": 3,
-          "title": "Understand layer panels",
+          "title": "Insert and edit text",
           "content": [
-            "The layers panel",
-            "Aligning layers in photoshop",
-            "Organizing the layers panel",
-            "Linking layers",
-            "Adding layer styles and adjustments",
-            "Using layer masks project: Photo Compositing Basics (Resizing and placing layers",
-            "Project solution: photo compositing basics (Resizing and placing layers)"
+            "Insert new text",
+            "Setting tabs",
+            "Using the clipboard",
+            "Find and replace"
             
           ]
         },
         {
           "no": 4,
-          "title": "The selection tools",
+          "title": "Formatting text",
           "content": [
-            "Intro to the selection tools",
-            "The magic wand and object selection tools",
-            "Improving edge selections with the refine edge tools",
-            "Selecting a specific color",
-            "Easily remove objects from a photo with content aware fill",
-            "Project: Abstract art graphic",
-            "Project solution: Abstract art graphic"
+            "Font and size",
+            "Bold, italic and underline",
+            "Styles pane",
+            "Format painter tool and remove formatting button",
+            "Line spacing and paragraph alignment"
           ]
-        },
+        }
+        
+      ],
+      [
         {
           "no": 5,
-          "title": "Titles and text",
+          "title": "Organize text",
           "content": [
-            "Adding text to your projects",
-            "Warping text",
-            "Making text follow a linear or shape",
-            "Project: Design a poster with just text",
-            "Project solution: design a poster with just text"
+            "Setting tabs",
+            "Sorting text A-Z",
+            "Columns",
+            "Bullets and numbering"
           ]
         },
         {
           "no": 6,
-          "title": "Layer styles",
+          "title": "Format page",
           "content": [
-            "How to add a line (Stroke) around your layers",
-            "Adding glow to your layers",
-            "Adding level and emboss to your layers",
-            "More layer styles"
+            "Headers, footers and page numbers",
+            "Page and section breaks",
+            "Margins and orientation",
+            "Borders and shading"
           ]
         },
         {
           "no": 7,
-          "title": "Blend modes",
+          "title": "Images and shapes",
           "content": [
-           "Introduction to Blend Modes",
-           "Easily remove a black or white background with blend modes",
-           "How to create space inside a juice glass",
-           "Creating a camera flare with blend modes",
-           "Project: design a modern graphic with blend modes",
-           "Project solution: design a modern graphic with blend modes"
+           "Insert and format images",
+           "Insert or draw a shape"
           ]
         },
         {
           "no": 8,
-          "title": "The filter gallery cc",
+          "title": "Tools for improving your Microsoft Word experience",
           "content": [
-            "The filter gallery",
-            "Adjusting the strength of a filter"
+            "Spelling and grammar check",
+            "Dictate and read aloud",
+            "Changing your view",
+            "Accessibility checker"
           ]
-        }
-      ],
-      [
+        },
         {
           "no": 9,
-          "title": "Retouching photos in Photoshop",
+          "title": "Share document",
 
           "content": [
-            "Intro to retouching and how to remove blemishes in Photoshop",
-            "Smoothing skin",
-            "Removing bags under the eye",
-            "Professional dodging and burning to enhance a portrait",
-            "Enhance Eye color",
-            "Enhancing the eyes",
-            "Using the powerful liquify tool"
-          ]
-        },
-        {
-          "no": 10,
-          "title": "Editing raw photos with camera raw",
-
-          "content": [
-            "Intro to editing with camera RAW",
-            "Cropping photos in camera RAW",
-            "White balance adjustments",
-            "Proper photo editing workflow",
-            "Exposure and brightness adjustments",
-            "Color and saturation adjustments",
-            "Sharpening and noise reduction",
-            "Tone curve adjustments",
-            "Effects like vignettes, grain and dehaze",
-            "Saving photos from camera raw",
-            "HSL and grayscale adjustments",
-            "Lens corrections",
-            "Spot removal and blemish removal",
-            "Targeted adjustments",
-            "Straighten and transform tools",
-            "Graduated, radial and brush filters",
-            "Range masks",
-            "A full landscape edit",
-            "A full portrait edit",
-            "Editing together an HDR photo"
-          ]
-        },
-        {
-          "no": 11,
-          "title": "Adobe library",
-
-          "content": [
-           "Speed up your workflow with the adobe library"
-          ]
-        },
-        {
-          "no": 12,
-          "title": "Saving and exporting",
-
-          "content": [
-            "How to save your Photoshop project and export it for any purpose",
-            "Quickly save JPEGs from Photoshop",
-            "Exporting projects using Artboards"
-          ]
-        },
-        {
-          "no": 13,
-          "title": "Full length projects",
-
-          "content": [
-           "Intro to these additional project demonstrations",
-           "Project: Fantasy Walk",
-           "Project: Badge logo",
-           "Project: Mystical cat",
-           "Project: Infographic"
-          ]
-        },
-        {
-          "no": 14,
-          "title": "Conclusion",
-
-          "content": [
-            "Thanks"
+            "Collaborate in the cloud - upload and share",
+            "Collaborate in the cloud - comment and edit"
           ]
         }
+        
       ]
     ],
     "features": [
       {
         "img": "./images/course-img/course-features/time.png",
-        "title": "20+ Hrs instructor based video lessons"
+        "title": "1+ Hrs instructor based video lessons"
       },
       {
         "img": "./images/course-img/course-features/support.png",
@@ -10953,12 +10901,12 @@
     "courseName": "Microsoft Excel Certification Course in English",
     "bannerImg": "./images/course-img/course-banner/microsoft-excel.jpg",
     "shortName": "Microsoft Excel",
-    "overview": "Photoshop is a photo editing and raster graphic design software developed by Adobe Systems for both Windows and MacOS. It allows users to create, edit, and manipulate various graphics as well as digital art. Photoshop provides many image editing features for pixel-based images, raster graphics, and vector graphics",
+    "overview": "Electronic spreadsheet programs were originally based on paper spreadsheets used for accounting. This course will help you to learn Microsoft Excel.",
     "reasons": {
       "enroll": [
         [
-          "3 Real-time projects + tons of live practicals",
-          "70+ hrs of study material, quizzes & manuals"
+          "Live practicals",
+          "2+ hrs of study material, quizzes & manuals"
         ],
         [
           "Practical oriented course with case-studies",
@@ -10967,37 +10915,29 @@
       ],
       "learn": [
         [
-          "Have a complete and comprehensive knowledge of the tools inside Photoshop CC.",
-          "Learn to 'photoshop' your pictures, like an expert! You will learn how to take even the shabbiest looking drab photograph from your cellphone, and convert it into a head-turner.",
-          "Learn to retouch, heal and apply filters to photographs!"
+          "Learn Excel in a fun, interactive, and entertaining manner (no sleeping in this course)",
+          "Gain powerful insights into your data using PivotTables and Slicers.",
+          "Organize and dissect large quantities of data using Text-to-Columns, Conditional Formatting, Sorting"
         ],
         [
-          "Become a full time graphic designer or a freelancer and get amazing gigs.",
-          "Learn Color Correction, Color Grading and several effects that you can apply to Photographs inside Photoshop.",
-          "Learn Creative styles to apply to photos; Make them look Jaw-dropping awesome!"
+          "Wow your team with powerful formulas such as VLOOUP, IF, SUMIFS, and more!",
+          "Master keyboard shortcuts and become the Usain Bolt of Excel",
+          "Practice your skills multiple times using real-life case studies"
         ]
       ]
     },
     "why": [
       {
-        "title": "Angular ranked second in “most used technology” in the Stack Overflow Survey",
+        "title": "Microsoft Excel is used to create budgets, organize revenue statements and more",
         "src": "Stack Overflow"
       },
       {
-        "title": "Developed, maintained, managed and monitored by Google Developers",
-        "src": "Google"
-      },
-      {
-        "title": "Average base pay of an Angular Developers is more than INR 460,000 per year in India",
-        "src": "Glassdoor"
-      },
-      {
-        "title": "The world’s most valuable resource is Big Data, no longer oil.",
-        "src": "The Economist"
-      },
-      {
-        "title": "Rapid application development, Plays a role of front end in MEAN stack development",
+        "title": "It will help you to get a job",
         "src": ""
+      },
+      {
+        "title": "Average salary for Microsoft Excel skill is $64k",
+        "src": "Payscale"
       }
     ],
     "prerequisite": {
@@ -11011,168 +10951,85 @@
           "no": 1,
           "title": "Introduction",
           "content": [
-            "Introduction"
+            "Introduction",
+            "Workbook overview"
           ]
         },
         {
           "no": 2,
-          "title": "Photoshop basics",
+          "title": "Formatting and keyboar shortcuts",
           "content": [
-            "Understanding the photoshop interface",
-            "Customize your workspace and panels",
-            "Create a new Photoshop file",
-            "Place photos and graphics in your project",
-            "Moving & zooming around a project",
-            "Use artboards in your photoshop workflow"
+            "Font coloring & assumptions",
+            "Other formatting best practices",
+            "Basic keyboard shortcuts",
+            "Basic keyboard shortcuts II",
+            "The almighty alt key",
+            "Customizing the quick access toolbar",
+            "Ctrl + Shift key",
+            "Quiz"
           ]
         },
         {
           "no": 3,
-          "title": "Understand layer panels",
+          "title": "Formula",
           "content": [
-            "The layers panel",
-            "Aligning layers in photoshop",
-            "Organizing the layers panel",
-            "Linking layers",
-            "Adding layer styles and adjustments",
-            "Using layer masks project: Photo Compositing Basics (Resizing and placing layers",
-            "Project solution: photo compositing basics (Resizing and placing layers)"
+            "Absolute call references",
+            "SUMIFS pt.I",
+            "SUMIFS pt.II",
+            "COUNTIFS",
+            "VLOOKUP introduction",
+            "VLOOKUP formula",
+            "VLOOKUP common pitfalls",
+            "Case study - part 1",
+            "Case study - part 2",
+            "Quiz"
             
           ]
         },
         {
           "no": 4,
-          "title": "The selection tools",
+          "title": "Formula II",
           "content": [
-            "Intro to the selection tools",
-            "The magic wand and object selection tools",
-            "Improving edge selections with the refine edge tools",
-            "Selecting a specific color",
-            "Easily remove objects from a photo with content aware fill",
-            "Project: Abstract art graphic",
-            "Project solution: Abstract art graphic"
+            "IF statements",
+            "Nested IF statements",
+            "EDATE and EOMONTH",
+            "YEAR,MONTH and DAY",
+            "LEFT, RIGHT and MID",
+            "TRIM",
+            "Quiz"
           ]
         },
         {
           "no": 5,
-          "title": "Titles and text",
+          "title": "Working w/Date and conditional formatting",
           "content": [
-            "Adding text to your projects",
-            "Warping text",
-            "Making text follow a linear or shape",
-            "Project: Design a poster with just text",
-            "Project solution: design a poster with just text"
+            "Text to columns",
+            "Remove duplicates",
+            "Conditional formating part 1",
+            "Conditional formating part 2",
+            "Conditional formating part 3",
+            "Quiz"
           ]
         },
         {
           "no": 6,
-          "title": "Layer styles",
+          "title": "Pivot tables & slicers",
           "content": [
-            "How to add a line (Stroke) around your layers",
-            "Adding glow to your layers",
-            "Adding level and emboss to your layers",
-            "More layer styles"
+            "Introduction",
+            "Drilling into our data",
+            "Formatting our PivotTable",
+            "Slicers",
+            "Case study 2 Part 1",
+            "Case study 2 Part 2",
+            "Case study 2 Part 3",
+            "Quix"
           ]
         },
         {
           "no": 7,
-          "title": "Blend modes",
-          "content": [
-           "Introduction to Blend Modes",
-           "Easily remove a black or white background with blend modes",
-           "How to create space inside a juice glass",
-           "Creating a camera flare with blend modes",
-           "Project: design a modern graphic with blend modes",
-           "Project solution: design a modern graphic with blend modes"
-          ]
-        },
-        {
-          "no": 8,
-          "title": "The filter gallery cc",
-          "content": [
-            "The filter gallery",
-            "Adjusting the strength of a filter"
-          ]
-        }
-      ],
-      [
-        {
-          "no": 9,
-          "title": "Retouching photos in Photoshop",
-
-          "content": [
-            "Intro to retouching and how to remove blemishes in Photoshop",
-            "Smoothing skin",
-            "Removing bags under the eye",
-            "Professional dodging and burning to enhance a portrait",
-            "Enhance Eye color",
-            "Enhancing the eyes",
-            "Using the powerful liquify tool"
-          ]
-        },
-        {
-          "no": 10,
-          "title": "Editing raw photos with camera raw",
-
-          "content": [
-            "Intro to editing with camera RAW",
-            "Cropping photos in camera RAW",
-            "White balance adjustments",
-            "Proper photo editing workflow",
-            "Exposure and brightness adjustments",
-            "Color and saturation adjustments",
-            "Sharpening and noise reduction",
-            "Tone curve adjustments",
-            "Effects like vignettes, grain and dehaze",
-            "Saving photos from camera raw",
-            "HSL and grayscale adjustments",
-            "Lens corrections",
-            "Spot removal and blemish removal",
-            "Targeted adjustments",
-            "Straighten and transform tools",
-            "Graduated, radial and brush filters",
-            "Range masks",
-            "A full landscape edit",
-            "A full portrait edit",
-            "Editing together an HDR photo"
-          ]
-        },
-        {
-          "no": 11,
-          "title": "Adobe library",
-
-          "content": [
-           "Speed up your workflow with the adobe library"
-          ]
-        },
-        {
-          "no": 12,
-          "title": "Saving and exporting",
-
-          "content": [
-            "How to save your Photoshop project and export it for any purpose",
-            "Quickly save JPEGs from Photoshop",
-            "Exporting projects using Artboards"
-          ]
-        },
-        {
-          "no": 13,
-          "title": "Full length projects",
-
-          "content": [
-           "Intro to these additional project demonstrations",
-           "Project: Fantasy Walk",
-           "Project: Badge logo",
-           "Project: Mystical cat",
-           "Project: Infographic"
-          ]
-        },
-        {
-          "no": 14,
           "title": "Conclusion",
-
           "content": [
-            "Thanks"
+           "Conclusion"
           ]
         }
       ]
@@ -11180,7 +11037,7 @@
     "features": [
       {
         "img": "./images/course-img/course-features/time.png",
-        "title": "20+ Hrs instructor based video lessons"
+        "title": "2+ Hrs instructor based video lessons"
       },
       {
         "img": "./images/course-img/course-features/support.png",
@@ -11201,7 +11058,7 @@
     ],
     "forWho": {
       "que": "Is this Microsoft Excel Course for you?",
-      "ans": "Photoshop is a photo editing and raster graphic design software developed by Adobe Systems for both Windows and MacOS. It allows users to create, edit, and manipulate various graphics as well as digital art. Photoshop provides many image editing features for pixel-based images, raster graphics, and vector graphics So while anyone can benefit from a career in it, here are the kind of professionals who go for this Microsoft Excel course:<ul><li>Youtuber</li><li>Social media influencer</li><li>People who wants to work in a big production house</li><li>Any graduate focusing to build a career in photo editing</li></ul>"
+      "ans": "Microsoft Excel is very important for all to know and get a job. So while anyone can benefit from a career in it, here are the kind of professionals who go for this Microsoft Excel course:<ul><li>Youtuber</li><li>Social media influencer</li><li>People who wants to work in a big production house</li><li>Any graduate focusing to build a career.</li></ul>"
     },
     "companies": {
       "title": "Companies you can expect when you get Microsoft Excel-certified with us",
@@ -11275,12 +11132,12 @@
     "courseName": "Microsoft Powerpoint Certification Course in English",
     "bannerImg": "./images/course-img/course-banner/ms-powerpoint.jpg",
     "shortName": "Microsoft Powerpoint",
-    "overview": "Photoshop is a photo editing and raster graphic design software developed by Adobe Systems for both Windows and MacOS. It allows users to create, edit, and manipulate various graphics as well as digital art. Photoshop provides many image editing features for pixel-based images, raster graphics, and vector graphics",
+    "overview": "Microsoft PowerPoint is synonymous with presentations. Whether in an office, a classroom, or a conference: there is simply no better tool for creating professional presentations than Microsoft PowerPoint. It is an absolute must-have skill for any career that requires communicating with groups of people. This course will help you to learn it.",
     "reasons": {
       "enroll": [
         [
-          "3 Real-time projects + tons of live practicals",
-          "70+ hrs of study material, quizzes & manuals"
+          "Real-time projects + tons of live practicals",
+          "20+ hrs of study material, quizzes & manuals"
         ],
         [
           "Practical oriented course with case-studies",
@@ -11289,37 +11146,29 @@
       ],
       "learn": [
         [
-          "Have a complete and comprehensive knowledge of the tools inside Photoshop CC.",
-          "Learn to 'photoshop' your pictures, like an expert! You will learn how to take even the shabbiest looking drab photograph from your cellphone, and convert it into a head-turner.",
-          "Learn to retouch, heal and apply filters to photographs!"
+          "How to use Microsoft PowerPoint and its basic functions",
+          "How to use the animation functions",
+          "How to use the animation functions"
         ],
         [
-          "Become a full time graphic designer or a freelancer and get amazing gigs.",
-          "Learn Color Correction, Color Grading and several effects that you can apply to Photographs inside Photoshop.",
-          "Learn Creative styles to apply to photos; Make them look Jaw-dropping awesome!"
+          "How to use Data Analysis functions for business presentations",
+          "How to create casual and professional presentations",
+          "Basic keyboard shortcuts"
         ]
       ]
     },
     "why": [
       {
-        "title": "Angular ranked second in “most used technology” in the Stack Overflow Survey",
-        "src": "Stack Overflow"
-      },
-      {
-        "title": "Developed, maintained, managed and monitored by Google Developers",
-        "src": "Google"
-      },
-      {
-        "title": "Average base pay of an Angular Developers is more than INR 460,000 per year in India",
-        "src": "Glassdoor"
-      },
-      {
-        "title": "The world’s most valuable resource is Big Data, no longer oil.",
-        "src": "The Economist"
-      },
-      {
-        "title": "Rapid application development, Plays a role of front end in MEAN stack development",
+        "title": "MS powerpoint is important to build presentation document",
         "src": ""
+      },
+      {
+        "title": "Is is a very important skill. Everybody should know it",
+        "src": ""
+      },
+      {
+        "title": "Employees who knows Microsoft Powerpoint earn an average of $159k, mostly ranging from $135k per year to $238k per year based on 10 profiles.",
+        "src": "6figr"
       }
     ],
     "prerequisite": {
@@ -11333,168 +11182,82 @@
           "no": 1,
           "title": "Introduction",
           "content": [
-            "Introduction"
+            "Introduction",
+            "Powrpoint download",
+            "Interface overview"
           ]
         },
         {
           "no": 2,
-          "title": "Photoshop basics",
+          "title": "Basic design",
           "content": [
-            "Understanding the photoshop interface",
-            "Customize your workspace and panels",
-            "Create a new Photoshop file",
-            "Place photos and graphics in your project",
-            "Moving & zooming around a project",
-            "Use artboards in your photoshop workflow"
+           "Choosing a template",
+           "Creating objects",
+           "Customizing objects",
+           "Organizing objects",
+           "Text format",
+           "Inserting media",
+           "Charts"
           ]
         },
         {
           "no": 3,
-          "title": "Understand layer panels",
+          "title": "Animation",
           "content": [
-            "The layers panel",
-            "Aligning layers in photoshop",
-            "Organizing the layers panel",
-            "Linking layers",
-            "Adding layer styles and adjustments",
-            "Using layer masks project: Photo Compositing Basics (Resizing and placing layers",
-            "Project solution: photo compositing basics (Resizing and placing layers)"
+            "Template design",
+            "Content creation",
+            "Advanced content design (Figures and graphs)",
+            "Transition and animation"
             
           ]
         },
         {
           "no": 4,
-          "title": "The selection tools",
+          "title": "Advanced design",
           "content": [
-            "Intro to the selection tools",
-            "The magic wand and object selection tools",
-            "Improving edge selections with the refine edge tools",
-            "Selecting a specific color",
-            "Easily remove objects from a photo with content aware fill",
-            "Project: Abstract art graphic",
-            "Project solution: Abstract art graphic"
+            "Advanced photo editing: corrections",
+            "Advanced photo editing: colors",
+            "Advanced photo editing: adjust",
+            "Advanced photo editing: picture style",
+            "Advanced photo editing: arrange and size",
+            "Advanced photo editing: remove background",
+            "Advanced text formatting",
+            "Advanced object formatting",
+            "Advanced animation: multiple animations",
+            "Advanced animation: trigger buttons",
+            "Powerpoint as a design software"
           ]
         },
         {
           "no": 5,
-          "title": "Titles and text",
+          "title": "Design and content guidelines",
           "content": [
-            "Adding text to your projects",
-            "Warping text",
-            "Making text follow a linear or shape",
-            "Project: Design a poster with just text",
-            "Project solution: design a poster with just text"
+            "Text etiquette",
+            "Color coordination",
+            "Media: appropriate amounts and formats",
+            "Motions and animation: avoiding distractions"
           ]
         },
         {
           "no": 6,
-          "title": "Layer styles",
+          "title": "Extra features",
           "content": [
-            "How to add a line (Stroke) around your layers",
-            "Adding glow to your layers",
-            "Adding level and emboss to your layers",
-            "More layer styles"
+            "Editing and clipboard",
+            "Slideshow",
+            "Record, review and view",
+            "Shortcuts and other options"
           ]
         },
         {
           "no": 7,
-          "title": "Blend modes",
+          "title": "Projects",
           "content": [
-           "Introduction to Blend Modes",
-           "Easily remove a black or white background with blend modes",
-           "How to create space inside a juice glass",
-           "Creating a camera flare with blend modes",
-           "Project: design a modern graphic with blend modes",
-           "Project solution: design a modern graphic with blend modes"
-          ]
-        },
-        {
-          "no": 8,
-          "title": "The filter gallery cc",
-          "content": [
-            "The filter gallery",
-            "Adjusting the strength of a filter"
-          ]
-        }
-      ],
-      [
-        {
-          "no": 9,
-          "title": "Retouching photos in Photoshop",
-
-          "content": [
-            "Intro to retouching and how to remove blemishes in Photoshop",
-            "Smoothing skin",
-            "Removing bags under the eye",
-            "Professional dodging and burning to enhance a portrait",
-            "Enhance Eye color",
-            "Enhancing the eyes",
-            "Using the powerful liquify tool"
-          ]
-        },
-        {
-          "no": 10,
-          "title": "Editing raw photos with camera raw",
-
-          "content": [
-            "Intro to editing with camera RAW",
-            "Cropping photos in camera RAW",
-            "White balance adjustments",
-            "Proper photo editing workflow",
-            "Exposure and brightness adjustments",
-            "Color and saturation adjustments",
-            "Sharpening and noise reduction",
-            "Tone curve adjustments",
-            "Effects like vignettes, grain and dehaze",
-            "Saving photos from camera raw",
-            "HSL and grayscale adjustments",
-            "Lens corrections",
-            "Spot removal and blemish removal",
-            "Targeted adjustments",
-            "Straighten and transform tools",
-            "Graduated, radial and brush filters",
-            "Range masks",
-            "A full landscape edit",
-            "A full portrait edit",
-            "Editing together an HDR photo"
-          ]
-        },
-        {
-          "no": 11,
-          "title": "Adobe library",
-
-          "content": [
-           "Speed up your workflow with the adobe library"
-          ]
-        },
-        {
-          "no": 12,
-          "title": "Saving and exporting",
-
-          "content": [
-            "How to save your Photoshop project and export it for any purpose",
-            "Quickly save JPEGs from Photoshop",
-            "Exporting projects using Artboards"
-          ]
-        },
-        {
-          "no": 13,
-          "title": "Full length projects",
-
-          "content": [
-           "Intro to these additional project demonstrations",
-           "Project: Fantasy Walk",
-           "Project: Badge logo",
-           "Project: Mystical cat",
-           "Project: Infographic"
-          ]
-        },
-        {
-          "no": 14,
-          "title": "Conclusion",
-
-          "content": [
-            "Thanks"
+           "Casual presentation: template selection and design",
+           "Casual presentation: content creation demo",
+           "Casual presentation: transitions and animations",
+           "Professional presentation: template selection and design",
+           "Professional presentation: content creation demo",
+           "Professional presentation: transitions and animations"
           ]
         }
       ]
@@ -11523,7 +11286,7 @@
     ],
     "forWho": {
       "que": "Is this Microsoft Powerpoint Course for you?",
-      "ans": "Photoshop is a photo editing and raster graphic design software developed by Adobe Systems for both Windows and MacOS. It allows users to create, edit, and manipulate various graphics as well as digital art. Photoshop provides many image editing features for pixel-based images, raster graphics, and vector graphics So while anyone can benefit from a career in it, here are the kind of professionals who go for this Microsoft Powerpoint course:<ul><li>Youtuber</li><li>Social media influencer</li><li>People who wants to work in a big production house</li><li>Any graduate focusing to build a career in photo editing</li></ul>"
+      "ans": "Microsoft powerpoint is very important to know everyone. So while anyone can benefit from a career in it, here are the kind of professionals who go for this Microsoft Powerpoint course:<ul><li>Youtuber</li><li>Social media influencer</li><li>People who wants to work in a big production house</li><li>Any graduate focusing to build a career</li></ul>"
     },
     "companies": {
       "title": "Companies you can expect when you get Microsoft Powerpoint-certified with us",
@@ -11597,12 +11360,12 @@
     "courseName": "Sales Force Certification Course in English",
     "bannerImg": "./images/course-img/course-banner/sales-force.png",
     "shortName": "Sales Force",
-    "overview": "Photoshop is a photo editing and raster graphic design software developed by Adobe Systems for both Windows and MacOS. It allows users to create, edit, and manipulate various graphics as well as digital art. Photoshop provides many image editing features for pixel-based images, raster graphics, and vector graphics",
+    "overview": "if you plan to attain any Salesforce certifications, this is your starting point!<r>Salesforce Associate is the newest certification from Salesforce.<br>The Salesforce Associate Certification has no pre-requisites and is intended for those just starting their Salesforce Certification journey.<br>That's right! This is the course for absolute beginners. No prior knowledge is required.",
     "reasons": {
       "enroll": [
         [
-          "3 Real-time projects + tons of live practicals",
-          "70+ hrs of study material, quizzes & manuals"
+          "Live practicals",
+          "5+ hrs of study material, quizzes & manuals"
         ],
         [
           "Practical oriented course with case-studies",
@@ -11611,37 +11374,28 @@
       ],
       "learn": [
         [
-          "Have a complete and comprehensive knowledge of the tools inside Photoshop CC.",
-          "Learn to 'photoshop' your pictures, like an expert! You will learn how to take even the shabbiest looking drab photograph from your cellphone, and convert it into a head-turner.",
-          "Learn to retouch, heal and apply filters to photographs!"
+          "Gain a foundational knowledge of Salesforce's core capabilities",
+          "Learn how the CRM platform solves the challenge of connecting departments and customer data",
+          "Learn how to navigate Salesforce efficiently"
         ],
         [
-          "Become a full time graphic designer or a freelancer and get amazing gigs.",
-          "Learn Color Correction, Color Grading and several effects that you can apply to Photographs inside Photoshop.",
-          "Learn Creative styles to apply to photos; Make them look Jaw-dropping awesome!"
+          "Learn the types of business challenges that can be solved by the Salesforce Customer 360",
+          "Learn key Salesforce platform terms"
         ]
       ]
     },
     "why": [
       {
-        "title": "Angular ranked second in “most used technology” in the Stack Overflow Survey",
-        "src": "Stack Overflow"
-      },
-      {
-        "title": "Developed, maintained, managed and monitored by Google Developers",
+        "title": "Learning Salesforce opens up the door to seamless automation and advanced CRM functionalities",
         "src": "Google"
       },
       {
-        "title": "Average base pay of an Angular Developers is more than INR 460,000 per year in India",
-        "src": "Glassdoor"
+        "title": "The entire platform of Salesforce is built with the motive of helping organizations take better care of their customers.",
+        "src": "Google"
       },
       {
-        "title": "The world’s most valuable resource is Big Data, no longer oil.",
-        "src": "The Economist"
-      },
-      {
-        "title": "Rapid application development, Plays a role of front end in MEAN stack development",
-        "src": ""
+        "title": "As of May 15, 2023, the average annual pay for a Salesforce Consultant in the United States is $111,845 a year.",
+        "src": "ZipRecruiter"
       }
     ],
     "prerequisite": {
@@ -11655,57 +11409,117 @@
           "no": 1,
           "title": "Introduction",
           "content": [
-            "Introduction"
+            "Introduction",
+            "Signing up for a free salesforce trailhead account",
+            "General housekeeping items as we get started",
+            "Accessing and understanding the salesforce certified associate exam guide"
           ]
         },
         {
           "no": 2,
-          "title": "Photoshop basics",
+          "title": "Salesforce ecosystem",
           "content": [
-            "Understanding the photoshop interface",
-            "Customize your workspace and panels",
-            "Create a new Photoshop file",
-            "Place photos and graphics in your project",
-            "Moving & zooming around a project",
-            "Use artboards in your photoshop workflow"
+            "Introduction",
+            "Renaming and launching your trailhead playground - your free salesforce account",
+            "The opportunity - millions of jobs are coming to the salesforce ecosystem",
+            "Salesforce partner ecosystem",
+            "The trailblazer community introduction",
+            "Trailhead trails, trailmixes, modules, projects and quests",
+            "Performance issues and trust site",
+            "Multi-Tenant architecture - why everything has a limit in salesforce",
+            "Customre 360",
+            "Sales cloud overview",
+            "Commerce cloud",
+            "Experience cloud overview",
+            "Salesforce for non-profits",
+            "Tableau for analytics",
+            "Mulesoft for intgrations",
+            "Slack for collaboration",
+            "Salesforce genie for real time data",
+            "Salesforce career paths and job roles"
           ]
         },
         {
           "no": 3,
-          "title": "Understand layer panels",
+          "title": "Navigation",
           "content": [
-            "The layers panel",
-            "Aligning layers in photoshop",
-            "Organizing the layers panel",
-            "Linking layers",
-            "Adding layer styles and adjustments",
-            "Using layer masks project: Photo Compositing Basics (Resizing and placing layers",
-            "Project solution: photo compositing basics (Resizing and placing layers)"
+            "Introduction",
+            "Accessing and launching your hands-on org",
+            "Getting your login credentials and setting your password",
+            "Logging into salesforce using your username and password",
+            "App launcher introduction",
+            "Accessing all items from app launcher",
+            "Recycle bin",
+            "List views - adding filters and save as for new list views",
+            "Adding and removing fields to display to a list view",
+            "Performing mass updates from list views",
+            "List view row limits",
+            "Kanban list views",
+            "Split view list views",
+            "related lists",
+            "Personal settings and user customizations",
+            "Customizing pages with the lightning app builder",
+            "Updating your use account and advanced user details",
+            "Activity timeline",
+            "Setting email signature in salesforce",
+            "Creating a user account",
+            "Enabling lightning for a user and switching from classic to lightning",
+            "Editin a user account - changing name, email and/or username considerations",
+            "Viewing user login history",
+            "My favorites",
+            "Chater - following records and receiving notifications",
+            "Chatter groups - public and private",
+            "Global search",
+            "Filtering global search results using natural language search"
             
           ]
         },
         {
           "no": 4,
-          "title": "The selection tools",
+          "title": "Data model",
           "content": [
-            "Intro to the selection tools",
-            "The magic wand and object selection tools",
-            "Improving edge selections with the refine edge tools",
-            "Selecting a specific color",
-            "Easily remove objects from a photo with content aware fill",
-            "Project: Abstract art graphic",
-            "Project solution: Abstract art graphic"
+            "Introduction",
+            "Salesforce glossary",
+            "Standard objects & the object manager",
+            "Schema builder - relationship between core standard objects",
+            "The lead conversion process",
+            "Account hierarchy and parent accounts",
+            "Enabling contact to multiple accounts",
+            "Adding the related contacts related list to the account page layout",
+            "Custom objects",
+            "Standard fields",
+            "Creating a custom lookup fiels",
+            "Creating a roll up summary field",
+            "Creating a formula field for a Roll-Up summary sum",
+            "Creating a text area field",
+            "Validation rule",
+            "Testing our validation rule",
+            "Removing fields form a page layout",
+            "Creating record types",
+            "Removing a field dependencty",
+            "profiles",
+            "Permission sets",
+            "Dynamic forms",
+            "Declarative vs programmatic",
+            "Sandboxes - logging in and deployment"
           ]
         },
         {
           "no": 5,
-          "title": "Titles and text",
+          "title": "Report & dasboards",
           "content": [
-            "Adding text to your projects",
-            "Warping text",
-            "Making text follow a linear or shape",
-            "Project: Design a poster with just text",
-            "Project solution: design a poster with just text"
+            "Creating a report",
+            "Exporting a report",
+            "Creating a summary report by adding a row grouping to a report",
+            "Summary report toggles",
+            "Creating a joined report",
+            "Sharing a report folder",
+            "Creating a dashboard",
+            "Refreshing a dashboard",
+            "Applying a dashboard",
+            "Download a dashboard",
+            "Combining multiple reports on a single screen - joined reports vs dashboards",
+            "Bonus lesson"
           ]
         },
         {
@@ -11738,93 +11552,12 @@
             "Adjusting the strength of a filter"
           ]
         }
-      ],
-      [
-        {
-          "no": 9,
-          "title": "Retouching photos in Photoshop",
-
-          "content": [
-            "Intro to retouching and how to remove blemishes in Photoshop",
-            "Smoothing skin",
-            "Removing bags under the eye",
-            "Professional dodging and burning to enhance a portrait",
-            "Enhance Eye color",
-            "Enhancing the eyes",
-            "Using the powerful liquify tool"
-          ]
-        },
-        {
-          "no": 10,
-          "title": "Editing raw photos with camera raw",
-
-          "content": [
-            "Intro to editing with camera RAW",
-            "Cropping photos in camera RAW",
-            "White balance adjustments",
-            "Proper photo editing workflow",
-            "Exposure and brightness adjustments",
-            "Color and saturation adjustments",
-            "Sharpening and noise reduction",
-            "Tone curve adjustments",
-            "Effects like vignettes, grain and dehaze",
-            "Saving photos from camera raw",
-            "HSL and grayscale adjustments",
-            "Lens corrections",
-            "Spot removal and blemish removal",
-            "Targeted adjustments",
-            "Straighten and transform tools",
-            "Graduated, radial and brush filters",
-            "Range masks",
-            "A full landscape edit",
-            "A full portrait edit",
-            "Editing together an HDR photo"
-          ]
-        },
-        {
-          "no": 11,
-          "title": "Adobe library",
-
-          "content": [
-           "Speed up your workflow with the adobe library"
-          ]
-        },
-        {
-          "no": 12,
-          "title": "Saving and exporting",
-
-          "content": [
-            "How to save your Photoshop project and export it for any purpose",
-            "Quickly save JPEGs from Photoshop",
-            "Exporting projects using Artboards"
-          ]
-        },
-        {
-          "no": 13,
-          "title": "Full length projects",
-
-          "content": [
-           "Intro to these additional project demonstrations",
-           "Project: Fantasy Walk",
-           "Project: Badge logo",
-           "Project: Mystical cat",
-           "Project: Infographic"
-          ]
-        },
-        {
-          "no": 14,
-          "title": "Conclusion",
-
-          "content": [
-            "Thanks"
-          ]
-        }
       ]
     ],
     "features": [
       {
         "img": "./images/course-img/course-features/time.png",
-        "title": "20+ Hrs instructor based video lessons"
+        "title": "5+ Hrs instructor based video lessons"
       },
       {
         "img": "./images/course-img/course-features/support.png",
@@ -11845,7 +11578,7 @@
     ],
     "forWho": {
       "que": "Is this Sales Force Course for you?",
-      "ans": "Photoshop is a photo editing and raster graphic design software developed by Adobe Systems for both Windows and MacOS. It allows users to create, edit, and manipulate various graphics as well as digital art. Photoshop provides many image editing features for pixel-based images, raster graphics, and vector graphics So while anyone can benefit from a career in it, here are the kind of professionals who go for this Sales Force course:<ul><li>Youtuber</li><li>Social media influencer</li><li>People who wants to work in a big production house</li><li>Any graduate focusing to build a career in photo editing</li></ul>"
+      "ans": "Photoshop is a photo editing and raster graphic design software developed by Adobe Systems for both Windows and MacOS. It allows users to create, edit, and manipulate various graphics as well as digital art. Photoshop provides many image editing features for pixel-based images, raster graphics, and vector graphics So while anyone can benefit from a career in it, here are the kind of professionals who go for this Sales Force course:<ul><li>Beginning Salesforce Learners</li><li>Those wanting to pass the new Salesforce Certified Associate Exam</li></ul>"
     },
     "companies": {
       "title": "Companies you can expect when you get Sales Force-certified with us",
@@ -11919,12 +11652,12 @@
     "courseName": "Wordpress Certification Course in English",
     "bannerImg": "./images/course-img/course-banner/wordpress.jpg",
     "shortName": "Wordpress",
-    "overview": "Photoshop is a photo editing and raster graphic design software developed by Adobe Systems for both Windows and MacOS. It allows users to create, edit, and manipulate various graphics as well as digital art. Photoshop provides many image editing features for pixel-based images, raster graphics, and vector graphics",
+    "overview": "Wordpress is very popular. In this course, we build a website together step-by-step and along the way you organically absorb and master WordPress. ",
     "reasons": {
       "enroll": [
         [
-          "3 Real-time projects + tons of live practicals",
-          "70+ hrs of study material, quizzes & manuals"
+          "Real-time projects + tons of live practicals",
+          "4+ hrs of study material, quizzes & manuals"
         ],
         [
           "Practical oriented course with case-studies",
@@ -11933,37 +11666,27 @@
       ],
       "learn": [
         [
-          "Have a complete and comprehensive knowledge of the tools inside Photoshop CC.",
-          "Learn to 'photoshop' your pictures, like an expert! You will learn how to take even the shabbiest looking drab photograph from your cellphone, and convert it into a head-turner.",
-          "Learn to retouch, heal and apply filters to photographs!"
+          "Create websites and blogs with WordPress",
+          "Setup dynamic blog sections organized by category."
         ],
         [
-          "Become a full time graphic designer or a freelancer and get amazing gigs.",
-          "Learn Color Correction, Color Grading and several effects that you can apply to Photographs inside Photoshop.",
-          "Learn Creative styles to apply to photos; Make them look Jaw-dropping awesome!"
+          "Update and edit existing WordPress websites",
+          "Create a Contact Us page with interactive map and email form"
         ]
       ]
     },
     "why": [
       {
-        "title": "Angular ranked second in “most used technology” in the Stack Overflow Survey",
-        "src": "Stack Overflow"
+        "title": "One of the biggest reasons to learn WordPress is that the software is completely free and open-source, meaning that you can literally build features and capabilities on top of it and improve the existing website that you have.",
+        "src": "Fest book"
       },
       {
-        "title": "Developed, maintained, managed and monitored by Google Developers",
+        "title": "Easier SEO Optimization",
         "src": "Google"
       },
       {
-        "title": "Average base pay of an Angular Developers is more than INR 460,000 per year in India",
-        "src": "Glassdoor"
-      },
-      {
-        "title": "The world’s most valuable resource is Big Data, no longer oil.",
-        "src": "The Economist"
-      },
-      {
-        "title": "Rapid application development, Plays a role of front end in MEAN stack development",
-        "src": ""
+        "title": "Average salary of $63,348 for full-time WordPress developers in the United States as a whole.",
+        "src": "Kinsta"
       }
     ],
     "prerequisite": {
@@ -11975,170 +11698,82 @@
       [
         {
           "no": 1,
-          "title": "Introduction",
+          "title": "Lets build",
           "content": [
-            "Introduction"
+            "Let's begin building our website",
+            "Pages & navigation menus",
+            "Themes introduction"
           ]
         },
         {
           "no": 2,
-          "title": "Photoshop basics",
+          "title": "About page",
           "content": [
-            "Understanding the photoshop interface",
-            "Customize your workspace and panels",
-            "Create a new Photoshop file",
-            "Place photos and graphics in your project",
-            "Moving & zooming around a project",
-            "Use artboards in your photoshop workflow"
+            "Creating content in WordPress",
+            "Formatting content Part 2",
+            "Keyboard shortcuts & embedding content tips",
+            "Subpages & dropdown menus"
           ]
         },
         {
           "no": 3,
-          "title": "Understand layer panels",
+          "title": "Photo gallery page",
           "content": [
-            "The layers panel",
-            "Aligning layers in photoshop",
-            "Organizing the layers panel",
-            "Linking layers",
-            "Adding layer styles and adjustments",
-            "Using layer masks project: Photo Compositing Basics (Resizing and placing layers",
-            "Project solution: photo compositing basics (Resizing and placing layers)"
+            "Lets create a photo gallery page",
+            "Plugins introduction"
             
           ]
         },
         {
           "no": 4,
-          "title": "The selection tools",
+          "title": "Blog posts",
           "content": [
-            "Intro to the selection tools",
-            "The magic wand and object selection tools",
-            "Improving edge selections with the refine edge tools",
-            "Selecting a specific color",
-            "Easily remove objects from a photo with content aware fill",
-            "Project: Abstract art graphic",
-            "Project solution: Abstract art graphic"
+            "Blog posts & categories",
+            "Custom homepage",
+            "Blog post thumbnails and 'Read More'excerpt links"
           ]
         },
         {
           "no": 5,
-          "title": "Titles and text",
+          "title": "Comments",
           "content": [
-            "Adding text to your projects",
-            "Warping text",
-            "Making text follow a linear or shape",
-            "Project: Design a poster with just text",
-            "Project solution: design a poster with just text"
-          ]
-        },
-        {
-          "no": 6,
-          "title": "Layer styles",
-          "content": [
-            "How to add a line (Stroke) around your layers",
-            "Adding glow to your layers",
-            "Adding level and emboss to your layers",
-            "More layer styles"
-          ]
-        },
-        {
-          "no": 7,
-          "title": "Blend modes",
-          "content": [
-           "Introduction to Blend Modes",
-           "Easily remove a black or white background with blend modes",
-           "How to create space inside a juice glass",
-           "Creating a camera flare with blend modes",
-           "Project: design a modern graphic with blend modes",
-           "Project solution: design a modern graphic with blend modes"
-          ]
-        },
-        {
-          "no": 8,
-          "title": "The filter gallery cc",
-          "content": [
-            "The filter gallery",
-            "Adjusting the strength of a filter"
+            "Comments"
           ]
         }
       ],
       [
         {
+          "no": 6,
+          "title": "Widgets",
+          "content": [
+            "Widgets"
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Contact page",
+          "content": [
+           "Lets create a contact page",
+           "Saving contact form entires to the database"
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Users & settings",
+          "content": [
+            "User accounts",
+            "Settings (Permalinks & pagination)"
+          ]
+        },
+        {
           "no": 9,
-          "title": "Retouching photos in Photoshop",
+          "title": "Next steps",
 
           "content": [
-            "Intro to retouching and how to remove blemishes in Photoshop",
-            "Smoothing skin",
-            "Removing bags under the eye",
-            "Professional dodging and burning to enhance a portrait",
-            "Enhance Eye color",
-            "Enhancing the eyes",
-            "Using the powerful liquify tool"
-          ]
-        },
-        {
-          "no": 10,
-          "title": "Editing raw photos with camera raw",
-
-          "content": [
-            "Intro to editing with camera RAW",
-            "Cropping photos in camera RAW",
-            "White balance adjustments",
-            "Proper photo editing workflow",
-            "Exposure and brightness adjustments",
-            "Color and saturation adjustments",
-            "Sharpening and noise reduction",
-            "Tone curve adjustments",
-            "Effects like vignettes, grain and dehaze",
-            "Saving photos from camera raw",
-            "HSL and grayscale adjustments",
-            "Lens corrections",
-            "Spot removal and blemish removal",
-            "Targeted adjustments",
-            "Straighten and transform tools",
-            "Graduated, radial and brush filters",
-            "Range masks",
-            "A full landscape edit",
-            "A full portrait edit",
-            "Editing together an HDR photo"
-          ]
-        },
-        {
-          "no": 11,
-          "title": "Adobe library",
-
-          "content": [
-           "Speed up your workflow with the adobe library"
-          ]
-        },
-        {
-          "no": 12,
-          "title": "Saving and exporting",
-
-          "content": [
-            "How to save your Photoshop project and export it for any purpose",
-            "Quickly save JPEGs from Photoshop",
-            "Exporting projects using Artboards"
-          ]
-        },
-        {
-          "no": 13,
-          "title": "Full length projects",
-
-          "content": [
-           "Intro to these additional project demonstrations",
-           "Project: Fantasy Walk",
-           "Project: Badge logo",
-           "Project: Mystical cat",
-           "Project: Infographic"
-          ]
-        },
-        {
-          "no": 14,
-          "title": "Conclusion",
-
-          "content": [
-            "Thanks"
+            "Move Entire wordpress site (Export / import)",
+            "Next steps (Looking forward)",
+            "Useful resources",
+            "Bonus lecture"
           ]
         }
       ]
@@ -12146,7 +11781,7 @@
     "features": [
       {
         "img": "./images/course-img/course-features/time.png",
-        "title": "20+ Hrs instructor based video lessons"
+        "title": "4+ Hrs instructor based video lessons"
       },
       {
         "img": "./images/course-img/course-features/support.png",
@@ -12167,7 +11802,7 @@
     ],
     "forWho": {
       "que": "Is this Wordpress Course for you?",
-      "ans": "Photoshop is a photo editing and raster graphic design software developed by Adobe Systems for both Windows and MacOS. It allows users to create, edit, and manipulate various graphics as well as digital art. Photoshop provides many image editing features for pixel-based images, raster graphics, and vector graphics So while anyone can benefit from a career in it, here are the kind of professionals who go for this Wordpress course:<ul><li>Youtuber</li><li>Social media influencer</li><li>People who wants to work in a big production house</li><li>Any graduate focusing to build a career in photo editing</li></ul>"
+      "ans": "Wordpress is very popular. So while anyone can benefit from a career in it, here are the kind of professionals who go for this Wordpress course:<ul><li>If you want to learn Wordpress without paying for a web host, this course is perfect. I'll show you how you can install Wordpress on your very own computer while you learn.</li><li>This course is for you if you want to build a website, whether for personal or business reasons.</li><li>his course is for anyone that wants to be the Wordpress goto guy or gal</li><li>Any graduate focusing to build a career in WordPress</li></ul>"
     },
     "companies": {
       "title": "Companies you can expect when you get Wordpress-certified with us",
