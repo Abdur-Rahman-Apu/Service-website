@@ -5632,7 +5632,10 @@
             "Final Project overview",
             "Final project solution"
           ]
-        },
+        }
+        
+      ],
+      [
         {
           "no": 4,
           "title": "AI for Cardiovascular disease detection with DataRobot",
@@ -10715,7 +10718,7 @@
           "no": 1,
           "title": "Welcome and what you will learn",
           "content": [
-            "Introduction",
+            "Welcome and what we will cover",
             "What is Microsoft 365"
           ]
         },
@@ -10730,7 +10733,7 @@
         },
         {
           "no": 3,
-          "title": "Insert and edit text",
+          "title": "Section III: Insert and edit text",
           "content": [
             "Insert new text",
             "Setting tabs",
@@ -10749,11 +10752,7 @@
             "Format painter tool and remove formatting button",
             "Line spacing and paragraph alignment"
           ]
-        }
-        
-      ],
-      [
-        {
+        },{
           "no": 5,
           "title": "Organize text",
           "content": [
@@ -10762,7 +10761,10 @@
             "Columns",
             "Bullets and numbering"
           ]
-        },
+        }
+        
+      ],
+      [
         {
           "no": 6,
           "title": "Format page",
@@ -10798,6 +10800,14 @@
           "content": [
             "Collaborate in the cloud - upload and share",
             "Collaborate in the cloud - comment and edit"
+          ]
+        },
+        {
+          "no": 10,
+          "title": "What you've learned",
+
+          "content": [
+            "Review and wrap-up"
           ]
         }
         
@@ -10862,13 +10872,14 @@
         {
           "que": "What will the end result be of this online Microsoft Word training course?",
           "ans": "When you finish this course, you will be equipped with practical skills and theoretical knowledge the industry looks for. You will bloom into a certified Microsoft Word professional who is ready to take on Microsoft Word Projects in top organizations."
-        },
+        }
+        
+      ],
+      [
         {
           "que": "Where do all the students come from?",
           "ans": "We have a blend of students from across the globe. Apart from India, we provide training in the US, the UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, and many others covering the globe."
-        }
-      ],
-      [
+        },
         {
           "que": "Is this Microsoft Word training classroom-based or online?",
           "ans": "This training is completely online and self-paced."
@@ -10998,7 +11009,10 @@
             "TRIM",
             "Quiz"
           ]
-        },
+        }
+        
+      ],
+      [
         {
           "no": 5,
           "title": "Working w/Date and conditional formatting",
@@ -11259,6 +11273,156 @@
            "Professional presentation: content creation demo",
            "Professional presentation: transitions and animations"
           ]
+        },
+        {
+          "no": 8,
+          "title": "User Experience Design (Theory)",
+          "content": [
+           "UX principles",
+           "Purposeful design",
+           "Engagement",
+           "Usability",
+           "Storytelling design"
+          ]
+        },
+        {
+          "no": 9,
+          "title": "Interactive Design",
+          "content": [
+           "Programs for Engagement: Kahoot",
+           "Programs for Engagement: Mentimeter",
+           "Engaging questions",
+           "Interactive slides, Buttons and Logic",
+           "Coherent storytelling through animations",
+           "Background animations"
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Design Styles",
+          "content": [
+           "Classical Style",
+           "Minimalistic Style",
+           "Compromise Style",
+           "Fun Style"
+          ]
+        },
+        {
+          "no": 11,
+          "title": "Accessibilty",
+          "content": [
+           "Accessibility"
+          ]
+        }
+      ],
+      [
+        
+        {
+          "no": 12,
+          "title": "Beyond Powerpoin",
+          "content": [
+           "Content & fluency",
+           "Confidence and inspiration",
+           "Audience engagement"
+          ]
+        },
+        {
+          "no": 13,
+          "title": "Practice: UX-based slideshow",
+          "content": [
+           "Content creation",
+           "Interactive design",
+           "Animation creation",
+           "Storytelling design"
+          ]
+        },
+        {
+          "no": 14,
+          "title": "UI/UX presentation (Kiosk)",
+          "content": [
+           "Creating a Carousel",
+           "Creating a carousel (2nd method)",
+           "Creating an interface",
+           "Writing the buttons",
+           "Creating a quiz",
+           "Alternate interface"
+          ]
+        },
+        {
+          "no": 15,
+          "title": "Business presentation",
+          "content": [
+           "Template Edits",
+           "Content creation",
+           "Engagement 1: Scrolling",
+           "Engagement 2: Slide",
+           "Engagement 3: Forum",
+           "Content Creation 2",
+           "Data Analysis: Charts & Graphs",
+           "Story-line Adherence"
+          ]
+        },
+        {
+          "no": 16,
+          "title": "Background presentations",
+          "content": [
+           "Tailoring content",
+           "Free-floating animations",
+           "Final additions",
+           "Break time & thank you slides"
+          ]
+        },
+        {
+          "no": 17,
+          "title": "Animated Videos",
+          "content": [
+           "Simple animated videos",
+           "Complex animated videos",
+           "Annotated animation videos",
+           "Annotated animated videos based on a speech",
+           "Recording and exporting"
+          ]
+        },
+        {
+          "no": 18,
+          "title": "Creating templates (Simple)",
+          "content": [
+           "Planning visual language",
+           "Designing visuals (Illustrations)",
+           "Designing visuals (Icons)",
+           "Organizing the template",
+           "Content creation"
+          ]
+        },
+        {
+          "no": 19,
+          "title": "Creating templates (Complex)",
+          "content": [
+           "Planning complex visual language",
+           "Choosing colors",
+           "Designing background visuals",
+           "Designing character visuals",
+           "Organizing the template"
+          ]
+        },
+        {
+          "no": 20,
+          "title": "Digital Art",
+          "content": [
+           "Vector art",
+           "Pixel art",
+           "3D art"
+          ]
+        },
+        {
+          "no": 21,
+          "title": "Exploring Options",
+          "content": [
+           "Types of files to save",
+           "File protection settings",
+           "Setting up a template",
+           "Last words"
+          ]
         }
       ]
     ],
@@ -11503,7 +11667,9 @@
             "Declarative vs programmatic",
             "Sandboxes - logging in and deployment"
           ]
-        },
+        }
+      ],
+      [
         {
           "no": 5,
           "title": "Report & dasboards",

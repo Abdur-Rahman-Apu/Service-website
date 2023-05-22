@@ -420,6 +420,7 @@ body {
 
 .course-for-whom .course-for-whom-ans {
     display: flex;
+    align-items: center;
     margin: 40px 0 10px;
 }
 
