@@ -15,48 +15,26 @@
     <script src="https://kit.fontawesome.com/3b7a96cd6e.js" crossorigin="anonymous"></script>
 
     <style>
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
-            margin: 0;
-        }
-
-        section {
-            min-height: 100vh;
+        .certificate-section {
+            margin: 100px auto;
+            padding: 40px 3%;
             display: flex;
             justify-content: center;
-            align-items: center;
+
         }
 
-        section:first-child {
-            background-color: #aaa;
+        .certificate-section>div {
+            flex-basis: 60%;
         }
 
-        section:nth-child(2) {
-            background-color: #bbb;
-        }
-
-        section:nth-child(3) {
-            background-color: #ccc;
-        }
-
-        section:last-of-type {
-            background-color: #eee;
-        }
-
-        .nums {
-            width: 400px;
-            display: flex;
-        }
-
-        .nums .num {
-            flex: 1;
+        .certificate-section h1 {
             text-align: center;
-            font-size: 40px;
-            padding: 20px;
+            font-size: 48px;
+        }
+
+        .certificate-section p {
+            margin: 40px 0;
+            text-align: center;
         }
     </style>
 
@@ -65,20 +43,19 @@
 
 <body>
 
-    <section class="one">Section One</section>
-    <section class="two">Section Two</section>
-    <section class="three">
-        <div class="nums">
-            <div class="num" data-goal="100">0</div>
-            <div class="num" data-goal="500">0</div>
-            <div class="num" data-goal="300">0</div>
+
+    <section class="certificate-section">
+        <div>
+            <h1>Get real world <br> skills! Go from ,<br> Zero to Hero!</h1>
+            <p>"I'm an authorized instructor & winner of 2 Adobe MAX awards. Here at Designer Shravan, I'm continually
+                trying to make the worlds best beginner to advanced courses."</p>
         </div>
     </section>
-    <section class="four">Section Four</section>
 
 
-    <!-- <script src="./js/carousel/jquery.min.js"></script> -->
-    <!-- <script src="./js/carousel/owl.carousel.min.js"></script> -->
+
+    <script src="./js/carousel/jquery.min.js"></script>
+    <script src="./js/carousel/owl.carousel.min.js"></script>
     <!-- <script src="./js/zoom/jquery-imagepreviewer.min.js"></script> -->
     <script src="./js/getData.js"></script>
     <script src="./js/common.js"></script>
