@@ -6,21 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/owl.carousel.min.css">
     <link rel="stylesheet" href="./css/owl.theme.green.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
     <link rel="stylesheet" href="./css/zoomify.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 
     <script src="https://kit.fontawesome.com/3b7a96cd6e.js" crossorigin="anonymous"></script>
 
     <style>
         .certificate-section {
             margin: 100px auto;
-            padding: 40px 3%;
+            padding: 40px 10%;
             display: flex;
+            flex-direction: column;
             justify-content: center;
+            position: relative;
 
+        }
+
+        .canvas {
+            position: absolute;
+            top: 0;
         }
 
         .certificate-section>div {
@@ -33,8 +42,26 @@
         }
 
         .certificate-section p {
-            margin: 40px 0;
+            margin-top: 40px;
             text-align: center;
+        }
+
+        .owl-item {
+            background-color: yellow;
+            height: 300px;
+
+        }
+
+        section {
+            margin: 120px 0;
+        }
+
+        .button-wrapper canvas {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            pointer-events: none;
         }
     </style>
 
@@ -44,54 +71,146 @@
 <body>
 
 
+
+    <section id="canvas">
+
+
+        <div class="button-wrapper">
+            <button class="confetti-button">Yay🎉</button>
+        </div>
+
+
+    </section>
+    <section>1</section>
+    <section>1</section>
     <section class="certificate-section">
-        <div>
+        <div class="certificate-title">
             <h1>Get real world <br> skills! Go from ,<br> Zero to Hero!</h1>
             <p>"I'm an authorized instructor & winner of 2 Adobe MAX awards. Here at Designer Shravan, I'm continually
                 trying to make the worlds best beginner to advanced courses."</p>
         </div>
+
+
+
+        <div class="certificates">
+
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <h4>1</h4>
+                </div>
+                <div class="item">
+                    <h4>2</h4>
+                </div>
+                <div class="item">
+                    <h4>3</h4>
+                </div>
+                <div class="item">
+                    <h4>4</h4>
+                </div>
+                <div class="item">
+                    <h4>5</h4>
+                </div>
+                <div class="item">
+                    <h4>6</h4>
+                </div>
+                <div class="item">
+                    <h4>7</h4>
+                </div>
+                <div class="item">
+                    <h4>8</h4>
+                </div>
+                <div class="item">
+                    <h4>9</h4>
+                </div>
+                <div class="item">
+                    <h4>10</h4>
+                </div>
+                <div class="item">
+                    <h4>11</h4>
+                </div>
+                <div class="item">
+                    <h4>12</h4>
+                </div>
+            </div>
+        </div>
     </section>
 
 
+    <section>2</section>
+    <section>2</section>
+    <section>2</section>
+    <section>2</section>
+    <section>2</section>
+
 
     <script src="./js/carousel/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
     <script src="./js/carousel/owl.carousel.min.js"></script>
+    <!-- <script src="./js/confetti.js"></script> -->
     <!-- <script src="./js/zoom/jquery-imagepreviewer.min.js"></script> -->
-    <script src="./js/getData.js"></script>
+    <!-- <script src="./js/getData.js"></script>
     <script src="./js/common.js"></script>
     <script src="./js/getCourses.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
-    <script src="./js/vcollapse.js"></script>
+    <script src="./js/vcollapse.js"></script> -->
     <!-- <script src="./js/vcollapse.min.js"></script> -->
 
     <script>
     </script>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./confetti.js"></script>
     <script>
         AOS.init();
-        let nums = document.querySelectorAll(".nums .num");
-        let section = document.querySelector(".three");
-        let started = false; // Function Started ? No
 
-        window.onscroll = function () {
-            if (window.scrollY >= section.offsetTop) {
-                if (!started) {
-                    nums.forEach((num) => startCount(num));
+        const certificateSection = document.querySelector('.certificate-section');
+
+        console.log("height", certificateSection.offsetHeight);
+
+        $(document).ready(function () {
+            window.onscroll = function () {
+                console.log(window.scrollY);
+                if (window.scrollY >= certificateSection.offsetTop && window.scrollY < 1200) {
+                    const start = () => {
+                        setTimeout(function () {
+                            confetti.start()
+                        }, 1000); // 1000 is time that after 1 second start the confetti ( 1000 = 1 sec)
+                    };
+
+                    //  Stop
+
+                    const stop = () => {
+                        setTimeout(function () {
+                            confetti.stop()
+                        }, 5000); // 5000 is time that after 5 second stop the confetti ( 5000 = 5 sec)
+                    };
+
+
+                    start()
+                    stop()
                 }
-                started = true;
             }
-        };
+        })
 
-        function startCount(el) {
-            let goal = el.dataset.goal;
-            let count = setInterval(() => {
-                el.textContent++;
-                if (el.textContent == goal) {
-                    clearInterval(count);
+
+
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 20,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
                 }
-            }, 2000 / goal);
-        }
+            }
+        })
     </script>
 
     <script>

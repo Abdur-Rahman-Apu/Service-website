@@ -43,9 +43,6 @@ $(document).ready(function(){
 
         if ((window.scrollY+500) >= section.offsetTop) {
 
-
-
-            console.log("object");
             if (!started) {
                 nums.forEach((num) => startCount(num));
             }
@@ -60,7 +57,7 @@ $(document).ready(function(){
             // count
 
             let top = window.scrollY;
-            let offset = sec.offsetTop;
+            let offset = sec.offsetTop - 220;
             let height = sec.offsetHeight;
             let id = sec.getAttribute('id')
 

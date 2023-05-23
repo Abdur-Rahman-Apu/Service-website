@@ -765,6 +765,46 @@ header .profile-img {
 .owl-carousel .author-info .client-designation{
   font-size: 14px;
 }
+
+
+/* certificate section  */
+
+.certificate-section {
+  margin: 100px auto;
+  padding: 40px 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+
+}
+
+.canvas {
+  position: absolute;
+  top: 0;
+}
+
+.certificate-section>div {
+  flex-basis: 60%;
+}
+
+.certificate-section h1 {
+  text-align: center;
+  font-size: 48px;
+}
+
+.certificate-section p {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.certificate-section .owl-item {
+  background-color: yellow;
+  height: 300px;
+
+}
+
+
 /* media query  */
 
 @media screen and (max-width: 900px) {
