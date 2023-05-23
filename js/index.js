@@ -20,30 +20,88 @@ const typed = new Typed(".type", {
 //   });
 // });
 
+// counter
+
 let nums = document.querySelectorAll(".statistics-info .counter");
-        let section = document.querySelector(".statistics-detail");
-        let started = false; // Function Started ? No
+let section = document.querySelector(".statistics-detail");
+let started = false; 
 
-        window.onscroll = function () {
-           
-            if ((window.scrollY+500) >= section.offsetTop) {
+// active menu 
 
-                if (!started) {
-                    nums.forEach((num) => startCount(num));
-                }
-                started = true;
+let sections = document.querySelectorAll('section');
+let navLinks = document.querySelectorAll('.menu a')
+
+
+
+
+
+
+        
+$(document).ready(function(){
+    window.onscroll=()=>{
+
+
+        if ((window.scrollY+500) >= section.offsetTop) {
+
+
+
+            console.log("object");
+            if (!started) {
+                nums.forEach((num) => startCount(num));
             }
-        };
-
-        function startCount(el) {
-            let goal = el.dataset.goal;
-            let count = setInterval(() => {
-                el.textContent++;
-                if (el.textContent == goal) {
-                    clearInterval(count);
-                }
-            }, 2000 / goal);
+            started = true;
         }
+
+
+        // active navbar 
+        sections.forEach(sec => {
+
+
+            // count
+
+            let top = window.scrollY;
+            let offset = sec.offsetTop;
+            let height = sec.offsetHeight;
+            let id = sec.getAttribute('id')
+
+            if (top >= offset && top < offset + height) {
+
+                console.log("Asci");
+                navLinks.forEach(links => {
+
+                    links.classList.remove('active');
+
+
+                    const target = document.querySelector('.navbar .menu a[href*=' + id + ']');
+
+                    if (target) {
+                        document.querySelector('.navbar .menu a[href*=' + id + ']').classList.add('active')
+                    }
+
+
+                })
+            }
+        })
+
+        
+    
+    };
+
+
+
+        
+    
+})
+
+function startCount(el) {
+    let goal = el.dataset.goal;
+    let count = setInterval(() => {
+        el.textContent++;
+        if (el.textContent == goal) {
+            clearInterval(count);
+        }
+    }, 2000 / goal);
+}
 
 // all courses
 

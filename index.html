@@ -69,8 +69,8 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about-section">About</a></li>
                 <li><a href="#service-section">Services</a></li>
-                <li><a href="./case-studies.html">Case Study</a></li>
-                <li><a href="./courses.html">Courses</a></li>
+                <li><a href="#case-study-section">Case Study</a></li>
+                <li><a href="#featured-courses">Courses</a></li>
                 <li><a href="#">Certificates</a></li>
                 <li><a href="#">Webinar</a></li>
                 <li><a href="#">Contact</a></li>
@@ -363,7 +363,7 @@
 
 
         <!-- case study section  -->
-        <section class="case-study-section">
+        <section class="case-study-section" id="case-study-section">
             <h1 class="case-study-title" data-aos="fade-right" data-aos-easing="ease-in-sine">
                 Featured Case Studies
             </h1>
@@ -375,7 +375,7 @@
 
 
         <!-- company statistics section  -->
-        <section class="statistics-section">
+        <section class="statistics-section" id="statistics-section">
             <h1 class="statistics-title" data-aos="fade-in" data-aos-duration="2000">
                 company statistics
             </h1>
@@ -454,7 +454,7 @@
 
 
         <!-- featured course section  -->
-        <section class="featured-courses">
+        <section class="featured-courses" id="featured-courses">
             <span>Featured Courses</span>
             <p>Increase Your knowledge by learning</p>
 
@@ -463,7 +463,7 @@
             </div>
         </section>
 
-        <section class="testimonial-section">
+        <section class="testimonial-section" id="testimonial-section">
             <h2>Testimonial</h2>
 
             <div class="testimonial-container">
@@ -617,10 +617,7 @@
         })
 
 
-        // active menu 
 
-        let sections = document.querySelectorAll('section');
-        let navLinks = document.querySelectorAll('.menu a')
 
 
         window.onscroll = () => {
@@ -632,8 +629,17 @@
 
                 if (top >= offset && top < offset + height) {
                     navLinks.forEach(links => {
-                        links?.classList?.remove('active');
-                        document.querySelector('.navbar .menu a[href*=' + id + ']').classList.add('active')
+
+                        links.classList.remove('active');
+
+
+                        const target = document.querySelector('.navbar .menu a[href*=' + id + ']');
+
+                        if (target) {
+                            document.querySelector('.navbar .menu a[href*=' + id + ']').classList.add('active')
+                        }
+
+
                     })
                 }
             })
