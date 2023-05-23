@@ -2,6 +2,83 @@
 
 .all-course-container {
   padding: 20px 3%;
+ 
+}
+
+.coaching-details{
+  width: 75%;
+  margin: 0 auto;
+}
+
+
+.all-course-container .coaching-details h1{
+  font-size: 38px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 40px 0 30px;
+}
+
+.coaching-features{
+  display: flex;
+  justify-content: space-between;
+  margin: 60px 0;
+}
+
+
+.coaching-features .feature{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 250px;
+  min-height: 190px;
+  background-color: #F3F5F9;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.feature div{
+  width: 90px;
+  margin: 0 auto;
+}
+
+.feature img{
+  width: 100%;
+}
+
+.feature p{
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.coaching-details .book-btn{
+  background-image: linear-gradient(to right,
+  #ffb347 0%,
+  #ffcc33 51%,
+  #ffb347 100%);
+  width: fit-content;
+margin: 90px auto 50px;
+padding: 15px 45px;
+text-align: center;
+text-transform: uppercase;
+transition: 0.5s;
+background-size: 200% auto;
+color: #fff;
+box-shadow: 0 0 20px #eee;
+border-radius: 10px;
+display: block;
+border-radius: 30px;
+text-decoration: none;
+font-weight: bold;
+}
+
+.coaching-details hr{
+  border: 0;
+  outline: 0;
+  height: 2px;
+  margin: 90px 0;
+  background-color: #F3F5F9;
 }
 
 .all-course-container > h1 {

@@ -72,6 +72,7 @@ $(document).ready(function(){
                     const target = document.querySelector('.navbar .menu a[href*=' + id + ']');
 
                     if (target) {
+                        console.log("target",target);
                         document.querySelector('.navbar .menu a[href*=' + id + ']').classList.add('active')
                     }
 
