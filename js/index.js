@@ -7,6 +7,10 @@ const typed = new Typed(".type", {
   loop: true,
 });
 
+
+
+
+
 // counter up
 
 // $(document).ready(function () {

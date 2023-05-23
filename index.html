@@ -28,7 +28,7 @@
 
     <!-- header started  -->
 
-    <header>
+    <header id="home">
 
         <div class="intro">
             <div class="profile-img" data-aos="zoom-in" data-aos-duration="1400">
@@ -65,8 +65,8 @@
             <div class="logo">
                 <img src="./images/SK-Logo-yellow-black.png" alt="logo">
             </div>
-            <ul>
-                <li><a class="active" href="./index.html">Home</a></li>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
                 <li><a href="#about-section">About</a></li>
                 <li><a href="#service-section">Services</a></li>
                 <li><a href="./case-studies.html">Case Study</a></li>
@@ -591,11 +591,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="./js/carousel/owl.carousel.min.js"></script>
-
+    <script src="./js/nav.js"></script>
     <script src="./js/common.js"></script>
     <script src="./js/getData.js"></script>
     <script src="./js/index.js"></script>
     <script src="./js/caseStudy.js"></script>
+
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
@@ -614,6 +615,30 @@
                 }
             }
         })
+
+
+        // active menu 
+
+        let sections = document.querySelectorAll('section');
+        let navLinks = document.querySelectorAll('.menu a')
+
+
+        window.onscroll = () => {
+            sections.forEach(sec => {
+                let top = window.scrollY;
+                let offset = sec.offsetTop;
+                let height = sec.offsetHeight;
+                let id = sec.getAttribute('id')
+
+                if (top >= offset && top < offset + height) {
+                    navLinks.forEach(links => {
+                        links?.classList?.remove('active');
+                        document.querySelector('.navbar .menu a[href*=' + id + ']').classList.add('active')
+                    })
+                }
+            })
+        }
+
     </script>
 
 

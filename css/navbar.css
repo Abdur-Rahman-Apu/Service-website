@@ -39,6 +39,10 @@
   position: relative;
 }
 
+.navbar ul .current{
+  background-color: #f5df4e;
+}
+
 .navbar > ul li a::after {
   content: "";
   width: 0;
