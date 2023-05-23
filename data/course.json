@@ -738,6 +738,7 @@
     "id": 2,
     "price": "",
     "courseName": " C, C++ & Java Programming Course",
+    "separateCourses":["C","C++","Java"],
     "shortName": " C, C++ & Java",
     "bannerImg": "./images/course-img/course-banner/c,c++,java.png",
     "overview": "A programming language is a language people use when developing software to tell a computer what to do. Do you want to career in programming sector? Then this course is for you. You can learn basic to advanced concepts of C, C++ and Java.",

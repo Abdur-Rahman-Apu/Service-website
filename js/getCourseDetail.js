@@ -16,6 +16,7 @@ const courseDetails = (data, courseId) => {
     faq,
     forWho,
     prerequisite,
+    separateCourses
   } = courseFind;
 
   const courseDetailContainer = document.querySelector(
@@ -220,7 +221,17 @@ const courseDetails = (data, courseId) => {
 
                     const contentHolderDiv = document.createElement('div')
 
+                    if(separateCourses){
+                        const h1=document.createElement('h1')
+                        h1.classList.add('course-name')
+                        h1.innerText=separateCourses[i]
+                        contentHolderDiv.appendChild(h1)
+                    }
+                    
+
                     curriculum[i].forEach((item, index) => {
+
+                        
 
                         const targetId = `${courseNo[i] + index}`;
                         const target = `#${courseNo[i] + index}`;
