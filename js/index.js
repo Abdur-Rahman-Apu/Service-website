@@ -12,7 +12,7 @@ const typed = new Typed(".type", {
 $(document).ready(function () {
   $(".counter").counterUp({
     delay: 10,
-    time: 700,
+    time: 400,
   });
 });
 
