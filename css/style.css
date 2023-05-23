@@ -521,7 +521,8 @@ header .profile-img {
 
 .featured-courses {
   background-color: #f8f8fc;
-  padding: 40px 3%;
+  padding: 40px 3% 120px;
+
 }
 
 .featured-courses > span {
@@ -558,6 +559,196 @@ header .profile-img {
   box-shadow: 0 0 10px #f5df4e;
 }
 
+
+/* testimonial section  */
+
+.testimonial-section{
+  position: relative;
+  min-height: 400px;
+  padding: 30px 3%;
+  background-color: rgba(255, 234, 167, 0.1);
+}
+
+.testimonial-section h2{
+
+  position: relative;
+  font-size: 38px;
+  margin: 90px 0 100px;
+  text-align: center;
+}
+
+.testimonial-section h2::after{
+  content: "";
+  background-color: #f5df4e;
+  position: absolute;
+  width: 10%;
+  height: 4px;
+  bottom: -10px;
+  left: 45%;
+}
+
+
+.owl-carousel{
+ position: relative;
+  margin: 120px 0;
+}
+
+
+.owl-theme .owl-dots .owl-dot{
+  margin-top: 30px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+  background: #f5df4e;
+}
+
+.client-img{
+  position: absolute;
+  max-width: 80px;
+  max-height: 80px;
+}
+
+.client-img img{
+  width: 100%;
+}
+
+.client-1{
+  left: 24%;
+  top: 30%;
+  border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+  animation-name: bounce1;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+
+
+.client-2{
+  left: 17%;
+  bottom: 35%;
+  border-radius: 30% 70% 70% 30%/67% 30% 70% 33%;
+  animation-name: bounce2;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.client-3{
+  left: 25%;
+  bottom: 15%;
+  border-radius: 63% 37% 70% 30%/67% 64% 36% 33%;
+  animation-name: bounce1;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.client-4{
+  top: 30%;
+  right: 23%;
+  border-radius: 58% 42% 65% 35%/21% 43% 57% 79%;
+  animation-name: bounce1;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.client-5{
+  right: 18%;
+  bottom: 35%;
+  border-radius: 72% 28% 25% 75%/42% 30% 70% 58%;
+  animation-name: bounce2;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.client-6{
+  left: 66%;
+  bottom: 15%;
+  border-radius: 63% 37% 22% 78%/36% 58% 42% 64%;
+  animation-name: bounce1;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+
+
+@keyframes bounce1 {
+  0% {
+    transform: translate(0, 0);
+}
+
+33% {
+    transform: translate(40px, 20px);
+}
+66% {
+    transform: translate(20px, 40px);
+}
+100% {
+    transform: translate(0, 0);
+}
+}
+
+
+@keyframes bounce2 {
+  0% {
+   
+    transform: translateY(-35px);
+}
+
+50% {
+  
+    transform: translateY(-15px);
+}
+100% {
+   
+    transform: translateY(-35px);
+}
+}
+
+.owl-carousel .owl-stage-outer .owl-stage .item{
+  width: 600px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+
+.owl-carousel .item .image{
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  
+}
+
+.owl-carousel .item .image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.owl-carousel .item p{
+  font-style: italic;
+  font-size: 16px;
+  line-height: 28px;
+  margin: 30px 0 25px;
+}
+
+.owl-carousel .author-info h6{
+  text-align: center;
+}
+
+.owl-carousel .author-info .client-name{
+  color: #f5df4e;
+  font-size: 24px;
+}
+
+.owl-carousel .author-info .client-designation{
+  font-size: 14px;
+}
 /* media query  */
 
 @media screen and (max-width: 900px) {
@@ -576,6 +767,10 @@ header .profile-img {
 
   .statistics-detail {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .client-img{
+    display: none;
   }
 }
 
@@ -612,6 +807,12 @@ header .profile-img {
 
   .statistics-detail {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .owl-carousel .owl-stage-outer .owl-stage .item{
+    width: 100%;
+    padding: 0 20px;
+   
   }
 }
 
