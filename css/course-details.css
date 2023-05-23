@@ -302,7 +302,7 @@ body {
 .course-contents .course-name{
     margin-bottom: 15px;
     position: relative;
-    width: fit-content;
+    text-align: center;
     /* background-color: #f5df4e; */
 }
 
@@ -310,8 +310,9 @@ body {
     content: '';
     position: absolute;
     bottom: 0;
-    left: 0;
-    width: 100%;
+    left: 43%;
+    
+    width: 15%;
     height: 4px;
     background-color: #f5df4e;
 }
