@@ -58,6 +58,11 @@ body{
     min-height: 130px;
 }
 
+.blog-header a{
+    text-decoration: none;
+    color: #000;
+}
+
 .blog-header h1{
     font-size: 20px;
 }
