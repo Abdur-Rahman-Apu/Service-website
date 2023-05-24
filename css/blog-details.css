@@ -88,6 +88,7 @@
     justify-content: space-evenly;
     text-transform: uppercase;
     margin-left: 30px;
+    cursor: pointer;
 }
 
 .blog-details{
