@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs</title>
+    <link rel="stylesheet" href="css/blog.css">
+    <script src="https://kit.fontawesome.com/3b7a96cd6e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- scroll-to-top  -->
+    <div class="up">
+        <div class="scroll-to-top">
+            <i class="fa-solid fa-arrow-up"></i>
+        </div>
+        <p>Back to top</p>
+    </div>
+
+    <main>
+
+        <!-- navbar  -->
+        <div class="navbar">
+            <div class="logo">
+                <img src="./images/SK-Logo-yellow-black.png" alt="logo">
+            </div>
+            <ul class="menu">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./index.html/">About</a></li>
+                <li><a href="./index.html">Services</a></li>
+                <li><a href="./case-studies.html">Case Study</a></li>
+                <li><a href="./courses.html">Courses</a></li>
+                <li><a href="#">Webinar</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a class="active" href="./blog.html">Blog</a></li>
+            </ul>
+
+
+            <div class="contact">
+                <div class="humburger" onclick="toggleMenu()">
+                    <i class="fa-solid fa-bars" id="humburger-icon"></i>
+
+                    <span></span>
+
+                    <i class="fa-regular fa-circle-xmark" id="close-icon"></i>
+
+                    <ul class="humburger-menus">
+                        <li><a class="active" href="./index.html">Home</a></li>
+                        <li><a href="./index.html">About</a></li>
+                        <li><a href="./index.html">Services</a></li>
+                        <li><a href="./case-studies.html">Case Study</a></li>
+                        <li><a href="./courses.html">Courses</a></li>
+                        <li><a href="#">Webinar</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a class="active" href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <a href="#"><i class="fa-brands fa-facebook facebook"></i></a>
+                    <p>Facebook</p>
+                </div>
+                <div>
+                    <a href="#"><i class="fa-brands fa-twitter twitter"></i></a>
+                    <p>Twitter</p>
+                </div>
+                <div>
+                    <a href="#"><i class="fa-brands fa-instagram instagram"></i></a>
+                    <p>Instagram</p>
+                </div>
+                <div>
+                    <a href="#">
+                        <i class="fa-brands fa-linkedin linkedin"></i>
+                    </a>
+                    <p>LinkedIn</p>
+                </div>
+                <div>
+                    <a href="#"><i class="fa-brands fa-square-behance behance"></i></a>
+                    <p>Behance</p>
+                </div>
+
+            </div>
+        </div>
+
+        <section class="blog-container">
+
+            <h1>Blogs</h1>
+
+            <div class="all-blogs">
+
+                <!-- blog 1  -->
+                <div class="blog">
+                    <div class="blog-thumbnail">
+                        <img src="./images/blogs/thumbnail/blog1.jpg" alt="blog thumbnail">
+                    </div>
+
+                    <div class="blog-details">
+
+                        <div class="blog-header">
+                            <h1>Meta Rolls Out AI and Automation Tool for Advertising: What Does It Mean for Your
+                                Campaigns</h1>
+                        </div>
+
+                        <div class="blog-post-info">
+                            <span>April 27, 2023</span>
+                            <p>BY <Strong>Jay Baul</Strong></p>
+                        </div>
+
+                        <div class="blog-description">
+                            <p>Automation suggests improved speed and convenience in performing tasks that take a lot of
+                                time and effort manually. Artificial intelligence (AI) refers to the technological
+                                ability to process ...</p>
+                        </div>
+
+                        <div class="blog-fields">
+                            <p> <span>Field Under:</span> <strong>Thrive News, Social Media, Online Marketing,
+                                    Pay-per-Click, Internet
+                                    Marketing, Search Engine Optimization</strong></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- blog 2  -->
+                <div class="blog">
+                    <div class="blog-thumbnail">
+                        <img src="./images/blogs/thumbnail/blog2.png" alt="blog thumbnail">
+                    </div>
+
+                    <div class="blog-details">
+
+                        <div class="blog-header">
+                            <h1>What is a landing page, and why is it important?</h1>
+                        </div>
+
+                        <div class="blog-post-info">
+                            <span>September 13, 2017</span>
+                            <p>BY <Strong>Joli Skow</Strong></p>
+                        </div>
+
+                        <div class="blog-description">
+                            <p>If you’re not yet using landing pages for lead generation, you’re missing out. These
+                                types of website pages are essential tools to harness the traffic you bring in through
+                                ads and campaigns. In ...</p>
+                        </div>
+
+                        <div class="blog-fields">
+                            <p> <span>Field Under:</span> <strong> Email Marketing, Internet Marketing, Website Content,
+                                    Conversion Optimzation, Inbound Marketing, Online Marketing, Pay-Per-Click</strong>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- blog 3  -->
+                <div class="blog">
+                    <div class="blog-thumbnail">
+                        <img src="./images/blogs/thumbnail/blog3.png" alt="blog thumbnail">
+                    </div>
+
+                    <div class="blog-details">
+
+                        <div class="blog-header">
+                            <h1>Digital Marketing for Law Firms: We Have New Testimonials!</h1>
+                        </div>
+
+                        <div class="blog-post-info">
+                            <span>September 19, 2017</span>
+                            <p>BY <Strong>Joli Skow</Strong></p>
+                        </div>
+
+                        <div class="blog-description">
+                            <p>There's a lot going on at Thrive these days! We're growing a lot, which means we get the
+                                opportunity to work with so many different companies who specialize in so many different
+                                things. From ...</p>
+                        </div>
+
+                        <div class="blog-fields">
+                            <p> <span>Field Under:</span> <strong>Small Business, Web Design, Local Online Marketing,
+                                    WordPress, Mobile Website Optimization, Search Engine Optimization, Email Marketing,
+                                    Thrive News, Friends of Thrive, Website Content, Mobile Marketing, Inbound
+                                    Marketing, Internet Marketing, Online Marketing, Pay-Per-Click, Industry</strong>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- second row  -->
+
+                <!-- blog 4  -->
+                <div class="blog">
+                    <div class="blog-thumbnail">
+                        <img src="./images/blogs/thumbnail/blog4.png" alt="blog thumbnail">
+                    </div>
+
+                    <div class="blog-details">
+
+                        <div class="blog-header">
+                            <h1>What Is Remarketing & How It Is Retargeting Your Perfect Customer</h1>
+                        </div>
+
+                        <div class="blog-post-info">
+                            <span>October 29, 2015</span>
+                            <p>BY <Strong>Thrive</Strong></p>
+                        </div>
+
+                        <div class="blog-description">
+                            <p>To answer the common question “what is remarketing?” it’s important to remember the
+                                never-ending challenge of marketing: Where is the perfect customer that is both an ideal
+                                and realistic target for ...</p>
+                        </div>
+
+                        <div class="blog-fields">
+                            <p> <span>Field Under:</span> <strong>Pay-Per-Click</strong></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- blog 5  -->
+                <div class="blog">
+                    <div class="blog-thumbnail">
+                        <img src="./images/blogs/thumbnail/blog5.png" alt="blog thumbnail">
+                    </div>
+
+                    <div class="blog-details">
+
+                        <div class="blog-header">
+                            <h1>Top 9 Testing Tools for Landing Pages That Boost Conversion Rates</h1>
+                        </div>
+
+                        <div class="blog-post-info">
+                            <span>June 21, 2022</span>
+                            <p>BY <Strong>Thea Danganan</Strong></p>
+                        </div>
+
+                        <div class="blog-description">
+                            <p>Landing pages are often created for marketing or advertising campaigns and have a single
+                                objective. They can be created with the end goal of boosting conversions, capturing
+                                high-quality leads or ...</p>
+                        </div>
+
+                        <div class="blog-fields">
+                            <p> <span>Field Under:</span> <strong>Pay-Per-Click, Internet Marketing, Conversion
+                                    Optimization, Web Design, Thrive News, Online Marketing</strong></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- blog 6  -->
+                <div class="blog">
+                    <div class="blog-thumbnail">
+                        <img src="./images/blogs/thumbnail/blog6.png" alt="blog thumbnail">
+                    </div>
+
+                    <div class="blog-details">
+
+                        <div class="blog-header">
+                            <h1>The Best Online Marketing Channels To Promote Your Brand in 2021</h1>
+                        </div>
+
+                        <div class="blog-post-info">
+                            <span>July 22, 2021</span>
+                            <p>BY <Strong>Thea Serrano</Strong></p>
+                        </div>
+
+                        <div class="blog-description">
+                            <p>Strengthening your business’s online presence is necessary to attract, convert and retain
+                                customers. But there isn’t a single formula that guarantees digital marketing success.
+                                Instead, you need to ...</p>
+                        </div>
+
+                        <div class="blog-fields">
+                            <p> <span>Field Under:</span> <strong>Social Media, Online Marketing, Pay-Per-Click, Video
+                                    Marketing, PPC, Web Design, Search Engine Optimization, Thrive News</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="./js/common.js"></script>
+
+</body>
+
+</html>
