@@ -773,8 +773,9 @@ header .profile-img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 100px auto;
-  padding: 40px 20%;
+  margin: 0 auto;
+  padding: 120px 20%;
+  background-color: #F3F5F9;
 
 }
 
@@ -925,11 +926,11 @@ margin-bottom: 60px;
     margin-top: 80px;
   }
 
-  .statistics-detail {
+  .testimonial-section .statistics-detail {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .owl-carousel .owl-stage-outer .owl-stage .item{
+  .testimonial-section .owl-carousel .owl-stage-outer .owl-stage .item{
     width: 100%;
     padding: 0 20px;
    
@@ -981,12 +982,21 @@ margin-bottom: 60px;
     text-align: center;
   }
 
+
+  .certificates{
+    flex-direction: column;
+  }
+
+  .certificates div{
+    flex-basis: 100%;
+    margin-bottom: 90px;
+  }
   .certificate-title h1{
-    font-size: 20px;
+    font-size: 28px;
   }
 
   .certificate-section p{
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .display-section h1{
