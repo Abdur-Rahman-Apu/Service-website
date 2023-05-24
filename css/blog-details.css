@@ -2,17 +2,20 @@
 
 
 .blog-header{
-    background-color: #FFFDF6;
-    min-height: 80vh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 60px 4%;
+    width: 100%;
+    min-height: fit-content;
+    background-image: url('../images/blogs/details/background.jpg');
+   background-position: bottom;
+   background-size: cover;
+   background-repeat: no-repeat;
+    
 }
 
 
-.blog-header > div{
-    flex-basis: 45%;
+.blog-header-container{
+    width: 70%;
+    margin: 0 auto;
+    padding: 60px 2%;
 }
 
 .blog-post-info{
@@ -23,13 +26,68 @@
 }
 
 .blog-heading-info h1{
-    font-size: 40px;
+    font-size: 38px;
+    text-align: center;
 }
 
 .blog-header .blog-img img{
     width: 100%;
-    border-radius: 25px;
+}
 
+.subscribe{
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 3%;
+    background-color: #f5df4e;
+}
+
+.subscribe > h1{
+    flex-basis: 28%;
+}
+.subscribe > p{
+    flex-basis: 28%;
+}
+.subscribe > div{
+    flex-basis: 40%;
+}
+
+
+.subscribe > h1{
+    font-size: 38px;
+}
+
+
+.subscribe .email{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.email input[type='email']{
+    width: 200px;
+    height: 35px;
+    border: 0;
+    outline: 0;
+    border-radius: 8px;
+    margin-top: 3px;
+}
+
+.email label{
+    font-weight: bold;
+}
+
+.email button{
+    height: 35px;
+    width: 120px;
+    font-weight: bold;
+    background-color: #f5df4e;
+    border: 3px solid #fff;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    margin-left: 30px;
 }
 
 .blog-details{
@@ -43,15 +101,9 @@
 }
 
 .blog-details p{
-    display: flex;
-    align-items: center;
     font-size: 15px;
 }
 
-.blog-details p img{
-    width: 30px;
-    margin-left: 10px;
-}
 
 .blog-details hr{
     border: 0;
@@ -89,5 +141,49 @@
 .blog-details .meta-platforms li{
     list-style-type: " - ";
     font-size: 15px;
+    
+}
+
+@media screen and (max-width:900px) {
+    .subscribe{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .subscribe h1{
+        margin-bottom: 30px;
+    }
+
+    .subscribe p{
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width:440px) {
+
+    .blog-header{
+        min-height: fit-content;
+    }
+
+    .blog-heading-info h1{
+        font-size: 20px;
+    }
+
+    .subscribe h1, .blog-details h1, .blog-details ol li ul  li{
+        font-size: 25px;
+    }
+
+    .subscribe > p{
+        font-size: 14px;
+    }
+
+    .email label{
+        font-size: 14px;
+    }
+    .blog-details p, .blog-details ul, .blog-details ol li,.blog-details ol li, .blog-details .meta-platforms {
+        font-size: 14px;
+    }
+
     
 }
