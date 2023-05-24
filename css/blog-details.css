@@ -96,11 +96,11 @@
 .blog-details{
     width: 80%;
     margin: 80px auto;
-    text-align: justify;
 }
 
 .blog-details p{
     margin-bottom: 30px;
+    text-align: justify;
 }
 
 .blog-details p{
@@ -157,6 +157,107 @@
     
 }
 
+
+.comment-section{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.comment-section p{
+    font-size: 14px;
+}
+
+.comment-box{
+    margin-top: 20px;
+}
+
+.sender-info textarea, .sender-name input[type='text'], .sender-email input[type='email']{
+width: 80%;
+resize: none;
+border-radius: 6px;
+margin: 7px 0 10px;
+padding: 10px;
+outline: none;
+border: 2px solid #e5e5e5;
+}
+
+.sender-name{
+    margin-bottom: 20px;
+}
+
+
+.post-btn {
+    display: block;
+    width: fit-content;
+    margin: 60px auto;
+    padding: 10px 35px;
+    text-decoration: none;
+    background-color: #f5df4e;
+    color: #000;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 18px;
+
+  }
+  
+  .post-btn:hover {
+    box-shadow: 0 0 3px #f5df4e;
+  }
+
+.author-details{
+    background-color: #f5df4e;
+    padding: 70px 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.author-img{
+    width: 260px;
+}
+
+.author-img img{
+    border-radius: 50%;
+    width: 100%;
+    object-fit: cover;
+    outline: 3px solid #000;
+    outline-offset: 5px;
+}
+
+.author-info{
+    grid-column: 2/ span 3;
+    padding: 0 50px;
+}
+
+.author-info h1{
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.author-info p{
+    font-size: 15px;
+    line-height: 30px;
+}
+
+
+.more-post-btn{
+    padding: 10px 20px;
+    border: 3px solid #000;
+    display: block;
+    width: fit-content;
+    margin-top: 30px;
+    text-decoration: none;
+    color: #000;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+
+
+.more-post-btn:hover{
+background-color: #FFFDF6;
+/* border: 3px solid #f5df4e; */
+}
+
 @media screen and (max-width:900px) {
     .subscribe{
         flex-direction: column;
@@ -170,6 +271,17 @@
 
     .subscribe p{
         margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .author-details{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .author-info{
+        grid-column: 1/ -1;
+        padding: 0 50px;
     }
 }
 
@@ -195,6 +307,19 @@
         font-size: 14px;
     }
     .blog-details p, .blog-details ul, .blog-details ol li,.blog-details ol li, .blog-details .meta-platforms {
+        font-size: 14px;
+    }
+
+    .author-info{
+        padding: 0;
+    }
+
+    .author-info h1{
+        font-size: 32px;
+        margin: 20px 0;
+    }
+
+    .author-info p{
         font-size: 14px;
     }
 
