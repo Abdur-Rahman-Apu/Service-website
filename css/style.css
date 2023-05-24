@@ -604,17 +604,17 @@ header .profile-img {
 }
 
 
-.owl-carousel{
+.testimonial-section .owl-carousel{
  position: relative;
   margin: 120px 0;
 }
 
 
-.owl-theme .owl-dots .owl-dot{
+.testimonial-section .owl-theme .owl-dots .owl-dot{
   margin-top: 30px;
 }
 
-.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+.testimonial-section .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
   background: #f5df4e;
 }
 
@@ -725,44 +725,44 @@ header .profile-img {
 }
 }
 
-.owl-carousel .owl-stage-outer .owl-stage .item{
+.testimonial-section .owl-carousel .owl-stage-outer .owl-stage .item{
   width: 600px;
   margin: 0 auto;
   text-align: justify;
 }
 
 
-.owl-carousel .item .image{
+.testimonial-section .owl-carousel .item .image{
   width: 120px;
   height: 120px;
   margin: 0 auto;
   
 }
 
-.owl-carousel .item .image img{
+.testimonial-section .owl-carousel .item .image img{
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 50%;
 }
 
-.owl-carousel .item p{
+.testimonial-section .owl-carousel .item p{
   font-style: italic;
   font-size: 16px;
   line-height: 28px;
   margin: 30px 0 25px;
 }
 
-.owl-carousel .author-info h6{
+.testimonial-section .owl-carousel .author-info h6{
   text-align: center;
 }
 
-.owl-carousel .author-info .client-name{
+.testimonial-section .owl-carousel .author-info .client-name{
   color: #f5df4e;
   font-size: 24px;
 }
 
-.owl-carousel .author-info .client-designation{
+.testimonial-section .owl-carousel .author-info .client-designation{
   font-size: 14px;
 }
 
@@ -810,6 +810,41 @@ header .profile-img {
   object-fit: contain;
 }
 
+
+/* display section  */
+
+.display-section{
+  margin: 60px 0;
+  padding: 30px 10%;
+}
+
+.display-section h1{
+  position: relative;
+text-align: center;
+font-size: 40px;
+margin-bottom: 60px;
+}
+
+.display-section h1::after{
+  content: '';
+  position: absolute;
+  width: 10%;
+  height: 4px;
+  bottom: -15px;
+  left: 45%;
+  background-color: #f5df4e;
+}
+
+.display-section .owl-carousel .owl-stage-outer .owl-stage .item {
+  width: 220px;
+  margin: 0 auto;
+}
+
+.display-section .owl-carousel .owl-stage-outer .owl-stage .item img{
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+}
 
 /* media query  */
 
@@ -952,5 +987,9 @@ header .profile-img {
 
   .certificate-section p{
     font-size: 12px;
+  }
+
+  .display-section h1{
+    font-size: 25px;
   }
 }

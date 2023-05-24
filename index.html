@@ -581,22 +581,44 @@
         </section>
 
         <section class="certificate-section">
-            <div class="certificate-title">
+            <div class="certificate-title" data-aos="zoom-in" data-aos-duration="3000">
                 <h1>Get real world skills!<br> Go from , Zero to Hero!</h1>
-                <p>"I'm an authorized instructor & winner of 2 Adobe MAX awards. Here at Designer Shravan, I'm
-                    continually
-                    trying to make the worlds best beginner to advanced courses."</p>
+                <p>"I'm an authorized instructor of Data Science, AWS, Adobe, Apache, Red Hat, Ethical Hacking etc. I'm
+                    continually trying to make the world's best beginner to advanced courses."</p>
             </div>
 
 
 
             <div class="certificates">
-                <div>
+                <div data-aos="flip-left" data-aos-duration="3000">
                     <img src="./images/certificates/certified_instructor.png" alt="certificate image">
                 </div>
 
-                <div>
+                <div data-aos="flip-left" data-aos-duration="3000">
                     <img src="./images/certificates/certified_expert.png" alt="certificate image">
+                </div>
+            </div>
+        </section>
+
+
+        <section class="display-section" data-aos="fade-up" data-aos-duration="3000">
+            <h1>Shravan Kumar seen in</h1>
+
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="./images/display/display-1.png" alt="display image">
+                </div>
+                <div class="item">
+                    <img src="./images/display/display-2.png" alt="display image">
+                </div>
+                <div class="item">
+                    <img src="./images/display/display-3.png" alt="display image">
+                </div>
+                <div class="item">
+                    <img src="./images/display/display-4.png" alt="display image">
+                </div>
+                <div class="item">
+                    <img src="./images/display/display-5.png" alt="display image">
                 </div>
             </div>
         </section>
@@ -621,7 +643,7 @@
     <script>
         AOS.init();
 
-        $('.owl-carousel').owlCarousel({
+        $('.testimonial-container .owl-carousel').owlCarousel({
             loop: true,
             margin: 10,
             autoplay: true,
@@ -631,6 +653,25 @@
             responsive: {
                 0: {
                     items: 1
+                }
+            }
+        })
+
+        $('.display-section .owl-carousel').owlCarousel({
+            loop: true,
+            dots: false,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            margin: 10,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+
+                },
+                1000: {
+                    items: 3,
+
                 }
             }
         })
