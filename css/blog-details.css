@@ -32,6 +32,8 @@
 
 .blog-header .blog-img img{
     width: 100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
 }
 
 .subscribe{
@@ -125,14 +127,24 @@
     margin-bottom: 30px;
 }
 
+
+
 .blog-details ol li{
     font-size: 30px;
-   
+}
+
+.blog-details ol li::marker{
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .blog-details ol li ul  li{
     list-style-type:disc;
     font-size: 25px;
+}
+
+.blog-details ol li ul  li::marker{
+    font-size: 18px;
 }
 
 .blog-details h6{
