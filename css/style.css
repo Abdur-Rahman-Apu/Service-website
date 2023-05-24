@@ -899,6 +899,14 @@ header .profile-img {
     padding: 0 20px;
    
   }
+
+  .certificate-title h1{
+    font-size: 30px;
+  }
+
+  .certificate-section p{
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 440px) {
@@ -923,11 +931,6 @@ header .profile-img {
     font-size: 15px;
   }
 
-  /* .about-experience h1 {
-    font-size: 5rem;
-    top: -5px;
-  } */
-
   .about-experience h3 {
     font-size: 1.3rem;
   }
@@ -941,5 +944,13 @@ header .profile-img {
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+
+  .certificate-title h1{
+    font-size: 20px;
+  }
+
+  .certificate-section p{
+    font-size: 12px;
   }
 }
