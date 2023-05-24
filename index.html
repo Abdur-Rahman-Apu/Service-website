@@ -73,7 +73,7 @@
                 <li><a href="#featured-courses">Courses</a></li>
                 <li><a href="#">Webinar</a></li>
                 <li><a href="#">Contact</a></li>
-                <li><a href="#">Blog</a></li>
+                <li><a href="#blog-section">Blog</a></li>
             </ul>
 
 
@@ -461,8 +461,10 @@
             </div>
         </section>
 
+
+        <!-- testimonial section  -->
         <section class="testimonial-section" id="testimonial-section">
-            <h2>Testimonial</h2>
+            <h2 data-aos="zoom-in" data-aos-duration="2000">Testimonial</h2>
 
             <div class="testimonial-container">
 
@@ -580,6 +582,8 @@
             </div>
         </section>
 
+
+        <!-- certificate section  -->
         <section class="certificate-section">
             <div class="certificate-title" data-aos="zoom-in" data-aos-duration="3000">
                 <h1>Get real world skills!<br> Go from , Zero to Hero!</h1>
@@ -589,7 +593,7 @@
 
 
 
-            <div class="certificates">
+            <!-- <div class="certificates">
                 <div data-aos="flip-left" data-aos-duration="3000">
                     <img src="./images/certificates/certified_instructor.png" alt="certificate image">
                 </div>
@@ -597,10 +601,12 @@
                 <div data-aos="flip-left" data-aos-duration="3000">
                     <img src="./images/certificates/certified_expert.png" alt="certificate image">
                 </div>
-            </div>
+            </div> -->
         </section>
 
 
+
+        <!-- display section  -->
         <section class="display-section" data-aos="fade-up" data-aos-duration="3000">
             <h1>Shravan Kumar seen in</h1>
 
@@ -621,6 +627,62 @@
                     <img src="./images/display/display-5.png" alt="display image">
                 </div>
             </div>
+        </section>
+
+        <!-- blog section -->
+
+        <section class="blog-section" id="blog-section">
+            <h1 data-aos="zoom-in" data-aos-duration="2000">Blogs</h1>
+
+            <div class="blogs">
+
+                <!-- blog 1 -->
+                <div class="blog" data-aos="fade-right" data-aos-duration="2000">
+                    <div class="blog-banner">
+                        <img src="./images/blogs/thumbnail/blog1.jpg" alt="image">
+                    </div>
+                    <a href="./blog-1.html">
+                        <h1>Meta Rolls Out AI and Automation Tools for Advertising: What Does It Mean for Your Campaigns
+                        </h1>
+                    </a>
+                    <div class="blog-post-info">
+                        <span>April 27, 2023</span>
+                        <p>By <b>Jay Bual</b></p>
+                    </div>
+                </div>
+
+                <!-- blog 2  -->
+                <div class="blog" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="blog-banner">
+                        <img src="./images/blogs/thumbnail/blog2.png" alt="image">
+                    </div>
+                    <a href="#">
+                        <h1>What is a landing page, and why is it important?</h1>
+
+                    </a>
+                    <div class="blog-post-info">
+                        <span>September 13, 2017</span>
+                        <p>BY <Strong>Joli Skow</Strong></p>
+                    </div>
+                </div>
+
+                <!-- blog 3 -->
+                <div class="blog" data-aos="fade-down" data-aos-duration="2000">
+                    <div class="blog-banner">
+                        <img src="./images/blogs/thumbnail/blog3.png" alt="image">
+                    </div>
+                    <a href="#">
+                        <h1>Digital Marketing for Law Firms: We Have New Testimonials!
+                        </h1>
+                    </a>
+                    <div class="blog-post-info">
+                        <span>September 19, 2017</span>
+                        <p>By <b>Joli Skow</b></p>
+                    </div>
+                </div>
+            </div>
+
+            <a href="./blog.html" class="view-all-btn" data-aos="zoom-in" data-aos-duration="2000">View All Blogs</a>
         </section>
 
     </main>
@@ -648,8 +710,6 @@
             margin: 10,
             autoplay: true,
             autoplayTimeout: 4000,
-            autoplayHoverPause: true,
-
             responsive: {
                 0: {
                     items: 1
