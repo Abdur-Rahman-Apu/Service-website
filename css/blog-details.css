@@ -1,0 +1,93 @@
+@import url(./common.css);
+
+
+.blog-header{
+    background-color: #FFFDF6;
+    min-height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 60px 4%;
+}
+
+
+.blog-header > div{
+    flex-basis: 45%;
+}
+
+.blog-post-info{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    margin: 30px 0;
+}
+
+.blog-heading-info h1{
+    font-size: 40px;
+}
+
+.blog-header .blog-img img{
+    width: 100%;
+    border-radius: 25px;
+
+}
+
+.blog-details{
+    width: 80%;
+    margin: 80px auto;
+    text-align: justify;
+}
+
+.blog-details p{
+    margin-bottom: 30px;
+}
+
+.blog-details p{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.blog-details p img{
+    width: 30px;
+    margin-left: 10px;
+}
+
+.blog-details hr{
+    border: 0;
+    outline: 0;
+    height: 1px;
+    background-color: #f5df4e;
+   
+    margin: 60px 0;
+}
+
+.blog-details h1{
+    font-size: 40px;
+    margin-bottom:20px;
+}
+
+.blog-details ul{
+    padding: 0 8%;
+    margin-bottom: 30px;
+}
+
+.blog-details ol li{
+    font-size: 30px;
+   
+}
+
+.blog-details ol li ul  li{
+    list-style-type:disc;
+    font-size: 25px;
+}
+
+.blog-details h6{
+    margin-bottom: 20px;
+}
+
+.blog-details .meta-platforms li{
+    list-style-type: " - ";
+    font-size: 15px;
+    
+}
