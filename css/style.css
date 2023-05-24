@@ -970,8 +970,25 @@ margin-bottom: 60px;
   .about-experience h3 {
     font-size: 1.3rem;
   }
+
+  .case-study-section .case-study-title{
+    font-size: 28px;
+  }
+
+  .statistics-section .statistics-title{
+    font-size: 30px;
+  }
+
   .statistics-detail {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .featured-courses > span{
+    font-size: 30px;
+  }
+
+  .featured-courses > p{
+    font-size: 13px;
   }
 
   .detail-container {
@@ -1000,6 +1017,6 @@ margin-bottom: 60px;
   }
 
   .display-section h1{
-    font-size: 25px;
+    font-size: 30px;
   }
 }
