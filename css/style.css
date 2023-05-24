@@ -887,6 +887,10 @@ margin-bottom: 60px;
   overflow: hidden;
 }
 
+.blog:hover{
+  box-shadow: 0 4px 4px #4c4d4d;
+}
+
 .blog-banner img{
   width: 100%;
   object-fit: cover;
