@@ -770,19 +770,14 @@ header .profile-img {
 /* certificate section  */
 
 .certificate-section {
-  margin: 100px auto;
-  padding: 40px 10%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  position: relative;
+  margin: 100px auto;
+  padding: 40px 20%;
 
 }
 
-.canvas {
-  position: absolute;
-  top: 0;
-}
 
 .certificate-section>div {
   flex-basis: 60%;
@@ -796,12 +791,23 @@ header .profile-img {
 .certificate-section p {
   margin-top: 40px;
   text-align: center;
+  font-size: 18px;
 }
 
-.certificate-section .owl-item {
-  background-color: yellow;
-  height: 300px;
+.certificates{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
 
+.certificates div{
+  flex-basis: 33%;
+}
+
+.certificates img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 
