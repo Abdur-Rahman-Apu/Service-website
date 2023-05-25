@@ -917,6 +917,43 @@ margin-bottom: 60px;
 }
 
 
+/* footer section start  */
+footer{
+  height: 150px;
+  background-color: #1e272e;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  padding: 20px 4%;
+}
+
+footer > div{
+  flex-basis: 50%;
+}
+
+.footer-logo img{
+  width: 120px;
+  object-fit: cover;
+}
+
+footer a{
+  text-decoration: none;
+  color: #fff;
+}
+
+footer a:hover{
+  color: #f5df4e;
+}
+
+footer p{
+  margin-left: 75px;
+  color: #fff;
+}
+
+footer .rules-regulations{
+  display: flex;
+  justify-content: space-between;
+}
 
 
 /* media query  */
