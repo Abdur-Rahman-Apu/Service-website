@@ -140,6 +140,90 @@ font-weight: bold;
 }
 
 
+/* modal style  */
+
+ .modal {
+  max-width: 80%;
+}
+
+.blocker{
+  z-index: 200;
+}
+
+.modal .send-info {
+  display: flex;
+}
+
+.modal .send-info>div {
+  flex-basis: 50%;
+}
+
+.modal .send-info img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.modal .send-info form>div {
+  margin-bottom: 10px;
+}
+
+.modal .send-info form label {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 6px 0;
+}
+
+.modal .send-info .name-field input[type='text'],
+.modal .send-info .email input[type='email'],
+.course-select #courses,
+.phone-no #phoneField {
+  width: 70%;
+  height: 34px;
+  outline: 0;
+  border: 1px solid #95a5a6;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.country-select.inside input,
+.country-select.inside input[type=text],
+.phone-no #phoneField {
+  height: 34px;
+  outline: 0;
+  border: 1px solid #95a5a6;
+  border-radius: 5px;
+}
+
+.modal .send-info .message-box {
+  margin: 10px 0;
+}
+
+.modal .send-info .message-box textarea {
+  resize: none;
+  outline: 0;
+  border: 1px solid #95a5a6;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.modal .send-info .message-box textarea::placeholder {
+  font-family: "Poppins", sans-serif;
+}
+
+.modal .send-info input[type='submit'] {
+  background-color: #f5df4e;
+  border: 0;
+  outline: 0;
+  padding: 10px 30px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 35px;
+  cursor: pointer;
+}
+
+
 @media screen and (max-width:900px) {
   .coaching-features .feature{
     flex-basis: 45%;

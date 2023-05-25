@@ -91,6 +91,7 @@
             font-size: 14px;
             font-weight: bold;
             border-radius: 35px;
+            cursor: pointer;
         }
     </style>
 
@@ -210,6 +211,8 @@
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
     <script src="./js/carousel/owl.carousel.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
 
     <!-- <script src="./js/confetti.js"></script> -->
     <!-- <script src="./js/zoom/jquery-imagepreviewer.min.js"></script> -->
@@ -227,6 +230,9 @@
 
     <script>
 
+        (function () {
+            emailjs.init("huB7HdbtLQHtlBqmr");
+        })();
 
 
 
@@ -245,7 +251,24 @@
 
             const course = form.course.value;
 
-            console.log(course);
+            const message = form.message.value;
+
+            const emailParams = {
+                from_name: name,
+                email_id: email,
+                country_name: country,
+                telephone: telephone,
+                course_name: course,
+                message: message
+            }
+
+            emailjs.send('service_hcm5p5a', 'template_o0io9dy', emailParams, 'huB7HdbtLQHtlBqmr')
+                .then(res => {
+                    alert('send successfully')
+                    form.reset()
+                })
+
+
 
         }
 
@@ -256,6 +279,10 @@
                 defaultCountry: "us",
                 defaultStyling: "inside"
             })
+
+            $(".modal").modal({
+                fadeDuration: 100
+            });
 
             // $(".modal .send-info .phone-no #phoneField").intlTelInput({
             //     initialCountry: "us",
