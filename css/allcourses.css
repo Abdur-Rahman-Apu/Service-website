@@ -146,6 +146,10 @@ font-weight: bold;
   max-width: 80%;
 }
 
+.modal h1{
+  margin: 10px 0;
+}
+
 .blocker{
   z-index: 200;
 }
