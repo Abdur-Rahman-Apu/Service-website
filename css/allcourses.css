@@ -272,8 +272,9 @@ font-weight: bold;
 @media screen and (max-width:440px){
 
   .modal{
-    padding: 0;
+    padding: 20px;
     margin: 0;
+    max-width: 90%;
   }
 
   .modal .send-info form{
