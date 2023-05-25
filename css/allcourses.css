@@ -204,6 +204,7 @@ font-weight: bold;
 }
 
 .modal .send-info .message-box textarea {
+  width: 90%;
   resize: none;
   outline: 0;
   border: 1px solid #95a5a6;
@@ -223,6 +224,7 @@ font-weight: bold;
   padding: 10px 30px;
   font-size: 14px;
   font-weight: bold;
+  text-transform: uppercase;
   border-radius: 35px;
   cursor: pointer;
 }
@@ -231,6 +233,11 @@ font-weight: bold;
 @media screen and (max-width:900px) {
   .coaching-features .feature{
     flex-basis: 45%;
+  }
+
+  .modal .send-info{
+    flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -250,5 +257,19 @@ font-weight: bold;
 
   .coaching-features .feature p{
     text-align: center;
+  }
+
+  .modal h1{
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width:440px){
+  .modal h1{
+    font-size: 16px;
+  }
+
+  .modal .send-info form label{
+    font-size: 12px;
   }
 }
