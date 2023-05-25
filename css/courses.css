@@ -50,42 +50,6 @@
   border-top-right-radius: 25px;
 }
 
-/* .course-price {
-  position: absolute;
-  right: 20px;
-  bottom: -20px;
-  width: 70px;
-  height: 70px;
-  background-color: #f14d5d;
-  font-size: 20px;
-  font-weight: bold;
-  color: #fff;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 0 0 15px #f14d5d;
-} */
-
-/* .tag span {
-  width: fit-content;
-  padding: 4px 8px;
-  color: #fff;
-  font-size: 13px;
-  font-weight: bold;
-  border-radius: 3px;
-} */
-
-/* .tag span:first-child {
-  background-color: #ffa100;
-  box-shadow: 0 0 5px #ffa100;
-  margin-right: 10px;
-}
-
-.tag span:last-child {
-  background-color: #1dc295;
-  box-shadow: 0 0 5px #1dc295;
-} */
 
 .course-title {
   font-size: 16px;

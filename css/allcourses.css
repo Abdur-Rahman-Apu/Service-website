@@ -193,10 +193,15 @@ font-weight: bold;
 .country-select.inside input,
 .country-select.inside input[type=text],
 .phone-no #phoneField {
+  width: 85%;
   height: 34px;
   outline: 0;
   border: 1px solid #95a5a6;
   border-radius: 5px;
+}
+
+.country-select .country-list{
+  width: 60vw !important;
 }
 
 .modal .send-info .message-box {
@@ -265,8 +270,18 @@ font-weight: bold;
 }
 
 @media screen and (max-width:440px){
+
+  .modal{
+    padding: 0;
+    margin: 0;
+  }
+
+  .modal .send-info form{
+    padding: 0 4%;
+  }
   .modal h1{
     font-size: 16px;
+    padding: 0 3%;
   }
 
   .modal .send-info form label{
