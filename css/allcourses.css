@@ -144,6 +144,7 @@ font-weight: bold;
 
  .modal {
   max-width: 80%;
+  overflow: hidden;
 }
 
 .modal h1{
