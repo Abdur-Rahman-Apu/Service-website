@@ -1479,7 +1479,7 @@
   },
   {
     "id": 3,
-    "courseName": " ML Course in English",
+    "courseName": "ML Course in English",
     "bannerImg": "./images/course-img/course-banner/machine-learning.png",
     "shortName": "Machine Learning",
     "overview": "A perfect blend of in-depth Machine Learning knowledge and strong practical skills using Python ML libraries to become a Data Scientist. This  machine learning course provides the implementation of real-time machine learning projects to give you a headstart and enables you to bag top ML jobs.",
@@ -2235,7 +2235,7 @@
   },
   {
     "id": 5,
-    "courseName": " Big Data Certification Course with Hadoop & Spark",
+    "courseName": "Big Data Certification Course with Hadoop & Spark",
     "bannerImg": "./images/course-img/course-banner/Apache-Hadoop-Big-Data-and-Apache-Spark.png",
     "shortName": "Big Data, Hadoop & Spark",
     "overview": "A perfect blend of in-depth Hadoop and Spark theoretical knowledge and strong practical skills via implementation of real-time Hadoop and Spark projects to give you a headstart and enable you to bag top Hadoop jobs in the Big Data industry.",
@@ -2567,7 +2567,7 @@
   },
   {
     "id": 6,
-    "courseName": " Apache Kafka Certification Course",
+    "courseName": "Apache Kafka Certification Course",
     "bannerImg": "./images/course-img/course-banner/apache-kafka.png",
     "shortName": "Apache Kafka",
     "overview": "DataFlair’s  Kafka Training will give you a perfect blend of in-depth Kafka theoretical knowledge and strong practical skills. This Kafka certification training course introduces real-time Kafka projects to give you a headstart in learning Kafka and enables you to bag top Kafka jobs in the industry. <br>Online Kafka training is designed to provide you the best online classes for learning kafka API, configuration, integration of Kafka with Hadoop, Storm, and Spark.",
@@ -3183,7 +3183,7 @@
   },
   {
     "id": 8,
-    "courseName": " AWS Certification Course in English",
+    "courseName": "AWS Certification Course in English",
     "bannerImg": "./images/course-img/course-banner/AWS.png",
     "shortName": "AWS",
     "overview": "A perfect blend of in-depth AWS knowledge and strong practical skills for AWS Certified Cloud Practitioner (CLF-C01) Exam.  AWS course gives you a headstart in learning Amazon Cloud and enables you to bag top jobs in IT industry.",

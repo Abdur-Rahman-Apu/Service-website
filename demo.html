@@ -6,147 +6,211 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/owl.carousel.min.css">
-    <link rel="stylesheet" href="./css/owl.theme.green.min.css">
-    <link rel="stylesheet" href="./css/style.css">
-
-    <link rel="stylesheet" href="./css/zoomify.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <link rel="stylesheet" href="./css/countrySelect.css">
+    <link rel="stylesheet" href="./css/intlTelInput.css">
 
 
     <script src="https://kit.fontawesome.com/3b7a96cd6e.js" crossorigin="anonymous"></script>
 
+
     <style>
-        .certificate-section {
-            margin: 100px auto;
-            padding: 40px 10%;
+        .modal {
+            max-width: 80%;
+        }
+
+        .modal .send-info {
             display: flex;
-            flex-direction: column;
-            justify-content: center;
-            position: relative;
-
         }
 
-        .canvas {
-            position: absolute;
-            top: 0;
+        .modal .send-info>div {
+            flex-basis: 50%;
         }
 
-        .certificate-section>div {
-            flex-basis: 60%;
+
+
+        .modal .send-info img {
+            width: 100%;
+            object-fit: cover;
         }
 
-        .certificate-section h1 {
-            text-align: center;
-            font-size: 48px;
+        .modal .send-info form>div {
+            margin-bottom: 10px;
         }
 
-        .certificate-section p {
-            margin-top: 40px;
-            text-align: center;
+        .modal .send-info form label {
+            display: inline-block;
+            font-size: 17px;
+            margin: 6px 0;
         }
 
-        .owl-item {
-            background-color: yellow;
-            height: 300px;
-
+        .modal .send-info .name-field input[type='text'],
+        .modal .send-info .email input[type='email'],
+        .course-select #courses,
+        .phone-no #phoneField {
+            width: 70%;
+            height: 34px;
+            outline: 0;
+            border: 1px solid #95a5a6;
+            border-radius: 5px;
+            padding-left: 10px;
         }
 
-        section {
-            margin: 120px 0;
+        .country-select.inside input,
+        .country-select.inside input[type=text],
+        .phone-no #phoneField {
+            height: 34px;
+            outline: 0;
+            border: 1px solid #95a5a6;
+            border-radius: 5px;
         }
 
-        .button-wrapper canvas {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            pointer-events: none;
+        .modal .send-info .message-box {
+            margin: 10px 0;
+        }
+
+        .modal .send-info .message-box textarea {
+            resize: none;
+            outline: 0;
+            border: 1px solid #95a5a6;
+            border-radius: 5px;
+            padding-left: 10px;
+            padding-top: 10px;
+        }
+
+        .modal .send-info .message-box textarea::placeholder {
+            font-family: "Poppins", sans-serif;
+        }
+
+        .modal .send-info input[type='submit'] {
+            background-color: #f5df4e;
+            border: 0;
+            outline: 0;
+            padding: 10px 30px;
+            font-size: 14px;
+            font-weight: bold;
+            border-radius: 35px;
         }
     </style>
-
 
 </head>
 
 <body>
 
+    <div id="ex1" class="modal">
+        <div>
+            <h1>Want to Book Your Seat?</h1>
+            <hr>
 
+            <div class="send-info">
+                <div>
+                    <img src="./images/course-img/send.jpg" alt="image">
+                </div>
 
-    <section id="canvas">
+                <div>
+                    <form id="send-message-form" onsubmit="handleForm()">
+                        <div class="name-field">
+                            <label for="name">Name</label> <br>
+                            <input type="text" name="name" id="name" placeholder="Enter your name">
+                        </div>
 
+                        <div class="email">
+                            <label for="email">Email</label> <br>
+                            <input type="email" name="email" id="email" placeholder="Enter your email">
+                        </div>
 
-        <div class="button-wrapper">
-            <button class="confetti-button">Yay🎉</button>
-        </div>
+                        <div class="country-select">
+                            <label for="country_selector">Country</label> <br>
+                            <input id="country_selector" type="text">
+                        </div>
 
+                        <div class="phone-no">
+                            <label for="phoneField">Phone</label> <br>
+                            <input type="text" id="phoneField" name="phoneField" class="phone-field"
+                                placeholder="Enter phone no">
+                        </div>
 
-    </section>
-    <section>1</section>
-    <section>1</section>
-    <section class="certificate-section">
-        <div class="certificate-title">
-            <h1>Get real world <br> skills! Go from ,<br> Zero to Hero!</h1>
-            <p>"I'm an authorized instructor & winner of 2 Adobe MAX awards. Here at Designer Shravan, I'm continually
-                trying to make the worlds best beginner to advanced courses."</p>
-        </div>
+                        <div class="course-select">
+                            <label for="courses">Course</label> <br>
+                            <select id="courses" name="course">
+                                <option>Python Certification Course in English</option>
+                                <option>Big Data and Hadoop Certification Course</option>
+                                <option>C, C++ & Java Programming Course</option>
+                                <option>ML Course in English</option>
+                                <option>FiaUI/UX Certification Course in Englisht</option>
+                                <option>Big Data Certification Course with Hadoop & Spark</option>
+                                <option>Apache Kafka Certification Course</option>
+                                <option>Apache Flink Certification Course</option>
+                                <option>AWS Certification Course in English</option>
+                                <option>Full Stack Web Development Certification Course in English</option>
+                                <option>Apache Spark and Scala Certification Course in English</option>
+                                <option>Scala Certification Course in English</option>
+                                <option>Angular Certification Course in English</option>
+                                <option>ADOBE-XD Certification Course in English</option>
+                                <option>Adobe After Effects Certification Course in English</option>
+                                <option>Artificial Intelligence Certification Course in English</option>
+                                <option>Android Development Certification Course in English</option>
+                                <option>CCNA Certification Course in English</option>
+                                <option>CCSP Certification Course in English</option>
+                                <option>ChatGPT Certification Course in English</option>
+                                <option>Cloud Computing Certification Course in English</option>
+                                <option>Data Science Certification Course in English</option>
+                                <option>DevOps Certification Course in English</option>
+                                <option>Digital Marketing Certification Course in English</option>
+                                <option>Ethical Hacking Certification Course in English</option>
+                                <option>Figma Certification Course in English</option>
+                                <option>Adobe Illustrator Certification Course in English</option>
+                                <option>Linux Certification Course in English</option>
+                                <option>Microsoft Azure Certification Course in English</option>
+                                <option>Adobe Premiere Pro Certification Course in English</option>
+                                <option>Adobe Photoshop Certification Course in English</option>
+                                <option>Microsoft Word Certification Course in English</option>
+                                <option>Microsoft Excel Certification Course in English</option>
+                                <option>Microsoft Powerpoint Certification Course in English</option>
+                                <option>Sales Force Certification Course in English</option>
+                                <option>Wordpress Certification Course in English</option>
+                                <option>Career Clarity Certification Course in English</option>
+                                <option>Computer Forensics Certification Course in English</option>
+                                <option>Bug Bounty Certification Course in English</option>
+                                <option>Dark Net Certification Course in English</option>
+                                <option>Certified Cyber Ninja Course in English</option>
+                                <option>Malware Analysis and Dissecting Malicious Softwares Certification Course
+                                </option>
+                                <option>Cyber Warrior Certification Course</option>
+                            </select>
+                        </div>
 
+                        <div class="message-box">
+                            <label for="message">Message</label> <br>
+                            <textarea name="message" id="message" cols="45" rows="15"
+                                placeholder="Enter your message"></textarea>
+                        </div>
 
-
-        <div class="certificates">
-
-            <div class="owl-carousel owl-theme">
-                <div class="item">
-                    <h4>1</h4>
-                </div>
-                <div class="item">
-                    <h4>2</h4>
-                </div>
-                <div class="item">
-                    <h4>3</h4>
-                </div>
-                <div class="item">
-                    <h4>4</h4>
-                </div>
-                <div class="item">
-                    <h4>5</h4>
-                </div>
-                <div class="item">
-                    <h4>6</h4>
-                </div>
-                <div class="item">
-                    <h4>7</h4>
-                </div>
-                <div class="item">
-                    <h4>8</h4>
-                </div>
-                <div class="item">
-                    <h4>9</h4>
-                </div>
-                <div class="item">
-                    <h4>10</h4>
-                </div>
-                <div class="item">
-                    <h4>11</h4>
-                </div>
-                <div class="item">
-                    <h4>12</h4>
+                        <input type="submit" value="Submit">
+                    </form>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
-
-    <section>2</section>
-    <section>2</section>
-    <section>2</section>
-    <section>2</section>
-    <section>2</section>
+    <!-- Link to open the modal -->
+    <p><a href="#ex1" rel="modal:open">Open Modal</a></p>
 
 
     <script src="./js/carousel/jquery.min.js"></script>
+
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous">
+        </script> -->
+    <script src="./js/countrySelect.js"></script>
+    <script src="./js/intlTelInput-jquery.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
     <script src="./js/carousel/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+
     <!-- <script src="./js/confetti.js"></script> -->
     <!-- <script src="./js/zoom/jquery-imagepreviewer.min.js"></script> -->
     <!-- <script src="./js/getData.js"></script>
@@ -155,71 +219,50 @@
     <script src="./js/vcollapse.js"></script> -->
     <!-- <script src="./js/vcollapse.min.js"></script> -->
 
-    <script>
-    </script>
+
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="./confetti.js"></script>
+
+
+
     <script>
-        AOS.init();
 
-        const certificateSection = document.querySelector('.certificate-section');
 
-        console.log("height", certificateSection.offsetHeight);
+
+
+
+        const handleForm = () => {
+            event.preventDefault();
+
+            const form = document.getElementById('send-message-form')
+
+            const name = form.name.value;
+            const email = form.email.value;
+
+            const country = $("#country_selector").countrySelect("getSelectedCountryData").name;
+
+            const telephone = form.phoneField.value;
+
+            const course = form.course.value;
+
+            console.log(course);
+
+        }
+
+
 
         $(document).ready(function () {
-            window.onscroll = function () {
-                console.log(window.scrollY);
-                if (window.scrollY >= certificateSection.offsetTop && window.scrollY < 1200) {
-                    const start = () => {
-                        setTimeout(function () {
-                            confetti.start()
-                        }, 1000); // 1000 is time that after 1 second start the confetti ( 1000 = 1 sec)
-                    };
+            $(".modal .send-info .country-select #country_selector").countrySelect({
+                defaultCountry: "us",
+                defaultStyling: "inside"
+            })
 
-                    //  Stop
+            // $(".modal .send-info .phone-no #phoneField").intlTelInput({
+            //     initialCountry: "us",
 
-                    const stop = () => {
-                        setTimeout(function () {
-                            confetti.stop()
-                        }, 5000); // 5000 is time that after 5 second stop the confetti ( 5000 = 5 sec)
-                    };
+            // });
 
-
-                    start()
-                    stop()
-                }
-            }
         })
-
-
-
-        $('.owl-carousel').owlCarousel({
-            loop: true,
-            margin: 20,
-            autoplay: true,
-            autoplayTimeout: 2000,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 3
-                },
-                1000: {
-                    items: 5
-                }
-            }
-        })
-    </script>
-
-    <script>
-
-
-
-
-
-
 
 
         // $(document).ready(function () {

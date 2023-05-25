@@ -36,62 +36,7 @@
     margin-bottom: 20px;
 }
 
-.subscribe{
-    display: flex;
-    justify-content: space-between;
-    padding: 45px 3%;
-    background-color: #f5df4e;
-}
 
-.subscribe > h1{
-    flex-basis: 30%;
-}
-.subscribe > p{
-    flex-basis: 29%;
-}
-.subscribe > div{
-    flex-basis: 40%;
-}
-
-
-.subscribe > h1{
-    font-size: 38px;
-}
-
-
-.subscribe .email{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-end;
-}
-
-.email input[type='email']{
-    width: 200px;
-    height: 35px;
-    border: 0;
-    outline: 0;
-    border-radius: 8px;
-    margin-top: 3px;
-}
-
-.email label{
-    font-weight: bold;
-}
-
-.email button{
-    height: 35px;
-    width: 120px;
-    font-weight: bold;
-    background-color: #f5df4e;
-    border: 3px solid #fff;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    text-transform: uppercase;
-    margin-left: 30px;
-    cursor: pointer;
-}
 
 .blog-details{
     width: 80%;
@@ -192,6 +137,7 @@ border: 2px solid #e5e5e5;
     margin: 60px auto;
     padding: 10px 35px;
     text-decoration: none;
+    text-transform: uppercase;
     background-color: #f5df4e;
     color: #000;
     border-radius: 25px;
@@ -201,7 +147,7 @@ border: 2px solid #e5e5e5;
   }
   
   .post-btn:hover {
-    box-shadow: 0 0 3px #f5df4e;
+    box-shadow: 0 0 5px #f5df4e;
   }
 
 .author-details{
@@ -209,6 +155,7 @@ border: 2px solid #e5e5e5;
     padding: 70px 40px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    align-items: center;
 }
 
 .author-img{
@@ -219,7 +166,7 @@ border: 2px solid #e5e5e5;
     border-radius: 50%;
     width: 100%;
     object-fit: cover;
-    outline: 3px solid #000;
+    outline: 5px solid #000;
     outline-offset: 5px;
 }
 
@@ -239,24 +186,6 @@ border: 2px solid #e5e5e5;
 }
 
 
-.more-post-btn{
-    padding: 10px 20px;
-    border: 3px solid #000;
-    display: block;
-    width: fit-content;
-    margin-top: 30px;
-    text-decoration: none;
-    color: #000;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: all 0.5s;
-}
-
-
-.more-post-btn:hover{
-background-color: #FFFDF6;
-/* border: 3px solid #f5df4e; */
-}
 
 @media screen and (max-width:900px) {
     .subscribe{
