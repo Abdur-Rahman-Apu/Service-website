@@ -1,7 +1,7 @@
 [
   {
     "id": 0,
-    "courseName": "Python Certification Course in English",
+    "courseName": "Python Certification Course ",
     "bannerImg": "./images/course-img/course-banner/python.png",
     "shortName": "python",
     "overview": "Learn Python with our all-inclusive course! Learn theory, practice coding with hands-on projects, and test your skills with engaging quizzes. Start your Python journey now!",
@@ -1479,7 +1479,7 @@
   },
   {
     "id": 3,
-    "courseName": "ML Course in English",
+    "courseName": "ML Course ",
     "bannerImg": "./images/course-img/course-banner/machine-learning.png",
     "shortName": "Machine Learning",
     "overview": "A perfect blend of in-depth Machine Learning knowledge and strong practical skills using Python ML libraries to become a Data Scientist. This  machine learning course provides the implementation of real-time machine learning projects to give you a headstart and enables you to bag top ML jobs.",
@@ -1815,7 +1815,7 @@
   },
   {
     "id": 4,
-    "courseName": "UI/UX Certification Course in English",
+    "courseName": "UI/UX Certification Course ",
     "bannerImg": "./images/course-img/course-banner/UI-UX.png",
     "shortName": "UI/UX",
     "overview": "UI/UX course offers a perfect blend of in-depth theoretical knowledge and strong practical skills via implementation of real-life UI/UX projects to give you a head start and enable you to bag top jobs in the industry.",
@@ -3183,7 +3183,7 @@
   },
   {
     "id": 8,
-    "courseName": "AWS Certification Course in English",
+    "courseName": "AWS Certification Course ",
     "bannerImg": "./images/course-img/course-banner/AWS.png",
     "shortName": "AWS",
     "overview": "A perfect blend of in-depth AWS knowledge and strong practical skills for AWS Certified Cloud Practitioner (CLF-C01) Exam.  AWS course gives you a headstart in learning Amazon Cloud and enables you to bag top jobs in IT industry.",
@@ -3514,7 +3514,7 @@
   },
   {
     "id": 9,
-    "courseName": "Full Stack Web Development Certification Course in English",
+    "courseName": "Full Stack Web Development Certification Course ",
     "bannerImg": "./images/course-img/course-banner/FULL-STACK.png",
     "shortName": "Full Stack Web Development",
     "overview": "Are you searching for a place to learn web development? Then this  Web Development Course is for you! This course offers a comprehensive understanding of the concepts of web development and comprises of topics from scratch as well as the major tools and technologies in it. It covers HTML, CSS, and JavaScript.",
@@ -4009,7 +4009,7 @@
   },
   {
     "id": 10,
-    "courseName": "Apache Spark and Scala Certification Course in English",
+    "courseName": "Apache Spark and Scala Certification Course ",
     "bannerImg": "./images/course-img/course-banner/Apache-Spark-and-Scala.png",
     "shortName": "Apache Spark and Scala ",
     "overview": "Apache Spark and Scala Course offers a perfect blend of in-depth theoretical knowledge and strong practical skills via implementation of real-life Spark projects to give you a headstart and enable you to bag top Big Data Spark jobs in the industry.",
@@ -4323,7 +4323,7 @@
   },
   {
     "id": 11,
-    "courseName": "Scala Certification Course in English",
+    "courseName": "Scala Certification Course ",
     "bannerImg": "./images/course-img/course-banner/scala.png",
     "shortName": "Scala ",
     "overview": "Certified  Scala Training course from DataFlair equips you with in-depth knowledge coupled with strong practical skills to enable you enhance your competence in scalable programming language Scala.",
@@ -4571,7 +4571,7 @@
   },
   {
     "id": 12,
-    "courseName": "Angular Certification Course in English",
+    "courseName": "Angular Certification Course ",
     "bannerImg": "./images/course-img/course-banner/Angular.png",
     "shortName": "Angular ",
     "overview": "Angular course offers a perfect blend of in-depth theoretical knowledge and strong practical skills via implementation of real-life Angular projects to give you a headstart and enable you to bag top Angular jobs in the industry.",
@@ -4901,7 +4901,7 @@
   },
   {
     "id": 13,
-    "courseName": "ADOBE-XD Certification Course in English",
+    "courseName": "ADOBE-XD Certification Course ",
     "bannerImg": "./images/course-img/course-banner/ADOBE-XD.jpg",
     "shortName": "ADOBE-XD ",
     "overview": "This course is aimed at people interested in UI/UX Design. We’ll start from the very beginning and work all the way through, step by step. If you already have some UI/UX Design experience but want to get up to speed using Adobe XD then this course is perfect for you too!",
@@ -5223,7 +5223,7 @@
   },
   {
     "id": 14,
-    "courseName": "Adobe After Effects Certification Course in English",
+    "courseName": "Adobe After Effects Certification Course ",
     "bannerImg": "./images/course-img/course-banner/after-effects.jpg",
     "shortName": "Adobe After Effects",
     "overview": "Adobe After Effects course offers a perfect blend of in-depth theoretical knowledge and strong practical skills via implementation of real-life  projects to give you a headstart and enable you to bag top jobs in the industry.",
@@ -5521,7 +5521,7 @@
   },
   {
     "id": 15,
-    "courseName": "Artificial Intelligence Certification Course in English",
+    "courseName": "Artificial Intelligence Certification Course ",
     "bannerImg": "./images/course-img/course-banner/ai.png",
     "shortName": "Artificial Intelligence",
     "overview": "Artificial intelligence is one of the top tech fields to be in right now! <br>AI is widely adopted in Finance, banking, healthcare, transportation, and technology. <br>The purpose of this course is to provide you with knowledge of key aspects of modern AI without any intimidating mathematics and in a practical, easy, and fun way. The course provides students with practical hands-on experience using real-world datasets.",
@@ -5769,7 +5769,7 @@
   },
   {
     "id": 16,
-    "courseName": "Android Development Certification Course in English",
+    "courseName": "Android Development Certification Course ",
     "bannerImg": "./images/course-img/course-banner/android-development.png",
     "shortName": "Android Development",
     "overview": "Android Development course offers a perfect blend of in-depth theoretical knowledge and strong practical skills via implementation of real-life Angular projects to give you a headstart and enable you to bag top Angular jobs in the industry.",
@@ -6096,7 +6096,7 @@
   },
   {
     "id": 17,
-    "courseName": "CCNA Certification Course in English",
+    "courseName": "CCNA Certification Course ",
     "bannerImg": "./images/course-img/course-banner/CCNA.png",
     "shortName": "CCNA",
     "overview": "This CCNA course will help you to improve yourself about networking basics, switching & routing technologies, IPv4 and IPv6. If you are a beginner for networking technologies, our CCNA certification program is great for you! You will get the certification easily with this CCNA course and begin your career in networking industry.",
@@ -6379,7 +6379,7 @@
   },
   {
     "id": 18,
-    "courseName": "CCSP Certification Course in English",
+    "courseName": "CCSP Certification Course ",
     "bannerImg": "./images/course-img/course-banner/CCSP.png",
     "shortName": "CCSP",
     "overview": "The Certified Cloud Security Professional (CCSP) exam is a certification exam designed to test an applicant’s knowledge of the principles of securing cloud-based environments.<br>In this course, we have addressed every aspect of the exam requirements and will continually, and weekly, add more content or quizzes to enable you master and pass the certification exam!!",
@@ -6649,7 +6649,7 @@
   },
   {
     "id": 19,
-    "courseName": "ChatGPT Certification Course in English",
+    "courseName": "ChatGPT Certification Course ",
     "bannerImg": "./images/course-img/course-banner/chat-GPT.png",
     "shortName": "ChatGPT",
     "overview": "ChatGPT offers an incredible opportunity for entrepreneurs, enterprises, and individuals to be on the cutting edge of this amazing technology and quickly create, optimize, and scale their businesses online. In this course, we’re going to show you how we use ChatGPT and OpenAI at a professional level and how you can too!",
@@ -6909,7 +6909,7 @@
   },
   {
     "id": 20,
-    "courseName": "Cloud Computing Certification Course in English",
+    "courseName": "Cloud Computing Certification Course ",
     "bannerImg": "./images/course-img/course-banner/CLOUD-COMPUTING.png",
     "shortName": "Cloud Computing",
     "overview": "Today we hear about many IT fields which are growing very fast and are the future of our world, Big Data, IoT, Artificial intelligence, machine learning, data science, and many others,...All these technologies could not exist or evolve without the presence of Cloud Computing.<br>This course will give you general information about cloud computing without discussing a specific cloud solution like AWS or Azure, but at the same time we will have an idea about the most popular cloud computing solutions and providers.",
@@ -7177,7 +7177,7 @@
   },
   {
     "id": 21,
-    "courseName": "Data Science Certification Course in English",
+    "courseName": "Data Science Certification Course ",
     "bannerImg": "./images/course-img/course-banner/Data-science.png",
     "shortName": "Data Science",
     "overview": "Data Science is simply understanding this data and providing the results. Now you know what is all this buzz about Data Science and why it is soo important! In this course we will be learning that and making you ready to handle Data of these big companies.",
@@ -7485,7 +7485,7 @@
   },
   {
     "id": 22,
-    "courseName": "DevOps Certification Course in English",
+    "courseName": "DevOps Certification Course ",
     "bannerImg": "./images/course-img/course-banner/devops.png",
     "shortName": "DevOps",
     "overview": "Decoding DevOps course is for anybody who wants to get started with DevOps.As there are many tools & technologies in DevOps, it has become difficult for people to choose the right technologies.This course starts from very basics of command line, hands on demonstrations of many tools & technologies.",
@@ -7813,7 +7813,7 @@
   },
   {
     "id": 23,
-    "courseName": "Digital Marketing Certification Course in English",
+    "courseName": "Digital Marketing Certification Course ",
     "bannerImg": "./images/course-img/course-banner/DIGITAL-MARKETING.jpg",
     "shortName": "Digital Marketing",
     "overview": "Digital marketing is a form of marketing that leverages the internet and digital technologies, such as computers and smartphones, to connect with customers.This course will help you to learn digital marketing and you can get a job as a digital marketer",
@@ -8282,7 +8282,7 @@
   },
   {
     "id": 24,
-    "courseName": "Ethical Hacking Certification Course in English",
+    "courseName": "Ethical Hacking Certification Course ",
     "bannerImg": "./images/course-img/course-banner/Ethical-Hacking.png",
     "shortName": "Ethical Hacking",
     "overview": "Ethical hacking involves an authorized attempt to gain unauthorized access to a computer system, application, or data. This course is highly practical but it won't neglect the theory; we'll start with ethical hacking basics.",
@@ -8583,7 +8583,7 @@
   },
   {
     "id": 25,
-    "courseName": "Figma Certification Course in English",
+    "courseName": "Figma Certification Course ",
     "bannerImg": "./images/course-img/course-banner/figma.png",
     "shortName": "Figma",
     "overview": "Figma course offers a perfect blend of in-depth theoretical knowledge and strong practical skills via implementation of real-life Figma projects to give you a headstart and enable you to bag top designer jobs in the industry.",
@@ -9003,7 +9003,7 @@
   },
   {
     "id": 26,
-    "courseName": "Adobe Illustrator Certification Course in English",
+    "courseName": "Adobe Illustrator Certification Course ",
     "bannerImg": "./images/course-img/course-banner/illustrator.jpg",
     "shortName": "Illustrator",
     "overview": "Adobe Illustrator course offers a perfect blend of in-depth theoretical knowledge and strong practical skills via implementation of real-life projects to give you a headstart and enable you to bag top jobs in the industry.",
@@ -9330,7 +9330,7 @@
   },
   {
     "id": 27,
-    "courseName": "Linux Certification Course in English",
+    "courseName": "Linux Certification Course ",
     "bannerImg": "./images/course-img/course-banner/linux.png",
     "shortName": "Linux",
     "overview": "Linux is the number ONE operating system in the Corporate world.  Linux is a popular open-source operating system that’s easy to use and highly secure. In this course you will  learn Linux installation, configuration, administration, troubleshooting, shell scripting, command line, OS tools and much more...",
@@ -9829,7 +9829,7 @@
   },
   {
     "id": 28,
-    "courseName": "Microsoft Azure Certification Course in English",
+    "courseName": "Microsoft Azure Certification Course ",
     "bannerImg": "./images/course-img/course-banner/Microsoft-Azure.png",
     "shortName": "Microsoft Azure",
     "overview": "Microsoft Azure is one of the most popular public clouds in the industry, and it gets bigger and bigger by the day.If you'll take this course, you'll become a real expert in Microsoft Azure.We start from the very basics.",
@@ -10396,7 +10396,7 @@
   },
   {
     "id": 29,
-    "courseName": "Adobe Premiere Pro Certification Course in English",
+    "courseName": "Adobe Premiere Pro Certification Course ",
     "bannerImg": "./images/course-img/course-banner/premiere-pro.jpg",
     "shortName": "Adobe Premiere Pro",
     "overview": "After the internet boom lots of new opportunities have emerged. You can create videos and earn thousands of rupees, from uploading it in YouTube, Instagram or other social media. However previously earning from doing jobs related to videography was not easy. But we are living in a new age, and the future of technology is bright. So as those people who know software like Adobe premiere pro. It is a product offered by adobe which is not only one of the favorites for Youtubers, but also it is widely accepted and used in the film industry.",
@@ -10720,7 +10720,7 @@
   },
   {
     "id": 30,
-    "courseName": "Adobe Photoshop Certification Course in English",
+    "courseName": "Adobe Photoshop Certification Course ",
     "bannerImg": "./images/course-img/course-banner/photoshop.jpg",
     "shortName": "Adobe Photoshop",
     "overview": "Photoshop is a photo editing and raster graphic design software developed by Adobe Systems for both Windows and MacOS. It allows users to create, edit, and manipulate various graphics as well as digital art. Photoshop provides many image editing features for pixel-based images, raster graphics, and vector graphics",
@@ -11040,7 +11040,7 @@
   },
   {
     "id": 31,
-    "courseName": "Microsoft Word Certification Course in English",
+    "courseName": "Microsoft Word Certification Course ",
     "bannerImg": "./images/course-img/course-banner/microsoft-word.jpg",
     "shortName": "Microsoft Word",
     "overview": "Microsoft Word is the most popular word processor in use today.A strong understanding of Word can pay serious dividends in your productivity, efficiency, and the appearance of your documents. With this course, you'll learn to put your most professional written work out there. ",
@@ -11288,7 +11288,7 @@
   },
   {
     "id": 32,
-    "courseName": "Microsoft Excel Certification Course in English",
+    "courseName": "Microsoft Excel Certification Course ",
     "bannerImg": "./images/course-img/course-banner/microsoft-excel.jpg",
     "shortName": "Microsoft Excel",
     "overview": "Electronic spreadsheet programs were originally based on paper spreadsheets used for accounting. This course will help you to learn Microsoft Excel.",
@@ -11630,7 +11630,7 @@
   },
   {
     "id": 33,
-    "courseName": "Microsoft Powerpoint Certification Course in English",
+    "courseName": "Microsoft Powerpoint Certification Course ",
     "bannerImg": "./images/course-img/course-banner/ms-powerpoint.jpg",
     "shortName": "Microsoft Powerpoint",
     "overview": "Microsoft PowerPoint is synonymous with presentations. Whether in an office, a classroom, or a conference: there is simply no better tool for creating professional presentations than Microsoft PowerPoint. It is an absolute must-have skill for any career that requires communicating with groups of people. This course will help you to learn it.",
@@ -12008,7 +12008,7 @@
   },
   {
     "id": 34,
-    "courseName": "Sales Force Certification Course in English",
+    "courseName": "Sales Force Certification Course ",
     "bannerImg": "./images/course-img/course-banner/sales-force.png",
     "shortName": "Sales Force",
     "overview": "if you plan to attain any Salesforce certifications, this is your starting point!<r>Salesforce Associate is the newest certification from Salesforce.<br>The Salesforce Associate Certification has no pre-requisites and is intended for those just starting their Salesforce Certification journey.<br>That's right! This is the course for absolute beginners. No prior knowledge is required.",
@@ -12315,7 +12315,7 @@
   },
   {
     "id": 35,
-    "courseName": "Wordpress Certification Course in English",
+    "courseName": "Wordpress Certification Course ",
     "bannerImg": "./images/course-img/course-banner/wordpress.jpg",
     "shortName": "Wordpress",
     "overview": "Wordpress is very popular. In this course, we build a website together step-by-step and along the way you organically absorb and master WordPress. ",
@@ -12539,7 +12539,7 @@
   },
   {
     "id": 36,
-    "courseName": "Career Clarity Certification Course in English",
+    "courseName": "Career Clarity Certification Course ",
     "bannerImg": "./images/course-img/course-banner/career.png",
     "shortName": "Career Clarity",
     "overview": "If you’re looking for an instructor with a deep understanding and even more importantly – with a proven record of working in top-level institutions, then you met your dream right here.",
@@ -12704,7 +12704,7 @@
   },
   {
     "id": 37,
-    "courseName": "Computer Forensics Certification Course in English",
+    "courseName": "Computer Forensics Certification Course ",
     "bannerImg": "./images/course-img/course-banner/COMPUTER.png",
     "shortName": "Computer Forensics",
     "overview": "Are you eager to learn Computer Forensics and Cyber Crime Investigation  and want to be a profound Forensics Investigator ? If your answer is YES, then this course is only for you. I specially framed this course to Transform Your Life from what you are today to what you actually want to be. ",
@@ -12945,7 +12945,7 @@
   },
   {
     "id": 38,
-    "courseName": "Bug Bounty Certification Course in English",
+    "courseName": "Bug Bounty Certification Course ",
     "bannerImg": "./images/course-img/course-banner/bug-bounting.png",
     "shortName": "Bug Bounty",
     "overview": "This course assumes you have NO prior knowledge in Bug Bounty Hunting  and by the end of it you'll be at a high level, being able to Hunt Bug like Black-Hat Hackers That Can Earn You a Fortune!<br>You can earn a side income by hunting bugs on bug bounty programs by spending only few hours every week as little as 5-10 hrs/week.",
@@ -13181,7 +13181,7 @@
   },
   {
     "id": 39,
-    "courseName": "Dark Net Certification Course in English",
+    "courseName": "Dark Net Certification Course ",
     "bannerImg": "./images/course-img/course-banner/Deep-Web.png",
     "shortName": "Dark Net",
     "overview": "This specialized course is designed for Darknet & Deep Web Enthusiastic, Computer Science Students, Trainers, Government and Police Investigators, to understand how to browse into the hidden internet and access social media, darknet market place and how to operate in this new environment. ",
@@ -13389,7 +13389,7 @@
   },
   {
     "id": 40,
-    "courseName": "Certified Cyber Ninja Course in English",
+    "courseName": "Certified Cyber Ninja Course ",
     "bannerImg": "./images/course-img/course-banner/cyber-ninja.png",
     "shortName": "Cyber Ninja",
     "overview": "Although this Ethical Hacking & Cyber Security class focused on the practical side of Hacking, the theory behind every attack is also covered along with. Before jumping into Hacking, you will first learn how to set up a lab and install needed software to practice these hacking techniques on your own machine. All the attacks explained are launched against real devices in my Hacking Lab. ",
