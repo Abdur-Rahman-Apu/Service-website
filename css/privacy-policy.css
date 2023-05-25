@@ -1,1 +1,22 @@
 @import url(./common.css);
+
+.header-container{
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+    padding: 30px 4%;
+}
+
+.header-container > div{
+    flex-basis: 50%;
+}
+
+.header-container h1{
+    font-size: 60px;
+}
+
+.header-container .privacy-img img{
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+}
