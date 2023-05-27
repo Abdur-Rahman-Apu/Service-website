@@ -60,3 +60,8 @@ scrollDiv.addEventListener("mouseover", function () {
 scrollDiv.addEventListener("mouseout", function () {
   scrollToolTip.style.display = "none";
 });
+
+
+// AOS 
+
+AOS.init();

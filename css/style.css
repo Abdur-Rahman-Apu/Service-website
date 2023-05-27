@@ -946,14 +946,23 @@ margin-bottom: 60px;
 }
 
 .webinar-btn{
-  display: block;
+  background-image: linear-gradient(to right,
+  #ffb347 0%,
+  #ffcc33 51%,
+  #ffb347 100%);
   width: fit-content;
-  font-weight: bold;
-  text-decoration: none;
-  color: #000;
-  padding: 10px 30px;
-  background-color: #f5df4e;
-  border-radius: 25px;
+margin: 40px 0;
+padding: 15px 45px;
+text-transform: uppercase;
+transition: 0.5s;
+background-size: 200% auto;
+color: #fff;
+box-shadow: 0 0 20px #eee;
+border-radius: 10px;
+display: block;
+border-radius: 30px;
+text-decoration: none;
+font-weight: bold;
 }
 
 
@@ -1166,5 +1175,6 @@ margin-bottom: 60px;
   .webinar-info p{
     font-size: 12px;
   }
+
   
 }
