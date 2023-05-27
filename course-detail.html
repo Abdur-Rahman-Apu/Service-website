@@ -119,10 +119,10 @@
     <script src="./js/common.js"></script>
     <script src="./js/getCourseDetail.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
     <script src="./js/jquery.toast.js"></script>
     <script src="./js/countrySelect.js"></script>
     <script src="./js/vcollapse.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
@@ -139,12 +139,10 @@
 
         $(document).ready(function () {
 
-            $(".course-info .modal .send-info .country-select #country_selector").countrySelect({
+            $(".course-detail-header .course-info .modal .send-info .country-select #country_selector").countrySelect({
                 defaultCountry: "us",
                 defaultStyling: "inside"
             })
-
-
 
         })
 
