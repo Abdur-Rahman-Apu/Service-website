@@ -43,7 +43,7 @@ const courseDetails = (data, courseId) => {
                   </div>
 
                   <div>
-                      <form method="POST" id="send-message-form" onsubmit="handleForm()">
+                      <form method="POST" id="send-message-form">
                           <div class="name-field">
                               <label for="name">Name</label> <br>
                               <input type="text" name="name" id="name" placeholder="Enter your name" required>
@@ -121,7 +121,7 @@ const courseDetails = (data, courseId) => {
                                   placeholder="Enter your message" required></textarea>
                           </div>
 
-                          <input type="submit" value="Submit">
+                          <input id="submit-btn" type="submit" value="Submit">
                       </form>
                   </div>
               </div>
@@ -390,11 +390,11 @@ const courseDetails = (data, courseId) => {
                     parentDiv.classList.add("feature");
                     parentDiv.setAttribute("data-aos", "flip-right");
                     parentDiv.innerHTML = `
-  <div class="feature-img">
-      <img src=${feature.img} />
-  </div>
+                            <div class="feature-img">
+                                <img src=${feature.img} />
+                            </div>
 
-  <p>${feature.title}</p>`;
+                            <p>${feature.title}</p>`;
 
                     courseFeatureContainer.appendChild(parentDiv);
                 });
@@ -554,5 +554,7 @@ const courseDetails = (data, courseId) => {
                         })
         
                 }
+
+                document.getElementById('submit-btn').addEventListener('click',handleForm)
 };
 getAllData("data/course.json", courseDetails, queryString);
