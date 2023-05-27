@@ -86,6 +86,7 @@ hr{
     .header-container .privacy-img img{
         width: 300px;
         height: 300px;
+        margin-top: 20px;
     }
 
     .header-container p{
@@ -107,7 +108,7 @@ hr{
 @media screen and (max-width:700px) {
 
     .header-container h1{
-        font-size: 28px;
+        font-size: 34px;
     }
 
     .header-container .privacy-img img{
@@ -130,7 +131,6 @@ hr{
 
     .header-container{
         flex-direction: column;
-        
     }
 
     .header-container  .privacy-img{
