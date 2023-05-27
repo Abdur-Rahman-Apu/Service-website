@@ -583,12 +583,12 @@ body {
     }
 
     .course-detail-header .course-title {
-        font-size: 30px;
+        font-size: 38px;
         margin: 30px 0;
     }
 
     .course-detail-header .overview {
-        font-size: 13px;
+        font-size: 14px;
     }
 
     .reason-to-enroll h1 {
@@ -683,7 +683,7 @@ body {
 
 @media screen and (max-width: 700px) {
     .course-detail-header .course-title {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .prerequisite h1 {
@@ -746,7 +746,7 @@ body {
     }
 
     .course-detail-header .course-title {
-        font-size: 18px;
+        font-size: 28px;
     }
 
     .reason-to-enroll .reason-to-enroll-left-side {
