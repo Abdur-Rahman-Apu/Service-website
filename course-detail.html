@@ -132,79 +132,7 @@
             duration: 2000,
         });
 
-        (function () {
-            emailjs.init("huB7HdbtLQHtlBqmr");
-        })();
 
-
-        $(document).ready(function () {
-
-            $(".course-detail-header .course-info .modal .send-info .country-select #country_selector").countrySelect({
-                defaultCountry: "us",
-                defaultStyling: "inside"
-            })
-
-        })
-
-
-        const handleForm = () => {
-            event.preventDefault();
-
-            const form = document.getElementById('send-message-form')
-
-            const name = form.name.value;
-            const email = form.email.value;
-
-            const country = $("#country_selector").countrySelect("getSelectedCountryData").name;
-
-            const telephone = form.phoneField.value;
-
-            const course = form.course.value;
-
-            const message = form.message.value;
-
-            const emailParams = {
-                from_name: name,
-                email_id: email,
-                country_name: country,
-                telephone: telephone,
-                course_name: course,
-                message: message
-            }
-
-            emailjs.send('service_hcm5p5a', 'template_o0io9dy', emailParams, 'huB7HdbtLQHtlBqmr')
-                .then(res => {
-
-                    $.toast({
-                        text: "Your email sent successfully",
-                        showHideTransition: 'slide',
-                        bgColor: '#2ecc71',
-                        textColor: '#fff',
-                        allowToastClose: false,
-                        hideAfter: 5000,
-                        stack: 5,
-                        textAlign: 'center',
-                        position: 'top-center'
-                    })
-                    form.reset()
-                })
-                .catch((err) => {
-                    $.toast({
-                        text: "Sorry. Something wrong!",
-                        showHideTransition: 'slide',
-                        bgColor: '#e74c3c',
-                        textColor: '#fff',
-                        allowToastClose: false,
-                        hideAfter: 5000,
-                        stack: 5,
-                        textAlign: 'center',
-                        position: 'top-center'
-                    })
-
-                    form.reset()
-                })
-
-        }
     </script>
 </body>
 
