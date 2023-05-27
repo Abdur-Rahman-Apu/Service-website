@@ -1,0 +1,152 @@
+@import url(./common.css);
+
+.highlight{
+    color: #000;
+    font-weight: bold;
+}
+
+header{
+    margin: 40px 6%;
+    display: flex;
+    align-items: center;
+    height: fit-content;
+}
+
+header > div{
+    flex-basis: 50%;
+}
+
+.header-title h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
+
+.header-title p{
+    font-size: 15px;
+}
+
+.header-img img{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    object-fit:contain
+}
+
+
+/* reason to join  */
+
+.reason-to-join-heading{
+    width: 80%;
+    margin: 80px auto 60px;
+    background-color: #f5df4e;
+    height: 120px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.reason-to-join-heading:hover{
+    transform: scale(.9);
+}
+
+.reason-to-join-heading h1{
+    font-size: 28px;
+    text-align: center;
+}
+
+.reasons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 6%;
+}
+
+.reasons > ul{
+    flex-basis: 40%;
+    list-style: none;
+}
+
+.reasons > ul i{
+    display: block;
+    margin-right: 12px;
+    font-size: 18px;
+}
+
+.reasons > ul li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.features-section{
+    margin: 60px 0;
+    padding: 60px 6%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+}
+
+.feature{
+    background-color: #f1f2f6;
+    padding: 40px 30px;
+    border-radius: 25px;
+}
+
+.feature-img img{
+    display: block;
+    width: 60px;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.feature-info{
+    text-align: center;
+    margin-top: 10px;
+}
+
+@media screen and (max-width:900px) {
+
+    .header-title h1{
+        font-size: 30px;
+    }
+
+    .reasons ul li {
+        font-size: 14px;
+    }
+
+    .features-section{
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+}
+
+@media screen and (max-width:700px) {
+    header{
+        flex-direction: column;
+    }
+    .reason-to-join-heading h1{
+        font-size: 25px;
+        padding: 0 30px;
+    }
+
+    .reasons{
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width:440px) {
+
+    .reason-to-join-heading h1{
+        font-size: 20px;
+    }
+
+    .features-section{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
