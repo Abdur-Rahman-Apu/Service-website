@@ -7,9 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Course detail</title>
     <link rel="shortcut icon" href="./images/SK-Logo-yellow-black.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <link rel="stylesheet" href="./css/countrySelect.css">
+    <link rel="stylesheet" href="./css/jquery.toast.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/pop-up.css">
     <link rel="stylesheet" href="./css/course-details.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 
     <script src="https://kit.fontawesome.com/3b7a96cd6e.js" crossorigin="anonymous"></script>
 </head>
@@ -96,14 +101,94 @@
     <script src="./js/common.js"></script>
     <script src="./js/getCourseDetail.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="./js/jquery.toast.js"></script>
+    <script src="./js/countrySelect.js"></script>
     <script src="./js/vcollapse.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
     <script>
         AOS.init({
             offset: 200,
             duration: 2000,
         });
+
+        (function () {
+            emailjs.init("huB7HdbtLQHtlBqmr");
+        })();
+
+
+        $(document).ready(function () {
+
+            $(" .modal .send-info .country-select #country_selector").countrySelect({
+                defaultCountry: "us",
+                defaultStyling: "inside"
+            })
+
+
+
+        })
+
+
+        const handleForm = () => {
+            event.preventDefault();
+
+            const form = document.getElementById('send-message-form')
+
+            const name = form.name.value;
+            const email = form.email.value;
+
+            const country = $("#country_selector").countrySelect("getSelectedCountryData").name;
+
+            const telephone = form.phoneField.value;
+
+            const course = form.course.value;
+
+            const message = form.message.value;
+
+            const emailParams = {
+                from_name: name,
+                email_id: email,
+                country_name: country,
+                telephone: telephone,
+                course_name: course,
+                message: message
+            }
+
+            emailjs.send('service_hcm5p5a', 'template_o0io9dy', emailParams, 'huB7HdbtLQHtlBqmr')
+                .then(res => {
+
+                    $.toast({
+                        text: "Your email sent successfully",
+                        showHideTransition: 'slide',
+                        bgColor: '#2ecc71',
+                        textColor: '#fff',
+                        allowToastClose: false,
+                        hideAfter: 5000,
+                        stack: 5,
+                        textAlign: 'center',
+                        position: 'top-center'
+                    })
+                    form.reset()
+                })
+                .catch((err) => {
+                    $.toast({
+                        text: "Sorry. Something wrong!",
+                        showHideTransition: 'slide',
+                        bgColor: '#e74c3c',
+                        textColor: '#fff',
+                        allowToastClose: false,
+                        hideAfter: 5000,
+                        stack: 5,
+                        textAlign: 'center',
+                        position: 'top-center'
+                    })
+
+                    form.reset()
+                })
+
+        }
     </script>
 </body>
 

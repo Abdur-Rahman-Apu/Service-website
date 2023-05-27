@@ -368,15 +368,6 @@
                 defaultStyling: "inside"
             })
 
-            // $(".coaching-details .modal").modal({
-            //     fadeDuration: 1000
-            // });
-
-            // $(".modal .send-info .phone-no #phoneField").intlTelInput({
-            //     initialCountry: "us",
-
-            // });
-
         })
 
 
@@ -419,6 +410,22 @@
                         textAlign: 'center',
                         position: 'top-center'
                     })
+
+                    form.reset()
+                })
+                .catch((err) => {
+                    $.toast({
+                        text: "Sorry. Something wrong!",
+                        showHideTransition: 'slide',
+                        bgColor: '#e74c3c',
+                        textColor: '#fff',
+                        allowToastClose: false,
+                        hideAfter: 5000,
+                        stack: 5,
+                        textAlign: 'center',
+                        position: 'top-center'
+                    })
+
                     form.reset()
                 })
 

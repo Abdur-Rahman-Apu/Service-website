@@ -30,7 +30,107 @@ const courseDetails = (data, courseId) => {
     <div class="course-info" data-aos="fade-down">
       <h1 class="course-title">${courseName}</h1>
       <p class="overview">${overview}</p>
-      <a href="#" class="book-btn">Book a Session</a>
+
+      <!-- modal  -->
+      <div id="ex1" class="modal">
+          <div>
+              <h1>Want to Book Your Seat?</h1>
+              <hr>
+
+              <div class="send-info">
+                  <div>
+                      <img src="./images/course-img/send.jpg" alt="image">
+                  </div>
+
+                  <div>
+                      <form method="POST" id="send-message-form" onsubmit="handleForm()">
+                          <div class="name-field">
+                              <label for="name">Name</label> <br>
+                              <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                          </div>
+
+                          <div class="email">
+                              <label for="email">Email</label> <br>
+                              <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                          </div>
+
+                          <div class="country-select">
+                              <label for="country_selector">Country</label> <br>
+                              <input id="country_selector" type="text">
+                          </div>
+
+                          <div class="phone-no">
+                              <label for="phoneField">Phone</label> <br>
+                              <input type="text" id="phoneField" name="phoneField" class="phone-field"
+                                  placeholder="+14844731560" required>
+                          </div>
+
+                          <div class="course-select">
+                              <label for="courses">Course</label> <br>
+                              <select id="courses" name="course">
+                                  <option>Python Certification Course in English</option>
+                                  <option>Big Data and Hadoop Certification Course</option>
+                                  <option>C, C++ & Java Programming Course</option>
+                                  <option>ML Course in English</option>
+                                  <option>FiaUI/UX Certification Course in Englisht</option>
+                                  <option>Big Data Certification Course with Hadoop & Spark</option>
+                                  <option>Apache Kafka Certification Course</option>
+                                  <option>Apache Flink Certification Course</option>
+                                  <option>AWS Certification Course in English</option>
+                                  <option>Full Stack Web Development Certification Course in English</option>
+                                  <option>Apache Spark and Scala Certification Course in English</option>
+                                  <option>Scala Certification Course in English</option>
+                                  <option>Angular Certification Course in English</option>
+                                  <option>ADOBE-XD Certification Course in English</option>
+                                  <option>Adobe After Effects Certification Course in English</option>
+                                  <option>Artificial Intelligence Certification Course in English</option>
+                                  <option>Android Development Certification Course in English</option>
+                                  <option>CCNA Certification Course in English</option>
+                                  <option>CCSP Certification Course in English</option>
+                                  <option>ChatGPT Certification Course in English</option>
+                                  <option>Cloud Computing Certification Course in English</option>
+                                  <option>Data Science Certification Course in English</option>
+                                  <option>DevOps Certification Course in English</option>
+                                  <option>Digital Marketing Certification Course in English</option>
+                                  <option>Ethical Hacking Certification Course in English</option>
+                                  <option>Figma Certification Course in English</option>
+                                  <option>Adobe Illustrator Certification Course in English</option>
+                                  <option>Linux Certification Course in English</option>
+                                  <option>Microsoft Azure Certification Course in English</option>
+                                  <option>Adobe Premiere Pro Certification Course in English</option>
+                                  <option>Adobe Photoshop Certification Course in English</option>
+                                  <option>Microsoft Word Certification Course in English</option>
+                                  <option>Microsoft Excel Certification Course in English</option>
+                                  <option>Microsoft Powerpoint Certification Course in English</option>
+                                  <option>Sales Force Certification Course in English</option>
+                                  <option>Wordpress Certification Course in English</option>
+                                  <option>Career Clarity Certification Course in English</option>
+                                  <option>Computer Forensics Certification Course in English</option>
+                                  <option>Bug Bounty Certification Course in English</option>
+                                  <option>Dark Net Certification Course in English</option>
+                                  <option>Certified Cyber Ninja Course in English</option>
+                                  <option>Malware Analysis and Dissecting Malicious Softwares Certification Course
+                                  </option>
+                                  <option>Cyber Warrior Certification Course</option>
+                              </select>
+                          </div>
+
+                          <div class="message-box">
+                              <label for="message">Message</label> <br>
+                              <textarea name="message" id="message" cols="45" rows="15"
+                                  placeholder="Enter your message" required></textarea>
+                          </div>
+
+                          <input type="submit" value="Submit">
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
+
+      <a href="#ex1" rel="modal:open" class="book-btn">Book a Session</a>
     </div>
           
     <div class="banner-img">
