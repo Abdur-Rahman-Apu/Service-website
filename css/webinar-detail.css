@@ -669,6 +669,10 @@ background-color: #f5df4e;
         font-size: 32px;
     }
 
+    .header-img img{
+        margin-top: 40px;
+    }
+
     .reasons ul li {
         font-size: 14px;
     }

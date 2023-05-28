@@ -86,10 +86,6 @@ header > div{
     header{
         flex-direction: column;
     }
-
-    .header-img img{
-        margin-top: 30px ;
-    }
     
     .header-title h1{
         font-size: 35px;
