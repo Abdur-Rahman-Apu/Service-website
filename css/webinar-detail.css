@@ -242,6 +242,8 @@ background-color: #000;
 
 .content{
     position: relative;
+    padding: 20px;
+    height: 400px;
     border: 1px solid #a4b0be;
     border-radius: 25px;
     background-color: #f5f6fa;
@@ -262,18 +264,18 @@ background-color: #000;
 }
 
 .content-detail{
-   display: none;
+   /* display: none; */
 }
 
 .content-detail div:last-child{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: fit-content;
-    margin: 0 auto;
+    margin: 15px auto 0;
     padding: 10px 20px;
-    border-radius: 25px;
+    border-radius: 15px;
     background-color: #e2e2e2;
 }
 
@@ -282,12 +284,12 @@ background-color: #000;
 }
 
 .content-title{
-    width: 100%;
+    width: 60%;
     margin: 0 auto;
-    height: 70px;
+    height: 50px;
     background-color: #f5df4e;
-    border-radius: 25px;
-    font-size: 16px;
+    border-radius: 15px;
+    font-size: 12px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -378,12 +380,15 @@ background-color: #000;
 .flip-clock-wrapper{
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .time-remaining-section p{
     margin: 30px 0;
     font-size: 18px;
 }
+
 
 /* certificate section  */
 
@@ -403,7 +408,7 @@ background-color: #000;
 }
 
 .certificate-img img{
-    width: 40%;
+    width: 80%;
     object-fit: cover;
     border-radius: 25px;
 }
@@ -455,7 +460,7 @@ background-color: #000;
 }
 
 .mentor-section .mentor-img{
-    flex-basis: 30%;
+    flex-basis: 40%;
 }
 
 .mentor-img img{
@@ -465,7 +470,7 @@ background-color: #000;
 }
 
 .mentor-section .mentor-description{
-    flex-basis: 60%;
+    flex-basis: 50%;
 }
 
 .mentor-description h1{
@@ -521,12 +526,16 @@ background-color: #000;
     position: relative;
 }
 
+.for-who-container .vcollapse-toggle p{
+    padding-right: 20px;
+}
+
 .for-who-container .vcollapse-toggle::after, .faq-container .vcollapse-toggle::after{
     content: '+';
     position: absolute;
     right: 10px;
-    top: 28px;
-    font-size: 30px;
+    top: 25px;
+    font-size: 25px;
 }
 
 .for-who-container .vcollapse-toggle.active::after, .faq-container .vcollapse-toggle.active::after{
@@ -535,6 +544,7 @@ background-color: #000;
 
 .for-who-container .vcollapse-content{
     background-color: #fff;
+    border: 1px solid #a4b0be;
     
 }
 
@@ -550,12 +560,23 @@ background-color: #000;
 }
 
 .faq-section h1{
+    position: relative;
     font-size: 38px;
     text-align: center;
 }
 
+.faq-section h1::after{
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 43%;
+    width: 15%;
+    height: 3px;
+    background-color: #f5df4e;
+}
+
 .faq-section .faq-subtitle{
-    margin: 20px 0;
+    margin: 40px 0;
     font-size: 15px;
     text-align: center;
 }
@@ -564,9 +585,18 @@ background-color: #000;
     margin:80px 0
 }
 
+.faq-container >div{
+    margin-bottom: 30px;
+}
+
 .faq-container .vcollapse-toggle{
     background-color: #f5df4e;
     border-radius: 10px;
+    height: fit-content;
+}
+
+.faq-container .vcollapse-content{
+    background-color: #FFFDF6;
 }
 @media screen and (max-width:900px) {
 
@@ -592,12 +622,14 @@ background-color: #000;
     .reminder-section h1{
         font-size: 30px;
     }
+
+    .for-who-container{
+        grid-template-columns: repeat(2,1fr);
+    }
     
 }
 
-.faq-container >div{
-    margin-bottom: 30px;
-}
+
 
 @media screen and (max-width:700px) {
     header{
@@ -636,6 +668,30 @@ background-color: #000;
         font-size: 14px;
     }
     .worth-section{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .flip-clock-wrapper .flip, .flip-clock-divider{
+        margin-top: 50px;
+    }
+
+    .flip-clock-divider .flip-clock-label{
+        display: none;
+    }
+
+    .check-option-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .mentor-section{
+        flex-direction: column;
+    }
+
+    .mentor-description{
+        margin-top: 50px;
+    }
+
+    .for-who-container{
         grid-template-columns: repeat(1,1fr);
     }
     
@@ -700,5 +756,9 @@ background-color: #000;
 
     .worth p{
         font-size: 14px;
+    }
+
+    .mentor-skill{
+       grid-template-columns: repeat(1,1fr);
     }
 }
