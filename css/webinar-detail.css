@@ -214,6 +214,122 @@ header > div{
     font-weight: bold;
 }
 
+.webinar-section-title{
+    position: relative;
+    margin: 40px 0;
+    text-align: center;
+    font-size: 38px;
+}
+
+.webinar-section-title::after{
+content: '';
+position: absolute;
+left: 45%;
+bottom: -10px;
+width: 10%;
+height: 4px;
+background-color: #000;
+}
+
+.contents{
+    margin: 50px 0;
+    padding: 0 6%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: start;
+    grid-gap: 10px;
+}
+
+.content{
+    position: relative;
+    border: 1px solid #a4b0be;
+    border-radius: 25px;
+    background-color: #f5f6fa;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.content-detail h1{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom:20px;
+}
+
+.content-detail p{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.content-detail{
+   display: none;
+}
+
+.content-detail div:last-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: #e2e2e2;
+}
+
+.content-detail div:last-child p{
+    margin-bottom: 0;
+}
+
+.content-title{
+    width: 100%;
+    margin: 0 auto;
+    height: 70px;
+    background-color: #f5df4e;
+    border-radius: 25px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+}
+
+.content:hover{
+    padding: 20px;
+}
+
+.content:hover .content-title{
+    transform: translateY(-40px);
+}
+
+.content:hover .content-detail{
+   display: block;
+}
+
+.mega-content{
+    grid-column: 1 / -1;
+    width: 50%;
+    margin: 50px auto;
+
+}
+
+/* reminder section  */
+
+.reminder-section{
+    padding: 70px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    clip-path: polygon(0 1%, 100% 0%, 100% 52%, 51% 84%, 0% 50%);
+
+}
+
+.reminder-section h1{
+    font-size: 38px;
+    color: #f5df4e;
+    margin-top: -50px;
+}
+
 @media screen and (max-width:900px) {
 
     .header-title h1{
@@ -226,6 +342,17 @@ header > div{
 
     .features-section{
         grid-template-columns: repeat(2,1fr);
+    }
+
+    .contents{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .mega-content{
+        width: 100%;
+    }
+    .reminder-section h1{
+        font-size: 30px;
     }
     
 }
@@ -258,6 +385,15 @@ header > div{
     .webinar-content-header p{
         font-size: 12px;
     }
+
+    .reminder-section h1{
+        font-size: 20px;
+    }
+
+    .reminder-section p{
+        font-size: 14px;
+    }
+    
 }
 
 
@@ -288,6 +424,18 @@ header > div{
     }
     
     .webinar-content-header p{
+        font-size: 12px;
+    }
+
+    .content-detail h1{
+        font-size: 20px;
+    }
+
+    .content-detail p{
+        font-size: 12px;
+    }
+
+    .reminder-section p{
         font-size: 12px;
     }
 }
