@@ -100,6 +100,11 @@ header > div{
     border-radius: 25px;
 }
 
+.feature:hover{
+    box-shadow: 0 5px 5px #ced6e0;
+    cursor: pointer;
+}
+
 .feature-img img{
     display: block;
     width: 60px;
@@ -129,7 +134,7 @@ header > div{
     padding: 30px 50px;
     max-width: 800px;
     margin: 70px auto;
-    background-color: #f5f6fa;
+    background-color: #FFFDF6;
     height: 100%;
 }
 
@@ -199,10 +204,13 @@ header > div{
 
 /* webinar contents */
 
+
+
 .webinar-content-header{
     background-color: #f5df4e;
     text-align: center;
     padding: 40px 6%;
+    margin-bottom: 90px;
 }
 
 .webinar-content-header h1{
@@ -228,7 +236,7 @@ left: 45%;
 bottom: -10px;
 width: 10%;
 height: 4px;
-background-color: #000;
+background-color: #f5df4e;
 }
 
 .contents{
@@ -255,7 +263,8 @@ background-color: #000;
 .content-detail h1{
     font-size: 30px;
     text-align: center;
-    margin-bottom:20px;
+    
+    margin:20px 0;
 }
 
 .content-detail p{
@@ -263,9 +272,6 @@ background-color: #000;
     margin-bottom: 15px;
 }
 
-.content-detail{
-   /* display: none; */
-}
 
 .content-detail div:last-child{
     display: flex;
@@ -275,7 +281,7 @@ background-color: #000;
     width: fit-content;
     margin: 15px auto 0;
     padding: 10px 20px;
-    border-radius: 15px;
+    border-radius: 5px;
     background-color: #e2e2e2;
 }
 
@@ -288,7 +294,7 @@ background-color: #000;
     margin: 0 auto;
     height: 50px;
     background-color: #f5df4e;
-    border-radius: 15px;
+    border-radius: 10px;
     font-size: 12px;
     display: flex;
     justify-content: center;
@@ -298,6 +304,7 @@ background-color: #000;
 
 .content:hover{
     padding: 20px;
+    box-shadow: 0 5px 5px #d1d8e0;
 }
 
 .content:hover .content-title{
@@ -328,7 +335,7 @@ background-color: #000;
 
 .reminder-section h1{
     font-size: 38px;
-    color: #f5df4e;
+    color: #F5DF4E;
     margin-top: -50px;
 }
 
@@ -347,7 +354,7 @@ background-color: #000;
     border: 1px solid #000;
     padding: 20px;
     text-align: center;
-    background-color: #dcdde1;
+    background-color: #FFFDF6;
     border-radius: 25px;
     cursor: pointer;
 }
@@ -366,14 +373,25 @@ background-color: #000;
 }
 
 .time-remaining-section{
-    padding: 0 6%;
-    margin: 60px 0;
+    padding: 30px 6%;
+    margin: 90px 0;
     text-align: center;
 }
 
 .time-remaining-section h1{
+    position: relative;
     font-size: 38px;
     margin-bottom: 80px;
+}
+
+.time-remaining-section h1::after{
+    content: '';
+    position: absolute;
+    width: 20%;
+    height: 5px;
+    background-color: #f5df4e;
+    left: 40%;
+    bottom: -20px;
 }
 
 
@@ -385,7 +403,7 @@ background-color: #000;
 }
 
 .time-remaining-section p{
-    margin: 30px 0;
+    margin-top: 80px;
     font-size: 18px;
 }
 
@@ -393,14 +411,25 @@ background-color: #000;
 /* certificate section  */
 
 .certificate-section{
-    margin: 60px 0;
-    padding: 0 6%;
+    margin: 80px 0;
+    padding: 30px 6%;
     text-align: center;
 }
 
 .certificate-section h1{
+    position: relative;
     font-size: 38px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
+}
+
+.certificate-section h1::after{
+    content: '';
+    position: absolute;
+    width: 15%;
+    height: 5px;
+    background-color: #f5df4e;
+    left: 42%;
+    bottom: -10px;
 }
 
 .certificate-section p{
@@ -424,7 +453,7 @@ background-color: #000;
 .check-answer-section h1{
     font-size: 38px;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .check-option-container{
@@ -474,7 +503,20 @@ background-color: #000;
 }
 
 .mentor-description h1{
+    position: relative;
     font-size: 38px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.mentor-description h1::after{
+    content: '';
+    position: absolute;
+    width: 65%;
+    height: 4px;
+    background-color: #f5df4e;
+    left: 17%;
+    bottom: -10px;
 }
 
 .mentor-skill{
@@ -496,10 +538,22 @@ background-color: #000;
 }
 
 .for-who-section h1{
+    position: relative;
     font-size: 38px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     text-align: center;
 }
+
+.for-who-section h1::after{
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 15%;
+    background-color: #f5df4e;
+    left: 42%;
+    bottom: -10px;
+}
+
 
 .for-who-section .for-who-subtitle{
     text-align: center;
@@ -585,23 +639,29 @@ background-color: #000;
     margin:80px 0
 }
 
-.faq-container >div{
-    margin-bottom: 30px;
-}
+
 
 .faq-container .vcollapse-toggle{
-    background-color: #f5df4e;
-    border-radius: 10px;
+    background-color: #FFFDF6;
+    border:1px solid #dcdde1;
+    /* border-radius: 10px; */
     height: fit-content;
+}
+.faq-container .vcollapse-toggle.active{
+    background-color: #f5df4e;
 }
 
 .faq-container .vcollapse-content{
     background-color: #FFFDF6;
 }
+
+
+/* media query  */
+
 @media screen and (max-width:900px) {
 
     .header-title h1{
-        font-size: 30px;
+        font-size: 32px;
     }
 
     .reasons ul li {
@@ -621,6 +681,14 @@ background-color: #000;
     }
     .reminder-section h1{
         font-size: 30px;
+    }
+
+    .mentor-skill{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .mentor-skill p, .mentor-description p{
+        font-size: 15px;
     }
 
     .for-who-container{
@@ -652,17 +720,19 @@ background-color: #000;
         flex-basis: 80%;
     }
 
-    .webinar-content-header h1{
-        font-size: 24px;
+    .webinar-content-header h1, .webinar-section-title, .content-detail h1,.reminder-section h1, .time-remaining-section h1, .certificate-section h1,.check-answer-section h1, .mentor-description h1, .faq-section h1{
+        font-size: 25px;
+    }
+
+    .certificate-section p, .check-answer-section .select-any{
+        font-size: 15px;
     }
     
     .webinar-content-header p{
         font-size: 12px;
     }
 
-    .reminder-section h1{
-        font-size: 18px;
-    }
+    
 
     .reminder-section p{
         font-size: 14px;
@@ -693,6 +763,10 @@ background-color: #000;
 
     .for-who-container{
         grid-template-columns: repeat(1,1fr);
+    }
+
+    .for-who-section .for-who-subtitle{
+        font-size: 15px;
     }
     
 }
