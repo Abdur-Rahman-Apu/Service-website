@@ -57,3 +57,27 @@ text-decoration: line-through;
         margin-bottom: 25px;
     }
 }
+
+@media screen and (max-width:440px) {
+
+    .content-img img{
+        width: 60px;
+        height: 60px;
+    }
+
+    .worth h1{
+        font-size: 18px;
+    }
+    
+    .worth .worth-img img{
+        width: 60px;
+    }
+
+    .worth p{
+        font-size: 12px;
+    }
+
+    .worth h3{
+        font-size: 16px;
+    }
+}

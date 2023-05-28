@@ -462,9 +462,15 @@ background-color: #f5df4e;
     grid-gap: 20px;
 }
 
+#que{
+    height: 35px;
+    width: 35px;
+}
+
 .check-option{
     display: flex;
     align-items: center;
+   
     background-color: #fff;
     padding: 20px;
     border-radius: 15px;
@@ -472,6 +478,14 @@ background-color: #f5df4e;
 
 .check-option p{
     margin-left: 12px;
+}
+
+.check-option input[type='checkbox']{
+    flex-basis: 15%;
+}
+
+.check-option p{
+    flex-basis: 80%
 }
 
 .check-answer-section .select-any{
