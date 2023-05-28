@@ -33,3 +33,27 @@ text-decoration: line-through;
     object-fit: cover;
 
 }
+
+.faq-container .vcollapse-content ul{
+    margin-top: 30px;
+    margin-left: 30px;
+    list-style-position: inside;
+}
+
+.faq-container .vcollapse-content p{
+    padding-left: 10px;
+}
+
+@media screen and (max-width:700px) {
+    .header-img img{
+        margin-top: 40px;
+    }
+
+    .reasons{
+        align-items: flex-start;
+    }
+
+    .reasons > ul li{
+        margin-bottom: 25px;
+    }
+}
