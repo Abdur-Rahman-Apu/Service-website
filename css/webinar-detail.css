@@ -803,7 +803,7 @@ background-color: #f5df4e;
         font-size: 13px;
     }
 
-    .reason-to-join-heading h1, .review-section h1, .reminder-section h1, .reminder-section h1, .faq-section h1{
+    .reason-to-join-heading h1, .review-section h1, .reminder-section h1, .reminder-section h1, .faq-section h1, .webinar-content-header h1, .mentor-description h1{
         font-size: 18px;
     }
 
@@ -828,9 +828,6 @@ background-color: #f5df4e;
     }
 
     
-    .webinar-content-header h1{
-        font-size: 28px;
-    }
     
     .webinar-content-header p{
         font-size: 12px;
@@ -882,5 +879,28 @@ background-color: #f5df4e;
     .for-who-container .vcollapse-content p, .for-who-container .vcollapse-content p, .faq-container .vcollapse-content p{
         font-size: 13px;
     }
+
+    .reviewer-short-name{
+        padding: 10px;
+    }
+
+    .review-author-info h4{
+        font-size: 14px;
+    }
+
+    .reviewer-short-name h3{
+        font-size: 16px;
+    }
+
+    .review-info p,.review-rating p.review-rating i, .time-remaining-section p, .faq-container .vcollapse-content ul{
+        font-size: 12px;
+    }
+
+    #que{
+        width: 25px;
+        height: 25px;
+    }
+
+    
     
 }
