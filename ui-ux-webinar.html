@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI/UX webinar</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.green.min.css">
+    <link rel="stylesheet" href="./css/flipclock.css">
+    <link rel="stylesheet" href="./css/webinar-detail.css">
+    <link rel="stylesheet" href="./css/ui-webinar.css">
+
+    <script src="https://kit.fontawesome.com/3b7a96cd6e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- scroll-to-top  -->
+    <div class="up">
+        <div class="scroll-to-top">
+            <i class="fa-solid fa-arrow-up"></i>
+        </div>
+        <p>Back to top</p>
+    </div>
+
+    <!-- navbar  -->
+    <div class="navbar">
+        <div class="logo">
+            <img src="./images/SK-Logo-yellow-black.png" alt="logo">
+        </div>
+        <ul class="menu">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./index.html">About</a></li>
+            <li><a href="./index.html">Services</a></li>
+            <li><a href="./case-studies.html">Case Study</a></li>
+            <li><a href="./courses.html">Courses</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a class="active" href="./webinar.html">Webinar</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+
+        <div class="contact">
+            <div class="humburger" onclick="toggleMenu()">
+                <i class="fa-solid fa-bars" id="humburger-icon"></i>
+
+                <span></span>
+
+                <i class="fa-regular fa-circle-xmark" id="close-icon"></i>
+
+                <ul class="humburger-menus">
+                    <li><a class="active" href="./index.html">Home</a></li>
+                    <li><a href="#about-section">About</a></li>
+                    <li><a href="#service-section">Services</a></li>
+                    <li><a href="#case-study-section">Case Study</a></li>
+                    <li><a href="#featured-courses">Courses</a></li>
+                    <li><a href="#blog-section">Blog</a></li>
+                    <li><a class="active" href="./webinar.html">Webinar</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <a href="#"><i class="fa-brands fa-facebook facebook"></i></a>
+                <p>Facebook</p>
+            </div>
+            <div>
+                <a href="#"><i class="fa-brands fa-twitter twitter"></i></a>
+                <p>Twitter</p>
+            </div>
+            <div>
+                <a href="#"><i class="fa-brands fa-instagram instagram"></i></a>
+                <p>Instagram</p>
+            </div>
+            <div>
+                <a href="#">
+                    <i class="fa-brands fa-linkedin linkedin"></i>
+                </a>
+                <p>LinkedIn</p>
+            </div>
+            <div>
+                <a href="#"><i class="fa-brands fa-square-behance behance"></i></a>
+                <p>Behance</p>
+            </div>
+
+        </div>
+    </div>
+
+    <header>
+        <div class="header-title" data-aos="fade-up" data-aos-duration="2000">
+            <h1> Learn UI/UX design</h1>
+            <p>One of the top 10 indemand skills of 2023 and kickstart your career as a UI/UX designer without any <span
+                    class="highlight">prior experience.</span>
+            </p>
+        </div>
+        <div class="header-img" data-aos="zoom-in" data-aos-duration="2000">
+            <img src="./images/webinar/ui.jpg" alt="students image">
+        </div>
+    </header>
+
+    <main>
+
+
+        <!-- reason-to-learn section  -->
+        <section class="reason-to-join">
+
+            <div class="reason-to-join-heading">
+                <h1>Join The 2 Days Live UI/UX Design Masterclass Now!</h1>
+            </div>
+
+            <div class="reasons" data-aos="fade-up" data-aos-duration="2000">
+                <ul>
+                    <li> <i class="fa-solid fa-circle-check"></i>
+                        <p> <span class="highlight">No prior</span> knowledge required.</p>
+                    </li>
+                    <li> <i class="fa-solid fa-circle-check"></i>
+                        <p><span class="highlight">Learn UI for web and mobile</span> using Figma from scratch</p>
+                    </li>
+                    <li> <i class="fa-solid fa-circle-check"></i>
+                        <p> Get familiar with the <span class="highlight">Figma workspace.</span></p>
+                    </li>
+                </ul>
+                <ul>
+                    <li> <i class="fa-solid fa-circle-check"></i>
+                        <p>
+                            Learn <span class="highlight">secret tricks to reduce your time</span> by 30%
+                        </p>
+                    </li>
+                    <li> <i class="fa-solid fa-circle-check"></i>
+                        <p>
+                            Learn <span class="highlight">industry accepted UX design principles</span> and become
+                            industry ready
+                        </p>
+                    </li>
+                    <li> <i class="fa-solid fa-circle-check"></i>
+                        <p>
+                            Get <span class="highlight">certified by Shravan Kumar</span> and build your competence in
+                            the job market
+                        </p>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+
+        <!-- features section  -->
+        <section class="features-section">
+
+            <!-- feature 1 -->
+            <div class="feature" data-aos="flip-left" data-aos-duration="2000">
+                <div class="feature-img">
+                    <img src="./images/webinar/schedule.png" alt="schedule image">
+                </div>
+                <div class="feature-info">
+                    <h1>30<sup>th</sup> May</h1>
+                    <p>Start date</p>
+                </div>
+            </div>
+
+            <!-- feature 2  -->
+            <div class="feature" data-aos="flip-right" data-aos-duration="2000">
+                <div class="feature-img">
+                    <img src="./images/webinar/workshop.png" alt="workshop image">
+                </div>
+                <div class="feature-info">
+                    <h1>5 Days</h1>
+                    <p>Hands-on Workshop</p>
+                </div>
+            </div>
+
+            <!-- feature 3 -->
+            <div class="feature" data-aos="flip-left" data-aos-duration="2000">
+                <div class="feature-img">
+                    <img src="./images/webinar/bonus.png" alt="bonus image">
+                </div>
+                <div class="feature-info">
+                    <h1>Bonuses</h1>
+                    <p>Worth Rs 18,000</p>
+                </div>
+            </div>
+
+            <!-- feature 4  -->
+            <div class="feature" data-aos="flip-right" data-aos-duration="2000">
+                <div class="feature-img">
+                    <img src="./images/webinar/certified.png" alt="certified image">
+                </div>
+                <div class="feature-info">
+                    <h1>Get Certified</h1>
+                    <p>By Shravan Kumar</p>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- review section  -->
+        <section class="review-section" data-aos="fade-up" data-aos-duration="2000">
+            <h1>More than 500+ students have called it the best way <br> to learn UI US Design</h1>
+
+            <div class="reviews owl-carousel owl-theme">
+                <!-- review 1  -->
+                <div class=" review">
+                    <div class="reviewer-info">
+                        <div class="reviewer-short-name">
+                            <h3>PS</h3>
+                        </div>
+                        <div class="review-author-info">
+                            <h4>Paramjeet Singh</h4>
+                            <div class="review-info">
+                                <p><i class="fa-solid fa-pencil"></i> 1 review</p>
+                                <p><i class="fa-solid fa-location-dot"></i> IN</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="review-details">
+                        <div class="review-rating">
+                            <div>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p>December, 2022</p>
+                        </div>
+                        <div class="wrote-review">
+                            <h3>Amazing course on UI/UX</h3>
+                            <p>I would highly recommend taking this UI/UX course to anyone who is looking to break into
+                                the design field. <span class="highlight">The content is very engaging and
+                                    useful.</span> Aarti, the instructor amazingly describes every concept. The hands-on
+                                projects allowed me to apply what I learned. I feel confident in my abilities as a UI/UX
+                                designer thanks to this course.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- review 2 -->
+                <div class=" review">
+                    <div class="reviewer-info">
+                        <div class="reviewer-short-name">
+                            <h3>KS</h3>
+                        </div>
+                        <div class="review-author-info">
+                            <h4>Kritika Sinha</h4>
+                            <div class="review-info">
+                                <p><i class="fa-solid fa-pencil"></i> 1 review</p>
+                                <p><i class="fa-solid fa-location-dot"></i> IN</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="review-details">
+                        <div class="review-rating">
+                            <div>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p>November, 2022</p>
+                        </div>
+                        <div class="wrote-review">
+                            <h3>Best UI/UX workshop for a beginner!!!</h3>
+                            <p> Aarti, the instructor is very knowledgeable and engaging. She <span
+                                    class="highlight">made my learning experience enjoyable and educational.</span> As a
+                                beginner, I just followed the instructions and learned each topic. I would definitely
+                                recommend this workshop to others looking to improve their skills in UI/UX.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- review 3  -->
+                <div class=" review">
+                    <div class="reviewer-info">
+                        <div class="reviewer-short-name">
+                            <h3>KS</h3>
+                        </div>
+                        <div class="review-author-info">
+                            <h4>Kritika Sinha</h4>
+                            <div class="review-info">
+                                <p><i class="fa-solid fa-pencil"></i> 1 review</p>
+                                <p><i class="fa-solid fa-location-dot"></i> IN</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="review-details">
+                        <div class="review-rating">
+                            <div>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p>November, 2022</p>
+                        </div>
+                        <div class="wrote-review">
+                            <h3>Best UI/UX workshop for a beginner!!!</h3>
+                            <p> Aarti, the instructor is very knowledgeable and engaging. She <span
+                                    class="highlight">made my learning experience enjoyable and educational.</span> As a
+                                beginner, I just followed the instructions and learned each topic. I would definitely
+                                recommend this workshop to others looking to improve their skills in UI/UX.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- reviewer 4  -->
+                <div class=" review">
+                    <div class="reviewer-info">
+                        <div class="reviewer-short-name">
+                            <h3>AK</h3>
+                        </div>
+                        <div class="review-author-info">
+                            <h4>Avdhesh Kumar</h4>
+                            <div class="review-info">
+                                <p><i class="fa-solid fa-pencil"></i> 1 review</p>
+                                <p><i class="fa-solid fa-location-dot"></i> IN</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="review-details">
+                        <div class="review-rating">
+                            <div>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p>December, 2022</p>
+                        </div>
+                        <div class="wrote-review">
+                            <h3>Game Changer Workshop for my career!!</h3>
+                            <p>I have a background in graphic design, but I was struggling to understand the
+                                user-centered approach to design. <span class="highlight">This course provided a
+                                    comprehensive overview</span>of the UX design process, including user research,
+                                prototyping, and testing. I am now able to apply these skills to my current job and have
+                                seen an improvement in the quality of my work.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </section>
+
+
+        <!-- webinar content section  -->
+        <section class="webinar-contents-section">
+            <div class="webinar-content-header" data-aos="zoom-in" data-aos-duration="2000">
+                <h1>What will you learn in this Masterclass?</h1>
+            </div>
+
+            <div class="contents">
+
+                <!-- content 1  -->
+                <div class="content" data-aos="flip-left" data-aos-duration="2000">
+                    <div class="content-detail">
+                        <div class="content-img">
+                            <img src="./images/webinar/ui-design.png" alt="image">
+                        </div>
+                        <h1>UI Designing using Figma</h1>
+                        <p>Understand Figma as a platform from basics to complete designing, that will make you a pro at
+                            UI Designing</p>
+                    </div>
+                </div>
+
+                <!-- content 2 -->
+                <div class="content" data-aos="flip-right" data-aos-duration="2000">
+
+                    <div class="content-img">
+                        <img src="./images/webinar/animation.png" alt="image">
+                    </div>
+                    <div class="content-detail">
+                        <h1>Animate elements for Micro Interactions</h1>
+                        <p>Interactions are a crucial part of design and we will enable your knowledge of creating
+                            animation for action items within Figma.</p>
+                    </div>
+                </div>
+
+                <!-- content-3  -->
+                <div class="content" data-aos="flip-left" data-aos-duration="2000">
+
+                    <div class="content-img">
+                        <img src="./images/webinar/prototype.png" alt="image">
+                    </div>
+
+                    <div class="content-detail">
+                        <h1>Prototyping using Figma</h1>
+                        <p>As a designer it will be your responsibility to ensure that you deliver a complete
+                            understanding of user experience to the development team. Prototyping is the best answer to
+                            this, it solves the communication gap and ensures a seamless project.</p>
+                    </div>
+                </div>
+
+                <!-- content 4 -->
+                <div class="content" data-aos="flip-right" data-aos-duration="2000">
+
+                    <div class="content-img">
+                        <img src="./images/webinar/centric-design.png" alt="image">
+                    </div>
+                    <div class="content-detail">
+                        <h1>User Centric Designing</h1>
+                        <p>You will be able to take design decisions based on logical thinking and understanding user
+                            psychology</p>
+                    </div>
+                </div>
+                <!--  content  5 -->
+                <div class="content" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="content-img">
+                        <img src="./images/webinar/best-practice.png" alt="image">
+                    </div>
+                    <div class="content-detail">
+                        <h1>UI Best Practices</h1>
+                        <p>Application of Best Design Practises for web pages and mobile apps to help you become
+                            industry ready, for anywhere in the Globe.</p>
+                    </div>
+                </div>
+
+                <!-- content 6  -->
+                <div class="content" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="content-img">
+                        <img src="./images/webinar//figma.png" alt="image">
+                    </div>
+                    <div class="content-detail">
+                        <h1>A live project on Figma</h1>
+                        <p>Designing a Web Page basics Prototyping on Figma</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- reminder section  -->
+
+        <section class="reminder-section" data-aos="zoom-in" data-aos-duration="2000">
+
+            <h1>Register before midnight of 28 May 2023</h1>
+            <p>To Unlock All Bonuses worth Rs 12,000</p>
+        </section>
+
+
+        <!-- worth section  -->
+        <section class="worth-section">
+
+            <!-- worth 1 -->
+            <div class="worth" data-aos="flip-left" data-aos-duration="2000">
+                <div class="worth-img">
+                    <img src="./images/webinar/figma.png" alt="image">
+                </div>
+                <h1>Figma Tip and Tricks</h1>
+                <p>You will get a video tutorial with UI Tips and Tricks to help you increase your efficiency by up to
+                    5x </p>
+
+                <h3>₹3000</h3>
+            </div>
+
+            <!-- worth 2  -->
+            <div class="worth" data-aos="flip-right" data-aos-duration="2000">
+                <div class="worth-img">
+                    <img src="./images/webinar/ui-design.png" alt="image">
+                </div>
+                <h1>Design Template</h1>
+                <p>You will get a Free Template to kick start your practise and never run out of ideas for new projects
+                </p>
+                <h3>₹4000</h3>
+            </div>
+
+            <!-- worth 3 -->
+            <div class="worth" data-aos="flip-left" data-aos-duration="2000">
+                <div class="worth-img">
+                    <img src="./images/webinar/tips.png" alt="image">
+                </div>
+                <h1>UI Pro Tips</h1>
+                <p>A handbook of Top UX Pro Tips to enable User Centric designing to build a solid competence </p>
+                <h3>₹3000</h3>
+            </div>
+
+            <!-- worth 4  -->
+            <div class="worth" data-aos="flip-right" data-aos-duration="2000">
+                <div class="worth-img">
+                    <img src="./images/webinar/tools.png" alt="image">
+                </div>
+                <h1>Tools and Reference</h1>
+                <p>You will get links to online tools that will come handy throughout your career, they are every UI
+                    designers favourite</p>
+                <h3>₹2000</h3>
+            </div>
+        </section>
+
+        <!-- time remaining  -->
+        <section class="time-remaining-section" data-aos="fade-up" data-aos-duration="2000">
+            <h1>Time is running out. Reserve your seat now!</h1>
+            <div class="clock"></div>
+
+            <p>Register before <span class="highlight">May 29, 2023</span> to unlock bonuses worth <span
+                    class="highlight">Rs 12,000</span></p>
+        </section>
+
+        <!-- certificate section  -->
+        <section class="certificate-section" data-aos="fade-up" data-aos-duration="2000">
+            <h1>Get Certified in Video Editing</h1>
+            <p>Yes! You will be certified by <span class="highlight">Shravan Kumar</span> which brings a lot of
+                credibility to your certificate & your resume</p>
+
+            <div class="certificate-img" data-aos="zoom-in" data-aos-duration="2000">
+                <img src="./images/webinar/certificate.jpg" alt="img">
+            </div>
+        </section>
+
+
+        <!-- check answer  -->
+        <section class="check-answer-section" data-aos="fade-up" data-aos-duration="2000">
+            <h1>Please Check All Boxes Where Your Answer Is Yes!</h1>
+
+            <div class="check-option-container">
+                <!-- option 1 -->
+                <div class="check-option">
+                    <input type="checkbox" name="que" id="que">
+                    <p>I want to edit my videos like a pro and take my content to the next level but I don't have any
+                        prior
+                        editing knowledge.</p>
+                </div>
+
+                <!-- option 2  -->
+                <div class="check-option">
+                    <input type="checkbox" name="que" id="que">
+                    <p>I want to learn video editing and make money as a freelance video editor.</p>
+                </div>
+
+                <!-- option 3  -->
+                <div class="check-option">
+                    <input type="checkbox" name="que" id="que">
+                    <p>I want to get certified in video editing to apply as a video editor in creative agencies.</p>
+                </div>
+
+                <!-- option 4 -->
+                <div class="check-option">
+                    <input type="checkbox" name="que" id="que">
+                    <p>I want to learn video editing as a hobby & I find it quite fascinating.</p>
+                </div>
+
+                <!-- option 5 -->
+                <div class="check-option">
+                    <input type="checkbox" name="que" id="que">
+                    <p>I want to start my own YouTube channel and want to edit videos myself without depending on Video
+                        editors.</p>
+                </div>
+
+                <!-- option 6  -->
+                <div class="check-option">
+                    <input type="checkbox" name="que" id="que">
+                    <p>I want to become a professional video editor for feature films in Bollywood and I am looking to
+                        kickstart my journey.</p>
+                </div>
+            </div>
+
+            <p class="select-any">If you checked any of the boxes above, then you're invited to join the <span
+                    class="highlight">5 Day
+                    video editing workshop.</span></p>
+        </section>
+
+        <!-- mentor info section  -->
+        <section class="mentor-section">
+            <div class="mentor-img" data-aos="zoom-in" data-aos-duration="2000">
+                <img src="./images/webinar/mentor.png" alt="img">
+            </div>
+
+            <div class="mentor-description" data-aos="fade-up" data-aos-duration="2000">
+                <h1>Know your mentor</h1>
+
+                <div class="mentor-skill">
+                    <p> <i class="fa-solid fa-circle-check"></i> Visual Storyteller</p>
+                    <p> <i class="fa-solid fa-circle-check"></i> 5+ Years of Experience</p>
+                    <p> <i class="fa-solid fa-circle-check"></i> Trained Over 5000+ students</p>
+                    <p> <i class="fa-solid fa-circle-check"></i> Digital Media Specialist</p>
+                </div>
+
+                <div class="mentor-info">
+                    <p>Hi, I’m <span class="highlight">Shravan Kumar</span> Sharing is who I am, and teaching is where I
+                        am at my best. Teaching is my
+                        meaningful way to be a part of the creative community.
+                    </p>
+                    <p>I'm a digital designer & certified Adobe instructor, Certified Ethical Hacker and Certified Data
+                        science Expert.</p>
+
+                    <p>I born and grew up in India. I’ve spent a long time watching others learn, and teach, to refine
+                        how I work with you to be efficient, useful and, most importantly, memorable. I want you to
+                        carry what I’ve shown you into a bright future. I’m a Designer & Art director with
+                        specialization in the fields of branding, UI/UX Design, design for your social media, packaging
+                        design, and related visual communication for your brand as well as a Web Developer.</p>
+
+                    <p>My goal is to exceed any expectations of my clients throughout the world by creating outstanding
+                        brands and designs. Whether you’re looking to redesign your website or to improve user interface
+                        or any new website or portfolio, need business cards, brochures, posters, logo, or a powerpoint
+                        presentation, I’m here to help. I have experience in website designing and developing. I also
+                        worked with top designing firms like Happy Cog, Mule Design Studio and Tangible UX.</p>
+
+                    <p>
+
+                        I’ve conducted research and user testing to improve the site structure. I have diverse interests
+                        which make me able to help my clients, to visualize what they’d like to portray to their
+                        audiences. I can take on projects of all kinds, which allow me to use my experience I've
+                        achieved throughout the years.
+                    </p>
+
+                    <p>
+                        I have lived and worked in many places but most of my 15+ years of creating and teaching has had
+                        one overriding theme: bringing others along for the ride as we all try to change the world with
+                        our stories, our labours of love and our art.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- for who this workshop section  -->
+
+        <section class="for-who-section" data-aos="fade-up" data-aos-duration="2000">
+            <h1>Who is this workshop for?</h1>
+            <p class="for-who-subtitle">Learning Video Editing is not difficult at all. Being a Video Editing Expert
+                helps you create stunning
+                videos, get high-paying freelancing work & build your personal brand in the creative industry.</p>
+
+            <div class="for-who">
+                <div class="for-who-container">
+
+                    <!-- part 1  -->
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#fw1">
+                            <p>Aspiring freelancers video editors</p>
+                        </div>
+                        <div class="vcollapse-content" id="fw1">
+                            <p>If you aspire to kickstart your journey as a freelance video editor, this is the best
+                                place
+                                to
+                                start from.</p>
+                        </div>
+                    </div>
+
+                    <!-- part 2  -->
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#fw2">
+                            <p>Aspiring feature-film video editors</p>
+                        </div>
+                        <div class="vcollapse-content" id="fw2">
+                            <p>If you want to learn how to edit feature films for Bollywood/Hollywood but you don’t know
+                                where to start, join this workshop without thinking twice.</p>
+                        </div>
+                    </div>
+
+                    <!-- part 3  -->
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#fw3">
+                            <p>Content creators and influencers</p>
+                        </div>
+                        <div class="vcollapse-content" id="fw3">
+                            <p>Do you want to make your content 10x interesting and engaging? Do you want to reach more
+                                audiences and create viral content? This workshop is for you.</p>
+                        </div>
+                    </div>
+
+                    <!-- part 4  -->
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#fw4">
+                            <p>Aspiring video editing professionals</p>
+                        </div>
+                        <div class="vcollapse-content" id="fw4">
+                            <p> If you are aspiring to work as a video editor in creative agencies and production
+                                houses,
+                                premiere pro is a prerequisite.</p>
+                        </div>
+
+                    </div>
+                    <!-- part 5 -->
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#fw5">
+                            <p>Youtubers</p>
+                        </div>
+                        <div class="vcollapse-content" id="fw5">
+                            <p> If you want to grow as a YouTuber, you have to have great video editing skills,
+                                especially
+                                if you can’t afford a video editor.</p>
+                        </div>
+                    </div>
+
+                    <!-- part 6  -->
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#fw6">
+                            <p>Anybody who wants to learn video editing</p>
+                        </div>
+                        <div class="vcollapse-content" id="fw6">
+                            <p> And finally, this workshop is for anybody who wants to learn about video editing and
+                                content
+                                creation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- frequently asked question  -->
+
+        <section class="faq-section" data-aos="fade-up" data-aos-duration="2000">
+            <h1>Frequently Asked Questions</h1>
+            <p class="faq-subtitle">We have answered all common questions below that you might have about the workshop.
+                For any further
+                queries, please contact: <b><i>info@designershravan.in</i></b></p>
+
+            <div class="faq-container">
+
+                <!-- part 1  -->
+                <div>
+                    <div class="vcollapse-toggle" data-target="#fq1">
+                        <p>When does the workshop start?</p>
+                    </div>
+                    <div class="vcollapse-content" id="fq1">
+                        <p>The workshop starts on Tuesday, 30th May 2023 and will go on till Sunday. Saturday will be a
+                            break day.</p>
+                    </div>
+                </div>
+
+                <!-- part 2  -->
+                <div>
+                    <div class="vcollapse-toggle" data-target="#fq2">
+                        <p>Timings of the workshop?</p>
+                    </div>
+                    <div class="vcollapse-content" id="fq2">
+                        <p>Everyday you will get recorded videos which you can watch anytime you want throughout the
+                            day. Live sessions would be at 9 pm to 10 pm. Sunday, the live MEGA WEBINAR would go on from
+                            1 PM to 4 PM (3 hours)</p>
+                    </div>
+                </div>
+
+                <!-- part 3  -->
+                <div>
+                    <div class="vcollapse-toggle" data-target="#fq3">
+                        <p>Will the video access be given for lifetime?</p>
+                    </div>
+                    <div class="vcollapse-content" id="fq3">
+                        <p>As it is a workshop & not a course, the access will be limited to 14 Days post workshop. This
+                            is to make sure our students don’t take their learning lightly and follow a disciplined
+                            approach.</p>
+                    </div>
+                </div>
+
+                <!-- part 4  -->
+                <div>
+                    <div class="vcollapse-toggle" data-target="#fq4">
+                        <p>Is there a specific device requirement?</p>
+                    </div>
+                    <div class="vcollapse-content" id="fq4">
+                        <p>You will require a laptop (it can be Windows or Mac, any is fine).</p>
+                    </div>
+
+                </div>
+                <!-- part 5 -->
+                <div>
+                    <div class="vcollapse-toggle" data-target="#fq5">
+                        <p>Is it a certified workshop?</p>
+                    </div>
+                    <div class="vcollapse-content" id="fq5">
+                        <p>Yes! It is a Certified Workshop. You will be certified by Shravan Kumar.</p>
+                    </div>
+                </div>
+
+                <!-- part 6  -->
+                <div>
+                    <div class="vcollapse-toggle" data-target="#fq6">
+                        <p>Will I get recordings if I miss out on a live
+                            session?</p>
+                    </div>
+                    <div class="vcollapse-content" id="fq6">
+                        <p> Yes! You will receive recordings of both, recorded modules and live Q&A sessions. Please
+                            note, there would be no recording of the Sunday 1 PM – 4 PM session. That’s the only session
+                            where you won’t receive a recording.</p>
+                    </div>
+                </div>
+
+                <!-- part 7 -->
+                <div>
+                    <div class="vcollapse-toggle" data-target="#fq7">
+                        <p>I made the payment but didn’t receive any update</p>
+                    </div>
+                    <div class="vcollapse-content" id="fq7">
+                        <p>Please email us at hello@skillnation.in & our awesome support team will get back to you ASAP.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- part 8 -->
+                <div>
+                    <div class="vcollapse-toggle" data-target="#fq8">
+                        <p>Are there any pre-requisites to attend this
+                            workshop?</p>
+                    </div>
+                    <div class="vcollapse-content" id="fq8">
+                        <p>There are no prerequisites to attend the workshop. We will be teaching everything from
+                            scratch and so, all of you can attend this workshop!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- footer part start  -->
+    <footer>
+        <div class="footer-logo">
+            <img src="./images/SK-Logo-yellow-black.png" alt="logo">
+        </div>
+        <div>
+            <p>&copy; 2023 Designershravan.in.</p>
+        </div>
+
+        <div class="rules-regulations">
+            <a href="./privacy-policy.html">Privacy</a>
+            <a href="./terms-conditions.html">Terms & conditions</a>
+            <a href="./refund-policy.html">Refund policy</a>
+        </div>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/vcollapse.js"></script>
+    <script src="./js/countdown/flipclock.js"></script>
+    <script src="./js/carousel/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./js/common.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            var clock = $('.clock').FlipClock({
+                clockFace: 'DailyCounter',
+                autoStart: false,
+                callbacks: {
+                    stop: function () {
+                        $('.message').html('The clock has stopped!')
+                    }
+                }
+            });
+
+            $(".owl-carousel").owlCarousel({
+                loop: true,
+                margin: 10,
+                responsiveClass: true,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: true,
+                dots: false,
+                responsive: {
+                    0: {
+                        items: 1,
+                    }
+                }
+            });
+
+
+            clock.setTime(220880);
+            clock.setCountdown(true);
+            clock.start();
+
+            $(".for-who-container").vCollapse({
+                any: true,
+                onLoad: -1,
+                speed: 300,
+                easing: "ease-in",
+            });
+            $(".faq-container").vCollapse({
+                any: true,
+                onLoad: -1,
+                speed: 300,
+                easing: "ease-in",
+            });
+
+        });
+    </script>
+</body>
+
+</html>
