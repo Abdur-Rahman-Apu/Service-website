@@ -235,6 +235,77 @@ font-weight: bold;
 }
 
 
+/* slider companies  */
+
+.companies-show-slider{
+  margin: 80px 0 120px;
+}
+
+
+.companies-show-slider h1{
+  position: relative;
+  font-size: 38px;
+  text-align: center;
+}
+
+.companies-show-slider h1::after{
+  content: '';
+  position: absolute;
+  width: 10%;
+  height: 4px;
+  background-color: #ffb347;
+  bottom: -10px;
+  left:45%;
+}
+
+.companies-show-slider .slider{
+  position: relative;
+  min-height: 250px;
+  margin: 80px 0;
+  background-color: #FFFDF6;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+
+.slide-track{
+  display: flex;
+  width: calc(250px * 20);
+  background-color: #FFFDF6;
+  animation-name: scroll;
+  animation-duration: 40s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes scroll {
+  0%{
+    transform: translateX(0);
+  }
+
+  100%{
+    transform: translateX(calc(-250px * 10));
+  }
+}
+
+.slide{
+  width: 250px;
+  height: 150px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  margin: 0 15px;
+  border-radius: 25px;
+  border: 1px solid gray;
+}
+
+.slide img{
+  width: 80%;
+  margin: 0 auto;
+}
+
 @media screen and (max-width:900px) {
   .coaching-features .feature{
     flex-basis: 45%;
