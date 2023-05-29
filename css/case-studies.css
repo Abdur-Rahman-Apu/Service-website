@@ -17,20 +17,12 @@ body {
 }
 
 .featured-projects .project:hover img {
-  transform: scale(1);
+  transform: scale(1.06);
 }
 
-.featured-projects:hover .project {
-  opacity: 0.5;
-  filter: blur(3px);
-}
+
 
 .featured-projects .project {
   transition: transform 0.5s;
 }
 
-.featured-projects .project:hover {
-  opacity: 1;
-  filter: blur(0px);
-  transform: scale(1.1);
-}
