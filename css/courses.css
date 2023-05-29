@@ -11,6 +11,7 @@
 
 
 .course-card {
+  min-height: fit-content;
   background-color: #fff;
   box-shadow: 0 0 10px #bdc3c7;
   border-radius: 25px;
@@ -37,7 +38,6 @@
 
 .course-banner {
   width: 100%;
-  height: 180px;
   border-radius: 25px;
   position: relative;
 }
@@ -59,33 +59,7 @@
   color: black;
 }
 
-/* .course-info hr {
-  border: 0;
-  outline: 0;
-  height: 1px;
-  background-color: #7f8c8d;
-}
 
-.card-bottom {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 0 0;
-}
-
-.card-bottom .course-rating {
-  font-size: 12px;
-  color: #ffa100;
-}
-
-.card-bottom .course-btn {
-  text-decoration: none;
-  background: #fd746c;
-  background: linear-gradient(to right, #ff9068, #fd746c);
-  color: #fff;
-  padding: 4px 10px;
-  border-radius: 4px; */
-/* } */
 
 @media screen and (max-width: 900px) {
   .course-container {

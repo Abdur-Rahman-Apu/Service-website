@@ -307,6 +307,97 @@ font-weight: bold;
   margin: 0 auto;
 }
 
+
+/* best feature section  */
+
+
+.best-feature-section {
+  margin: 60px 0;
+}
+
+.best-feature-section h1{
+  position: relative;
+  font-size: 38px;
+  text-align: center;
+}
+
+.best-feature-section h1::after{
+  content: '';
+  position: absolute;
+  left: 45%;
+  bottom: -15px;
+  width: 10%;
+  height: 4px;
+  background-color: #f5df4e;
+}
+
+.best-feature-section table{
+ width: 60vw;
+ text-align: center;
+ margin: 90px auto;
+ border-collapse: collapse;
+ border: none;
+}
+
+.best-feature-section td{
+  border: 1px solid #f5df4e;
+}
+
+td, th{
+  height: 60px;
+}
+
+table tr th{
+  background-color: rgba(245, 223, 78, 1);
+}
+
+
+/* odd row */
+table tr:nth-child(2n+1){
+  background-color: rgba(245, 223, 78,0.3);
+}
+
+
+/* even row */
+table tr:nth-child(2n+2){
+  background-color: rgba(245, 223, 78,0.1);
+}
+
+
+table th:first-of-type{
+  border-radius: 2rem 0 0 0;
+}
+
+table th:last-of-type{
+  border-radius: 0 2rem 0 0;
+}
+
+table tr:last-child td{
+  border-bottom: none;
+}
+
+table tr:last-child td:first-of-type{
+  border-radius: 0 0 0 2rem;
+  border-left: none;
+}
+table tr:last-child td:last-of-type{
+  border-right: none;
+  border-radius: 0 0 2rem 0;
+}
+
+
+.success{
+  color: #2ecc71;
+  font-size: 20px;
+}
+
+.failed{
+  color: #e74c3c;
+  font-size: 20px;
+}
+
+/* media query  */
+
 @media screen and (max-width:900px) {
   .coaching-features .feature{
     flex-basis: 45%;
@@ -315,6 +406,10 @@ font-weight: bold;
   .modal .send-info{
     flex-direction: column;
     align-items: center;
+  }
+
+  .best-feature-section table{
+    width: 90vw;
   }
 }
 
@@ -344,16 +439,48 @@ font-weight: bold;
     text-align: center;
   }
 
+  .coaching-title h2{
+    font-size: 22px;
+  }
+
+  .coaching-title img{
+    width: 46px;
+  }
+
   .modal h1{
     font-size: 25px;
   }
-  .companies-show-slider h1{
+  .companies-show-slider h1, .best-feature-section h1{
     font-size: 25px;
+  }
+
+  .best-feature-section table th{
+    font-size: 15px;
+  }
+
+  .best-feature-section table tr{
+    font-size: 14px;
+  }
+
+  .success, .failed{
+    font-size: 20px;
   }
 }
 
 @media screen and (max-width:440px){
 
+  
+  .all-course-container .coaching-details p{
+    font-size: 12px;
+  }
+
+  .coaching-title img{
+    width: 36px;
+  }
+  
+  .coaching-title h2{
+    font-size: 18px;
+  }
   .modal{
     padding: 20px;
     margin: 0;
@@ -376,8 +503,25 @@ font-weight: bold;
     width: 60vw !important;
   }
 
+  .coaching-details .book-btn{
+    font-size: 12px;
+    padding: 15px 35px;
+  }
+
   .slide{
     width: 150px;
     height: 100px;
+  }
+
+  .best-feature-section table th{
+    font-size: 12px;
+  }
+
+  .best-feature-section table tr{
+    font-size: 11px;
+  }
+
+  .success, .failed{
+    font-size: 14px;
   }
 }
