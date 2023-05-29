@@ -717,40 +717,42 @@
     <script src="./js/common.js"></script>
     <script src="./js/countdown/count.js"></script>
     <script>
+        $(document).ready(function () {
 
 
-        $(".owl-carousel").owlCarousel({
-            loop: true,
-            margin: 10,
-            responsiveClass: true,
-            autoplay: true,
-            autoplayTimeout: 3000,
-            autoplayHoverPause: true,
-            dots: false,
-            responsive: {
-                0: {
-                    items: 1,
+
+            $(".owl-carousel").owlCarousel({
+                loop: true,
+                margin: 10,
+                responsiveClass: true,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: true,
+                dots: false,
+                responsive: {
+                    0: {
+                        items: 1,
+                    }
                 }
-            }
-        });
+            });
 
 
-        clock.setTime(220880);
-        clock.setCountdown(true);
-        clock.start();
+            clock.setTime(220880);
+            clock.setCountdown(true);
+            clock.start();
 
-        $(".for-who-container").vCollapse({
-            any: true,
-            onLoad: -1,
-            speed: 300,
-            easing: "ease-in",
-        });
-        $(".faq-container").vCollapse({
-            any: true,
-            onLoad: -1,
-            speed: 300,
-            easing: "ease-in",
-        });
+            $(".for-who-container").vCollapse({
+                any: true,
+                onLoad: -1,
+                speed: 300,
+                easing: "ease-in",
+            });
+            $(".faq-container").vCollapse({
+                any: true,
+                onLoad: -1,
+                speed: 300,
+                easing: "ease-in",
+            });
 
         });
     </script>
