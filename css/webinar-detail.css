@@ -743,8 +743,12 @@ background-color: #f5df4e;
         flex-basis: 80%;
     }
 
-    .webinar-content-header h1, .webinar-section-title, .content-detail h1,.reminder-section h1, .time-remaining-section h1, .certificate-section h1,.check-answer-section h1, .mentor-description h1, .faq-section h1{
+    .webinar-content-header h1,  .content-detail h1,.reminder-section h1, .time-remaining-section h1, .certificate-section h1,.check-answer-section h1, .mentor-description h1, .faq-section h1{
         font-size: 25px;
+    }
+
+    .webinar-section-title{
+        font-size: 28px;
     }
 
     .certificate-section p, .check-answer-section .select-any{
@@ -803,8 +807,12 @@ background-color: #f5df4e;
         font-size: 13px;
     }
 
-    .reason-to-join-heading h1, .review-section h1, .reminder-section h1, .reminder-section h1, .faq-section h1, .webinar-content-header h1, .mentor-description h1{
-        font-size: 18px;
+    .reason-to-join-heading h1,  .reminder-section h1, .reminder-section h1, .webinar-content-header h1{
+        font-size: 20px;
+    }
+
+    .review-section h1,.faq-section h1{
+        font-size: 23px;
     }
 
     .reasons{
@@ -831,6 +839,9 @@ background-color: #f5df4e;
     
     .webinar-content-header p{
         font-size: 12px;
+    }
+    .content-title{
+        width: 80%;
     }
 
     .content-title h1{
@@ -859,6 +870,10 @@ background-color: #f5df4e;
 
     .worth p{
         font-size: 14px;
+    }
+
+    .mentor-description h1{
+        font-size: 24px;
     }
 
     .mentor-skill{
