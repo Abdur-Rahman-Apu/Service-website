@@ -29,8 +29,8 @@ body{
 }
 
 .contact-main-part .contact-left-side{
-    background-color: #3e1f92;
-    color: #fff;
+    background-color: #f5df4e;
+    color: #000;
     flex-basis: 35%;
     padding: 20px;
     border-radius: 15px;
@@ -55,7 +55,27 @@ form .type .choose-type{
 }
 
 form .type .choose-type > div{
-    display: flex;
+    display: inline-flex;
     justify-content: space-between;
     align-items: center;
 }
+
+form label{
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #7f8c8d;
+}
+
+form input{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #bdc3c7;
+    padding-bottom: 15px;
+    width: 90%;
+}
+
+form input:focus{
+    border-bottom: 2px solid #000;
+}
+
