@@ -338,6 +338,9 @@ font-weight: bold;
   .modal h1{
     font-size: 25px;
   }
+  .companies-show-slider h1{
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width:440px){
@@ -362,5 +365,10 @@ font-weight: bold;
 
   .country-select .country-list{
     width: 60vw !important;
+  }
+
+  .slide{
+    width: 150px;
+    height: 100px;
   }
 }
