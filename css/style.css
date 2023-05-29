@@ -61,6 +61,7 @@ header .profile-img {
   margin: 25px auto 0;
   background-color: #f5df4e;
   border-color: #f5df4e;
+  border-radius: 25px;
   color: #212529;
   border-width: 2px;
   font-weight: 500;
