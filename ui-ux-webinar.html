@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./css/flipclock.css">
     <link rel="stylesheet" href="./css/webinar-detail.css">
     <link rel="stylesheet" href="./css/ui-webinar.css">
+    <link rel="stylesheet" href="./css/count.css">
 
     <script src="https://kit.fontawesome.com/3b7a96cd6e.js" crossorigin="anonymous"></script>
 </head>
@@ -458,7 +459,7 @@
         <!-- time remaining  -->
         <section class="time-remaining-section" data-aos="fade-up" data-aos-duration="2000">
             <h1>Time is running out. Reserve your seat now!</h1>
-            <div class="clock"></div>
+            <div id="countdown"></div>
 
             <p>Register before <span class="highlight">May 29, 2023</span> to unlock bonuses worth <span
                     class="highlight">Rs 12,000</span></p>
@@ -714,51 +715,42 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./js/common.js"></script>
+    <script src="./js/countdown/count.js"></script>
     <script>
-        $(document).ready(function () {
 
-            var clock = $('.clock').FlipClock({
-                clockFace: 'DailyCounter',
-                autoStart: false,
-                callbacks: {
-                    stop: function () {
-                        $('.message').html('The clock has stopped!')
-                    }
+
+        $(".owl-carousel").owlCarousel({
+            loop: true,
+            margin: 10,
+            responsiveClass: true,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            autoplayHoverPause: true,
+            dots: false,
+            responsive: {
+                0: {
+                    items: 1,
                 }
-            });
-
-            $(".owl-carousel").owlCarousel({
-                loop: true,
-                margin: 10,
-                responsiveClass: true,
-                autoplay: true,
-                autoplayTimeout: 3000,
-                autoplayHoverPause: true,
-                dots: false,
-                responsive: {
-                    0: {
-                        items: 1,
-                    }
-                }
-            });
+            }
+        });
 
 
-            clock.setTime(220880);
-            clock.setCountdown(true);
-            clock.start();
+        clock.setTime(220880);
+        clock.setCountdown(true);
+        clock.start();
 
-            $(".for-who-container").vCollapse({
-                any: true,
-                onLoad: -1,
-                speed: 300,
-                easing: "ease-in",
-            });
-            $(".faq-container").vCollapse({
-                any: true,
-                onLoad: -1,
-                speed: 300,
-                easing: "ease-in",
-            });
+        $(".for-who-container").vCollapse({
+            any: true,
+            onLoad: -1,
+            speed: 300,
+            easing: "ease-in",
+        });
+        $(".faq-container").vCollapse({
+            any: true,
+            onLoad: -1,
+            speed: 300,
+            easing: "ease-in",
+        });
 
         });
     </script>

@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./css/owl.theme.green.min.css">
     <link rel="stylesheet" href="./css/flipclock.css">
     <link rel="stylesheet" href="./css/webinar-detail.css">
+    <link rel="stylesheet" href="./css/count.css">
 
     <script src="https://kit.fontawesome.com/3b7a96cd6e.js" crossorigin="anonymous"></script>
 </head>
@@ -515,7 +516,7 @@
         <!-- time remaining  -->
         <section class="time-remaining-section" data-aos="fade-up" data-aos-duration="2000">
             <h1>Time is running out. Reserve your seat now!</h1>
-            <div class="clock"></div>
+            <div id="countdown"></div>
 
             <p>Fee will increase to <span class="highlight">Rs 2,000</span> once the timer hits <span
                     class="highlight">zero</span></p>
@@ -853,18 +854,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./js/common.js"></script>
+    <script src="./js/countdown/count.js"></script>
     <script>
         $(document).ready(function () {
 
-            var clock = $('.clock').FlipClock({
-                clockFace: 'DailyCounter',
-                autoStart: false,
-                callbacks: {
-                    stop: function () {
-                        $('.message').html('The clock has stopped!')
-                    }
-                }
-            });
 
             $(".owl-carousel").owlCarousel({
                 loop: true,
