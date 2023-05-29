@@ -858,6 +858,15 @@
     <script>
         $(document).ready(function () {
 
+            var clock = $('.clock').FlipClock({
+                clockFace: 'DailyCounter',
+                autoStart: false,
+                callbacks: {
+                    stop: function () {
+                        $('.message').html('The clock has stopped!')
+                    }
+                }
+            });
 
             $(".owl-carousel").owlCarousel({
                 loop: true,
@@ -875,9 +884,7 @@
             });
 
 
-            clock.setTime(220880);
-            clock.setCountdown(true);
-            clock.start();
+
 
             $(".for-who-container").vCollapse({
                 any: true,
