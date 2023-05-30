@@ -55,9 +55,9 @@ header .profile-img {
   margin: 10px 0;
 }
 
-.intro button {
+.intro .about-btn {
   display: block;
-  width: 165px;
+  width: 145px;
   margin: 25px auto 0;
   background-color: #f5df4e;
   border-color: #f5df4e;
@@ -66,13 +66,13 @@ header .profile-img {
   border-width: 2px;
   font-weight: 500;
   font-size: 16px;
-  padding: 0.8rem 0;
+  padding: 14px 0;
   cursor: pointer;
+  text-decoration: none;
+  text-align: center;
 }
 
-.intro a {
-  text-decoration: none;
-}
+
 
 .intro i {
   margin-top: 15px;
