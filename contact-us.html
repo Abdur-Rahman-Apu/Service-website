@@ -8,6 +8,7 @@
     <title>Shravan Kumar - Learn to Earn</title>
     <link rel="shortcut icon" href="./images/sk.png" type="image/x-icon">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./css/jquery.toast.css">
     <link rel="stylesheet" href="./css/contact-us.css">
     <script src="https://kit.fontawesome.com/3b7a96cd6e.js" crossorigin="anonymous"></script>
 </head>
@@ -141,7 +142,7 @@
                 </div>
                 <div class="contact-right-side">
 
-                    <form method="POST">
+                    <form method="POST" id="form">
 
                         <!-- name  -->
                         <div class="name">
@@ -149,13 +150,13 @@
                             <!-- first name  -->
                             <div class="first-name">
                                 <label for="first-name">First Name</label>
-                                <input type="text" name="first-name" id="first-name">
+                                <input type="text" name="first_name" id="first-name">
                             </div>
 
                             <!-- last name  -->
                             <div class="last-name">
                                 <label for="last-name">Last Name</label>
-                                <input type="text" name="last-name" id="last-name">
+                                <input type="text" name="last_name" id="last-name">
                             </div>
                         </div>
 
@@ -183,26 +184,29 @@
                             <div class="choose-type">
                                 <!-- web design  -->
                                 <div>
-                                    <input type="radio" name="type-website" id="web"> <label for="web">Web
+                                    <input type="radio" name="type_website" id="web" value="Web Design"> <label
+                                        for="web">Web
                                         Design</label>
                                 </div>
 
                                 <!-- web development  -->
                                 <div>
-                                    <input type="radio" name="type-website" id="development"> <label
-                                        for="development">Web
+                                    <input type="radio" name="type_website" id="development" value="Web Development">
+                                    <label for="development">Web
                                         Development</label>
                                 </div>
 
                                 <!-- logo design  -->
                                 <div>
-                                    <input type="radio" name="type-website" id="logo"> <label for="logo">Logo
+                                    <input type="radio" name="type_website" id="logo" value="Logo Design"> <label
+                                        for="logo">Logo
                                         Design</label>
                                 </div>
 
                                 <!-- other  -->
                                 <div>
-                                    <input type="radio" name="type-website" id="other"> <label for="other">Other</label>
+                                    <input type="radio" name="type_website" id="other" value="Other"> <label
+                                        for="other">Other</label>
                                 </div>
                             </div>
                         </div>
@@ -213,7 +217,7 @@
                         </div>
 
                         <div>
-                            <input type="submit" value="Send Message">
+                            <input id="submit-btn" type="submit" value="Send Message">
                         </div>
                     </form>
                 </div>
@@ -242,6 +246,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="./js/jquery.toast.js"></script>
     <script src="./js/common.js"></script>
 
     <script>
@@ -277,6 +283,63 @@
 
 
         // message send functionality
+
+
+        const handleForm = () => {
+            event.preventDefault()
+            const form = document.getElementById('form');
+
+
+            const firstName = form.first_name.value;
+            const lastName = form.last_name.value;
+            const email = form.email.value;
+            const phone = form.phone.value;
+            const typeWebsite = form.type_website.value;
+            const message = form.message.value;
+
+            const params = {
+                from_name: firstName + ' ' + lastName,
+                user_email: email,
+                user_phone: phone,
+                website_type: typeWebsite,
+                message
+            }
+
+            emailjs.send('service_iorhn1j', 'template_qujo5ee', params, 'CmGbGvI0V81cUMTiJ')
+                .then(res => {
+
+                    $.toast({
+                        text: "Your email sent successfully",
+                        showHideTransition: 'slide',
+                        bgColor: '#2ecc71',
+                        textColor: '#fff',
+                        allowToastClose: false,
+                        hideAfter: 5000,
+                        stack: 5,
+                        textAlign: 'center',
+                        position: 'top-center'
+                    })
+
+                    form.reset()
+                })
+                .catch((err) => {
+                    $.toast({
+                        text: "Sorry. Something wrong!",
+                        showHideTransition: 'slide',
+                        bgColor: '#e74c3c',
+                        textColor: '#fff',
+                        allowToastClose: false,
+                        hideAfter: 5000,
+                        stack: 5,
+                        textAlign: 'center',
+                        position: 'top-center'
+                    })
+
+                    form.reset()
+                })
+        }
+
+        document.getElementById('submit-btn').addEventListener('click', handleForm)
 
 
     </script>
