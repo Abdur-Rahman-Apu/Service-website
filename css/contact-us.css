@@ -139,12 +139,15 @@ form .type .choose-type{
     justify-content: space-between;
     align-items: center;
     margin: 20px 0;
+    flex-wrap: wrap;
 }
 
 form .type .choose-type > div{
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+  
 }
 
 form label{
@@ -208,4 +211,103 @@ input[type='submit']{
     font-weight: bold;
     border-radius: 25px;
     float: right;
+}
+
+/* media query  */
+
+@media screen and (max-width:900px) {
+    .contact-main-part{
+        flex-direction: column-reverse;
+    }
+
+    .contact-main-part > div{
+        flex-basis: 100%;
+    }
+
+    .contact-left-side{
+        margin-top: 80px;
+    }
+
+    form .type .choose-type > div{
+        margin-bottom: 15px;
+    }
+
+    form .type .choose-type > div{
+       justify-content: flex-start;
+       width: 180px;
+    }
+}
+
+@media screen and (max-width:700px) {
+
+    .contact-upper-part h1{
+        font-size: 28px;
+    }
+    .contact-upper-part p, .left-side-middle, .left-side-bottom a{
+        font-size: 13px;
+    }
+
+   
+    form .type .choose-type > div{
+        margin-bottom: 15px;
+    }
+
+    form .name, form .contact-medium{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .name > div, .contact-medium > div{
+        margin-bottom: 15px;
+    }
+    form .name, form .contact-medium{
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width:440px) {
+    .contact-upper-part h1{
+        font-size: 25px;
+    }
+
+    .left-side-header h3{
+        font-size: 18px;
+    }
+
+    .left-side-header p,   .left-side-middle{
+        font-size: 10px;
+    }
+
+    .left-side-bottom a{
+        width: 30px;
+        height: 30px;
+    }
+
+    .big-circle{
+        width: 150px;
+        height: 150px;
+    }
+
+    .small-circle{
+        width: 50px;
+        height: 50px;
+        bottom: 45px;
+    }
+
+
+  
+    form input, .message textarea{
+        font-size: 12px;
+    }
+
+    .contact-upper-part p, form label, .type p, .message label, .left-side-bottom a,  input[type='submit']{
+        font-size: 12px;
+    }
+
+    input[type='submit']{
+        padding: 10px 20px;
+    }
+
+    form .type .choose-type > div{
+        margin-bottom: 15px;
+    }
 }
