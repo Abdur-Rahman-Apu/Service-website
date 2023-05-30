@@ -147,7 +147,7 @@ form .type .choose-type > div{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-  
+    margin-bottom: 15px;
 }
 
 form label{
@@ -165,7 +165,7 @@ form input{
     width: 90%;
 }
 
-form input[type='radio']{
+form input[type='checkbox']{
     width: fit-content;
     margin-right: 8px;
 }

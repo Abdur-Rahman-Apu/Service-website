@@ -182,31 +182,63 @@
                             <p>What the of website do you need?</p>
 
                             <div class="choose-type">
-                                <!-- web design  -->
+                                <!-- product design  -->
                                 <div>
-                                    <input type="radio" name="type_website" id="web" value="Web Design"> <label
-                                        for="web">Web
-                                        Design</label>
+                                    <input type="checkbox" name="type" id="product_design" value="Product Design">
+                                    <label for="web">Product Design</label>
                                 </div>
 
                                 <!-- web development  -->
                                 <div>
-                                    <input type="radio" name="type_website" id="development" value="Web Development">
-                                    <label for="development">Web
+                                    <input type="checkbox" name="type" id="web_development" value="Web Development">
+                                    <label for="web_development">Web
                                         Development</label>
                                 </div>
 
-                                <!-- logo design  -->
+                                <!-- Digital Marketing  -->
                                 <div>
-                                    <input type="radio" name="type_website" id="logo" value="Logo Design"> <label
-                                        for="logo">Logo
-                                        Design</label>
+                                    <input type="checkbox" name="type" id="digital_marketing" value="Digital Marketing">
+                                    <label for="digital_marketing">Digital
+                                        Marketing</label>
                                 </div>
 
-                                <!-- other  -->
+                                <!-- Business solution  -->
                                 <div>
-                                    <input type="radio" name="type_website" id="other" value="Other"> <label
-                                        for="other">Other</label>
+                                    <input type="checkbox" name="type" id="business_solution" value="Business Solution">
+                                    <label for="business-solution">Business
+                                        Solution</label>
+                                </div>
+
+                                <!-- creative layout  -->
+                                <div>
+                                    <input type="checkbox" name="type" id="creative_layout" value="Creative Layout">
+                                    <label for="creative_layout">Creative
+                                        Layout</label>
+                                </div>
+
+                                <!-- graphic designing  -->
+                                <div>
+                                    <input type="checkbox" name="type" id="graphic_designing" value="Graphic Designing">
+                                    <label for="graphic_designing">Graphic
+                                        Designing</label>
+                                </div>
+
+                                <!-- content writing  -->
+                                <div>
+                                    <input type="checkbox" name="type" id="content_writing" value="Content Writing">
+                                    <label for="content_writing">Content Writing</label>
+                                </div>
+
+                                <!-- UI/UX design  -->
+                                <div>
+                                    <input type="checkbox" name="type" id="ui_ux_design" value="UI/UX Design">
+                                    <label for="ui_ux_design">UI/UX Design</label>
+                                </div>
+
+                                <!-- cloud computing  -->
+                                <div>
+                                    <input type="checkbox" name="type" id="cloud_computing" value="Cloud Computing">
+                                    <label for="cloud_computing">Cloud Computing</label>
                                 </div>
                             </div>
                         </div>
@@ -295,15 +327,27 @@
             const lastName = form.last_name.value;
             const email = form.email.value;
             const phone = form.phone.value;
-            const typeWebsite = form.type_website.value;
             const message = form.message.value;
 
-            if (firstName && lastName && email && phone && typeWebsite && message) {
+
+            const typeWebsite = document.getElementsByName('type')
+
+            let typesOfWebsites = '';
+
+            typeWebsite.forEach(item => {
+                if (item.checked) {
+                    typesOfWebsites += item.value + ','
+                }
+            })
+
+
+
+            if (firstName && lastName && email && phone && typesOfWebsites && message) {
                 const params = {
                     from_name: firstName + ' ' + lastName,
                     user_email: email,
                     user_phone: phone,
-                    website_type: typeWebsite,
+                    website_type: typesOfWebsites,
                     message
                 }
 
