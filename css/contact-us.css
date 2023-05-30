@@ -203,14 +203,14 @@ form input:focus{
 }
 
 input[type='submit']{
+    display: block;
     width: fit-content;
     border: 0;
     background-color: #f5df4e;
     padding: 15px 30px;
-    margin-top: 20px;
     font-weight: bold;
     border-radius: 25px;
-    float: right;
+    margin: 40px auto 0;
 }
 
 /* media query  */

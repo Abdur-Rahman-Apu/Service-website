@@ -47,6 +47,10 @@ window.addEventListener("scroll", function () {
   } else {
     scrollDiv.style.visibility = "hidden";
   }
+
+  
+
+  
 });
 
 scrollDiv.addEventListener("click", function () {

@@ -3,6 +3,48 @@
 @import url("./navbar.css");
 @import url("./scroll-up.css");
 
+::root{
+  --body-color:#fff;
+  --primary-color: #f5df4e;
+  --secondary-bgc:#f8f9fa;
+  --font-color: #000;
+  --nav-bgc:#fff;
+  --third-bgc:#F3F5F9;
+}
+
+.dark-theme{
+  --body-color:#000;
+  --font-color: #fff;
+  --nav-bgc:#1a1b1c;
+  --secondary-bgc:#4b4b4b;
+  --third-bgc: #4b4b4b;
+}
+
+body{
+  background-color: var(--body-color);
+}
+
+.navbar .contact a{
+  color: var(--font-color);
+}
+
+.navbar ul li a, .navbar .contact i{
+  color: var(--font-color);
+}
+
+.toggle-theme{
+  position: fixed;
+  left: 10px;
+  bottom: 20px;
+  font-size: 30px;
+  color: var(--font-color);
+  cursor: pointer;
+}
+
+.toggle-theme .dark-icon{
+  display: none;
+}
+
 /* header part  */
 
 header {
@@ -127,6 +169,7 @@ header .profile-img {
   font-weight: 600;
   font-size: 42px;
   margin-bottom: 40px;
+  color: var(--font-color);
 }
 
 .about-intro {
@@ -137,6 +180,7 @@ header .profile-img {
   font-weight: 500;
   font-size: 2.2rem;
   margin-bottom: 10px;
+  color: var(--font-color);
 }
 
 .about-intro h2 span {
@@ -159,6 +203,7 @@ header .profile-img {
 .about-info{
   display: flex;
   justify-content: space-between;
+  color: var(--font-color);
 }
 
 .about-intro{
@@ -220,7 +265,7 @@ header .profile-img {
 }
 
 .about-details p a {
-  color: black;
+  color: var(--font-color);
 }
 
 .about-details p:first-child {
@@ -231,12 +276,13 @@ header .profile-img {
 .about-details p:last-child {
   font-weight: 600;
   font-size: 1.12rem;
+  color: var(--font-color);
 }
 
 /* service section  */
 
 .service-section {
-  background-color: #f8f9fa;
+  background-color: var(--secondary-bgc);
   padding: 40px 4%;
   color: #000;
 }
@@ -256,7 +302,7 @@ header .profile-img {
 }
 
 .service-header h1 {
-  color: #000;
+  color: var(--font-color);
   font-size: 38px;
   margin: 20px 0 30px;
 }
@@ -270,7 +316,7 @@ header .profile-img {
 
 .services .service {
   height: 300px;
-  border: 2px solid #000;
+  border: 2px solid var(--font-color);
   border-radius: 35px;
   padding: 30px;
   margin-top: 30px;
@@ -291,6 +337,7 @@ header .profile-img {
 }
 
 .service-name {
+  color: var(--font-color);
   margin-top: 10px;
   text-align: center;
   font-size: 22px;
@@ -302,6 +349,7 @@ header .profile-img {
 }
 
 .service-description {
+  color: var(--font-color);
   transform: translateY(140px);
   visibility: hidden;
   transition: transform 0.4s;
@@ -349,6 +397,7 @@ header .profile-img {
   text-transform: capitalize;
   font-size: 38px;
   position: relative;
+  color: var(--font-color);
 }
 
 .case-study-section .case-study-title::after {
@@ -421,11 +470,12 @@ header .profile-img {
 /* statistics section  */
 
 .statistics-section {
-  background: #f3f5f9;
+  background: #F3F5F9;
   padding: 30px 3%;
 }
 
 .statistics-section .statistics-title {
+  color: var(--font-color);
   font-size: 38px;
   margin: 30px 0;
   text-align: center;
@@ -486,6 +536,7 @@ header .profile-img {
 }
 
 .statistics-info h1 {
+  color: var(--font-color);
   font-size: 28px;
 }
 
@@ -537,7 +588,7 @@ header .profile-img {
 /* featured courses section  */
 
 .featured-courses {
-  background-color: #f8f8fc;
+  background-color: var(--secondary-bgc);
   padding: 40px 3% 120px;
 
 }
@@ -550,6 +601,7 @@ header .profile-img {
   padding: 3px 9px;
   font-size: 38px;
   margin: 18px auto 0;
+  color: var(--font-color);
 }
 
 .featured-courses > p {
@@ -592,6 +644,7 @@ header .profile-img {
   font-size: 38px;
   margin: 90px 0 100px;
   text-align: center;
+  color: var(--font-color);
 }
 
 .testimonial-section h2::after{
@@ -752,10 +805,12 @@ header .profile-img {
   font-size: 16px;
   line-height: 28px;
   margin: 30px 0 25px;
+  color: var(--font-color);
 }
 
 .testimonial-section .owl-carousel .author-info h6{
   text-align: center;
+  color: var(--font-color);
 }
 
 .testimonial-section .owl-carousel .author-info .client-name{
@@ -776,7 +831,7 @@ header .profile-img {
   justify-content: center;
   margin: 0 auto;
   padding: 120px 20%;
-  background-color: #F3F5F9;
+  background-color: var(--third-bgc);
 
 }
 
@@ -788,12 +843,14 @@ header .profile-img {
 .certificate-section h1 {
   text-align: center;
   font-size: 48px;
+  color: var(--font-color);
 }
 
 .certificate-section p {
   margin-top: 40px;
   text-align: center;
   font-size: 18px;
+  color: var(--font-color);
 }
 
 .certificates{
@@ -825,6 +882,7 @@ header .profile-img {
 text-align: center;
 font-size: 40px;
 margin-bottom: 60px;
+color: var(--font-color);
 }
 
 .display-section h1::after{
@@ -857,6 +915,7 @@ margin-bottom: 60px;
 }
 
 .blog-section > h1{
+  color: var(--font-color);
   font-size: 38px;
   text-align: center;
   position: relative;
@@ -938,12 +997,14 @@ margin-bottom: 60px;
 
 .webinar-info h1{
   font-size: 38px;
+  color: var(--font-color);
 }
 
 .webinar-info p{
   font-size: 15px;
   text-align: justify;
   margin: 20px 0;
+  color: var(--font-color);
 }
 
 .webinar-btn, .contact-btn{
@@ -982,6 +1043,7 @@ font-weight: bold;
 #contact-section .contact-msg h1{
   font-size: 38px;
   margin-bottom: 15px;
+  color: var(--font-color);
 }
 
 .contact-msg p{

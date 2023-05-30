@@ -26,6 +26,13 @@
         <p>Back to top</p>
     </div>
 
+
+    <!-- dark mode toggle  -->
+    <div class="toggle-theme">
+        <i class="fa-solid fa-sun light-icon"></i>
+        <i class="fa-solid fa-moon dark-icon"></i>
+    </div>
+
     <!-- header started  -->
 
     <header id="home">
@@ -689,7 +696,7 @@
         <!-- webinar section  -->
         <section class="webinar-section" id="webinar-section">
             <div class="webinar-img" data-aos="zoom-in" data-aos-duration="2000">
-                <img src="./images/webinar/webinar.jpg" alt="webinar image">
+                <img src="./images/webinar/webinar-removebg.png" alt="webinar image">
             </div>
             <div class="webinar-info" data-aos="fade-up" data-aos-duration="2000">
                 <h1>Want to join our webinar session?</h1>
@@ -712,7 +719,7 @@
             </div>
 
             <div class="contact-img" data-aos="zoom-in" data-aos-duration="2000">
-                <img src="./images/contact.jpg" alt="img">
+                <img src="./images/contact-removebg.png" alt="img">
             </div>
         </section>
 
@@ -742,6 +749,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="./js/carousel/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./js/nav.js"></script>
     <script src="./js/common.js"></script>
     <script src="./js/getData.js"></script>
@@ -749,9 +757,10 @@
     <script src="./js/caseStudy.js"></script>
 
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
+
+
 
         $('.testimonial-container .owl-carousel').owlCarousel({
             loop: true,
@@ -783,6 +792,8 @@
                 }
             }
         })
+
+
 
 
     </script>
