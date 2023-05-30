@@ -134,6 +134,10 @@
                             <i class="fa-brands fa-linkedin-in"></i>
                         </a>
                     </div>
+
+                    <div class="small-circle"></div>
+                    <div class="big-circle"></div>
+
                 </div>
                 <div class="contact-right-side">
 
@@ -205,11 +209,12 @@
 
                         <div class="message">
                             <label for="message">Message</label>
-                            <textarea name="message" id="message" cols="30" rows="5"
-                                placeholder="Write your message"></textarea>
+                            <textarea name="message" id="message" cols="30" placeholder="Write your message"></textarea>
                         </div>
 
-                        <input type="submit" value="Send Message">
+                        <div>
+                            <input type="submit" value="Send Message">
+                        </div>
                     </form>
                 </div>
             </div>
@@ -241,14 +246,34 @@
 
     <script>
         const inputs = document.querySelectorAll('input')
+        const textArea = document.querySelector('textarea')
 
         inputs.forEach(input => {
-            console.dir(input);
-            input.addEventListener('focus', function () {
 
-                console.log('hello');
-            })
+            if (input.previousElementSibling) {
+                input.addEventListener('focus', function () {
+                    input.previousElementSibling.style.fontWeight = 'bold';
+                    input.previousElementSibling.style.color = 'black';
+                })
+
+                input.addEventListener('blur', function () {
+                    input.previousElementSibling.style.fontWeight = 'normal';
+                    input.previousElementSibling.style.color = '#7f8c8d';
+                })
+            }
         })
+
+        textArea.addEventListener('focus', function () {
+            textArea.previousElementSibling.style.fontWeight = 'bold';
+            textArea.previousElementSibling.style.color = 'black';
+        })
+
+        textArea.addEventListener('blur', function () {
+            textArea.previousElementSibling.style.fontWeight = 'normal';
+            textArea.previousElementSibling.style.color = '#7f8c8d';
+        })
+
+
     </script>
 </body>
 
