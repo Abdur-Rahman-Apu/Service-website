@@ -150,13 +150,13 @@
                             <!-- first name  -->
                             <div class="first-name">
                                 <label for="first-name">First Name</label>
-                                <input type="text" name="first_name" id="first-name">
+                                <input type="text" name="first_name" id="first-name" required>
                             </div>
 
                             <!-- last name  -->
                             <div class="last-name">
                                 <label for="last-name">Last Name</label>
-                                <input type="text" name="last_name" id="last-name">
+                                <input type="text" name="last_name" id="last-name" required>
                             </div>
                         </div>
 
@@ -166,13 +166,13 @@
                             <!-- email  -->
                             <div class="mail">
                                 <label for="email">Mail</label>
-                                <input type="email" name="email" id="email">
+                                <input type="email" name="email" id="email" required>
                             </div>
 
                             <!-- mobile  -->
                             <div class="phone">
                                 <label for="phone">Phone</label>
-                                <input type="text" name="phone" id="phone">
+                                <input type="text" name="phone" id="phone" required>
                             </div>
                         </div>
 
@@ -213,7 +213,8 @@
 
                         <div class="message">
                             <label for="message">Message</label>
-                            <textarea name="message" id="message" cols="30" placeholder="Write your message"></textarea>
+                            <textarea name="message" id="message" cols="30" placeholder="Write your message"
+                                required></textarea>
                         </div>
 
                         <div>
@@ -297,46 +298,60 @@
             const typeWebsite = form.type_website.value;
             const message = form.message.value;
 
-            const params = {
-                from_name: firstName + ' ' + lastName,
-                user_email: email,
-                user_phone: phone,
-                website_type: typeWebsite,
-                message
+            if (firstName && lastName && email && phone && typeWebsite && message) {
+                const params = {
+                    from_name: firstName + ' ' + lastName,
+                    user_email: email,
+                    user_phone: phone,
+                    website_type: typeWebsite,
+                    message
+                }
+
+                emailjs.send('service_iorhn1j', 'template_qujo5ee', params, 'CmGbGvI0V81cUMTiJ')
+                    .then(res => {
+
+                        $.toast({
+                            text: "Your email sent successfully",
+                            showHideTransition: 'slide',
+                            bgColor: '#2ecc71',
+                            textColor: '#fff',
+                            allowToastClose: false,
+                            hideAfter: 5000,
+                            stack: 5,
+                            textAlign: 'center',
+                            position: 'top-center'
+                        })
+
+                        form.reset()
+                    })
+                    .catch((err) => {
+                        $.toast({
+                            text: "Sorry. Something wrong!",
+                            showHideTransition: 'slide',
+                            bgColor: '#e74c3c',
+                            textColor: '#fff',
+                            allowToastClose: false,
+                            hideAfter: 5000,
+                            stack: 5,
+                            textAlign: 'center',
+                            position: 'top-center'
+                        })
+
+                        form.reset()
+                    })
+            } else {
+                $.toast({
+                    text: "Please fill up empty field",
+                    showHideTransition: 'slide',
+                    bgColor: '#e74c3c',
+                    textColor: '#fff',
+                    allowToastClose: false,
+                    hideAfter: 5000,
+                    stack: 5,
+                    textAlign: 'center',
+                    position: 'top-center'
+                })
             }
-
-            emailjs.send('service_iorhn1j', 'template_qujo5ee', params, 'CmGbGvI0V81cUMTiJ')
-                .then(res => {
-
-                    $.toast({
-                        text: "Your email sent successfully",
-                        showHideTransition: 'slide',
-                        bgColor: '#2ecc71',
-                        textColor: '#fff',
-                        allowToastClose: false,
-                        hideAfter: 5000,
-                        stack: 5,
-                        textAlign: 'center',
-                        position: 'top-center'
-                    })
-
-                    form.reset()
-                })
-                .catch((err) => {
-                    $.toast({
-                        text: "Sorry. Something wrong!",
-                        showHideTransition: 'slide',
-                        bgColor: '#e74c3c',
-                        textColor: '#fff',
-                        allowToastClose: false,
-                        hideAfter: 5000,
-                        stack: 5,
-                        textAlign: 'center',
-                        position: 'top-center'
-                    })
-
-                    form.reset()
-                })
         }
 
         document.getElementById('submit-btn').addEventListener('click', handleForm)
