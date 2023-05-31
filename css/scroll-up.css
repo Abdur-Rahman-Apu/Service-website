@@ -1,7 +1,7 @@
 /* scroll-to-top   */
 .up p {
   position: fixed;
-  bottom: 2%;
+  bottom: 15%;
   right: 5%;
   background-color: #000;
   color: #fff;
@@ -24,7 +24,7 @@
 
 .scroll-to-top {
   position: fixed;
-  bottom: 0;
+  bottom: 80px;
   right: 0;
   background-color: #c6c7c8;
   width: 40px;
