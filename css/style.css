@@ -25,6 +25,7 @@
 
 body{
   background-color: var(--body-color);
+  scroll-behavior: smooth;
 }
 
 .navbar .contact a{
@@ -42,10 +43,6 @@ body{
   font-size: 30px;
   color: var(--font-color);
   cursor: pointer;
-}
-
-.toggle-theme .dark-icon{
-  display: none;
 }
 
 
@@ -338,10 +335,10 @@ header .profile-img {
 }
 
 .services .service {
-  height: 300px;
+  min-height: 350px;
   border: 2px solid #000;
   border-radius: 35px;
-  padding: 30px;
+  padding: 20px;
   margin-top: 30px;
   position: relative;
   cursor: pointer;
@@ -349,32 +346,33 @@ header .profile-img {
   overflow: hidden;
 }
 
-.service-info {
-  margin-top: 30px;
-  transition: margin-top 0.5s;
-}
-
 .service-icon {
   display: flex;
   justify-content: center;
+  height: 250px;
 }
+.service-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 
 .service-name {
   color: var(--font-color);
-  margin-top: 10px;
+  margin: 30px 0 20px;
   text-align: center;
   font-size: 22px;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
-.service-icon img {
-  width: 80px;
-}
+
 
 .service-description {
   color: var(--font-color);
-  transform: translateY(140px);
-  visibility: hidden;
+  font-size: 14px;
+  margin: 15px 0;
+  text-align: center;
   transition: transform 0.4s;
 }
 
@@ -383,35 +381,12 @@ header .profile-img {
   box-shadow: 0 3px 5px gray;
 }
 
-.service:hover .service-info {
-  margin-top: -10px;
-}
 
-.service:hover .service-icon {
-  transition: justify-content 0.8s;
-}
-
-.service:hover img {
-  width: 60px;
-  transition: width 0.3s;
-  border: 2px solid #f5df4e;
-  outline: 2px solid #706fd3;
-  outline-offset: 6px;
-  border-radius: 50%;
-  padding: 10px;
-}
-
-.service:hover .service-description {
-  transform: translateY(5px);
-  text-align: center;
-  margin-top: 10px;
-  font-size: 15px;
-  visibility: visible;
-}
 
 /* case study section  */
 .case-study-section {
-  margin: 80px 0;
+  margin: 120px 0;
+  padding: 50px 0;
 }
 
 .case-study-section .case-study-title {

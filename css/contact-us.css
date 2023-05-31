@@ -202,7 +202,7 @@ form input:focus{
     border-bottom: 2px solid #000;
 }
 
-input[type='submit']{
+#submit-btn{
     display: block;
     width: fit-content;
     border: 0;
@@ -211,6 +211,7 @@ input[type='submit']{
     font-weight: bold;
     border-radius: 25px;
     margin: 40px auto 0;
+    cursor: pointer;
 }
 
 /* media query  */

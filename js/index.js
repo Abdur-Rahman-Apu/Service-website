@@ -1,14 +1,3 @@
-//loading
-const content = document.querySelector('.content')
-        const container = document.querySelector('.container')
-
-setTimeout(() => {
-            content.style.display = 'block'
-            container.style.display = 'none'
-        }, 4500)
-
-
-
 
 // dynamic typing (typed.js)
 
@@ -27,72 +16,6 @@ document.addEventListener('mousemove', function (e) {
     cursor.style.cssText = "left: " + e.clientX + 'px; top: ' + e.clientY + 'px;'
 })
 
-// dark mode
-
-const toggleThemeContainer=document.querySelector('.toggle-theme')
-const navbar=document.querySelector('.navbar')
-const statisticsSection=document.querySelector('.statistics-section')
-const statisticsDetail=document.querySelectorAll('.statistics-detail .detail-container');
-const blogSection=document.querySelector('.blog-section')
-
-
-
-localStorage.setItem('theme','light')
-
-toggleThemeContainer.addEventListener('click',function(){
-    
-    const theme=localStorage.getItem('theme');
-
- 
-    // functionality dark in if and light functionality in else if
-    if(theme=='light'){
-
-        localStorage.setItem('theme','dark')
-        document.body.classList.add('dark-theme')
-        
-
-        toggleThemeContainer.children[0].style.display='none'
-        toggleThemeContainer.children[1].style.display='block';
-
-        navbar.style.backgroundColor="#1a1b1c";
-        blogSection.style.backgroundColor="#1a1b1c";
-        statisticsSection.style.backgroundColor="#1a1b1c";
-        cursor.style.backgroundColor='#f5df4e';
-
-        statisticsDetail.forEach(item=>{
-            item.style.backgroundColor="#1a1b1c";
-            item.style.border="1px solid #fff"
-        })
-        
-
-    }else if(theme=='dark'){
-
-        localStorage.setItem('theme','light')
-        document.body.classList.remove('dark-theme')
-
-        toggleThemeContainer.children[0].style.display='block'
-        toggleThemeContainer.children[1].style.display='none';
-
-        navbar.style.backgroundColor="#fff"
-        blogSection.style.backgroundColor='#f3f5f9';
-        statisticsSection.style.backgroundColor='#f3f5f9';
-        cursor.style.backgroundColor='#000'
-
-        statisticsDetail.forEach(item=>{
-            item.style.backgroundColor="#fff";
-            item.style.border="none"
-        })
-    }
-})
-
-// counter up
-
-// $(document).ready(function () {
-//   $(".counter").counterUp({
-//     delay: 10,
-//     time: 400,
-//   });
-// });
 
 // counter
 
@@ -104,10 +27,6 @@ let started = false;
 
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('.menu a')
-
-
-
-
 
 
         
@@ -154,13 +73,7 @@ $(document).ready(function(){
             }
         })
 
-        // console.log(window.screen.availHeight);
-        console.log("footer",document.getElementsByTagName('footer').offsetHeight);
-
-        // if(window.scrollY>8661){
-        //     console.log("Asci");
-        //     document.documentElement.scrollTop=0;
-        // }
+        
     
     };
 

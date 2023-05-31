@@ -64,6 +64,8 @@ body {
   color: #706fd3;
 }
 
+/* media query  */
+
 @media screen and (max-width: 900px) {
   .navbar {
     width: 100%;
@@ -71,6 +73,13 @@ body {
 
   .project-logo img {
     width: 300px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  
+  .project-detail p, .project-detail p span{
+    font-size: 14px;
   }
 }
 

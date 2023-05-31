@@ -79,13 +79,17 @@
 }
 
 .blog-details ol li::marker{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
 }
 
 .blog-details ol li ul  li{
     list-style-type:disc;
     font-size: 25px;
+}
+
+.blog-details ol  h1{
+    font-size: 30px;
 }
 
 .blog-details ol li ul  li::marker{

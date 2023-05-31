@@ -215,7 +215,7 @@ const courseDetails = (data, courseId) => {
         <p data-aos="zoom-in" data-aos-duration=1000>${forWho.ans}</p>
       </div>
       <div class="course-for-whom-img">
-        <img src="./images/confusion.jpg" data-aos="fade-up" />
+        <img src="./images/course-img/course-details/confusion.jpg" data-aos="fade-up" />
       </div>
         </div>
   </div>
@@ -458,12 +458,7 @@ const courseDetails = (data, courseId) => {
                     easing: "ease-in",
                 });
 
-                // $(".course-contents > div").vCollapse({
-                //     any: true,
-                //     onLoad: -1,
-                //     speed: 300,
-                //     easing: "ease-in",
-                // });
+              
 
                 $(".faqs .faq-left").vCollapse({
                     any: true,
