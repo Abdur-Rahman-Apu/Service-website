@@ -1,1 +1,1 @@
-getAllData("data/data.json", featuredProjects, "all");
+getAllData("data/caseStudyData.json", featuredProjects, "all");

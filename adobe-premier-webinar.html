@@ -6,12 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shravan Kumar - Learn to Earn</title>
-    <link rel="shortcut icon" href="./images/sk.png" type="image/x-icon">
 
+    <link rel="shortcut icon" href="./images/sk.png" type="image/x-icon">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./css/owl.carousel.min.css">
     <link rel="stylesheet" href="./css/owl.theme.green.min.css">
-    <link rel="stylesheet" href="./css/flipclock.css">
     <link rel="stylesheet" href="./css/webinar-detail.css">
     <link rel="stylesheet" href="./css/count.css">
 
@@ -90,6 +89,8 @@
         </div>
     </div>
 
+
+    <!-- header part  -->
     <header>
         <div class="header-title" data-aos="fade-up" data-aos-duration="2000">
             <h1> Master Professional Video Editing Using Premier Pro</h1>
@@ -101,9 +102,8 @@
         </div>
     </header>
 
+    <!-- main part  -->
     <main>
-
-
         <!-- reason-to-learn section  -->
         <section class="reason-to-join">
 
@@ -848,26 +848,19 @@
     </footer>
 
 
+    <!-- js files  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./js/vcollapse.js"></script>
-    <script src="./js/countdown/flipclock.js"></script>
     <script src="./js/carousel/owl.carousel.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./js/common.js"></script>
     <script src="./js/countdown/count.js"></script>
+
+
+    <!-- slider and collapse functionalities  -->
     <script>
         $(document).ready(function () {
-
-            var clock = $('.clock').FlipClock({
-                clockFace: 'DailyCounter',
-                autoStart: false,
-                callbacks: {
-                    stop: function () {
-                        $('.message').html('The clock has stopped!')
-                    }
-                }
-            });
 
             $(".owl-carousel").owlCarousel({
                 loop: true,
@@ -883,8 +876,6 @@
                     }
                 }
             });
-
-
 
 
             $(".for-who-container").vCollapse({
