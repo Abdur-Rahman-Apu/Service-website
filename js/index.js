@@ -1,3 +1,15 @@
+//loading
+const content = document.querySelector('.content')
+        const container = document.querySelector('.container')
+
+setTimeout(() => {
+            content.style.display = 'block'
+            container.style.display = 'none'
+        }, 4500)
+
+
+
+
 // dynamic typing (typed.js)
 
 const typed = new Typed(".type", {
@@ -8,8 +20,12 @@ const typed = new Typed(".type", {
 });
 
 
+// cursor moving animation 
+const cursor = document.querySelector('.cursor')
 
-
+document.addEventListener('mousemove', function (e) {
+    cursor.style.cssText = "left: " + e.clientX + 'px; top: ' + e.clientY + 'px;'
+})
 
 // dark mode
 
@@ -41,6 +57,7 @@ toggleThemeContainer.addEventListener('click',function(){
         navbar.style.backgroundColor="#1a1b1c";
         blogSection.style.backgroundColor="#1a1b1c";
         statisticsSection.style.backgroundColor="#1a1b1c";
+        cursor.style.backgroundColor='#f5df4e';
 
         statisticsDetail.forEach(item=>{
             item.style.backgroundColor="#1a1b1c";
@@ -59,6 +76,7 @@ toggleThemeContainer.addEventListener('click',function(){
         navbar.style.backgroundColor="#fff"
         blogSection.style.backgroundColor='#f3f5f9';
         statisticsSection.style.backgroundColor='#f3f5f9';
+        cursor.style.backgroundColor='#000'
 
         statisticsDetail.forEach(item=>{
             item.style.backgroundColor="#fff";
