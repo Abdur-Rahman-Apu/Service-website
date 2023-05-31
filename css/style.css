@@ -1109,6 +1109,11 @@ object-fit: cover;
 }
 
 @media screen and (max-width: 700px) {
+
+
+  .cursor{
+    display: none;
+  }
   .about-info {
     flex-direction: column;
   }
