@@ -281,7 +281,7 @@ header .profile-img {
 /* service section  */
 
 .service-section {
-  background-color: var(--secondary-bgc);
+  background-color: #F3F5F9;
   padding: 40px 4%;
   color: #000;
 }
