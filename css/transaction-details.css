@@ -27,12 +27,26 @@ body{
     background-color: #F5DF4E;
 }
 
+.main-part{
+    display: flex;
+    margin: 50px auto;
+}
+
+.main-part .aside-img{
+    flex-basis: 80%;
+}
+.aside-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px 0 0 25px;
+}
+
 form{
     width: 100%;
-    margin: 50px auto;
     background-color: #fff;
-    padding: 20px 6%;
-    border-radius: 25px;
+    padding: 20px 2%;
+    border-radius: 0 25px 25px 0;
 }
 
 
@@ -93,6 +107,9 @@ button{
     border: 0;
     outline: 0;
     background-color: #F5DF4E;
+    display: block;
+    width: fit-content;
+    margin: 30px auto 0;
     padding: 15px 60px;
     font-size: 14px;
     font-weight: bold;
@@ -102,12 +119,18 @@ button{
 
 @media screen and (max-width:700px) {
 
+
     .transaction-details h1{
         font-size:20px;
+    }
+
+    .main-part{
+        flex-direction: column;
     }
 .name, .contact-medium, .address {
     flex-direction: column;
 }
+
 
 .name > div, .contact-medium > div, .address > div{
     margin: 10px 0;

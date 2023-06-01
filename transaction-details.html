@@ -89,71 +89,74 @@
     <section class="transaction-details">
         <h1>Transaction Details</h1>
 
-
-
-        <form action="#" id="form">
-
-            <!-- name  -->
-            <div class="name">
-                <!-- first name  -->
-                <div class="first-name">
-                    <label for="first_name">First Name</label> <br>
-                    <input type="text" name="first_name" id="first-name">
-                </div>
-
-                <!-- last name  -->
-                <div class="last-name">
-                    <label for="last_name">Last Name</label> <br>
-                    <input type="text" name="last_name" id="last-name">
-                </div>
+        <div class="main-part">
+            <div class="aside-img">
+                <img src="./images/webinar/transaction.jpg" alt="image">
             </div>
+            <form action="#" id="form">
 
-            <!-- contact medium  -->
-            <div class="contact-medium">
+                <!-- name  -->
+                <div class="name">
+                    <!-- first name  -->
+                    <div class="first-name">
+                        <label for="first_name">First Name</label> <br>
+                        <input type="text" name="first_name" id="first-name" required>
+                    </div>
 
-                <!-- email  -->
-                <div class="email">
-                    <label for="email">Email</label> <br>
-                    <input type="email" name="email" id="email">
+                    <!-- last name  -->
+                    <div class="last-name">
+                        <label for="last_name">Last Name</label> <br>
+                        <input type="text" name="last_name" id="last-name" required>
+                    </div>
                 </div>
 
-                <!-- phone  -->
-                <div class="phone">
-                    <label for="phone">Phone</label> <br>
-                    <input type="text" name="phone" id="phone">
+                <!-- contact medium  -->
+                <div class="contact-medium">
+
+                    <!-- email  -->
+                    <div class="email">
+                        <label for="email">Email</label> <br>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+
+                    <!-- phone  -->
+                    <div class="phone">
+                        <label for="phone">Phone</label> <br>
+                        <input type="text" name="phone" id="phone" required>
+                    </div>
+
+                    <!-- what's app number  -->
+                    <div class="whats-app">
+                        <label for="whats-app">WhatsApp No</label> <br>
+                        <input type="text" name="whats_app" id="whats-app" required>
+                    </div>
                 </div>
 
-                <!-- what's app number  -->
-                <div class="whats-app">
-                    <label for="whats-app">WhatsApp No</label> <br>
-                    <input type="text" name="whats_app" id="whats-app">
+                <!-- address  -->
+                <div class="address">
+
+                    <!-- city -->
+                    <div class="city">
+                        <label for="city">City</label> <br>
+                        <input type="text" name="city" id="city" required>
+                    </div>
+
+                    <!-- street  -->
+                    <div class="street">
+                        <label for="street">Street</label> <br>
+                        <input type="text" name="street" id="street" required>
+                    </div>
                 </div>
-            </div>
 
-            <!-- address  -->
-            <div class="address">
-
-                <!-- city -->
-                <div class="city">
-                    <label for="city">City</label> <br>
-                    <input type="text" name="city" id="city">
+                <!-- transaction info  -->
+                <div class="transaction-info">
+                    <label for="transaction-id">Transaction Id</label> <br>
+                    <input type="text" name="transaction_id" id="transaction-id" required>
                 </div>
 
-                <!-- street  -->
-                <div class="street">
-                    <label for="street">Street</label> <br>
-                    <input type="text" name="street" id="street">
-                </div>
-            </div>
-
-            <!-- transaction info  -->
-            <div class="transaction-info">
-                <label for="transaction-id">Transaction Id</label> <br>
-                <input type="text" name="transaction_id" id="transaction-id">
-            </div>
-
-            <button id="send-btn">Send</button>
-        </form>
+                <button id="send-btn">Send</button>
+            </form>
+        </div>
 
 
     </section>
