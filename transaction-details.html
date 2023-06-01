@@ -184,53 +184,69 @@
             const street = form.street.value;
             const transactionId = form.transaction_id.value;
 
-            console.log(firstName, lastName, email, phone, whatsapp, city, street, transactionId);
+            if (firstName && lastName && email && phone && whatsapp && city && street && transactionId) {
 
-            const name = firstName + ' ' + lastName;
+                const name = firstName + ' ' + lastName;
 
-            const emailParams = {
-                from_name: name,
-                email_id: email,
-                phone: phone,
-                whatsapp,
-                phone,
-                city,
-                street,
-                transactionId
+                const emailParams = {
+                    from_name: name,
+                    email_id: email,
+                    phone: phone,
+                    whatsapp,
+                    phone,
+                    city,
+                    street,
+                    transactionId
+                }
+
+                emailjs.send('service_iorhn1j', 'template_8ok4lfu', emailParams, 'CmGbGvI0V81cUMTiJ')
+                    .then(res => {
+
+                        $.toast({
+                            text: "Your information sent successfully",
+                            showHideTransition: 'slide',
+                            bgColor: '#2ecc71',
+                            textColor: '#fff',
+                            allowToastClose: false,
+                            hideAfter: 5000,
+                            stack: 5,
+                            textAlign: 'center',
+                            position: 'top-center'
+                        })
+
+                        form.reset()
+                    })
+                    .catch((err) => {
+                        $.toast({
+                            text: "Sorry. Something wrong!",
+                            showHideTransition: 'slide',
+                            bgColor: '#e74c3c',
+                            textColor: '#fff',
+                            allowToastClose: false,
+                            hideAfter: 5000,
+                            stack: 5,
+                            textAlign: 'center',
+                            position: 'top-center'
+                        })
+
+                        form.reset()
+                    })
+
+            } else {
+                $.toast({
+                    text: "Hey! Fields are empty",
+                    showHideTransition: 'slide',
+                    bgColor: '#e74c3c',
+                    textColor: '#fff',
+                    allowToastClose: false,
+                    hideAfter: 5000,
+                    stack: 5,
+                    textAlign: 'center',
+                    position: 'top-center'
+                })
             }
 
-            emailjs.send('service_iorhn1j', 'template_8ok4lfu', emailParams, 'CmGbGvI0V81cUMTiJ')
-                .then(res => {
 
-                    $.toast({
-                        text: "Your information sent successfully",
-                        showHideTransition: 'slide',
-                        bgColor: '#2ecc71',
-                        textColor: '#fff',
-                        allowToastClose: false,
-                        hideAfter: 5000,
-                        stack: 5,
-                        textAlign: 'center',
-                        position: 'top-center'
-                    })
-
-                    form.reset()
-                })
-                .catch((err) => {
-                    $.toast({
-                        text: "Sorry. Something wrong!",
-                        showHideTransition: 'slide',
-                        bgColor: '#e74c3c',
-                        textColor: '#fff',
-                        allowToastClose: false,
-                        hideAfter: 5000,
-                        stack: 5,
-                        textAlign: 'center',
-                        position: 'top-center'
-                    })
-
-                    form.reset()
-                })
         }
 
         document.getElementById('send-btn').addEventListener('click', handleForm)
