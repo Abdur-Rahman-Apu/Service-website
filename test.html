@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .popup .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: 1;
+        display: none;
+    }
+
+    .popup .content {
+        width: 40%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0);
+        background-color: #fff;
+        border-radius: 25px;
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+        z-index: 2;
+    }
+
+    .popup .content img {
+        width: 60%;
+        object-fit: cover;
+    }
+
+    .content p {
+        font-size: 2vw;
+    }
+
+    .content .close-btn {
+        width: 10vw;
+        border: 0;
+        outline: 0;
+        font-size: 18px;
+        padding: 10px 15px;
+        border-radius: 35px;
+        cursor: pointer;
+        background-color: #f5df4e;
+    }
+
+    .popup.active .overlay {
+        display: block;
+    }
+
+    .popup.active .content {
+        transition: all 200ms ease-in-out;
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    @media screen and (max-width:700px) {
+
+        .popup .content {
+            width: 80%;
+        }
+
+        .content .close-btn {
+            font-size: 14px;
+            width: 20vw;
+        }
+    }
+
+    @media screen and (max-width:440px) {
+
+
+        .content .close-btn {
+            font-size: 12px;
+        }
+    }
+</style>
+
+<body>
+
+
+
+
+    <div class="popup" id="popup-1">
+        <div class="overlay"></div>
+        <div class="content">
+            <div>
+                <img src="./images/email-sent.jpg" alt="image">
+            </div>
+            <p>Your message has been successfully sent</p>
+            <button class="close-btn" onclick="toggleUp()">Close</button>
+        </div>
+    </div>
+
+
+
+    <button onclick="toggleUp()">click me</button>
+
+
+    <script>
+        function toggleUp() {
+            document.getElementById('popup-1').classList.toggle('active')
+        }
+    </script>
+</body>
+
+</html>

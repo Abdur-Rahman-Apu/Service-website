@@ -214,6 +214,62 @@ form input:focus{
     cursor: pointer;
 }
 
+
+/* // email sent success modal */
+.popup .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 300;
+    display: none;
+}
+
+.popup .content {
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    background-color: #fff;
+    border-radius: 25px;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 400;
+}
+
+.popup .content img {
+    width: 60%;
+    object-fit: cover;
+}
+
+.content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.content .close-btn {
+    width: 10vw;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 35px;
+    cursor: pointer;
+    background-color: #f5df4e;
+}
+
+.popup.active .overlay {
+    display: block;
+}
+
+.popup.active .content {
+    transition: all 200ms ease-in-out;
+    transform: translate(-50%, -50%) scale(1);
+}
 /* media query  */
 
 @media screen and (max-width:900px) {
@@ -237,9 +293,26 @@ form input:focus{
        justify-content: flex-start;
        width: 180px;
     }
+
+    .popup .content{
+        width: 80%;
+    }
+
+    .content .close-btn{
+        width: 30%;
+    }
 }
 
 @media screen and (max-width:700px) {
+
+    .popup .content {
+        width: 80%;
+    }
+
+    .content .close-btn {
+        font-size: 14px;
+        width: 20vw;
+    }
 
     .contact-upper-part h1{
         font-size: 28px;
@@ -266,6 +339,14 @@ form input:focus{
 }
 
 @media screen and (max-width:440px) {
+
+    .content p{
+        font-size: 12px;
+    }
+
+    .content .close-btn {
+        font-size: 12px;
+    }
     .contact-upper-part h1{
         font-size: 25px;
     }

@@ -89,6 +89,18 @@
     <!-- main part start  -->
     <main>
         <div class="contact-container">
+
+            <div class="popup" id="popup-1">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div>
+                        <img src="./images/email-sent.jpg" alt="image">
+                    </div>
+                    <p>Your message has been successfully sent</p>
+                    <button class="close-btn" onclick="toggleUp()">Close</button>
+                </div>
+            </div>
+
             <div class="contact-upper-part">
                 <h1>Contact Us</h1>
                 <p>Any question or remarks? Just write us a message!</p>
@@ -357,17 +369,7 @@
                 emailjs.send('service_iorhn1j', 'template_qujo5ee', params, 'CmGbGvI0V81cUMTiJ')
                     .then(res => {
 
-                        $.toast({
-                            text: "Your email sent successfully",
-                            showHideTransition: 'slide',
-                            bgColor: '#2ecc71',
-                            textColor: '#fff',
-                            allowToastClose: false,
-                            hideAfter: 5000,
-                            stack: 5,
-                            textAlign: 'center',
-                            position: 'top-center'
-                        })
+                        document.getElementById('popup-1').classList.toggle('active')
 
                         form.reset()
                     })
@@ -402,6 +404,10 @@
         }
 
         document.getElementById('submit-btn').addEventListener('click', handleForm)
+
+        function toggleUp() {
+            document.getElementById('popup-1').classList.toggle('active')
+        }
 
 
     </script>
