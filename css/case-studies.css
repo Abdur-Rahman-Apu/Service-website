@@ -12,6 +12,11 @@ body {
   );
 }
 
+.case-study-section{
+  margin-top: 0;
+  padding-top: 0;
+}
+
 .featured-projects {
   grid-row-gap: 20px;
 }
