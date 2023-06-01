@@ -267,6 +267,7 @@ form input:focus{
 }
 
 .popup.active .content {
+    top: 134%;
     transition: all 200ms ease-in-out;
     transform: translate(-50%, -50%) scale(1);
 }
@@ -301,12 +302,20 @@ form input:focus{
     .content .close-btn{
         width: 30%;
     }
+
+    .popup.active .content {
+        top: 60%;
+    }
 }
 
 @media screen and (max-width:700px) {
 
     .popup .content {
         width: 80%;
+    }
+
+    .popup.active .content {
+        top: 100%;
     }
 
     .content .close-btn {
@@ -346,6 +355,10 @@ form input:focus{
 
     .content .close-btn {
         font-size: 12px;
+    }
+
+    .popup.active .content {
+        top: 130%;
     }
     .contact-upper-part h1{
         font-size: 25px;
