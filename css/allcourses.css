@@ -343,18 +343,23 @@ font-weight: bold;
   border: 1px solid #f5df4e;
 }
 
+
 td, th{
   height: 60px;
 }
 
+/* th:last-child{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
 th img{
-  width: 40px;
+  width: 70px;
   object-fit: cover;
 }
 
-table tr th{
-  background-color: rgba(245, 223, 78, 1);
-}
+
 
 
 /* odd row */
@@ -373,7 +378,7 @@ table th:first-of-type{
   border-radius: 2rem 0 0 0;
 }
 
-table th:last-of-type{
+table th:last-child{
   border-radius: 0 2rem 0 0;
 }
 
@@ -535,6 +540,6 @@ table tr:last-child td:last-of-type{
   }
 
   th img{
-    width: 28px;
+    width: 40px;
   }
 }
