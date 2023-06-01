@@ -33,6 +33,25 @@ header > div{
     object-fit:contain
 }
 
+.book-btn{
+    background-image: linear-gradient(to right,
+    #ffb347 0%,
+    #ffcc33 51%,
+    #ffb347 100%);
+    width: fit-content;
+  margin: 50px 0;
+  padding: 15px 45px;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #fff;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  }
 
 /* reason to join  */
 
@@ -456,6 +475,10 @@ background-color: #f5df4e;
     margin-bottom: 50px;
 }
 
+.check-answer-section .book-btn, .for-who-section .book-btn, .faq-section .book-btn{
+    margin: 40px auto 50px;
+}
+
 .check-option-container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -807,6 +830,11 @@ background-color: #f5df4e;
     .header-title p{
         font-size: 13px;
     }
+
+    .book-btn{
+        font-size: 12px;
+        padding: 15px 35px;
+      }
 
     .reason-to-join-heading h1,  .reminder-section h1, .reminder-section h1, .webinar-content-header h1{
         font-size: 20px;
