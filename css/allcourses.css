@@ -347,6 +347,11 @@ td, th{
   height: 60px;
 }
 
+th img{
+  width: 40px;
+  object-fit: cover;
+}
+
 table tr th{
   background-color: rgba(245, 223, 78, 1);
 }
@@ -514,14 +519,22 @@ table tr:last-child td:last-of-type{
   }
 
   .best-feature-section table th{
-    font-size: 12px;
+    font-size: 11px;
   }
 
   .best-feature-section table tr{
-    font-size: 11px;
+    font-size: 10px;
   }
 
   .success, .failed{
     font-size: 14px;
+  }
+
+  td{
+    width: 40px;
+  }
+
+  th img{
+    width: 28px;
   }
 }

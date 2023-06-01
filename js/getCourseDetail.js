@@ -68,47 +68,47 @@ const courseDetails = (data, courseId) => {
                           <div class="course-select">
                               <label for="courses">Course</label> <br>
                               <select id="courses" name="course">
-                                  <option>Python Certification Course in English</option>
+                                  <option>Python Certification Course </option>
                                   <option>Big Data and Hadoop Certification Course</option>
                                   <option>C, C++ & Java Programming Course</option>
-                                  <option>ML Course in English</option>
-                                  <option>FiaUI/UX Certification Course in Englisht</option>
+                                  <option>ML Course </option>
+                                  <option>FiaUI/UX Certification Course </option>
                                   <option>Big Data Certification Course with Hadoop & Spark</option>
                                   <option>Apache Kafka Certification Course</option>
                                   <option>Apache Flink Certification Course</option>
-                                  <option>AWS Certification Course in English</option>
-                                  <option>Full Stack Web Development Certification Course in English</option>
-                                  <option>Apache Spark and Scala Certification Course in English</option>
-                                  <option>Scala Certification Course in English</option>
-                                  <option>Angular Certification Course in English</option>
-                                  <option>ADOBE-XD Certification Course in English</option>
-                                  <option>Adobe After Effects Certification Course in English</option>
-                                  <option>Artificial Intelligence Certification Course in English</option>
-                                  <option>Android Development Certification Course in English</option>
-                                  <option>CCNA Certification Course in English</option>
-                                  <option>CCSP Certification Course in English</option>
-                                  <option>ChatGPT Certification Course in English</option>
-                                  <option>Cloud Computing Certification Course in English</option>
-                                  <option>Data Science Certification Course in English</option>
-                                  <option>DevOps Certification Course in English</option>
-                                  <option>Digital Marketing Certification Course in English</option>
-                                  <option>Ethical Hacking Certification Course in English</option>
-                                  <option>Figma Certification Course in English</option>
-                                  <option>Adobe Illustrator Certification Course in English</option>
-                                  <option>Linux Certification Course in English</option>
-                                  <option>Microsoft Azure Certification Course in English</option>
-                                  <option>Adobe Premiere Pro Certification Course in English</option>
-                                  <option>Adobe Photoshop Certification Course in English</option>
-                                  <option>Microsoft Word Certification Course in English</option>
-                                  <option>Microsoft Excel Certification Course in English</option>
-                                  <option>Microsoft Powerpoint Certification Course in English</option>
-                                  <option>Sales Force Certification Course in English</option>
-                                  <option>Wordpress Certification Course in English</option>
-                                  <option>Career Clarity Certification Course in English</option>
-                                  <option>Computer Forensics Certification Course in English</option>
-                                  <option>Bug Bounty Certification Course in English</option>
-                                  <option>Dark Net Certification Course in English</option>
-                                  <option>Certified Cyber Ninja Course in English</option>
+                                  <option>AWS Certification Course </option>
+                                  <option>Full Stack Web Development Certification Course </option>
+                                  <option>Apache Spark and Scala Certification Course </option>
+                                  <option>Scala Certification Course </option>
+                                  <option>Angular Certification Course </option>
+                                  <option>ADOBE-XD Certification Course </option>
+                                  <option>Adobe After Effects Certification Course </option>
+                                  <option>Artificial Intelligence Certification Course </option>
+                                  <option>Android Development Certification Course </option>
+                                  <option>CCNA Certification Course </option>
+                                  <option>CCSP Certification Course </option>
+                                  <option>ChatGPT Certification Course </option>
+                                  <option>Cloud Computing Certification Course </option>
+                                  <option>Data Science Certification Course </option>
+                                  <option>DevOps Certification Course </option>
+                                  <option>Digital Marketing Certification Course </option>
+                                  <option>Ethical Hacking Certification Course </option>
+                                  <option>Figma Certification Course </option>
+                                  <option>Adobe Illustrator Certification Course </option>
+                                  <option>Linux Certification Course </option>
+                                  <option>Microsoft Azure Certification Course </option>
+                                  <option>Adobe Premiere Pro Certification Course </option>
+                                  <option>Adobe Photoshop Certification Course </option>
+                                  <option>Microsoft Word Certification Course </option>
+                                  <option>Microsoft Excel Certification Course </option>
+                                  <option>Microsoft Powerpoint Certification Course </option>
+                                  <option>Sales Force Certification Course </option>
+                                  <option>Wordpress Certification Course </option>
+                                  <option>Career Clarity Certification Course </option>
+                                  <option>Computer Forensics Certification Course </option>
+                                  <option>Bug Bounty Certification Course </option>
+                                  <option>Dark Net Certification Course </option>
+                                  <option>Certified Cyber Ninja Course </option>
                                   <option>Malware Analysis and Dissecting Malicious Softwares Certification Course
                                   </option>
                                   <option>Cyber Warrior Certification Course</option>
