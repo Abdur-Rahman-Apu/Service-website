@@ -8,6 +8,7 @@
     <title>Shravan Kumar - Learn to Earn</title>
 
     <link rel="shortcut icon" href="./images/sk.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./css/owl.carousel.min.css">
     <link rel="stylesheet" href="./css/owl.theme.green.min.css">
@@ -18,6 +19,23 @@
 </head>
 
 <body>
+
+
+    <!-- modal for scan bar code  -->
+    <div id="ex1" class="modal">
+        <div>
+            <h1>please pay to confirm your seat</h1>
+            <hr>
+
+            <div class="scan-img">
+                <img src="./images/webinar/pay-bar-code.JPG" alt="bar code image">
+            </div>
+
+            <p>Please scan the QR code to pay now. Pay only Rs. 1000</p>
+
+            <a href="./transaction-details.html" class="book-btn">Send Details</a>
+        </div>
+    </div>
 
     <!-- scroll-to-top  -->
     <div class="up">
@@ -728,6 +746,7 @@
                 </div>
             </div>
 
+
             <a href="#ex1" rel="modal:open" class="book-btn" data-aos="zoom-in" data-aos-duration="3000">Pay
                 now</a>
         </section>
@@ -857,6 +876,8 @@
 
     <!-- js files  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/iziModal.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
     <script src="./js/vcollapse.js"></script>
     <script src="./js/carousel/owl.carousel.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
@@ -867,7 +888,11 @@
 
     <!-- slider and collapse functionalities  -->
     <script>
+
+
         $(document).ready(function () {
+
+
 
             $(".owl-carousel").owlCarousel({
                 loop: true,

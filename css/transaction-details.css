@@ -1,0 +1,124 @@
+@import url(./common.css);
+
+
+body{
+    background-color: #F3F5F9;
+}
+
+.transaction-details{
+    margin: 30px 0 40px;
+    padding: 0 6%;
+}
+
+.transaction-details h1{
+    position: relative;
+    font-size: 38px;
+    text-align: center;
+   
+}
+
+.transaction-details h1::after{
+    content: '';
+    position: absolute;
+    left: 45%;
+    bottom: -15px;
+    width: 10%;
+    height: 5px;
+    background-color: #F5DF4E;
+}
+
+form{
+    width: 100%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px 6%;
+    border-radius: 25px;
+}
+
+
+.name{
+    display: flex;
+    justify-content: space-between;
+}
+.name > div, .address > div{
+    flex-basis: 45%;
+}
+
+.name label, .contact-medium label, .address label, .transaction-info label{
+    display: inline-block;
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.name input, .contact-medium input, .address input{
+    outline: 0;
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #95a5a6;
+    padding: 10px;
+}
+
+.contact-medium{
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.contact-medium > div{
+    flex-basis: 30%;
+}
+
+.address{
+    display: flex;
+    justify-content: space-between;
+}
+
+.transaction-info{
+    margin: 20px 0;
+}
+
+.transaction-info input{
+    outline: 0;
+    width: 50%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #95a5a6;
+    padding: 10px;
+}
+
+button{
+    border: 0;
+    outline: 0;
+    background-color: #F5DF4E;
+    padding: 15px 60px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 35px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:700px) {
+
+    .transaction-details h1{
+        font-size:20px;
+    }
+.name, .contact-medium, .address {
+    flex-direction: column;
+}
+
+.name > div, .contact-medium > div, .address > div{
+    margin: 10px 0;
+}
+
+.transaction-info{
+    margin-top: 15px;
+}
+
+.transaction-info input{
+    width: 100%;
+}
+}
+

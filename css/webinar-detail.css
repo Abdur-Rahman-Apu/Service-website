@@ -5,6 +5,42 @@
     font-weight: bold;
 }
 
+
+/* modal  */
+.modal {
+    max-width: 60%;
+  }
+  
+  .modal h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0;
+  }
+.blocker{
+    z-index: 200;
+}
+
+.modal .scan-img {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+.modal .scan-img img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.modal p{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    /* color: #2ecc71; */
+}
+
+.modal .book-btn{
+    margin: 20px auto;
+}
+
 header{
     margin: 40px 6%;
     display: flex;
@@ -747,6 +783,11 @@ background-color: #f5df4e;
 
 
 @media screen and (max-width:700px) {
+
+    .modal h1{
+        font-size: 20px;
+    }
+    
     header{
         flex-direction: column;
     }
@@ -823,6 +864,14 @@ background-color: #f5df4e;
 
 @media screen and (max-width:440px) {
 
+    .modal h1{
+        font-size: 12px;
+    }
+
+    .modal p{
+        font-size: 10px;
+    }
+
     .header-title h1{
         font-size: 26px;
     }
@@ -835,6 +884,11 @@ background-color: #f5df4e;
         font-size: 12px;
         padding: 15px 35px;
       }
+
+    .modal .book-btn{
+        font-size: 9px;
+        padding: 10px 12px;
+    }
 
     .reason-to-join-heading h1,  .reminder-section h1, .reminder-section h1, .webinar-content-header h1{
         font-size: 20px;
