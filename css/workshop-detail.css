@@ -87,16 +87,17 @@ header > div{
     width: 80%;
     display: block;
     margin: 0 auto;
-    object-fit:contain
+    object-fit:contain;
+   
 }
 
 .book-btn{
-    background-color: #f5df4e;
+    background-image: linear-gradient(to right,#f1c40f 0%,rgba(245, 223, 78, 0.5) 50%,rgba(245, 223, 78, 1) 100%);
+    background-size: 200% auto;
     color: black;
-    width: 400px;
-    height: 60px;
+    width: 500px;
     margin: 50px 0;
-    padding: 15px 0;
+    padding: 1em 0.1em 1em 0.1em;
     transition: 0.5s;
     background-size: 200% auto;
     box-shadow: 0 0 20px #eee;
@@ -105,10 +106,21 @@ header > div{
     text-decoration: none;
     text-align: center;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.8em;
+    animation: gradient 1.5s ease infinite
   }
 
-
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
 
 /* reason to join  */
 
