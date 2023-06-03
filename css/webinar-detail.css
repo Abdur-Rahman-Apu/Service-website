@@ -41,6 +41,31 @@
     margin: 20px auto;
 }
 
+
+.send-btn{
+    background-image: linear-gradient(to right,
+    #ffb347 0%,
+    #ffcc33 51%,
+    #ffb347 100%);
+
+  width: fit-content;
+  height: 60px;
+  margin: 30px auto;
+  padding: 20px 35px;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #fff;
+  box-shadow: 0 0 20px #eee;
+  display: block;
+  border-radius: 30px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  
+  }
+
+/* header part  */
+
 header{
     margin: 40px 6%;
     display: flex;
@@ -74,20 +99,24 @@ header > div{
     #ffb347 0%,
     #ffcc33 51%,
     #ffb347 100%);
-    width: fit-content;
+
+  width: 400px;
+  height: 60px;
   margin: 50px 0;
-  padding: 15px 45px;
-  text-transform: uppercase;
+  padding: 15px 0;
   transition: 0.5s;
   background-size: 200% auto;
   color: #fff;
   box-shadow: 0 0 20px #eee;
-  border-radius: 10px;
   display: block;
-  border-radius: 30px;
+  border-radius: 10px;
   text-decoration: none;
+  text-align: center;
   font-weight: bold;
+  font-size: 20px;
   }
+
+
 
 /* reason to join  */
 
@@ -885,7 +914,9 @@ background-color: #f5df4e;
     }
 
     .book-btn{
-        font-size: 12px;
+        width: 280px;
+        margin: 30px auto;
+        font-size: 16px;
         padding: 15px 35px;
       }
 

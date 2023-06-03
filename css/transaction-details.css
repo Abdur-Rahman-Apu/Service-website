@@ -5,6 +5,11 @@ body{
     background-color: #F3F5F9;
 }
 
+
+.required{
+    color: red;
+}
+
 .transaction-details{
     margin: 30px 0 40px;
     padding: 0 6%;
@@ -62,16 +67,19 @@ form{
     display: inline-block;
     font-size: 15px;
     margin-bottom: 10px;
-    font-weight: bold;
 }
 
-.name input, .contact-medium input, .address input{
+.name input, .contact-medium input, .address input, .form-select{
     outline: 0;
     width: 100%;
     height: 35px;
     border-radius: 5px;
     border: 1px solid #95a5a6;
     padding: 10px;
+}
+
+.form-select{
+    padding: 0 10px;
 }
 
 .contact-medium{
@@ -81,7 +89,7 @@ form{
 }
 
 
-.contact-medium > div{
+.contact-medium > div, .address div{
     flex-basis: 30%;
 }
 
@@ -117,6 +125,29 @@ button{
     cursor: pointer;
 }
 
+
+@media screen and (max-width:800px) {
+    .main-part{
+        flex-direction: column;
+    }
+
+    .name, .contact-medium, .address {
+        flex-direction: column;
+    }
+
+    .name > div, .contact-medium > div, .address > div{
+        margin: 10px 0;
+    }
+
+    .transaction-info{
+        margin-top: 15px;
+    }
+    
+    .transaction-info input{
+        width: 100%;
+    }
+}
+
 @media screen and (max-width:700px) {
 
 
@@ -124,24 +155,6 @@ button{
         font-size:20px;
     }
 
-    .main-part{
-        flex-direction: column;
-    }
-.name, .contact-medium, .address {
-    flex-direction: column;
-}
 
-
-.name > div, .contact-medium > div, .address > div{
-    margin: 10px 0;
-}
-
-.transaction-info{
-    margin-top: 15px;
-}
-
-.transaction-info input{
-    width: 100%;
-}
 }
 
