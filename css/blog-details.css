@@ -53,15 +53,6 @@
 }
 
 
-.blog-details hr{
-    border: 0;
-    outline: 0;
-    height: 1px;
-    background-color: #f5df4e;
-   
-    margin: 60px 0;
-}
-
 .blog-details h1{
     font-size: 40px;
     margin-bottom:20px;

@@ -852,8 +852,9 @@ header .profile-img {
 /* display section  */
 
 .display-section{
-  margin: 60px 0;
-  padding: 30px 10%;
+  margin-top: 60px;
+  padding: 80px 10%;
+  background-color: rgba(255, 234, 167, 0.1);
 }
 
 .display-section h1{

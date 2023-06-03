@@ -267,7 +267,7 @@ form input:focus{
 }
 
 .popup.active .content {
-    top: 134%;
+    top: 110%;
     transition: all 200ms ease-in-out;
     transform: translate(-50%, -50%) scale(1);
 }
