@@ -142,10 +142,10 @@
                         <input type="text" name="city" id="city" placeholder="City*">
                     </div>
 
-                    <!-- street  -->
-                    <div class="street">
-                        <label for="street">State <span class="required">*</span></label> <br>
-                        <input type="text" name="street" id="street" placeholder="State *">
+                    <!-- state  -->
+                    <div class="state">
+                        <label for="state">State <span class="required">*</span></label> <br>
+                        <input type="text" name="state" id="state" placeholder="State *">
                     </div>
                 </div>
 
@@ -182,12 +182,12 @@
             const phone = form.phone.value;
             const whatsapp = form.whats_app.value;
             const city = form.city.value;
-            const street = form.street.value;
+            const state = form.state.value;
             const transactionId = form.transaction_id.value;
 
 
 
-            if (firstName && lastName && email && phone && whatsapp && city && street && transactionId) {
+            if (firstName && lastName && email && phone && whatsapp && city && state && transactionId) {
 
                 const name = firstName + ' ' + lastName;
 
@@ -198,8 +198,7 @@
                     whatsapp,
                     phone,
                     city,
-                    street,
-                    country,
+                    state,
                     transactionId
                 }
 
