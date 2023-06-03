@@ -89,7 +89,7 @@ form{
 }
 
 
-.contact-medium > div, .address div{
+.contact-medium > div{
     flex-basis: 30%;
 }
 
