@@ -2,20 +2,6 @@
     font-weight: bold;
 }
 
-.introduction ol li, .introduction ol li::marker{
-    font-size: 15px;
-    font-weight: normal;
-}
-
-.introduction ol{
-    margin-left: 40px;
-    margin-bottom: 30px;
-}
-
-.introduction p{
-    margin-bottom: 8px;
-}
-
 .purpose{
     margin: 50px 0;
 }
@@ -36,7 +22,6 @@
 }
 
 .types-of-branding ol ol li::marker{
-    /* font-weight: normal; */
     font-size: 14px;
 }
 
