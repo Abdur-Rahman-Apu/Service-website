@@ -4,10 +4,6 @@
 .blog-header{
     width: 100%;
     min-height: fit-content;
-    background-image: url('../images/blogs/details/background.jpg');
-   background-position: bottom;
-   background-size: cover;
-   background-repeat: no-repeat;
     
 }
 
