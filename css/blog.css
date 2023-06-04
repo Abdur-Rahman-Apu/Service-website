@@ -38,7 +38,6 @@ body{
     border: 1px solid #95a5a6;
     box-shadow: 0 0 5px #95a5a6;
     transition: box-shadow 1s;
-    
 }
 
 .all-blogs .blog:hover{
@@ -61,7 +60,7 @@ body{
 }
 
 .blog-header{
-    min-height: 130px;
+    min-height: 75px;
 }
 
 .blog-header a{
@@ -70,7 +69,8 @@ body{
 }
 
 .blog-header h1{
-    font-size: 20px;
+    font-size: 24px;
+    text-transform:capitalize;
 }
 
 .blog-post-info{
