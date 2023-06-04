@@ -941,7 +941,7 @@ color: var(--font-color);
 }
 
 .blog h1{
-  font-size: 15px;
+  font-size: 20px;
   padding: 20px;
   height: 90px;
 }
@@ -950,10 +950,12 @@ color: var(--font-color);
   display: flex;
   justify-content: space-between;
   padding: 20px;
+  font-size: 15px;
 }
 
 .blog-post-info span{
   color: #7f8c8d;
+  font-size: 15px;
 }
 
 

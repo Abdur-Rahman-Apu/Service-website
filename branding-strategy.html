@@ -8,9 +8,10 @@
     <title>Shravan Kumar - Learn to Earn</title>
 
     <link rel="shortcut icon" href="./images/sk.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/jquery.toast.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./css/blog-details.css">
     <link rel="stylesheet" href="./css/branding-strategy-blog-detail.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <script src="https://kit.fontawesome.com/3b7a96cd6e.js" crossorigin="anonymous"></script>
 </head>
@@ -379,23 +380,25 @@
             <p>Your email address will not be published. Required fields are marked <sup>*</sup></p>
 
             <div class="sender-info">
-                <div class="comment-box">
-                    <label for="comment">Comment <sup>*</sup></label> <br>
-                    <textarea name="comment" id="comment" rows="15"></textarea>
-                </div>
+                <form method="POST" id="form">
+                    <div class="comment-box">
+                        <label for="comment">Comment <sup>*</sup></label> <br>
+                        <textarea name="comment" id="comment" rows="15"></textarea>
+                    </div>
 
-                <div class="sender-name">
-                    <label for="name">Name <sup>*</sup></label> <br>
-                    <input type="text" name="name" id="name">
-                </div>
+                    <div class="sender-name">
+                        <label for="name">Name <sup>*</sup></label> <br>
+                        <input type="text" name="name" id="name">
+                    </div>
 
-                <div class="sender-email">
-                    <label for="email">Email <sup>*</sup></label> <br>
-                    <input type="email" name="email" id="email">
-                </div>
+                    <div class="sender-email">
+                        <label for="email">Email <sup>*</sup></label> <br>
+                        <input type="email" name="email" id="email">
+                    </div>
             </div>
 
-            <a href="#" class="post-btn">Post comment</a>
+            <input type="submit" value="Post comment" class="post-btn" />
+            </form>
         </section>
 
 
@@ -440,11 +443,77 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="./js/common.js"></script>
+    <script src="./js/jquery.toast.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
     <!-- AOS initialization code  -->
     <script>
         AOS.init();
+
+        (function () {
+            emailjs.init("huB7HdbtLQHtlBqmr");
+        })();
+
+
+        const handleForm = () => {
+            event.preventDefault();
+
+            const form = document.getElementById('form')
+
+            const name = form.name.value;
+            const email = form.email.value;
+
+            const comment = form.comment.value;
+
+            const blogName = "Branding Strategy"
+
+            const emailParams = {
+                from_name: name,
+                email: email,
+                blogName,
+                comment
+            }
+
+            console.log(emailParams);
+
+            emailjs.send('service_dl6na2z', 'template_910t97y', emailParams, 'S5Hp1XHm06z-qds3W')
+                .then(res => {
+
+                    $.toast({
+                        text: "Your message sent successfully",
+                        showHideTransition: 'slide',
+                        bgColor: '#2ecc71',
+                        textColor: '#fff',
+                        allowToastClose: false,
+                        hideAfter: 5000,
+                        stack: 5,
+                        textAlign: 'center',
+                        position: 'top-center'
+                    })
+
+                    form.reset()
+                })
+                .catch((err) => {
+                    $.toast({
+                        text: "Sorry. Something wrong!",
+                        showHideTransition: 'slide',
+                        bgColor: '#e74c3c',
+                        textColor: '#fff',
+                        allowToastClose: false,
+                        hideAfter: 5000,
+                        stack: 5,
+                        textAlign: 'center',
+                        position: 'top-center'
+                    })
+
+                    form.reset()
+                })
+
+        }
+
+        document.querySelector('.post-btn').addEventListener('click', handleForm)
+
     </script>
 
 

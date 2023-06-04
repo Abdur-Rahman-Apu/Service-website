@@ -54,3 +54,15 @@
         margin-left: 40px;
     }
 }
+
+@media screen and (max-width:440px) {
+
+    .blog-details ol  h1{
+        font-size: 20px;
+    }
+
+    .types-of-branding ol li::marker{
+        font-size: 20px;
+    }
+    
+}
