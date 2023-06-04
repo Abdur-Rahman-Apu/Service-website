@@ -1,0 +1,17 @@
+
+.smm ol li, .sem ol li{
+    font-size: 15px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.smm ol li::marker, .sem ol li::marker{
+    font-size: 15px;
+}
+
+@media screen and (max-width:440px) {
+    .smm ol li, .sem ol li{
+        margin-left: 40px;
+    }
+}
