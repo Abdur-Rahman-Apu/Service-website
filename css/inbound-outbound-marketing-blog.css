@@ -1,0 +1,16 @@
+.inbound-marketing ol li, .outbound-marketing ol li{
+    margin-left: 80px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.inbound-marketing ol li, .inbound-marketing ol li::marker, .outbound-marketing ol li, .outbound-marketing ol li::marker{
+    font-size: 15px;
+}
+
+@media screen and (max-width:440px) {
+    .inbound-marketing ol li, .outbound-marketing ol li{
+        margin-left: 40px;
+        
+    }
+}
