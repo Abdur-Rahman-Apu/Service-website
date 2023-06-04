@@ -1,0 +1,18 @@
+
+
+.brand-positioning ol li, .brand-personality ol li{
+    margin-left: 80px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.brand-positioning ol li, .brand-positioning ol li::marker,.brand-personality ol li, .brand-personality ol li::marker{
+    font-size: 15px;
+}
+
+@media screen and (max-width:440px) {
+    .brand-positioning ol li, .brand-personality ol li{
+        margin-left: 40px;
+     
+    }
+}
