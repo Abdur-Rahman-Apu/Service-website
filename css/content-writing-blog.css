@@ -1,0 +1,18 @@
+
+
+.content-writing ol li, .copywriting ol li{
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.content-writing ol li, .content-writing ol li::marker, .copywriting ol li, .copywriting ol li::marker{
+    font-size: 15px;
+}
+
+@media screen and (max-width:440px) {
+    .content-writing ol li, .copywriting ol li{
+        margin-left: 40px;
+    }
+}
