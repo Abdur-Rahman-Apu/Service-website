@@ -149,6 +149,7 @@
 .contact .humburger .humburger-menus li a:hover,
 .contact .humburger .humburger-menus li a.active {
   color: #f5df4e;
+  font-weight: bold;
 }
 
 .contact #close-icon {
