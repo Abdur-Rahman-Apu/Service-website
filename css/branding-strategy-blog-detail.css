@@ -1,0 +1,56 @@
+.highlight{
+    font-weight: bold;
+}
+
+.introduction ol li, .introduction ol li::marker{
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.introduction ol{
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.introduction p{
+    margin-bottom: 8px;
+}
+
+.purpose{
+    margin: 50px 0;
+}
+.purpose p{
+    text-indent: 20px;
+}
+
+.types-of-branding{
+    margin: 50px 0;
+}
+
+.types-of-branding ol{
+    margin-left: 90px;
+}
+
+.types-of-branding ol li::marker{
+    font-size: 25px;
+}
+
+.types-of-branding ol ol li::marker{
+    /* font-weight: normal; */
+    font-size: 14px;
+}
+
+
+.example-of-branding-strategy ol, .branding-process-steps ol{
+    margin-left: 80px;
+}
+
+ .example-of-branding-strategy ol li::marker, .branding-process-steps ol li::marker{
+    font-size: 15px;
+}
+
+@media screen and (max-width:700px) {
+    .types-of-branding ol{
+        margin-left: 40px;
+    }
+}
