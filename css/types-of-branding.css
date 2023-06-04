@@ -1,0 +1,16 @@
+
+
+.personal-branding ol li{
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+
+.personal-branding ol li, .personal-branding ol li::marker{
+    font-size: 15px;
+}
+
+@media screen and (max-width:440px) {
+    .personal-branding ol li{
+        margin-left: 40px;
+    }
+}
