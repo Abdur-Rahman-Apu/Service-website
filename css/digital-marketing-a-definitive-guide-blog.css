@@ -1,0 +1,22 @@
+
+.process ol li, .adv-and-disadv ol li, .branches ol li{
+    margin-left: 80px;
+    margin-bottom: 15px;
+}
+
+.process ol li, .process ol li::marker, .adv-and-disadv ol li, .adv-and-disadv ol li::marker, .branches ol li, .branches ol li::marker{
+    font-size: 15px;
+    text-align: justify;
+}
+
+.adv-and-disadv h3{ 
+    margin: 20px 0;
+}
+
+
+@media screen and (max-width:440px) {
+    .process ol li, .adv-and-disadv ol li, .branches ol li{
+        margin-left: 40px;
+    }
+    
+}
