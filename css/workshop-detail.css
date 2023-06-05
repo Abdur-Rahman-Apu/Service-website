@@ -772,8 +772,12 @@ background-color: #f5df4e;
 
 @media screen and (max-width:900px) {
 
-    .header-title h1{
-        font-size: 32px;
+    header{
+        flex-direction: column;
+    }
+
+    .book-btn{
+        margin: 50px auto;
     }
 
     .header-img img{
