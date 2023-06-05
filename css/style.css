@@ -315,15 +315,12 @@ header .profile-img {
 .services .service {
   min-height: 350px;
   background-color: #fff;
-  /* border: 2px solid #000; */
   border-radius: 35px;
   box-shadow: 0 0 10px #bdc3c7;
   padding: 20px;
   margin-top: 30px;
   position: relative;
   cursor: pointer;
-  transition: all 0.3s;
-  overflow: hidden;
 }
 
 .service-icon {
