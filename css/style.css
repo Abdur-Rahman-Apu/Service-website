@@ -1,8 +1,7 @@
 @import url("./common.css");
-@import url("./loading.css");
 @import url("./navbar.css");
 @import url("./scroll-up.css");
-@import url("./name-loading.css");
+
 
 ::root{
   --body-color:#fff;
