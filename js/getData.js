@@ -82,13 +82,14 @@ const courses = (data, showData) => {
   }
 };
 
+// home page featured courses
 
-// home page featured courses 
-
-const featuredCourses=(data,showData)=>{
+const featuredCourses = (data, showData) => {
   console.log(data);
-  showData.forEach(item=>{
-    const findData=data.find(course=> course.shortName.toLowerCase() == item.toLowerCase() )
+  showData.forEach((item) => {
+    const findData = data.find(
+      (course) => course.shortName.toLowerCase() == item.toLowerCase()
+    );
     const { bannerImg, courseName, id } = findData;
 
     console.log(id);
@@ -112,5 +113,5 @@ const featuredCourses=(data,showData)=>{
             `;
 
     courseContainer.appendChild(courseDiv);
-  })
-}
+  });
+};

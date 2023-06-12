@@ -47,10 +47,6 @@ window.addEventListener("scroll", function () {
   } else {
     scrollDiv.style.visibility = "hidden";
   }
-
-  
-
-  
 });
 
 scrollDiv.addEventListener("click", function () {
@@ -64,8 +60,3 @@ scrollDiv.addEventListener("mouseover", function () {
 scrollDiv.addEventListener("mouseout", function () {
   scrollToolTip.style.display = "none";
 });
-
-
-
-
-
