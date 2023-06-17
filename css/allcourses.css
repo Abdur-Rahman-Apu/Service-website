@@ -2,112 +2,110 @@
 
 .all-course-container {
   padding: 20px 3%;
- 
 }
 
-.coaching-details{
+.coaching-details {
   width: 75%;
   margin: 0 auto;
 }
 
-
-.all-course-container .coaching-details h1{
+.all-course-container .coaching-details h1 {
   font-size: 38px;
   text-align: center;
   text-transform: uppercase;
   margin: 40px 0 30px;
 }
 
-.coaching-details > p{
+.coaching-details > p {
   text-align: center;
 }
 
-.coaching-features{
+.coaching-features {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   margin: 60px 0;
 }
 
-
-.coaching-features .feature{
+.coaching-features .feature {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   flex-wrap: wrap;
   flex-basis: 24%;
   min-height: 190px;
-  background-color: #F3F5F9;
+  background-color: #f3f5f9;
   padding: 20px;
   margin-top: 20px;
   border-radius: 30px;
 }
 
-.feature div{
+.feature div {
   width: 90px;
   margin: 0 auto;
 }
 
-.feature img{
+.feature img {
   width: 100%;
 }
 
-.feature p{
+.feature p {
   text-align: center;
   font-weight: bold;
   /* text-transform: uppercase; */
 }
 
-.coaching-details .book-btn{
-  background-image: linear-gradient(to right,
-  #ffb347 0%,
-  #ffcc33 51%,
-  #ffb347 100%);
+.coaching-details .book-btn {
+  background-image: linear-gradient(
+    to right,
+    #ffb347 0%,
+    #ffcc33 51%,
+    #ffb347 100%
+  );
   width: fit-content;
-margin: 90px auto 50px;
-padding: 15px 45px;
-text-align: center;
-text-transform: uppercase;
-transition: 0.5s;
-background-size: 200% auto;
-color: #fff;
-box-shadow: 0 0 20px #eee;
-border-radius: 10px;
-display: block;
-border-radius: 30px;
-text-decoration: none;
-font-weight: bold;
+  margin: 90px auto 50px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #fff;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-.coaching-details hr{
+.coaching-details hr {
   border: 0;
   outline: 0;
   height: 2px;
   margin: 90px 0;
-  background-color: #F3F5F9;
+  background-color: #f3f5f9;
 }
 
-.coaching-info > div{
+.coaching-info > div {
   margin-bottom: 80px;
 }
 
-.coaching-title{
+.coaching-title {
   display: flex;
   align-items: center;
   margin-bottom: 30px;
 }
 
-
-.coaching-title img{
+.coaching-title img {
   width: 56px;
   margin-right: 20px;
 }
 
-.coaching-title h2{
+.coaching-title h2 {
   text-transform: uppercase;
 }
 
-.coaching-description{
+.coaching-description {
   font-size: 18px;
 }
 
@@ -140,18 +138,17 @@ font-weight: bold;
   background-color: #1d183b;
 }
 
-
 /* modal style  */
 
- .modal {
+.modal {
   max-width: 80%;
 }
 
-.modal h1{
+.modal h1 {
   margin: 10px 0;
 }
 
-.blocker{
+.blocker {
   z-index: 200;
 }
 
@@ -159,7 +156,7 @@ font-weight: bold;
   display: flex;
 }
 
-.modal .send-info>div {
+.modal .send-info > div {
   flex-basis: 50%;
 }
 
@@ -168,7 +165,7 @@ font-weight: bold;
   object-fit: cover;
 }
 
-.modal .send-info form>div {
+.modal .send-info form > div {
   margin-bottom: 10px;
 }
 
@@ -179,8 +176,8 @@ font-weight: bold;
   margin: 6px 0;
 }
 
-.modal .send-info .name-field input[type='text'],
-.modal .send-info .email input[type='email'],
+.modal .send-info .name-field input[type="text"],
+.modal .send-info .email input[type="email"],
 .course-select #courses,
 .phone-no #phoneField {
   width: 70%;
@@ -192,7 +189,7 @@ font-weight: bold;
 }
 
 .country-select.inside input,
-.country-select.inside input[type=text],
+.country-select.inside input[type="text"],
 .phone-no #phoneField {
   width: 85%;
   height: 34px;
@@ -201,7 +198,7 @@ font-weight: bold;
   border-radius: 5px;
 }
 
-.country-select .country-list{
+.country-select .country-list {
   width: 300px !important;
 }
 
@@ -223,7 +220,7 @@ font-weight: bold;
   font-family: "Poppins", sans-serif;
 }
 
-.modal .send-info input[type='submit'] {
+.modal .send-info input[type="submit"] {
   background-color: #f5df4e;
   border: 0;
   outline: 0;
@@ -235,45 +232,42 @@ font-weight: bold;
   cursor: pointer;
 }
 
-
 /* slider companies  */
 
-.companies-show-slider{
+.companies-show-slider {
   margin: 80px 0 120px;
 }
 
-
-.companies-show-slider h1{
+.companies-show-slider h1 {
   position: relative;
   font-size: 38px;
   text-align: center;
 }
 
-.companies-show-slider h1::after{
-  content: '';
+.companies-show-slider h1::after {
+  content: "";
   position: absolute;
   width: 10%;
   height: 4px;
   background-color: #ffb347;
   bottom: -10px;
-  left:45%;
+  left: 45%;
 }
 
-.companies-show-slider .slider{
+.companies-show-slider .slider {
   position: relative;
   min-height: 250px;
   margin: 80px 0;
-  background-color: #FFFDF6;
+  background-color: #fffdf6;
   display: grid;
   place-items: center;
   overflow: hidden;
 }
 
-
-.slide-track{
+.slide-track {
   display: flex;
   width: calc(250px * 20);
-  background-color: #FFFDF6;
+  background-color: #fffdf6;
   animation-name: scroll;
   animation-duration: 40s;
   animation-timing-function: linear;
@@ -281,16 +275,16 @@ font-weight: bold;
 }
 
 @keyframes scroll {
-  0%{
+  0% {
     transform: translateX(0);
   }
 
-  100%{
+  100% {
     transform: translateX(calc(-250px * 10));
   }
 }
 
-.slide{
+.slide {
   width: 250px;
   height: 150px;
   background-color: #fff;
@@ -302,27 +296,25 @@ font-weight: bold;
   border: 1px solid gray;
 }
 
-.slide img{
+.slide img {
   width: 80%;
   margin: 0 auto;
 }
 
-
 /* best feature section  */
-
 
 .best-feature-section {
   margin: 60px 0;
 }
 
-.best-feature-section h1{
+.best-feature-section h1 {
   position: relative;
   font-size: 38px;
   text-align: center;
 }
 
-.best-feature-section h1::after{
-  content: '';
+.best-feature-section h1::after {
+  content: "";
   position: absolute;
   left: 45%;
   bottom: -15px;
@@ -331,20 +323,20 @@ font-weight: bold;
   background-color: #f5df4e;
 }
 
-.best-feature-section table{
- width: 60vw;
- text-align: center;
- margin: 90px auto;
- border-collapse: collapse;
- border: none;
+.best-feature-section table {
+  width: 60vw;
+  text-align: center;
+  margin: 90px auto;
+  border-collapse: collapse;
+  border: none;
 }
 
-.best-feature-section td{
+.best-feature-section td {
   border: 1px solid #f5df4e;
 }
 
-
-td, th{
+td,
+th {
   height: 60px;
 }
 
@@ -354,192 +346,191 @@ td, th{
   align-items: center;
 } */
 
-th img{
+th img {
   width: 70px;
   object-fit: cover;
 }
 
-
-
-
 /* odd row */
-table tr:nth-child(2n+1){
-  background-color: rgba(245, 223, 78,0.3);
+table tr:nth-child(2n + 1) {
+  background-color: rgba(245, 223, 78, 0.3);
 }
-
 
 /* even row */
-table tr:nth-child(2n+2){
-  background-color: rgba(245, 223, 78,0.1);
+table tr:nth-child(2n + 2) {
+  background-color: rgba(245, 223, 78, 0.1);
 }
 
-
-table th:first-of-type{
+table th:first-of-type {
   border-radius: 2rem 0 0 0;
 }
 
-table th:last-child{
+table th:last-child {
   border-radius: 0 2rem 0 0;
 }
 
-table tr:last-child td{
+table tr:last-child td {
   border-bottom: none;
 }
 
-table tr:last-child td:first-of-type{
+table tr:last-child td:first-of-type {
   border-radius: 0 0 0 2rem;
   border-left: none;
 }
-table tr:last-child td:last-of-type{
+table tr:last-child td:last-of-type {
   border-right: none;
   border-radius: 0 0 2rem 0;
 }
 
-
-.success{
+.success {
   color: #2ecc71;
   font-size: 20px;
 }
 
-.failed{
+.failed {
   color: #e74c3c;
   font-size: 20px;
 }
 
 /* media query  */
 
-@media screen and (max-width:900px) {
-  .coaching-features .feature{
+@media screen and (max-width: 900px) {
+  .coaching-features .feature {
     flex-basis: 45%;
   }
 
-  .modal .send-info{
+  .modal .send-info {
     flex-direction: column;
     align-items: center;
   }
 
-  .best-feature-section table{
+  .best-feature-section table {
     width: 90vw;
   }
 }
 
-@media screen and (max-width:700px){
-
-  .all-course-container > h1{
+@media screen and (max-width: 700px) {
+  .all-course-container > h1 {
     font-size: 25px;
   }
 
   .all-course-container > h1::before {
     left: 28px;
   }
-  .all-course-container .coaching-details h1{
+  .all-course-container .coaching-details h1 {
     font-size: 25px;
   }
 
-  .all-course-container .coaching-details p{
+  .all-course-container .coaching-details p {
     font-size: 14px;
     text-align: justify;
   }
 
-  .coaching-features .feature{
+  .coaching-features .feature {
     flex-basis: 100%;
   }
 
-  .coaching-features .feature p{
+  .coaching-features .feature p {
     text-align: center;
   }
 
-  .coaching-title h2{
+  .coaching-title h2 {
     font-size: 22px;
   }
 
-  .coaching-title img{
+  .coaching-title img {
     width: 46px;
   }
 
-  .modal h1{
+  .modal h1 {
     font-size: 25px;
   }
-  .companies-show-slider h1, .best-feature-section h1{
+  .companies-show-slider h1,
+  .best-feature-section h1 {
     font-size: 25px;
   }
 
-  .best-feature-section table th{
+  .best-feature-section table th {
     font-size: 15px;
   }
 
-  .best-feature-section table tr{
+  .best-feature-section table tr {
     font-size: 14px;
   }
 
-  .success, .failed{
+  .success,
+  .failed {
     font-size: 20px;
   }
 }
 
-@media screen and (max-width:440px){
-
-  
-  .all-course-container .coaching-details p{
+@media screen and (max-width: 440px) {
+  .all-course-container .coaching-details p {
     font-size: 12px;
   }
 
-  .coaching-title img{
+  .coaching-features .feature p {
+    font-size: 17px;
+    padding: 5px 0;
+  }
+
+  .coaching-title img {
     width: 36px;
   }
-  
-  .coaching-title h2{
+
+  .coaching-title h2 {
     font-size: 18px;
   }
-  .modal{
+  .modal {
     padding: 20px;
     margin: 0;
     max-width: 90%;
   }
 
-  .modal .send-info form{
+  .modal .send-info form {
     padding: 0 4%;
   }
-  .modal h1{
+  .modal h1 {
     font-size: 16px;
     padding: 0 3%;
   }
 
-  .modal .send-info form label{
+  .modal .send-info form label {
     font-size: 12px;
   }
 
-  .country-select .country-list{
+  .country-select .country-list {
     width: 60vw !important;
   }
 
-  .coaching-details .book-btn{
+  .coaching-details .book-btn {
     font-size: 12px;
     padding: 15px 35px;
   }
 
-  .slide{
+  .slide {
     width: 150px;
     height: 100px;
   }
 
-  .best-feature-section table th{
+  .best-feature-section table th {
     font-size: 11px;
   }
 
-  .best-feature-section table tr{
+  .best-feature-section table tr {
     font-size: 10px;
   }
 
-  .success, .failed{
+  .success,
+  .failed {
     font-size: 14px;
   }
 
-  td{
+  td {
     width: 40px;
   }
 
-  th img{
+  th img {
     width: 40px;
   }
 }
