@@ -572,7 +572,11 @@ body {
     justify-content: flex-start;
   }
 
-  .course-detail-header div {
+  .course-detail-header .banner-info {
+    flex-basis: 100%;
+  }
+
+  .course-detail-header .banner-img {
     flex-basis: 100%;
   }
 
