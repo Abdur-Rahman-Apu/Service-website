@@ -613,6 +613,7 @@ body {
   .achievements-details .left-side,
   .achievements-details .right-side {
     padding: 0 20px 0;
+    font-size: 14px;
   }
 
   .achievements-details .right-side {
@@ -693,10 +694,6 @@ body {
     font-size: 30px;
   }
 
-  .prerequisite h1 {
-    font-size: 16px;
-  }
-
   .prerequisite b {
     font-size: 12px;
   }
@@ -706,7 +703,7 @@ body {
   }
 
   .reason-to-learn h2 {
-    font-size: 16px;
+    font-size: 19px;
   }
 
   .reason-to-enroll img {
@@ -722,7 +719,7 @@ body {
   }
 
   .course-content-section h2 {
-    font-size: 25px;
+    font-size: 22px;
   }
 
   .course-content-section h2::before,
@@ -740,6 +737,14 @@ body {
 
   .course-feature-container div {
     margin-right: 20px;
+  }
+
+  .course-features-section h2 {
+    font-size: 22px;
+  }
+
+  .course-for-whom h1 {
+    font-size: 20px;
   }
 
   .faqs {
@@ -766,7 +771,7 @@ body {
   }
 
   .reason-to-enroll h1 {
-    font-size: 18px;
+    font-size: 19px;
     text-align: center;
   }
 
@@ -783,11 +788,7 @@ body {
   }
 
   .achievements h1 {
-    font-size: 16px;
-  }
-
-  .reason-to-learn h2 {
-    font-size: 12px;
+    font-size: 20px;
   }
 
   .reason-to-learn .reasons div {
@@ -796,10 +797,6 @@ body {
 
   .course-feature-container {
     justify-content: center;
-  }
-
-  .course-for-whom h1 {
-    font-size: 18px;
   }
 
   .course-contents > div p {
