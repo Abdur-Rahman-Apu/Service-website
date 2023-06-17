@@ -745,7 +745,7 @@ body {
 
 @media screen and (max-width: 440px) {
   .course-detail-header {
-    padding: 30px 10px 100px;
+    padding: 30px 30px 100px;
   }
 
   .course-detail-header .course-title {
