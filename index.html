@@ -333,7 +333,7 @@
                 <div class="service" data-aos="fade-up">
 
                     <div class="service-icon">
-                        <img src="./images/services/designer.jpg" alt="ux design image">
+                        <img src="./images/services/designer.jpg" alt="ux design image" loading="lazy">
                     </div>
                     <h1 class="service-name">
                         UI/UX Design
@@ -350,7 +350,7 @@
                 <div class="service" data-aos="zoom-in-left">
 
                     <div class="service-icon">
-                        <img src="./images/services/video-editing.jpg" alt="cloud computing image">
+                        <img src="./images/services/video-editing.jpg" alt="cloud computing image" loading="lazy">
                     </div>
                     <h1 class="service-name">
                         Video Editing
@@ -775,7 +775,7 @@
 
     <!-- slider code  -->
     <script>
-        AOS.init();
+        AOS.init({ disable: 'mobile' });
 
         // testimonial section slider 
         $('.testimonial-container .owl-carousel').owlCarousel({
