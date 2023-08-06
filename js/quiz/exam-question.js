@@ -88,8 +88,10 @@ const submitAnswerPaper = () => {
   submitBtn.addEventListener("click", function () {
     Swal.fire({
       icon: "question",
+      iconColor: "#000",
       title: "Do you want to submit?",
       confirmButtonText: "Yes",
+      confirmButtonColor: "#f5df4e",
       showConfirmButton: true,
       showCancelButton: true,
     }).then((isConfirm) => {
@@ -98,7 +100,7 @@ const submitAnswerPaper = () => {
       const { isConfirmed } = isConfirm;
 
       if (isConfirmed) {
-        window.location.href = "index.html";
+        window.location.href = "result.html";
       }
     });
   });
@@ -126,9 +128,20 @@ const quizShow = () => {
       const headerContainer = document.createElement("div");
       headerContainer.classList.add("header");
 
+      // companyLogo
+      const companyLogo = document.createElement("div");
+      companyLogo.classList.add("company-logo");
+
+      companyLogo.innerHTML = `
+        <img src="images/SK-Logo-yellow-black.png"/>
+      `;
+
       //   exam name
-      const examName = document.createElement("p");
-      examName.innerText = "Course Name: " + search;
+      const examName = document.createElement("h1");
+      examName.innerText = "Exam: " + search;
+
+      const durationMarkDiv = document.createElement("div");
+      durationMarkDiv.classList.add("duration-mark");
 
       //   exam duration
       const duration = document.createElement("p");
@@ -138,7 +151,9 @@ const quizShow = () => {
       const mark = document.createElement("p");
       mark.innerText = "Mark: 30";
 
-      headerContainer.append(examName, duration, mark);
+      durationMarkDiv.append(duration, mark);
+
+      headerContainer.append(companyLogo, examName, durationMarkDiv);
 
       mainSection.appendChild(headerContainer);
 
@@ -151,8 +166,9 @@ const quizShow = () => {
       const questionsDiv = document.createElement("div");
       questionsDiv.classList.add("question-div");
 
-      data.forEach((question) => {
+      data.forEach((question, index) => {
         const questionCard = document.createElement("div");
+        questionCard.setAttribute("id", `q-${index + 1}`);
 
         const questionNo = document.createElement("h2");
         questionNo.innerText = "Question No: " + question?.question_no;
@@ -193,7 +209,39 @@ const quizShow = () => {
       const timerDiv = document.createElement("div");
       timerDiv.classList.add("timer-div");
 
-      timerDiv.innerText = "Timer";
+      // navigate to specific questions
+      const navigationBtnDiv = document.createElement("div");
+      navigationBtnDiv.classList.add("navigation-anchors");
+
+      for (let i = 0; i <= 30; i += 5) {
+        const anchorTag = document.createElement("a");
+
+        let href;
+
+        if (i == 0) {
+          anchorTag.innerText = i + 1;
+          href = `#q-${i + 1}`;
+        } else {
+          anchorTag.innerText = i;
+          href = `#q-${i}`;
+        }
+
+        anchorTag.setAttribute("href", href);
+
+        navigationBtnDiv.appendChild(anchorTag);
+      }
+
+      timerDiv.appendChild(navigationBtnDiv);
+
+      // remaining time
+
+      const remainingDiv = document.createElement("div");
+      remainingDiv.classList.add("time-remaining");
+
+      remainingDiv.innerHTML = "Hello";
+      timerDiv.appendChild(remainingDiv);
+
+      console.log(data, "question");
 
       //   add question div and timer div
       questionContainer.append(questionsDiv, timerDiv);

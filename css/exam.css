@@ -6,19 +6,49 @@
   --font-roboto: "Roboto Condensed", sans-serif;
 }
 
+body {
+  background-color: #f5f6fa;
+}
+
 main {
   padding: 1rem 5%;
 }
 
 .header {
-  background-color: var(--primary-color);
+  background-color: rgba(245, 223, 78, 0.2);
   border-radius: 10px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 2rem;
 }
 
-.header p {
+.header .company-logo {
+  width: 12vw;
+  height: 12vw;
+}
+
+.header h1 {
+  font-family: var(--font-roboto);
+  font-weight: 700;
+  font-size: 3vw;
+}
+
+.company-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.header .duration-mark {
+  width: 30vw;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+
+.header .duration-mark p {
   font-family: var(--font-roboto);
   font-weight: 700;
   font-size: 1.5vw;
@@ -26,7 +56,9 @@ main {
 
 .question-container {
   display: flex;
-  margin-top: 30px;
+  justify-content: space-between;
+  margin-top: 20px;
+  position: relative;
 }
 
 .question-container .question-div {
@@ -36,8 +68,9 @@ main {
 .question-div > div {
   margin: 3rem 0;
   border-radius: 10px;
-  border: 2px solid #a4b0be;
+  border: 1.5px solid black;
   padding: 2rem;
+  background-color: #fff;
 }
 
 .question-div > div h2:first-child {
@@ -107,5 +140,48 @@ main {
 }
 
 .question-container .timer-div {
-  flex-basis: 20%;
+  flex-basis: 28%;
+
+  position: relative;
+}
+
+.timer-div .navigation-anchors {
+  background-color: rgba(245, 223, 78, 0.6);
+  color: #000;
+  padding: 1rem 2rem;
+  width: 100%;
+  position: sticky;
+  top: 1rem;
+  margin-top: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 20px;
+}
+
+.navigation-anchors a {
+  text-decoration: none;
+  color: #fff;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--black-color);
+  width: 3vw;
+  height: 3vw;
+  border-radius: 50%;
+  margin: 0.3rem;
+  font-family: var(--font-roboto);
+  font-weight: 700;
+  font-size: 1.3vw;
+}
+
+.timer-div .time-remaining {
+  margin: 1rem;
+  position: sticky;
+  top: 10rem;
+}
+
+/* sweet alert customization  */
+
+.swal2-confirm {
+  color: #000 !important;
 }
