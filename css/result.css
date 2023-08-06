@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
+
+:root {
+  --primary-color: #f5df4e;
+  --black-color: #000;
+  --font-roboto: "Roboto Condensed", sans-serif;
+}

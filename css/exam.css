@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
+
+:root {
+  --primary-color: #f5df4e;
+  --black-color: #000;
+  --font-roboto: "Roboto Condensed", sans-serif;
+}
+
+main {
+  padding: 1rem 5%;
+}
+
+.header {
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.header p {
+  font-family: var(--font-roboto);
+  font-weight: 700;
+  font-size: 1.5vw;
+}
+
+.question-container {
+  display: flex;
+  margin-top: 30px;
+}
+
+.question-container .question-div {
+  flex-basis: 70%;
+}
+
+.question-div > div {
+  margin: 3rem 0;
+  border-radius: 10px;
+  border: 2px solid #a4b0be;
+  padding: 2rem;
+}
+
+.question-div > div h2:first-child {
+  background-color: var(--primary-color);
+  width: fit-content;
+  padding: 0.5rem 2rem;
+  border-radius: 30px;
+  font-family: var(--font-roboto);
+  font-weight: 700;
+  font-size: 1.5vw;
+}
+
+.question-div > div h2:last-of-type {
+  font-family: var(--font-roboto);
+  font-weight: 700;
+  font-size: 2.2vw;
+  margin: 2rem 0;
+}
+
+.question-div .option-div {
+  margin-top: 1rem;
+}
+
+.question-div .option-div p {
+  margin: 1rem 0;
+  background-color: rgba(245, 223, 78, 0.3);
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  font-style: var(--font-roboto);
+  font-weight: 500;
+  font-size: 1.2vw;
+  cursor: pointer;
+}
+
+.question-div .option-div .option-no {
+  background-color: var(--black-color);
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 50%;
+  width: 3vw;
+  height: 3vw;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.submit-btn {
+  display: block;
+  width: fit-content;
+  background-color: var(--primary-color);
+  color: #000;
+  font-family: var(--font-roboto);
+  font-weight: 700;
+  font-size: 1.5vw;
+  padding: 1rem 3rem;
+  border-radius: 30px;
+  margin: 0 auto;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+
+.select {
+  font-weight: 700 !important;
+  background-color: var(--primary-color) !important;
+}
+
+.question-container .timer-div {
+  flex-basis: 20%;
+}
