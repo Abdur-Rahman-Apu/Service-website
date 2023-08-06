@@ -1,0 +1,77 @@
+[
+  {
+    "id": 0,
+    "courseName": "Python Certification Course ",
+    "bannerImg": "./images/course-img/course-banner/python.png"
+  },
+  {
+    "id": 1,
+    "courseName": " Big Data and Hadoop Certification Course",
+    "bannerImg": "./images/course-img/course-banner/hadoop--big-data.png"
+  },
+  {
+    "id": 2,
+    "courseName": " C, C++ & Java Programming Course",
+    "bannerImg": "./images/course-img/course-banner/c,c++,java.png"
+  },
+  {
+    "id": 3,
+    "courseName": "ML Course ",
+    "bannerImg": "./images/course-img/course-banner/machine-learning.png"
+  },
+  {
+    "id": 4,
+    "courseName": "AWS Certification Course ",
+    "bannerImg": "./images/course-img/course-banner/AWS.png"
+  },
+  {
+    "id": 5,
+    "courseName": "Full Stack Web Development Certification Course ",
+    "bannerImg": "./images/course-img/course-banner/FULL-STACK.png"
+  },
+  {
+    "id": 6,
+    "courseName": "Artificial Intelligence Certification Course ",
+    "bannerImg": "./images/course-img/course-banner/ai.png"
+  },
+  {
+    "id": 7,
+    "courseName": "CCNA Certification Course ",
+    "bannerImg": "./images/course-img/course-banner/CCNA.png"
+  },
+  {
+    "id": 8,
+    "courseName": "CCSP Certification Course ",
+    "bannerImg": "./images/course-img/course-banner/CCSP.png"
+  },
+  {
+    "id": 9,
+    "courseName": "Data Science Certification Course ",
+    "bannerImg": "./images/course-img/course-banner/Data-science.png"
+  },
+  {
+    "id": 10,
+    "courseName": "DevOps Certification Course ",
+    "bannerImg": "./images/course-img/course-banner/devops.png"
+  },
+  {
+    "id": 11,
+    "courseName": "Digital Marketing Certification Course ",
+    "bannerImg": "./images/course-img/course-banner/DIGITAL-MARKETING.jpg"
+  },
+  {
+    "id": 12,
+    "courseName": "Ethical Hacking Certification Course ",
+    "bannerImg": "./images/course-img/course-banner/Ethical-Hacking.png"
+  },
+  {
+    "id": 13,
+    "courseName": "Linux Certification Course ",
+    "bannerImg": "./images/course-img/course-banner/linux.png"
+  },
+  {
+    "id": 14,
+    "courseName": "Microsoft Azure Certification Course ",
+    "bannerImg": "./images/course-img/course-banner/Microsoft-Azure.png"
+  }
+]

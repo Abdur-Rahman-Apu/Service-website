@@ -1,0 +1,80 @@
+@import url("./common.css");
+@import url("./navbar.css");
+@import url("./scroll-up.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+:root {
+  --primary-color: #f5df4e;
+  --secondary-color: #dfe6e9;
+  --black-color: #000;
+  --white-color: #fff;
+  --font-roboto: "Roboto", sans-serif;
+}
+
+body {
+  background-color: rgba(223, 230, 233, 0.5);
+}
+
+.all-courses-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 4rem 10%;
+}
+
+.card {
+  background-color: var(--white-color);
+  border-radius: 15px;
+}
+
+.card:hover {
+  box-shadow: 0 0 10px var(--white-color);
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card a {
+  text-decoration: none;
+  color: #000;
+  background-color: var(--primary-color);
+  display: block;
+  width: fit-content;
+  margin: 20px auto;
+  padding: 0.8rem 2rem;
+  border-radius: 1.875rem;
+  font-family: var(--font-roboto);
+  font-weight: 600;
+}
+
+/* media query */
+
+/* 900-1200px */
+
+/* 600-900px  */
+
+/* 600px */
+
+/* 400px */
+
+/* 300px */
+@media screen and (max-width: 300px) {
+  .all-courses-section {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5rem 0;
+  }
+
+  .card a {
+    font-size: 5vw;
+  }
+}
