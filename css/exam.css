@@ -209,6 +209,10 @@ main {
   .timer-div .time-remaining {
     top: 15rem;
   }
+
+  .submit-btn {
+    font-size: 2vw;
+  }
 }
 @media screen and (max-width: 900px) {
   .header .company-logo {
@@ -253,6 +257,10 @@ main {
 
   .time-remaining p {
     font-size: 2.2vw;
+  }
+
+  .submit-btn {
+    font-size: 3vw;
   }
 }
 @media screen and (max-width: 600px) {
@@ -316,6 +324,10 @@ main {
   .time-remaining p {
     font-size: 4vw;
   }
+
+  .submit-btn {
+    font-size: 4vw;
+  }
 }
 
 @media screen and (max-width: 300px) {
@@ -355,6 +367,7 @@ main {
 
   .question-div > div h2:first-child {
     font-size: 5vw;
+    padding: 1rem;
   }
 
   .question-div > div h2:last-of-type {
@@ -383,5 +396,10 @@ main {
 
   .time-remaining p {
     font-size: 5vw;
+  }
+
+  .submit-btn {
+    font-size: 5vw;
+    margin-bottom: 1rem;
   }
 }
