@@ -76,7 +76,17 @@
   },
   {
     "id": 15,
-    "courseName": "HTML, CSS and JS",
-    "bannerImg": "./images/course-img/course-banner/html-css-js.jpg"
+    "courseName": "HTML",
+    "bannerImg": "./images/course-img/course-banner/html.png"
+  },
+  {
+    "id": 16,
+    "courseName": "CSS",
+    "bannerImg": "./images/course-img/course-banner/css.jpg"
+  },
+  {
+    "id": 17,
+    "courseName": "JavaScript",
+    "bannerImg": "./images/course-img/course-banner/js.jpg"
   }
 ]
