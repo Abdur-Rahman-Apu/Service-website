@@ -260,6 +260,7 @@ const quizShow = () => {
               confirmButtonText: "Ok",
               confirmButtonColor: "#f5df4e",
               showConfirmButton: true,
+              allowOutsideClick: false,
             }).then((isConfirm) => {
               console.log(isConfirm);
 

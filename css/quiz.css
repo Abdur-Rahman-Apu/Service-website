@@ -44,6 +44,15 @@ body {
   border-top-right-radius: 15px;
 }
 
+.card h1 {
+  font-family: var(--font-roboto);
+  font-weight: 700;
+  font-size: 1.6vw;
+  text-align: center;
+  margin-top: 1rem;
+  padding: 0.5rem;
+}
+
 .card a {
   text-decoration: none;
   color: #000;
@@ -54,9 +63,39 @@ body {
   padding: 0.8rem 2rem;
   border-radius: 1.875rem;
   font-family: var(--font-roboto);
-  font-weight: 600;
+  font-weight: 700;
 }
 
+.exam-rule {
+  text-align: start;
+}
+
+.exam-rule h3 {
+  font-family: var(--font-roboto);
+  font-weight: 700;
+  font-size: 1.5vw;
+  margin-bottom: 0.3rem;
+  text-align: center;
+}
+.exam-rule hr {
+  width: 8vw;
+  border: 0;
+  outline: 0;
+  height: 0.5vh;
+  background-color: var(--primary-color);
+  margin: 0 auto 1rem;
+}
+
+.exam-rule p {
+  font-family: var(--font-roboto);
+  font-weight: 400;
+  font-size: 1.3vw;
+  margin-bottom: 0.5rem;
+}
+
+.swal2-confirm {
+  color: #000 !important;
+}
 /* media query */
 
 /* 900-1200px */

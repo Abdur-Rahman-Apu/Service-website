@@ -23,22 +23,55 @@ const getQuizCourse = () => {
 
           imageDiv.appendChild(image);
 
+          // course name
+          const courseName = document.createElement("h1");
+          courseName.classList.add("course-name");
+          courseName.innerText = course.courseName;
+
           // button
           const anchorTag = document.createElement("a");
-          anchorTag.setAttribute(
-            "href",
-            `./exam-page.html?${course?.courseName}`
-          );
+          anchorTag.setAttribute("id", `attempt-quiz`);
           anchorTag.innerText = "Attempt Quiz";
 
-          cardDiv.append(imageDiv, anchorTag);
+          cardDiv.append(imageDiv, courseName, anchorTag);
 
           container.appendChild(cardDiv);
 
           console.log(container);
         });
+
+        attemptQuiz();
       }
     });
+};
+
+const attemptQuiz = () => {
+  const attemptBtn = document.querySelectorAll("#attempt-quiz");
+  for (let i = 0; i < attemptBtn.length; i++) {
+    attemptBtn[i].addEventListener("click", function () {
+      const courseName = attemptBtn[i].previousElementSibling.innerText;
+
+      // confirm box to start quiz
+      Swal.fire({
+        icon: "question",
+        iconColor: "#000",
+        html: "<div class='exam-rule'> <h3>Exam rules</h3> <hr> <p>1. Exam time 20 minutes</p> <p>2. 30 questions</p> <p>3. Each question contains 1 mark </p> <p>4. If you achieve 80% mark or more, then you will be passed</p></div>",
+        title: "Do you want to start exam?",
+        confirmButtonText: "Yes",
+        confirmButtonColor: "#f5df4e",
+        showConfirmButton: true,
+        showCancelButton: true,
+      }).then((isConfirm) => {
+        console.log(isConfirm);
+
+        const { isConfirmed } = isConfirm;
+
+        if (isConfirmed) {
+          window.location.href = `exam-page.html?${courseName}`;
+        }
+      });
+    });
+  }
 };
 
 getQuizCourse();
