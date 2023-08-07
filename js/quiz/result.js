@@ -96,9 +96,13 @@ const calculateMark = () => {
       <div class="evaluate-section-header">
         <h1>Evaluation:</h1>
         <div class="color-palate">
-          <p class="correct-color"></p>
-          <p class="wrong-color"></p>
-          <p class="user-color"></p>
+            <p>
+              <span class="correct-color"></span><span>Correct Answer</span>
+            </p>
+            <p>
+              <span class="wrong-color"></span>
+              <span>Wrong Answer</span>
+            </p>
         </div>
       </div>
 
@@ -161,7 +165,7 @@ const calculateMark = () => {
 
         cardDiv.appendChild(optionDiv);
         cardContainer.appendChild(cardDiv);
-        mainContainer.appendChild(cardContainer);
+        evaluateSection.appendChild(cardContainer);
       });
     });
 };
