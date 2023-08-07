@@ -46,7 +46,7 @@
 
 .result {
   display: flex;
-  height: calc(100vh - 20vh - 78px - 10px);
+  /* height: calc(100vh - 20vh - 78px - 10px); */
 }
 
 .result > div {
@@ -133,6 +133,7 @@
   border: 1px solid #000;
   padding: 2rem;
   border-radius: 15px;
+  margin-bottom: 5rem;
 }
 
 .card h2 {
@@ -193,15 +194,15 @@
 
 @media screen and (max-width: 1200px) {
   .back-btn {
-    font-size: 2.6vw;
+    font-size: 1.6vw;
   }
   .logo {
-    width: 25vw;
-    height: 20vh;
+    width: 20vw;
+    height: 15vh;
   }
 
   .header h1 {
-    font-size: 5vw;
+    font-size: 3.5vw;
     margin-bottom: 2rem;
   }
 
@@ -210,13 +211,57 @@
   }
 
   .mark p {
-    font-size: 3.5vw;
+    font-size: 2vw;
+    text-align: center;
   }
 
   .achievement-logo {
     margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .achievement-logo img {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .evaluate-section-header h1 {
+    font-size: 4vw;
+  }
+
+  .color-palate .correct-color {
+    width: 3.5vw;
+    height: 3.5vw;
+  }
+  .color-palate .wrong-color {
+    width: 3.5vw;
+    height: 3.5vw;
+  }
+
+  .color-palate p span {
+    font-size: 2vw;
+  }
+
+  .card h2 {
+    font-size: 2.2vw;
+  }
+
+  .card h1 {
+    font-size: 3.5vw;
+  }
+
+  .options p {
+    font-size: 2vw;
+  }
+
+  .options .option-no {
+    width: 4vw;
+    height: 4vw;
   }
 }
+
 @media screen and (max-width: 900px) {
   .header h1 {
     font-size: 6vw;
@@ -224,7 +269,8 @@
 }
 @media screen and (max-width: 600px) {
   .back-btn {
-    font-size: 3.6vw;
+    font-size: 3vw;
+    padding: 0.5rem 1rem;
   }
   .logo {
     width: 30vw;
@@ -245,6 +291,43 @@
   .achievement-logo {
     margin-top: 1rem;
   }
+  .achievement-logo img {
+    width: 100%;
+  }
+
+  .evaluate-section-header h1 {
+    font-size: 6vw;
+  }
+
+  .color-palate .correct-color {
+    width: 4.5vw;
+    height: 4.5vw;
+  }
+  .color-palate .wrong-color {
+    width: 4.5vw;
+    height: 4.5vw;
+  }
+
+  .color-palate p span {
+    font-size: 3.5vw;
+  }
+
+  .card h2 {
+    font-size: 4vw;
+  }
+
+  .card h1 {
+    font-size: 6.5vw;
+  }
+
+  .options p {
+    font-size: 4vw;
+  }
+
+  .options .option-no {
+    width: 8vw;
+    height: 8vw;
+  }
 }
 
 @media screen and (max-width: 300px) {
@@ -255,5 +338,22 @@
 
   .header h1 {
     font-size: 8vw;
+  }
+
+  .evaluate-section-header h1 {
+    font-size: 8vw;
+  }
+
+  .color-palate .correct-color {
+    width: 6.5vw;
+    height: 6.5vw;
+  }
+  .color-palate .wrong-color {
+    width: 6.5vw;
+    height: 6.5vw;
+  }
+
+  .color-palate p span {
+    font-size: 4.5vw;
   }
 }
