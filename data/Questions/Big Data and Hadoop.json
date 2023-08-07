@@ -105,222 +105,503 @@
   },
   {
     "question_no": 11,
-    "question": "",
+    "question": "Which of the following are incorrect Big Data Technologies?",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      { "A": "Apache Hadoop" },
+      { "B": "Apache Spark" },
+      { "C": "Apache Spark" },
+      { "D": "Apache Pytarch" }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
     "question_no": 12,
-    "question": "",
+    "question": "Apache Kafka is an open-source platform that was created by?",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      { "A": "LinkedIn" },
+      { "B": "Facebook" },
+      { "C": "Google" },
+      { "D": "IBM" }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
     "question_no": 13,
-    "question": "",
+    "question": "What was Hadoop named after?",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      { "A": "Creator Doug Cutting’s favorite circus act" },
+      { "B": "Cuttings high school rock band" },
+      { "C": "The toy elephant of Cutting’s son" },
+      { "D": "A sound Cutting’s laptop made during Hadoop development" }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
     "question_no": 14,
-    "question": "",
+    "question": "What are the main components of Big Data?",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      { "A": "MapReduce" },
+      { "B": "HDFS" },
+      { "C": "YARN" },
+      { "D": "All of the above" }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
     "question_no": 15,
-    "question": "",
+    "question": "All of the following accurately describe Hadoop, EXCEPT ____________",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
+      { "A": "Open-source" },
+      { "B": "Real-time" },
+      { "C": "Java-based" },
       { "D": "Niene Stom" }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
     "question_no": 16,
-    "question": "",
+    "question": " __________ has the world’s largest Hadoop cluster.",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      { "A": "Apple" },
+      { "B": "Datamatics" },
+      { "C": "Facebook" },
+      { "D": "None of the above" }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
     "question_no": 17,
-    "question": "",
+    "question": "Facebook Tackles Big Data With _______ based on Hadoop.",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      { "A": "Project Prism" },
+      { "B": "Prism" },
+      { "C": "Project Big" },
+      { "D": "Project Data" }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
     "question_no": 18,
-    "question": "",
+    "question": "___________ is general-purpose computing model and runtime system for distributed data analytics.",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      { "A": "Mapreduce" },
+      { "B": "Drill" },
+      { "C": "Oozie" },
+      { "D": "None of the above" }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
     "question_no": 19,
-    "question": "",
+    "question": "Big data analysis does the following except?",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      { "A": "Collects data" },
+      { "B": "Spreads data" },
+      { "C": "Organizes data" },
+      { "D": "Analyzes data" }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
     "question_no": 20,
-    "question": "",
+    "question": "What makes Big Data analysis difficult to optimize?",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      { "A": "Big Data is not difficult to optimize" },
+      {
+        "B": "Both data and cost effective ways to mine data to make business sense out of it"
+      },
+      { "C": "The technology to mine data" },
+      { "D": "None of the above" }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
     "question_no": 21,
-    "question": "",
+    "question": "The unit of data that flows through a Flume agent is",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      { "A": "Log" },
+      { "B": "Row" },
+      { "C": "Record" },
+      { "D": "Event" }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
     "question_no": 22,
-    "question": "",
+    "question": "Who was written Hadoop?",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      { "A": "Java (software platform)" },
+      { "B": "Perl" },
+      { "C": "Lua (programming language)" },
+      { "D": "Java (programming language)" }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
     "question_no": 23,
-    "question": "",
+    "question": "Hadoop run Which of the following platforms?",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      { "A": "Cross-platform" },
+      { "B": "Debian" },
+      { "C": "Bare-metal" },
+      { "D": "Unix-like" }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
     "question_no": 24,
-    "question": "",
+    "question": "After the Hadoop named?",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      { "A": "Cutting’s high school rock band" },
+      { "B": "The toy elephant of Cutting’s son" },
+      { "C": "Creator Doug Cutting’s favorite circus act" },
+      { "D": "All of these" }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
     "question_no": 25,
-    "question": "",
+    "question": "The world’s largest Hadoop cluster.",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      { "A": "Apple" },
+      { "B": "Facebook" },
+      { "C": "Datamatics" },
+      { "D": "None of the mentioned" }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
     "question_no": 26,
-    "question": "",
+    "question": "The total size driven by the number of maps is usually of :",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      { "A": "Inputs" },
+      { "B": "asks" },
+      { "C": "Outputs" },
+      { "D": "None of the mentioned" }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
     "question_no": 27,
-    "question": "",
+    "question": "The mappers Input to the _______ are sorted by",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      { "A": "Shuffle" },
+      { "B": "Reducer" },
+      { "C": "Mapper" },
+      { "D": "All of the mentioned" }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
     "question_no": 28,
-    "question": "",
+    "question": "The right number of reduces to be :",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      { "A": "0.90" },
+      { "B": "0.95" },
+      { "C": "0.36" },
+      { "D": "0.80" }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
     "question_no": 29,
-    "question": "",
+    "question": "The partitioning of the keys is controlled by the intermediate map-outputs.",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      { "A": "Collector" },
+      { "B": "InputFormat" },
+      { "C": "Partitioner" },
+      { "D": "All of these" }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
     "question_no": 30,
-    "question": "",
+    "question": "Which SequenceFile are present in Hadoop I/O ?",
+    "options": [{ "A": "2" }, { "B": "8" }, { "C": "9" }, { "D": "3" }],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 31,
+    "question": " _________ of the field is used to Thrift resolves possible conflicts.",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      { "A": "Name" },
+      { "B": "UID" },
+      { "C": "Static number" },
+      { "D": "All of the mentioned" }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 32,
+    "question": "Which SequenceFile are present in Hadoop I/O ?",
+    "options": [
+      { "A": "RMC" },
+      { "B": "RPC" },
+      { "C": "RDC" },
+      { "D": "All of the mentioned" }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 33,
+    "question": "In _________ stage the framework groups Reducer inputs by key.",
+    "options": [
+      { "A": "reduce" },
+      { "B": "shuffle" },
+      { "C": "sort" },
+      { "D": "none of the mentioned" }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 34,
+    "question": "High storage density Which of the following has high storage density?",
+    "options": [
+      { "A": "RAM_DISK" },
+      { "B": "ARCHIVE" },
+      { "C": "ROM_DISK" },
+      { "D": "All of the mentioned" }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 35,
+    "question": "In Big Data environment, Velocity of data refers -",
+    "options": [
+      {
+        "A": "Velocity of data translates into the amount of time it takes for the data to be processed"
+      },
+      { "B": "Data can arrive at fast speed" },
+      {
+        "C": "Enormous datasets can accumulate within very short periods of time"
+      },
+      { "D": "All of the mentioned above" }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 36,
+    "question": "In Big Data environment, Veracity of data refers -",
+    "options": [
+      { "A": "Quality or fidelity of data" },
+      { "B": "Large size of the data that cannot be process" },
+      { "C": "Small size of the data that can easily process" },
+      { "D": "All of the mentioned above" }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 37,
+    "question": "Data that does not conform to a data model or data schema is known as ______.",
+    "options": [
+      { "A": "Structured data" },
+      { "B": "Unstructured data" },
+      { "C": "Semi-structured data" },
+      { "D": "All of the mentioned above" }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 38,
+    "question": "Amongst which of the following shows an example of unstructured data,",
+    "options": [
+      { "A": "Students roll number, age" },
+      { "B": "Videos" },
+      { "C": "Audio files" },
+      { "D": "Both B and C" }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 39,
+    "question": "Amongst which of the following is/are the cloud deployment models,",
+    "options": [
+      { "A": "Public Cloud" },
+      { "B": "Private Cloud" },
+      { "C": "Hybrid Cloud" },
+      { "D": "All of the mentioned above" }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 40,
+    "question": " What is a Virtual Machine (VM)?",
+    "options": [
+      { "A": "Virtual representation of a physical computer" },
+      { "B": "Virtual representation of a logical computer" },
+      { "C": "Virtual System Integration" },
+      { "D": "All of the mentioned above" }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 41,
+    "question": " Data interpretation refers -",
+    "options": [
+      { "A": "Process of attaching meaning to the data" },
+      { "B": "Convert text into insightful information" },
+      { "C": "Effective conclusion" },
+      { "D": "All of the mentioned above" }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 42,
+    "question": "Amongst which of the following is / are correct,?",
+    "options": [
+      { "A": "Hive is a relational database that supports SQL queries." },
+      { "B": "Hive is a relational database that supports SQL queries." },
+      { "C": "Both A and B" },
+      { "D": "None of the mentioned above" }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 43,
+    "question": "____ general-purpose model and runtime framework for distributed data analytics.",
+    "options": [
+      { "A": "Mapreduce" },
+      { "B": "Spark" },
+      { "C": "Hive" },
+      { "D": "All of the mentioned above" }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 44,
+    "question": "Scalability is prioritized over latency in jobs such as _____.",
+    "options": [
+      { "A": "HBase" },
+      { "B": "HDFS" },
+      { "C": "Hive" },
+      { "D": "Mapreduce" }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 45,
+    "question": "A _____ serves as the master, and each cluster has just one NameNode.",
+    "options": [
+      { "A": "Data Node" },
+      { "B": "Block Size" },
+      { "C": "Block Size" },
+      { "D": "NameNode" }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 46,
+    "question": "HDFS operates in a ____ manner.",
+    "options": [
+      { "A": "Master-slave architecture" },
+      { "B": "Master-worker architecture" },
+      { "C": "Worker-slave architecture" },
+      { "D": "All of the mentioned above" }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 47,
+    "question": "In order to interact with HDFS, a command line interface named _____ is provided.",
+    "options": [
+      { "A": "HDFS Shell" },
+      { "B": "DFS Shell" },
+      { "C": "K Shell" },
+      { "D": "FS Shell" }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 48,
+    "question": "_____ are two techniques used in descriptive analytics to discover historical data.",
+    "options": [
+      { "A": "Data ingestion and data mining" },
+      { "B": "Data warehouse and data storage" },
+      { "C": "Data aggregation and data mining" },
+      { "D": "All of the mentioned above" }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 49,
+    "question": "The weight of a machine is a,",
+    "options": [
+      { "A": "Discrete variable" },
+      { "B": "Quantitative variable" },
+      { "C": "Qualitative variable" },
+      { "D": "Superlative variable" }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 50,
+    "question": "Big Data Architecture helps design the with the various requirements,",
+    "options": [
+      { "A": "Data ingestion" },
+      { "B": "Data processing" },
+      { "C": "Data Pipeline" },
+      { "D": "None of the mentioned above" }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 50,
+    "question": "Which SequenceFile are present in Hadoop I/O ?",
+    "options": [{ "A": "2" }, { "B": "8" }, { "C": "9" }, { "D": "3" }],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 50,
+    "question": "Which SequenceFile are present in Hadoop I/O ?",
+    "options": [{ "A": "2" }, { "B": "8" }, { "C": "9" }, { "D": "3" }],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 50,
+    "question": "Which SequenceFile are present in Hadoop I/O ?",
+    "options": [{ "A": "2" }, { "B": "8" }, { "C": "9" }, { "D": "3" }],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 50,
+    "question": "Which SequenceFile are present in Hadoop I/O ?",
+    "options": [{ "A": "2" }, { "B": "8" }, { "C": "9" }, { "D": "3" }],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 50,
+    "question": "Which SequenceFile are present in Hadoop I/O ?",
+    "options": [{ "A": "2" }, { "B": "8" }, { "C": "9" }, { "D": "3" }],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 50,
+    "question": "Which SequenceFile are present in Hadoop I/O ?",
+    "options": [{ "A": "2" }, { "B": "8" }, { "C": "9" }, { "D": "3" }],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 50,
+    "question": "Which SequenceFile are present in Hadoop I/O ?",
+    "options": [{ "A": "2" }, { "B": "8" }, { "C": "9" }, { "D": "3" }],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 50,
+    "question": "Which SequenceFile are present in Hadoop I/O ?",
+    "options": [{ "A": "2" }, { "B": "8" }, { "C": "9" }, { "D": "3" }],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 50,
+    "question": "Which SequenceFile are present in Hadoop I/O ?",
+    "options": [{ "A": "2" }, { "B": "8" }, { "C": "9" }, { "D": "3" }],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 60,
+    "question": "Which SequenceFile are present in Hadoop I/O ?",
+    "options": [{ "A": "2" }, { "B": "8" }, { "C": "9" }, { "D": "3" }],
+    "correct_ans": "C"
   }
 ]
