@@ -64,6 +64,7 @@ body {
   border-radius: 1.875rem;
   font-family: var(--font-roboto);
   font-weight: 700;
+  cursor: pointer;
 }
 
 .exam-rule {
