@@ -16,7 +16,7 @@ const courseDetails = (data, courseId) => {
     faq,
     forWho,
     prerequisite,
-    separateCourses
+    separateCourses,
   } = courseFind;
 
   const courseDetailContainer = document.querySelector(
@@ -140,7 +140,7 @@ const courseDetails = (data, courseId) => {
   </div>
 
   <div class="achievements">
-      <h1 data-aos="fade-right">What will you take home <br> from this ${shortName} Online course?</h1>
+      <h1 data-aos="fade-right">What will you take home <br> from this ${shortName} course?</h1>
 
       <div class="achievements-details">
           <div class="left-side" data-aos="zoom-in"></div>
@@ -242,106 +242,98 @@ const courseDetails = (data, courseId) => {
   
   `;
 
+  // reason to enroll
+  const ulContainerPartOne = document.querySelector(
+    ".reason-to-enroll .reason-part-one ul"
+  );
 
-                // reason to enroll
-                const ulContainerPartOne = document.querySelector(
-                    ".reason-to-enroll .reason-part-one ul"
-                );
+  const ulContainerPartTwo = document.querySelector(
+    ".reason-to-enroll .reason-part-two ul"
+  );
 
-                const ulContainerPartTwo = document.querySelector(
-                    ".reason-to-enroll .reason-part-two ul"
-                );
+  reasons?.enroll[0].forEach((item) => {
+    const li = document.createElement("li");
 
-                reasons?.enroll[0].forEach((item) => {
-                    const li = document.createElement("li");
+    li.innerHTML = `<i class="fa-solid fa-check"></i> ${item}`;
+    ulContainerPartOne.appendChild(li);
+  });
 
-                    li.innerHTML = `<i class="fa-solid fa-check"></i> ${item}`;
-                    ulContainerPartOne.appendChild(li);
-                });
+  reasons?.enroll[1].forEach((item) => {
+    const li = document.createElement("li");
 
-                reasons?.enroll[1].forEach((item) => {
-                    const li = document.createElement("li");
+    li.innerHTML = `<i class="fa-solid fa-check"></i> ${item}`;
+    ulContainerPartTwo.appendChild(li);
+  });
 
-                    li.innerHTML = `<i class="fa-solid fa-check"></i> ${item}`;
-                    ulContainerPartTwo.appendChild(li);
-                });
+  // take home section
+  const achievementsLeft = document.querySelector(
+    ".achievements-details .left-side"
+  );
+  const achievementsRight = document.querySelector(
+    ".achievements-details .right-side"
+  );
 
-                // take home section
-                const achievementsLeft = document.querySelector(
-                    ".achievements-details .left-side"
-                );
-                const achievementsRight = document.querySelector(
-                    ".achievements-details .right-side"
-                );
+  // achievement left side
+  reasons?.learn[0].forEach((item) => {
+    const p = document.createElement("p");
+    p.innerHTML = `<i class="fa-solid fa-check"></i>  ${item}`;
+    achievementsLeft.appendChild(p);
+  });
 
-                // achievement left side
-                reasons?.learn[0].forEach((item) => {
-                    const p = document.createElement("p");
-                    p.innerHTML = `<i class="fa-solid fa-check"></i>  ${item}`;
-                    achievementsLeft.appendChild(p);
-                });
+  // achievements right side
+  reasons?.learn[1].forEach((item) => {
+    const p = document.createElement("p");
+    p.innerHTML = `<i class="fa-solid fa-check"></i> ${item}`;
+    achievementsRight.appendChild(p);
+  });
 
-                // achievements right side
-                reasons?.learn[1].forEach((item) => {
-                    const p = document.createElement("p");
-                    p.innerHTML = `<i class="fa-solid fa-check"></i> ${item}`;
-                    achievementsRight.appendChild(p);
-                });
+  // why should learn python
+  const reasonsContainer = document.querySelector(".reason-to-learn .reasons");
 
-                // why should learn python
-                const reasonsContainer = document.querySelector(".reason-to-learn .reasons");
+  why.forEach((item) => {
+    const containerDiv = document.createElement("div");
+    containerDiv.setAttribute("data-aos", "fade-right");
+    containerDiv.setAttribute("data-aos-duration", 1000);
 
-                why.forEach((item) => {
-                    const containerDiv = document.createElement("div");
-                    containerDiv.setAttribute("data-aos", "fade-right");
-                    containerDiv.setAttribute("data-aos-duration", 1000);
+    const p = document.createElement("p");
+    p.textContent = `${item.title}`;
 
-                    const p = document.createElement("p");
-                    p.textContent = `${item.title}`;
+    const span = document.createElement("span");
+    span.style.fontWeight = "bold";
+    span.textContent = `-${item.src}`;
 
-                    const span = document.createElement("span");
-                    span.style.fontWeight = "bold";
-                    span.textContent = `-${item.src}`;
+    containerDiv.append(p, span);
 
-                    containerDiv.append(p, span);
+    reasonsContainer.appendChild(containerDiv);
+  });
 
-                    reasonsContainer.appendChild(containerDiv);
-                });
+  // content
+  const courseNo = ["courseOne", "courseTwo", "courseThree", "courseFour"];
 
+  const courseContentSection = document.querySelector(".course-contents");
+  console.log(courseContentSection);
 
+  for (let i = 0; i < curriculum.length; i++) {
+    console.log(i);
 
-                // content
-                const courseNo = ['courseOne', 'courseTwo', 'courseThree', 'courseFour']
+    const contentHolderDiv = document.createElement("div");
 
-                const courseContentSection = document.querySelector('.course-contents')
-                console.log(courseContentSection);
+    if (separateCourses) {
+      const h1 = document.createElement("h1");
+      h1.classList.add("course-name");
+      h1.innerText = separateCourses[i];
+      contentHolderDiv.appendChild(h1);
+    }
 
-                for (let i = 0; i < curriculum.length; i++) {
-                    console.log(i);
+    curriculum[i].forEach((item, index) => {
+      const targetId = `${courseNo[i] + index}`;
+      const target = `#${courseNo[i] + index}`;
 
-                    const contentHolderDiv = document.createElement('div')
+      console.log(item);
 
-                    if(separateCourses){
-                        const h1=document.createElement('h1')
-                        h1.classList.add('course-name')
-                        h1.innerText=separateCourses[i]
-                        contentHolderDiv.appendChild(h1)
-                    }
-                    
+      const parentDiv = document.createElement("div");
 
-                    curriculum[i].forEach((item, index) => {
-
-                        
-
-                        const targetId = `${courseNo[i] + index}`;
-                        const target = `#${courseNo[i] + index}`;
-
-                        console.log(item);
-
-
-                        const parentDiv = document.createElement('div');
-
-                        parentDiv.innerHTML = `
+      parentDiv.innerHTML = `
                         
 
                             <div class="vcollapse-toggle" data-target=${target}>
@@ -358,83 +350,55 @@ const courseDetails = (data, courseId) => {
                         
                         `;
 
-                        contentHolderDiv.appendChild(parentDiv)
+      contentHolderDiv.appendChild(parentDiv);
 
-                        courseContentSection.appendChild(contentHolderDiv)
+      courseContentSection.appendChild(contentHolderDiv);
 
+      const contentSelector = `.course-contents #${targetId} ol`;
+      const contentList = document.querySelector(contentSelector);
+      console.log(contentList);
 
-                        const contentSelector = `.course-contents #${targetId} ol`;
-                        const contentList = document.querySelector(contentSelector);
-                        console.log(contentList);
+      item.content.forEach((text) => {
+        const li = document.createElement("li");
+        li.innerHTML = `${text}`;
 
-                        item.content.forEach((text) => {
-                            const li = document.createElement("li");
-                            li.innerHTML = `${text}`;
+        contentList.appendChild(li);
+      });
+    });
+  }
 
-                            contentList.appendChild(li);
-                        });
+  // course features
+  const courseFeatureContainer = document.querySelector(
+    ".course-feature-container"
+  );
 
-                    })
-
-                }
-
-
-
-                // course features
-                const courseFeatureContainer = document.querySelector(
-                    ".course-feature-container"
-                );
-
-                features.forEach((feature) => {
-                    const parentDiv = document.createElement("div");
-                    parentDiv.classList.add("feature");
-                    parentDiv.setAttribute("data-aos", "flip-right");
-                    parentDiv.innerHTML = `
+  features.forEach((feature) => {
+    const parentDiv = document.createElement("div");
+    parentDiv.classList.add("feature");
+    parentDiv.setAttribute("data-aos", "flip-right");
+    parentDiv.innerHTML = `
                             <div class="feature-img">
                                 <img src=${feature.img} />
                             </div>
 
                             <p>${feature.title}</p>`;
 
-                    courseFeatureContainer.appendChild(parentDiv);
-                });
+    courseFeatureContainer.appendChild(parentDiv);
+  });
 
-                // faq part
+  // faq part
 
-                const faqDiv = document.querySelector(".faqs");
-                const faqLeftSide = document.querySelector(".faqs .faq-left");
-                const faqRightSide = document.querySelector(".faqs .faq-right");
+  const faqDiv = document.querySelector(".faqs");
+  const faqLeftSide = document.querySelector(".faqs .faq-left");
+  const faqRightSide = document.querySelector(".faqs .faq-right");
 
-                // faq left side
-                faq[0].forEach((item, index) => {
-                    const targetId = `fql${index}`;
-                    const target = `#fql${index}`;
+  // faq left side
+  faq[0].forEach((item, index) => {
+    const targetId = `fql${index}`;
+    const target = `#fql${index}`;
 
-                    const containerDiv = document.createElement("div");
-                    containerDiv.innerHTML = `
-
-                  <div class="vcollapse-toggle" data-target=${target}>
-                      <p>${item.que}</p>
-
-                  </div>
-
-                  <div class="vcollapse-content" id=${targetId}>
-
-                    <p> ${item.ans}</p>
-
-                  </div>
-              `;
-
-                    faqLeftSide.appendChild(containerDiv);
-                });
-
-                // faq right side
-                faq[1].forEach((item, index) => {
-                    const targetId = `fqr${index}`;
-                    const target = `#fqr${index}`;
-
-                    const containerDiv = document.createElement("div");
-                    containerDiv.innerHTML = `
+    const containerDiv = document.createElement("div");
+    containerDiv.innerHTML = `
 
                   <div class="vcollapse-toggle" data-target=${target}>
                       <p>${item.que}</p>
@@ -448,108 +412,132 @@ const courseDetails = (data, courseId) => {
                   </div>
               `;
 
-                    faqRightSide.appendChild(containerDiv);
-                });
-                //jquery accordion
-                $(".course-contents > div").vCollapse({
-                    any: true,
-                    onLoad: -1,
-                    speed: 300,
-                    easing: "ease-in",
-                });
+    faqLeftSide.appendChild(containerDiv);
+  });
 
-              
+  // faq right side
+  faq[1].forEach((item, index) => {
+    const targetId = `fqr${index}`;
+    const target = `#fqr${index}`;
 
-                $(".faqs .faq-left").vCollapse({
-                    any: true,
-                    onLoad: -1,
-                    speed: 300,
-                    easing: "ease-in",
-                });
+    const containerDiv = document.createElement("div");
+    containerDiv.innerHTML = `
 
-                $(".faqs .faq-right").vCollapse({
-                    any: true,
-                    onLoad: -1,
-                    speed: 300,
-                    easing: "ease-in",
-                });
+                  <div class="vcollapse-toggle" data-target=${target}>
+                      <p>${item.que}</p>
 
+                  </div>
 
-                // modal 
-                (function () {
-                    emailjs.init("huB7HdbtLQHtlBqmr");
-                })();
-        
-        
-                $(document).ready(function () {
-        
-                    $(".course-detail-header .course-info .modal .send-info .country-select #country_selector").countrySelect({
-                        defaultCountry: "us",
-                        defaultStyling: "inside"
-                    })
-        
-                })
-        
-        
-                const handleForm = () => {
-                    event.preventDefault();
-        
-                    const form = document.getElementById('send-message-form')
-        
-                    const name = form.name.value;
-                    const email = form.email.value;
-        
-                    const country = $("#country_selector").countrySelect("getSelectedCountryData").name;
-        
-                    const telephone = form.phoneField.value;
-        
-                    const course = form.course.value;
-        
-                    const message = form.message.value;
-        
-                    const emailParams = {
-                        from_name: name,
-                        email_id: email,
-                        country_name: country,
-                        telephone: telephone,
-                        course_name: course,
-                        message: message
-                    }
-        
-                    emailjs.send('service_hcm5p5a', 'template_o0io9dy', emailParams, 'huB7HdbtLQHtlBqmr')
-                        .then(res => {
-        
-                            $.toast({
-                                text: "Your email sent successfully",
-                                showHideTransition: 'slide',
-                                bgColor: '#2ecc71',
-                                textColor: '#fff',
-                                allowToastClose: false,
-                                hideAfter: 5000,
-                                stack: 5,
-                                textAlign: 'center',
-                                position: 'top-center'
-                            })
-                            form.reset()
-                        })
-                        .catch((err) => {
-                            $.toast({
-                                text: "Sorry. Something wrong!",
-                                showHideTransition: 'slide',
-                                bgColor: '#e74c3c',
-                                textColor: '#fff',
-                                allowToastClose: false,
-                                hideAfter: 5000,
-                                stack: 5,
-                                textAlign: 'center',
-                                position: 'top-center'
-                            })
-        
-                            form.reset()
-                        })
-        
-                }
+                  <div class="vcollapse-content" id=${targetId}>
 
-                document.getElementById('submit-btn').addEventListener('click',handleForm)
+                    <p> ${item.ans}</p>
+
+                  </div>
+              `;
+
+    faqRightSide.appendChild(containerDiv);
+  });
+  //jquery accordion
+  $(".course-contents > div").vCollapse({
+    any: true,
+    onLoad: -1,
+    speed: 300,
+    easing: "ease-in",
+  });
+
+  $(".faqs .faq-left").vCollapse({
+    any: true,
+    onLoad: -1,
+    speed: 300,
+    easing: "ease-in",
+  });
+
+  $(".faqs .faq-right").vCollapse({
+    any: true,
+    onLoad: -1,
+    speed: 300,
+    easing: "ease-in",
+  });
+
+  // modal
+  (function () {
+    emailjs.init("huB7HdbtLQHtlBqmr");
+  })();
+
+  $(document).ready(function () {
+    $(
+      ".course-detail-header .course-info .modal .send-info .country-select #country_selector"
+    ).countrySelect({
+      defaultCountry: "us",
+      defaultStyling: "inside",
+    });
+  });
+
+  const handleForm = () => {
+    event.preventDefault();
+
+    const form = document.getElementById("send-message-form");
+
+    const name = form.name.value;
+    const email = form.email.value;
+
+    const country = $("#country_selector").countrySelect(
+      "getSelectedCountryData"
+    ).name;
+
+    const telephone = form.phoneField.value;
+
+    const course = form.course.value;
+
+    const message = form.message.value;
+
+    const emailParams = {
+      from_name: name,
+      email_id: email,
+      country_name: country,
+      telephone: telephone,
+      course_name: course,
+      message: message,
+    };
+
+    emailjs
+      .send(
+        "service_hcm5p5a",
+        "template_o0io9dy",
+        emailParams,
+        "huB7HdbtLQHtlBqmr"
+      )
+      .then((res) => {
+        $.toast({
+          text: "Your email sent successfully",
+          showHideTransition: "slide",
+          bgColor: "#2ecc71",
+          textColor: "#fff",
+          allowToastClose: false,
+          hideAfter: 5000,
+          stack: 5,
+          textAlign: "center",
+          position: "top-center",
+        });
+        form.reset();
+      })
+      .catch((err) => {
+        $.toast({
+          text: "Sorry. Something wrong!",
+          showHideTransition: "slide",
+          bgColor: "#e74c3c",
+          textColor: "#fff",
+          allowToastClose: false,
+          hideAfter: 5000,
+          stack: 5,
+          textAlign: "center",
+          position: "top-center",
+        });
+
+        form.reset();
+      });
+  };
+
+  document.getElementById("submit-btn").addEventListener("click", handleForm);
 };
 getAllData("data/course.json", courseDetails, queryString);
