@@ -81,6 +81,13 @@
   object-fit: contain;
 }
 
+.wrong-ans {
+  background-color: #e84118;
+}
+.correct-ans {
+  background-color: #4cd137;
+}
+
 /* media query  */
 
 @media screen and (max-width: 1200px) {
