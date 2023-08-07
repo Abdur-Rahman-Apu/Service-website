@@ -208,17 +208,7 @@ const courseDetails = (data, courseId) => {
   </div>
 
 
-  <div class="course-for-whom">
-  <h1 data-aos="fade-right" data-aos-duration=1000>${forWho.que}</h1>
-        <div class="course-for-whom-ans">
-        <div class="course-for-whom-details">
-        <p data-aos="zoom-in" data-aos-duration=1000>${forWho.ans}</p>
-      </div>
-      <div class="course-for-whom-img">
-        <img src="./images/course-img/course-details/confusion.jpg" data-aos="fade-up" />
-      </div>
-        </div>
-  </div>
+ 
 
   <div class="companies">
       <h1 data-aos="zoom-in">Companies you can expect <br> when you get ${shortName}-certified with us</h1>
@@ -227,19 +217,6 @@ const courseDetails = (data, courseId) => {
           <img src="./images/companies.png" alt="companies image">
       </div>
   </div>
-
-
-  <div class='faq-container'>
-      <h1 data-aos="fade-right">${shortName} Online Training FAQs</h1>
-
-      <div class="faqs" data-aos="fade-up" data-aos-duration=1000>
-
-          <div class="faq-left"></div>
-          <div class="faq-right"></div>
-
-      </div>
-  </div>
-  
   `;
 
   // reason to enroll
@@ -386,57 +363,6 @@ const courseDetails = (data, courseId) => {
     courseFeatureContainer.appendChild(parentDiv);
   });
 
-  // faq part
-
-  const faqDiv = document.querySelector(".faqs");
-  const faqLeftSide = document.querySelector(".faqs .faq-left");
-  const faqRightSide = document.querySelector(".faqs .faq-right");
-
-  // faq left side
-  faq[0].forEach((item, index) => {
-    const targetId = `fql${index}`;
-    const target = `#fql${index}`;
-
-    const containerDiv = document.createElement("div");
-    containerDiv.innerHTML = `
-
-                  <div class="vcollapse-toggle" data-target=${target}>
-                      <p>${item.que}</p>
-
-                  </div>
-
-                  <div class="vcollapse-content" id=${targetId}>
-
-                    <p> ${item.ans}</p>
-
-                  </div>
-              `;
-
-    faqLeftSide.appendChild(containerDiv);
-  });
-
-  // faq right side
-  faq[1].forEach((item, index) => {
-    const targetId = `fqr${index}`;
-    const target = `#fqr${index}`;
-
-    const containerDiv = document.createElement("div");
-    containerDiv.innerHTML = `
-
-                  <div class="vcollapse-toggle" data-target=${target}>
-                      <p>${item.que}</p>
-
-                  </div>
-
-                  <div class="vcollapse-content" id=${targetId}>
-
-                    <p> ${item.ans}</p>
-
-                  </div>
-              `;
-
-    faqRightSide.appendChild(containerDiv);
-  });
   //jquery accordion
   $(".course-contents > div").vCollapse({
     any: true,
