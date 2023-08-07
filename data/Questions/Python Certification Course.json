@@ -42,5 +42,266 @@
       { "D": " .p" }
     ],
     "correct_ans": "C"
+  },
+  {
+    "question_no": 5,
+    "question": "All keywords in Python are in _________",
+    "options": [
+      { "A": "Capitalized" },
+      { "B": "lower case" },
+      { "C": "UPPER CASE" },
+      { "D": "None of the mentioned" }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 6,
+    "question": "Which keyword is used for function in Python language?",
+    "options": [
+      { "A": "Function" },
+      { "B": "def" },
+      { "C": "Fun" },
+      { "D": "Define" }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 7,
+    "question": "What does pip stand for python?",
+    "options": [
+      { "A": "Pip Installs Python" },
+      { "B": "Pip Installs Packages" },
+      { "C": "Preferred Installer Program" },
+      { "D": "All of the mentioned" }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 8,
+    "question": "Which of the following is the truncation division operator in Python?",
+    "options": [{ "A": "|" }, { "B": "//" }, { "C": "/" }, { "D": "%" }],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 9,
+    "question": "Which of the following functions is a built-in function in python?",
+    "options": [
+      { "A": "factorial()" },
+      { "B": "print()" },
+      { "C": "seed()" },
+      { "D": "sqrt()" }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 10,
+    "question": "Which of the following is the use of id() function in python?",
+    "options": [
+      { "A": "Every object doesn’t have a unique id" },
+      { "B": "Id returns the identity of the object" },
+      { "C": "All of the mentioned" },
+      { "D": "None of the mentioned" }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 11,
+    "question": "Which of the following is not a core data type in Python programming?",
+    "options": [
+      { "A": "Tuples" },
+      { "B": "Lists" },
+      { "C": "Class" },
+      { "D": "Dictionary" }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 12,
+    "question": "Which of these is the definition for packages in Python?",
+    "options": [
+      { "A": "A set of main modules" },
+      { "B": "A folder of python modules" },
+      { "C": "A number of files containing Python definitions and statements" },
+      { "D": "A set of programs making use of Python modules" }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 13,
+    "question": "Which one of the following is not a keyword in Python language?",
+    "options": [
+      { "A": "pass" },
+      { "B": "eval" },
+      { "C": "assert" },
+      { "D": "nonlocal" }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 14,
+    "question": "What arithmetic operators cannot be used with strings in Python?",
+    "options": [
+      { "A": "*" },
+      { "B": "–" },
+      { "C": "+" },
+      { "D": "All of the mentioned" }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 15,
+    "question": "Which of the following statements is used to create an empty set in Python?",
+    "options": [
+      { "A": "( )" },
+      { "B": "[ ]" },
+      { "C": "{ }" },
+      { "D": "set()" }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 16,
+    "question": "Which one of the following is the use of function in python?",
+    "options": [
+      { "A": "Functions don’t provide better modularity for your application" },
+      { "B": "You can’t also create your own functions" },
+      { "C": "Functions are reusable pieces of programs" },
+      { "D": "All of the mentioned" }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 17,
+    "question": "What are the two main types of functions in Python?",
+    "options": [
+      { "A": "System function" },
+      { "B": "Custom function" },
+      { "C": "Built-in function & User defined function" },
+      { "D": "User function" }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 18,
+    "question": "Which of the following is a Python tuple?",
+    "options": [
+      { "A": "{1, 2, 3}" },
+      { "B": "{}" },
+      { "C": "[1, 2, 3]" },
+      { "D": "(1, 2, 3)" }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 19,
+    "question": "What is output of print(math.pow(3, 2))?",
+    "options": [
+      { "A": "9.0" },
+      { "B": "None" },
+      { "C": "9" },
+      { "D": "None of the mentioned" }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "What will be the output of the “hello” +1+2+3?",
+    "options": [
+      { "A": "hello123" },
+      { "B": "hello" },
+      { "C": "Error" },
+      { "D": "hello6" }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 21,
+    "question": "Say s=”hello” what will be the return value of type(s)?",
+    "options": [
+      { "A": "int" },
+      { "B": "bool" },
+      { "C": "str" },
+      { "D": "String" }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 22,
+    "question": "What does ~4 evaluate to?",
+    "options": [{ "A": "-5" }, { "B": "-4" }, { "C": "-3" }, { "D": "+3" }],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "What is the result of cmp(3, 1)?",
+    "options": [{ "A": "1" }, { "B": "0" }, { "C": "True" }, { "D": "False" }],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "What is the result of round(0.5) – round(-0.5)?",
+    "options": [
+      { "A": "1.0" },
+      { "B": "2.0" },
+      { "C": "0.0" },
+      { "D": "Value depends on Python version" }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 25,
+    "question": "What does 3 ^ 4 evaluate to?",
+    "options": [{ "A": "81" }, { "B": "12" }, { "C": "0.75" }, { "D": "7" }],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 26,
+    "question": "Which of the following commands will create a list?",
+    "options": [
+      { "A": "list1 = list()" },
+      { "B": "list1 = []" },
+      { "C": "list1 = list([1, 2, 3])" },
+      { "D": "all of the mentioned" }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 27,
+    "question": "What is the output when we execute list(“hello”)?",
+    "options": [
+      { "A": "[‘h’, ‘e’, ‘l’, ‘l’, ‘o’]" },
+      { "B": "[‘hello’]" },
+      { "C": "[‘llo’]" },
+      { "D": " [‘olleh’]" }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "Suppose listExample is [‘h’,’e’,’l’,’l’,’o’], what is len(listExample)?",
+    "options": [{ "A": "5" }, { "B": "4" }, { "C": "None" }, { "D": "Error" }],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "The readlines() method returns ____________",
+    "options": [
+      { "A": "str" },
+      { "B": "a list of lines" },
+      { "C": "a list of single characters" },
+      { "D": "a list of integers" }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 30,
+    "question": "Which of the following is not a type of inheritance?",
+    "options": [
+      { "A": "Double-level" },
+      { "B": "Multi-level" },
+      { "C": "Single-level" },
+      { "D": "Multiple" }
+    ],
+    "correct_ans": "A"
   }
 ]

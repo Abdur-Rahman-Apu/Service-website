@@ -1,0 +1,334 @@
+[
+  {
+    "question_no": 1,
+    "question": "Point out the correct statement.",
+    "options": [
+      { "A": "Hadoop do need specialized hardware to process the data" },
+      { "B": "Hadoop 2.0 allows live stream processing of real-time data" },
+      {
+        "C": "In the Hadoop programming framework output files are divided into lines or records"
+      },
+      { "D": "None of the mentioned" }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 2,
+    "question": "What was Hadoop named after?",
+    "options": [
+      { "A": "Creator Doug Cutting’s favorite circus act" },
+      { "B": "Cutting’s high school rock band" },
+      { "C": "The toy elephant of Cutting’s son" },
+      { "D": "A sound Cutting’s laptop made during Hadoop development" }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 3,
+    "question": "All of the following accurately describe Hadoop, EXCEPT ____________",
+    "options": [
+      { "A": "Open-source" },
+      { "B": "Real-time" },
+      { "C": "Java-based" },
+      { "D": "Distributed computing approach" }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 4,
+    "question": " __________ has the world’s largest Hadoop cluster.",
+    "options": [
+      { "A": "Apple" },
+      { "B": "Datamatics" },
+      { "C": "Facebook" },
+      { "D": "None of the mentioned" }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 5,
+    "question": "Facebook Tackles Big Data With _______ based on Hadoop.",
+    "options": [
+      { "A": "‘Project Prism’" },
+      { "B": "‘Prism’" },
+      { "C": "‘Project Big’" },
+      { "D": "‘Project Data’" }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "",
+    "options": [
+      { "A": "Wick van Rossum" },
+      { "B": "Rasmus Lerdorf" },
+      { "C": "Guido van Rossum" },
+      { "D": "Niene Stom" }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 7,
+    "question": "",
+    "options": [
+      { "A": "Wick van Rossum" },
+      { "B": "Rasmus Lerdorf" },
+      { "C": "Guido van Rossum" },
+      { "D": "Niene Stom" }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 8,
+    "question": "",
+    "options": [
+      { "A": "Wick van Rossum" },
+      { "B": "Rasmus Lerdorf" },
+      { "C": "Guido van Rossum" },
+      { "D": "Niene Stom" }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 9,
+    "question": "",
+    "options": [
+      { "A": "Wick van Rossum" },
+      { "B": "Rasmus Lerdorf" },
+      { "C": "Guido van Rossum" },
+      { "D": "Niene Stom" }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 10,
+    "question": "",
+    "options": [
+      { "A": "Wick van Rossum" },
+      { "B": "Rasmus Lerdorf" },
+      { "C": "Guido van Rossum" },
+      { "D": "Niene Stom" }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 11,
+    "question": "",
+    "options": [
+      { "A": "Wick van Rossum" },
+      { "B": "Rasmus Lerdorf" },
+      { "C": "Guido van Rossum" },
+      { "D": "Niene Stom" }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 12,
+    "question": "",
+    "options": [
+      { "A": "Wick van Rossum" },
+      { "B": "Rasmus Lerdorf" },
+      { "C": "Guido van Rossum" },
+      { "D": "Niene Stom" }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 13,
+    "question": "",
+    "options": [
+      { "A": "Wick van Rossum" },
+      { "B": "Rasmus Lerdorf" },
+      { "C": "Guido van Rossum" },
+      { "D": "Niene Stom" }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 14,
+    "question": "",
+    "options": [
+      { "A": "Wick van Rossum" },
+      { "B": "Rasmus Lerdorf" },
+      { "C": "Guido van Rossum" },
+      { "D": "Niene Stom" }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 15,
+    "question": "",
+    "options": [
+      { "A": "Wick van Rossum" },
+      { "B": "Rasmus Lerdorf" },
+      { "C": "Guido van Rossum" },
+      { "D": "Niene Stom" }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 16,
+    "question": "",
+    "options": [
+      { "A": "Wick van Rossum" },
+      { "B": "Rasmus Lerdorf" },
+      { "C": "Guido van Rossum" },
+      { "D": "Niene Stom" }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 17,
+    "question": "",
+    "options": [
+      { "A": "Wick van Rossum" },
+      { "B": "Rasmus Lerdorf" },
+      { "C": "Guido van Rossum" },
+      { "D": "Niene Stom" }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 18,
+    "question": "",
+    "options": [
+      { "A": "Wick van Rossum" },
+      { "B": "Rasmus Lerdorf" },
+      { "C": "Guido van Rossum" },
+      { "D": "Niene Stom" }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 19,
+    "question": "",
+    "options": [
+      { "A": "Wick van Rossum" },
+      { "B": "Rasmus Lerdorf" },
+      { "C": "Guido van Rossum" },
+      { "D": "Niene Stom" }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 20,
+    "question": "",
+    "options": [
+      { "A": "Wick van Rossum" },
+      { "B": "Rasmus Lerdorf" },
+      { "C": "Guido van Rossum" },
+      { "D": "Niene Stom" }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 21,
+    "question": "",
+    "options": [
+      { "A": "Wick van Rossum" },
+      { "B": "Rasmus Lerdorf" },
+      { "C": "Guido van Rossum" },
+      { "D": "Niene Stom" }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 22,
+    "question": "",
+    "options": [
+      { "A": "Wick van Rossum" },
+      { "B": "Rasmus Lerdorf" },
+      { "C": "Guido van Rossum" },
+      { "D": "Niene Stom" }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 23,
+    "question": "",
+    "options": [
+      { "A": "Wick van Rossum" },
+      { "B": "Rasmus Lerdorf" },
+      { "C": "Guido van Rossum" },
+      { "D": "Niene Stom" }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 24,
+    "question": "",
+    "options": [
+      { "A": "Wick van Rossum" },
+      { "B": "Rasmus Lerdorf" },
+      { "C": "Guido van Rossum" },
+      { "D": "Niene Stom" }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 25,
+    "question": "",
+    "options": [
+      { "A": "Wick van Rossum" },
+      { "B": "Rasmus Lerdorf" },
+      { "C": "Guido van Rossum" },
+      { "D": "Niene Stom" }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 26,
+    "question": "",
+    "options": [
+      { "A": "Wick van Rossum" },
+      { "B": "Rasmus Lerdorf" },
+      { "C": "Guido van Rossum" },
+      { "D": "Niene Stom" }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 27,
+    "question": "",
+    "options": [
+      { "A": "Wick van Rossum" },
+      { "B": "Rasmus Lerdorf" },
+      { "C": "Guido van Rossum" },
+      { "D": "Niene Stom" }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 28,
+    "question": "",
+    "options": [
+      { "A": "Wick van Rossum" },
+      { "B": "Rasmus Lerdorf" },
+      { "C": "Guido van Rossum" },
+      { "D": "Niene Stom" }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 29,
+    "question": "",
+    "options": [
+      { "A": "Wick van Rossum" },
+      { "B": "Rasmus Lerdorf" },
+      { "C": "Guido van Rossum" },
+      { "D": "Niene Stom" }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 30,
+    "question": "",
+    "options": [
+      { "A": "Wick van Rossum" },
+      { "B": "Rasmus Lerdorf" },
+      { "C": "Guido van Rossum" },
+      { "D": "Niene Stom" }
+    ],
+    "correct_ans": ""
+  }
+]
