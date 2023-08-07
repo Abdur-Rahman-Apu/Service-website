@@ -32,6 +32,76 @@ const answerFormat = (examName) => {
     { 28: "" },
     { 29: "" },
     { 30: "" },
+    { 31: "" },
+    { 32: "" },
+    { 33: "" },
+    { 34: "" },
+    { 35: "" },
+    { 36: "" },
+    { 37: "" },
+    { 38: "" },
+    { 39: "" },
+    { 40: "" },
+    { 41: "" },
+    { 42: "" },
+    { 43: "" },
+    { 44: "" },
+    { 45: "" },
+    { 46: "" },
+    { 47: "" },
+    { 48: "" },
+    { 49: "" },
+    { 50: "" },
+    { 51: "" },
+    { 52: "" },
+    { 53: "" },
+    { 54: "" },
+    { 55: "" },
+    { 56: "" },
+    { 57: "" },
+    { 58: "" },
+    { 59: "" },
+    { 60: "" },
+    { 61: "" },
+    { 62: "" },
+    { 63: "" },
+    { 64: "" },
+    { 65: "" },
+    { 66: "" },
+    { 67: "" },
+    { 68: "" },
+    { 69: "" },
+    { 70: "" },
+    { 71: "" },
+    { 72: "" },
+    { 73: "" },
+    { 74: "" },
+    { 75: "" },
+    { 76: "" },
+    { 77: "" },
+    { 78: "" },
+    { 79: "" },
+    { 80: "" },
+    { 81: "" },
+    { 82: "" },
+    { 83: "" },
+    { 84: "" },
+    { 85: "" },
+    { 86: "" },
+    { 87: "" },
+    { 88: "" },
+    { 89: "" },
+    { 90: "" },
+    { 91: "" },
+    { 92: "" },
+    { 93: "" },
+    { 94: "" },
+    { 95: "" },
+    { 96: "" },
+    { 97: "" },
+    { 98: "" },
+    { 99: "" },
+    { 100: "" },
   ];
 
   localStorage.setItem("exam-name", JSON.stringify(examName));
@@ -46,9 +116,11 @@ const storeUserAnswers = (questionNo, givenAns) => {
   //   get answer paper from the localStorage
   const answerPaper = JSON.parse(localStorage.getItem("quiz"));
 
-  for (let i = 0; i < questionNo; i++) {
-    answerPaper[i][questionNo] = givenAns;
-  }
+  // for (let i = 0; i < questionNo; i++) {
+  //   answerPaper[i][questionNo] = givenAns;
+  // }
+
+  answerPaper[questionNo - 1][questionNo] = givenAns;
 
   localStorage.setItem("quiz", JSON.stringify(answerPaper));
 };
@@ -166,7 +238,26 @@ const quizShow = () => {
       const questionsDiv = document.createElement("div");
       questionsDiv.classList.add("question-div");
 
-      data.forEach((question, index) => {
+      // randomly show 30 questions from 100 questions
+
+      // Function to shuffle an array randomly (using the Fisher-Yates shuffle algorithm)
+      function shuffleArray(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [array[i], array[j]] = [array[j], array[i]];
+        }
+      }
+
+      // Shuffle the array of all items
+      shuffleArray(data);
+
+      // Take the first 30 items from the shuffled array
+      const randomItems = data.slice(0, 30);
+
+      // Display the randomly selected items
+      console.log(randomItems);
+
+      randomItems.forEach((question, index) => {
         const questionCard = document.createElement("div");
         questionCard.setAttribute("id", `q-${index + 1}`);
 
