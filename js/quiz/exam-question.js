@@ -186,7 +186,7 @@ const quizShow = () => {
 
           const optionName = document.createElement("p");
           optionName.innerHTML = `
-          <span class="option-no">${key}</span> ${value}
+          <span class="option-no">${key}</span> <p>${value}</p>
           `;
 
           //   insert option one by one
@@ -241,7 +241,7 @@ const quizShow = () => {
       const timeShow = document.createElement("p");
 
       // calculate time in minute and second and display using setTimeout
-      let totalSeconds = 10;
+      let totalSeconds = 1200;
       let timerId;
 
       function startTimer() {
