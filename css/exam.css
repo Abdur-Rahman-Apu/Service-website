@@ -206,6 +206,9 @@ main {
 /* media query  */
 
 @media screen and (max-width: 1200px) {
+  .timer-div .time-remaining {
+    top: 15rem;
+  }
 }
 @media screen and (max-width: 900px) {
   .header .company-logo {

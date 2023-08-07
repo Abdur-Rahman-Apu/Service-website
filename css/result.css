@@ -80,3 +80,72 @@
   height: 80%;
   object-fit: contain;
 }
+
+/* media query  */
+
+@media screen and (max-width: 1200px) {
+  .back-btn {
+    font-size: 2.6vw;
+  }
+  .logo {
+    width: 25vw;
+    height: 20vh;
+  }
+
+  .header h1 {
+    font-size: 5vw;
+    margin-bottom: 2rem;
+  }
+
+  .result {
+    flex-direction: column;
+  }
+
+  .mark p {
+    font-size: 3.5vw;
+  }
+
+  .achievement-logo {
+    margin-top: 1rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .header h1 {
+    font-size: 6vw;
+  }
+}
+@media screen and (max-width: 600px) {
+  .back-btn {
+    font-size: 3.6vw;
+  }
+  .logo {
+    width: 30vw;
+    height: 20vh;
+  }
+
+  .header h1 {
+    font-size: 6vw;
+    margin-bottom: 2rem;
+  }
+
+  .mark p {
+    width: 60vw;
+    text-align: center;
+    font-size: 4.5vw;
+  }
+
+  .achievement-logo {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .back-btn {
+    font-size: 4.6vw;
+    padding: 0.5rem 1rem;
+  }
+
+  .header h1 {
+    font-size: 8vw;
+  }
+}
