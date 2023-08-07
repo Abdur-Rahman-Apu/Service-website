@@ -96,15 +96,63 @@ body {
 .swal2-confirm {
   color: #000 !important;
 }
+
+.swal2-title {
+  font-family: var(--font-roboto);
+}
 /* media query */
 
 /* 900-1200px */
+@media screen and (max-width: 1200px) {
+  .card h1 {
+    font-size: 2.5vw;
+  }
+  .exam-rule h3 {
+    font-size: 2.2vw;
+  }
+
+  .exam-rule p {
+    font-size: 1.6vw;
+  }
+}
 
 /* 600-900px  */
 
+@media screen and (max-width: 900px) {
+  .card h1 {
+    font-size: 3.5vw;
+  }
+}
+
 /* 600px */
+@media screen and (max-width: 600px) {
+  .card h1 {
+    font-size: 5vw;
+  }
+
+  .exam-rule h3 {
+    font-size: 3.2vw;
+  }
+
+  .exam-rule p {
+    font-size: 2.6vw;
+  }
+}
 
 /* 400px */
+@media screen and (max-width: 400px) {
+  .card h1 {
+    font-size: 6vw;
+  }
+
+  .exam-rule h3 {
+    font-size: 4.2vw;
+  }
+
+  .exam-rule p {
+    font-size: 3.6vw;
+  }
+}
 
 /* 300px */
 @media screen and (max-width: 300px) {
@@ -113,7 +161,19 @@ body {
     padding: 5rem 0;
   }
 
+  .card h1 {
+    font-size: 8vw;
+  }
+
+  .exam-rule h3 {
+    font-size: 7.5vw;
+  }
+
+  .exam-rule p {
+    font-size: 5.6vw;
+  }
+
   .card a {
-    font-size: 5vw;
+    font-size: 5.5vw;
   }
 }
