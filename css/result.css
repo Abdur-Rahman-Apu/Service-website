@@ -21,13 +21,13 @@
 }
 
 .header {
-  padding: 1rem 5%;
+  padding: 0 5%;
 }
 
 .logo {
   width: 40vw;
   height: 20vh;
-  margin: 0 auto;
+  margin: 10px auto 0;
 }
 
 .logo img {
@@ -46,6 +46,7 @@
 
 .result {
   display: flex;
+  height: calc(100vh - 20vh - 78px - 10px);
 }
 
 .result > div {
@@ -71,10 +72,11 @@
 
 .achievement-logo {
   width: 100%;
+  height: 100%;
 }
 
 .achievement-logo img {
   width: 100%;
-  height: 100%;
+  height: 80%;
   object-fit: contain;
 }

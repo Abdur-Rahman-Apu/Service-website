@@ -238,7 +238,61 @@ const quizShow = () => {
       const remainingDiv = document.createElement("div");
       remainingDiv.classList.add("time-remaining");
 
-      remainingDiv.innerHTML = "Hello";
+      const timeShow = document.createElement("p");
+
+      // calculate time in minute and second and display using setTimeout
+      let totalSeconds = 10;
+      let timerId;
+
+      function startTimer() {
+        timerId = setTimeout(function () {
+          totalSeconds--;
+          if (totalSeconds == 0) {
+            // time end
+            clearTimeout(timerId);
+            timeShow.innerText = "Times Up";
+            timeShow.classList.add("red");
+            Swal.fire({
+              icon: "question",
+              iconColor: "#000",
+              title: "TImes Up!",
+              text: "Please submit your answer script",
+              confirmButtonText: "Ok",
+              confirmButtonColor: "#f5df4e",
+              showConfirmButton: true,
+            }).then((isConfirm) => {
+              console.log(isConfirm);
+
+              const { isConfirmed } = isConfirm;
+
+              if (isConfirmed) {
+                window.location.href = "result.html";
+              }
+            });
+          } else {
+            // convert time into minute and second
+            const minutes = Math.floor(totalSeconds / 60);
+            const seconds = totalSeconds % 60;
+
+            // Format the minutes and seconds with leading zeros if needed
+            const formattedTime = `${minutes
+              .toString()
+              .padStart(2, "0")}:${seconds.toString().padStart(2, "0")}`;
+
+            timeShow.innerText = formattedTime;
+            console.log(formattedTime);
+
+            // Continue the timer
+            startTimer();
+          }
+        }, 1000); // 1000 milliseconds = 1 second
+      }
+
+      // Start the timer
+      startTimer();
+
+      remainingDiv.appendChild(timeShow);
+
       timerDiv.appendChild(remainingDiv);
 
       console.log(data, "question");

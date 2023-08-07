@@ -180,6 +180,21 @@ main {
   top: 10rem;
 }
 
+.time-remaining p {
+  border: 2px solid black;
+  width: fit-content;
+  padding: 1rem;
+  border-radius: 30px;
+  margin: 0 auto;
+  font-family: var(--font-roboto);
+  font-weight: 700;
+  font-size: 1.5vw;
+}
+
+.red {
+  color: red;
+}
+
 /* sweet alert customization  */
 
 .swal2-confirm {
