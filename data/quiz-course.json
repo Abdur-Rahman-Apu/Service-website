@@ -1,77 +1,82 @@
 [
   {
     "id": 0,
-    "courseName": "Python Certification Course",
+    "courseName": "Python",
     "bannerImg": "./images/course-img/course-banner/python.png"
   },
   {
     "id": 1,
-    "courseName": " Big Data and Hadoop Certification Course",
+    "courseName": " Big Data and Hadoop",
     "bannerImg": "./images/course-img/course-banner/hadoop--big-data.png"
   },
   {
     "id": 2,
-    "courseName": " C, C++ & Java Programming Course",
+    "courseName": " C, C++ & Java Programming",
     "bannerImg": "./images/course-img/course-banner/c,c++,java.png"
   },
   {
     "id": 3,
-    "courseName": "ML Course ",
+    "courseName": "ML ",
     "bannerImg": "./images/course-img/course-banner/machine-learning.png"
   },
   {
     "id": 4,
-    "courseName": "AWS Certification Course ",
+    "courseName": "AWS ",
     "bannerImg": "./images/course-img/course-banner/AWS.png"
   },
   {
     "id": 5,
-    "courseName": "Full Stack Web Development Certification Course ",
+    "courseName": "Full Stack Web Development",
     "bannerImg": "./images/course-img/course-banner/FULL-STACK.png"
   },
   {
     "id": 6,
-    "courseName": "Artificial Intelligence Certification Course ",
+    "courseName": "Artificial Intelligence",
     "bannerImg": "./images/course-img/course-banner/ai.png"
   },
   {
     "id": 7,
-    "courseName": "CCNA Certification Course ",
+    "courseName": "CCNA",
     "bannerImg": "./images/course-img/course-banner/CCNA.png"
   },
   {
     "id": 8,
-    "courseName": "CCSP Certification Course ",
+    "courseName": "CCSP",
     "bannerImg": "./images/course-img/course-banner/CCSP.png"
   },
   {
     "id": 9,
-    "courseName": "Data Science Certification Course ",
+    "courseName": "Data Science",
     "bannerImg": "./images/course-img/course-banner/Data-science.png"
   },
   {
     "id": 10,
-    "courseName": "DevOps Certification Course ",
+    "courseName": "DevOps",
     "bannerImg": "./images/course-img/course-banner/devops.png"
   },
   {
     "id": 11,
-    "courseName": "Digital Marketing Certification Course ",
+    "courseName": "Digital Marketing",
     "bannerImg": "./images/course-img/course-banner/DIGITAL-MARKETING.jpg"
   },
   {
     "id": 12,
-    "courseName": "Ethical Hacking Certification Course ",
+    "courseName": "Ethical Hacking",
     "bannerImg": "./images/course-img/course-banner/Ethical-Hacking.png"
   },
   {
     "id": 13,
-    "courseName": "Linux Certification Course ",
+    "courseName": "Linux",
     "bannerImg": "./images/course-img/course-banner/linux.png"
   },
   {
     "id": 14,
-    "courseName": "Microsoft Azure Certification Course ",
+    "courseName": "Microsoft Azure",
     "bannerImg": "./images/course-img/course-banner/Microsoft-Azure.png"
+  },
+  {
+    "id": 15,
+    "courseName": "HTML, CSS and JS",
+    "bannerImg": "./images/course-img/course-banner/html-css-js.jpg"
   }
 ]

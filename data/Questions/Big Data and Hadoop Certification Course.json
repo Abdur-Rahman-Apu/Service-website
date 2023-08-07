@@ -58,58 +58,50 @@
   },
   {
     "question_no": 6,
-    "question": "",
+    "question": "Data in ___________ bytes size is called Big Data.",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      { "A": "Tera" },
+      { "B": "Giga" },
+      { "C": "Peta" },
+      { "D": "Meta" }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
     "question_no": 7,
-    "question": "",
-    "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
-    ],
-    "correct_ans": ""
+    "question": "How many V's of Big Data",
+    "options": [{ "A": "2" }, { "B": "3" }, { "C": "4" }, { "D": "5" }],
+    "correct_ans": "D"
   },
   {
     "question_no": 8,
-    "question": "",
+    "question": "Transaction data of the bank is?",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      { "A": "structured data" },
+      { "B": "unstructured data" },
+      { "C": "Both A and B" },
+      { "D": "None of the above" }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
     "question_no": 9,
-    "question": "",
-    "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
-    ],
-    "correct_ans": ""
+    "question": "In how many forms BigData could be found?",
+    "options": [{ "A": "2" }, { "B": "3" }, { "C": "4" }, { "D": "5" }],
+    "correct_ans": "B"
   },
   {
     "question_no": 10,
-    "question": "",
+    "question": "Which of the following are Benefits of Big Data Processing?",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      {
+        "A": "Businesses can utilize outside intelligence while taking decisions"
+      },
+      { "B": "Improved customer service" },
+      { "C": "Better operational efficiency" },
+      { "D": "All of the above" }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
     "question_no": 11,

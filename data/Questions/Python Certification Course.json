@@ -303,5 +303,745 @@
       { "D": "Multiple" }
     ],
     "correct_ans": "A"
+  },
+  {
+    "question_no": 31,
+    "question": "What is the maximum possible length of an identifier?",
+    "options": [
+      { "A": "16" },
+      { "B": "32" },
+      { "C": "64" },
+      { "D": "None of these above" }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 32,
+    "question": "Who developed the Python language?",
+    "options": [
+      { "A": "Zim Den" },
+      { "B": "Guido van Rossum" },
+      { "C": "Niene Stom" },
+      { "D": "Wick van Rossum" }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 33,
+    "question": "In which year was the Python language developed?",
+    "options": [
+      { "A": "1995" },
+      { "B": "1972" },
+      { "C": "1981" },
+      { "D": "1989" }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 34,
+    "question": "In which language is Python written?",
+    "options": [
+      { "A": "English" },
+      { "B": "PHP" },
+      { "C": "C" },
+      { "D": "All of the above" }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 35,
+    "question": "In which year was the Python 3.0 version developed?",
+    "options": [
+      { "A": "2008" },
+      { "B": "2000" },
+      { "C": "2010" },
+      { "D": "2005" }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 36,
+    "question": "What do we use to define a block of code in Python language?",
+    "options": [
+      { "A": "Key" },
+      { "B": "Brackets" },
+      { "C": "Indentation" },
+      { "D": " None of these" }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 37,
+    "question": "Which character is used in Python to make a single line comment?",
+    "options": [{ "A": "/" }, { "B": "//" }, { "C": "#" }, { "D": "!" }],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 38,
+    "question": "What is the method inside the class in python language?",
+    "options": [
+      { "A": "Object" },
+      { "B": "Function" },
+      { "C": "Attribute" },
+      { "D": "Argument" }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 39,
+    "question": "Which of the following declarations is incorrect?",
+    "options": [
+      { "A": "_x = 2" },
+      { "B": "__x = 3" },
+      { "C": "__x = 3" },
+      { "D": "None of these" }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 40,
+    "question": "Which of the following is not a type of inheritance?",
+    "options": [
+      { "A": "Double-level" },
+      { "B": "Multi-level" },
+      { "C": "Single-level" },
+      { "D": "Multiple" }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 41,
+    "question": "Why does the name of local variables start with an underscore discouraged?",
+    "options": [
+      { "A": "To identify the variable" },
+      { "B": "It confuses the interpreter" },
+      { "C": "It indicates a private variable of a class" },
+      { "D": "None of these" }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 42,
+    "question": "Which of the following is not a keyword in Python language?",
+    "options": [
+      { "A": "val" },
+      { "B": "raise" },
+      { "C": "try" },
+      { "D": "with" }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 43,
+    "question": "Which of the following words cannot be a variable in python language?",
+    "options": [
+      { "A": "_val" },
+      { "B": "val" },
+      { "C": "try" },
+      { "D": "_try_" }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 44,
+    "question": "Which of the following operators is the correct option for power(ab)?",
+    "options": [
+      { "A": "a ^ b" },
+      { "B": "a**b" },
+      { "C": "a ^ ^ b" },
+      { "D": "a ^ * b" }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 45,
+    "question": "Which one of the following has the highest precedence in the expression?",
+    "options": [
+      { "A": "Division" },
+      { "B": "Subtraction" },
+      { "C": "Power" },
+      { "D": "Parentheses" }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 46,
+    "question": "Which of the following functions is a built-in function in python language?",
+    "options": [
+      { "A": "val()" },
+      { "B": "print()" },
+      { "C": "Print()" },
+      { "D": "None of these" }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 47,
+    "question": "What happens when ‘2’ == 2 is executed?",
+    "options": [
+      { "A": "False" },
+      { "B": "True" },
+      { "C": "ValueError occurs" },
+      { "D": "TypeError occurs" }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 48,
+    "question": "How we can change the shape of the Numpy array in python?",
+    "options": [
+      { "A": "By Shape()" },
+      { "B": "By reshape()" },
+      { "C": "By ord()" },
+      { "D": "By change()" }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 49,
+    "question": "How we can convert the Numpy array to the list in python?",
+    "options": [
+      { "A": "list(array)" },
+      { "B": "list.array" },
+      { "C": "array.list" },
+      { "D": "None of the above" }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 50,
+    "question": "How we can find the type of numpy array in python ?",
+    "options": [
+      { "A": "dtype" },
+      { "B": "type" },
+      { "C": "typei" },
+      { "D": "itype" }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 51,
+    "question": "How we install Numpy in the system ?",
+    "options": [
+      { "A": "install numpy" },
+      { "B": "pip install python numpy" },
+      { "C": "pip install numpy" },
+      { "D": "pip install numpy python" }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 52,
+    "question": "It is possible to convert the Numpy array to list in python ?",
+    "options": [
+      { "A": "Yes" },
+      { "B": "No" },
+      { "C": "Sometimes" },
+      { "D": "None of the above" }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 53,
+    "question": "Minimum number of argument to pass in full() function in Numpy array ?",
+    "options": [{ "A": "0" }, { "B": "1" }, { "C": "2" }, { "D": "3" }],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 54,
+    "question": "Numpy in the Python provides the",
+    "options": [
+      { "A": "Function" },
+      { "B": "Lambda function" },
+      { "C": "Type casting" },
+      { "D": "Array" }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 55,
+    "question": "Numpy.array(list), what it does ?",
+    "options": [
+      { "A": "It convert array to list" },
+      { "B": "It convert list to array" },
+      { "C": "It convert array to array" },
+      { "D": "Error" }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 56,
+    "question": "Shape() function in Numpy array is used to",
+    "options": [
+      { "A": "Find the shape of the array" },
+      { "B": "Change the shape of the array" },
+      { "C": "Both of the above" },
+      { "D": "None of the above" }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 57,
+    "question": "Python pandas was developed by?",
+    "options": [
+      { "A": "Guido van Rossum" },
+      { "B": "Travis Oliphant" },
+      { "C": "Wes McKinney" },
+      { "D": "Brendan Eich" }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 58,
+    "question": "Axis 1, in panel represent?",
+    "options": [
+      { "A": "minor_axis" },
+      { "B": "major_axis" },
+      { "C": "items" },
+      { "D": "None of the above" }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 59,
+    "question": "Which of the following thing can be data in Pandas?",
+    "options": [
+      { "A": "a python dict" },
+      { "B": "an ndarray" },
+      { "C": "a scalar value" },
+      { "D": "All of the above" }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 60,
+    "question": "SciPy stands for?",
+    "options": [
+      { "A": "science library" },
+      { "B": "source library" },
+      { "C": "significant library" },
+      { "D": "scientific library" }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 61,
+    "question": "Which of the following is not correct sub-packages of SciPy?",
+    "options": [
+      { "A": "scipy.cluster" },
+      { "B": "scipy.source" },
+      { "C": "scipy.source" },
+      { "D": "scipy.signal" }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 62,
+    "question": "Which of the following option is not a core data type in the python language?",
+    "options": [
+      { "A": "Dictionary" },
+      { "B": "Lists" },
+      { "C": "Class" },
+      { "D": "All of the above" }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 63,
+    "question": "what is the use of the zeros() function in Numpy array in python ?",
+    "options": [
+      { "A": "To make a Matrix with all element 0" },
+      { "B": "To make a Matrix with all diagonal element 0" },
+      { "C": "To make a Matrix with first row 0" },
+      { "D": "None of the above" }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 64,
+    "question": "Which of the following counts the number of elements in Numpy array ?",
+    "options": [
+      { "A": "count()" },
+      { "B": "count()" },
+      { "C": "shape()" },
+      { "D": "size()" }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 65,
+    "question": "Which of the following is correct way to import the Numpy module in your program ?",
+    "options": [
+      { "A": "import numpy" },
+      { "B": "import numpy as np" },
+      { "C": "from numpy import *" },
+      { "D": "All of the above" }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 66,
+    "question": "Which of the following thing can be data in Pandas?",
+    "options": [
+      { "A": "a python dict" },
+      { "B": "an ndarray" },
+      { "C": "a scalar value" },
+      { "D": "All of the above" }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 67,
+    "question": "what is constant defined for Boltzmann constant in SciPy?",
+    "options": [{ "A": "G" }, { "B": "e" }, { "C": "R" }, { "D": " k" }],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 68,
+    "question": "round(4.576) <br> What will be the output of this function?",
+    "options": [{ "A": "4" }, { "B": "6" }, { "C": "576" }, { "D": "5" }],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 69,
+    "question": "Study the following statement: <br> >>>”a”+”bc” <br> What will be the output of this statement?",
+    "options": [{ "A": "a+bc" }, { "B": "abc" }, { "C": "a bc" }, { "D": "a" }],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 70,
+    "question": "Study the following code: <br> >>>”javatpoint”[5:] <br> What will be the output of this code?",
+    "options": [
+      { "A": "javatpoint" },
+      { "B": "java" },
+      { "C": "point" },
+      { "D": "None of these" }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 71,
+    "question": "What error will occur when you execute the following code? <br> MANGO = APPLE",
+    "options": [
+      { "A": "NameError" },
+      { "B": "SyntaxError" },
+      { "C": "TypeError" },
+      { "D": "ValueError" }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 72,
+    "question": "What is the use of the size attribute in Numpy array in python ?",
+    "options": [
+      { "A": "It find the direction" },
+      { "B": "It find the number of items" },
+      { "C": "It find the shape" },
+      { "D": "All of the above" }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 73,
+    "question": "Which of the following keyword is used to access the numpy module in python ?",
+    "options": [
+      { "A": "access" },
+      { "B": "import" },
+      { "C": "fetch" },
+      { "D": "from" }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 74,
+    "question": "In SciPy, determinant is computed using?",
+    "options": [
+      { "A": "determinant()" },
+      { "B": "SciPy.determinant()" },
+      { "C": "det()" },
+      { "D": "SciPy.det()" }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 75,
+    "question": "Find the invalid variable among the following:",
+    "options": [
+      { "A": "1st_string" },
+      { "B": "my_string_1" },
+      { "C": "_" },
+      { "D": "foo" }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 76,
+    "question": "Which one of these is incorrect?",
+    "options": [
+      { "A": "float(‘nan’)" },
+      { "B": "float(‘inf’)" },
+      { "C": "float(’12+34′)" },
+      { "D": "float(’56’+’78’)" }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 77,
+    "question": "The value of the Python expression given below would be: <br> 4+2**5//10",
+    "options": [{ "A": "77" }, { "B": "0" }, { "C": "3" }, { "D": "7" }],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 78,
+    "question": "The return value for trunc() would be:",
+    "options": [
+      { "A": "bool" },
+      { "B": "float" },
+      { "C": "int" },
+      { "D": "None" }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 79,
+    "question": "Which of these functions can NOT be defined under the sys module?",
+    "options": [
+      { "A": "sys.argv" },
+      { "B": "sys.readline" },
+      { "C": "sys.path" },
+      { "D": "sys.platform" }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 80,
+    "question": "Which function doesn’t accept any argument?",
+    "options": [
+      { "A": "re.compile" },
+      { "B": "re.findall" },
+      { "C": "re.match" },
+      { "D": "re.purge" }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 81,
+    "question": "The hasattr(obj,name) is used to:",
+    "options": [
+      { "A": "The hasattr(obj,name) is used to:" },
+      { "B": "set an attribute" },
+      { "C": "access the object’s attribute" },
+      { "D": "delete an attribute" }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 82,
+    "question": "In Python, find which one isn’t an exception handling keyword.",
+    "options": [
+      { "A": "accept" },
+      { "B": "finally" },
+      { "C": "try" },
+      { "D": "except" }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 83,
+    "question": "Python is a ___object-oriented programming language.",
+    "options": [
+      { "A": "Special purpose" },
+      { "B": "General purpose" },
+      { "C": "Medium level programming language" },
+      { "D": "All of the mentioned above" }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 84,
+    "question": "Amongst which of the following is / are the Numeric Types of Data Types?",
+    "options": [
+      { "A": "int" },
+      { "B": "float" },
+      { "C": "complex" },
+      { "D": "All of the mentioned above" }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 85,
+    "question": "list, tuple, and range are the ___ of Data Types.",
+    "options": [
+      { "A": "Sequence Types" },
+      { "B": "Binary Types" },
+      { "C": "Boolean Types" },
+      { "D": "None of the mentioned above" }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 86,
+    "question": "bytes, bytearray, memoryview are type of the ___ data type.",
+    "options": [
+      { "A": "Mapping Type" },
+      { "B": "Boolean Type" },
+      { "C": "Binary Types" },
+      { "D": "None of the mentioned above" }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 87,
+    "question": "What is the name of the operator ** in Python?",
+    "options": [
+      { "A": "Exponentiation" },
+      { "B": "Modulus" },
+      { "C": "Single-level" },
+      { "D": "Multiple" }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 88,
+    "question": "The % operator returns the ___.",
+    "options": [
+      { "A": "Quotient" },
+      { "B": "Divisor" },
+      { "C": "Remainder" },
+      { "D": "None of the mentioned above" }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 89,
+    "question": "Python Dictionary is used to store the data in a ___ format.",
+    "options": [
+      { "A": "Key value pair" },
+      { "B": "Group value pair" },
+      { "C": "Select value pair" },
+      { "D": "None of the mentioned above" }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 90,
+    "question": "Conditional statements are also known as ___ statements.",
+    "options": [
+      { "A": "Decision-making" },
+      { "B": "Array" },
+      { "C": "List" },
+      { "D": "None of the mentioned above" }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 91,
+    "question": "In a Python program, Nested if Statements denotes?",
+    "options": [
+      { "A": "if statement inside another if statement" },
+      { "B": "if statement outside the another if statement" },
+      { "C": "Both A and B" },
+      { "D": "None of the mentioned above" }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 92,
+    "question": "In Python, ___ defines a block of statements.",
+    "options": [
+      { "A": "Block" },
+      { "B": "Loop" },
+      { "C": "Indentation" },
+      { "D": "None of the mentioned above" }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 93,
+    "question": "In Python, the break and continue statements, together are called ___ statement.",
+    "options": [
+      { "A": "Jump" },
+      { "B": "goto" },
+      { "C": "compound" },
+      { "D": "None of the mentioned above" }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 94,
+    "question": "The continue keyword is used to ___ the current iteration in a loop.",
+    "options": [
+      { "A": "Initiate" },
+      { "B": "Start" },
+      { "C": "End" },
+      { "D": "None of the mentioned above" }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 95,
+    "question": "Amongst which of the following shows the types of function calls in Python?",
+    "options": [
+      { "A": "Call by value" },
+      { "B": "Call by reference" },
+      { "C": "Both A and B" },
+      { "D": "None of the mentioned above" }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 96,
+    "question": "Amongst which of the following is a function which does not have any name?",
+    "options": [
+      { "A": "Del function" },
+      { "B": "Show function" },
+      { "C": "Lambda function" },
+      { "D": "None of the mentioned above" }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 97,
+    "question": "Amongst which of the following is / are needed to open an existing file?",
+    "options": [
+      { "A": "filename" },
+      { "B": "mode" },
+      { "C": "Both A and B" },
+      { "D": "None of the mentioned above" }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 98,
+    "question": "The function file_object.close() is used to ___.",
+    "options": [
+      { "A": "To open the existing file" },
+      { "B": "To append in an opened file" },
+      { "C": "To close an opened file" },
+      { "D": "None of the mentioned above" }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 99,
+    "question": "The write() method takes a string as an argument and ___.",
+    "options": [
+      { "A": "writes it to the text file" },
+      { "B": "read from the text file" },
+      { "C": "append in a text file" },
+      { "D": "None of the mentioned above" }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 100,
+    "question": "The seek() method is used to ___.",
+    "options": [
+      { "A": "Saves the file in secondary storage" },
+      { "B": "Position the file object at a particular position in a file" },
+      { "C": "Deletes the file form secondary storage" },
+      { "D": "None of the mentioned above" }
+    ],
+    "correct_ans": "B"
   }
 ]
