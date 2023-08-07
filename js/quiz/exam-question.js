@@ -136,14 +136,10 @@ const answerSelect = () => {
 
       optionList[i].classList.add("select");
 
-      const splitQuestionNo =
-        optionList[
-          i
-        ].parentNode.previousElementSibling.previousElementSibling.innerText.split(
-          " "
-        );
+      const questionNo =
+        optionList[i].parentNode.previousElementSibling.previousElementSibling
+          .innerText;
 
-      const questionNo = splitQuestionNo[splitQuestionNo.length - 1];
       const selectedAns = optionList[i].childNodes[1].innerText;
 
       //   get answer format from the localStorage
@@ -262,7 +258,11 @@ const quizShow = () => {
         questionCard.setAttribute("id", `q-${index + 1}`);
 
         const questionNo = document.createElement("h2");
-        questionNo.innerText = "Question No: " + question?.question_no;
+        questionNo.innerText = "Question No: " + (index + 1);
+
+        const hiddenOriginalQuestionNo = document.createElement("span");
+        hiddenOriginalQuestionNo.innerText = question?.question_no;
+        hiddenOriginalQuestionNo.style.display = "none";
 
         const questionName = document.createElement("h2");
         questionName.innerText = question?.question;
@@ -284,7 +284,12 @@ const quizShow = () => {
           optionDiv.appendChild(optionName);
         });
 
-        questionCard.append(questionNo, questionName, optionDiv);
+        questionCard.append(
+          questionNo,
+          hiddenOriginalQuestionNo,
+          questionName,
+          optionDiv
+        );
         questionsDiv.appendChild(questionCard);
       });
 

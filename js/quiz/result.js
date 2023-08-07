@@ -132,8 +132,9 @@ const calculateMark = () => {
         const cardDiv = document.createElement("div");
         cardDiv.classList.add("card");
 
+        // <h2>Question No: ${questionNo}</h2>
         cardDiv.innerHTML = `
-        <h2>Question No: ${questionNo}</h2>
+        
         <h1>${questionName}</h1>
         
         `;
