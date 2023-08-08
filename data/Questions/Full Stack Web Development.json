@@ -1,0 +1,1902 @@
+[
+  {
+    "question_no": 1,
+    "question": "What is HTML?",
+    "options": [
+      {
+        "A": "HTML describes the structure of a webpage"
+      },
+      {
+        "B": "HTML is the standard markup language mainly used to create web pages"
+      },
+      {
+        "C": "HTML consists of a set of elements that helps the browser how to view the content"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 2,
+    "question": "Who is the father of HTML?",
+    "options": [
+      {
+        "A": "Rasmus Lerdorf"
+      },
+      {
+        "B": "Tim Berners-Lee"
+      },
+      {
+        "C": "Brendan Eich"
+      },
+      {
+        "D": "Sergey Brin"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 3,
+    "question": "HTML stands for __________",
+    "options": [
+      {
+        "A": "HyperText Markup Language"
+      },
+      {
+        "B": "HyperText Machine Language"
+      },
+      {
+        "C": "HyperText Marking Language"
+      },
+      {
+        "D": "HighText Marking Language"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 4,
+    "question": "What is the correct syntax of doctype in HTML5?",
+    "options": [
+      {
+        "A": "</doctype html>"
+      },
+      {
+        "B": "<doctype html>"
+      },
+      {
+        "C": "<doctype html!>"
+      },
+      {
+        "D": "<!doctype html>"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 5,
+    "question": "Which of the following is used to read an HTML page and render it?",
+    "options": [
+      {
+        "A": "Web server"
+      },
+      {
+        "B": "Web network"
+      },
+      {
+        "C": "Web browser"
+      },
+      {
+        "D": "Web matrix"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 6,
+    "question": "Which of the following tag is used for inserting the largest heading in HTML?",
+    "options": [
+      {
+        "A": "head"
+      },
+      {
+        "B": "<h1>"
+      },
+      {
+        "C": "<h6>"
+      },
+      {
+        "D": "heading"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 7,
+    "question": "What is DOM in HTML?",
+    "options": [
+      {
+        "A": "Language dependent application programming"
+      },
+      {
+        "B": "Hierarchy of objects in ASP.NET"
+      },
+      {
+        "C": "Application programming interface"
+      },
+      {
+        "D": "Convention for representing and interacting with objects in html documents"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 8,
+    "question": "In which part of the HTML metadata is contained?",
+    "options": [
+      {
+        "A": "head tag"
+      },
+      {
+        "B": "title tag"
+      },
+      {
+        "C": "html tag"
+      },
+      {
+        "D": "body tag"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "Which element is used to get highlighted text in HTML5?",
+    "options": [
+      {
+        "A": "<u>"
+      },
+      {
+        "B": "<mark>"
+      },
+      {
+        "C": "<highlight>"
+      },
+      {
+        "D": "<b>"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 10,
+    "question": "Which of the following is not a HTML5 tag?",
+    "options": [
+      {
+        "A": "<track>"
+      },
+      {
+        "B": "<video>"
+      },
+      {
+        "C": "<slider>"
+      },
+      {
+        "D": "<source>"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 11,
+    "question": "How do we write comments in HTML?",
+    "options": [
+      {
+        "A": "</…….>"
+      },
+      {
+        "B": "<!……>"
+      },
+      {
+        "C": "</……/>"
+      },
+      {
+        "D": "<…….!>"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 12,
+    "question": "Which of the following elements in HTML5 defines video or movie content?",
+    "options": [
+      {
+        "A": "<video>"
+      },
+      {
+        "B": "<movie>"
+      },
+      {
+        "C": "<audio>"
+      },
+      {
+        "D": "<media>"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "Which of the following is not the element associated with the HTML table layout?",
+    "options": [
+      {
+        "A": "alignment"
+      },
+      {
+        "B": "color"
+      },
+      {
+        "C": "size"
+      },
+      {
+        "D": "spanning"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 14,
+    "question": "Which element is used for or styling HTML5 layout?",
+    "options": [
+      {
+        "A": "CSS"
+      },
+      {
+        "B": "jQuery"
+      },
+      {
+        "C": "JavaScript"
+      },
+      {
+        "D": "PHP"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "Which HTML tag is used for making character appearance bold?",
+    "options": [
+      {
+        "A": "<u>content</u>"
+      },
+      {
+        "B": "<b>content</b>"
+      },
+      {
+        "C": "<br>content</br>"
+      },
+      {
+        "D": "<i>content</i>"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 16,
+    "question": "Which HTML tag is used to insert an image?",
+    "options": [
+      {
+        "A": "<img url=”htmllogo.jpg” />"
+      },
+      {
+        "B": "<img alt=”htmllogo.jpg” />"
+      },
+      {
+        "C": "<img alt=”htmllogo.jpg” />"
+      },
+      {
+        "D": "<img link=”htmllogo.jpg” />"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 17,
+    "question": "HTML is a subset of ___________",
+    "options": [
+      {
+        "A": "SGMT"
+      },
+      {
+        "B": "SGML"
+      },
+      {
+        "C": "SGME"
+      },
+      {
+        "D": "XHTML"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 18,
+    "question": "Among the following, which is the HTML paragraph tag?",
+    "options": [
+      {
+        "A": "<p>"
+      },
+      {
+        "B": "<pre>"
+      },
+      {
+        "C": "<hr>"
+      },
+      {
+        "D": "<a>"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "Which HTML element is used for short quote?",
+    "options": [
+      {
+        "A": "<em>"
+      },
+      {
+        "B": "<abbr>"
+      },
+      {
+        "C": "<q>"
+      },
+      {
+        "D": "<blockquote>"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 20,
+    "question": "Which of the following HTML tag is used to create an unordered list?",
+    "options": [
+      {
+        "A": "<ol>"
+      },
+      {
+        "B": "<ul>"
+      },
+      {
+        "C": "<li>"
+      },
+      {
+        "D": "<ll>"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 21,
+    "question": "Which of the following HTML tag is used to add a row in a table?s",
+    "options": [
+      {
+        "A": "<th>"
+      },
+      {
+        "B": "<td>"
+      },
+      {
+        "C": "<tr>"
+      },
+      {
+        "D": "<tt>"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 22,
+    "question": "Which tag is used to create a dropdown in HTML Form?",
+    "options": [
+      {
+        "A": "input"
+      },
+      {
+        "B": "select"
+      },
+      {
+        "C": "text"
+      },
+      {
+        "D": "textarea"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 23,
+    "question": "Which of the following extension is used to save an HTML file?",
+    "options": [
+      {
+        "A": ".hl"
+      },
+      {
+        "B": ".h"
+      },
+      {
+        "C": ".htl"
+      },
+      {
+        "D": ".html"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 24,
+    "question": "Which tag is used to create a blank line in HTML?",
+    "options": [
+      {
+        "A": "b"
+      },
+      {
+        "B": "br"
+      },
+      {
+        "C": "i"
+      },
+      {
+        "D": "li"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 25,
+    "question": "What is the use of <hr/> tag in HTML?",
+    "options": [
+      {
+        "A": "For making content appearance italics"
+      },
+      {
+        "B": "To create vertical rule between sections"
+      },
+      {
+        "C": "To create a line break"
+      },
+      {
+        "D": "To create horizontal rule between sections"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 26,
+    "question": "Which attribute specifies a unique alphanumeric identifier to be associated with an element?",
+    "options": [
+      {
+        "A": "type"
+      },
+      {
+        "B": "article"
+      },
+      {
+        "C": "id"
+      },
+      {
+        "D": "class"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 27,
+    "question": "Which of the following is an HTML specification used to add more information to HTML tags?",
+    "options": [
+      {
+        "A": "Modifydata"
+      },
+      {
+        "B": "Minidata"
+      },
+      {
+        "C": "Macrodata"
+      },
+      {
+        "D": "Microdata"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 28,
+    "question": "Which HTML element is used for YouTube videos?",
+    "options": [
+      {
+        "A": "<samp>"
+      },
+      {
+        "B": "<small>"
+      },
+      {
+        "C": "<frame>"
+      },
+      {
+        "D": "<iframe>"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 29,
+    "question": "Which of the following HTML element is used for canvas graphics?",
+    "options": [
+      {
+        "A": "<css>"
+      },
+      {
+        "B": "<paint>"
+      },
+      {
+        "C": "<canvas>"
+      },
+      {
+        "D": "<graphic>"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 30,
+    "question": "HTML is the standard ____language for creating Web pages.",
+    "options": [
+      {
+        "A": "scripting"
+      },
+      {
+        "B": "programming"
+      },
+      {
+        "C": "styling"
+      },
+      {
+        "D": "markup"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 31,
+    "question": "Which element/tag defines a paragraph?",
+    "options": [
+      {
+        "A": "<p>"
+      },
+      {
+        "B": "<pre>"
+      },
+      {
+        "C": "<panel>"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 32,
+    "question": "Which tag/element defines the HTML document's body?",
+    "options": [
+      {
+        "A": "<HTML>"
+      },
+      {
+        "B": "<HTMLbody>"
+      },
+      {
+        "C": "<bdy>"
+      },
+      {
+        "D": "<body>"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 33,
+    "question": "Which tag contains the meta information about the HTML page?",
+    "options": [
+      {
+        "A": "<html>"
+      },
+      {
+        "B": "<title>"
+      },
+      {
+        "C": "<head>"
+      },
+      {
+        "D": "<body>"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 34,
+    "question": "Which tag is the root element of an HTML page?",
+    "options": [
+      {
+        "A": "<html>"
+      },
+      {
+        "B": "<title>"
+      },
+      {
+        "C": "<head>"
+      },
+      {
+        "D": "<body>"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 35,
+    "question": "HTML tags with no content are called _____.",
+    "options": [
+      {
+        "A": "Special tags"
+      },
+      {
+        "B": "Advanced tags"
+      },
+      {
+        "C": "Empty tags"
+      },
+      {
+        "D": "Other tags"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 36,
+    "question": "HTML headings are defined with the _____ tags.",
+    "options": [
+      {
+        "A": "<head1> to <head6>"
+      },
+      {
+        "B": "<p1> to <p6>"
+      },
+      {
+        "C": "<h1> to <h6>"
+      },
+      {
+        "D": "<h1> to <h3>"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 37,
+    "question": "Which HTML attribute is used to define styles of an element?",
+    "options": [
+      {
+        "A": "<style>"
+      },
+      {
+        "B": "<css>"
+      },
+      {
+        "C": "style"
+      },
+      {
+        "D": "css"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 38,
+    "question": "Which HTML tag is used to define a short quotation?",
+    "options": [
+      {
+        "A": "<quotation>"
+      },
+      {
+        "B": "<quote>"
+      },
+      {
+        "C": "<qut>"
+      },
+      {
+        "D": "<q>"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 39,
+    "question": "What HTML tag is used to define the contact information for the author/owner of a document or an article?",
+    "options": [
+      {
+        "A": "<contact>"
+      },
+      {
+        "B": "<authorinfo>"
+      },
+      {
+        "C": "<address>"
+      },
+      {
+        "D": "<addr>"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 40,
+    "question": "Which tag is used to override the current text direction?",
+    "options": [
+      {
+        "A": "<bdi>"
+      },
+      {
+        "B": "<bdo>"
+      },
+      {
+        "C": "<bdr>"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 41,
+    "question": "Why href attribute is used with <a> tag?",
+    "options": [
+      {
+        "A": "To define title text"
+      },
+      {
+        "B": "To define reference of a document"
+      },
+      {
+        "C": "To define destination URL"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 42,
+    "question": "Which tag is used to create an HTML form for user input?",
+    "options": [
+      {
+        "A": "<form>"
+      },
+      {
+        "B": "<input>"
+      },
+      {
+        "C": "<form_put>"
+      },
+      {
+        "D": "<form_get>"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 43,
+    "question": "Which ____ attribute specifies where to open the linked document?",
+    "options": [
+      {
+        "A": "href"
+      },
+      {
+        "B": "link"
+      },
+      {
+        "C": "src"
+      },
+      {
+        "D": "target"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 44,
+    "question": "Which tag is used to embed an image in an HTML document?",
+    "options": [
+      {
+        "A": "<img>"
+      },
+      {
+        "B": "<pic>"
+      },
+      {
+        "C": "<image>"
+      },
+      {
+        "D": "<picture>"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 45,
+    "question": "Which attribute specifies the path to the image?",
+    "options": [
+      {
+        "A": "href"
+      },
+      {
+        "B": "link"
+      },
+      {
+        "C": "src"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 46,
+    "question": "Which HTML tag is used to define a table?",
+    "options": [
+      {
+        "A": "<table>"
+      },
+      {
+        "B": "<tables>"
+      },
+      {
+        "C": "<tr>"
+      },
+      {
+        "D": "<th>"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 47,
+    "question": "Each table cell is defined by a ____ tag.",
+    "options": [
+      {
+        "A": "<cell> ... </cell>"
+      },
+      {
+        "B": "<tr> ... </tr>"
+      },
+      {
+        "C": "<th> ... </th>"
+      },
+      {
+        "D": "<td> ... </td>"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 48,
+    "question": "Each table row is defined by a ____ tag.",
+    "options": [
+      {
+        "A": "<cell> ... </cell>"
+      },
+      {
+        "B": "<tr> ... </tr>"
+      },
+      {
+        "C": "<th> ... </th>"
+      },
+      {
+        "D": "<td> ... </td>"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 49,
+    "question": "Each table header is defined by a ____ tag.",
+    "options": [
+      {
+        "A": "<cell> ... </cell>"
+      },
+      {
+        "B": "<tr> ... </tr>"
+      },
+      {
+        "C": "<th> ... </th>"
+      },
+      {
+        "D": "<td> ... </td>"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 50,
+    "question": "Which tag is a block-level element?",
+    "options": [
+      {
+        "A": "<block> ... </block>"
+      },
+      {
+        "B": "<b> ... </b>"
+      },
+      {
+        "C": "<div> ... </div>"
+      },
+      {
+        "D": "<divx> ... </divx>"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 51,
+    "question": "What is JavaScript?",
+    "options": [
+      {
+        "A": "scripting language"
+      },
+      {
+        "B": "assembly language"
+      },
+      {
+        "C": "compiled language"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 52,
+    "question": "Which of the following is correct about JavaScript?",
+    "options": [
+      {
+        "A": "JavaScript is an Object-Based language"
+      },
+      {
+        "B": " JavaScript is Assembly-language"
+      },
+      {
+        "C": "JavaScript is an Object-Oriented language"
+      },
+      {
+        "D": "JavaScript is a High-level language"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 53,
+    "question": "Arrays in JavaScript are defined by which of the following statements?",
+    "options": [
+      {
+        "A": "It is an ordered list of values"
+      },
+      {
+        "B": "It is an ordered list of objects"
+      },
+      {
+        "C": "It is an ordered list of string"
+      },
+      {
+        "D": "It is an ordered list of functions"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 54,
+    "question": "Which of the following is not javascript data types?",
+    "options": [
+      {
+        "A": "Null type"
+      },
+      {
+        "B": "Undefined type"
+      },
+      {
+        "C": "Number type"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 55,
+    "question": "Where is Client-side JavaScript code is embedded within HTML documents?",
+    "options": [
+      {
+        "A": "A URL that uses the special javascript:code"
+      },
+      {
+        "B": "A URL that uses the special javascript:protocol"
+      },
+      {
+        "C": "A URL that uses the special javascript:encoding"
+      },
+      {
+        "D": "A URL that uses the special javascript:stack"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 56,
+    "question": "Which of the following object is the main entry point to all client-side JavaScript features and APIs?",
+    "options": [
+      {
+        "A": "Position"
+      },
+      {
+        "B": "Window"
+      },
+      {
+        "C": "Standard"
+      },
+      {
+        "D": "Location"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 57,
+    "question": "Which of the following can be used to call a JavaScript Code Snippet?",
+    "options": [
+      {
+        "A": "Function/Method"
+      },
+      {
+        "B": "Preprocessor"
+      },
+      {
+        "C": "Triggering Event"
+      },
+      {
+        "D": "RMI"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 58,
+    "question": "Which of the following scoping type does JavaScript use?",
+    "options": [
+      {
+        "A": "Sequential"
+      },
+      {
+        "B": "Segmental"
+      },
+      {
+        "C": "Lexical"
+      },
+      {
+        "D": "Literal"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 59,
+    "question": "What is the basic difference between JavaScript and Java?",
+    "options": [
+      {
+        "A": "Functions are considered as fields"
+      },
+      {
+        "B": " Functions are values, and there is no hard distinction between methods and fields"
+      },
+      {
+        "C": "Variables are specific"
+      },
+      {
+        "D": "There is no difference"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 60,
+    "question": "Why JavaScript Engine is needed?",
+    "options": [
+      {
+        "A": "Both Compiling & Interpreting the JavaScript"
+      },
+      {
+        "B": "Parsing the javascript"
+      },
+      {
+        "C": "Interpreting the JavaScript"
+      },
+      {
+        "D": "Compiling the JavaScript"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 61,
+    "question": "What is CSS?",
+    "options": [
+      {
+        "A": " CSS is a style sheet language"
+      },
+      {
+        "B": "CSS is designed to separate the presentation and content, including layout, colors, and fonts"
+      },
+      {
+        "C": "CSS is the language used to style the HTML documents"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 62,
+    "question": "Which of the following tag is used to embed css in html page?",
+    "options": [
+      {
+        "A": "<css>"
+      },
+      {
+        "B": "<!DOCTYPE html>"
+      },
+      {
+        "C": "<script>"
+      },
+      {
+        "D": "<style>"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 63,
+    "question": "Which of the following CSS selectors are used to specify a group of elements?",
+    "options": [
+      {
+        "A": "tag"
+      },
+      {
+        "B": "id"
+      },
+      {
+        "C": "class"
+      },
+      {
+        "D": "both class and tag"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 64,
+    "question": "Which of the following has introduced text, list, box, margin, border, color, and background properties?",
+    "options": [
+      {
+        "A": "HTML"
+      },
+      {
+        "B": "PHP"
+      },
+      {
+        "C": "CSS"
+      },
+      {
+        "D": "Ajax"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 65,
+    "question": "Which of the following CSS framework is used to create a responsive design?",
+    "options": [
+      {
+        "A": "django"
+      },
+      {
+        "B": "rails"
+      },
+      {
+        "C": "larawell"
+      },
+      {
+        "D": "bootstrap"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 66,
+    "question": "Which of the following CSS selector is used to specify a rule to bind a particular unique element?",
+    "options": [
+      {
+        "A": "tag"
+      },
+      {
+        "B": "id"
+      },
+      {
+        "C": "class"
+      },
+      {
+        "D": "both class and tag"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 67,
+    "question": "Which of the following type of HTML tag is used to define an internal style sheet?",
+    "options": [
+      {
+        "A": "<script>"
+      },
+      {
+        "B": "<link>"
+      },
+      {
+        "C": "<class>"
+      },
+      {
+        "D": "<style>"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 68,
+    "question": "Which of the following CSS style property is used to specify an italic text?",
+    "options": [
+      {
+        "A": "font"
+      },
+      {
+        "B": "font-style"
+      },
+      {
+        "C": "@font-face"
+      },
+      {
+        "D": "font-weight"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 69,
+    "question": "Which of the following are the CSS Extension Prefixes for Webkit?",
+    "options": [
+      {
+        "A": "-chrome"
+      },
+      {
+        "B": " -web"
+      },
+      {
+        "C": "-o-"
+      },
+      {
+        "D": "-webkit"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 70,
+    "question": "Which of the following function defines a linear gradient as a CSS image?",
+    "options": [
+      {
+        "A": "gradient()"
+      },
+      {
+        "B": "linear-gradient()"
+      },
+      {
+        "C": "grayscale()"
+      },
+      {
+        "D": "image()"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 71,
+    "question": "Which of the following CSS property can be used to set the image as a border instead of the border style?",
+    "options": [
+      {
+        "A": "background-image-source"
+      },
+      {
+        "B": "background-image"
+      },
+      {
+        "C": "border-image-source"
+      },
+      {
+        "D": "border-image"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 72,
+    "question": "Which of the following CSS property sets the font size of text?",
+    "options": [
+      {
+        "A": "font-size"
+      },
+      {
+        "B": "text-size"
+      },
+      {
+        "C": "text"
+      },
+      {
+        "D": "size"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 73,
+    "question": "Which of the following is not the property of the CSS box model?",
+    "options": [
+      {
+        "A": "margin"
+      },
+      {
+        "B": "color"
+      },
+      {
+        "C": "width"
+      },
+      {
+        "D": "height"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 74,
+    "question": "Which of the following CSS property is used to set the color of the text?",
+    "options": [
+      {
+        "A": "text-decoration"
+      },
+      {
+        "B": "pallet"
+      },
+      {
+        "C": "colour"
+      },
+      {
+        "D": "color"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 75,
+    "question": "React is also known as _____.",
+    "options": [
+      {
+        "A": "ReactJS"
+      },
+      {
+        "B": "js"
+      },
+      {
+        "C": "Both A. and B."
+      },
+      {
+        "D": "None of these"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 76,
+    "question": "React is a ____.",
+    "options": [
+      {
+        "A": "Web development Framework"
+      },
+      {
+        "B": "JavaScript Library"
+      },
+      {
+        "C": "jQuery"
+      },
+      {
+        "D": "Web Server"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 77,
+    "question": "Which ReactJS function renders HTML to the web page?",
+    "options": [
+      {
+        "A": "render()"
+      },
+      {
+        "B": "ReactDOM.render()"
+      },
+      {
+        "C": "renders()"
+      },
+      {
+        "D": "ReactDOM.renders()"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 78,
+    "question": "JSX stands for _____.",
+    "options": [
+      {
+        "A": "JSON"
+      },
+      {
+        "B": "JSON XML"
+      },
+      {
+        "C": "JavaScript XML"
+      },
+      {
+        "D": "JavaScript and AngularJS"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 79,
+    "question": ". JSX allows us to write _____.",
+    "options": [
+      {
+        "A": "jQuery in React"
+      },
+      {
+        "B": "Angular Code in React"
+      },
+      {
+        "C": "MySQL in React"
+      },
+      {
+        "D": "HTML in React"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 80,
+    "question": "What is the correct syntax to write expression in JSX?",
+    "options": [
+      {
+        "A": "[ expression ]"
+      },
+      {
+        "B": "{ expression }"
+      },
+      {
+        "C": "{{ expression }}"
+      },
+      {
+        "D": "_expression"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 81,
+    "question": "A class component must include the _______ statement.",
+    "options": [
+      {
+        "A": "extends React.Component"
+      },
+      {
+        "B": "extends React"
+      },
+      {
+        "C": "extends Component"
+      },
+      {
+        "D": "extends React.Component.All"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 82,
+    "question": "What does props stand for?",
+    "options": [
+      {
+        "A": "Proper Arguments"
+      },
+      {
+        "B": "Properties"
+      },
+      {
+        "C": "Proper Return Values"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 83,
+    "question": "Which ReactJS command is used to create a new application?",
+    "options": [
+      {
+        "A": "create-react-app"
+      },
+      {
+        "B": "new-react-app"
+      },
+      {
+        "C": "create-new-reactapp"
+      },
+      {
+        "D": "react-app"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 84,
+    "question": "How to install create-react-app?",
+    "options": [
+      {
+        "A": "npx create-react-app -new my-app"
+      },
+      {
+        "B": "npx create-react-app -app my-app"
+      },
+      {
+        "C": "npx new-react-app my-app"
+      },
+      {
+        "D": "npx create-react-app my-app"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 85,
+    "question": "ES6 stands for ____.",
+    "options": [
+      {
+        "A": "ECMAScript 6"
+      },
+      {
+        "B": "Extended-JavaScript Version 6"
+      },
+      {
+        "C": "Extensive-JavaScript 6"
+      },
+      {
+        "D": "Expanded-JavaScript 6"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 86,
+    "question": "Amongst which of the following is / are true about MongoDB?",
+    "options": [
+      {
+        "A": "MongoDB is a cross-platform database"
+      },
+      {
+        "B": "Document oriented database"
+      },
+      {
+        "C": "High performance database"
+      },
+      {
+        "D": "All of the mentioned above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 87,
+    "question": "The data model available within MongoDB allows us to represent ___.",
+    "options": [
+      {
+        "A": "Hierarchical relationships"
+      },
+      {
+        "B": "Able to handle complex structures"
+      },
+      {
+        "C": "Both A. and B."
+      },
+      {
+        "D": "None of the mentioned above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 88,
+    "question": "MongoDB is one of the leading NoSQL databases?",
+    "options": [
+      {
+        "A": "Yes"
+      },
+      {
+        "B": "No"
+      },
+      {
+        "C": "larawell"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 80,
+    "question": "A record in MongoDB is a ___.",
+    "options": [
+      {
+        "A": "Document"
+      },
+      {
+        "B": "Table"
+      },
+      {
+        "C": "Application"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 90,
+    "question": "MongoDB stores documents in ___.",
+    "options": [
+      {
+        "A": "Store"
+      },
+      {
+        "B": "Collections"
+      },
+      {
+        "C": "Indexes"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 91,
+    "question": "The Collections screen ___ the existing collections.",
+    "options": [
+      {
+        "A": "Lists"
+      },
+      {
+        "B": "Package"
+      },
+      {
+        "C": "Network"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 92,
+    "question": "A document is a set of ___.",
+    "options": [
+      {
+        "A": "Key-value pairs"
+      },
+      {
+        "B": "Application pairs"
+      },
+      {
+        "C": "Activity pair set"
+      },
+      {
+        "D": "None of the mentioned above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 93,
+    "question": " Field is a name-value pair in a ___.",
+    "options": [
+      {
+        "A": "Attribute"
+      },
+      {
+        "B": "Table"
+      },
+      {
+        "C": "Document"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 94,
+    "question": "MongoDB supports searching by ___.",
+    "options": [
+      {
+        "A": "Field"
+      },
+      {
+        "B": "Range queries"
+      },
+      {
+        "C": "Regular expression searches"
+      },
+      {
+        "D": "All of the mentioned above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 95,
+    "question": "Indexes can be created to improve the performance of searches within ___.",
+    "options": [
+      {
+        "A": "MongoDB"
+      },
+      {
+        "B": "NoSQL"
+      },
+      {
+        "C": "Both A. and B."
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 96,
+    "question": "MongoDB is rich in a flexible data model with dynamic schema –",
+    "options": [
+      {
+        "A": "True"
+      },
+      {
+        "B": "False"
+      },
+      {
+        "C": "Both A. and B."
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 97,
+    "question": "NoSQL is not a ___.",
+    "options": [
+      {
+        "A": "Relational database"
+      },
+      {
+        "B": "Network database"
+      },
+      {
+        "C": "Communication set"
+      },
+      {
+        "D": "None of the mentioned above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 98,
+    "question": "Amongst which of the following is / are the Integrated Feature Set of MongoDB –",
+    "options": [
+      {
+        "A": "Flexible with real-time applications"
+      },
+      {
+        "B": "Greatly deals with analytics and data visualization"
+      },
+      {
+        "C": "Event-driven streaming data pipelines"
+      },
+      {
+        "D": "All of the mentioned above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 99,
+    "question": "In MongoDB, db.dropDatabase () is used for ___.",
+    "options": [
+      {
+        "A": "Dropping Databases"
+      },
+      {
+        "B": "Creating a Collection"
+      },
+      {
+        "C": "Database Creation"
+      },
+      {
+        "D": "None of the mentioned above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 100,
+    "question": "Amongst which of the following is / are the command used to create collection in MongoDB?",
+    "options": [
+      {
+        "A": "db.dropDatabase()"
+      },
+      {
+        "B": "db.createCollection()"
+      },
+      {
+        "C": "Both A. and B."
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  }
+]

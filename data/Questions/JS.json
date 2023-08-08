@@ -1,0 +1,1427 @@
+[
+  {
+    "question_no": 50,
+    "question": "Which tag is a block-level element?",
+    "options": [
+      {
+        "A": "<block> ... </block>"
+      },
+      {
+        "B": "<b> ... </b>"
+      },
+      {
+        "C": "<div> ... </div>"
+      },
+      {
+        "D": "<divx> ... </divx>"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 51,
+    "question": "What is JavaScript?",
+    "options": [
+      {
+        "A": "scripting language"
+      },
+      {
+        "B": "assembly language"
+      },
+      {
+        "C": "compiled language"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 52,
+    "question": "Which of the following is correct about JavaScript?",
+    "options": [
+      {
+        "A": "JavaScript is an Object-Based language"
+      },
+      {
+        "B": " JavaScript is Assembly-language"
+      },
+      {
+        "C": "JavaScript is an Object-Oriented language"
+      },
+      {
+        "D": "JavaScript is a High-level language"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 53,
+    "question": "Arrays in JavaScript are defined by which of the following statements?",
+    "options": [
+      {
+        "A": "It is an ordered list of values"
+      },
+      {
+        "B": "It is an ordered list of objects"
+      },
+      {
+        "C": "It is an ordered list of string"
+      },
+      {
+        "D": "It is an ordered list of functions"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 54,
+    "question": "Which of the following is not javascript data types?",
+    "options": [
+      {
+        "A": "Null type"
+      },
+      {
+        "B": "Undefined type"
+      },
+      {
+        "C": "Number type"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 55,
+    "question": "Where is Client-side JavaScript code is embedded within HTML documents?",
+    "options": [
+      {
+        "A": "A URL that uses the special javascript:code"
+      },
+      {
+        "B": "A URL that uses the special javascript:protocol"
+      },
+      {
+        "C": "A URL that uses the special javascript:encoding"
+      },
+      {
+        "D": "A URL that uses the special javascript:stack"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 56,
+    "question": "Which of the following object is the main entry point to all client-side JavaScript features and APIs?",
+    "options": [
+      {
+        "A": "Position"
+      },
+      {
+        "B": "Window"
+      },
+      {
+        "C": "Standard"
+      },
+      {
+        "D": "Location"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 57,
+    "question": "Which of the following can be used to call a JavaScript Code Snippet?",
+    "options": [
+      {
+        "A": "Function/Method"
+      },
+      {
+        "B": "Preprocessor"
+      },
+      {
+        "C": "Triggering Event"
+      },
+      {
+        "D": "RMI"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 58,
+    "question": "Which of the following scoping type does JavaScript use?",
+    "options": [
+      {
+        "A": "Sequential"
+      },
+      {
+        "B": "Segmental"
+      },
+      {
+        "C": "Lexical"
+      },
+      {
+        "D": "Literal"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 59,
+    "question": "What is the basic difference between JavaScript and Java?",
+    "options": [
+      {
+        "A": "Functions are considered as fields"
+      },
+      {
+        "B": " Functions are values, and there is no hard distinction between methods and fields"
+      },
+      {
+        "C": "Variables are specific"
+      },
+      {
+        "D": "There is no difference"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 60,
+    "question": "Why JavaScript Engine is needed?",
+    "options": [
+      {
+        "A": "Both Compiling & Interpreting the JavaScript"
+      },
+      {
+        "B": "Parsing the javascript"
+      },
+      {
+        "C": "Interpreting the JavaScript"
+      },
+      {
+        "D": "Compiling the JavaScript"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  }
+]

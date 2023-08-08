@@ -1,0 +1,1408 @@
+[
+  {
+    "question_no": 1,
+    "question": "What is HTML?",
+    "options": [
+      {
+        "A": "HTML describes the structure of a webpage"
+      },
+      {
+        "B": "HTML is the standard markup language mainly used to create web pages"
+      },
+      {
+        "C": "HTML consists of a set of elements that helps the browser how to view the content"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 2,
+    "question": "Who is the father of HTML?",
+    "options": [
+      {
+        "A": "Rasmus Lerdorf"
+      },
+      {
+        "B": "Tim Berners-Lee"
+      },
+      {
+        "C": "Brendan Eich"
+      },
+      {
+        "D": "Sergey Brin"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 3,
+    "question": "HTML stands for __________",
+    "options": [
+      {
+        "A": "HyperText Markup Language"
+      },
+      {
+        "B": "HyperText Machine Language"
+      },
+      {
+        "C": "HyperText Marking Language"
+      },
+      {
+        "D": "HighText Marking Language"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 4,
+    "question": "What is the correct syntax of doctype in HTML5?",
+    "options": [
+      {
+        "A": "</doctype html>"
+      },
+      {
+        "B": "<doctype html>"
+      },
+      {
+        "C": "<doctype html!>"
+      },
+      {
+        "D": "<!doctype html>"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 5,
+    "question": "Which of the following is used to read an HTML page and render it?",
+    "options": [
+      {
+        "A": "Web server"
+      },
+      {
+        "B": "Web network"
+      },
+      {
+        "C": "Web browser"
+      },
+      {
+        "D": "Web matrix"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 6,
+    "question": "Which of the following tag is used for inserting the largest heading in HTML?",
+    "options": [
+      {
+        "A": "head"
+      },
+      {
+        "B": "<h1>"
+      },
+      {
+        "C": "<h6>"
+      },
+      {
+        "D": "heading"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 7,
+    "question": "What is DOM in HTML?",
+    "options": [
+      {
+        "A": "Language dependent application programming"
+      },
+      {
+        "B": "Hierarchy of objects in ASP.NET"
+      },
+      {
+        "C": "Application programming interface"
+      },
+      {
+        "D": "Convention for representing and interacting with objects in html documents"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 8,
+    "question": "In which part of the HTML metadata is contained?",
+    "options": [
+      {
+        "A": "head tag"
+      },
+      {
+        "B": "title tag"
+      },
+      {
+        "C": "html tag"
+      },
+      {
+        "D": "body tag"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "Which element is used to get highlighted text in HTML5?",
+    "options": [
+      {
+        "A": "<u>"
+      },
+      {
+        "B": "<mark>"
+      },
+      {
+        "C": "<highlight>"
+      },
+      {
+        "D": "<b>"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 10,
+    "question": "Which of the following is not a HTML5 tag?",
+    "options": [
+      {
+        "A": "<track>"
+      },
+      {
+        "B": "<video>"
+      },
+      {
+        "C": "<slider>"
+      },
+      {
+        "D": "<source>"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 11,
+    "question": "How do we write comments in HTML?",
+    "options": [
+      {
+        "A": "</…….>"
+      },
+      {
+        "B": "<!……>"
+      },
+      {
+        "C": "</……/>"
+      },
+      {
+        "D": "<…….!>"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 12,
+    "question": "Which of the following elements in HTML5 defines video or movie content?",
+    "options": [
+      {
+        "A": "<video>"
+      },
+      {
+        "B": "<movie>"
+      },
+      {
+        "C": "<audio>"
+      },
+      {
+        "D": "<media>"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "Which of the following is not the element associated with the HTML table layout?",
+    "options": [
+      {
+        "A": "alignment"
+      },
+      {
+        "B": "color"
+      },
+      {
+        "C": "size"
+      },
+      {
+        "D": "spanning"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 14,
+    "question": "Which element is used for or styling HTML5 layout?",
+    "options": [
+      {
+        "A": "CSS"
+      },
+      {
+        "B": "jQuery"
+      },
+      {
+        "C": "JavaScript"
+      },
+      {
+        "D": "PHP"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "Which HTML tag is used for making character appearance bold?",
+    "options": [
+      {
+        "A": "<u>content</u>"
+      },
+      {
+        "B": "<b>content</b>"
+      },
+      {
+        "C": "<br>content</br>"
+      },
+      {
+        "D": "<i>content</i>"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 16,
+    "question": "Which HTML tag is used to insert an image?",
+    "options": [
+      {
+        "A": "<img url=”htmllogo.jpg” />"
+      },
+      {
+        "B": "<img alt=”htmllogo.jpg” />"
+      },
+      {
+        "C": "<img alt=”htmllogo.jpg” />"
+      },
+      {
+        "D": "<img link=”htmllogo.jpg” />"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 17,
+    "question": "HTML is a subset of ___________",
+    "options": [
+      {
+        "A": "SGMT"
+      },
+      {
+        "B": "SGML"
+      },
+      {
+        "C": "SGME"
+      },
+      {
+        "D": "XHTML"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 18,
+    "question": "Among the following, which is the HTML paragraph tag?",
+    "options": [
+      {
+        "A": "<p>"
+      },
+      {
+        "B": "<pre>"
+      },
+      {
+        "C": "<hr>"
+      },
+      {
+        "D": "<a>"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "Which HTML element is used for short quote?",
+    "options": [
+      {
+        "A": "<em>"
+      },
+      {
+        "B": "<abbr>"
+      },
+      {
+        "C": "<q>"
+      },
+      {
+        "D": "<blockquote>"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 20,
+    "question": "Which of the following HTML tag is used to create an unordered list?",
+    "options": [
+      {
+        "A": "<ol>"
+      },
+      {
+        "B": "<ul>"
+      },
+      {
+        "C": "<li>"
+      },
+      {
+        "D": "<ll>"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 21,
+    "question": "Which of the following HTML tag is used to add a row in a table?s",
+    "options": [
+      {
+        "A": "<th>"
+      },
+      {
+        "B": "<td>"
+      },
+      {
+        "C": "<tr>"
+      },
+      {
+        "D": "<tt>"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 22,
+    "question": "Which tag is used to create a dropdown in HTML Form?",
+    "options": [
+      {
+        "A": "input"
+      },
+      {
+        "B": "select"
+      },
+      {
+        "C": "text"
+      },
+      {
+        "D": "textarea"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 23,
+    "question": "Which of the following extension is used to save an HTML file?",
+    "options": [
+      {
+        "A": ".hl"
+      },
+      {
+        "B": ".h"
+      },
+      {
+        "C": ".htl"
+      },
+      {
+        "D": ".html"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 24,
+    "question": "Which tag is used to create a blank line in HTML?",
+    "options": [
+      {
+        "A": "b"
+      },
+      {
+        "B": "br"
+      },
+      {
+        "C": "i"
+      },
+      {
+        "D": "li"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 25,
+    "question": "What is the use of <hr/> tag in HTML?",
+    "options": [
+      {
+        "A": "For making content appearance italics"
+      },
+      {
+        "B": "To create vertical rule between sections"
+      },
+      {
+        "C": "To create a line break"
+      },
+      {
+        "D": "To create horizontal rule between sections"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 26,
+    "question": "Which attribute specifies a unique alphanumeric identifier to be associated with an element?",
+    "options": [
+      {
+        "A": "type"
+      },
+      {
+        "B": "article"
+      },
+      {
+        "C": "id"
+      },
+      {
+        "D": "class"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 27,
+    "question": "Which of the following is an HTML specification used to add more information to HTML tags?",
+    "options": [
+      {
+        "A": "Modifydata"
+      },
+      {
+        "B": "Minidata"
+      },
+      {
+        "C": "Macrodata"
+      },
+      {
+        "D": "Microdata"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 28,
+    "question": "Which HTML element is used for YouTube videos?",
+    "options": [
+      {
+        "A": "<samp>"
+      },
+      {
+        "B": "<small>"
+      },
+      {
+        "C": "<frame>"
+      },
+      {
+        "D": "<iframe>"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 29,
+    "question": "Which of the following HTML element is used for canvas graphics?",
+    "options": [
+      {
+        "A": "<css>"
+      },
+      {
+        "B": "<paint>"
+      },
+      {
+        "C": "<canvas>"
+      },
+      {
+        "D": "<graphic>"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 30,
+    "question": "HTML is the standard ____language for creating Web pages.",
+    "options": [
+      {
+        "A": "scripting"
+      },
+      {
+        "B": "programming"
+      },
+      {
+        "C": "styling"
+      },
+      {
+        "D": "markup"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 31,
+    "question": "Which element/tag defines a paragraph?",
+    "options": [
+      {
+        "A": "<p>"
+      },
+      {
+        "B": "<pre>"
+      },
+      {
+        "C": "<panel>"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 32,
+    "question": "Which tag/element defines the HTML document's body?",
+    "options": [
+      {
+        "A": "<HTML>"
+      },
+      {
+        "B": "<HTMLbody>"
+      },
+      {
+        "C": "<bdy>"
+      },
+      {
+        "D": "<body>"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 33,
+    "question": "Which tag contains the meta information about the HTML page?",
+    "options": [
+      {
+        "A": "<html>"
+      },
+      {
+        "B": "<title>"
+      },
+      {
+        "C": "<head>"
+      },
+      {
+        "D": "<body>"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 34,
+    "question": "Which tag is the root element of an HTML page?",
+    "options": [
+      {
+        "A": "<html>"
+      },
+      {
+        "B": "<title>"
+      },
+      {
+        "C": "<head>"
+      },
+      {
+        "D": "<body>"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 35,
+    "question": "HTML tags with no content are called _____.",
+    "options": [
+      {
+        "A": "Special tags"
+      },
+      {
+        "B": "Advanced tags"
+      },
+      {
+        "C": "Empty tags"
+      },
+      {
+        "D": "Other tags"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 36,
+    "question": "HTML headings are defined with the _____ tags.",
+    "options": [
+      {
+        "A": "<head1> to <head6>"
+      },
+      {
+        "B": "<p1> to <p6>"
+      },
+      {
+        "C": "<h1> to <h6>"
+      },
+      {
+        "D": "<h1> to <h3>"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 37,
+    "question": "Which HTML attribute is used to define styles of an element?",
+    "options": [
+      {
+        "A": "<style>"
+      },
+      {
+        "B": "<css>"
+      },
+      {
+        "C": "style"
+      },
+      {
+        "D": "css"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 38,
+    "question": "Which HTML tag is used to define a short quotation?",
+    "options": [
+      {
+        "A": "<quotation>"
+      },
+      {
+        "B": "<quote>"
+      },
+      {
+        "C": "<qut>"
+      },
+      {
+        "D": "<q>"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 39,
+    "question": "What HTML tag is used to define the contact information for the author/owner of a document or an article?",
+    "options": [
+      {
+        "A": "<contact>"
+      },
+      {
+        "B": "<authorinfo>"
+      },
+      {
+        "C": "<address>"
+      },
+      {
+        "D": "<addr>"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 40,
+    "question": "Which tag is used to override the current text direction?",
+    "options": [
+      {
+        "A": "<bdi>"
+      },
+      {
+        "B": "<bdo>"
+      },
+      {
+        "C": "<bdr>"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 41,
+    "question": "Why href attribute is used with <a> tag?",
+    "options": [
+      {
+        "A": "To define title text"
+      },
+      {
+        "B": "To define reference of a document"
+      },
+      {
+        "C": "To define destination URL"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 42,
+    "question": "Which tag is used to create an HTML form for user input?",
+    "options": [
+      {
+        "A": "<form>"
+      },
+      {
+        "B": "<input>"
+      },
+      {
+        "C": "<form_put>"
+      },
+      {
+        "D": "<form_get>"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 43,
+    "question": "Which ____ attribute specifies where to open the linked document?",
+    "options": [
+      {
+        "A": "href"
+      },
+      {
+        "B": "link"
+      },
+      {
+        "C": "src"
+      },
+      {
+        "D": "target"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 44,
+    "question": "Which tag is used to embed an image in an HTML document?",
+    "options": [
+      {
+        "A": "<img>"
+      },
+      {
+        "B": "<pic>"
+      },
+      {
+        "C": "<image>"
+      },
+      {
+        "D": "<picture>"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 45,
+    "question": "Which attribute specifies the path to the image?",
+    "options": [
+      {
+        "A": "href"
+      },
+      {
+        "B": "link"
+      },
+      {
+        "C": "src"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 46,
+    "question": "Which HTML tag is used to define a table?",
+    "options": [
+      {
+        "A": "<table>"
+      },
+      {
+        "B": "<tables>"
+      },
+      {
+        "C": "<tr>"
+      },
+      {
+        "D": "<th>"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 47,
+    "question": "Each table cell is defined by a ____ tag.",
+    "options": [
+      {
+        "A": "<cell> ... </cell>"
+      },
+      {
+        "B": "<tr> ... </tr>"
+      },
+      {
+        "C": "<th> ... </th>"
+      },
+      {
+        "D": "<td> ... </td>"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 48,
+    "question": "Each table row is defined by a ____ tag.",
+    "options": [
+      {
+        "A": "<cell> ... </cell>"
+      },
+      {
+        "B": "<tr> ... </tr>"
+      },
+      {
+        "C": "<th> ... </th>"
+      },
+      {
+        "D": "<td> ... </td>"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 49,
+    "question": "Each table header is defined by a ____ tag.",
+    "options": [
+      {
+        "A": "<cell> ... </cell>"
+      },
+      {
+        "B": "<tr> ... </tr>"
+      },
+      {
+        "C": "<th> ... </th>"
+      },
+      {
+        "D": "<td> ... </td>"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 50,
+    "question": "Which tag is a block-level element?",
+    "options": [
+      {
+        "A": "<block> ... </block>"
+      },
+      {
+        "B": "<b> ... </b>"
+      },
+      {
+        "C": "<div> ... </div>"
+      },
+      {
+        "D": "<divx> ... </divx>"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 51,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 52,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  }
+]
