@@ -1,0 +1,1902 @@
+[
+  {
+    "question_no": 1,
+    "question": "What is the full form of “AI”?",
+    "options": [
+      {
+        "A": "Artificially Intelligent"
+      },
+      {
+        "B": "Artificial Intelligence"
+      },
+      {
+        "C": "Artificially Intelligence"
+      },
+      {
+        "D": "Advanced Intelligence"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 2,
+    "question": "What is Artificial Intelligence?",
+    "options": [
+      {
+        "A": "Artificial Intelligence is a field that aims to make humans more intelligent"
+      },
+      {
+        "B": "Artificial Intelligence is a field that aims to improve the security"
+      },
+      {
+        "C": "Artificial Intelligence is a field that aims to develop intelligent machines"
+      },
+      {
+        "D": "Artificial Intelligence is a field that aims to mine the data"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 3,
+    "question": "Who is the inventor of Artificial Intelligence?",
+    "options": [
+      {
+        "A": "Geoffrey Hinton"
+      },
+      {
+        "B": "Andrew Ng"
+      },
+      {
+        "C": "John McCarthy"
+      },
+      {
+        "D": "Jürgen Schmidhuber"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 4,
+    "question": "Which of the following is the branch of Artificial Intelligence?",
+    "options": [
+      {
+        "A": "Machine Learning"
+      },
+      {
+        "B": "Cyber forensics"
+      },
+      {
+        "C": "Full-Stack Developer"
+      },
+      {
+        "D": "Network Design"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 5,
+    "question": " What is the goal of Artificial Intelligence?",
+    "options": [
+      {
+        "A": "To solve artificial problems"
+      },
+      {
+        "B": "To extract scientific causes"
+      },
+      {
+        "C": "To explain various sorts of intelligence"
+      },
+      {
+        "D": "To solve real-world problems"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 6,
+    "question": " Which of the following is an application of Artificial Intelligence?",
+    "options": [
+      {
+        "A": "It helps to exploit vulnerabilities to secure the firm"
+      },
+      {
+        "B": "Language understanding and problem-solving (Text analytics and NLP)"
+      },
+      {
+        "C": "Easy to create a website"
+      },
+      {
+        "D": "It helps to deploy applications on the cloud"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 7,
+    "question": "In how many categories process of Artificial Intelligence is categorized?",
+    "options": [
+      {
+        "A": "categorized into 5 categories"
+      },
+      {
+        "B": "processes are categorized based on the input provided"
+      },
+      {
+        "C": "categorized into 3 categories"
+      },
+      {
+        "D": "process is not categorized"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 8,
+    "question": "Based on which of the following parameter Artificial Intelligence is categorized?",
+    "options": [
+      {
+        "A": "Based on functionally only"
+      },
+      {
+        "B": "Based on capabilities only"
+      },
+      {
+        "C": "Based on capabilities and functionally"
+      },
+      {
+        "D": "It is not categorized"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 9,
+    "question": " What is the function of an Artificial Intelligence “Agent”?",
+    "options": [
+      {
+        "A": "Mapping of goal sequence to an action"
+      },
+      {
+        "B": "Work without the direct interference of the people"
+      },
+      {
+        "C": "Mapping of precept sequence to an action"
+      },
+      {
+        "D": "Mapping of environment sequence to an action"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 10,
+    "question": "Which of the following is not a type of Artificial Intelligence agent?",
+    "options": [
+      {
+        "A": "Learning AI agent"
+      },
+      {
+        "B": "Goal-based AI agent"
+      },
+      {
+        "C": "Simple reflex AI agent"
+      },
+      {
+        "D": "Unity-based AI agent"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 11,
+    "question": "Which of the following is not the commonly used programming language for Artificial Intelligence?",
+    "options": [
+      {
+        "A": "Perl"
+      },
+      {
+        "B": "Java"
+      },
+      {
+        "C": "PROLOG"
+      },
+      {
+        "D": "LISP"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "What is the name of the Artificial Intelligence system developed by Daniel Bobrow?",
+    "options": [
+      {
+        "A": "program known as BACON"
+      },
+      {
+        "B": "system known as STUDENT"
+      },
+      {
+        "C": "program known as SHRDLU"
+      },
+      {
+        "D": "system known as SIMD"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 13,
+    "question": "What is the function of the system Student?",
+    "options": [
+      {
+        "A": "program that can read algebra word problems only"
+      },
+      {
+        "B": "system which can solve algebra word problems but not read"
+      },
+      {
+        "C": "system which can read and solve algebra word problems"
+      },
+      {
+        "D": "None of the mentioned"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 14,
+    "question": "Which of the following is not an application of artificial intelligence?",
+    "options": [
+      {
+        "A": "Face recognition system"
+      },
+      {
+        "B": "Chatbots"
+      },
+      {
+        "C": "LIDAR"
+      },
+      {
+        "D": "DBMS"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 15,
+    "question": "Which of the following machine requires input from the humans but can interpret the outputs themselves?",
+    "options": [
+      {
+        "A": "Actuators"
+      },
+      {
+        "B": "Sensor"
+      },
+      {
+        "C": "Agents"
+      },
+      {
+        "D": "AI system"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 16,
+    "question": "_________ number of informed search method are there in Artificial Intelligence.",
+    "options": [
+      {
+        "A": "4"
+      },
+      {
+        "B": "3"
+      },
+      {
+        "C": "2"
+      },
+      {
+        "D": "1"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "The total number of proposition symbols in AI are ________",
+    "options": [
+      {
+        "A": "3 proposition symbols"
+      },
+      {
+        "B": "1 proposition symbols"
+      },
+      {
+        "C": "2 proposition symbols"
+      },
+      {
+        "D": "None of the mentioned"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 18,
+    "question": "The total number of logical symbols in AI are ____________",
+    "options": [
+      {
+        "A": "There are 3 logical symbols"
+      },
+      {
+        "B": "There are 5 logical symbols"
+      },
+      {
+        "C": "Number of logical symbols are based on the input"
+      },
+      {
+        "D": "Logical symbols are not used"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 19,
+    "question": "Which of the following are the approaches to Artificial Intelligence?",
+    "options": [
+      {
+        "A": "Applied approach"
+      },
+      {
+        "B": "Strong approach"
+      },
+      {
+        "C": "Weak approach"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 20,
+    "question": "Face Recognition system is based on which type of approach?",
+    "options": [
+      {
+        "A": "Weak AI approach"
+      },
+      {
+        "B": "Applied AI approach"
+      },
+      {
+        "C": "Cognitive AI approach"
+      },
+      {
+        "D": "Strong AI approach"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 21,
+    "question": "Which of the following is an advantage of artificial intelligence?",
+    "options": [
+      {
+        "A": "Reduces the time taken to solve the problem"
+      },
+      {
+        "B": "Helps in providing security"
+      },
+      {
+        "C": "Have the ability to think hence makes the work easier"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 22,
+    "question": "Which of the following can improve the performance of an AI agent?",
+    "options": [
+      {
+        "A": "Perceiving"
+      },
+      {
+        "B": "Learning"
+      },
+      {
+        "C": "Observing"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 23,
+    "question": "Which of the following is/are the composition for AI agents?",
+    "options": [
+      {
+        "A": "Program only"
+      },
+      {
+        "B": "Architecture only"
+      },
+      {
+        "C": "Both Program and Architecture"
+      },
+      {
+        "D": "None of the mentioned"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 24,
+    "question": " On which of the following approach A basic line following robot is based?",
+    "options": [
+      {
+        "A": "Weak AI approach"
+      },
+      {
+        "B": "Applied AI approach"
+      },
+      {
+        "C": "Cognitive AI approach"
+      },
+      {
+        "D": "Strong AI approach"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "Artificial Intelligence has evolved extremely in all the fields except for _________",
+    "options": [
+      {
+        "A": "Web mining"
+      },
+      {
+        "B": "Construction of plans in real time dynamic systems"
+      },
+      {
+        "C": "Understanding natural language robustly"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 26,
+    "question": "Which of the following is an example of artificial intelligent agent/agents?",
+    "options": [
+      {
+        "A": "Autonomous Spacecraft"
+      },
+      {
+        "B": "Human"
+      },
+      {
+        "C": "Robot"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 27,
+    "question": "Which of the following is an expansion of Artificial Intelligence application?",
+    "options": [
+      {
+        "A": "Game Playing"
+      },
+      {
+        "B": "Planning and Scheduling"
+      },
+      {
+        "C": "Diagnosis"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 28,
+    "question": "What is an AI ‘agent’?",
+    "options": [
+      {
+        "A": "Takes input from the surroundings and uses its intelligence and performs the desired operations"
+      },
+      {
+        "B": " An embedded program controlling line following robot"
+      },
+      {
+        "C": "Perceives its environment through sensors and acting upon that environment through actuators"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 29,
+    "question": "Which of the following environment is strategic?",
+    "options": [
+      {
+        "A": "Rational"
+      },
+      {
+        "B": "Deterministic"
+      },
+      {
+        "C": "Partial"
+      },
+      {
+        "D": "Stochastic"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 30,
+    "question": "What is the name of Artificial Intelligence which allows machines to handle vague information with a deftness that mimics human intuition?",
+    "options": [
+      {
+        "A": "Human intelligence"
+      },
+      {
+        "B": "Boolean logic"
+      },
+      {
+        "C": "Functional logic"
+      },
+      {
+        "D": "Fuzzy logic"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 31,
+    "question": "Which of the following produces hypotheses that are easy to read for humans?",
+    "options": [
+      {
+        "A": "Machine Learning"
+      },
+      {
+        "B": "ILP"
+      },
+      {
+        "C": "First-order logic"
+      },
+      {
+        "D": "Propositional logic"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 32,
+    "question": "What does the Bayesian network provide?",
+    "options": [
+      {
+        "A": "Partial description of the domain"
+      },
+      {
+        "B": "Complete description of the problem"
+      },
+      {
+        "C": "Complete description of the domain"
+      },
+      {
+        "D": "None of the mentioned"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 33,
+    "question": "What is the total number of quantification available in artificial intelligence?",
+    "options": [
+      {
+        "A": "4"
+      },
+      {
+        "B": "3"
+      },
+      {
+        "C": "2"
+      },
+      {
+        "D": "1"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 34,
+    "question": "What is Weak AI?",
+    "options": [
+      {
+        "A": "the study of mental faculties using mental models implemented on a computer"
+      },
+      {
+        "B": "the embodiment of human intellectual capabilities within a computer"
+      },
+      {
+        "C": "a set of computer programs that produce output that would be considered to reflect intelligence if it were generated by humans"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 35,
+    "question": "Which of the following are the 5 big ideas of AI?",
+    "options": [
+      {
+        "A": "Perception"
+      },
+      {
+        "B": "Human-AI Interaction"
+      },
+      {
+        "C": "Societal Impact"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 36,
+    "question": "Artificial Intelligence is about_____.",
+    "options": [
+      {
+        "A": "Playing a game on Computer"
+      },
+      {
+        "B": "Making a machine Intelligent"
+      },
+      {
+        "C": "Programming on Machine with your Own Intelligence"
+      },
+      {
+        "D": "Putting your intelligence in Machine"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 37,
+    "question": "Select the most appropriate situation for that a blind search can be used.",
+    "options": [
+      {
+        "A": "Real-life situation"
+      },
+      {
+        "B": "Small Search Space"
+      },
+      {
+        "C": "Complex game"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 38,
+    "question": "The application/applications of Artificial Intelligence is/are",
+    "options": [
+      {
+        "A": "Expert Systems"
+      },
+      {
+        "B": "Gaming"
+      },
+      {
+        "C": "Vision Systems"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 39,
+    "question": "Among the given options, which search algorithm requires less memory?",
+    "options": [
+      {
+        "A": "Optimal Search"
+      },
+      {
+        "B": "Depth First Search"
+      },
+      {
+        "C": "Breadth-First Search"
+      },
+      {
+        "D": "Linear Search"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 40,
+    "question": "If a robot is able to change its own trajectory as per the external conditions, then the robot is considered as the__",
+    "options": [
+      {
+        "A": "Mobile"
+      },
+      {
+        "B": "Non-Servo"
+      },
+      {
+        "C": "Open Loop"
+      },
+      {
+        "D": "Intelligent"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 41,
+    "question": "A technique that was developed to determine whether a machine could or could not demonstrate the artificial intelligence known as the___",
+    "options": [
+      {
+        "A": "Boolean Algebra"
+      },
+      {
+        "B": "Turing Test"
+      },
+      {
+        "C": "Logarithm"
+      },
+      {
+        "D": "Algorithm"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 42,
+    "question": "The component of an Expert system is_________.",
+    "options": [
+      {
+        "A": "Knowledge Base"
+      },
+      {
+        "B": "Inference Engine"
+      },
+      {
+        "C": "User Interface"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 43,
+    "question": " Which algorithm is used in the Game tree to make decisions of Win/Lose?",
+    "options": [
+      {
+        "A": "Heuristic Search Algorithm"
+      },
+      {
+        "B": "DFS/BFS algorithm"
+      },
+      {
+        "C": "Greedy Search Algorithm"
+      },
+      {
+        "D": "Min/Max algorithm"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 44,
+    "question": "The available ways to solve a problem of state-space-search.",
+    "options": [
+      {
+        "A": "1"
+      },
+      {
+        "B": "2"
+      },
+      {
+        "C": "3"
+      },
+      {
+        "D": "4"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 45,
+    "question": "Among the given options, which is not the required property of Knowledge representation?",
+    "options": [
+      {
+        "A": "Inferential Efficiency"
+      },
+      {
+        "B": "Inferential Adequacy"
+      },
+      {
+        "C": "Representational Verification"
+      },
+      {
+        "D": "Representational Adequacy"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 46,
+    "question": "An AI agent perceives and acts upon the environment using___.",
+    "options": [
+      {
+        "A": "Sensors"
+      },
+      {
+        "B": "Perceiver"
+      },
+      {
+        "C": "Actuators"
+      },
+      {
+        "D": "Both a and c"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 47,
+    "question": "Which rule is applied for the Simple reflex agent?",
+    "options": [
+      {
+        "A": "Simple-action rule"
+      },
+      {
+        "B": "Simple &Condition-action rule"
+      },
+      {
+        "C": "Condition-action rule"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 48,
+    "question": "Which agent deals with the happy and unhappy state?",
+    "options": [
+      {
+        "A": "Utility-based agent"
+      },
+      {
+        "B": "Model-based agent"
+      },
+      {
+        "C": "Goal-based Agent"
+      },
+      {
+        "D": "Learning Agent"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 49,
+    "question": "Rational agent always does the right things.",
+    "options": [
+      {
+        "A": "Yes"
+      },
+      {
+        "B": "No"
+      },
+      {
+        "C": "50/50"
+      },
+      {
+        "D": "Depends"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 50,
+    "question": "Which term describes the common-sense of the judgmental part of problem-solving?",
+    "options": [
+      {
+        "A": "Values-based"
+      },
+      {
+        "B": "Critical"
+      },
+      {
+        "C": "Analytical"
+      },
+      {
+        "D": "Heuristic"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 51,
+    "question": "Which AI technique enables the computers to understand the associations and relationships between objects and events?",
+    "options": [
+      {
+        "A": "Heuristic Processing"
+      },
+      {
+        "B": "Cognitive Science"
+      },
+      {
+        "C": "Relative Symbolism"
+      },
+      {
+        "D": "Pattern Matching"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 52,
+    "question": "The exploration problem is where______.",
+    "options": [
+      {
+        "A": "Agent contains the knowledge of State and actions."
+      },
+      {
+        "B": "Agent does not contain the knowledge of State and actions."
+      },
+      {
+        "C": "Only actions are known to the agent."
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 53,
+    "question": "In the Wumpus World Problem, the reason for the uncertainty is that the agent's sensor gives only__",
+    "options": [
+      {
+        "A": "Full & Global information"
+      },
+      {
+        "B": "Partial & Global Information"
+      },
+      {
+        "C": "Full & local information"
+      },
+      {
+        "D": "Partial & local Information"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 54,
+    "question": "The search algorithm which is similar to the minimax search, but removes the branches that don't affect the final output is known as__.",
+    "options": [
+      {
+        "A": "Depth-first search"
+      },
+      {
+        "B": "Breadth-first search"
+      },
+      {
+        "C": "Alpha-beta pruning"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 55,
+    "question": "The maximum depth to which the alpha-beta pruning can be applied.",
+    "options": [
+      {
+        "A": "Eight states"
+      },
+      {
+        "B": "Six states"
+      },
+      {
+        "C": "Ten states"
+      },
+      {
+        "D": "Any depth"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 56,
+    "question": "Among the given options, which is also known as inference rule?",
+    "options": [
+      {
+        "A": "Reference"
+      },
+      {
+        "B": "Reform"
+      },
+      {
+        "C": "Resolution"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 57,
+    "question": "Which of the following option is used to build complex sentences in knowledge representation?",
+    "options": [
+      {
+        "A": "Symbols"
+      },
+      {
+        "B": "Connectives"
+      },
+      {
+        "C": "Quantifier"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 58,
+    "question": "Automatic Reasoning tool is used in_____.",
+    "options": [
+      {
+        "A": "Automatic Reasoning tool is used in_____."
+      },
+      {
+        "B": "Microcomputers"
+      },
+      {
+        "C": "LISP Machines"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 59,
+    "question": "If according to the hypothesis, the result should be positive, but in fact it is negative, then it is known as_______.",
+    "options": [
+      {
+        "A": "False Negative Hypothesis"
+      },
+      {
+        "B": "False Positive Hypothesis"
+      },
+      {
+        "C": "Specialized Hypothesis"
+      },
+      {
+        "D": "Consistent Hypothesis"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 60,
+    "question": "A hybrid Bayesian Network consist_____.",
+    "options": [
+      {
+        "A": "Discrete variables only"
+      },
+      {
+        "B": "Discontinuous Variable"
+      },
+      {
+        "C": "Both Discrete and Continuous variables"
+      },
+      {
+        "D": "Continuous Variable only"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 61,
+    "question": "The process of capturing the inference process as Single Inference Rule is known as:",
+    "options": [
+      {
+        "A": "Clauses"
+      },
+      {
+        "B": "Ponens"
+      },
+      {
+        "C": "Generalized Modus Ponens"
+      },
+      {
+        "D": "Variables"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 62,
+    "question": " Which process makes two different Logical expressions look identical?",
+    "options": [
+      {
+        "A": "Unification"
+      },
+      {
+        "B": "Lifting"
+      },
+      {
+        "C": "Inference Process"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 63,
+    "question": "Which algorithm takes two sentences as input and returns a Unifier?",
+    "options": [
+      {
+        "A": "Inference"
+      },
+      {
+        "B": "Hill-Climbing"
+      },
+      {
+        "C": "Unify algorithm"
+      },
+      {
+        "D": "Depth-first search"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 64,
+    "question": "The PEAS in the task environment is about____________.",
+    "options": [
+      {
+        "A": "Peer, Environment, Actuators, Sense"
+      },
+      {
+        "B": "Performance, Environment, Actuators, Sensors"
+      },
+      {
+        "C": "Perceiving, Environment, Actuators, Sensors"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 65,
+    "question": "In state-space, the set of actions for a given problem is expressed by the_____.",
+    "options": [
+      {
+        "A": "Intermediate States"
+      },
+      {
+        "B": "Successor function that takes current action and returns next state"
+      },
+      {
+        "C": "Initial States"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 66,
+    "question": "In which search problem, to find the shortest path, each city must be visited once only?",
+    "options": [
+      {
+        "A": "Map coloring Problem"
+      },
+      {
+        "B": "Depth-first search traversal on a given map represented as a graph"
+      },
+      {
+        "C": "Finding the shortest path between a source and a destination"
+      },
+      {
+        "D": "Travelling Salesman problem"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 67,
+    "question": " In the TSP problem of n cities, the time taken for traversing all cities, without having prior knowledge of the length of the minimum tour will be_______.",
+    "options": [
+      {
+        "A": "O(n)"
+      },
+      {
+        "B": "O(n2)"
+      },
+      {
+        "C": "O(n!)"
+      },
+      {
+        "D": "O(n/2)"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 68,
+    "question": "Web Crawler is an example of______.",
+    "options": [
+      {
+        "A": "Intelligent Agent"
+      },
+      {
+        "B": "Problem-solving agent"
+      },
+      {
+        "C": "Simple reflex agent"
+      },
+      {
+        "D": "Model-based agent"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 69,
+    "question": " The main function of problem-solving agent is to________.",
+    "options": [
+      {
+        "A": "Solve the given problem and reach the goal"
+      },
+      {
+        "B": "Find out which sequence of action will get it to the goal state."
+      },
+      {
+        "C": "Both a & b"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 70,
+    "question": "For propositional Logic, which statement is false?",
+    "options": [
+      {
+        "A": "The sentences of Propositional logic can have answers other than True or False."
+      },
+      {
+        "B": "Each sentence is a declarative sentence."
+      },
+      {
+        "C": "Propositional logic is a knowledge representation technique in AI."
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 71,
+    "question": "First order logic Statements contains______.",
+    "options": [
+      {
+        "A": "Predicate and Preposition"
+      },
+      {
+        "B": "Subject and an Object"
+      },
+      {
+        "C": "Predicate and Subject"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 72,
+    "question": "A knowledge-based agent can be defined with _____ levels.",
+    "options": [
+      {
+        "A": "2"
+      },
+      {
+        "B": "3"
+      },
+      {
+        "C": "4"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 73,
+    "question": "Ways to achieve AI in real-life are_________.",
+    "options": [
+      {
+        "A": "Machine Learning"
+      },
+      {
+        "B": "Deep Learning"
+      },
+      {
+        "C": "Both a & b"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 74,
+    "question": "The main tasks of an AI agent are_______.",
+    "options": [
+      {
+        "A": "Input and Output"
+      },
+      {
+        "B": "Moment and Humanly Actions"
+      },
+      {
+        "C": "Perceiving, thinking, and acting on the environment"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 75,
+    "question": "The probabilistic reasoning depends upon____________.",
+    "options": [
+      {
+        "A": "Estimation"
+      },
+      {
+        "B": "Observations"
+      },
+      {
+        "C": "Likelihood"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 76,
+    "question": "The inference engine works on ______.",
+    "options": [
+      {
+        "A": "Forward Chaining"
+      },
+      {
+        "B": "Backward Chaining"
+      },
+      {
+        "C": "Both a and b"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 77,
+    "question": "Which of the given statement is true for Conditional Probability?",
+    "options": [
+      {
+        "A": "Conditional Probability gives 100% accurate results."
+      },
+      {
+        "B": "Conditional Probability can be applied to a single event."
+      },
+      {
+        "C": "Conditional Probability has no effect or relevance on independent events."
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 78,
+    "question": "After applying conditional Probability to a given problem, we get______",
+    "options": [
+      {
+        "A": "100% accurate result"
+      },
+      {
+        "B": "Estimated Values"
+      },
+      {
+        "C": "Wrong Values"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 79,
+    "question": "The best AI agent is one which____________",
+    "options": [
+      {
+        "A": "Needs user inputs for solving any problem"
+      },
+      {
+        "B": "Can solve a problem on its own without any human intervention"
+      },
+      {
+        "C": "Need a similar exemplary problem in its knowledge base"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 80,
+    "question": "The Bayesian Network gives________",
+    "options": [
+      {
+        "A": "A complete description of the problem"
+      },
+      {
+        "B": "Partial Description of the domain"
+      },
+      {
+        "C": "A complete description of the domain"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 81,
+    "question": "In LISP, the addition of 5+8 is entered as_______.",
+    "options": [
+      {
+        "A": "5+8"
+      },
+      {
+        "B": "5 add 8"
+      },
+      {
+        "C": "5+8="
+      },
+      {
+        "D": "(+5 8)"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 82,
+    "question": "An Algorithm is said as Complete algorithm if_______________",
+    "options": [
+      {
+        "A": "It ends with a solution (if any exists)."
+      },
+      {
+        "B": "It begins with a solution."
+      },
+      {
+        "C": "It does not end with a solution."
+      },
+      {
+        "D": "It contains a loop"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 83,
+    "question": "Which statement is valid for the Heuristic function?",
+    "options": [
+      {
+        "A": "The heuristic function is used to solve mathematical problems."
+      },
+      {
+        "B": "The heuristic function takes parameters of type string and returns an integer value."
+      },
+      {
+        "C": "The heuristic function does not have any return type."
+      },
+      {
+        "D": "The heuristic function calculates the cost of an optimal path between the pair of states."
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 84,
+    "question": "Which of the given element improve the performance of AI agent so that it can make better decisions?",
+    "options": [
+      {
+        "A": "Changing Element"
+      },
+      {
+        "B": "Performance Element"
+      },
+      {
+        "C": "Learning Element"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 85,
+    "question": "How many types of Machine Learning are there?",
+    "options": [
+      {
+        "A": "1"
+      },
+      {
+        "B": "2"
+      },
+      {
+        "C": "3"
+      },
+      {
+        "D": "4"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 86,
+    "question": "The decision tree algorithm reaches its destination using_____________.",
+    "options": [
+      {
+        "A": "Single Test"
+      },
+      {
+        "B": "Two Test"
+      },
+      {
+        "C": "Sequence of test"
+      },
+      {
+        "D": "No test"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 87,
+    "question": "In LISP programming, the square root is entered as_____.",
+    "options": [
+      {
+        "A": "Sqrt(x)"
+      },
+      {
+        "B": "(sqrt x)"
+      },
+      {
+        "C": "x/2"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 88,
+    "question": "Artificial Intelligence is a way of _____.",
+    "options": [
+      {
+        "A": "making a computer"
+      },
+      {
+        "B": "a computer-controlled robot"
+      },
+      {
+        "C": "software think intelligently"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 89,
+    "question": "A major thrust of AI is in the development of computer functions associated with human intelligence.",
+    "options": [
+      {
+        "A": "TRUE"
+      },
+      {
+        "B": "FALSE"
+      },
+      {
+        "C": " AI is not associated with human intelligence"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 90,
+    "question": "Which of the following areas can contribute to build an intelligent system?",
+    "options": [
+      {
+        "A": "Philosophy"
+      },
+      {
+        "B": "Biology"
+      },
+      {
+        "C": "Sociology"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 91,
+    "question": "Which of the following areas can not contribute to build an intelligent system?",
+    "options": [
+      {
+        "A": "Neuron science"
+      },
+      {
+        "B": "Maths"
+      },
+      {
+        "C": "Computer Science"
+      },
+      {
+        "D": "Geology"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 92,
+    "question": "A computer program with AI can not answer the generic questions it is meant to solve.",
+    "options": [
+      {
+        "A": "TRUE"
+      },
+      {
+        "B": "FALSE"
+      },
+      {
+        "C": "AI is not used to answer question"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 93,
+    "question": "Which of the following is not the type of AI?",
+    "options": [
+      {
+        "A": "Reactive machines"
+      },
+      {
+        "B": "Unlimited memory"
+      },
+      {
+        "C": "Theory of mind"
+      },
+      {
+        "D": "Self-awareness"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 94,
+    "question": " In which university the first demontration of AI program run?",
+    "options": [
+      {
+        "A": "Carnegie Mellon University."
+      },
+      {
+        "B": "Oxford University"
+      },
+      {
+        "C": "Cambridge University"
+      },
+      {
+        "D": "Stanford University"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 95,
+    "question": " Which of the following is not an application of AI?",
+    "options": [
+      {
+        "A": "Intelligent Robots"
+      },
+      {
+        "B": "Handwriting Recognition"
+      },
+      {
+        "C": "Speech Recognition"
+      },
+      {
+        "D": "Content mining"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 96,
+    "question": "The traditional way to exit and LISP system is to enter __________",
+    "options": [
+      {
+        "A": "quit"
+      },
+      {
+        "B": "exit"
+      },
+      {
+        "C": "bye"
+      },
+      {
+        "D": "ok"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 97,
+    "question": "A process that is repeated, evaluated, and refined is called __________",
+    "options": [
+      {
+        "A": "diagnostic"
+      },
+      {
+        "B": "descriptive"
+      },
+      {
+        "C": "interpretive"
+      },
+      {
+        "D": "iterative"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 98,
+    "question": "Which of the following are comprised within AI?",
+    "options": [
+      {
+        "A": "Machine Learning"
+      },
+      {
+        "B": "Deep Learning"
+      },
+      {
+        "C": "Both a & b"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 99,
+    "question": "Which of the mentioned human behavior does the AI aim to mimic?",
+    "options": [
+      {
+        "A": "Thinking"
+      },
+      {
+        "B": "Eating"
+      },
+      {
+        "C": "Sleeping"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 100,
+    "question": "Which of the following is a valid AI agent type?",
+    "options": [
+      {
+        "A": "Simple based Reflex agent"
+      },
+      {
+        "B": "Model Based Reflex Agent"
+      },
+      {
+        "C": "Goal Based Agent"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  }
+]
