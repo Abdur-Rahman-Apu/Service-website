@@ -1,0 +1,1883 @@
+[
+  {
+    "question_no": 1,
+    "question": "PDUs at the Network layer of the OSI are called what?",
+    "options": [
+      {
+        "A": "Transport"
+      },
+      {
+        "B": "Frames"
+      },
+      {
+        "C": "Packets"
+      },
+      {
+        "D": "Segments"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 2,
+    "question": "Acknowledgements, sequencing, and flow control are characteristic of which OSI layer?",
+    "options": [
+      {
+        "A": "2"
+      },
+      {
+        "B": "3"
+      },
+      {
+        "C": "4"
+      },
+      {
+        "D": "7"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 3,
+    "question": " If you use either Telnet or FTP, which is the highest layer you are using to transmit data?",
+    "options": [
+      {
+        "A": "Application"
+      },
+      {
+        "B": "Presentation"
+      },
+      {
+        "C": "Session"
+      },
+      {
+        "D": "Transport"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 4,
+    "question": "You need 500 subnets, each with about 100 usable host addresses per subnet. What mask will you assign using a Class B network address?",
+    "options": [
+      {
+        "A": "255.255.255.252"
+      },
+      {
+        "B": "255.255.255.128"
+      },
+      {
+        "C": "255.255.255.0"
+      },
+      {
+        "D": "255.255.254.0"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 5,
+    "question": "Which configuration command must be in effect to allow the use of 8 subnets if the Class C subnet mask is 255.255.255.224?",
+    "options": [
+      {
+        "A": "Router(config)#ip classless"
+      },
+      {
+        "B": "Router(config)#ip version 6"
+      },
+      {
+        "C": "Router(config)#no ip classful"
+      },
+      {
+        "D": "Router(config)#ip subnet-zero"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 6,
+    "question": "Which of the following commands will configure all the default VTY ports on a router?",
+    "options": [
+      {
+        "A": "Router#line vty 0 4"
+      },
+      {
+        "B": "Router(config)#line vty 0 4"
+      },
+      {
+        "C": "Router(config-if)#line console 0"
+      },
+      {
+        "D": "Router(config)#line vty all"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 7,
+    "question": "If you want to display all the commands in the history buffer, which command will you use?",
+    "options": [
+      {
+        "A": "Ctrl+Shift+6, then X"
+      },
+      {
+        "B": "Ctrl+Z"
+      },
+      {
+        "C": "show history"
+      },
+      {
+        "D": "show history buffer"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 8,
+    "question": "Which of the following is true regarding RIPv2?",
+    "options": [
+      {
+        "A": "It has a lower administrative distance than RIPv1."
+      },
+      {
+        "B": "It converges faster than RIPv1."
+      },
+      {
+        "C": "It has the same timers as RIPv1."
+      },
+      {
+        "D": "It is harder to configure than RIPv1."
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 9,
+    "question": "Which of the following requires that all channels in a message transmission path be of the same speed ?",
+    "options": [
+      {
+        "A": "Packet-switched networks"
+      },
+      {
+        "B": "Circuit-switched networks"
+      },
+      {
+        "C": "Message-switched networks"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 10,
+    "question": "FDDI is an example of which topology ?",
+    "options": [
+      {
+        "A": "Bus Topology"
+      },
+      {
+        "B": "Ring Topology"
+      },
+      {
+        "C": "Star Topology"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 11,
+    "question": "How many fiber rings are used in the FDDI cabling ?",
+    "options": [
+      {
+        "A": "2"
+      },
+      {
+        "B": "3"
+      },
+      {
+        "C": "4"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "FDDI access mechanism is similar to that of",
+    "options": [
+      {
+        "A": "IEEE 802.5"
+      },
+      {
+        "B": "CSMA/CD"
+      },
+      {
+        "C": "ALOHA"
+      },
+      {
+        "D": "IEEE 802.4"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "Frame relay technique uses",
+    "options": [
+      {
+        "A": "Circuit switching"
+      },
+      {
+        "B": "Message switching"
+      },
+      {
+        "C": "Connection oriented Packet switching"
+      },
+      {
+        "D": "Hybrid switching"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 14,
+    "question": "Which topology is used in Ethernet ?",
+    "options": [
+      {
+        "A": "Bus Topology"
+      },
+      {
+        "B": "Ring Topology"
+      },
+      {
+        "C": "Tree Topology"
+      },
+      {
+        "D": "Mesh Topology"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "The physical connection between an end point and a switch or between two switches is",
+    "options": [
+      {
+        "A": "Transmission path"
+      },
+      {
+        "B": "Virtual path"
+      },
+      {
+        "C": "Virtual circuit"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "Circuits board or card that is installed in a computer so that it can be connected to a network :",
+    "options": [
+      {
+        "A": "Modem"
+      },
+      {
+        "B": "NIC"
+      },
+      {
+        "C": "Repeater"
+      },
+      {
+        "D": "Router"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 17,
+    "question": "The speed of Ethernet is",
+    "options": [
+      {
+        "A": "64 Kbps"
+      },
+      {
+        "B": "64 Mbps"
+      },
+      {
+        "C": "10 Kbps"
+      },
+      {
+        "D": "10 Mbps"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 18,
+    "question": "In simplex mode of transmission",
+    "options": [
+      {
+        "A": "Data communication is one way"
+      },
+      {
+        "B": "Data can be transmitted to small distances only"
+      },
+      {
+        "C": "Data format is simple"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 19,
+    "question": " An example of half duplex transmission is",
+    "options": [
+      {
+        "A": "Referee’s whistle"
+      },
+      {
+        "B": "Satellite channel"
+      },
+      {
+        "C": "Broadcast radio"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 20,
+    "question": "In half-duplex data transmission",
+    "options": [
+      {
+        "A": " Data can be transmitted in one direction only"
+      },
+      {
+        "B": "Data can be transmitted to long distances only"
+      },
+      {
+        "C": "Data can be transmitted in both directions"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 21,
+    "question": "The interactive transmission of data within a time sharing system may be best suited to",
+    "options": [
+      {
+        "A": "Simplex lines"
+      },
+      {
+        "B": "Half-duplex lines"
+      },
+      {
+        "C": "Full-duplex lines"
+      },
+      {
+        "D": "Biflex-line"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 22,
+    "question": "Full duplex operation",
+    "options": [
+      {
+        "A": "Requires two pairs of cables"
+      },
+      {
+        "B": "Can transfer data in both directions at once"
+      },
+      {
+        "C": "Requires modems at both ends"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 23,
+    "question": "In order to transfer message in a computer network, we use the technique called",
+    "options": [
+      {
+        "A": "Circuit switching"
+      },
+      {
+        "B": "Message switching"
+      },
+      {
+        "C": "Packet switching"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 24,
+    "question": "Switching systems",
+    "options": [
+      {
+        "A": "require additional lines"
+      },
+      {
+        "B": "are not used presently"
+      },
+      {
+        "C": "are limited to small data networks"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "A transmission medium in which one station is transmitter and the other station is receiver, is termed as",
+    "options": [
+      {
+        "A": "Simplex"
+      },
+      {
+        "B": "Half duplex"
+      },
+      {
+        "C": "Half duplex"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "Communication between a computer and a keyboard involves ______ transmission.",
+    "options": [
+      {
+        "A": "Automatic"
+      },
+      {
+        "B": "Simplex"
+      },
+      {
+        "C": "Hard-duplex"
+      },
+      {
+        "D": "Full-duplex"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 27,
+    "question": "Half duplex operation requires",
+    "options": [
+      {
+        "A": "High speed links"
+      },
+      {
+        "B": "Noiseless channels"
+      },
+      {
+        "C": "Modems at both ends"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 28,
+    "question": "When are link-state packets sent to neighbors?",
+    "options": [
+      {
+        "A": "every 30 seconds"
+      },
+      {
+        "B": "every 180 seconds"
+      },
+      {
+        "C": "after the holddown time expires"
+      },
+      {
+        "D": "when a link goes up or down"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 29,
+    "question": "Which database or table must be identical on all link-state routers within an area in order to construct an accurate SPF tree?",
+    "options": [
+      {
+        "A": "routing table"
+      },
+      {
+        "B": "adjacency table"
+      },
+      {
+        "C": "link-state database"
+      },
+      {
+        "D": "neighbor table"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 30,
+    "question": "What is the final step in the link state routing process?",
+    "options": [
+      {
+        "A": "successors are placed into the routing table"
+      },
+      {
+        "B": "SPF computes the best path to each destination network"
+      },
+      {
+        "C": "LSPs are flooded to all neighbors to converge the network"
+      },
+      {
+        "D": "A DUAL algorithm is run to find the best path to destination networks"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 31,
+    "question": "Which algorithm is run by link-state routing protocols to calculate the shortest path to destination networks?",
+    "options": [
+      {
+        "A": "DUAL"
+      },
+      {
+        "B": "Dijkstra"
+      },
+      {
+        "C": "Bellman-Ford"
+      },
+      {
+        "D": "Diffie-Hellman"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 32,
+    "question": "What speeds up convergence in a network using link-state routing?",
+    "options": [
+      {
+        "A": "updates triggered by network changes"
+      },
+      {
+        "B": "updates sent at regular intervals"
+      },
+      {
+        "C": "updates sent only to directly connected neighbors"
+      },
+      {
+        "D": "updates that include complete routing tables"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 33,
+    "question": " Which two routing protocols use Dijkstra’s shortest path first algorithm?",
+    "options": [
+      {
+        "A": "RIPv1"
+      },
+      {
+        "B": "RIPv2"
+      },
+      {
+        "C": "IS-IS"
+      },
+      {
+        "D": "OSP"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 34,
+    "question": "Refer to the exhibit. Router B receives a packet with a destination address of 10.16.1.97. What will router B do?",
+    "options": [
+      {
+        "A": "drop the packet"
+      },
+      {
+        "B": "forward the packet via the route to 10.16.1.0"
+      },
+      {
+        "C": "forward the packet via the route to 10.16.1.64"
+      },
+      {
+        "D": "use the default route"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 35,
+    "question": "Refer to the exhibit. Which statement correctly describes this network?",
+    "options": [
+      {
+        "A": "they are dropped"
+      },
+      {
+        "B": "sent to the default gateway"
+      },
+      {
+        "C": "forward out interface Serial0/0/1"
+      },
+      {
+        "D": "forward out interface FastEthernet 0/0"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 36,
+    "question": "Refer to the exhibit. How many routes in this output qualify for use as ultimate routes?",
+    "options": [
+      {
+        "A": "3"
+      },
+      {
+        "B": "4"
+      },
+      {
+        "C": "6"
+      },
+      {
+        "D": "7"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 37,
+    "question": "Refer to the exhibit. What protocol was used to distribute the routing information for the network 172.16.1.4?",
+    "options": [
+      {
+        "A": "RIPv1"
+      },
+      {
+        "B": "RIPv2"
+      },
+      {
+        "C": "EIGRP"
+      },
+      {
+        "D": "OSPF"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 38,
+    "question": "What is a computer network?",
+    "options": [
+      {
+        "A": " A device used to display information on a computer screen"
+      },
+      {
+        "B": "A collection of interconnected computers and devices that can communicate and share resources"
+      },
+      {
+        "C": "A type of software used to create documents and presentations"
+      },
+      {
+        "D": "The physical casing that protects a computer’s internal components"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 39,
+    "question": "What is internet?",
+    "options": [
+      {
+        "A": "interconnection of local area networks"
+      },
+      {
+        "B": "interconnection of wide area networks"
+      },
+      {
+        "C": "a vast collection of different networks"
+      },
+      {
+        "D": "a single network"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 40,
+    "question": "Which of the following is an example of Bluetooth?",
+    "options": [
+      {
+        "A": "wide area network"
+      },
+      {
+        "B": "virtual private network"
+      },
+      {
+        "C": "local area network"
+      },
+      {
+        "D": "personal area network"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 41,
+    "question": "Which of the following computer networks is built on the top of another network?",
+    "options": [
+      {
+        "A": "overlay network"
+      },
+      {
+        "B": "prime network"
+      },
+      {
+        "C": "prior network"
+      },
+      {
+        "D": "chief network"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 42,
+    "question": "What is the full form of OSI?",
+    "options": [
+      {
+        "A": "optical service implementation"
+      },
+      {
+        "B": "open service Internet"
+      },
+      {
+        "C": "open system interconnection"
+      },
+      {
+        "D": "operating system interface"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 43,
+    "question": "When a collection of various computers appears as a single coherent system to its clients, what is this called?",
+    "options": [
+      {
+        "A": "mail system"
+      },
+      {
+        "B": "networking system"
+      },
+      {
+        "C": "computer network"
+      },
+      {
+        "D": "distributed system"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 44,
+    "question": " How many layers are there in the ISO OSI reference model?",
+    "options": [
+      {
+        "A": "7"
+      },
+      {
+        "B": "3"
+      },
+      {
+        "C": "5"
+      },
+      {
+        "D": "4"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 45,
+    "question": "What are nodes in a computer network?",
+    "options": [
+      {
+        "A": "the computer that routes the data"
+      },
+      {
+        "B": "the computer that terminates the data"
+      },
+      {
+        "C": "the computer that originates the data"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 46,
+    "question": "Which one of the following is not a function of network layer?",
+    "options": [
+      {
+        "A": "congestion control"
+      },
+      {
+        "B": "error control"
+      },
+      {
+        "C": "routing"
+      },
+      {
+        "D": "inter-networking"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 47,
+    "question": "How is a single channel shared by multiple signals in a computer network?",
+    "options": [
+      {
+        "A": "multiplexing"
+      },
+      {
+        "B": "phase modulation"
+      },
+      {
+        "C": "analog modulation"
+      },
+      {
+        "D": "digital modulation"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 48,
+    "question": "Which of the following devices forwards packets between networks by processing the routing information included in the packet?",
+    "options": [
+      {
+        "A": "firewall"
+      },
+      {
+        "B": "bridge"
+      },
+      {
+        "C": "hub"
+      },
+      {
+        "D": "router"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 49,
+    "question": "What is the term for an endpoint of an inter-process communication flow across a computer network?",
+    "options": [
+      {
+        "A": "port"
+      },
+      {
+        "B": "machine"
+      },
+      {
+        "C": "socket"
+      },
+      {
+        "D": "pipe"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 50,
+    "question": " Which layer does the data link layer take packets from and encapsulate them into frames for transmission?",
+    "options": [
+      {
+        "A": "transport layer"
+      },
+      {
+        "B": "application layer"
+      },
+      {
+        "C": "network layer"
+      },
+      {
+        "D": "physical layer"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 51,
+    "question": "Which of this is not a network edge device?",
+    "options": [
+      {
+        "A": "Switch"
+      },
+      {
+        "B": "PC"
+      },
+      {
+        "C": "Smartphones"
+      },
+      {
+        "D": "Servers"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 52,
+    "question": "Which type of network shares the communication channel among all the machines?",
+    "options": [
+      {
+        "A": "anycast network"
+      },
+      {
+        "B": "multicast network"
+      },
+      {
+        "C": "unicast network"
+      },
+      {
+        "D": "broadcast network"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 53,
+    "question": "Which topology requires a multipoint connection?",
+    "options": [
+      {
+        "A": "Ring"
+      },
+      {
+        "B": "Bus"
+      },
+      {
+        "C": "Star"
+      },
+      {
+        "D": "Mesh"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 54,
+    "question": "Which of the following maintains the Domain Name System?",
+    "options": [
+      {
+        "A": "a single server"
+      },
+      {
+        "B": "a single computer"
+      },
+      {
+        "C": "distributed database system"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 55,
+    "question": "Which of the following are Gigabit Ethernets?",
+    "options": [
+      {
+        "A": "1000 BASE-LX"
+      },
+      {
+        "B": "1000 BASE-CX"
+      },
+      {
+        "C": "1000 BASE-SX"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 56,
+    "question": "Which of the following networks extends a private network across public networks?",
+    "options": [
+      {
+        "A": "virtual private network"
+      },
+      {
+        "B": "local area network"
+      },
+      {
+        "C": "storage area network"
+      },
+      {
+        "D": "enterprise private network"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 57,
+    "question": "Which layer is responsible for process to process delivery in a general network model?",
+    "options": [
+      {
+        "A": "session layer"
+      },
+      {
+        "B": "data link layer"
+      },
+      {
+        "C": "transport layer"
+      },
+      {
+        "D": "network layer"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 58,
+    "question": "What does each packet contain in a virtual circuit network?",
+    "options": [
+      {
+        "A": "only source address"
+      },
+      {
+        "B": "only destination address"
+      },
+      {
+        "C": "full source and destination address"
+      },
+      {
+        "D": "a short VC number"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 59,
+    "question": "What was the name of the first network?",
+    "options": [
+      {
+        "A": "ASAPNET"
+      },
+      {
+        "B": "ARPANET"
+      },
+      {
+        "C": "CNNET"
+      },
+      {
+        "D": "NSFNET"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 60,
+    "question": "Which of the following is the network layer protocol for the internet?",
+    "options": [
+      {
+        "A": "hypertext transfer protocol"
+      },
+      {
+        "B": "file transfer protocol"
+      },
+      {
+        "C": "ethernet"
+      },
+      {
+        "D": "internet protocol"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 61,
+    "question": "Which network topology requires a central controller or hub?",
+    "options": [
+      {
+        "A": "Ring"
+      },
+      {
+        "B": "Bus"
+      },
+      {
+        "C": "Star"
+      },
+      {
+        "D": "Mesh"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 62,
+    "question": "If a link transmits 4000 frames per second, and each slot has 8 bits, what is the transmission rate of the circuit using Time Division Multiplexing (TDM)?",
+    "options": [
+      {
+        "A": "500kbps"
+      },
+      {
+        "B": "32kbps"
+      },
+      {
+        "C": "32bps"
+      },
+      {
+        "D": "500bps"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 63,
+    "question": "Which of the following allows LAN users to share computer programs and data?",
+    "options": [
+      {
+        "A": "File server"
+      },
+      {
+        "B": "Network"
+      },
+      {
+        "C": "Communication server"
+      },
+      {
+        "D": "Print server"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 64,
+    "question": " Which layer provides the services to user?",
+    "options": [
+      {
+        "A": "physical layer"
+      },
+      {
+        "B": "presentation layer"
+      },
+      {
+        "C": "session layer"
+      },
+      {
+        "D": "application layer"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 65,
+    "question": " Which connection is necessary for a computer to join the internet?",
+    "options": [
+      {
+        "A": "internet society"
+      },
+      {
+        "B": "internet service provider"
+      },
+      {
+        "C": "different computer"
+      },
+      {
+        "D": "internet architecture board"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 66,
+    "question": "Which of the following allows you to connect and login to a remote computer?",
+    "options": [
+      {
+        "A": "SMTP"
+      },
+      {
+        "B": "HTTP"
+      },
+      {
+        "C": "FTP"
+      },
+      {
+        "D": "Telnet"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 67,
+    "question": "DHCP (dynamic host configuration protocol) provides __________ to the client.",
+    "options": [
+      {
+        "A": "IP address"
+      },
+      {
+        "B": "MAC address"
+      },
+      {
+        "C": "Url"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 68,
+    "question": " DHCP is used for ________",
+    "options": [
+      {
+        "A": "IPv6"
+      },
+      {
+        "B": "IPv4"
+      },
+      {
+        "C": "Both IPv6 and IPv4"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 69,
+    "question": "The DHCP server _________",
+    "options": [
+      {
+        "A": "maintains a database of available IP addresses"
+      },
+      {
+        "B": "maintains the information about client configuration parameters"
+      },
+      {
+        "C": "grants a IP address when receives a request from a client"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 70,
+    "question": "IP assigned for a client by DHCP server is",
+    "options": [
+      {
+        "A": "for a limited period"
+      },
+      {
+        "B": "for an unlimited period"
+      },
+      {
+        "C": "not time dependent"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 71,
+    "question": "DHCP uses UDP port _________ for sending data to the server.",
+    "options": [
+      {
+        "A": "66"
+      },
+      {
+        "B": "67"
+      },
+      {
+        "C": "68"
+      },
+      {
+        "D": "69"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 72,
+    "question": "The DHCP server can provide the _______ of the IP addresses.",
+    "options": [
+      {
+        "A": "dynamic allocation"
+      },
+      {
+        "B": "automatic allocation"
+      },
+      {
+        "C": "static allocation"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 73,
+    "question": "DHCP client and servers on the same subnet communicate via _________",
+    "options": [
+      {
+        "A": "UDP broadcast"
+      },
+      {
+        "B": "UDP unicast"
+      },
+      {
+        "C": "TCP broadcast"
+      },
+      {
+        "D": "TCP unicast"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 74,
+    "question": "What is DHCP snooping?",
+    "options": [
+      {
+        "A": "techniques applied to ensure the security of an existing DHCP infrastructure"
+      },
+      {
+        "B": "encryption of the DHCP server requests"
+      },
+      {
+        "C": "algorithm for DHCP"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 75,
+    "question": "If DHCP snooping is configured on a LAN switch, then clients having specific ______ can access the network.",
+    "options": [
+      {
+        "A": "MAC address"
+      },
+      {
+        "B": "IP address"
+      },
+      {
+        "C": "Both MAC address and IP address"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 76,
+    "question": "What is the maximum number of IP addresses that can be assigned to hosts on a local subnet that uses the 255.255.255.224 subnet mask?",
+    "options": [
+      {
+        "A": "14"
+      },
+      {
+        "B": "15"
+      },
+      {
+        "C": "16"
+      },
+      {
+        "D": "30"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 77,
+    "question": "You need to subnet a network into 5 subnets, each with at least 16 hosts. Which classful subnet mask would you use?",
+    "options": [
+      {
+        "A": "255.255.255.192"
+      },
+      {
+        "B": "255.255.255.224"
+      },
+      {
+        "C": "255.255.255.240"
+      },
+      {
+        "D": "255.255.255.248"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 78,
+    "question": "You have a network that needs 29 subnets while maximizing the number of host addresses available on each subnet. How many bits must you borrow from the host field to provide the correct subnet mask?",
+    "options": [
+      {
+        "A": "2"
+      },
+      {
+        "B": "3"
+      },
+      {
+        "C": "4"
+      },
+      {
+        "D": "5"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 79,
+    "question": " If an Ethernet port on a router were assigned an IP address of 172.16.112.1/25, what would be the valid subnet address of this host?",
+    "options": [
+      {
+        "A": "172.16.112.0"
+      },
+      {
+        "B": "172.16.0.0"
+      },
+      {
+        "C": "172.16.96.0"
+      },
+      {
+        "D": "172.16.255.0"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 80,
+    "question": " The network address of 172.16.0.0/19 provides how many subnets and hosts?",
+    "options": [
+      {
+        "A": "7 subnets, 30 hosts each"
+      },
+      {
+        "B": "8 subnets, 8,190 hosts each"
+      },
+      {
+        "C": "8 subnets, 8,190 hosts each"
+      },
+      {
+        "D": "7 subnets, 2,046 hosts each"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 81,
+    "question": "Which of this is not a constituent of residential telephone line?",
+    "options": [
+      {
+        "A": "A high-speed downstream channel"
+      },
+      {
+        "B": "A medium-speed downstream channel"
+      },
+      {
+        "C": "A low-speed downstream channel"
+      },
+      {
+        "D": "An ultra-high speed downstream channel"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 82,
+    "question": "HFC contains _______",
+    "options": [
+      {
+        "A": "Fibre cable"
+      },
+      {
+        "B": "Coaxial cable"
+      },
+      {
+        "C": "A combination of Fibre cable and Coaxial cable"
+      },
+      {
+        "D": "Twisted Pair Cable"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 83,
+    "question": "Among the optical-distribution architectures that are essentially switched ethernet is __________",
+    "options": [
+      {
+        "A": "AON"
+      },
+      {
+        "B": "PON"
+      },
+      {
+        "C": "NON"
+      },
+      {
+        "D": "MON"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 84,
+    "question": " StarBand provides __________",
+    "options": [
+      {
+        "A": "FTTH internet access"
+      },
+      {
+        "B": "Cable access"
+      },
+      {
+        "C": "Telephone access"
+      },
+      {
+        "D": "Satellite access"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 85,
+    "question": "Home Internet Access is provided by __________",
+    "options": [
+      {
+        "A": "DSL"
+      },
+      {
+        "B": "FTTP"
+      },
+      {
+        "C": "Cable"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 86,
+    "question": "A ___________ is an extension of an enterprise’s private intranet across a public network such as the internet, creating a secure private connection.",
+    "options": [
+      {
+        "A": "VNP"
+      },
+      {
+        "B": "VPN"
+      },
+      {
+        "C": "VSN"
+      },
+      {
+        "D": "VSPN"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 87,
+    "question": "When were VPNs introduced into the commercial world?",
+    "options": [
+      {
+        "A": "Early 80’s"
+      },
+      {
+        "B": "Late 80’s"
+      },
+      {
+        "C": "Early 90’s"
+      },
+      {
+        "D": "Late 90’s"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 88,
+    "question": "Traffic in a VPN is NOT ____________",
+    "options": [
+      {
+        "A": "Invisible from public networks"
+      },
+      {
+        "B": "Logically separated from other traffic"
+      },
+      {
+        "C": "Accessible from unauthorized public networks"
+      },
+      {
+        "D": "Restricted to a single protocol in IPsec"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 90,
+    "question": "VPNs are financially speaking __________",
+    "options": [
+      {
+        "A": "Always more expensive than leased lines"
+      },
+      {
+        "B": "Always cheaper than leased lines"
+      },
+      {
+        "C": "Usually cheaper than leased lines"
+      },
+      {
+        "D": "Usually more expensive than leased lines"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 91,
+    "question": "Which layer of the OSI reference model does PPTP work at?",
+    "options": [
+      {
+        "A": "1"
+      },
+      {
+        "B": "2"
+      },
+      {
+        "C": "3"
+      },
+      {
+        "D": "4"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 92,
+    "question": "IPSec is designed to provide security at the _________",
+    "options": [
+      {
+        "A": "Transport layer"
+      },
+      {
+        "B": "Network layer"
+      },
+      {
+        "C": "Application layer"
+      },
+      {
+        "D": "Session layer"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 93,
+    "question": "In tunnel mode, IPSec protects the ______",
+    "options": [
+      {
+        "A": "Entire IP packet"
+      },
+      {
+        "B": "IP header"
+      },
+      {
+        "C": "IP payload"
+      },
+      {
+        "D": "IP trailer"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 94,
+    "question": "Which component is included in IP security?",
+    "options": [
+      {
+        "A": "Authentication Header (AH)"
+      },
+      {
+        "B": "Encapsulating Security Payload (ESP)"
+      },
+      {
+        "C": "Internet key Exchange (IKE)"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 95,
+    "question": "WPA2 is used for security in _______",
+    "options": [
+      {
+        "A": "Ethernet"
+      },
+      {
+        "B": "Bluetooth"
+      },
+      {
+        "C": "Wi-Fi"
+      },
+      {
+        "D": "Email"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 96,
+    "question": "An attempt to make a computer resource unavailable to its intended users is called ______",
+    "options": [
+      {
+        "A": "Denial-of-service attack"
+      },
+      {
+        "B": "Virus attack"
+      },
+      {
+        "C": "Worms attack"
+      },
+      {
+        "D": "Botnet process"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 97,
+    "question": "Pretty good privacy (PGP) is used in ______",
+    "options": [
+      {
+        "A": "Browser security"
+      },
+      {
+        "B": "Email security"
+      },
+      {
+        "C": "FTP security"
+      },
+      {
+        "D": "WiFi security"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 98,
+    "question": "When a DNS server accepts and uses incorrect information from a host that has no authority giving that information, then it is called _________",
+    "options": [
+      {
+        "A": "DNS lookup"
+      },
+      {
+        "B": "DNS hijacking"
+      },
+      {
+        "C": "DNS spoofing"
+      },
+      {
+        "D": "DNS authorizing"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 99,
+    "question": "HTTP is ________ protocol.",
+    "options": [
+      {
+        "A": "application layer"
+      },
+      {
+        "B": "transport layer"
+      },
+      {
+        "C": "network layer"
+      },
+      {
+        "D": "data link layer"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 100,
+    "question": "FTP server listens for connection on which port number?",
+    "options": [
+      {
+        "A": "20"
+      },
+      {
+        "B": "21"
+      },
+      {
+        "C": "22"
+      },
+      {
+        "D": "23"
+      }
+    ],
+    "correct_ans": "B"
+  }
+]
