@@ -1,25 +1,25 @@
 [
   {
-    "question_no": 50,
-    "question": "Which tag is a block-level element?",
+    "question_no": 1,
+    "question": "Which of the following methods/operation does javascript use instead of == and !=?",
     "options": [
       {
-        "A": "<block> ... </block>"
+        "A": "JavaScript uses equalto()"
       },
       {
-        "B": "<b> ... </b>"
+        "B": "JavaScript uses equals() and notequals() instead"
       },
       {
-        "C": "<div> ... </div>"
+        "C": "JavaScript uses bitwise checking"
       },
       {
-        "D": "<divx> ... </divx>"
+        "D": "JavaScript uses === and !== instead"
       }
     ],
-    "correct_ans": "C"
+    "correct_ans": "D"
   },
   {
-    "question_no": 51,
+    "question_no": 2,
     "question": "What is JavaScript?",
     "options": [
       {
@@ -38,7 +38,7 @@
     "correct_ans": "A"
   },
   {
-    "question_no": 52,
+    "question_no": 3,
     "question": "Which of the following is correct about JavaScript?",
     "options": [
       {
@@ -57,7 +57,7 @@
     "correct_ans": "A"
   },
   {
-    "question_no": 53,
+    "question_no": 4,
     "question": "Arrays in JavaScript are defined by which of the following statements?",
     "options": [
       {
@@ -76,7 +76,7 @@
     "correct_ans": "A"
   },
   {
-    "question_no": 54,
+    "question_no": 5,
     "question": "Which of the following is not javascript data types?",
     "options": [
       {
@@ -95,7 +95,7 @@
     "correct_ans": "D"
   },
   {
-    "question_no": 55,
+    "question_no": 6,
     "question": "Where is Client-side JavaScript code is embedded within HTML documents?",
     "options": [
       {
@@ -114,7 +114,7 @@
     "correct_ans": "B"
   },
   {
-    "question_no": 56,
+    "question_no": 7,
     "question": "Which of the following object is the main entry point to all client-side JavaScript features and APIs?",
     "options": [
       {
@@ -133,7 +133,7 @@
     "correct_ans": "B"
   },
   {
-    "question_no": 57,
+    "question_no": 8,
     "question": "Which of the following can be used to call a JavaScript Code Snippet?",
     "options": [
       {
@@ -152,7 +152,7 @@
     "correct_ans": "A"
   },
   {
-    "question_no": 58,
+    "question_no": 9,
     "question": "Which of the following scoping type does JavaScript use?",
     "options": [
       {
@@ -171,7 +171,7 @@
     "correct_ans": "C"
   },
   {
-    "question_no": 59,
+    "question_no": 10,
     "question": "What is the basic difference between JavaScript and Java?",
     "options": [
       {
@@ -190,7 +190,7 @@
     "correct_ans": "B"
   },
   {
-    "question_no": 60,
+    "question_no": 11,
     "question": "Why JavaScript Engine is needed?",
     "options": [
       {
@@ -209,1219 +209,1694 @@
     "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 12,
+    "question": "Why JavaScript Engine is needed?",
     "options": [
       {
-        "A": ""
+        "A": "Both Compiling & Interpreting the JavaScript"
       },
       {
-        "B": ""
+        "B": "Parsing the javascript"
       },
       {
-        "C": ""
+        "C": "Interpreting the JavaScript"
       },
       {
-        "D": ""
+        "D": "Compiling the JavaScript"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 13,
+    "question": "Why event handlers is needed in JS?",
+    "options": [
+      {
+        "A": "Allows JavaScript code to alter the behaviour of windows"
+      },
+      {
+        "B": "Adds innerHTML page to the code"
+      },
+      {
+        "C": "Change the server location"
+      },
+      {
+        "D": "Performs handling of exceptions and occurrences"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "Which of the following is not a framework?",
+    "options": [
+      {
+        "A": "JavaScript .NET"
+      },
+      {
+        "B": "JavaScript"
+      },
+      {
+        "C": "Cocoa JS"
+      },
+      {
+        "D": "jQuery"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 15,
+    "question": "Which of the following is the property that is triggered in response to JS errors?",
+    "options": [
+      {
+        "A": "onclick"
+      },
+      {
+        "B": "onerror"
+      },
+      {
+        "C": "onmessage"
+      },
+      {
+        "D": "onexception"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 16,
+    "question": "Which of the following is not an error in JavaScript?",
+    "options": [
+      {
+        "A": "Missing of Bracket"
+      },
+      {
+        "B": "Division by zero"
+      },
+      {
+        "C": "Syntax error"
+      },
+      {
+        "D": "Missing of semicolons"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 17,
+    "question": " The script tag must be placed in __________",
+    "options": [
+      {
+        "A": "the head tag"
+      },
+      {
+        "B": "the head or body"
+      },
+      {
+        "C": "the title or head"
+      },
+      {
+        "D": "after the body tag"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 18,
+    "question": "A JavaScript program developed on a Unix Machine ________",
+    "options": [
+      {
+        "A": "will throw errors and exceptions"
+      },
+      {
+        "B": "must be restricted to a Unix Machine only"
+      },
+      {
+        "C": "will work perfectly well on a Windows Machine"
+      },
+      {
+        "D": "will be displayed as a JavaScript text on the browser"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 19,
+    "question": "JavaScript is ideal to ________",
+    "options": [
+      {
+        "A": "make computations in HTML simpler"
+      },
+      {
+        "B": "minimize storage requirements on the web server"
+      },
+      {
+        "C": "increase the download time for the client"
+      },
+      {
+        "D": "increase the loading time of the website"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 20,
+    "question": "Which attribute is used to specify that the script is executed when the page has finished parsing? (only for external scripts)",
+    "options": [
+      {
+        "A": "parse"
+      },
+      {
+        "B": "a sync"
+      },
+      {
+        "C": "defer"
+      },
+      {
+        "D": "type"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 21,
+    "question": "JavaScript Code can be called by using ____________",
+    "options": [
+      {
+        "A": "RMI"
+      },
+      {
+        "B": "Triggering Event"
+      },
+      {
+        "C": "Preprocessor"
+      },
+      {
+        "D": "Function/Method"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 22,
+    "question": "A proper scripting language is a __________",
+    "options": [
+      {
+        "A": "High level programming language"
+      },
+      {
+        "B": "Assembly level programming language"
+      },
+      {
+        "C": "Machine level programming language"
+      },
+      {
+        "D": "Low level programming language"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "JavaScript code between a pair of “script” tags are called __________",
+    "options": [
+      {
+        "A": "Non-inline"
+      },
+      {
+        "B": "External"
+      },
+      {
+        "C": "Referenced"
+      },
+      {
+        "D": "Inline"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 24,
+    "question": "Which type of JavaScript language is ___",
+    "options": [
+      {
+        "A": "Object-Oriented"
+      },
+      {
+        "B": "Object-Based"
+      },
+      {
+        "C": "Assembly-language"
+      },
+      {
+        "D": "High-level"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 25,
+    "question": "Which one of the following also known as Conditional Expression:",
+    "options": [
+      {
+        "A": "Alternative to if-else"
+      },
+      {
+        "B": "Switch statement"
+      },
+      {
+        "C": "If-then-else statement"
+      },
+      {
+        "D": "immediate if"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 26,
+    "question": "The 'function' and 'var' are known as:",
+    "options": [
+      {
+        "A": "Keywords"
+      },
+      {
+        "B": "Data types"
+      },
+      {
+        "C": "Declaration statements"
+      },
+      {
+        "D": "Prototypes"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 27,
+    "question": "Which of the following variables takes precedence over the others if the names are the same?",
+    "options": [
+      {
+        "A": "Global variable"
+      },
+      {
+        "B": "The local element"
+      },
+      {
+        "C": "The two of the above"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 28,
+    "question": "Which one of the following is the correct way for calling the JavaScript code?",
+    "options": [
+      {
+        "A": "Preprocessor"
+      },
+      {
+        "B": "Triggering Event"
+      },
+      {
+        "C": "RMI"
+      },
+      {
+        "D": "Function/Method"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 29,
+    "question": "In the JavaScript, which one of the following is not considered as an error:",
+    "options": [
+      {
+        "A": "Syntax error"
+      },
+      {
+        "B": "Missing of semicolons"
+      },
+      {
+        "C": "Division by zero"
+      },
+      {
+        "D": "Missing of Bracket"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 30,
+    "question": "Which of the following number object function returns the value of the number?",
+    "options": [
+      {
+        "A": "toString()"
+      },
+      {
+        "B": "valueOf()"
+      },
+      {
+        "C": "toLocaleString()"
+      },
+      {
+        "D": "toPrecision()"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 31,
+    "question": "Choose the correct snippet from the following to check if the variable 'a' is not equal the 'NULL':",
+    "options": [
+      {
+        "A": "if(a!==null)"
+      },
+      {
+        "B": "if (a!)"
+      },
+      {
+        "C": "if(a!null)"
+      },
+      {
+        "D": "if(a!=null)"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 32,
+    "question": "In JavaScript, what will be used for calling the function definition expression:",
+    "options": [
+      {
+        "A": "Function prototype"
+      },
+      {
+        "B": "Function literal"
+      },
+      {
+        "C": "Function calling"
+      },
+      {
+        "D": "Function declaration"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 33,
+    "question": "Which one of the following is an ternary operator:",
+    "options": [
+      {
+        "A": "?"
+      },
+      {
+        "B": ":"
+      },
+      {
+        "C": "-"
+      },
+      {
+        "D": "+"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 34,
+    "question": "What we will get if we compare the 'one' with '8' using the less than operator ('one'<8)?",
+    "options": [
+      {
+        "A": "False"
+      },
+      {
+        "B": "True"
+      },
+      {
+        "C": "NaN"
+      },
+      {
+        "D": "Undefined"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 35,
+    "question": "Which one of the following is known as the Equality operator, which is used to check whether the two values are equal or not:",
+    "options": [
+      {
+        "A": "="
+      },
+      {
+        "B": "==="
+      },
+      {
+        "C": "=="
+      },
+      {
+        "D": "&&"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 36,
+    "question": "Which one of the following operator returns false if both values are equal?",
+    "options": [
+      {
+        "A": "!"
+      },
+      {
+        "B": "!=="
+      },
+      {
+        "C": "!="
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 37,
+    "question": "In a case, where the value of the operator is NULL , the typeof returned by the unary operator is___.",
+    "options": [
+      {
+        "A": "undefined"
+      },
+      {
+        "B": "string"
+      },
+      {
+        "C": "boolean"
+      },
+      {
+        "D": "object"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 38,
+    "question": "Which one of the following is not a keyword:",
+    "options": [
+      {
+        "A": "if"
+      },
+      {
+        "B": "with"
+      },
+      {
+        "C": "debugger"
+      },
+      {
+        "D": "use strict"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 39,
+    "question": " Which one of the following symbol is used for creating comments in the javascript:",
+    "options": [
+      {
+        "A": "\\"
+      },
+      {
+        "B": "//"
+      },
+      {
+        "C": "///"
+      },
+      {
+        "D": "##"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 40,
+    "question": " Which one of the following is not considered as statement in the JavaScript?",
+    "options": [
+      {
+        "A": "use strict"
+      },
+      {
+        "B": "debugger"
+      },
+      {
+        "C": "if"
+      },
+      {
+        "D": "with"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 41,
+    "question": " What if we define a 'for' loop and it removes one of the properties that has not yet been enumerated?",
+    "options": [
+      {
+        "A": "The removed property will be stored in a cache"
+      },
+      {
+        "B": "The loop will not run at all"
+      },
+      {
+        "C": "That property will be enumerated"
+      },
+      {
+        "D": "That specific property will not be enumerated"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 42,
+    "question": "What is the basic purpose of the toLocateString() method?",
+    "options": [
+      {
+        "A": "It returns a localised object representation"
+      },
+      {
+        "B": "It returns a localized string representation of the object"
+      },
+      {
+        "C": "It return a local time in the string format"
+      },
+      {
+        "D": "It return a parsed string"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 43,
+    "question": " A set of unordered properties that, has a name and value is called______",
+    "options": [
+      {
+        "A": "String"
+      },
+      {
+        "B": "Array"
+      },
+      {
+        "C": "Serialized Object"
+      },
+      {
+        "D": "Object"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 44,
+    "question": "A collection of elements of the same data type which may either in order or not, is called _____.",
+    "options": [
+      {
+        "A": "String"
+      },
+      {
+        "B": "Array"
+      },
+      {
+        "C": "Serialized Object"
+      },
+      {
+        "D": "Object"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 45,
+    "question": "Every object contains three object attributes that are _______.",
+    "options": [
+      {
+        "A": "Prototype, class, object's extensible flag"
+      },
+      {
+        "B": "Prototype, class, objects' parameters"
+      },
+      {
+        "C": "Class, parameters, object's extensible flag"
+      },
+      {
+        "D": "Native object, Classes and Interfaces and Object's extensible flag"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 46,
+    "question": "The linkage of a set of prototype objects is known as______",
+    "options": [
+      {
+        "A": "prototype stack"
+      },
+      {
+        "B": "prototype"
+      },
+      {
+        "C": "prototype class"
+      },
+      {
+        "D": "prototype chain"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 47,
+    "question": "In the following line of code, what we will call the datatype written in brackets? <br> article[datatype]=assignment_value;",
+    "options": [
+      {
+        "A": "An String"
+      },
+      {
+        "B": "A integer"
+      },
+      {
+        "C": "An object"
+      },
+      {
+        "D": "Floating point"
       }
     ],
     "correct_ans": ""
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 48,
+    "question": "To know about an object, whether the object is a prototype (or a part of a prototype chain) of another object, the user can use_______",
     "options": [
       {
-        "A": ""
+        "A": "==operator"
       },
       {
-        "B": ""
+        "B": "equals() method"
       },
       {
-        "C": ""
+        "C": "=== operator"
       },
       {
-        "D": ""
+        "D": "isPrototypeOf() method"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 49,
+    "question": "In the following given line of code, the prototype representing the_____ <br> functionx(){};  ",
     "options": [
       {
-        "A": ""
+        "A": "Function x"
       },
       {
-        "B": ""
+        "B": "Prototype of a function"
       },
       {
-        "C": ""
+        "C": "A custom constructor"
       },
       {
-        "D": ""
+        "D": "Not valid"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 50,
+    "question": "Which one of the following method or operator is used for identification of the array?",
     "options": [
       {
-        "A": ""
+        "A": "Typeof"
       },
       {
-        "B": ""
+        "B": "=="
       },
       {
-        "C": ""
+        "C": "==="
       },
       {
-        "D": ""
+        "D": "isarrayType()"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 51,
+    "question": " Both the rduucedRight() and reduce()methods follow which one of the following common operation?",
     "options": [
       {
-        "A": ""
+        "A": "inject and fold"
       },
       {
-        "B": ""
+        "B": "filter and fold"
       },
       {
-        "C": ""
+        "C": "finger and fold"
       },
       {
-        "D": ""
+        "D": "fold"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 52,
+    "question": "What will happen if we use the join() method along with the reverse() method?",
     "options": [
       {
-        "A": ""
+        "A": "It will reverse and concatenates the elements of the array"
       },
       {
-        "B": ""
+        "B": "It will reverse the element and store the elements in the same array"
       },
       {
-        "C": ""
+        "C": "It will just reverse the element of the array"
       },
       {
-        "D": ""
+        "D": "It will store the elements of the specified array in the normal order"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 53,
+    "question": "What is the primary role of the return () statement in a function body?",
     "options": [
       {
-        "A": ""
+        "A": "It returns the value and continues executing rest of the statements"
       },
       {
-        "B": ""
+        "B": "It returns the value and stops the program execution"
       },
       {
-        "C": ""
+        "C": "Stops executing the function and returns the value"
       },
       {
-        "D": ""
+        "D": "It returns the value and stops executing the function"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 54,
+    "question": "If a function which does not return a value is known as _____",
     "options": [
       {
-        "A": ""
+        "A": "Static function"
       },
       {
-        "B": ""
+        "B": "Procedures"
       },
       {
-        "C": ""
+        "C": "Method"
       },
       {
-        "D": ""
+        "D": "Dynamic function"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 55,
+    "question": "In which events/scenarios, A function name gets optional in JavaScript?",
     "options": [
       {
-        "A": ""
+        "A": "When a function is defined as a looping statement"
       },
       {
-        "B": ""
+        "B": "When the function is called"
       },
       {
-        "C": ""
+        "C": "When a function is defined as expressions"
       },
       {
-        "D": ""
+        "D": "When the function is predefined"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 56,
+    "question": "What happens if the return statement has no related expression?",
     "options": [
       {
-        "A": ""
+        "A": "It will return a undefined value"
       },
       {
-        "B": ""
+        "B": "It will throw a exception"
       },
       {
-        "C": ""
+        "C": "It will return the 0 as the value"
       },
       {
-        "D": ""
+        "D": "It will throw a error"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 57,
+    "question": "Which one of the following keywords is used for defining the function in the JavaScript?",
     "options": [
       {
-        "A": ""
+        "A": "Void"
       },
       {
-        "B": ""
+        "B": "init"
       },
       {
-        "C": ""
+        "C": "main"
       },
       {
-        "D": ""
+        "D": "function"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 58,
+    "question": "In JavaScript, do the functions always return a value?",
     "options": [
       {
-        "A": ""
+        "A": "Yes, functions always returns a value"
       },
       {
-        "B": ""
+        "B": "No, it is not necessary"
       },
       {
-        "C": ""
+        "C": "A number of functions return values by default"
       },
       {
-        "D": ""
+        "D": "some functions do not return any value"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 59,
+    "question": "Which one of the given options can be considered as a code equivalent to the following code? <br> var o =newObject();  ",
     "options": [
       {
-        "A": ""
+        "A": "var o= new Object;"
       },
       {
-        "B": ""
+        "B": "var o;"
       },
       {
-        "C": ""
+        "C": "var o = Object();"
       },
       {
-        "D": ""
+        "D": "Object o=new Object();"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 60,
+    "question": "Which one of the following is not a example of closures?",
     "options": [
       {
-        "A": ""
+        "A": "Graphics"
       },
       {
-        "B": ""
+        "B": "Variables"
       },
       {
-        "C": ""
+        "C": "Functions"
       },
       {
-        "D": ""
+        "D": "Objects"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 61,
+    "question": "What is the primary rule of the Lexical Scoping?",
     "options": [
       {
-        "A": ""
+        "A": "Functions are always declared in the scope"
       },
       {
-        "B": ""
+        "B": "Variables are declared inside the function"
       },
       {
-        "C": ""
+        "C": "Functions are always declared outside the scope"
       },
       {
-        "D": ""
+        "D": "Functions gets executes using scope chain"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 62,
+    "question": "What is required in order to implement the Lexical Scoping?",
     "options": [
       {
-        "A": ""
+        "A": "To reference the current scope chain"
       },
       {
-        "B": ""
+        "B": "Dereference the current scope chain"
       },
       {
-        "C": ""
+        "C": "Get the object"
       },
       {
-        "D": ""
+        "D": "Return the value"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 63,
+    "question": "In JavaScript, what kind of scoping is used?",
     "options": [
       {
-        "A": ""
+        "A": "Literal scoping"
       },
       {
-        "B": ""
+        "B": "Sequential scoping"
       },
       {
-        "C": ""
+        "C": "Segmental scoping"
       },
       {
-        "D": ""
+        "D": "Lexical scoping"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 64,
+    "question": "What are the closures?",
     "options": [
       {
-        "A": ""
+        "A": "Both Function objects and Scope where function's variables are resolved"
       },
       {
-        "B": ""
+        "B": "Scope where function's variables are resolved"
       },
       {
-        "C": ""
+        "C": "Function objects"
       },
       {
-        "D": ""
+        "D": "Function return value"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 65,
+    "question": "Which one of the following can be considered as the opposite approach of the Lexical Scoping?",
     "options": [
       {
-        "A": ""
+        "A": "Dynamic scoping"
       },
       {
-        "B": ""
+        "B": "Literal scoping"
       },
       {
-        "C": ""
+        "C": "Static scoping"
       },
       {
-        "D": ""
+        "D": "Generic scoping"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 66,
+    "question": " Which HTML element is used to put the JavaScript code?",
     "options": [
       {
-        "A": ""
+        "A": "<javascript>"
       },
       {
-        "B": ""
+        "B": "<js>"
       },
       {
-        "C": ""
+        "C": "<scripting>"
       },
       {
-        "D": ""
+        "D": "<script>"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 67,
+    "question": "Which of the following is the correct syntax to print a page using JavaScript?",
     "options": [
       {
-        "A": ""
+        "A": "door.print();"
       },
       {
-        "B": ""
+        "B": "window.print();"
       },
       {
-        "C": ""
+        "C": "console.print();"
       },
       {
-        "D": ""
+        "D": "div.print();"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 68,
+    "question": "Which of the following is not a JavaScript Data Types?",
     "options": [
       {
-        "A": ""
+        "A": "Boolean"
       },
       {
-        "B": ""
+        "B": "Undefined"
       },
       {
-        "C": ""
+        "C": "Number"
       },
       {
-        "D": ""
+        "D": "Float"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 69,
+    "question": "Which of the following syntax can be used to write Hello World in an alert box?",
     "options": [
       {
-        "A": ""
+        "A": "alertBox('Hello World');"
       },
       {
-        "B": ""
+        "B": "msgBox('Hello World')"
       },
       {
-        "C": ""
+        "C": "alert('Hello World')"
       },
       {
-        "D": ""
+        "D": "msg('Hello World')"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 70,
+    "question": "Which of the following is not a JavaScript framework or library?",
     "options": [
       {
-        "A": ""
+        "A": "Polymer"
       },
       {
-        "B": ""
+        "B": "Meteor"
       },
       {
-        "C": ""
+        "C": "jQuery"
       },
       {
-        "D": ""
+        "D": "Cassandra"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 71,
+    "question": "Why does the name of JavaScript and Java are similar?",
     "options": [
       {
-        "A": ""
+        "A": "JavaScript is a stripped-down version of Java."
       },
       {
-        "B": ""
+        "B": "The syntax of JavaScript is loosely based on the syntax of Java."
       },
       {
-        "C": ""
+        "C": "JavaScript and Java both are originated on the island of Java."
       },
       {
-        "D": ""
+        "D": "None of the above"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 72,
+    "question": "Which of the following is the correct statement of WHILE loop start?",
     "options": [
       {
-        "A": ""
+        "A": "while (i <= 10)"
       },
       {
-        "B": ""
+        "B": "while (i <= 10; i++)"
       },
       {
-        "C": ""
+        "C": "while i = 1 to 10"
       },
       {
-        "D": ""
+        "D": "None of These"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 73,
+    "question": "What was the original name of JavaScript when it discovered?",
     "options": [
       {
-        "A": ""
+        "A": "LiveScript"
       },
       {
-        "B": ""
+        "B": "EScript"
       },
       {
-        "C": ""
+        "C": "JScript"
       },
       {
-        "D": ""
+        "D": "Mocha"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 74,
+    "question": "Which of the following is the correct way to write a comment in JavaScript code?",
     "options": [
       {
-        "A": ""
+        "A": "//This is a comment"
       },
       {
-        "B": ""
+        "B": "/*This is a comment*/"
       },
       {
-        "C": ""
+        "C": "$This is a comment$"
       },
       {
-        "D": ""
+        "D": "$This is a comment$"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 75,
+    "question": "Which of the following JavaScript operator is used to assign a value to a variable based on some condition?",
     "options": [
       {
-        "A": ""
+        "A": "Assignment operator"
       },
       {
-        "B": ""
+        "B": "Bitwise Operator"
       },
       {
-        "C": ""
+        "C": "Conditional operator"
       },
       {
-        "D": ""
+        "D": "Logical Operator"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 76,
+    "question": "Which of the following variables are used in JavaScript programs?",
     "options": [
       {
-        "A": ""
+        "A": "Varying randomly"
       },
       {
-        "B": ""
+        "B": "Causing high-school algebra flashbacks"
       },
       {
-        "C": ""
+        "C": "Storing numbers, dates, or other values"
       },
       {
-        "D": ""
+        "D": "None of the above"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 77,
+    "question": "What are the three crucial manipulations done in a 'for loop' on a loop variable in JavaScript?",
     "options": [
       {
-        "A": ""
+        "A": "The initialization, the Increment, and update"
       },
       {
-        "B": ""
+        "B": "The initialization, the test, and the update"
       },
       {
-        "C": ""
+        "C": "The initialization, the test, and Increment"
       },
       {
-        "D": ""
+        "D": "All of the above"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 78,
+    "question": "Which of the following is the correct syntax to create a cookie using JavaScript?",
     "options": [
       {
-        "A": ""
+        "A": "document.cookie = 'key1 = value1; key2 = value2; expires = date';"
       },
       {
-        "B": ""
+        "B": "window.cookie = 'key1 = value1; key2 = value2; expires = date';"
       },
       {
-        "C": ""
+        "C": "console.cookie = 'key1 = value1; key2 = value2; expires = date';"
       },
       {
-        "D": ""
+        "D": "html.cookie = 'key1 = value1; key2 = value2; expires = date';"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 79,
+    "question": "What are the different alternatives of == and != in JavaScript?",
     "options": [
       {
-        "A": ""
+        "A": "It uses bitwise checking"
       },
       {
-        "B": ""
+        "B": "It uses === and !== instead"
       },
       {
-        "C": ""
+        "C": "It uses equals() and notequals() instead"
       },
       {
-        "D": ""
+        "D": "It uses equalto()"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 80,
+    "question": "What are the different types of Pop up boxes available in JavaScript?",
     "options": [
       {
-        "A": ""
+        "A": "Alert"
       },
       {
-        "B": ""
+        "B": "Prompt"
       },
       {
-        "C": ""
+        "C": "Confirm"
       },
       {
-        "D": ""
+        "D": "All of the above"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 81,
+    "question": "Which of the following is a server-side JavaScript object?",
     "options": [
       {
-        "A": ""
+        "A": "Date"
       },
       {
-        "B": ""
+        "B": "FileUpload"
       },
       {
-        "C": ""
+        "C": "File"
       },
       {
-        "D": ""
+        "D": "Function"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 82,
+    "question": "What are the different types of errors in JavaScript?",
     "options": [
       {
-        "A": ""
+        "A": "Load time errors"
       },
       {
-        "B": ""
+        "B": "Run time errors"
       },
       {
-        "C": ""
+        "C": "Logical Errors"
       },
       {
-        "D": ""
+        "D": "All of the above"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 83,
+    "question": "Which of the following built-in method is used to remove the last element from an array and return that element?",
     "options": [
       {
-        "A": ""
+        "A": "last()"
       },
       {
-        "B": ""
+        "B": "pop()"
       },
       {
-        "C": ""
+        "C": "get()"
       },
       {
-        "D": ""
+        "D": "None of the above"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 84,
+    "question": "Which of the following is an IF statement in JavaScript?",
     "options": [
       {
-        "A": ""
+        "A": " if i = 5"
       },
       {
-        "B": ""
+        "B": "if i = 5 then"
       },
       {
-        "C": ""
+        "C": "if (i == 5)"
       },
       {
-        "D": ""
+        "D": "All of these"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 85,
+    "question": "Which of the following is the correct statement of WHILE loop start?",
     "options": [
       {
-        "A": ""
+        "A": "while (i <= 10)"
       },
       {
-        "B": ""
+        "B": "while (i <= 10; i++)"
       },
       {
-        "C": ""
+        "C": "while i = 1 to 10"
       },
       {
-        "D": ""
+        "D": "None of These"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 86,
+    "question": "Which of the following event occurs when the user clicks on an HTML element?",
     "options": [
       {
-        "A": ""
+        "A": "onmouseclick"
       },
       {
-        "B": ""
+        "B": "onmouseover"
       },
       {
-        "C": ""
+        "C": "onclick"
       },
       {
-        "D": ""
+        "D": "None"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 87,
+    "question": "Javascript was designed for which of the following purposes",
     "options": [
       {
-        "A": ""
+        "A": "To Style HTML Pages"
       },
       {
-        "B": ""
+        "B": "To Perform Server Side Scripting Opertion"
       },
       {
-        "C": ""
+        "C": "To add interactivity to HTML Pages"
       },
       {
-        "D": ""
+        "D": "To Execute Query Related to DB on Server"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 88,
+    "question": "Executable single line of Script is called as _________________.",
     "options": [
       {
-        "A": ""
+        "A": "Breakpoint in JS"
       },
       {
-        "B": ""
+        "B": "Statement in JavaScript"
       },
       {
-        "C": ""
+        "C": "Line in JS"
       },
       {
-        "D": ""
+        "D": "None of the above"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 89,
+    "question": "Which of the following option terminates Java Statement?",
     "options": [
       {
-        "A": ""
+        "A": "Semicolon"
       },
       {
-        "B": ""
+        "B": "Full Stop"
       },
       {
-        "C": ""
+        "C": "Comma"
       },
       {
-        "D": ""
+        "D": "Slash"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 90,
+    "question": "_________ statement is used to declare variable in JavaScript.",
     "options": [
       {
-        "A": ""
+        "A": "Executable Statement"
       },
       {
-        "B": ""
+        "B": "Declaration Statement"
       },
       {
-        "C": ""
+        "C": "Conditional Statement"
       },
       {
-        "D": ""
+        "D": "Assignment Statement"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 91,
+    "question": "______ operator is used to concatenate two strings.",
     "options": [
       {
-        "A": ""
+        "A": "Dot"
       },
       {
-        "B": ""
+        "B": "Arrow"
       },
       {
-        "C": ""
+        "C": "Comma"
       },
       {
-        "D": ""
+        "D": "Plus"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 92,
+    "question": "Which of the following is correct about features of Javascript?",
     "options": [
       {
-        "A": ""
+        "A": " It can not Handling dates and time."
       },
       {
-        "B": ""
+        "B": "JavaScript is a object-based scripting language."
       },
       {
-        "C": ""
+        "C": "JavaScript is not interpreter based scripting language.."
       },
       {
-        "D": ""
+        "D": "None of the above"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 93,
+    "question": "Spaces,Punctuation marks are called as __________ Symbols in JavaScript.",
     "options": [
       {
-        "A": ""
+        "A": "Special"
       },
       {
-        "B": ""
+        "B": "Punctual"
       },
       {
-        "C": ""
+        "C": "Mandetory"
       },
       {
-        "D": ""
+        "D": "None of these"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 94,
+    "question": "Which is correct file extension of JavaScript file?",
     "options": [
       {
-        "A": ""
+        "A": ".javaScript"
       },
       {
-        "B": ""
+        "B": ".js"
       },
       {
-        "C": ""
+        "C": ".jscript"
       },
       {
-        "D": ""
+        "D": "javaS"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 95,
+    "question": "1+'hello' The ans is ",
     "options": [
       {
-        "A": ""
+        "A": "1+hello"
       },
       {
-        "B": ""
+        "B": "1hello"
       },
       {
-        "C": ""
+        "C": "hello1"
       },
       {
-        "D": ""
+        "D": "hello"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 96,
+    "question": "How can we get array length?",
     "options": [
       {
-        "A": ""
+        "A": "array.size"
       },
       {
-        "B": ""
+        "B": "array.len"
       },
       {
-        "C": ""
+        "C": "array.length"
       },
       {
-        "D": ""
+        "D": "length(array)"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 97,
+    "question": "How can we insert a item in an array at the last position?",
     "options": [
       {
-        "A": ""
+        "A": "using pop function"
       },
       {
-        "B": ""
+        "B": "using swift function"
       },
       {
-        "C": ""
+        "C": "using insert function"
       },
       {
-        "D": ""
+        "D": "using push function"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 98,
+    "question": "Object consists of ____",
     "options": [
       {
-        "A": ""
+        "A": "key-value pair"
       },
       {
-        "B": ""
+        "B": "item-key pair"
       },
       {
-        "C": ""
+        "C": "key-item pair"
       },
       {
-        "D": ""
+        "D": "key-key pair"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 99,
+    "question": "Which loop is appropriate for traversing object?",
     "options": [
       {
-        "A": ""
+        "A": "for"
       },
       {
-        "B": ""
+        "B": "for of"
       },
       {
-        "C": ""
+        "C": "for in"
       },
       {
-        "D": ""
+        "D": "while"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 100,
+    "question": "How can we get last item of an array?",
     "options": [
       {
-        "A": ""
+        "A": "Using push function"
       },
       {
-        "B": ""
+        "B": "using swift function"
       },
       {
-        "C": ""
+        "C": "Using get function"
       },
       {
-        "D": ""
+        "D": "Using pop function"
       }
     ],
-    "correct_ans": ""
-  },
-  {
-    "question_no": 1,
-    "question": "",
-    "options": [
-      {
-        "A": ""
-      },
-      {
-        "B": ""
-      },
-      {
-        "C": ""
-      },
-      {
-        "D": ""
-      }
-    ],
-    "correct_ans": ""
-  },
-  {
-    "question_no": 1,
-    "question": "",
-    "options": [
-      {
-        "A": ""
-      },
-      {
-        "B": ""
-      },
-      {
-        "C": ""
-      },
-      {
-        "D": ""
-      }
-    ],
-    "correct_ans": ""
-  },
-  {
-    "question_no": 1,
-    "question": "",
-    "options": [
-      {
-        "A": ""
-      },
-      {
-        "B": ""
-      },
-      {
-        "C": ""
-      },
-      {
-        "D": ""
-      }
-    ],
-    "correct_ans": ""
-  },
-  {
-    "question_no": 1,
-    "question": "",
-    "options": [
-      {
-        "A": ""
-      },
-      {
-        "B": ""
-      },
-      {
-        "C": ""
-      },
-      {
-        "D": ""
-      }
-    ],
-    "correct_ans": ""
-  },
-  {
-    "question_no": 1,
-    "question": "",
-    "options": [
-      {
-        "A": ""
-      },
-      {
-        "B": ""
-      },
-      {
-        "C": ""
-      },
-      {
-        "D": ""
-      }
-    ],
-    "correct_ans": ""
-  },
-  {
-    "question_no": 1,
-    "question": "",
-    "options": [
-      {
-        "A": ""
-      },
-      {
-        "B": ""
-      },
-      {
-        "C": ""
-      },
-      {
-        "D": ""
-      }
-    ],
-    "correct_ans": ""
-  },
-  {
-    "question_no": 1,
-    "question": "",
-    "options": [
-      {
-        "A": ""
-      },
-      {
-        "B": ""
-      },
-      {
-        "C": ""
-      },
-      {
-        "D": ""
-      }
-    ],
-    "correct_ans": ""
-  },
-  {
-    "question_no": 1,
-    "question": "",
-    "options": [
-      {
-        "A": ""
-      },
-      {
-        "B": ""
-      },
-      {
-        "C": ""
-      },
-      {
-        "D": ""
-      }
-    ],
-    "correct_ans": ""
-  },
-  {
-    "question_no": 1,
-    "question": "",
-    "options": [
-      {
-        "A": ""
-      },
-      {
-        "B": ""
-      },
-      {
-        "C": ""
-      },
-      {
-        "D": ""
-      }
-    ],
-    "correct_ans": ""
-  },
-  {
-    "question_no": 1,
-    "question": "",
-    "options": [
-      {
-        "A": ""
-      },
-      {
-        "B": ""
-      },
-      {
-        "C": ""
-      },
-      {
-        "D": ""
-      }
-    ],
-    "correct_ans": ""
+    "correct_ans": "D"
   }
 ]
