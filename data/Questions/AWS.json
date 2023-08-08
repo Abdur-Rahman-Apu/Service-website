@@ -1,0 +1,1902 @@
+[
+  {
+    "question_no": 1,
+    "question": "What is the full form of AWS?",
+    "options": [
+      {
+        "A": "Amazon web-based service"
+      },
+      {
+        "B": "Amazon web-store service"
+      },
+      {
+        "C": "Amazon web service"
+      },
+      {
+        "D": "Amazon web-data service"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 2,
+    "question": "How many types of cloud computing are there?",
+    "options": [
+      {
+        "A": "2"
+      },
+      {
+        "B": "3"
+      },
+      {
+        "C": "4"
+      },
+      {
+        "D": "5"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 3,
+    "question": "Which of the following are the advantages of AWS?",
+    "options": [
+      {
+        "A": "Flexibility"
+      },
+      {
+        "B": "Cost-effectiveness"
+      },
+      {
+        "C": "Scalability"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 4,
+    "question": "Do traditional IT models provide flexibility?",
+    "options": [
+      {
+        "A": "YES"
+      },
+      {
+        "B": "NO"
+      },
+      {
+        "C": "50/50"
+      },
+      {
+        "D": "Don't know"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 5,
+    "question": "What is the region in AWS?",
+    "options": [
+      {
+        "A": "A region is a geographical area or collection of data centers."
+      },
+      {
+        "B": "A region is an isolated logical data center"
+      },
+      {
+        "C": "A region is the end-points for AWS."
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "What is the Availability zone in AWS?",
+    "options": [
+      {
+        "A": "An Availability zone is a geographical area or collection of data centers."
+      },
+      {
+        "B": "An Availability zone is an isolated logical data center in a region"
+      },
+      {
+        "C": "An Availability zone is the end-points for AWS."
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 7,
+    "question": "What are edge locations in AWS?",
+    "options": [
+      {
+        "A": "The edge location is a geographical area or collection of data centers."
+      },
+      {
+        "B": "The edge location is an isolated logical data center in a region"
+      },
+      {
+        "C": "The edge locations are the end-points for AWS, used to deliver fast content to users."
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 8,
+    "question": "Which of the following are the components of AWS infrastructure?",
+    "options": [
+      {
+        "A": "Edge location"
+      },
+      {
+        "B": "Regions"
+      },
+      {
+        "C": "Availability zone"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 9,
+    "question": "What do you mean by AWS account ID?",
+    "options": [
+      {
+        "A": "AWS account ID is a 12-digit number that is used to construct Amazon Resource Names (ARNs)."
+      },
+      {
+        "B": "AWS account ID is 64-digit hexadecimal used in an Amazon S3 bucket policy."
+      },
+      {
+        "C": "All of the above"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "What Does IAM stands for in AWS?",
+    "options": [
+      {
+        "A": "Identity access manager"
+      },
+      {
+        "B": "Identity access management"
+      },
+      {
+        "C": "Identify user-access management"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 11,
+    "question": "What is the role of IAM?",
+    "options": [
+      {
+        "A": "Allows you to set permission, roles, and users."
+      },
+      {
+        "B": "Allows you to manage users and their access."
+      },
+      {
+        "C": "It allows only specific users to use specific services."
+      },
+      {
+        "D": "All of the above."
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 12,
+    "question": "Is the IAM service in AWS free to use?",
+    "options": [
+      {
+        "A": "Yes"
+      },
+      {
+        "B": "No"
+      },
+      {
+        "C": "None"
+      },
+      {
+        "D": "Don't know"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "Does IAM provide us with networking control?",
+    "options": [
+      {
+        "A": "Yes"
+      },
+      {
+        "B": "No"
+      },
+      {
+        "C": "None"
+      },
+      {
+        "D": "Don't know"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "In AWS, IAM identities are categorized into how many parts?",
+    "options": [
+      {
+        "A": "1"
+      },
+      {
+        "B": "2"
+      },
+      {
+        "C": "3"
+      },
+      {
+        "D": "4"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 15,
+    "question": "Can an AWS account root user access the billing information?",
+    "options": [
+      {
+        "A": "Yes"
+      },
+      {
+        "B": "No"
+      },
+      {
+        "C": "None"
+      },
+      {
+        "D": "Don't know"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "____ are used to grant permissions to your IAM Users to access AWS resources within your own or different account.",
+    "options": [
+      {
+        "A": "IAM root user"
+      },
+      {
+        "B": "IAM groups"
+      },
+      {
+        "C": "IAM roles"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 17,
+    "question": "Can you create a role for an AWS service using AWS CLI?",
+    "options": [
+      {
+        "A": "Yes"
+      },
+      {
+        "B": "No"
+      },
+      {
+        "C": "None"
+      },
+      {
+        "D": "Don't know"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "What does S3 stand for in AWS?",
+    "options": [
+      {
+        "A": "Simple storage service"
+      },
+      {
+        "B": "Standard storage service"
+      },
+      {
+        "C": "Simple standard storage"
+      },
+      {
+        "D": "Simple standard service"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "S3 is a ____?",
+    "options": [
+      {
+        "A": "Block-based storage"
+      },
+      {
+        "B": "Object-based storage"
+      },
+      {
+        "C": "Binary-based storage"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 20,
+    "question": "What kind of data can you store in S3?",
+    "options": [
+      {
+        "A": "Images"
+      },
+      {
+        "B": "PDF files"
+      },
+      {
+        "C": "Word files"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 21,
+    "question": "What capacity of files can you store in S3?",
+    "options": [
+      {
+        "A": "0 bytes- 100 TB"
+      },
+      {
+        "B": "0 bytes -50 TB"
+      },
+      {
+        "C": "0 bytes -5 TB"
+      },
+      {
+        "D": "0 bytes -25 TB"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 22,
+    "question": "Does s3 have unlimited data storage?",
+    "options": [
+      {
+        "A": "Yes"
+      },
+      {
+        "B": "No"
+      },
+      {
+        "C": "None"
+      },
+      {
+        "D": "Don't know"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "What are buckets in S3?",
+    "options": [
+      {
+        "A": "Buckets are simply a container that store files."
+      },
+      {
+        "B": "Buckets are the entities that you want to store in S3."
+      },
+      {
+        "C": "Buckets are the unique identifier in S3."
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "What are objects in S3?",
+    "options": [
+      {
+        "A": "objects are simply a container that store files."
+      },
+      {
+        "B": "objects are the entities that are stored in S3."
+      },
+      {
+        "C": "objects are the unique identifier in S3."
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 25,
+    "question": "Every object in a bucket is associated with one unique____?",
+    "options": [
+      {
+        "A": "Value"
+      },
+      {
+        "B": "Region"
+      },
+      {
+        "C": "Key"
+      },
+      {
+        "D": "Zone"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 26,
+    "question": "Is it important to keep the bucket name unique?",
+    "options": [
+      {
+        "A": "Yes"
+      },
+      {
+        "B": "No"
+      },
+      {
+        "C": "None"
+      },
+      {
+        "D": "Don't know"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "How many types of storage classes does the S3 contain?",
+    "options": [
+      {
+        "A": "1"
+      },
+      {
+        "B": "2"
+      },
+      {
+        "C": "3"
+      },
+      {
+        "D": "4"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 28,
+    "question": "What does IA stand for in S3 standard IA?",
+    "options": [
+      {
+        "A": "Identifier access"
+      },
+      {
+        "B": "Identity Access"
+      },
+      {
+        "C": "Infrequent accessed"
+      },
+      {
+        "D": "Identify access"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 29,
+    "question": "Which of the following is the cheapest s3 storage class?",
+    "options": [
+      {
+        "A": "S3 standard"
+      },
+      {
+        "B": "S3 standard IA"
+      },
+      {
+        "C": "S3 one zone-infrequent access"
+      },
+      {
+        "D": "S3 glacier"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 30,
+    "question": "How many types of storage gateways are there?",
+    "options": [
+      {
+        "A": "1"
+      },
+      {
+        "B": "2"
+      },
+      {
+        "C": "3"
+      },
+      {
+        "D": "4"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 31,
+    "question": "Which type of storage gateway is used to store flat files like videos, pictures, and pdf?",
+    "options": [
+      {
+        "A": "File Gateway"
+      },
+      {
+        "B": "Volume Gateway"
+      },
+      {
+        "C": "Tape Gateway"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 32,
+    "question": "Which type of storage gateway uses the network file system technique?",
+    "options": [
+      {
+        "A": "File Gateway"
+      },
+      {
+        "B": "Volume Gateway"
+      },
+      {
+        "C": "Tape Gateway"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 33,
+    "question": "How many types of volume gateways are there?",
+    "options": [
+      {
+        "A": "4"
+      },
+      {
+        "B": "3"
+      },
+      {
+        "C": "2"
+      },
+      {
+        "D": "1"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 34,
+    "question": "What is the size of stored volumes?",
+    "options": [
+      {
+        "A": "1GB – 100 TB"
+      },
+      {
+        "B": "1GB- 16TB"
+      },
+      {
+        "C": "1GB-32TB"
+      },
+      {
+        "D": "1GB-50TB"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 35,
+    "question": "What is the size of the cached gateway?",
+    "options": [
+      {
+        "A": "1GB – 100 TB"
+      },
+      {
+        "B": "1GB- 16TB"
+      },
+      {
+        "C": "1GB-32TB"
+      },
+      {
+        "D": "1GB-50TB"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 36,
+    "question": "Which type of storage gateway is mainly used for taking backups?",
+    "options": [
+      {
+        "A": "File Gateway"
+      },
+      {
+        "B": "Volume Gateway"
+      },
+      {
+        "C": "Tape Gateway"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 37,
+    "question": "Volume gateway is used for ____?",
+    "options": [
+      {
+        "A": "Block-based storage"
+      },
+      {
+        "B": "Object-based storage"
+      },
+      {
+        "C": "Simple-based storage"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 38,
+    "question": "Which type of storage gateway uses the internet's small computer system interface protocol?",
+    "options": [
+      {
+        "A": "File Gateway"
+      },
+      {
+        "B": "Volume Gateway"
+      },
+      {
+        "C": "Tape Gateway"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 39,
+    "question": " Which of the following backup applications are used by tape gateway?",
+    "options": [
+      {
+        "A": "NetBackup"
+      },
+      {
+        "B": "Exec"
+      },
+      {
+        "C": "Veeam"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 40,
+    "question": "Which AWS service helps us to transfer petabytes of data in and out of AWS?",
+    "options": [
+      {
+        "A": "Snowball"
+      },
+      {
+        "B": "Snowball edge"
+      },
+      {
+        "C": "Snowmobile"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 41,
+    "question": "With the ____, you can integrate AWS capabilities with on-board storage and compute power.?",
+    "options": [
+      {
+        "A": "Snowball"
+      },
+      {
+        "B": "Snowball Edge"
+      },
+      {
+        "C": "Snowmobile"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 42,
+    "question": "When you want to transfer an exabyte amount of data to AWS, which AWS service will you use?",
+    "options": [
+      {
+        "A": "Snowball"
+      },
+      {
+        "B": "Snowball Edge"
+      },
+      {
+        "C": "Snowmobile"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 43,
+    "question": "What does EC2 stand for in AWS?",
+    "options": [
+      {
+        "A": "Elastic cloud computing"
+      },
+      {
+        "B": "Elastic compute cloud"
+      },
+      {
+        "C": "Elastic compute cloud"
+      },
+      {
+        "D": "Elastic cloud computer"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 44,
+    "question": "How many pricing models are provided by EC2 in AWS?",
+    "options": [
+      {
+        "A": "1"
+      },
+      {
+        "B": "2"
+      },
+      {
+        "C": "3"
+      },
+      {
+        "D": "4"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 45,
+    "question": "____is recommended when you are not sure which instance type is required for your performance needs.",
+    "options": [
+      {
+        "A": "On-Demand Instances"
+      },
+      {
+        "B": "Reserved Instances"
+      },
+      {
+        "C": "Spot Instances"
+      },
+      {
+        "D": "Dedicated Hosts."
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 46,
+    "question": "How many types of reserved instances are there?",
+    "options": [
+      {
+        "A": "4"
+      },
+      {
+        "B": "3"
+      },
+      {
+        "C": "2"
+      },
+      {
+        "D": "1"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 47,
+    "question": "Which type of reserved instance provides us with the largest discount?",
+    "options": [
+      {
+        "A": "Standard Reserved Instances"
+      },
+      {
+        "B": "Convertible Reserved Instances"
+      },
+      {
+        "C": "Scheduled Reserved Instances"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 48,
+    "question": "Which pricing model allows you to bid on the price and will continue to exist until you terminate the instance?",
+    "options": [
+      {
+        "A": "On-Demand Instances"
+      },
+      {
+        "B": "Reserved Instances"
+      },
+      {
+        "C": "Spot Instances"
+      },
+      {
+        "D": "Dedicated Hosts."
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 49,
+    "question": "What does the EBS stand for in AWS?",
+    "options": [
+      {
+        "A": "Electronic block storage"
+      },
+      {
+        "B": "Elastic block storage"
+      },
+      {
+        "C": "Elastic byte storage"
+      },
+      {
+        "D": "Electronic byte storage"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 50,
+    "question": "____ is the virtual disk in a cloud?",
+    "options": [
+      {
+        "A": "Elastic compute cloud"
+      },
+      {
+        "B": "Elastic block storage"
+      },
+      {
+        "C": "Elastic byte storage"
+      },
+      {
+        "D": "Simple storage service"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 51,
+    "question": "How many types of volume does EBS provide?",
+    "options": [
+      {
+        "A": "4"
+      },
+      {
+        "B": "3"
+      },
+      {
+        "C": "2"
+      },
+      {
+        "D": "1"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 52,
+    "question": "Among SSD-backed volumes and HDD-backed volumes, which one is more expensive?",
+    "options": [
+      {
+        "A": "SSD-backed volumes"
+      },
+      {
+        "B": "SSD-backed volumes"
+      },
+      {
+        "C": "Both are equal in price"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 53,
+    "question": "Which AWS service is responsible for controlling the incoming and outgoing traffic and is also known as a virtual firewall?",
+    "options": [
+      {
+        "A": "Snowball"
+      },
+      {
+        "B": "Security group"
+      },
+      {
+        "C": "S3"
+      },
+      {
+        "D": "EC2"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 54,
+    "question": "What does AMI stand for?",
+    "options": [
+      {
+        "A": "Access management identity"
+      },
+      {
+        "B": "Amazon management identity"
+      },
+      {
+        "C": "Amazon management image"
+      },
+      {
+        "D": "Amazon machine image"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 55,
+    "question": "How many categories of AMI are there?",
+    "options": [
+      {
+        "A": "2"
+      },
+      {
+        "B": "3"
+      },
+      {
+        "C": "4"
+      },
+      {
+        "D": "5"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 56,
+    "question": "____ AWS service distributes incoming application traffic across multiple targets?",
+    "options": [
+      {
+        "A": "Security group"
+      },
+      {
+        "B": "Snowball"
+      },
+      {
+        "C": "Load balancer"
+      },
+      {
+        "D": "AMI"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 57,
+    "question": "How many types of load balancers are there?",
+    "options": [
+      {
+        "A": "4"
+      },
+      {
+        "B": "2"
+      },
+      {
+        "C": "1"
+      },
+      {
+        "D": "3"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 58,
+    "question": "Which type of load balancer is operated at the 7th layer of the OSI model?",
+    "options": [
+      {
+        "A": "Application load balancer"
+      },
+      {
+        "B": "Network load balancer"
+      },
+      {
+        "C": "Classic load balancer."
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 59,
+    "question": "Which type of load balancer is best suited for handling HTTP and HTTPs traffic?",
+    "options": [
+      {
+        "A": "Application load balancer"
+      },
+      {
+        "B": "Network load balancer"
+      },
+      {
+        "C": "Classic load balancer."
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 60,
+    "question": "Which type of load balancer is operated at the 4th layer of the OSI model?",
+    "options": [
+      {
+        "A": "Network load balancer"
+      },
+      {
+        "B": "Classic load balancer."
+      },
+      {
+        "C": "Only a"
+      },
+      {
+        "D": "Both A and B"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 61,
+    "question": "Which type of load balancer is best suited for handling TCP traffic?",
+    "options": [
+      {
+        "A": "Application load balancer"
+      },
+      {
+        "B": "Network load balancer"
+      },
+      {
+        "C": "Classic load balancer."
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 62,
+    "question": "Real-time monitoring of AWS resources and applications is possible through which AWS service?",
+    "options": [
+      {
+        "A": "AWS cloud watch"
+      },
+      {
+        "B": "AWS EC2"
+      },
+      {
+        "C": "AWS load balancer"
+      },
+      {
+        "D": "AWS lambda"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 63,
+    "question": "____ is the plain text file that comprises commands used in the command line?",
+    "options": [
+      {
+        "A": "Scripts"
+      },
+      {
+        "B": "Bash scripts"
+      },
+      {
+        "C": "Shell script"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 64,
+    "question": "What does DNS stand for?",
+    "options": [
+      {
+        "A": "Domain naming service"
+      },
+      {
+        "B": "Domain name system"
+      },
+      {
+        "C": "Domain name system"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 65,
+    "question": "How many types of IP addresses are there?",
+    "options": [
+      {
+        "A": "4"
+      },
+      {
+        "B": "3"
+      },
+      {
+        "C": "2"
+      },
+      {
+        "D": "1"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 66,
+    "question": "In includehelp.com which part of this domain name will be called as the top-level domain?",
+    "options": [
+      {
+        "A": "Includehelp"
+      },
+      {
+        "B": ".com"
+      },
+      {
+        "C": "Includelp.com"
+      },
+      {
+        "D": "Includehelp."
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 67,
+    "question": "­____ Assigns IP addresses to domain names and handles domain name reservation?",
+    "options": [
+      {
+        "A": "Domain registrars"
+      },
+      {
+        "B": "Domain system"
+      },
+      {
+        "C": "Domain authority system"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 68,
+    "question": "Does AWS have a feature to store non-relational databases?",
+    "options": [
+      {
+        "A": "Yes"
+      },
+      {
+        "B": "No"
+      },
+      {
+        "C": "All of the above"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 69,
+    "question": "In which format non-relational databases are stored?",
+    "options": [
+      {
+        "A": "Rows and columns"
+      },
+      {
+        "B": "Plain text"
+      },
+      {
+        "C": "JSON"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 70,
+    "question": "Which type of non-relational database stores the data in the form of key-value?",
+    "options": [
+      {
+        "A": "Document"
+      },
+      {
+        "B": "Key value"
+      },
+      {
+        "C": "In Memory"
+      },
+      {
+        "D": "Search"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 71,
+    "question": "Which type of non-relational database is represented by edges and nodes to store the data?",
+    "options": [
+      {
+        "A": "Document"
+      },
+      {
+        "B": "Key value"
+      },
+      {
+        "C": "In Memory"
+      },
+      {
+        "D": "Graph"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 72,
+    "question": "In a graph non-relational database what do nodes represent?",
+    "options": [
+      {
+        "A": "Relationships"
+      },
+      {
+        "B": "Entities"
+      },
+      {
+        "C": "Edge"
+      },
+      {
+        "D": "Vertex"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 73,
+    "question": "In a graph non-relational database what do edges represent?",
+    "options": [
+      {
+        "A": "Relationships"
+      },
+      {
+        "B": "Entities"
+      },
+      {
+        "C": "Edge"
+      },
+      {
+        "D": "Vertex"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 74,
+    "question": "How many types of elastic caches are there in AWS?",
+    "options": [
+      {
+        "A": "1"
+      },
+      {
+        "B": "2"
+      },
+      {
+        "C": "3"
+      },
+      {
+        "D": "4"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 75,
+    "question": "Which of the following are the advantages of Memcached?",
+    "options": [
+      {
+        "A": "Simplicity"
+      },
+      {
+        "B": "Scalability"
+      },
+      {
+        "C": "Community"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 76,
+    "question": "What is the full form of Redis?",
+    "options": [
+      {
+        "A": "Remote desk service"
+      },
+      {
+        "B": "Remote dictionary service"
+      },
+      {
+        "C": "Remote dictionary server"
+      },
+      {
+        "D": "Remote dictionary server"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 77,
+    "question": "Which of the following two elasticache supports advanced data structure?",
+    "options": [
+      {
+        "A": "Redis"
+      },
+      {
+        "B": "Memcached"
+      },
+      {
+        "C": "Mirror"
+      },
+      {
+        "D": "DDOS"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 78,
+    "question": "Which Non-relational database supports both document and key-value pairs in AWS?",
+    "options": [
+      {
+        "A": "Redshift"
+      },
+      {
+        "B": "Aurora"
+      },
+      {
+        "C": "Dynamodb"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 79,
+    "question": "How many types of consistency models are there in DynamoDB?",
+    "options": [
+      {
+        "A": "4"
+      },
+      {
+        "B": "3"
+      },
+      {
+        "C": "5"
+      },
+      {
+        "D": "2"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 80,
+    "question": "which is a non-relational database that serves up to five times better performance than MySQL in AWS.",
+    "options": [
+      {
+        "A": "Redshift"
+      },
+      {
+        "B": "Aurora"
+      },
+      {
+        "C": "DynamoDB"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 81,
+    "question": "Does aurora in AWS provide auto-scaling?",
+    "options": [
+      {
+        "A": "Yes"
+      },
+      {
+        "B": "No"
+      },
+      {
+        "C": "All of the above"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 82,
+    "question": "What does SQS stand for?",
+    "options": [
+      {
+        "A": "Simple queue service"
+      },
+      {
+        "B": "Simple query system"
+      },
+      {
+        "C": "Simple query service"
+      },
+      {
+        "D": "Simple query server"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 83,
+    "question": "How many types of queues are there in AWS SQS?",
+    "options": [
+      {
+        "A": "4"
+      },
+      {
+        "B": "3"
+      },
+      {
+        "C": "2"
+      },
+      {
+        "D": "1"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 84,
+    "question": "Among the two-queue types of SQS, which is the default queue type?",
+    "options": [
+      {
+        "A": "Standard queue"
+      },
+      {
+        "B": "FIFO queue"
+      },
+      {
+        "C": "LIFO queue"
+      },
+      {
+        "D": "Lowest queue"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 85,
+    "question": "Which SQS queue offers an order that means the messages sent are received in the same order?",
+    "options": [
+      {
+        "A": "Standard queue"
+      },
+      {
+        "B": "FIFO queue"
+      },
+      {
+        "C": "LIFO queue"
+      },
+      {
+        "D": "Lowest queue"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 86,
+    "question": "Does FIFO also allow unlimited transactions?",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 87,
+    "question": "",
+    "options": [
+      {
+        "A": "Yes"
+      },
+      {
+        "B": "No"
+      },
+      {
+        "C": "All of the above"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 88,
+    "question": "What does SWF stand for?",
+    "options": [
+      {
+        "A": "Simple workforce"
+      },
+      {
+        "B": "Simple workflow service"
+      },
+      {
+        "C": "Simple workflow server"
+      },
+      {
+        "D": "Simple workflow server"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 89,
+    "question": "What does SNS stand for?",
+    "options": [
+      {
+        "A": "Simple naming service"
+      },
+      {
+        "B": "Simple notification server"
+      },
+      {
+        "C": "Simple Notification Service"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 90,
+    "question": "____ a pull-based service?",
+    "options": [
+      {
+        "A": "SNS"
+      },
+      {
+        "B": "SWF"
+      },
+      {
+        "C": "SQS"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 91,
+    "question": " ____ a Push-based service?",
+    "options": [
+      {
+        "A": "SNS"
+      },
+      {
+        "B": "SWF"
+      },
+      {
+        "C": "SQS"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 92,
+    "question": "How many components does an elastic transcoder have?",
+    "options": [
+      {
+        "A": "4"
+      },
+      {
+        "B": "3"
+      },
+      {
+        "C": "2"
+      },
+      {
+        "D": "1"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 93,
+    "question": "What does VPC stand for?",
+    "options": [
+      {
+        "A": "Virtual private computing"
+      },
+      {
+        "B": "Virtual private cloud"
+      },
+      {
+        "C": "Virtual public computing"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 94,
+    "question": "How many types of VPC endpoints are there?",
+    "options": [
+      {
+        "A": "2"
+      },
+      {
+        "B": "3"
+      },
+      {
+        "C": "4"
+      },
+      {
+        "D": "5"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 95,
+    "question": "Which VPC endpoint has a private IP address?",
+    "options": [
+      {
+        "A": "Interface endpoints"
+      },
+      {
+        "B": "Gateway endpoints"
+      },
+      {
+        "C": "All of the above"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 96,
+    "question": "Which feature of AWS captures the information about the IP traffic?",
+    "options": [
+      {
+        "A": "IP traffic analysis"
+      },
+      {
+        "B": "VPC workflows"
+      },
+      {
+        "C": "VPC flow logs"
+      },
+      {
+        "D": "Amazon Logs"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 97,
+    "question": "At how many levels can you create VPC flow logs?",
+    "options": [
+      {
+        "A": "4"
+      },
+      {
+        "B": "5"
+      },
+      {
+        "C": "6"
+      },
+      {
+        "D": "3"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 98,
+    "question": "What is the full form of NACL in AWS?",
+    "options": [
+      {
+        "A": "Network analysis computing list"
+      },
+      {
+        "B": "Network analysis control list"
+      },
+      {
+        "C": "Network access control list"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 99,
+    "question": "Which layer in VPC is the security layer and correspondingly identified as a firewall?",
+    "options": [
+      {
+        "A": "NAT gateway"
+      },
+      {
+        "B": "Network analysis control list"
+      },
+      {
+        "C": "Subnet"
+      },
+      {
+        "D": "Firewall manager"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 100,
+    "question": "How many types of NACL are there?",
+    "options": [
+      {
+        "A": "3"
+      },
+      {
+        "B": "4"
+      },
+      {
+        "C": "2"
+      },
+      {
+        "D": "5"
+      }
+    ],
+    "correct_ans": "C"
+  }
+]
