@@ -6,12 +6,12 @@
   },
   {
     "id": 1,
-    "courseName": " Big Data and Hadoop",
+    "courseName": "Big Data and Hadoop",
     "bannerImg": "./images/course-img/course-banner/hadoop--big-data.png"
   },
   {
     "id": 2,
-    "courseName": " C, C++ & Java Programming",
+    "courseName": "C, C++ & Java Programming",
     "bannerImg": "./images/course-img/course-banner/c,c++,java.png"
   },
   {

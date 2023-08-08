@@ -545,63 +545,548 @@
     "correct_ans": "C"
   },
   {
-    "question_no": 50,
-    "question": "Which SequenceFile are present in Hadoop I/O ?",
-    "options": [{ "A": "2" }, { "B": "8" }, { "C": "9" }, { "D": "3" }],
+    "question_no": 51,
+    "question": "Amongst which of the following is / are the challenge of Big Data processing,",
+    "options": [
+      { "A": "Goes beyond the massive volumes" },
+      { "B": "Increasing velocities of data" },
+      { "C": "Both A and B" },
+      { "D": "None of the mentioned above" }
+    ],
     "correct_ans": "C"
   },
   {
-    "question_no": 50,
-    "question": "Which SequenceFile are present in Hadoop I/O ?",
-    "options": [{ "A": "2" }, { "B": "8" }, { "C": "9" }, { "D": "3" }],
+    "question_no": 52,
+    "question": "Data Query Layer is the _____ where active analytic processing of Big Data takes place.",
+    "options": [
+      { "A": "Architectural layer" },
+      { "B": "Fundamental layer" },
+      { "C": "Backpropogation layer" },
+      { "D": "None of the mentioned above" }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 53,
+    "question": "Data Visualization Layer,",
+    "options": [
+      { "A": "To visualize the data" },
+      { "B": "To access the data" },
+      { "C": "To process the data" },
+      { "D": "All of the mentioned above" }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 54,
+    "question": "Big Data Ingestion Layer concerned with the,",
+    "options": [
+      { "A": "Big Data ingestion pipeline is divided into different layers" },
+      { "B": "Each layer performs a particular function" },
+      { "C": "Both A and B" },
+      { "D": "None of the mentioned above" }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 55,
+    "question": "Custom Application of Big data for business to meet ______.",
+    "options": [
+      { "A": "Business needs" },
+      { "B": "Facilitates cloud computing" },
+      { "C": "Hypervisor" },
+      { "D": "Virtualization" }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 56,
+    "question": "Large _____ of data is considered as big data.",
+    "options": [
+      { "A": "Volume" },
+      { "B": "Veracity" },
+      { "C": "Variety" },
+      { "D": "None of the mentioned above" }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 57,
+    "question": "Variety describes one of the biggest challenges of ______.",
+    "options": [
+      { "A": "Big data" },
+      { "B": "Data science" },
+      { "C": "Data integration" },
+      { "D": "None of the mentioned above" }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 58,
+    "question": "Veracity makes sure that the data is _______.",
+    "options": [
+      { "A": "Inconsistence" },
+      { "B": "Variant" },
+      { "C": "Accurate" },
+      { "D": "None of the mentioned above" }
+    ],
     "correct_ans": "C"
   },
   {
-    "question_no": 50,
-    "question": "Which SequenceFile are present in Hadoop I/O ?",
-    "options": [{ "A": "2" }, { "B": "8" }, { "C": "9" }, { "D": "3" }],
-    "correct_ans": "C"
-  },
-  {
-    "question_no": 50,
-    "question": "Which SequenceFile are present in Hadoop I/O ?",
-    "options": [{ "A": "2" }, { "B": "8" }, { "C": "9" }, { "D": "3" }],
-    "correct_ans": "C"
-  },
-  {
-    "question_no": 50,
-    "question": "Which SequenceFile are present in Hadoop I/O ?",
-    "options": [{ "A": "2" }, { "B": "8" }, { "C": "9" }, { "D": "3" }],
-    "correct_ans": "C"
-  },
-  {
-    "question_no": 50,
-    "question": "Which SequenceFile are present in Hadoop I/O ?",
-    "options": [{ "A": "2" }, { "B": "8" }, { "C": "9" }, { "D": "3" }],
-    "correct_ans": "C"
-  },
-  {
-    "question_no": 50,
-    "question": "Which SequenceFile are present in Hadoop I/O ?",
-    "options": [{ "A": "2" }, { "B": "8" }, { "C": "9" }, { "D": "3" }],
-    "correct_ans": "C"
-  },
-  {
-    "question_no": 50,
-    "question": "Which SequenceFile are present in Hadoop I/O ?",
-    "options": [{ "A": "2" }, { "B": "8" }, { "C": "9" }, { "D": "3" }],
-    "correct_ans": "C"
-  },
-  {
-    "question_no": 50,
-    "question": "Which SequenceFile are present in Hadoop I/O ?",
-    "options": [{ "A": "2" }, { "B": "8" }, { "C": "9" }, { "D": "3" }],
+    "question_no": 59,
+    "question": "Volume, Velocity and Variety are _____ to Big Data,",
+    "options": [
+      { "A": "Extrinsic" },
+      { "B": "Both A and C" },
+      { "C": "Intrinsic" },
+      { "D": "None of the mentioned above" }
+    ],
     "correct_ans": "C"
   },
   {
     "question_no": 60,
-    "question": "Which SequenceFile are present in Hadoop I/O ?",
-    "options": [{ "A": "2" }, { "B": "8" }, { "C": "9" }, { "D": "3" }],
+    "question": "The data that can be processed, stored, and retrieved in a fixed format called _____,",
+    "options": [
+      { "A": "Structured Data" },
+      { "B": "Unstructured Data" },
+      { "C": "Semi-structured Data" },
+      { "D": "None of the mentioned above" }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 61,
+    "question": "Many big data solutions prepare data for analysis and then serve the processed data in a,",
+    "options": [
+      { "A": "Unstructured format" },
+      { "B": "Semi-structured format" },
+      { "C": "Structured format" },
+      { "D": "None of the mentioned above" }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 62,
+    "question": "The data could be presented through a low-latency _____ technology.",
+    "options": [
+      { "A": "DBMS" },
+      { "B": "NoSQL" },
+      { "C": "Data store" },
+      { "D": "None of the mentioned above" }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 63,
+    "question": "Azure Synapse Analytics provides a managed service for _______.",
+    "options": [
+      { "A": "Large-scale" },
+      { "B": "Cloud-based" },
+      { "C": "Data warehousing" },
+      { "D": "All of the mentioned above" }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 64,
+    "question": " The goal of most big data solutions is to provide insights into the data through _____.",
+    "options": [
+      { "A": "Hive" },
+      { "B": "HBase" },
+      { "C": "Analysis and reporting" },
+      { "D": "All of the mentioned above" }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 65,
+    "question": "_____ is a form of interactive data exploration by data scientists or data analysts.",
+    "options": [
+      { "A": "Data and storage" },
+      { "B": "Analysis and reporting" },
+      { "C": "System and development" },
+      { "D": "None of the mentioned above" }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 66,
+    "question": " To automate the big data solutions like workflows, we use _____ technology.",
+    "options": [
+      { "A": "Orchestration" },
+      { "B": "HBase" },
+      { "C": "HDFS" },
+      { "D": "None of the mentioned above" }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 67,
+    "question": "The architecture should designed in such a way so that it can handle ______.",
+    "options": [
+      { "A": "Data ingestion" },
+      { "B": "Data processing" },
+      { "C": "Data analysis" },
+      { "D": "All of the mentioned above" }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 68,
+    "question": "To process large data sets quickly, big data architectures use.",
+    "options": [
+      { "A": "Distributed computing" },
+      { "B": "Cluster computing" },
+      { "C": "Parallel computing" },
+      { "D": "All of the mentioned above" }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 69,
+    "question": "Who popularized bigdata term?",
+    "options": [
+      { "A": "John deere" },
+      { "B": "John Mashey" },
+      { "C": "johny Mashe" },
+      { "D": "Jhon Mash" }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 70,
+    "question": "Numbers ,text, image, audio and video data is ____",
+    "options": [
+      { "A": "Volume" },
+      { "B": "Value" },
+      { "C": "Varity" },
+      { "D": "Variety" }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 71,
+    "question": "Real time data is ______.",
+    "options": [
+      { "A": "Field" },
+      { "B": "Primary Key" },
+      { "C": "unique" },
+      { "D": "record" }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 72,
+    "question": "______ is the term that is used to describe data that is high volume , high velocity and /or high variety.",
+    "options": [
+      { "A": "Analytics" },
+      { "B": "Bigdata" },
+      { "C": "Hadoop Data" },
+      { "D": "Bigdata analytics" }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 73,
+    "question": "Data science is the process of diverse set of data through ?",
+    "options": [
+      { "A": "organizing data" },
+      { "B": "processing data" },
+      { "C": "analysing data" },
+      { "D": "All of the above" }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 74,
+    "question": "Which of the following language is used in Data science?",
+    "options": [{ "A": "C" }, { "B": "C++" }, { "C": "R" }, { "D": "Ruby" }],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 75,
+    "question": "Which of the following are correct component for data science?",
+    "options": [
+      { "A": "Data Engineering" },
+      { "B": "Advanced Computing" },
+      { "C": "Domain expertise" },
+      { "D": "All of the above" }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 76,
+    "question": "Raw data should be processed only one time.",
+    "options": [
+      { "A": "True" },
+      { "B": "False" },
+      { "C": "Can be true or false" },
+      { "D": "Can not say" }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 77,
+    "question": "Causal analysis is commonly applied to census data.",
+    "options": [
+      { "A": "True" },
+      { "B": "False" },
+      { "C": "Can be true or false" },
+      { "D": "Can not say" }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 78,
+    "question": "Which of the following model is usually a gold standard for data analysis?",
+    "options": [
+      { "A": "Inferential" },
+      { "B": "Descriptive" },
+      { "C": "Causal" },
+      { "D": "All of the above" }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 79,
+    "question": "Define the Port Numbers for NameNode, Task Tracker and Job Tracker.",
+    "options": [
+      { "A": "NameNode" },
+      { "B": "Task Tracker" },
+      { "C": "Job Tracker" },
+      { "D": "All of the above" }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 80,
+    "question": "Which of the following is not one of the four V’s of Big Data?",
+    "options": [
+      { "A": "Volume" },
+      { "B": "Value" },
+      { "C": "Varity" },
+      { "D": "Variety" }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 81,
+    "question": "Which of the following is a tool used for processing and analyzing Big Data?",
+    "options": [
+      { "A": "Hadoop" },
+      { "B": "MySQL" },
+      { "C": "PostgreSQL" },
+      { "D": "Oracle" }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 82,
+    "question": "Which of the following is not a common challenge associated with Big Data?",
+    "options": [
+      { "A": "Data Quality" },
+      { "B": "Data Integration" },
+      { "C": "Data Privacy" },
+      { "D": "Data Duplication" }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 83,
+    "question": "Which of the following is a common programming language used for Big Data processing?",
+    "options": [
+      { "A": "C++" },
+      { "B": "Java" },
+      { "C": "Python" },
+      { "D": "All of the above" }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 84,
+    "question": "Which of the following is a popular NoSQL database used for Big Data processing?",
+    "options": [
+      { "A": "MySQL" },
+      { "B": "PostgreSQL" },
+      { "C": "Oracle" },
+      { "D": "MongoDB" }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 85,
+    "question": "What is the process of combining data from multiple sources into a single, unified view?",
+    "options": [
+      { "A": "Data Mining" },
+      { "B": "Data Warehousing" },
+      { "C": "Data Integration" },
+      { "D": "Data Processing" }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 86,
+    "question": "What is the process of cleaning and transforming data before it is used for analysis?",
+    "options": [
+      { "A": "Data Mining" },
+      { "B": "Data Warehousing" },
+      { "C": "Data Integration" },
+      { "D": "Data Preprocessing" }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 87,
+    "question": "What is the process of analyzing data in real-time as it is generated?",
+    "options": [
+      { "A": "Batch Processing" },
+      { "B": "Stream Processing" },
+      { "C": "MapReduce" },
+      { "D": "Hive" }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 88,
+    "question": "Which of the following is not a common type of data in Big Data analysis?",
+    "options": [
+      { "A": "Structured Data" },
+      { "B": "Semi-Structured Data" },
+      { "C": "Unstructured Data" },
+      { "D": "Simple Data" }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 89,
+    "question": "Which of the following is not a common data storage technology used for Big Data processing?",
+    "options": [
+      { "A": "Hadoop Distributed File System (HDFS)" },
+      { "B": "Cassandra" },
+      { "C": "MySQL" },
+      { "D": "Amazon S3" }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 90,
+    "question": "Which of the following is not a common data visualization tool used for Big Data analysis?",
+    "options": [
+      { "A": "Tableau" },
+      { "B": "QlikView" },
+      { "C": "Microsoft Excel" },
+      { "D": "D3.js" }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 91,
+    "question": "Which of the following is not a common use case for Big Data analytics?",
+    "options": [
+      { "A": "Fraud Detection" },
+      { "B": "Customer Segmentation" },
+      { "C": "Social Media Analysis" },
+      { "D": "Inventory Management" }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 92,
+    "question": "Which of the following is a technique for grouping similar data points together?",
+    "options": [
+      { "A": "Classification" },
+      { "B": "Regression" },
+      { "C": "Clustering" },
+      { "D": "Dimensionality Reduction" }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 93,
+    "question": "Which of the following is not a common data preprocessing technique?",
+    "options": [
+      { "A": "Normalization" },
+      { "B": "One-Hot Encoding" },
+      { "C": "Dimensionality Reduction" },
+      { "D": "Regression" }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 94,
+    "question": " Which of the following is a technique for dealing with missing data?",
+    "options": [
+      { "A": "Imputation" },
+      { "B": "Clustering" },
+      { "C": "Sampling" },
+      { "D": "Dimensionality Reduction" }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 95,
+    "question": "HDFS works in a __________ fashion.",
+    "options": [
+      { "A": "worker-master fashion" },
+      { "B": "master-slave fashion" },
+      { "C": "master-worker fashion" },
+      { "D": "slave-master fashion" }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 96,
+    "question": "________ NameNode is used when the Primary NameNode goes down.",
+    "options": [
+      { "A": "Rack" },
+      { "B": "Data" },
+      { "C": "Secondary" },
+      { "D": "Both A and B" }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 97,
+    "question": "The minimum amount of data that HDFS can read or write is called a _____________.",
+    "options": [
+      { "A": "Datanode" },
+      { "B": "Namenode" },
+      { "C": "Block" },
+      { "D": "None of the above" }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 98,
+    "question": "The default block size is ______.",
+    "options": [
+      { "A": "32MB" },
+      { "B": "64MB" },
+      { "C": "128MB" },
+      { "D": "16MB" }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 99,
+    "question": "For every node (Commodity hardware/System) in a cluster, there will be a _________.",
+    "options": [
+      { "A": "Datanode" },
+      { "B": "Namenode" },
+      { "C": "Block" },
+      { "D": "None of the above" }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 100,
+    "question": "HDFS is implemented in _____________ language.",
+    "options": [
+      { "A": "Perl" },
+      { "B": "Python" },
+      { "C": "Java" },
+      { "D": "C" }
+    ],
     "correct_ans": "C"
   }
 ]
