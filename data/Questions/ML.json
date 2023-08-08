@@ -1,0 +1,1408 @@
+[
+  {
+    "question_no": 1,
+    "question": "ML is a field of AI consisting of learning algorithms that?",
+    "options": [
+      {
+        "A": "Improve their performance"
+      },
+      {
+        "B": "At executing some task"
+      },
+      {
+        "C": "Over time with experience"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 2,
+    "question": "The model will be trained with data in one single batch is known as ?",
+    "options": [
+      {
+        "A": "Batch learning"
+      },
+      {
+        "B": "Offline learning"
+      },
+      {
+        "C": "Both A and B"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 3,
+    "question": "None of the above",
+    "options": [
+      {
+        "A": "based on human supervision"
+      },
+      {
+        "B": "supervised Learning"
+      },
+      {
+        "C": "semi-reinforcement Learning"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "S"
+  },
+  {
+    "question_no": 4,
+    "question": "Which of the following is a disadvantage of decision trees?",
+    "options": [
+      {
+        "A": "Factor analysis"
+      },
+      {
+        "B": "Decision trees are robust to outliers"
+      },
+      {
+        "C": "Decision trees are prone to be overfit"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 5,
+    "question": "Which of the following techniques can not be used for normalization in text mining?",
+    "options": [
+      {
+        "A": "Stemming"
+      },
+      {
+        "B": "Lemmatization"
+      },
+      {
+        "C": "Stop Word Removal"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 6,
+    "question": "Application of machine learning methods to large databases is called",
+    "options": [
+      {
+        "A": "data mining."
+      },
+      {
+        "B": "artificial intelligence"
+      },
+      {
+        "C": "big data computing"
+      },
+      {
+        "D": "internet of things"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "In what type of learning labelled training data is used",
+    "options": [
+      {
+        "A": "unsupervised learning"
+      },
+      {
+        "B": "supervised learning"
+      },
+      {
+        "C": "reinforcement learning"
+      },
+      {
+        "D": "active learning"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 8,
+    "question": "Which of the following is the best machine learning method?",
+    "options": [
+      {
+        "A": "scalable"
+      },
+      {
+        "B": "accuracy"
+      },
+      {
+        "C": "fast"
+      },
+      {
+        "D": "all of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 9,
+    "question": "What does dimensionality reduction reduce?",
+    "options": [
+      {
+        "A": "stochastics"
+      },
+      {
+        "B": "collinerity"
+      },
+      {
+        "C": "performance"
+      },
+      {
+        "D": "entropy"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 10,
+    "question": "Data used to build a data mining model.",
+    "options": [
+      {
+        "A": "training data"
+      },
+      {
+        "B": "validation data"
+      },
+      {
+        "C": "test data"
+      },
+      {
+        "D": "hidden data"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "The problem of finding hidden structure in unlabeled data is called…",
+    "options": [
+      {
+        "A": "supervised learning"
+      },
+      {
+        "B": "unsupervised learning"
+      },
+      {
+        "C": "reinforcement learning"
+      },
+      {
+        "D": "None"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 12,
+    "question": "Following are the types of supervised learning",
+    "options": [
+      {
+        "A": "classification"
+      },
+      {
+        "B": "regression"
+      },
+      {
+        "C": "subgroup discovery"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 13,
+    "question": "Type of matrix decomposition model is",
+    "options": [
+      {
+        "A": "descriptive model"
+      },
+      {
+        "B": "predictive model"
+      },
+      {
+        "C": "logical model"
+      },
+      {
+        "D": "none of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "The output of training process in machine learning is",
+    "options": [
+      {
+        "A": "machine learning model"
+      },
+      {
+        "B": "machine learning algorithm"
+      },
+      {
+        "C": "null"
+      },
+      {
+        "D": "accuracy"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "PCA is",
+    "options": [
+      {
+        "A": "forward feature selection"
+      },
+      {
+        "B": "backword feature selection"
+      },
+      {
+        "C": "feature extraction"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 16,
+    "question": "In simple term, machine learning is",
+    "options": [
+      {
+        "A": "training based on historical data"
+      },
+      {
+        "B": "prediction to answer a query"
+      },
+      {
+        "C": "both a and b??"
+      },
+      {
+        "D": "automization of complex tasks"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 17,
+    "question": "Following are the descriptive models",
+    "options": [
+      {
+        "A": "clustering"
+      },
+      {
+        "B": "classification"
+      },
+      {
+        "C": "association rule"
+      },
+      {
+        "D": "both a and c"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 18,
+    "question": "Feature can be used as a",
+    "options": [
+      {
+        "A": "binary split"
+      },
+      {
+        "B": "predictor"
+      },
+      {
+        "C": "both a and b??"
+      },
+      {
+        "D": "none of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 19,
+    "question": "Which of the following is an example of feature extraction?",
+    "options": [
+      {
+        "A": "construction bag of words from an email"
+      },
+      {
+        "B": "applying pca to project high dimensional data"
+      },
+      {
+        "C": "removing stop words"
+      },
+      {
+        "D": "forward selection"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 20,
+    "question": "Support Vector Machine is",
+    "options": [
+      {
+        "A": "logical model"
+      },
+      {
+        "B": "proababilistic model"
+      },
+      {
+        "C": "geometric model"
+      },
+      {
+        "D": "none of the aboves"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 21,
+    "question": "In multiclass classification number of classes must be",
+    "options": [
+      {
+        "A": "less than two"
+      },
+      {
+        "B": "equals to two"
+      },
+      {
+        "C": "greater than two"
+      },
+      {
+        "D": "option 1 and option 2"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 22,
+    "question": "Impact of high variance on the training set ?",
+    "options": [
+      {
+        "A": "overfitting"
+      },
+      {
+        "B": "underfitting"
+      },
+      {
+        "C": "both underfitting & overfitting"
+      },
+      {
+        "D": "depents upon the dataset"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "Perceptron Classifier is",
+    "options": [
+      {
+        "A": "unsupervised learning algorithm"
+      },
+      {
+        "B": "semi-supervised learning algorithm"
+      },
+      {
+        "C": "supervised learning algorithm"
+      },
+      {
+        "D": "None"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 24,
+    "question": "Type of dataset available in Supervised Learning is",
+    "options": [
+      {
+        "A": "unlabeled dataset"
+      },
+      {
+        "B": "labeled dataset"
+      },
+      {
+        "C": "csv file"
+      },
+      {
+        "D": "excel file"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 25,
+    "question": "Which of the following is a categorical data?",
+    "options": [
+      {
+        "A": "branch of bank"
+      },
+      {
+        "B": "expenditure in rupees"
+      },
+      {
+        "C": "prize of house"
+      },
+      {
+        "D": "weight of a person"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "Which of the following method is used for multiclass classification?",
+    "options": [
+      {
+        "A": "one vs rest"
+      },
+      {
+        "B": "loocv"
+      },
+      {
+        "C": "all vs one"
+      },
+      {
+        "D": "one vs another"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "Linear Regression is a _______ machine learning algorithm.",
+    "options": [
+      {
+        "A": "supervised"
+      },
+      {
+        "B": "unsupervised"
+      },
+      {
+        "C": "semi-supervised"
+      },
+      {
+        "D": "None"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "How many types of Machine Learning Techniques?",
+    "options": [
+      {
+        "A": "3"
+      },
+      {
+        "B": "4"
+      },
+      {
+        "C": "7"
+      },
+      {
+        "D": "9"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "How many types of Machine Learning Techniques?",
+    "options": [
+      {
+        "A": "Data Learning"
+      },
+      {
+        "B": "Data Learning"
+      },
+      {
+        "C": "Artificial Intelligence"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 30,
+    "question": "Which of the following is not a supervised learning?",
+    "options": [
+      {
+        "A": "PCA"
+      },
+      {
+        "B": "Naive Bayesian"
+      },
+      {
+        "C": "Linear Regression"
+      },
+      {
+        "D": "Decision Tree"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 31,
+    "question": "Which of the following are ML methods?",
+    "options": [
+      {
+        "A": "supervised Learning"
+      },
+      {
+        "B": "based on human supervision"
+      },
+      {
+        "C": "semi-reinforcement Learning"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 32,
+    "question": "Residual is",
+    "options": [
+      {
+        "A": "Residual = Observed value – Predicted value"
+      },
+      {
+        "B": "Residual = Predicted value – Observed value"
+      },
+      {
+        "C": "Residual = Observed value + Predicted value"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 33,
+    "question": "A Machine Learning technique that helps in detecting the outliers in data.",
+    "options": [
+      {
+        "A": "Clustering"
+      },
+      {
+        "B": "Classification"
+      },
+      {
+        "C": "Anomaly Detection"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 34,
+    "question": "What is the disadvantage of decision trees?",
+    "options": [
+      {
+        "A": "Factor analysis"
+      },
+      {
+        "B": "Decision trees are robust to outliers"
+      },
+      {
+        "C": "Decision trees are prone to be overfit"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 35,
+    "question": "Who is the father of machine learning?",
+    "options": [
+      {
+        "A": "Geoffrey Everest Hinton"
+      },
+      {
+        "B": "Geoffrey Chaucer"
+      },
+      {
+        "C": "Geoffrey Hill"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 36,
+    "question": "Analysis of Machine Learning algorithm needs_____",
+    "options": [
+      {
+        "A": "Statistical learning theory"
+      },
+      {
+        "B": "Computational learning theory"
+      },
+      {
+        "C": "Both (A) and (B)"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 37,
+    "question": "What is the output of training process in machine learning?",
+    "options": [
+      {
+        "A": "Accuracy"
+      },
+      {
+        "B": "Machine learning model"
+      },
+      {
+        "C": "Machine learning algorithm"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 38,
+    "question": "Machine learning algorithms build a model based on sample data, known as .................",
+    "options": [
+      {
+        "A": "Training Data"
+      },
+      {
+        "B": "Transfer Data"
+      },
+      {
+        "C": "Data Training"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 39,
+    "question": "Common classes of problems in machine learning is ..............",
+    "options": [
+      {
+        "A": "Clustering"
+      },
+      {
+        "B": "Regression"
+      },
+      {
+        "C": "Classification"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 40,
+    "question": "Missing data items are ........................ with Bayes classifier.",
+    "options": [
+      {
+        "A": "Ignored"
+      },
+      {
+        "B": "Treated as equal compares"
+      },
+      {
+        "C": "Treated as unequal compares."
+      },
+      {
+        "D": "Replaced with a default value."
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 41,
+    "question": "Regression trees are often used to model which data?",
+    "options": [
+      {
+        "A": "Linear"
+      },
+      {
+        "B": "Nonlinear"
+      },
+      {
+        "C": "Categorical"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 42,
+    "question": "What is the another name for an output attribute?",
+    "options": [
+      {
+        "A": "Predictive variable"
+      },
+      {
+        "B": "Estimated variable"
+      },
+      {
+        "C": "Dependent variable"
+      },
+      {
+        "D": "Independent variable"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 43,
+    "question": "Supervised learning and unsupervised clustering both require at least one .............",
+    "options": [
+      {
+        "A": "Input attribute"
+      },
+      {
+        "B": "Output attribute"
+      },
+      {
+        "C": "Hidden attribute"
+      },
+      {
+        "D": "Categorical attribute"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 44,
+    "question": "What is the full form of PAC?",
+    "options": [
+      {
+        "A": "Probably Approx Cost"
+      },
+      {
+        "B": "Probably Approximate Correct"
+      },
+      {
+        "C": "Probability Approx Communication"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 45,
+    "question": "The Bayes rule can be used in ................",
+    "options": [
+      {
+        "A": "Solving queries"
+      },
+      {
+        "B": "Increasing complexity"
+      },
+      {
+        "C": "Decreasing complexity"
+      },
+      {
+        "D": "Answering probabilistic query"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 46,
+    "question": "Following are the types of supervised learning________",
+    "options": [
+      {
+        "A": "regression"
+      },
+      {
+        "B": "classification"
+      },
+      {
+        "C": "subgroup discovery"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 47,
+    "question": "Following is powerful distance metrics used by Geometric model_________________",
+    "options": [
+      {
+        "A": "manhattan distance"
+      },
+      {
+        "B": "euclidean distance"
+      },
+      {
+        "C": "All of above"
+      },
+      {
+        "D": "None of above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 48,
+    "question": "What does dimensionality reduction reduce?",
+    "options": [
+      {
+        "A": "collinearity"
+      },
+      {
+        "B": "stochastic"
+      },
+      {
+        "C": "entropy"
+      },
+      {
+        "D": "performance"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 49,
+    "question": "What do you mean by a hard margin?",
+    "options": [
+      {
+        "A": "the svm allows very low error in classification"
+      },
+      {
+        "B": "the svm allows high amount of error in classification"
+      },
+      {
+        "C": "All of above"
+      },
+      {
+        "D": "None of above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 50,
+    "question": "Feature can be used as a_________________",
+    "options": [
+      {
+        "A": "predictor"
+      },
+      {
+        "B": "binary split"
+      },
+      {
+        "C": "All of above"
+      },
+      {
+        "D": "None of above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 51,
+    "question": "A measurable property or parameter of the data-set is_______________s",
+    "options": [
+      {
+        "A": "training data"
+      },
+      {
+        "B": "test data"
+      },
+      {
+        "C": "feature"
+      },
+      {
+        "D": "validation data"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 52,
+    "question": "Support Vector Machine is_______________",
+    "options": [
+      {
+        "A": "geometric model"
+      },
+      {
+        "B": "probabilistic model"
+      },
+      {
+        "C": "logical model"
+      },
+      {
+        "D": "none"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 53,
+    "question": "Which of the following is an example of a deterministic algorithm?",
+    "options": [
+      {
+        "A": "PCA"
+      },
+      {
+        "B": "K-Means clustering"
+      },
+      {
+        "C": "KNN"
+      },
+      {
+        "D": "None of above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 54,
+    "question": "To build a data mining model data used for.",
+    "options": [
+      {
+        "A": "validation data"
+      },
+      {
+        "B": "hidden data"
+      },
+      {
+        "C": "test data"
+      },
+      {
+        "D": "training data"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 55,
+    "question": "The library is used for boosting generalized additive models of __",
+    "options": [
+      {
+        "A": "ada"
+      },
+      {
+        "B": "gbm"
+      },
+      {
+        "C": "All of above"
+      },
+      {
+        "D": "None of above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 56,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 57,
+    "question": "The library is similar to Pandas which of the following is correct?",
+    "options": [
+      {
+        "A": "OutPy"
+      },
+      {
+        "B": "RPG"
+      },
+      {
+        "C": "NumPy"
+      },
+      {
+        "D": "Both A and B"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 58,
+    "question": "Data can be visualized using?",
+    "options": [
+      {
+        "A": "graphs"
+      },
+      {
+        "B": "charts"
+      },
+      {
+        "C": "maps"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 59,
+    "question": " ________is used for density plots?",
+    "options": [
+      {
+        "A": "par"
+      },
+      {
+        "B": " lm"
+      },
+      {
+        "C": "kde"
+      },
+      {
+        "D": "Cir"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 60,
+    "question": "ML is a field of AI consisting of learning algorithms that?",
+    "options": [
+      {
+        "A": "Improve their performance"
+      },
+      {
+        "B": "At executing some task"
+      },
+      {
+        "C": "Over time with experience"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 61,
+    "question": " p → 0q is not a?",
+    "options": [
+      {
+        "A": "hack clause"
+      },
+      {
+        "B": "horn clause"
+      },
+      {
+        "C": "structural clause"
+      },
+      {
+        "D": "system clause"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 62,
+    "question": " A model of language consists of the categories which does not include ________.",
+    "options": [
+      {
+        "A": "System Unit"
+      },
+      {
+        "B": "structural units"
+      },
+      {
+        "C": "data units"
+      },
+      {
+        "D": "empirical units"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 63,
+    "question": "Which of the following are common classes of problems in machine learning?",
+    "options": [
+      {
+        "A": "Clustering"
+      },
+      {
+        "B": "Regression"
+      },
+      {
+        "C": "Classification"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 64,
+    "question": "The model will be trained with data in one single batch is known as ?",
+    "options": [
+      {
+        "A": "Batch learning"
+      },
+      {
+        "B": "Offline learning"
+      },
+      {
+        "C": "Both (A) and (B)"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 65,
+    "question": "How do you handle missing or corrupted data in a dataset?",
+    "options": [
+      {
+        "A": "Drop missing rows or columns"
+      },
+      {
+        "B": "Replace missing values with mean/median/mode"
+      },
+      {
+        "C": "Assign a unique category to missing values"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 66,
+    "question": "Which of the following is true about Residuals?",
+    "options": [
+      {
+        "A": "Higher is better"
+      },
+      {
+        "B": "Lower is better"
+      },
+      {
+        "C": "Both (A) and (B)"
+      },
+      {
+        "D": "None of above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 67,
+    "question": "The most common issue when using Machine Learning is____",
+    "options": [
+      {
+        "A": "Poor Data Quality"
+      },
+      {
+        "B": "Inadequate Infrastructure"
+      },
+      {
+        "C": "Lack of skilled resources"
+      },
+      {
+        "D": "None of above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 68,
+    "question": "The prior goal of unsupervised learning model is to determine the ________ .",
+    "options": [
+      {
+        "A": "Discuss"
+      },
+      {
+        "B": "Regression task"
+      },
+      {
+        "C": "Data patterns"
+      },
+      {
+        "D": "Classification task"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 69,
+    "question": "Identify the successful applications of Machine Learning.",
+    "options": [
+      {
+        "A": "Learning to recognize spoken words"
+      },
+      {
+        "B": "Learning to drive an autonomous vehicle"
+      },
+      {
+        "C": "Learning to classify new astronomical structures"
+      },
+      {
+        "D": "All of the Above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 70,
+    "question": "FIND-S algorithm ignores?",
+    "options": [
+      {
+        "A": "Positive"
+      },
+      {
+        "B": "Negative"
+      },
+      {
+        "C": "Both (A) and (B)"
+      },
+      {
+        "D": "None of above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  }
+]
