@@ -1,332 +1,1902 @@
 [
   {
     "question_no": 1,
-    "question": "Who developed Python Programming Language?",
+    "question": "Who is the father of C language?",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      {
+        "A": "Steve Jobs"
+      },
+      {
+        "B": "James Gosling"
+      },
+      {
+        "C": "Dennis Ritchie"
+      },
+      {
+        "D": "Rasmus Lerdorf"
+      }
     ],
     "correct_ans": "C"
   },
   {
     "question_no": 2,
-    "question": "Which type of Programming does Python support?",
+    "question": "Which of the following is not a valid C variable name?",
     "options": [
-      { "A": "object-oriented programming" },
-      { "B": "structured programming" },
-      { "C": "functional programming" },
-      { "D": "all of the mentioned" }
+      {
+        "A": "int number;"
+      },
+      {
+        "B": "float rate;"
+      },
+      {
+        "C": "int variable_count;"
+      },
+      {
+        "D": "int $main;"
+      }
     ],
     "correct_ans": "D"
   },
   {
     "question_no": 3,
-    "question": "Is Python case sensitive when dealing with identifiers?",
+    "question": "Which is valid C expression?",
     "options": [
-      { "A": "no" },
-      { "B": "yes" },
-      { "C": "machine dependent" },
-      { "D": "none of the mentioned" }
+      {
+        "A": "int my_num = 100,000;"
+      },
+      {
+        "B": "int my_num = 100000;"
+      },
+      {
+        "C": "int my_num = 100000;"
+      },
+      {
+        "D": "int my_num = 100000;"
+      }
     ],
     "correct_ans": "B"
   },
   {
     "question_no": 4,
-    "question": "Which of the following is the correct extension of the Python file?",
+    "question": "Which of the following cannot be a variable name in C?",
     "options": [
-      { "A": ".python" },
-      { "B": ".pl" },
-      { "C": ".py" },
-      { "D": " .p" }
+      {
+        "A": "volatile"
+      },
+      {
+        "B": "true"
+      },
+      {
+        "C": "friend"
+      },
+      {
+        "D": "export"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "What is short int in C programming?",
+    "options": [
+      {
+        "A": "The basic data type of C"
+      },
+      {
+        "B": "Qualifier"
+      },
+      {
+        "C": "Short is the qualifier and int is the basic data type"
+      },
+      {
+        "D": "Short is the qualifier and int is the basic data type"
+      }
     ],
     "correct_ans": "C"
   },
   {
-    "question_no": 5,
-    "question": "",
-    "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
-    ],
-    "correct_ans": ""
-  },
-  {
     "question_no": 6,
-    "question": "",
+    "question": "Which of the following declaration is not supported by C language?",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      {
+        "A": "String str;"
+      },
+      {
+        "B": "char *str;"
+      },
+      {
+        "C": "float str = 3e2;"
+      },
+      {
+        "D": "Both “String str;” and “float str = 3e2;”"
+      }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
     "question_no": 7,
-    "question": "",
+    "question": "What is the result of logical or relational expression in C?",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      {
+        "A": "True or False"
+      },
+      {
+        "B": "0 or 1"
+      },
+      {
+        "C": "0 if an expression is false and any positive number if an expression is true"
+      },
+      {
+        "D": "None of the mentioned"
+      }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
     "question_no": 8,
-    "question": "",
+    "question": "Which of the following typecasting is accepted by C language?",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      {
+        "A": "Widening conversions"
+      },
+      {
+        "B": "Narrowing conversions"
+      },
+      {
+        "C": "Widening & Narrowing conversions"
+      },
+      {
+        "D": "None of the mentioned"
+      }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
     "question_no": 9,
-    "question": "",
+    "question": "Where in C the order of precedence of operators do not exist?",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      {
+        "A": "Within conditional statements, if, else"
+      },
+      {
+        "B": "Within while, do-while"
+      },
+      {
+        "C": "Within a macro definition"
+      },
+      {
+        "D": "None of the mentioned"
+      }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
     "question_no": 10,
-    "question": "",
+    "question": "What is an example of iteration in C?",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      {
+        "A": "for"
+      },
+      {
+        "B": "while"
+      },
+      {
+        "C": "do-while"
+      },
+      {
+        "D": "all of the mentioned"
+      }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
     "question_no": 11,
-    "question": "",
+    "question": "Functions can return enumeration constants in C?",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      {
+        "A": "true"
+      },
+      {
+        "B": "false"
+      },
+      {
+        "C": "depends on the compiler"
+      },
+      {
+        "D": "depends on the standard"
+      }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
     "question_no": 12,
-    "question": "",
+    "question": "Functions in C Language are always _________",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      {
+        "A": "Internal"
+      },
+      {
+        "B": "External"
+      },
+      {
+        "C": "Both Internal and External"
+      },
+      {
+        "D": "External and Internal are not valid terms for functions"
+      }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
     "question_no": 13,
-    "question": "",
+    "question": "What is #include <stdio.h>?",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      {
+        "A": "Preprocessor directive"
+      },
+      {
+        "B": "Inclusion directive"
+      },
+      {
+        "C": "File inclusion directive"
+      },
+      {
+        "D": "None of the mentioned"
+      }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
     "question_no": 14,
-    "question": "",
+    "question": "C preprocessors can have compiler specific features.",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      {
+        "A": "True"
+      },
+      {
+        "B": "False"
+      },
+      {
+        "C": "Depends on the standard"
+      },
+      {
+        "D": "Depends on the platform"
+      }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
     "question_no": 15,
-    "question": "",
+    "question": "Which of the following are C preprocessors?",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      {
+        "A": "#ifdef"
+      },
+      {
+        "B": "#define"
+      },
+      {
+        "C": "#endif"
+      },
+      {
+        "D": "all of the mentioned"
+      }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
     "question_no": 16,
-    "question": "",
+    "question": "The C-preprocessors are specified with _________ symbol.",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      {
+        "A": "#"
+      },
+      {
+        "B": "$"
+      },
+      {
+        "C": "” ”"
+      },
+      {
+        "D": "&"
+      }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
     "question_no": 17,
-    "question": "",
+    "question": "In C language, FILE is of which data type?",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      {
+        "A": "int"
+      },
+      {
+        "B": "char *"
+      },
+      {
+        "C": "struct"
+      },
+      {
+        "D": "None of the mentioned"
+      }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
     "question_no": 18,
-    "question": "",
+    "question": "What is the sizeof(char) in a 32-bit C compiler?",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      {
+        "A": "1 bit"
+      },
+      {
+        "B": "2 bits"
+      },
+      {
+        "C": "1 Byte"
+      },
+      {
+        "D": "2 Bytes"
+      }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
     "question_no": 19,
-    "question": "",
+    "question": "scanf() is a predefined function in______header file.",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      {
+        "A": "stdlib. h"
+      },
+      {
+        "B": "ctype. h"
+      },
+      {
+        "C": "stdio. h"
+      },
+      {
+        "D": "stdarg. h"
+      }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
     "question_no": 20,
-    "question": "",
+    "question": " C Programming Language is often called as",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      {
+        "A": "High Level Language"
+      },
+      {
+        "B": "High Level Language"
+      },
+      {
+        "C": "Low Level Language"
+      },
+      {
+        "D": "None of these"
+      }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
     "question_no": 21,
-    "question": "",
+    "question": "How many keywords are there in Standard C programming language ?",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      {
+        "A": "32"
+      },
+      {
+        "B": "28"
+      },
+      {
+        "C": "21"
+      },
+      {
+        "D": "44"
+      }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
     "question_no": 22,
-    "question": "",
+    "question": "An object of type ‘char’ is of :",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      {
+        "A": "1 byte"
+      },
+      {
+        "B": "2 bytes"
+      },
+      {
+        "C": "4 bytes"
+      },
+      {
+        "D": "8 bytes"
+      }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
     "question_no": 23,
-    "question": "",
+    "question": "For 32 bits environment, size of ‘int’ data type is :",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      {
+        "A": "2 bytes"
+      },
+      {
+        "B": "4 bytes"
+      },
+      {
+        "C": "8 bytes"
+      },
+      {
+        "D": "None of these"
+      }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
     "question_no": 24,
-    "question": "",
+    "question": "Variables that are declared inside a function are :",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      {
+        "A": "constants"
+      },
+      {
+        "B": "literals"
+      },
+      {
+        "C": "global"
+      },
+      {
+        "D": "local"
+      }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
     "question_no": 25,
-    "question": "",
+    "question": "main() is :",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      {
+        "A": "keyword"
+      },
+      {
+        "B": "function"
+      },
+      {
+        "C": "both"
+      },
+      {
+        "D": "None of these"
+      }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
     "question_no": 26,
-    "question": "",
+    "question": "_ is used to break out of a program ?",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      {
+        "A": "break"
+      },
+      {
+        "B": "continue"
+      },
+      {
+        "C": "terminate"
+      },
+      {
+        "D": "exit"
+      }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
     "question_no": 27,
-    "question": "",
+    "question": "The format identifier ‘%i’ is also used for :",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      {
+        "A": "char"
+      },
+      {
+        "B": "int"
+      },
+      {
+        "C": "float"
+      },
+      {
+        "D": "double"
+      }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
     "question_no": 28,
-    "question": "",
+    "question": "The global variables are ____________.",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      {
+        "A": "External"
+      },
+      {
+        "B": "Internal"
+      },
+      {
+        "C": "Both External and Internal"
+      },
+      {
+        "D": "None of the above"
+      }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
     "question_no": 29,
-    "question": "",
+    "question": " The execution of a C program start from _____.",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      {
+        "A": "function"
+      },
+      {
+        "B": "Header file"
+      },
+      {
+        "C": "main()"
+      },
+      {
+        "D": "Processor"
+      }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
     "question_no": 30,
-    "question": "",
+    "question": "The C supports _____ basic data types",
     "options": [
-      { "A": "Wick van Rossum" },
-      { "B": "Rasmus Lerdorf" },
-      { "C": "Guido van Rossum" },
-      { "D": "Niene Stom" }
+      {
+        "A": "8"
+      },
+      {
+        "B": "2"
+      },
+      {
+        "C": "10"
+      },
+      {
+        "D": "4"
+      }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 31,
+    "question": "The C supports _____ basic data types",
+    "options": [
+      {
+        "A": ".c"
+      },
+      {
+        "B": ".d"
+      },
+      {
+        "C": ".obj"
+      },
+      {
+        "D": ".exe"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 32,
+    "question": "The C language is closely associated with _________.",
+    "options": [
+      {
+        "A": "MS-DOS."
+      },
+      {
+        "B": "Linux"
+      },
+      {
+        "C": "Unix"
+      },
+      {
+        "D": "MS-Windows."
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 33,
+    "question": "Each instruction in C program is terminated by__________.",
+    "options": [
+      {
+        "A": "Dot"
+      },
+      {
+        "B": "Comma"
+      },
+      {
+        "C": "Semi-colon"
+      },
+      {
+        "D": "Curly brace"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 34,
+    "question": "Who invented C++?",
+    "options": [
+      {
+        "A": "Dennis Ritchie"
+      },
+      {
+        "B": "Ken Thompson"
+      },
+      {
+        "C": "Brian Kernighan"
+      },
+      {
+        "D": "Bjarne Stroustrup"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 35,
+    "question": "Which of the following is used for comments in C++?",
+    "options": [
+      {
+        "A": "/* comment */"
+      },
+      {
+        "B": "// comment */"
+      },
+      {
+        "C": "// comment"
+      },
+      {
+        "D": "both // comment or /* comment */"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 36,
+    "question": "Which of the following user-defined header file extension used in c++?",
+    "options": [
+      {
+        "A": "hg"
+      },
+      {
+        "B": "cpp"
+      },
+      {
+        "C": "h"
+      },
+      {
+        "D": "hf"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 37,
+    "question": "Which of the following is a correct identifier in C++?",
+    "options": [
+      {
+        "A": "VAR_1234"
+      },
+      {
+        "B": "$var_name"
+      },
+      {
+        "C": "7VARNAME"
+      },
+      {
+        "D": "7var_name"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 38,
+    "question": "Which of the following approach is used by C++?",
+    "options": [
+      {
+        "A": "Left-right"
+      },
+      {
+        "B": "Right-left"
+      },
+      {
+        "C": "Bottom-up"
+      },
+      {
+        "D": "Top-down"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 39,
+    "question": "Which of the following type is provided by C++ but not C?",
+    "options": [
+      {
+        "A": "double"
+      },
+      {
+        "B": "float"
+      },
+      {
+        "C": "int"
+      },
+      {
+        "D": "bool"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 40,
+    "question": "By default, all the files in C++ are opened in _________ mode.",
+    "options": [
+      {
+        "A": "Binary"
+      },
+      {
+        "B": "VTC"
+      },
+      {
+        "C": "Text"
+      },
+      {
+        "D": "ISCII"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 41,
+    "question": "Which of the following correctly declares an array in C++?",
+    "options": [
+      {
+        "A": "array{10};"
+      },
+      {
+        "B": "array array[10];"
+      },
+      {
+        "C": "int array;"
+      },
+      {
+        "D": "int array[10];"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 42,
+    "question": "What is the size of wchar_t in C++?",
+    "options": [
+      {
+        "A": "Based on the number of bits in the system"
+      },
+      {
+        "B": "2 or 4"
+      },
+      {
+        "C": "4"
+      },
+      {
+        "D": "2"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 43,
+    "question": "Which is more effective while calling the C++ functions?",
+    "options": [
+      {
+        "A": "call by object"
+      },
+      {
+        "B": "call by pointer"
+      },
+      {
+        "C": "call by value"
+      },
+      {
+        "D": "call by reference"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 44,
+    "question": "Which keyword is used to define the macros in c++?",
+    "options": [
+      {
+        "A": "#macro"
+      },
+      {
+        "B": "#define"
+      },
+      {
+        "C": "macro"
+      },
+      {
+        "D": "define"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 45,
+    "question": "What is Inheritance in C++?",
+    "options": [
+      {
+        "A": "Deriving new classes from existing classes"
+      },
+      {
+        "B": "Overloading of classes"
+      },
+      {
+        "C": "Classes with same names"
+      },
+      {
+        "D": "Wrapping of data into a single class"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 46,
+    "question": "What is meant by a polymorphism in C++?",
+    "options": [
+      {
+        "A": "What is meant by a polymorphism in C++?"
+      },
+      {
+        "B": "class having four forms"
+      },
+      {
+        "C": "class having many forms"
+      },
+      {
+        "D": "class having many forms"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 47,
+    "question": "What is abstract class in C++?",
+    "options": [
+      {
+        "A": "Any Class in C++ is an abstract class"
+      },
+      {
+        "B": "Class from which any class is derived"
+      },
+      {
+        "C": "Class specifically used as a base class with atleast one virtual functions"
+      },
+      {
+        "D": "Class specifically used as a base class with atleast one pure virtual functions"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 48,
+    "question": "Which concept allows you to reuse the written code in C++?",
+    "options": [
+      {
+        "A": "Inheritance"
+      },
+      {
+        "B": "Polymorphism"
+      },
+      {
+        "C": "Abstraction"
+      },
+      {
+        "D": "Encapsulation"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 49,
+    "question": "What is the benefit of c++ input and output over c input and output?",
+    "options": [
+      {
+        "A": "Both Type safety & Exception"
+      },
+      {
+        "B": "Sequence container"
+      },
+      {
+        "C": "Exception"
+      },
+      {
+        "D": "Type safety"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 50,
+    "question": "C++ language is a successor to which language?",
+    "options": [
+      {
+        "A": "R"
+      },
+      {
+        "B": "C"
+      },
+      {
+        "C": "JS"
+      },
+      {
+        "D": "PHP"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 51,
+    "question": "C++ language is a successor to which language?",
+    "options": [
+      {
+        "A": "Object Oriented Language"
+      },
+      {
+        "B": "Procedural Oriented Language"
+      },
+      {
+        "C": "Structural Oriented Language"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 52,
+    "question": "C++ follows ___.",
+    "options": [
+      {
+        "A": "Top-Down Design approach"
+      },
+      {
+        "B": "Bottom-Up Design approach"
+      },
+      {
+        "C": "Both of the above"
+      },
+      {
+        "D": "None of the above."
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 53,
+    "question": "How many keywords are in C++?",
+    "options": [
+      {
+        "A": "32"
+      },
+      {
+        "B": "48"
+      },
+      {
+        "C": "99"
+      },
+      {
+        "D": "95"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 54,
+    "question": "Which of the following is not a valid keyword in C++ language?",
+    "options": [
+      {
+        "A": "while"
+      },
+      {
+        "B": "for"
+      },
+      {
+        "C": "switch"
+      },
+      {
+        "D": "do-while"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 55,
+    "question": " Which of the following language translator is used in C++?",
+    "options": [
+      {
+        "A": "Assembler"
+      },
+      {
+        "B": "Interpreter"
+      },
+      {
+        "C": "Compiler"
+      },
+      {
+        "D": "Both Interpreter and Compiler"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 56,
+    "question": "OOPs stands for?",
+    "options": [
+      {
+        "A": "Object Oriented Process System"
+      },
+      {
+        "B": "Object Oriented Programming System"
+      },
+      {
+        "C": "Object Oriented Programming Service"
+      },
+      {
+        "D": "Object Oriented Programming Service"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 57,
+    "question": "Stream is ___.",
+    "options": [
+      {
+        "A": "Group of non-printable character"
+      },
+      {
+        "B": "Sequence of bytes"
+      },
+      {
+        "C": "Set of errors"
+      },
+      {
+        "D": "The flow of invalid characters"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 58,
+    "question": "The cin, cout are ___.",
+    "options": [
+      {
+        "A": "Library functions"
+      },
+      {
+        "B": "structures"
+      },
+      {
+        "C": "Pointers"
+      },
+      {
+        "D": "objects"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 59,
+    "question": "Which of the following is not a valid predefined object in C++?",
+    "options": [
+      {
+        "A": "cin"
+      },
+      {
+        "B": "cout"
+      },
+      {
+        "C": "cput"
+      },
+      {
+        "D": "cerr"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 60,
+    "question": "The stdout stands for ___.",
+    "options": [
+      {
+        "A": "State Output"
+      },
+      {
+        "B": "Standard Output"
+      },
+      {
+        "C": "Stand Output"
+      },
+      {
+        "D": "Stream Output"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 61,
+    "question": "Which of the following are types of datatypes in C++?",
+    "options": [
+      {
+        "A": "Basic Datatype"
+      },
+      {
+        "B": "Derived Datatype"
+      },
+      {
+        "C": "Enumeration data type"
+      },
+      {
+        "D": "all of the mentioned"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 62,
+    "question": "What is the size of a long double in C++?",
+    "options": [
+      {
+        "A": "8 bytes"
+      },
+      {
+        "B": "10 bytes"
+      },
+      {
+        "C": "12 bytes"
+      },
+      {
+        "D": "16 bytes"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 63,
+    "question": "Which of the following is not the basic type in C++?",
+    "options": [
+      {
+        "A": "int"
+      },
+      {
+        "B": "float"
+      },
+      {
+        "C": "array"
+      },
+      {
+        "D": "char"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 64,
+    "question": "The operator '+' is?",
+    "options": [
+      {
+        "A": "Unary Operator"
+      },
+      {
+        "B": "Binary Operator"
+      },
+      {
+        "C": "Both Unary and Binary"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 65,
+    "question": "The operator '%' is known as?",
+    "options": [
+      {
+        "A": "Division Operator"
+      },
+      {
+        "B": "Modulus Operator"
+      },
+      {
+        "C": "Percentage Operator"
+      },
+      {
+        "D": "None"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 66,
+    "question": "How many sequences of statements are available in C++?",
+    "options": [
+      {
+        "A": "5"
+      },
+      {
+        "B": "4"
+      },
+      {
+        "C": "3"
+      },
+      {
+        "D": "2"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 67,
+    "question": "How many primitive data types are there in Java?",
+    "options": [
+      {
+        "A": "4"
+      },
+      {
+        "B": "6"
+      },
+      {
+        "C": "8"
+      },
+      {
+        "D": "10"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 68,
+    "question": "Which of the following is not a primitive data type in Java?",
+    "options": [
+      {
+        "A": "int"
+      },
+      {
+        "B": "float"
+      },
+      {
+        "C": "char"
+      },
+      {
+        "D": "string"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 69,
+    "question": "What is the size of the int data type in Java?",
+    "options": [
+      {
+        "A": "4 bits"
+      },
+      {
+        "B": "8 bits"
+      },
+      {
+        "C": "16 bits"
+      },
+      {
+        "D": "32 bits"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 70,
+    "question": "What is the default value of a boolean variable in Java?",
+    "options": [
+      {
+        "A": "true"
+      },
+      {
+        "B": "false"
+      },
+      {
+        "C": "null"
+      },
+      {
+        "D": "0"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 71,
+    "question": "What is the largest primitive data type in Java?",
+    "options": [
+      {
+        "A": "int"
+      },
+      {
+        "B": "long"
+      },
+      {
+        "C": "double"
+      },
+      {
+        "D": "float"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 72,
+    "question": "In Java, what is the purpose of declaring variables as “final”?",
+    "options": [
+      {
+        "A": "To make them constant and unchangeable."
+      },
+      {
+        "B": "To make them accessible globally."
+      },
+      {
+        "C": "To increase their visibility across different classes."
+      },
+      {
+        "D": "To allocate more memory for them."
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 73,
+    "question": "Which of the following is NOT a valid variable name in Java?",
+    "options": [
+      {
+        "A": "myVariable"
+      },
+      {
+        "B": "value"
+      },
+      {
+        "C": "123variable"
+      },
+      {
+        "D": "variable123"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 74,
+    "question": "How is a constant variable typically declared in Java?",
+    "options": [
+      {
+        "A": "const int VALUE = 10;"
+      },
+      {
+        "B": "constant int VALUE = 10;"
+      },
+      {
+        "C": "int VALUE = 10;"
+      },
+      {
+        "D": "final int VALUE = 10;"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 75,
+    "question": "In Java, the word true is?",
+    "options": [
+      {
+        "A": "A Boolean literal"
+      },
+      {
+        "B": "A Java keyword"
+      },
+      {
+        "C": "Similar to value 1"
+      },
+      {
+        "D": "Similar to value 0"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 76,
+    "question": "What is the result of the expression 2 + 3 * 2?",
+    "options": [
+      {
+        "A": "10"
+      },
+      {
+        "B": "8"
+      },
+      {
+        "C": "5"
+      },
+      {
+        "D": "11"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 77,
+    "question": "What is the result of the expression “Java” + “CodePoint”?",
+    "options": [
+      {
+        "A": "Java"
+      },
+      {
+        "B": "Javacodepoint"
+      },
+      {
+        "C": "JavaCodePoint"
+      },
+      {
+        "D": "Runtime exception"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 78,
+    "question": "What is the result of the expression 11 % 3?",
+    "options": [
+      {
+        "A": "0"
+      },
+      {
+        "B": "1"
+      },
+      {
+        "C": "2"
+      },
+      {
+        "D": "3"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 79,
+    "question": "What is the purpose of the “++” operator in Java?",
+    "options": [
+      {
+        "A": "To perform subtraction"
+      },
+      {
+        "B": "To perform addition"
+      },
+      {
+        "C": "To decrement a variable by 1"
+      },
+      {
+        "D": "To increment a variable by 1"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 80,
+    "question": "Which operator is used for logical AND in Java?",
+    "options": [
+      {
+        "A": "&"
+      },
+      {
+        "B": "&&"
+      },
+      {
+        "C": "!"
+      },
+      {
+        "D": "||"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 81,
+    "question": "Who is the original creator of the Java programming language?",
+    "options": [
+      {
+        "A": "Bill Gates"
+      },
+      {
+        "B": "James Gosling"
+      },
+      {
+        "C": "Linus Torvalds"
+      },
+      {
+        "D": "Tim Berners-Lee"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 82,
+    "question": "Java’s initial development was inspired by which programming language?",
+    "options": [
+      {
+        "A": "C++"
+      },
+      {
+        "B": "Python"
+      },
+      {
+        "C": "Smalltalk"
+      },
+      {
+        "D": "Fortran"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 83,
+    "question": "_____ is used to find and fix bugs in the Java programs.",
+    "options": [
+      {
+        "A": "JVM"
+      },
+      {
+        "B": "JRE"
+      },
+      {
+        "C": "JDK"
+      },
+      {
+        "D": "JDB"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 84,
+    "question": "What does the expression float a = 35 / 0 return?",
+    "options": [
+      {
+        "A": "0"
+      },
+      {
+        "B": "1"
+      },
+      {
+        "C": "Infinity"
+      },
+      {
+        "D": "Error"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 85,
+    "question": "Which package contains the Random class?",
+    "options": [
+      {
+        "A": "java.util package"
+      },
+      {
+        "B": "java.lang package"
+      },
+      {
+        "C": "java.awt package"
+      },
+      {
+        "D": "java.io package"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 86,
+    "question": "Which of the following is a reserved keyword in Java?",
+    "options": [
+      {
+        "A": "object"
+      },
+      {
+        "B": "strictfp"
+      },
+      {
+        "C": "main"
+      },
+      {
+        "D": "system"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 87,
+    "question": "Java is associated with ___ programming Language",
+    "options": [
+      {
+        "A": "Oak"
+      },
+      {
+        "B": "Basic"
+      },
+      {
+        "C": "C"
+      },
+      {
+        "D": "C++"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 88,
+    "question": "___ Operator is used to creating an object.",
+    "options": [
+      {
+        "A": "class"
+      },
+      {
+        "B": "new"
+      },
+      {
+        "C": "print"
+      },
+      {
+        "D": "main"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 89,
+    "question": "Which of the following is NOT a Java Keyword?",
+    "options": [
+      {
+        "A": "Abstract"
+      },
+      {
+        "B": "Native"
+      },
+      {
+        "C": "Package"
+      },
+      {
+        "D": "Synchronize"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 90,
+    "question": "___ is a multi-way branch statement",
+    "options": [
+      {
+        "A": "Switch"
+      },
+      {
+        "B": "Continue"
+      },
+      {
+        "C": "Break"
+      },
+      {
+        "D": "Label"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 90,
+    "question": "A class that is inherited is called ",
+    "options": [
+      {
+        "A": "superclass"
+      },
+      {
+        "B": "Subclass"
+      },
+      {
+        "C": "subsetclass"
+      },
+      {
+        "D": "Relativeclass"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 91,
+    "question": "A ___ is a java program that can be embedded in a Web page",
+    "options": [
+      {
+        "A": "Applets"
+      },
+      {
+        "B": "browser"
+      },
+      {
+        "C": "package"
+      },
+      {
+        "D": "None of these"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 92,
+    "question": "___ provides a database-programming interface for Java programs",
+    "options": [
+      {
+        "A": "ODBC"
+      },
+      {
+        "B": "JDBC"
+      },
+      {
+        "C": "DBMS"
+      },
+      {
+        "D": "DAT"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 93,
+    "question": "Which provides runtime environment for java byte code to be executed?",
+    "options": [
+      {
+        "A": "JDK"
+      },
+      {
+        "B": "JVM"
+      },
+      {
+        "C": "JRE"
+      },
+      {
+        "D": "JAVAC"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 94,
+    "question": "JDK stands for ____.",
+    "options": [
+      {
+        "A": "Java development kit"
+      },
+      {
+        "B": "Java deployment kit"
+      },
+      {
+        "C": "JavaScript deployment kit"
+      },
+      {
+        "D": "None of these"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 95,
+    "question": "JRE stands for ___.",
+    "options": [
+      {
+        "A": "Java run ecosystem"
+      },
+      {
+        "B": "JDK runtime Environment"
+      },
+      {
+        "C": "Java Runtime Environment"
+      },
+      {
+        "D": "None of these"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 96,
+    "question": "What is the entry point of a program in Java?",
+    "options": [
+      {
+        "A": "main() method"
+      },
+      {
+        "B": "The first line of code"
+      },
+      {
+        "C": "Last line of code"
+      },
+      {
+        "D": "main class"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 97,
+    "question": "Which keyword in java is used for exception handling?",
+    "options": [
+      {
+        "A": "exep"
+      },
+      {
+        "B": "excepHand"
+      },
+      {
+        "C": "throw"
+      },
+      {
+        "D": "All of these"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 98,
+    "question": " Which class in Java is used to take input from the user?",
+    "options": [
+      {
+        "A": "Scanner"
+      },
+      {
+        "B": "Input"
+      },
+      {
+        "C": "Applier"
+      },
+      {
+        "D": "None"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 100,
+    "question": "Method used to take a string as input in Java?",
+    "options": [
+      {
+        "A": "next()"
+      },
+      {
+        "B": "nextLine()"
+      },
+      {
+        "C": "Both A. and B."
+      },
+      {
+        "D": "None of these"
+      }
+    ],
+    "correct_ans": "C"
   }
 ]
