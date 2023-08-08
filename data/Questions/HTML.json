@@ -951,458 +951,952 @@
   },
   {
     "question_no": 51,
-    "question": "",
+    "question": "What is the use of “defer” attribute?",
     "options": [
       {
-        "A": ""
+        "A": "It defers rendering of html page"
       },
       {
-        "B": ""
+        "B": "It defers script execution until the page has been rendered"
       },
       {
-        "C": ""
+        "C": "It defers rendering of css attributes"
       },
       {
-        "D": ""
+        "D": "It is only for internal scripts"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
     "question_no": 52,
-    "question": "",
+    "question": "Which of the following is used to read a HTML page and render it?",
     "options": [
       {
-        "A": ""
+        "A": "Web browser"
       },
       {
-        "B": ""
+        "B": "Web server"
       },
       {
-        "C": ""
+        "C": "Web matrix"
       },
       {
-        "D": ""
+        "D": "Web network"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 53,
+    "question": "Which of the following is the first web browser?",
     "options": [
       {
-        "A": ""
+        "A": "Nexus"
       },
       {
-        "B": ""
+        "B": "Netscape Navigator"
       },
       {
-        "C": ""
+        "C": "Internet Explorer"
       },
       {
-        "D": ""
+        "D": "Mosaic"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 54,
+    "question": "Which works similar to <b> element?",
     "options": [
       {
-        "A": ""
+        "A": "<blockquote>"
       },
       {
-        "B": ""
+        "B": "<strong>"
       },
       {
-        "C": ""
+        "C": "<em>"
       },
       {
-        "D": ""
+        "D": "<i>"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 55,
+    "question": "Which of the following is not a type of attribute for input tag?",
     "options": [
       {
-        "A": ""
+        "A": "day"
       },
       {
-        "B": ""
+        "B": "week"
       },
       {
-        "C": ""
+        "C": "month"
       },
       {
-        "D": ""
+        "D": "time"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 56,
+    "question": "Which of the following allows the sandboxed iframe to run scripts from the same domain?",
     "options": [
       {
-        "A": ""
+        "A": "allow-same-origin"
       },
       {
-        "B": ""
+        "B": "allow-forms"
       },
       {
-        "C": ""
+        "C": "allow-scripts"
       },
       {
-        "D": ""
+        "D": "allow-pointer-lock"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 57,
+    "question": "__________ allows the iframe to pull in content from elsewhere in the same domain.",
     "options": [
       {
-        "A": ""
+        "A": "allow-same-origin"
       },
       {
-        "B": ""
+        "B": "allow-forms"
       },
       {
-        "C": ""
+        "C": "allow-scripts"
       },
       {
-        "D": ""
+        "D": "allow-pointer-lock"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 58,
+    "question": "Which of the following defines a group of related options in a drop-down list?",
     "options": [
       {
-        "A": ""
+        "A": "<form>"
       },
       {
-        "B": ""
+        "B": "<optgroup>"
       },
       {
-        "C": ""
+        "C": "<output>"
       },
       {
-        "D": ""
+        "D": "<option>"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 59,
+    "question": "Which of the following is not a semantic element?",
     "options": [
       {
-        "A": ""
+        "A": "<form>"
       },
       {
-        "B": ""
+        "B": "<article>"
       },
       {
-        "C": ""
+        "C": "<table>"
       },
       {
-        "D": ""
+        "D": "<span>"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 60,
+    "question": "Footer element can’t contain ____________ information.",
     "options": [
       {
-        "A": ""
+        "A": "contact information"
       },
       {
-        "B": ""
+        "B": "copyright information"
       },
       {
-        "C": ""
+        "C": "the author of the document"
       },
       {
-        "D": ""
+        "D": "blog post"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 61,
+    "question": "Which element works as a sidebar?",
     "options": [
       {
-        "A": ""
+        "A": "header"
       },
       {
-        "B": ""
+        "B": "footer"
       },
       {
-        "C": ""
+        "C": "nav"
       },
       {
-        "D": ""
+        "D": "aside"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 62,
+    "question": "Which of the following defines a visible heading for <details> element?",
     "options": [
       {
-        "A": ""
+        "A": "<summary>"
       },
       {
-        "B": ""
+        "B": "<section>"
       },
       {
-        "C": ""
+        "C": "<mark>"
       },
       {
-        "D": ""
+        "D": "<main>"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 63,
+    "question": "Which element defines additional details?",
     "options": [
       {
-        "A": ""
+        "A": "<summary>"
       },
       {
-        "B": ""
+        "B": "<details>"
       },
       {
-        "C": ""
+        "C": "<mark>"
       },
       {
-        "D": ""
+        "D": "<main>"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 64,
+    "question": "Which of the following specifies relationship between current document and external resource?",
     "options": [
       {
-        "A": ""
+        "A": "<meta>"
       },
       {
-        "B": ""
+        "B": "<style>"
       },
       {
-        "C": ""
+        "C": "<link>"
       },
       {
-        "D": ""
+        "D": "<title>"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 65,
+    "question": "Which element is used for bringing attention?",
     "options": [
       {
-        "A": ""
+        "A": "<cite>"
       },
       {
-        "B": ""
+        "B": "<br>"
       },
       {
-        "C": ""
+        "C": "<b>"
       },
       {
-        "D": ""
+        "D": "<code>"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 66,
+    "question": "Which element denotes that the text is a short fragment of computer code?",
     "options": [
       {
-        "A": ""
+        "A": "<code>"
       },
       {
-        "B": ""
+        "B": "<data>"
       },
       {
-        "C": ""
+        "C": "<cite>"
       },
       {
-        "D": ""
+        "D": "<short>"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 67,
+    "question": "Which of the following is keyboard input element?",
     "options": [
       {
-        "A": ""
+        "A": "<mark>"
       },
       {
-        "B": ""
+        "B": "<kbd>"
       },
       {
-        "C": ""
+        "C": "<dfn>"
       },
       {
-        "D": ""
+        "D": "<key>"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 68,
+    "question": "Which element prevents the text from automatically wrapping across multiple lines?",
     "options": [
       {
-        "A": ""
+        "A": "<em>"
       },
       {
-        "B": ""
+        "B": "<kbd>"
       },
       {
-        "C": ""
+        "C": "<mark>"
       },
       {
-        "D": ""
+        "D": "<nobr>"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 69,
+    "question": "Which of the following element is known as ruby fallback parenthesis?",
     "options": [
       {
-        "A": ""
+        "A": "<rt>"
       },
       {
-        "B": ""
+        "B": "<rp>"
       },
       {
-        "C": ""
+        "C": "<rtc>"
       },
       {
-        "D": ""
+        "D": "<q>"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 70,
+    "question": "Which one of the following contains information about the author?",
     "options": [
       {
-        "A": ""
+        "A": "footer"
       },
       {
-        "B": ""
+        "B": "header"
       },
       {
-        "C": ""
+        "C": "head"
       },
       {
-        "D": ""
+        "D": "body"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 71,
+    "question": "Which element contains major navigational block?",
     "options": [
       {
-        "A": ""
+        "A": "nav"
       },
       {
-        "B": ""
+        "B": "address"
       },
       {
-        "C": ""
+        "C": "footer"
       },
       {
-        "D": ""
+        "D": "header"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 72,
+    "question": "Which element represents self-contained composition in document?",
     "options": [
       {
-        "A": ""
+        "A": "nav"
       },
       {
-        "B": ""
+        "B": "article"
       },
       {
-        "C": ""
+        "C": "footer"
       },
       {
-        "D": ""
+        "D": "header"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 73,
+    "question": "Which element groups related content together?",
     "options": [
       {
-        "A": ""
+        "A": "aside"
       },
       {
-        "B": ""
+        "B": "footer"
       },
       {
-        "C": ""
+        "C": "section"
       },
       {
-        "D": ""
+        "D": "div"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 74,
+    "question": "For grouping together one or more <h1> to <h6> element what element is used?",
     "options": [
       {
-        "A": ""
+        "A": "header"
       },
       {
-        "B": ""
+        "B": "hgroup"
       },
       {
-        "C": ""
+        "C": "div"
       },
       {
-        "D": ""
+        "D": "section"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 75,
+    "question": "Which element is used for grouping together related elements?",
+    "options": [
+      {
+        "A": "header"
+      },
+      {
+        "B": "hgroup"
+      },
+      {
+        "C": "div"
+      },
+      {
+        "D": "section"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 76,
+    "question": "Which element represents group of commands that user can activate or perform?",
+    "options": [
+      {
+        "A": "<menuitem>"
+      },
+      {
+        "B": "<menu>"
+      },
+      {
+        "C": "<summary>"
+      },
+      {
+        "D": "<details>"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 77,
+    "question": "Which of the following element is for holding client-side content?",
+    "options": [
+      {
+        "A": "<template>"
+      },
+      {
+        "B": "<slot>"
+      },
+      {
+        "C": "<element>"
+      },
+      {
+        "D": "<content>"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 78,
+    "question": "Which element is a placeholder inside web component?",
+    "options": [
+      {
+        "A": "<shadow>"
+      },
+      {
+        "B": "<content>"
+      },
+      {
+        "C": "<slot>"
+      },
+      {
+        "D": "<element>"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 79,
+    "question": "Which element is used for defining a new custom DOM elements?",
+    "options": [
+      {
+        "A": "<shadow>"
+      },
+      {
+        "B": "<content>"
+      },
+      {
+        "C": "<slot>"
+      },
+      {
+        "D": "<element>"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 80,
+    "question": "Which element is not a obsolete?",
+    "options": [
+      {
+        "A": "<dir>"
+      },
+      {
+        "B": "<command>"
+      },
+      {
+        "C": "<center>"
+      },
+      {
+        "D": "<caption>"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 81,
+    "question": "Which element sets default font face, size and color for other elements?",
+    "options": [
+      {
+        "A": "<applet>"
+      },
+      {
+        "B": "<basefont>"
+      },
+      {
+        "C": "<big>"
+      },
+      {
+        "D": "<acronym>"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 82,
+    "question": "For background sound obsolete element was __________",
+    "options": [
+      {
+        "A": "<bgsound>"
+      },
+      {
+        "B": "<audio>"
+      },
+      {
+        "C": "<blink>"
+      },
+      {
+        "D": "<acronym>"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 83,
+    "question": "Which element is used to show the text slowly?",
+    "options": [
+      {
+        "A": "<big>"
+      },
+      {
+        "B": "<blink>"
+      },
+      {
+        "C": "<center>"
+      },
+      {
+        "D": "<audio>"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 84,
+    "question": "Which element is used as a container for a directory of files?",
+    "options": [
+      {
+        "A": "<dir>"
+      },
+      {
+        "B": "<font>"
+      },
+      {
+        "C": "<content>"
+      },
+      {
+        "D": "<command>"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 85,
+    "question": "Which element puts a text field in a page for querying document?",
+    "options": [
+      {
+        "A": "<keygen>"
+      },
+      {
+        "B": "<isiindex>"
+      },
+      {
+        "C": "<dir>"
+      },
+      {
+        "D": "<command>"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 86,
+    "question": "Which element is used for inserting scrolling area of text?",
+    "options": [
+      {
+        "A": "<marquee>"
+      },
+      {
+        "B": "<menu>"
+      },
+      {
+        "C": "<menuitem>"
+      },
+      {
+        "D": "<menuitem>"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 87,
+    "question": "Which of the following tag defines the progress of a task?",
+    "options": [
+      {
+        "A": "<meter>"
+      },
+      {
+        "B": "<progress"
+      },
+      {
+        "C": "<gauge>"
+      },
+      {
+        "D": "<wbr>"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 88,
+    "question": "Which of the following defines the result of a calculation?",
+    "options": [
+      {
+        "A": "<output>"
+      },
+      {
+        "B": "<keygen>"
+      },
+      {
+        "C": "<datalist>"
+      },
+      {
+        "D": "<result>"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 89,
+    "question": "Which of the following elements in HTML5 defines video or movie content?",
+    "options": [
+      {
+        "A": "<media>"
+      },
+      {
+        "B": "<video>"
+      },
+      {
+        "C": "<movie>"
+      },
+      {
+        "D": "<audio>"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 90,
+    "question": "Which of the following defines a visible heading for a details element?",
+    "options": [
+      {
+        "A": "<brief>"
+      },
+      {
+        "B": "<summary>"
+      },
+      {
+        "C": "<mark>"
+      },
+      {
+        "D": "<main>"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 91,
+    "question": "Which of the following defines additional details that the user can view or hide?",
+    "options": [
+      {
+        "A": "<details>"
+      },
+      {
+        "B": "<article>"
+      },
+      {
+        "C": "<aside>"
+      },
+      {
+        "D": "<figure>"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 92,
+    "question": "Which of the following gives a text description of the image if it is not available?",
+    "options": [
+      {
+        "A": "alt"
+      },
+      {
+        "B": "title"
+      },
+      {
+        "C": "src"
+      },
+      {
+        "D": "height"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 93,
+    "question": "Which of the following is not the software for editing images?",
+    "options": [
+      {
+        "A": "Adobe Fireworks"
+      },
+      {
+        "B": "PaintShop Pro"
+      },
+      {
+        "C": "Paint.net"
+      },
+      {
+        "D": "Splashup"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 94,
+    "question": " JPEG format is useful when ___________",
+    "options": [
+      {
+        "A": "there are so many colors in the picture"
+      },
+      {
+        "B": "there are not so many colors in the picture"
+      },
+      {
+        "C": "we want to show more brightness"
+      },
+      {
+        "D": "when we want to show haziness"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 95,
+    "question": "What is the new format to display vector images?",
+    "options": [
+      {
+        "A": "SVG"
+      },
+      {
+        "B": "GIF"
+      },
+      {
+        "C": "JPG"
+      },
+      {
+        "D": "PNG"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 96,
+    "question": "For caption of the image we use ____________",
+    "options": [
+      {
+        "A": "<figure>"
+      },
+      {
+        "B": "<src>"
+      },
+      {
+        "C": "<alt>"
+      },
+      {
+        "D": "<title>"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 97,
+    "question": "Favicon stands for ______",
+    "options": [
+      {
+        "A": "Fave icon"
+      },
+      {
+        "B": "Favorite icon"
+      },
+      {
+        "C": "Both Fave icon and Favorite icon"
+      },
+      {
+        "D": "Fav icon"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 98,
+    "question": "Which attribute is used for favicon?",
+    "options": [
+      {
+        "A": "icon"
+      },
+      {
+        "B": "title"
+      },
+      {
+        "C": "rel"
+      },
+      {
+        "D": "head"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 99,
+    "question": "The favicon was standardized by the _______",
+    "options": [
+      {
+        "A": "IANA"
+      },
+      {
+        "B": "W3C"
+      },
+      {
+        "C": "WIPO"
+      },
+      {
+        "D": "EPO"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 100,
+    "question": "The recommended basic size for a favicon is ___________ pixels.",
+    "options": [
+      {
+        "A": "16×16"
+      },
+      {
+        "B": "26×26"
+      },
+      {
+        "C": "48×48"
+      },
+      {
+        "D": "both 16×16 and 48×48"
+      }
+    ],
+    "correct_ans": "D"
   }
 ]
