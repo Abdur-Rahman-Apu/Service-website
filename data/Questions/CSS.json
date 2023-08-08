@@ -1,6 +1,6 @@
 [
   {
-    "question_no": 61,
+    "question_no": 1,
     "question": "What is CSS?",
     "options": [
       {
@@ -19,7 +19,7 @@
     "correct_ans": "D"
   },
   {
-    "question_no": 62,
+    "question_no": 2,
     "question": "Which of the following tag is used to embed css in html page?",
     "options": [
       {
@@ -38,7 +38,7 @@
     "correct_ans": "D"
   },
   {
-    "question_no": 63,
+    "question_no": 3,
     "question": "Which of the following CSS selectors are used to specify a group of elements?",
     "options": [
       {
@@ -57,7 +57,7 @@
     "correct_ans": "C"
   },
   {
-    "question_no": 64,
+    "question_no": 4,
     "question": "Which of the following has introduced text, list, box, margin, border, color, and background properties?",
     "options": [
       {
@@ -76,7 +76,7 @@
     "correct_ans": "C"
   },
   {
-    "question_no": 65,
+    "question_no": 5,
     "question": "Which of the following CSS framework is used to create a responsive design?",
     "options": [
       {
@@ -95,7 +95,7 @@
     "correct_ans": "D"
   },
   {
-    "question_no": 66,
+    "question_no": 6,
     "question": "Which of the following CSS selector is used to specify a rule to bind a particular unique element?",
     "options": [
       {
@@ -114,7 +114,7 @@
     "correct_ans": "B"
   },
   {
-    "question_no": 67,
+    "question_no": 7,
     "question": "Which of the following type of HTML tag is used to define an internal style sheet?",
     "options": [
       {
@@ -133,7 +133,7 @@
     "correct_ans": "D"
   },
   {
-    "question_no": 68,
+    "question_no": 8,
     "question": "Which of the following CSS style property is used to specify an italic text?",
     "options": [
       {
@@ -152,7 +152,7 @@
     "correct_ans": "C"
   },
   {
-    "question_no": 69,
+    "question_no": 9,
     "question": "Which of the following are the CSS Extension Prefixes for Webkit?",
     "options": [
       {
@@ -171,7 +171,7 @@
     "correct_ans": "D"
   },
   {
-    "question_no": 70,
+    "question_no": 10,
     "question": "Which of the following function defines a linear gradient as a CSS image?",
     "options": [
       {
@@ -190,7 +190,7 @@
     "correct_ans": "B"
   },
   {
-    "question_no": 71,
+    "question_no": 11,
     "question": "Which of the following CSS property can be used to set the image as a border instead of the border style?",
     "options": [
       {
@@ -209,7 +209,7 @@
     "correct_ans": "C"
   },
   {
-    "question_no": 72,
+    "question_no": 12,
     "question": "Which of the following CSS property sets the font size of text?",
     "options": [
       {
@@ -228,7 +228,7 @@
     "correct_ans": "A"
   },
   {
-    "question_no": 73,
+    "question_no": 13,
     "question": "Which of the following is not the property of the CSS box model?",
     "options": [
       {
@@ -247,7 +247,7 @@
     "correct_ans": "B"
   },
   {
-    "question_no": 74,
+    "question_no": 14,
     "question": "Which of the following CSS property is used to set the color of the text?",
     "options": [
       {
@@ -266,7 +266,7 @@
     "correct_ans": "D"
   },
   {
-    "question_no": 75,
+    "question_no": 15,
     "question": "Which of the following CSS Property controls how an element is positioned?",
     "options": [
       {
@@ -285,1409 +285,1618 @@
     "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 16,
+    "question": "Which of the following CSS selector selects the elements that are checked?",
     "options": [
       {
-        "A": ""
+        "A": ":checked"
       },
       {
-        "B": ""
+        "B": "E ~ F"
       },
       {
-        "C": ""
+        "C": "::after"
       },
       {
-        "D": ""
+        "D": "none of the mentioned"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 17,
+    "question": "Which of the following is an appropriate value for the overflow element?",
     "options": [
       {
-        "A": ""
+        "A": "scroll"
       },
       {
-        "B": ""
+        "B": "hidden"
       },
       {
-        "C": ""
+        "C": "auto"
       },
       {
-        "D": ""
+        "D": "All of the mentioned"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 18,
+    "question": "Which of the following CSS property is used to specify table borders in CSS?",
     "options": [
       {
-        "A": ""
+        "A": "table:border"
       },
       {
-        "B": ""
+        "B": "table"
       },
       {
-        "C": ""
+        "C": "border"
       },
       {
-        "D": ""
+        "D": "none of the mentioned"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 19,
+    "question": "Which of the following property is used to align the text in a table?",
     "options": [
       {
-        "A": ""
+        "A": "text-align"
       },
       {
-        "B": ""
+        "B": "align"
       },
       {
-        "C": ""
+        "C": "text"
       },
       {
-        "D": ""
+        "D": "none of the mentioned"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 20,
+    "question": " Which of the following CSS Property sets the stacking order of positioned elements?",
     "options": [
       {
-        "A": ""
+        "A": "y-index"
       },
       {
-        "B": ""
+        "B": "z-index"
       },
       {
-        "C": ""
+        "C": "x-index"
       },
       {
-        "D": ""
+        "D": "All of the mentioned"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 21,
+    "question": "Which of the following property allows a marquee to be used in the case of a text-overflow?",
     "options": [
       {
-        "A": ""
+        "A": "overflow-marquee"
       },
       {
-        "B": ""
+        "B": "overflow-style"
       },
       {
-        "C": ""
+        "C": "overflow-text"
       },
       {
-        "D": ""
+        "D": "none of the mentioned"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 22,
+    "question": "Which of the following CSS3 property can be used to allow line breaks within words?",
     "options": [
       {
-        "A": ""
+        "A": "line-break"
       },
       {
-        "B": ""
+        "B": "line-wrap"
       },
       {
-        "C": ""
+        "C": "word-wrap"
       },
       {
-        "D": ""
+        "D": "word-break"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 23,
+    "question": "Which of the following property adds padding to the top of an element?",
     "options": [
       {
-        "A": ""
+        "A": "height"
       },
       {
-        "B": ""
+        "B": "padding-height"
       },
       {
-        "C": ""
+        "C": "top"
       },
       {
-        "D": ""
+        "D": "padding-top"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 24,
+    "question": "Which of the following display property value is described by treats the element as inline?",
     "options": [
       {
-        "A": ""
+        "A": "inline-block"
       },
       {
-        "B": ""
+        "B": "list-item"
       },
       {
-        "C": ""
+        "C": "block"
       },
       {
-        "D": ""
+        "D": "inline"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 25,
+    "question": "Which of the following property defines the style for the bottom border of an element?",
     "options": [
       {
-        "A": ""
+        "A": "border-bottom-style"
       },
       {
-        "B": ""
+        "B": "border-collapse"
       },
       {
-        "C": ""
+        "C": "border-style-bottom"
       },
       {
-        "D": ""
+        "D": "none of the mentioned"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 26,
+    "question": "Which of the following property defines the style for the left border of an element?",
     "options": [
       {
-        "A": ""
+        "A": "border-style"
       },
       {
-        "B": ""
+        "B": "border-left-style"
       },
       {
-        "C": ""
+        "C": "border-left-width"
       },
       {
-        "D": ""
+        "D": "border-right"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 27,
+    "question": "Which of the following property controls the horizontal overflow of a block or inline block?",
     "options": [
       {
-        "A": ""
+        "A": "overflow-x"
       },
       {
-        "B": ""
+        "B": "overflow"
       },
       {
-        "C": ""
+        "C": "overflow-y"
       },
       {
-        "D": ""
+        "D": "overflow-k"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 28,
+    "question": "Which of the following property sets a consistent margin on all four sides of the affected element?",
     "options": [
       {
-        "A": ""
+        "A": "boder"
       },
       {
-        "B": ""
+        "B": "margin"
       },
       {
-        "C": ""
+        "C": "padding"
       },
       {
-        "D": ""
+        "D": "none of the mentioned"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 29,
+    "question": "Which of the following box-sizing property value is described by width and height include content, padding, and borders?",
     "options": [
       {
-        "A": ""
+        "A": "border-box"
       },
       {
-        "B": ""
+        "B": "content-box"
       },
       {
-        "C": ""
+        "C": "width-box"
       },
       {
-        "D": ""
+        "D": "none of the mentioned"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 30,
+    "question": "Which of the following property sets the width of an element’s bottom border?",
     "options": [
       {
-        "A": ""
+        "A": "border"
       },
       {
-        "B": ""
+        "B": "border-collapse"
       },
       {
-        "C": ""
+        "C": "border-bottom-width"
       },
       {
-        "D": ""
+        "D": "none of the mentioned"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 31,
+    "question": "Which of the following property defines whether table cell borders are connected or separate?",
     "options": [
       {
-        "A": ""
+        "A": "border-table"
       },
       {
-        "B": ""
+        "B": "border"
       },
       {
-        "C": ""
+        "C": "border-collapse"
       },
       {
-        "D": ""
+        "D": "none of the mentioned"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 32,
+    "question": "Which of the following property defines the style for the right border of an element?",
     "options": [
       {
-        "A": ""
+        "A": "border-spacing"
       },
       {
-        "B": ""
+        "B": "border-margin"
       },
       {
-        "C": ""
+        "C": "border-right"
       },
       {
-        "D": ""
+        "D": "border-right-style"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 33,
+    "question": "Which of the following property defines the color of an element’s top border?",
     "options": [
       {
-        "A": ""
+        "A": "border-color"
       },
       {
-        "B": ""
+        "B": "border-top"
       },
       {
-        "C": ""
+        "C": "border-top-color-webkit"
       },
       {
-        "D": ""
+        "D": "border-top-color"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 34,
+    "question": "Which of the following property specifies the placement of an element in relation to floating objects?",
     "options": [
       {
-        "A": ""
+        "A": "clear"
       },
       {
-        "B": ""
+        "B": "color"
       },
       {
-        "C": ""
+        "C": "space"
       },
       {
-        "D": ""
+        "D": "none of the mentioned"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 35,
+    "question": "Which of the following property sets list-style-type, list-style-position, and liststyle-image?",
     "options": [
       {
-        "A": ""
+        "A": "style"
       },
       {
-        "B": ""
+        "B": "list-style"
       },
       {
-        "C": ""
+        "C": "menu-style"
       },
       {
-        "D": ""
+        "D": "img-style"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 36,
+    "question": "Which of the following property assigns a graphic image to a list item?",
     "options": [
       {
-        "A": ""
+        "A": "list-image-style"
       },
       {
-        "B": ""
+        "B": "list-style-image"
       },
       {
-        "C": ""
+        "C": "list-image"
       },
       {
-        "D": ""
+        "D": "none of the mentioned"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 37,
+    "question": "Which of the following property defines labels for a list of items?",
     "options": [
       {
-        "A": ""
+        "A": "list-shape"
       },
       {
-        "B": ""
+        "B": "list-style"
       },
       {
-        "C": ""
+        "C": "list-type"
       },
       {
-        "D": ""
+        "D": "list-style-type"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 38,
+    "question": "Which of the following property is used to round border corners?",
     "options": [
       {
-        "A": ""
+        "A": "border-corner"
       },
       {
-        "B": ""
+        "B": "border-round"
       },
       {
-        "C": ""
+        "C": "border-radius"
       },
       {
-        "D": ""
+        "D": "none of the mentioned"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 39,
+    "question": "Which of the following property sets the font face to be used for text?",
     "options": [
       {
-        "A": ""
+        "A": "font"
       },
       {
-        "B": ""
+        "B": "font-text"
       },
       {
-        "C": ""
+        "C": "font-family"
       },
       {
-        "D": ""
+        "D": "none of the mentioned"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 40,
+    "question": "Which of the following property sets the font size of text?",
     "options": [
       {
-        "A": ""
+        "A": "font-size"
       },
       {
-        "B": ""
+        "B": "font-text"
       },
       {
-        "C": ""
+        "C": "font-family"
       },
       {
-        "D": ""
+        "D": "none of the mentioned"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 41,
+    "question": "The property in CSS used to change the background color of an element is -",
     "options": [
       {
-        "A": ""
+        "A": "bgcolor"
       },
       {
-        "B": ""
+        "B": "color"
       },
       {
-        "C": ""
+        "C": "background-color"
       },
       {
-        "D": ""
+        "D": "All of the mentioned"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 42,
+    "question": "The property in CSS used to change the text color of an element is -",
     "options": [
       {
-        "A": ""
+        "A": "bgcolor"
       },
       {
-        "B": ""
+        "B": "color"
       },
       {
-        "C": ""
+        "C": "background-color"
       },
       {
-        "D": ""
+        "D": "All of the mentioned"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 43,
+    "question": "The HTML attribute used to define the inline styles is -",
     "options": [
       {
-        "A": ""
+        "A": "style"
       },
       {
-        "B": ""
+        "B": "styles"
       },
       {
-        "C": ""
+        "C": "class"
       },
       {
-        "D": ""
+        "D": "none of the mentioned"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 44,
+    "question": "The HTML attribute used to define the internal stylesheet is -",
     "options": [
       {
-        "A": ""
+        "A": "<style>"
       },
       {
-        "B": ""
+        "B": "style"
       },
       {
-        "C": ""
+        "C": "<link>"
       },
       {
-        "D": ""
+        "D": "<script>"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 45,
+    "question": "Which of the following CSS property is used to set the background image of an element?",
     "options": [
       {
-        "A": ""
+        "A": "background-attachment"
       },
       {
-        "B": ""
+        "B": "background-image"
       },
       {
-        "C": ""
+        "C": "background-color"
       },
       {
-        "D": ""
+        "D": "none of the mentioned"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 46,
+    "question": "Which of the following is the correct syntax to display the hyperlinks without any underline?",
     "options": [
       {
-        "A": ""
+        "A": "a {text-decoration : underline;}"
       },
       {
-        "B": ""
+        "B": "a {decoration : no-underline;}"
       },
       {
-        "C": ""
+        "C": "a {text-decoration : none;}"
       },
       {
-        "D": ""
+        "D": "none of the mentioned"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 47,
+    "question": "Which of the following property is used as the shorthand property for the padding properties?",
     "options": [
       {
-        "A": ""
+        "A": "padding-left"
       },
       {
-        "B": ""
+        "B": "padding-right"
       },
       {
-        "C": ""
+        "C": "padding"
       },
       {
-        "D": ""
+        "D": "All of the mentioned"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 48,
+    "question": "The CSS property used to make the text bold is -",
     "options": [
       {
-        "A": ""
+        "A": "font-weight : bold"
       },
       {
-        "B": ""
+        "B": "weight: bold"
       },
       {
-        "C": ""
+        "C": "font: bold"
       },
       {
-        "D": ""
+        "D": "font: bold"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 49,
+    "question": "Are the negative values allowed in padding property?",
     "options": [
       {
-        "A": ""
+        "A": "Yes"
       },
       {
-        "B": ""
+        "B": "No"
       },
       {
-        "C": ""
+        "C": "Can't say"
       },
       {
-        "D": ""
+        "D": "May be"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 50,
+    "question": "The CSS property used to specify the transparency of an element is -",
     "options": [
       {
-        "A": ""
+        "A": "opacity"
       },
       {
-        "B": ""
+        "B": "filter"
       },
       {
-        "C": ""
+        "C": "visibility"
       },
       {
-        "D": ""
+        "D": "overlay"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 51,
+    "question": "Which of the following is used to specify the subscript of text using CSS?",
     "options": [
       {
-        "A": ""
+        "A": "vertical-align: sub"
       },
       {
-        "B": ""
+        "B": "vertical-align: super"
       },
       {
-        "C": ""
+        "C": "vertical-align: subscript"
       },
       {
-        "D": ""
+        "D": "none of the mentioned"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 52,
+    "question": "Which of the following CSS property is used to specify the space between every letter inside an element?",
     "options": [
       {
-        "A": ""
+        "A": "alpha-spacing"
       },
       {
-        "B": ""
+        "B": "character-spacing"
       },
       {
-        "C": ""
+        "C": "letter-spacing"
       },
       {
-        "D": ""
+        "D": "alphabet-spacing"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 53,
+    "question": "The CSS property used to specify whether the text is written in the horizontal or vertical direction?",
     "options": [
       {
-        "A": ""
+        "A": "writing-mode"
       },
       {
-        "B": ""
+        "B": "text-indent"
       },
       {
-        "C": ""
+        "C": "word-break"
       },
       {
-        "D": ""
+        "D": "none of the mentioned"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 54,
+    "question": "Which of the following syntax is correct in CSS to make each word of a sentence start with a capital letter?",
     "options": [
       {
-        "A": ""
+        "A": "text-style : capital;"
       },
       {
-        "B": ""
+        "B": "transform : capitalize;"
       },
       {
-        "C": ""
+        "C": "text-transform : capital;"
       },
       {
-        "D": ""
+        "D": "text-transform : capitalize;"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 55,
+    "question": "How to select the elements with the class name 'example'?",
     "options": [
       {
-        "A": ""
+        "A": "example"
       },
       {
-        "B": ""
+        "B": "#example"
       },
       {
-        "C": ""
+        "C": ".example"
       },
       {
-        "D": ""
+        "D": "Class example"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 56,
+    "question": "Which of the following is the correct syntax to select all paragraph elements in a div element?",
     "options": [
       {
-        "A": ""
+        "A": "div p"
       },
       {
-        "B": ""
+        "B": "p"
       },
       {
-        "C": ""
+        "C": "div#p"
       },
       {
-        "D": ""
+        "D": "div ~ p"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 57,
+    "question": "Which of the following is the correct syntax to select the p siblings of a div element?",
     "options": [
       {
-        "A": ""
+        "A": "p"
       },
       {
-        "B": ""
+        "B": "div + p"
       },
       {
-        "C": ""
+        "C": "div p"
       },
       {
-        "D": ""
+        "D": "div ~ p"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 58,
+    "question": "The CSS property used to draw a line around the elements outside the border?",
     "options": [
       {
-        "A": ""
+        "A": "border"
       },
       {
-        "B": ""
+        "B": "outline"
       },
       {
-        "C": ""
+        "C": "padding"
       },
       {
-        "D": ""
+        "D": "line"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 59,
+    "question": "Which of the following CSS property is used to add shadows to the text?",
     "options": [
       {
-        "A": ""
+        "A": "text-shadow"
       },
       {
-        "B": ""
+        "B": "shadow"
       },
       {
-        "C": ""
+        "C": "shadow-text"
       },
       {
-        "D": ""
+        "D": "txt-shadow"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 60,
+    "question": "Which of the following is not a value of the font-variant property in CSS?",
     "options": [
       {
-        "A": ""
+        "A": "normal"
       },
       {
-        "B": ""
+        "B": "small-caps"
       },
       {
-        "C": ""
+        "C": "large-caps"
       },
       {
-        "D": ""
+        "D": "inherit"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 61,
+    "question": "The CSS property used to make the rounded borders, or rounded corners around an element is -",
     "options": [
       {
-        "A": ""
+        "A": "border-collapse"
       },
       {
-        "B": ""
+        "B": "border-radius"
       },
       {
-        "C": ""
+        "C": "border-spacing"
       },
       {
-        "D": ""
+        "D": "none of the mentioned"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 62,
+    "question": "Which of the following CSS property defines how an image or video fits into container with established height and width?",
     "options": [
       {
-        "A": ""
+        "A": "object-fit"
       },
       {
-        "B": ""
+        "B": "object-position"
       },
       {
-        "C": ""
+        "C": "position"
       },
       {
-        "D": ""
+        "D": "none of the mentioned"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 63,
+    "question": "Which if the following CSS function allows us to perform calculations?",
     "options": [
       {
-        "A": ""
+        "A": "calc() function"
       },
       {
-        "B": ""
+        "B": "calculator() function"
       },
       {
-        "C": ""
+        "C": "calculator() function"
       },
       {
-        "D": ""
+        "D": "cal() function"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 64,
+    "question": "The CSS property used to specify the transparency of an element is -",
     "options": [
       {
-        "A": ""
+        "A": "Hover"
       },
       {
-        "B": ""
+        "B": "Opacity"
       },
       {
-        "C": ""
+        "C": "clearfix"
       },
       {
-        "D": ""
+        "D": "overlay"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 65,
+    "question": "Which of the following CSS property is used to specify the type of quotation mark?",
     "options": [
       {
-        "A": ""
+        "A": "quotes property"
       },
       {
-        "B": ""
+        "B": "z-index property"
       },
       {
-        "C": ""
+        "C": "hyphens property"
       },
       {
-        "D": ""
+        "D": "none of the mentioned"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 66,
+    "question": "The CSS property used to specify the order of flex item in the grid container is -",
     "options": [
       {
-        "A": ""
+        "A": "order property"
       },
       {
-        "B": ""
+        "B": "float property"
       },
       {
-        "C": ""
+        "C": "overflow property"
       },
       {
-        "D": ""
+        "D": "none of the mentioned"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 67,
+    "question": "Which of the following CSS property creates a clipping region and specifies the visible area of the element?",
     "options": [
       {
-        "A": ""
+        "A": "visibility property"
       },
       {
-        "B": ""
+        "B": "background-clip property"
       },
       {
-        "C": ""
+        "C": "clip-path property"
       },
       {
-        "D": ""
+        "D": "None of the above"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 68,
+    "question": "The correct syntax to give a line over text is -",
     "options": [
       {
-        "A": ""
+        "A": "text-decoration: line-through"
       },
       {
-        "B": ""
+        "B": "text-decoration: none"
       },
       {
-        "C": ""
+        "C": "text-decoration: overline"
       },
       {
-        "D": ""
+        "D": "text-decoration: underline"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 69,
+    "question": "In a CSS file, there is a CSS rule for paragraphs tags – what does p can be called?",
     "options": [
       {
-        "A": ""
+        "A": "Selector"
       },
       {
-        "B": ""
+        "B": "Attribute"
       },
       {
-        "C": ""
+        "C": "Property"
       },
       {
-        "D": ""
+        "D": "Tag"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 70,
+    "question": "Which CSS property is used to style the hyperlinks on hover (Mouse over)?",
     "options": [
       {
-        "A": ""
+        "A": "a:mouseover"
       },
       {
-        "B": ""
+        "B": "a:move"
       },
       {
-        "C": ""
+        "C": "a:mover"
       },
       {
-        "D": ""
+        "D": "a:hover"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 71,
+    "question": "Which CSS property and value is used to center an element?",
     "options": [
       {
-        "A": ""
+        "A": "text-align:center"
       },
       {
-        "B": ""
+        "B": "align:center"
       },
       {
-        "C": ""
+        "C": "text-align:middle"
       },
       {
-        "D": ""
+        "D": "align:middle"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 72,
+    "question": "Which CSS property is used to specify the space between the characters in a text?",
     "options": [
       {
-        "A": ""
+        "A": "text-space"
       },
       {
-        "B": ""
+        "B": "letter-space"
       },
       {
-        "C": ""
+        "C": "letter-spacing"
       },
       {
-        "D": ""
+        "D": "letter-distance"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 73,
+    "question": "Flexbox is ____",
     "options": [
       {
-        "A": ""
+        "A": "One dimensional"
       },
       {
-        "B": ""
+        "B": "two dimensional"
       },
       {
-        "C": ""
+        "C": "three dimensional"
       },
       {
-        "D": ""
+        "D": "None of the above"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 74,
+    "question": "Grid is ___",
     "options": [
       {
-        "A": ""
+        "A": "One dimensional"
       },
       {
-        "B": ""
+        "B": "two dimensional"
       },
       {
-        "C": ""
+        "C": "three dimensional"
       },
       {
-        "D": ""
+        "D": "None of the above"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 75,
+    "question": "Which CSS function uses the largest value?",
     "options": [
       {
-        "A": ""
+        "A": "large()"
       },
       {
-        "B": ""
+        "B": "maximum()"
       },
       {
-        "C": ""
+        "C": "max_value()"
       },
       {
-        "D": ""
+        "D": "max()"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 76,
+    "question": "In how many ways can CSS be added to HTML?",
     "options": [
       {
-        "A": ""
+        "A": "1"
       },
       {
-        "B": ""
+        "B": "2"
       },
       {
-        "C": ""
+        "C": "3"
       },
       {
-        "D": ""
+        "D": "4"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 77,
+    "question": "The <style> in Internal CSS refers to ___.",
     "options": [
       {
-        "A": ""
+        "A": "Attributes"
       },
       {
-        "B": ""
+        "B": "HTML tags"
       },
       {
-        "C": ""
+        "C": "Selector"
       },
       {
-        "D": ""
+        "D": "All of the above"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 78,
+    "question": "Can we link multiple stylesheets to a single page?",
     "options": [
       {
-        "A": ""
+        "A": "Yes"
       },
       {
-        "B": ""
+        "B": "No"
       },
       {
-        "C": ""
+        "C": "Depends on CSS properties"
       },
       {
-        "D": ""
+        "D": "None of the above"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 79,
+    "question": "How many color names does CSS supports?",
     "options": [
       {
-        "A": ""
+        "A": "140"
       },
       {
-        "B": ""
+        "B": "100"
       },
       {
-        "C": ""
+        "C": "75"
       },
       {
-        "D": ""
+        "D": "90"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 80,
+    "question": " ___ means 4 times the size of the current font.",
     "options": [
       {
-        "A": ""
+        "A": "4px"
       },
       {
-        "B": ""
+        "B": "4pt"
       },
       {
-        "C": ""
+        "C": "4em"
       },
       {
-        "D": ""
+        "D": "4vw"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 81,
+    "question": "Amongst the following browsers, which browser supports almost all the CSS properties?",
     "options": [
       {
-        "A": ""
+        "A": "Firefox"
       },
       {
-        "B": ""
+        "B": "Safari"
       },
       {
-        "C": ""
+        "C": "Google Chrome"
       },
       {
-        "D": ""
+        "D": "Opera"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 82,
+    "question": "Which is the most widely used font in customizing web pages?",
     "options": [
       {
-        "A": ""
+        "A": "Times New Roman"
       },
       {
-        "B": ""
+        "B": "Georgia"
       },
       {
-        "C": ""
+        "C": "Arial"
       },
       {
-        "D": ""
+        "D": "Garamond"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 83,
+    "question": "Which of the following CSS properties are animatable?",
     "options": [
       {
-        "A": ""
+        "A": "color"
       },
       {
-        "B": ""
+        "B": "border-left"
       },
       {
-        "C": ""
+        "C": "flex"
       },
       {
-        "D": ""
+        "D": "All of the above"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 84,
+    "question": "Which line of code is a must to write to apply CSS Flexbox properties?",
     "options": [
       {
-        "A": ""
+        "A": "display: flex;"
       },
       {
-        "B": ""
+        "B": "display: flexbox;"
       },
       {
-        "C": ""
+        "C": "display: block;"
       },
       {
-        "D": ""
+        "D": "flex-direction: row;"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 85,
+    "question": "The default value of justify-content property is ___.",
     "options": [
       {
-        "A": ""
+        "A": "flex-start"
       },
       {
-        "B": ""
+        "B": "flex-end"
       },
       {
-        "C": ""
+        "C": "space-between"
       },
       {
-        "D": ""
+        "D": "None"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 86,
+    "question": "Which is the correct syntax for adding animation?",
     "options": [
       {
-        "A": ""
+        "A": "animation: name timing-function duration"
       },
       {
-        "B": ""
+        "B": "animation: name duration timing-function"
       },
       {
-        "C": ""
+        "C": "animation: name duration timing-function"
       },
       {
-        "D": ""
+        "D": "none of the mentioned"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 87,
+    "question": " Is border-image property animatable?",
     "options": [
       {
-        "A": ""
+        "A": "Yes"
       },
       {
-        "B": ""
+        "B": "No"
       },
       {
-        "C": ""
+        "C": "Depends"
       },
       {
-        "D": ""
+        "D": "None of the above"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 88,
+    "question": "Which cursor property value indicates that the program is busy?",
     "options": [
       {
-        "A": ""
+        "A": "help"
       },
       {
-        "B": ""
+        "B": "default"
       },
       {
-        "C": ""
+        "C": "auto"
       },
       {
-        "D": ""
+        "D": "wait"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 89,
+    "question": "Which one is a fallback font?",
     "options": [
       {
-        "A": ""
+        "A": "Times New Roman"
       },
       {
-        "B": ""
+        "B": "Georgia"
       },
       {
-        "C": ""
+        "C": "Serif"
       },
       {
-        "D": ""
+        "D": "None of the above"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 90,
+    "question": " What is the default size for normal text, like paragraphs?",
+    "options": [
+      {
+        "A": "11px"
+      },
+      {
+        "B": "12px"
+      },
+      {
+        "C": "16px"
+      },
+      {
+        "D": "18px"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 91,
+    "question": "How do you make a list that lists its items with squares?",
+    "options": [
+      {
+        "A": "list-type: square"
+      },
+      {
+        "B": "type: square"
+      },
+      {
+        "C": "type: 2"
+      },
+      {
+        "D": "list-style-type: square"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 92,
+    "question": "What is the purpose of the transform property in CSS? ",
+    "options": [
+      {
+        "A": "It changes the position of an element. "
+      },
+      {
+        "B": "It applies a 3D effect to an element. "
+      },
+      {
+        "C": "It rotates and scales an element. "
+      },
+      {
+        "D": "It animates an element's size. "
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 93,
+    "question": "What is the purpose of the @media rule in CSS? ",
+    "options": [
+      {
+        "A": "It defines custom fonts for different screen sizes. "
+      },
+      {
+        "B": "It applies styles based on user interactions. "
+      },
+      {
+        "C": "It allows the use of variables in CSS. "
+      },
+      {
+        "D": "It applies styles based on screen size and other media features. "
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 94,
+    "question": "How do you add a smooth transition effect to an element in CSS? ",
+    "options": [
+      {
+        "A": "transition: smooth; "
+      },
+      {
+        "B": "transition: 1s ease; "
+      },
+      {
+        "C": "animate: smooth; "
+      },
+      {
+        "D": "animate: 1s ease; "
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 95,
+    "question": "What is the purpose of the flexbox layout in CSS? ",
+    "options": [
+      {
+        "A": "It creates a grid-like layout for elements. "
+      },
+      {
+        "B": "It arranges elements in a single row or column. "
+      },
+      {
+        "C": "It arranges elements in a single row or column. "
+      },
+      {
+        "D": "It creates complex 3D layouts. "
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 96,
+    "question": "Which property is needed to apply  grid?",
+    "options": [
+      {
+        "A": "display: flex"
+      },
+      {
+        "B": "display: block;"
+      },
+      {
+        "C": "display: grid;"
+      },
+      {
+        "D": "display:inline-grid"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 97,
+    "question": "Which of the following element is used by the filter property to blur the images?",
+    "options": [
+      {
+        "A": "opaque()"
+      },
+      {
+        "B": "scatter()"
+      },
+      {
+        "C": "blur()"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 98,
+    "question": "Which of the following function flips an element’s colors, for use by the filter property?",
+    "options": [
+      {
+        "A": "image()"
+      },
+      {
+        "B": "flip()"
+      },
+      {
+        "C": "invert()"
+      },
+      {
+        "D": "contrast()"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 99,
+    "question": "Which of the following function two dimensional transformation in matrix format?",
+    "options": [
+      {
+        "A": "matrix()"
+      },
+      {
+        "B": "matrix2d()"
+      },
+      {
+        "C": "matrix3d()"
+      },
+      {
+        "D": "perspective"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 100,
+    "question": "Which of the following is not a value for font-style property?",
+    "options": [
+      {
+        "A": "normal"
+      },
+      {
+        "B": "italic"
+      },
+      {
+        "C": "oblique"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "D"
   }
 ]
