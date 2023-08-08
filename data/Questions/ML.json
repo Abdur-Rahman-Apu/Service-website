@@ -1330,79 +1330,573 @@
     "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 71,
+    "question": "Identify the type of learning in which labeled training data is used.",
     "options": [
       {
-        "A": ""
+        "A": "Reinforcement learning"
       },
       {
-        "B": ""
+        "B": "Unsupervised learning"
       },
       {
-        "C": ""
+        "C": "Supervised learning"
       },
       {
-        "D": ""
+        "D": "Semi unsupervised learning"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 72,
+    "question": "How do you handle missing or corrupted data in a dataset?",
     "options": [
       {
-        "A": ""
+        "A": "Drop missing rows or columns"
       },
       {
-        "B": ""
+        "B": "Assign a unique category to missing values"
       },
       {
-        "C": ""
+        "C": "Replace missing values with mean/median/mode"
       },
       {
-        "D": ""
+        "D": "All of the Above"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 73,
+    "question": "Data points have zero residual",
     "options": [
       {
-        "A": ""
+        "A": "if they are above the regression line"
       },
       {
-        "B": ""
+        "B": "if they are below the regression line"
       },
       {
-        "C": ""
+        "C": "if the regression line actually passes through the point"
       },
       {
-        "D": ""
+        "D": "None of above"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 74,
+    "question": "ML is a field of AI consisting of learning algorithms that?",
     "options": [
       {
-        "A": ""
+        "A": "Improve their performance"
       },
       {
-        "B": ""
+        "B": "At executing some task"
       },
       {
-        "C": ""
+        "C": "Over time with experience"
       },
       {
-        "D": ""
+        "D": "All of the Above"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 75,
+    "question": "What is the most significant phase in a genetic algorithm?",
+    "options": [
+      {
+        "A": "Mutation"
+      },
+      {
+        "B": "Crossover"
+      },
+      {
+        "C": "Selection"
+      },
+      {
+        "D": "Fitness function"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 76,
+    "question": "We can compute the coefficient of linear regression by using",
+    "options": [
+      {
+        "A": "Gradient descent"
+      },
+      {
+        "B": "Normal Equation"
+      },
+      {
+        "C": "Both (A) and (B)"
+      },
+      {
+        "D": "None of above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 77,
+    "question": "High entropy means that the partitions in classification are",
+    "options": [
+      {
+        "A": "pure"
+      },
+      {
+        "B": "not pure"
+      },
+      {
+        "C": "useful"
+      },
+      {
+        "D": "useless"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 78,
+    "question": "Which of the following are the spatial clustering algorithms?",
+    "options": [
+      {
+        "A": "Partitioning based clustering"
+      },
+      {
+        "B": "K-means clustering"
+      },
+      {
+        "C": "Grid based clustering"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 79,
+    "question": " ___________ refers to a model that can neither model the training data nor generalize to new data.",
+    "options": [
+      {
+        "A": "good fitting"
+      },
+      {
+        "B": "overfitting"
+      },
+      {
+        "C": "underfitting"
+      },
+      {
+        "D": "all of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 80,
+    "question": "Averaging the output of multiple decision trees helps ________.",
+    "options": [
+      {
+        "A": "Increase bias"
+      },
+      {
+        "B": "Decrease bias"
+      },
+      {
+        "C": "Increase variance"
+      },
+      {
+        "D": "Decrease variance"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 81,
+    "question": "If N is the number of instances in the training dataset, nearest neighbors has a classification run time of",
+    "options": [
+      {
+        "A": "O(1)"
+      },
+      {
+        "B": "O( N )"
+      },
+      {
+        "C": "O( N )"
+      },
+      {
+        "D": "O( N 2 )"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 82,
+    "question": "Which of the following is more appropriate to do feature selection?",
+    "options": [
+      {
+        "A": "Ridge"
+      },
+      {
+        "B": "Lasso"
+      },
+      {
+        "C": "both (a) and (b)"
+      },
+      {
+        "D": "neither (a) nor (b)"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 83,
+    "question": "For a large k value the k-nearest neighbor model becomes _____ and ______ .",
+    "options": [
+      {
+        "A": "Complex model, Overfit"
+      },
+      {
+        "B": "Complex model, Underfit"
+      },
+      {
+        "C": "Simple model, Underfit"
+      },
+      {
+        "D": "Simple model, Overfit"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 84,
+    "question": "Machine Learning is a branch of______",
+    "options": [
+      {
+        "A": "Artificial Intelligence"
+      },
+      {
+        "B": "Machine Learning"
+      },
+      {
+        "C": "Data Science"
+      },
+      {
+        "D": "Deep Learning"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 85,
+    "question": "Machine learning approaches are traditionally divided into ____ broad categories",
+    "options": [
+      {
+        "A": "Five"
+      },
+      {
+        "B": "Four"
+      },
+      {
+        "C": "Three"
+      },
+      {
+        "D": "Two"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 86,
+    "question": "____uses many machine learning methods, but with different goals.",
+    "options": [
+      {
+        "A": "Data Mining"
+      },
+      {
+        "B": "Artificial Intelligence"
+      },
+      {
+        "C": "Data Science"
+      },
+      {
+        "D": "Deep Learning"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 87,
+    "question": "Which of the following is a good test dataset characteristic?",
+    "options": [
+      {
+        "A": "is representative of the dataset as a whole"
+      },
+      {
+        "B": "large enough to yield meaningful results"
+      },
+      {
+        "C": "All of above"
+      },
+      {
+        "D": "None of above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 88,
+    "question": "Which of the following techniques would perform better for reducing dimensions of a data set?",
+    "options": [
+      {
+        "A": "removing columns which have high variance in data"
+      },
+      {
+        "B": "removing columns which have too many missing value"
+      },
+      {
+        "C": "removing columns with dissimilar data trends"
+      },
+      {
+        "D": "None of above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 89,
+    "question": "If machine learning model output involves target variable then that model is called as______________",
+    "options": [
+      {
+        "A": "predictive model"
+      },
+      {
+        "B": "descriptive model"
+      },
+      {
+        "C": "reinforcement learning"
+      },
+      {
+        "D": "all of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 90,
+    "question": "Database query is used to uncover this type of knowledge.",
+    "options": [
+      {
+        "A": "hidden"
+      },
+      {
+        "B": "shallow"
+      },
+      {
+        "C": "deep"
+      },
+      {
+        "D": "multidimensional"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 91,
+    "question": "Data used to build a data mining model.",
+    "options": [
+      {
+        "A": "training data"
+      },
+      {
+        "B": "hidden data"
+      },
+      {
+        "C": "test data"
+      },
+      {
+        "D": "validation data"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 92,
+    "question": "Application of machine learning methods to large databases is called__________________",
+    "options": [
+      {
+        "A": "big data computing"
+      },
+      {
+        "B": "artificial intelligence"
+      },
+      {
+        "C": "data mining"
+      },
+      {
+        "D": "internet of things"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 93,
+    "question": "Which learning Requires Self Assessment to identify patterns within data?",
+    "options": [
+      {
+        "A": "supervised learning"
+      },
+      {
+        "B": "unsupervised learning"
+      },
+      {
+        "C": "semi supervised learning"
+      },
+      {
+        "D": "reinforced learning"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 94,
+    "question": "In the example of predicting number of babies based on stork’s population ,Number of babies is_______________",
+    "options": [
+      {
+        "A": "feature"
+      },
+      {
+        "B": "observation"
+      },
+      {
+        "C": "outcome"
+      },
+      {
+        "D": "attribute"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 95,
+    "question": "Following are the descriptive models________________",
+    "options": [
+      {
+        "A": "classification"
+      },
+      {
+        "B": "clustering"
+      },
+      {
+        "C": "association rule"
+      },
+      {
+        "D": "Both 1 and 2"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 96,
+    "question": "A person trained to interact with a human expert in order to capture their knowledge.",
+    "options": [
+      {
+        "A": "knowledge developer"
+      },
+      {
+        "B": "knowledge programmer"
+      },
+      {
+        "C": "knowledge engineer"
+      },
+      {
+        "D": "knowledge extractor"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 97,
+    "question": "The effectiveness of an SVM depends upon________________",
+    "options": [
+      {
+        "A": "kernel parameters"
+      },
+      {
+        "B": "Selection of kernel"
+      },
+      {
+        "C": "soft margin parameter"
+      },
+      {
+        "D": "all of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 98,
+    "question": "A measurable property or parameter of the data-set is_______________",
+    "options": [
+      {
+        "A": "training data"
+      },
+      {
+        "B": "test data"
+      },
+      {
+        "C": "feature"
+      },
+      {
+        "D": "validation data"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 99,
+    "question": "Which of the following ensemble model helps in reducing variance?",
+    "options": [
+      {
+        "A": "Boosting"
+      },
+      {
+        "B": "Bagging"
+      },
+      {
+        "C": "Stacking"
+      },
+      {
+        "D": "Voting"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 100,
+    "question": "Which of the following helps in avoiding overfitting in decision trees?",
+    "options": [
+      {
+        "A": "Adding more irrelevant attributes"
+      },
+      {
+        "B": "Generating a tree with fewer branches"
+      },
+      {
+        "C": "Generating a complete tree then getting rid of some branches"
+      },
+      {
+        "D": "All of the Above"
+      }
+    ],
+    "correct_ans": "B"
   }
 ]
