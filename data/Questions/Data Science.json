@@ -1,0 +1,1902 @@
+[
+  {
+    "question_no": 1,
+    "question": "Data science is the process of diverse set of data through ?",
+    "options": [
+      {
+        "A": "organizing data"
+      },
+      {
+        "B": "processing data"
+      },
+      {
+        "C": "analysing data"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 2,
+    "question": "The modern conception of data science as an independent discipline is sometimes attributed to?",
+    "options": [
+      {
+        "A": "William S."
+      },
+      {
+        "B": "John McCarthy"
+      },
+      {
+        "C": "Arthur Samuel"
+      },
+      {
+        "D": "Satoshi Nakamoto"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 3,
+    "question": "Which of the following language is used in Data science?",
+    "options": [
+      {
+        "A": "C"
+      },
+      {
+        "B": "C++"
+      },
+      {
+        "C": "R"
+      },
+      {
+        "D": "Ruby"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 4,
+    "question": "Which of the following language is used in Data science?",
+    "options": [
+      {
+        "A": "Probability & Statistics"
+      },
+      {
+        "B": "Machine Learning / Deep Learning"
+      },
+      {
+        "C": "Data Wrangling"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 5,
+    "question": "Which of the following are correct component for data science?",
+    "options": [
+      {
+        "A": "Data Engineering"
+      },
+      {
+        "B": "Advanced Computing"
+      },
+      {
+        "C": "Domain expertise"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 6,
+    "question": "Which of the following is not a part of data science process?",
+    "options": [
+      {
+        "A": "Discovery"
+      },
+      {
+        "B": "Model Planning"
+      },
+      {
+        "C": "Communication Building"
+      },
+      {
+        "D": "Operationalize"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 7,
+    "question": "Which of the following are the Data Sources in data science?",
+    "options": [
+      {
+        "A": "Structured"
+      },
+      {
+        "B": "UnStructured"
+      },
+      {
+        "C": "Both A and B"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 8,
+    "question": "Which of the following is not a application for data science?",
+    "options": [
+      {
+        "A": "Recommendation Systems"
+      },
+      {
+        "B": "Image & Speech Recognition"
+      },
+      {
+        "C": "Online Price Comparison"
+      },
+      {
+        "D": "Privacy Checker"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 9,
+    "question": "Point out the correct statement.",
+    "options": [
+      {
+        "A": "Raw data is original source of data"
+      },
+      {
+        "B": "Preprocessed data is original source of data"
+      },
+      {
+        "C": "Raw data is the data obtained after processing steps"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "Which of the following is one of the key data science skills?",
+    "options": [
+      {
+        "A": "Statistics"
+      },
+      {
+        "B": "Machine Learning"
+      },
+      {
+        "C": "Data Visualization"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 11,
+    "question": "Which of the following is a key characteristic of a hacker?",
+    "options": [
+      {
+        "A": "Afraid to say they don't know the answer"
+      },
+      {
+        "B": "Willing to find answers on their own"
+      },
+      {
+        "C": "Not Willing to find answers on their own"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 12,
+    "question": "Raw data should be processed only one time.",
+    "options": [
+      {
+        "A": "True"
+      },
+      {
+        "B": "False"
+      },
+      {
+        "C": "Can be true or false"
+      },
+      {
+        "D": "Can not say"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 13,
+    "question": "Which of the following is the common goal of statistical modelling?",
+    "options": [
+      {
+        "A": "Inference"
+      },
+      {
+        "B": "Summarizing"
+      },
+      {
+        "C": "Subsetting"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "Causal analysis is commonly applied to census data.",
+    "options": [
+      {
+        "A": "True"
+      },
+      {
+        "B": "False"
+      },
+      {
+        "C": "Can be true or false"
+      },
+      {
+        "D": "Can not say"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 15,
+    "question": "Which of the following model is usually a gold standard for data analysis?",
+    "options": [
+      {
+        "A": "Inferential"
+      },
+      {
+        "B": "Descriptive"
+      },
+      {
+        "C": "Causal"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 16,
+    "question": "Which of the following is a revision control system?",
+    "options": [
+      {
+        "A": "Git"
+      },
+      {
+        "B": "Numpy"
+      },
+      {
+        "C": "Scipy"
+      },
+      {
+        "D": "Slidify"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "Which of the following step is performed by data scientist after acquiring the data?",
+    "options": [
+      {
+        "A": "Data Cleaning"
+      },
+      {
+        "B": "Data Integration"
+      },
+      {
+        "C": "Data Replication"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "Which of the following focuses on the discovery of (previously) unknown properties on the data?",
+    "options": [
+      {
+        "A": "Data mining"
+      },
+      {
+        "B": "BigData"
+      },
+      {
+        "C": "Data wrangling"
+      },
+      {
+        "D": "Machine Learning"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "Data can be categorized into ______ groups.",
+    "options": [
+      {
+        "A": "1"
+      },
+      {
+        "B": "2"
+      },
+      {
+        "C": "3"
+      },
+      {
+        "D": "4"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 20,
+    "question": "Unstructured data is not organized.",
+    "options": [
+      {
+        "A": "TRUE"
+      },
+      {
+        "B": "FALSE"
+      },
+      {
+        "C": "Can be true or false"
+      },
+      {
+        "D": "Can not say"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "A column is a ________ representation of data.",
+    "options": [
+      {
+        "A": "horizontal"
+      },
+      {
+        "B": "diagonal"
+      },
+      {
+        "C": "vertical"
+      },
+      {
+        "D": "top"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 22,
+    "question": "Which of the following is not a part of data science process?",
+    "options": [
+      {
+        "A": "Discovery"
+      },
+      {
+        "B": "Model Planning"
+      },
+      {
+        "C": "Communication Building"
+      },
+      {
+        "D": "Operationalize"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 23,
+    "question": "We write ______ in front of mean to let Python know that we want to activate the mean function from the Numpy library.",
+    "options": [
+      {
+        "A": "npm"
+      },
+      {
+        "B": "np"
+      },
+      {
+        "C": "ng"
+      },
+      {
+        "D": "ngm"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 24,
+    "question": "A method used to make vector of repeated values?",
+    "options": [
+      {
+        "A": "read()"
+      },
+      {
+        "B": "rep()"
+      },
+      {
+        "C": "data() "
+      },
+      {
+        "D": "view()"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 25,
+    "question": "To find the maximum number in the Numpy array, we use?",
+    "options": [
+      {
+        "A": "max(array)"
+      },
+      {
+        "B": "array.max() "
+      },
+      {
+        "C": "array(max)"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 26,
+    "question": "Deep learning algorithms are constructed with how many layers?",
+    "options": [
+      {
+        "A": "1"
+      },
+      {
+        "B": "2"
+      },
+      {
+        "C": "3"
+      },
+      {
+        "D": "4"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 27,
+    "question": "Which of the following is correct skills for a Data Scientist?",
+    "options": [
+      {
+        "A": "Probability & Statistics"
+      },
+      {
+        "B": "Data Engineering"
+      },
+      {
+        "C": "Machine Learning / Deep Learning"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 28,
+    "question": "How many types of Artificial Neural Network topologies do we have",
+    "options": [
+      {
+        "A": "3"
+      },
+      {
+        "B": "2"
+      },
+      {
+        "C": "4"
+      },
+      {
+        "D": "1"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 29,
+    "question": "What is Data Science?",
+    "options": [
+      {
+        "A": "The process of extracting valuable insights from data"
+      },
+      {
+        "B": "The process of designing a data storage system"
+      },
+      {
+        "C": "The process of creating data visualizations"
+      },
+      {
+        "D": "The process of building predictive models"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "Which of the following is not a type of data?",
+    "options": [
+      {
+        "A": "Quantitative data"
+      },
+      {
+        "B": "Qualitative data"
+      },
+      {
+        "C": "Categorical data"
+      },
+      {
+        "D": "Statistical data"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 31,
+    "question": "What is supervised learning?",
+    "options": [
+      {
+        "A": "Learning from labeled data"
+      },
+      {
+        "B": "Learning from unlabeled data"
+      },
+      {
+        "C": "Learning from text data"
+      },
+      {
+        "D": "Learning from image data"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 32,
+    "question": "What is unsupervised learning?",
+    "options": [
+      {
+        "A": "Learning from labeled data"
+      },
+      {
+        "B": "Learning from unlabeled data"
+      },
+      {
+        "C": "Learning from text data"
+      },
+      {
+        "D": "Learning from image data"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 33,
+    "question": "What is the purpose of clustering?",
+    "options": [
+      {
+        "A": "To group similar data points together"
+      },
+      {
+        "B": "To separate dissimilar data points"
+      },
+      {
+        "C": "To reduce the dimensionality of data"
+      },
+      {
+        "D": "To visualize high-dimensional data"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 34,
+    "question": "What is the purpose of dimensionality reduction?",
+    "options": [
+      {
+        "A": "To group similar data points together"
+      },
+      {
+        "B": "To separate dissimilar data points"
+      },
+      {
+        "C": "To reduce the dimensionality of data"
+      },
+      {
+        "D": "To visualize high-dimensional data"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 35,
+    "question": "Which of the following is not a dimensionality reduction technique?",
+    "options": [
+      {
+        "A": "Principal Component Analysis (PCA)"
+      },
+      {
+        "B": "Linear Discriminant Analysis (LDA)"
+      },
+      {
+        "C": "k-Nearest Neighbors (k-NN)"
+      },
+      {
+        "D": "t-Distributed Stochastic Neighbor Embedding (t-SNE)"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 36,
+    "question": "What is a random forest?",
+    "options": [
+      {
+        "A": "A group of decision trees"
+      },
+      {
+        "B": "A group of random data points"
+      },
+      {
+        "C": "A group of data scientists"
+      },
+      {
+        "D": " A group of data visualizations"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 37,
+    "question": "What is overfitting?",
+    "options": [
+      {
+        "A": "When a model is too simple and fails to capture the complexity of the data"
+      },
+      {
+        "B": "When a model is too complex and fits the noise in the data"
+      },
+      {
+        "C": "When a model is just right and captures the essence of the data"
+      },
+      {
+        "D": "When a model is not trained on enough data"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 38,
+    "question": "What is cross-validation?",
+    "options": [
+      {
+        "A": "A technique for validating a model by testing it on new data"
+      },
+      {
+        "B": "A technique for validating a model by testing it on the same data"
+      },
+      {
+        "C": "A technique for validating a model by randomly selecting data points"
+      },
+      {
+        "D": "A technique for validating a model by fitting it to a subset of the data"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 39,
+    "question": " Which of the following function is used for k-means clustering?",
+    "options": [
+      {
+        "A": "k-means"
+      },
+      {
+        "B": "k-mean"
+      },
+      {
+        "C": "heatmap"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 40,
+    "question": "What is the main role of Statistical functions, principles, and algorithms?",
+    "options": [
+      {
+        "A": "to analyze raw data"
+      },
+      {
+        "B": "build a Statistical Model"
+      },
+      {
+        "C": "predict the result"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 41,
+    "question": "A variable may also be called a _______.",
+    "options": [
+      {
+        "A": "Data Set"
+      },
+      {
+        "B": "Data Item"
+      },
+      {
+        "C": "Data Value"
+      },
+      {
+        "D": "Data variable"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 42,
+    "question": "In how many ways, analysis of any event can be done?",
+    "options": [
+      {
+        "A": "2"
+      },
+      {
+        "B": "3"
+      },
+      {
+        "C": "4"
+      },
+      {
+        "D": "5"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 43,
+    "question": "Which language is commonly used with Statistics?",
+    "options": [
+      {
+        "A": "C"
+      },
+      {
+        "B": "C++"
+      },
+      {
+        "C": "Ruby"
+      },
+      {
+        "D": "R"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 44,
+    "question": "Chebyshev's inequality states that the probability of a Six Sigma event is less than __________.",
+    "options": [
+      {
+        "A": "0.01"
+      },
+      {
+        "B": "0.02"
+      },
+      {
+        "C": "0.03"
+      },
+      {
+        "D": "0.04"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 45,
+    "question": "The expected value or _______ of a random variable is the center of its distribution.",
+    "options": [
+      {
+        "A": "mode"
+      },
+      {
+        "B": "median"
+      },
+      {
+        "C": "mean"
+      },
+      {
+        "D": "bayesian inference"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 46,
+    "question": "Which of the following of a random variable is a measure of spread?",
+    "options": [
+      {
+        "A": "variance"
+      },
+      {
+        "B": "standard deviation"
+      },
+      {
+        "C": "empirical mean"
+      },
+      {
+        "D": "all of the mentioned"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 47,
+    "question": "The square root of the variance is called the ________ deviation.",
+    "options": [
+      {
+        "A": "empirical"
+      },
+      {
+        "B": "mean"
+      },
+      {
+        "C": "continuous"
+      },
+      {
+        "D": "standard"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 48,
+    "question": "Chebyshev’s inequality states that the probability of a “Six Sigma” event is less than ___________",
+    "options": [
+      {
+        "A": "10%"
+      },
+      {
+        "B": "20%"
+      },
+      {
+        "C": "30%"
+      },
+      {
+        "D": "3%"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 49,
+    "question": "Which of the following random variables are the default model for random samples?",
+    "options": [
+      {
+        "A": "iid"
+      },
+      {
+        "B": "id"
+      },
+      {
+        "C": "pmd"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 50,
+    "question": "Which of the following can be used to create sub–samples using a maximum dissimilarity approach?",
+    "options": [
+      {
+        "A": "minDissim"
+      },
+      {
+        "B": "maxDissim"
+      },
+      {
+        "C": "inmaxDissim"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 51,
+    "question": "Which of the following can be used to impute data sets based only on information in the training set?",
+    "options": [
+      {
+        "A": "postprocess"
+      },
+      {
+        "B": "preProcess"
+      },
+      {
+        "C": "process"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 52,
+    "question": "Which of the following model model include a backwards elimination feature selection routine?",
+    "options": [
+      {
+        "A": "MCV"
+      },
+      {
+        "B": "MARS"
+      },
+      {
+        "C": "MCRS"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 53,
+    "question": "Which of the following is a categorical outcome?",
+    "options": [
+      {
+        "A": "RMSE"
+      },
+      {
+        "B": "RSquared"
+      },
+      {
+        "C": "Accuracy"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 54,
+    "question": "Which of the following function provides unsupervised prediction ?",
+    "options": [
+      {
+        "A": "cl_forecast"
+      },
+      {
+        "B": "cl_nowcast"
+      },
+      {
+        "C": "cl_precast"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 55,
+    "question": "ML is a field of AI consisting of learning algorithms that?",
+    "options": [
+      {
+        "A": "Improve their performance"
+      },
+      {
+        "B": "At executing some task"
+      },
+      {
+        "C": "Over time with experience"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 56,
+    "question": "p → 0q is not a?",
+    "options": [
+      {
+        "A": "hack clause"
+      },
+      {
+        "B": "horn clause"
+      },
+      {
+        "C": "structural clause"
+      },
+      {
+        "D": "system clause"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 57,
+    "question": "The action _______ of a robot arm specify to Place block A on block B.",
+    "options": [
+      {
+        "A": "STACK(A,B)"
+      },
+      {
+        "B": "LIST(A,B)"
+      },
+      {
+        "C": "QUEUE(A,B)"
+      },
+      {
+        "D": "ARRAY(A,B)"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 58,
+    "question": "Different learning methods does not include?",
+    "options": [
+      {
+        "A": "Introduction"
+      },
+      {
+        "B": "Analogy"
+      },
+      {
+        "C": "Deduction"
+      },
+      {
+        "D": "Memorization"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 59,
+    "question": "The model will be trained with data in one single batch is known as ?",
+    "options": [
+      {
+        "A": "Batch learning"
+      },
+      {
+        "B": "Offline learning"
+      },
+      {
+        "C": "Both A and B"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 60,
+    "question": "Which of the following are ML methods?",
+    "options": [
+      {
+        "A": "based on human supervision"
+      },
+      {
+        "B": "supervised Learning"
+      },
+      {
+        "C": "semi-reinforcement Learning"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 61,
+    "question": "Which of the following is a widely used and effective machine learning algorithm based on the idea of bagging?",
+    "options": [
+      {
+        "A": "Decision Tree"
+      },
+      {
+        "B": "Regression"
+      },
+      {
+        "C": "Classification"
+      },
+      {
+        "D": "Random Forest"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 62,
+    "question": "Which of the following is a disadvantage of decision trees?",
+    "options": [
+      {
+        "A": "Factor analysis"
+      },
+      {
+        "B": "Decision trees are robust to outliers"
+      },
+      {
+        "C": "Decision trees are prone to be overfit"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 63,
+    "question": "Which of the following techniques can not be used for normalization in text mining?",
+    "options": [
+      {
+        "A": "Stemming"
+      },
+      {
+        "B": "Lemmatization"
+      },
+      {
+        "C": "Stop Word Removal"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 64,
+    "question": "What is precision?",
+    "options": [
+      {
+        "A": "The ratio of true positives to true negatives"
+      },
+      {
+        "B": "The ratio of true positives to false positives"
+      },
+      {
+        "C": "The ratio of false positives to true negatives"
+      },
+      {
+        "D": "The ratio of false positives to false negatives"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 65,
+    "question": "What is recall?",
+    "options": [
+      {
+        "A": "The ratio of true positives to true negatives"
+      },
+      {
+        "B": "The ratio of true positives to false positives"
+      },
+      {
+        "C": "The ratio of false positives to true negatives"
+      },
+      {
+        "D": "The ratio of true positives to false negatives"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 66,
+    "question": "What is F1 score?",
+    "options": [
+      {
+        "A": "The harmonic mean of precision and recall"
+      },
+      {
+        "B": "The arithmetic mean of precision and recall"
+      },
+      {
+        "C": "The geometric mean of precision and recall"
+      },
+      {
+        "D": "The maximum of precision and recall"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 67,
+    "question": "What is AUC?",
+    "options": [
+      {
+        "A": "The area under the ROC curve"
+      },
+      {
+        "B": "The area under the precision-recall curve"
+      },
+      {
+        "C": " The area under the cumulative distribution function"
+      },
+      {
+        "D": "The area under the density function"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 68,
+    "question": "What is a neural network?",
+    "options": [
+      {
+        "A": "A network of artificial neurons that can learn from data"
+      },
+      {
+        "B": "A network of real neurons that can learn from data"
+      },
+      {
+        "C": "A network of decision trees that can learn from data"
+      },
+      {
+        "D": "A network of support vector machines that can learn from data"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 69,
+    "question": "Data Analysis is a process of?",
+    "options": [
+      {
+        "A": "inspecting data"
+      },
+      {
+        "B": "cleaning data"
+      },
+      {
+        "C": "transforming data"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 70,
+    "question": "Which of the following is not a major data analysis approaches?",
+    "options": [
+      {
+        "A": "Data Mining"
+      },
+      {
+        "B": "Predictive Intelligence"
+      },
+      {
+        "C": "Business Intelligence"
+      },
+      {
+        "D": "Text Analytics"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 71,
+    "question": "How many main statistical methodologies are used in data analysis?",
+    "options": [
+      {
+        "A": "2"
+      },
+      {
+        "B": "3"
+      },
+      {
+        "C": "4"
+      },
+      {
+        "D": "5"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 72,
+    "question": "Which of the following is true about regression analysis?",
+    "options": [
+      {
+        "A": "answering yes/no questions about the data"
+      },
+      {
+        "B": "estimating numerical characteristics of the data"
+      },
+      {
+        "C": "modeling relationships within the data"
+      },
+      {
+        "D": "describing associations within the data"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 73,
+    "question": "Text Analytics, also referred to as Text Mining?",
+    "options": [
+      {
+        "A": "TRUE"
+      },
+      {
+        "B": "FALSE"
+      },
+      {
+        "C": "Can be true or false"
+      },
+      {
+        "D": "Can not say"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 74,
+    "question": "Suppose that price of 2 ball and 1 bat is 100 units, then What will be representation of problems in Linear Algebra in the form of x and y?",
+    "options": [
+      {
+        "A": "2x + y = 100"
+      },
+      {
+        "B": "2x + 2y = 100"
+      },
+      {
+        "C": "2x + y = 200"
+      },
+      {
+        "D": "x + y = 100"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 75,
+    "question": "What is the first step in linear algebra?",
+    "options": [
+      {
+        "A": "Let's complicate the problem"
+      },
+      {
+        "B": "Solve the problem"
+      },
+      {
+        "C": "Visualise the problem"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 76,
+    "question": "How many ways a set of three planes can intersect?",
+    "options": [
+      {
+        "A": "3"
+      },
+      {
+        "B": "4"
+      },
+      {
+        "C": "5"
+      },
+      {
+        "D": "6"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 77,
+    "question": "Which of the following is not a type of matrix?",
+    "options": [
+      {
+        "A": "Square Matrix"
+      },
+      {
+        "B": "Scalar Matrix"
+      },
+      {
+        "C": "Trace Matrix"
+      },
+      {
+        "D": "Term Matrix"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 78,
+    "question": "Singular matrix are?",
+    "options": [
+      {
+        "A": "non-invertible"
+      },
+      {
+        "B": "invertible"
+      },
+      {
+        "C": "Both non-invertible and invertible"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 79,
+    "question": "The cofactor is always preceded by a?",
+    "options": [
+      {
+        "A": "positive (+) sign"
+      },
+      {
+        "B": "negative (-) sign"
+      },
+      {
+        "C": "positive (+) or negative (-) sign"
+      },
+      {
+        "D": "With decimal"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 80,
+    "question": "Which of the following is correct application for Eigenvectors?",
+    "options": [
+      {
+        "A": "computer vision"
+      },
+      {
+        "B": "physics"
+      },
+      {
+        "C": "machine learning"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 81,
+    "question": "Pandas key data structure is called?",
+    "options": [
+      {
+        "A": "Keyframe"
+      },
+      {
+        "B": "DataFrame"
+      },
+      {
+        "C": "Statistics"
+      },
+      {
+        "D": "Econometrics"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 82,
+    "question": "In pandas, Index values must be?",
+    "options": [
+      {
+        "A": "unique"
+      },
+      {
+        "B": "hashable"
+      },
+      {
+        "C": "Both A and B"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 83,
+    "question": "A panel is a ___ container of data",
+    "options": [
+      {
+        "A": "1D"
+      },
+      {
+        "B": "2D"
+      },
+      {
+        "C": "3D"
+      },
+      {
+        "D": "Infinite"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 84,
+    "question": "NumPY stands for?",
+    "options": [
+      {
+        "A": "Numbering Python"
+      },
+      {
+        "B": "Number In Python"
+      },
+      {
+        "C": "Numerical Python"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 85,
+    "question": "If a dimension is given as ____ in a reshaping operation, the other dimensions are automatically calculated.",
+    "options": [
+      {
+        "A": "Zero"
+      },
+      {
+        "B": "One"
+      },
+      {
+        "C": "Negative one"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 86,
+    "question": "Each built-in data type has a character code that uniquely identifies it.What is meaning of code M?",
+    "options": [
+      {
+        "A": "timedelta"
+      },
+      {
+        "B": "datetime"
+      },
+      {
+        "C": "objects"
+      },
+      {
+        "D": "Unicode"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 87,
+    "question": "The number of axes is called as _____.",
+    "options": [
+      {
+        "A": "object"
+      },
+      {
+        "B": "Vectors"
+      },
+      {
+        "C": "rank"
+      },
+      {
+        "D": "matrices"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 88,
+    "question": "What is the value of unit milli in SciPy?",
+    "options": [
+      {
+        "A": "0.01"
+      },
+      {
+        "B": "0.1"
+      },
+      {
+        "C": "0.0001"
+      },
+      {
+        "D": "0.001"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 89,
+    "question": "The value most recurrent in the sample set is known as ________.",
+    "options": [
+      {
+        "A": "Mean"
+      },
+      {
+        "B": "Median"
+      },
+      {
+        "C": "Mode"
+      },
+      {
+        "D": "Standard Deviation"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 90,
+    "question": "It is the measure of variability, based on dividing a data set into quartiles.",
+    "options": [
+      {
+        "A": "Deviation"
+      },
+      {
+        "B": "Standard Deviation"
+      },
+      {
+        "C": "Range"
+      },
+      {
+        "D": "Inter Quartile Range"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 91,
+    "question": "Which of the following is a subset of machine learning?",
+    "options": [
+      {
+        "A": "Numpy"
+      },
+      {
+        "B": "SciPy"
+      },
+      {
+        "C": " Deep Learning"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 92,
+    "question": "How many layers Deep learning algorithms are constructed?",
+    "options": [
+      {
+        "A": "2"
+      },
+      {
+        "B": "3"
+      },
+      {
+        "C": "4"
+      },
+      {
+        "D": "5"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 93,
+    "question": "The first layer is called the?",
+    "options": [
+      {
+        "A": "inner layer"
+      },
+      {
+        "B": "outer layer"
+      },
+      {
+        "C": "hidden layer"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 94,
+    "question": "CNN is mostly used when there is an?",
+    "options": [
+      {
+        "A": "structured data"
+      },
+      {
+        "B": "unstructured data"
+      },
+      {
+        "C": "Both A and B"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 95,
+    "question": "Which of the following is/are Limitations of deep learning?",
+    "options": [
+      {
+        "A": "Data labeling"
+      },
+      {
+        "B": "Obtain huge training datasets"
+      },
+      {
+        "C": "Both A and B"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 96,
+    "question": "Deep learning algorithms are _______ more accurate than machine learning algorithm in image classification.",
+    "options": [
+      {
+        "A": "33%"
+      },
+      {
+        "B": "37%"
+      },
+      {
+        "C": "40%"
+      },
+      {
+        "D": "41%"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 97,
+    "question": "KPI stands for?",
+    "options": [
+      {
+        "A": "Key Performance Indicators"
+      },
+      {
+        "B": "Key Performance Identifer"
+      },
+      {
+        "C": "Key Processes Identifer"
+      },
+      {
+        "D": "Key Processes Indicators"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 98,
+    "question": "Which of the following areas are affected by BI?",
+    "options": [
+      {
+        "A": "Revenue"
+      },
+      {
+        "B": "CRM"
+      },
+      {
+        "C": "Sales"
+      },
+      {
+        "D": "CPM"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 99,
+    "question": " Business intelligence (BI) is a broad category of application programs which includes _____________",
+    "options": [
+      {
+        "A": "Decision support"
+      },
+      {
+        "B": "Data Mining"
+      },
+      {
+        "C": "OLAP"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 100,
+    "question": "__________ is used to test the system.",
+    "options": [
+      {
+        "A": "Training set"
+      },
+      {
+        "B": "Testing data"
+      },
+      {
+        "C": "Both A and B"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  }
+]
