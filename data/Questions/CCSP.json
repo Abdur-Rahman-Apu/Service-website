@@ -1,0 +1,1408 @@
+[
+  {
+    "question_no": 1,
+    "question": "Which of the following service provider provides the least amount of built in security?",
+    "options": [
+      {
+        "A": "SaaS"
+      },
+      {
+        "B": "PaaS"
+      },
+      {
+        "C": "IaaS"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 2,
+    "question": "Which of the following services that need to be negotiated in Service Level Agreements?",
+    "options": [
+      {
+        "A": "Logging"
+      },
+      {
+        "B": "Auditing"
+      },
+      {
+        "C": "Regulatory compliance"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 3,
+    "question": "Which of the following area of cloud computing is uniquely troublesome?",
+    "options": [
+      {
+        "A": "Auditing"
+      },
+      {
+        "B": "Data integrity"
+      },
+      {
+        "C": "e-Discovery for legal compliance"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 4,
+    "question": "Which of the following is considered an essential element in cloud computing by CSA?",
+    "options": [
+      {
+        "A": "Multi-tenancy"
+      },
+      {
+        "B": "Identity and access managemen"
+      },
+      {
+        "C": "Virtualization"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "Which of the following is used for Web performance management and load testing?",
+    "options": [
+      {
+        "A": "VMware Hyperic"
+      },
+      {
+        "B": "Webmetrics"
+      },
+      {
+        "C": "Univa UD"
+      },
+      {
+        "D": "Tapinsystems"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 6,
+    "question": " Which of the following is application and infrastructure management software for hybrid multi-clouds?",
+    "options": [
+      {
+        "A": "VMware Hyperic"
+      },
+      {
+        "B": "Webmetrics"
+      },
+      {
+        "C": "Univa UD"
+      },
+      {
+        "D": "Tapinsystems"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 7,
+    "question": " ________ refers to the location and management of the cloud’s infrastructure.",
+    "options": [
+      {
+        "A": "Service"
+      },
+      {
+        "B": "Deployment"
+      },
+      {
+        "C": "Application"
+      },
+      {
+        "D": "None of the mentioned"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 8,
+    "question": "Which of the following is the deployment model?",
+    "options": [
+      {
+        "A": "public"
+      },
+      {
+        "B": "private"
+      },
+      {
+        "C": "hybrid"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 9,
+    "question": "Point out the wrong statement.",
+    "options": [
+      {
+        "A": "Cloud Computing has two distinct sets of models"
+      },
+      {
+        "B": "Amazon has built a worldwide network of data centers to service its search engine"
+      },
+      {
+        "C": "Azure enables .NET Framework applications to run over the Internet"
+      },
+      {
+        "D": "None of the mentioned"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 10,
+    "question": "Which of the following is best known service model?",
+    "options": [
+      {
+        "A": "SaaS"
+      },
+      {
+        "B": "IaaS"
+      },
+      {
+        "C": "PaaS"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 11,
+    "question": "The __________ model originally did not require a cloud to use virtualization to pool resources.",
+    "options": [
+      {
+        "A": "NEFT"
+      },
+      {
+        "B": "NIST"
+      },
+      {
+        "C": "NIT"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 12,
+    "question": " _______ model attempts to categorize a cloud network based on four dimensional factors.",
+    "options": [
+      {
+        "A": "Cloud Square"
+      },
+      {
+        "B": "Cloud Service"
+      },
+      {
+        "C": "Cloud Cube"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 13,
+    "question": "How many types of dimensions exists in Cloud Cube Model?",
+    "options": [
+      {
+        "A": "1"
+      },
+      {
+        "B": "2"
+      },
+      {
+        "C": "3"
+      },
+      {
+        "D": "4"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 14,
+    "question": "Which of the following dimension is related to organization’s boundaries?",
+    "options": [
+      {
+        "A": "Physical location of data"
+      },
+      {
+        "B": "Ownership"
+      },
+      {
+        "C": "Security boundary"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "_________ computing refers to applications and services that run on a distributed network using virtualized resources.",
+    "options": [
+      {
+        "A": "Distributed"
+      },
+      {
+        "B": "Cloud"
+      },
+      {
+        "C": "Soft"
+      },
+      {
+        "D": "Parallel"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 16,
+    "question": "________ as a utility is a dream that dates from the beginning of the computing industry itself.",
+    "options": [
+      {
+        "A": "Model"
+      },
+      {
+        "B": "Computing"
+      },
+      {
+        "C": "Software"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 17,
+    "question": "Which of the following is essential concept related to Cloud?",
+    "options": [
+      {
+        "A": "Reliability"
+      },
+      {
+        "B": "Productivity"
+      },
+      {
+        "C": "Abstraction"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 18,
+    "question": "Which of the following cloud concept is related to pooling and sharing of resources?",
+    "options": [
+      {
+        "A": "Polymorphism"
+      },
+      {
+        "B": "Abstraction"
+      },
+      {
+        "C": "Virtualization"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 19,
+    "question": "________ has many of the characteristics of what is now being called cloud computing.",
+    "options": [
+      {
+        "A": "Internet"
+      },
+      {
+        "B": "Softwares"
+      },
+      {
+        "C": "Web Service"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "Which of the following can be identified as cloud?",
+    "options": [
+      {
+        "A": "Web Applications"
+      },
+      {
+        "B": "Intranet"
+      },
+      {
+        "C": "Hadoop"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 21,
+    "question": "Cloud computing is an abstraction based on the notion of pooling physical resources and presenting them as a ________ resource.",
+    "options": [
+      {
+        "A": "real"
+      },
+      {
+        "B": "virtual"
+      },
+      {
+        "C": "cloud"
+      },
+      {
+        "D": "None of the mentioned"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 22,
+    "question": "Which of the following is Cloud Platform by Amazon?",
+    "options": [
+      {
+        "A": "Azure"
+      },
+      {
+        "B": "AWS"
+      },
+      {
+        "C": "Cloudera"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 23,
+    "question": "Which of the following is one of the unique attributes of Cloud Computing?",
+    "options": [
+      {
+        "A": "utility type of delivery"
+      },
+      {
+        "B": "elasticity"
+      },
+      {
+        "C": "low barrier to entry"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 24,
+    "question": " Applications that work with cloud computing that have low margins and usually low risk are _____________",
+    "options": [
+      {
+        "A": "high touch"
+      },
+      {
+        "B": "low touch"
+      },
+      {
+        "C": "moderate touch"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 25,
+    "question": "A service that concentrates on hardware follows the _________ as a Service model.",
+    "options": [
+      {
+        "A": "IaaS"
+      },
+      {
+        "B": "CaaS"
+      },
+      {
+        "C": "PaaS"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "Which of the following is the most refined and restrictive service model?",
+    "options": [
+      {
+        "A": "IaaS"
+      },
+      {
+        "B": "CaaS"
+      },
+      {
+        "C": "PaaS"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 27,
+    "question": "When you add a software stack, such as an operating system and applications to the service, the model shifts to _____ model.",
+    "options": [
+      {
+        "A": "IaaS"
+      },
+      {
+        "B": "SaaS"
+      },
+      {
+        "C": "PaaS"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 28,
+    "question": "_______ is a pay-as-you-go model matches resources to need on an ongoing basis.",
+    "options": [
+      {
+        "A": "Utility"
+      },
+      {
+        "B": "Elasticity"
+      },
+      {
+        "C": "Low barrier to entry"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "_______ feature allows you to optimize your system and capture all possible transactions.",
+    "options": [
+      {
+        "A": "scalability"
+      },
+      {
+        "B": "reliability"
+      },
+      {
+        "C": "elasticity"
+      },
+      {
+        "D": "None of the mentioned"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 30,
+    "question": "_______ enables batch processing, which greatly speeds up high-processing applications.",
+    "options": [
+      {
+        "A": "scalability"
+      },
+      {
+        "B": "reliability"
+      },
+      {
+        "C": "elasticity"
+      },
+      {
+        "D": "None of the mentioned"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 31,
+    "question": "Which of the following was one of the top 5 cloud applications in 2010?",
+    "options": [
+      {
+        "A": "Cloud backup"
+      },
+      {
+        "B": "Web applications"
+      },
+      {
+        "C": "Business applications"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 32,
+    "question": "The _____ is something that you can obtain under contract from your vendor.",
+    "options": [
+      {
+        "A": "PoS"
+      },
+      {
+        "B": "QoS"
+      },
+      {
+        "C": "SoS"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 33,
+    "question": " All cloud computing applications suffer from the inherent _______ that is intrinsic in their WAN connectivity.",
+    "options": [
+      {
+        "A": "propagation"
+      },
+      {
+        "B": "latency"
+      },
+      {
+        "C": "noise"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 34,
+    "question": "Cloud computing is a _______ system and it is necessarily unidirectional in nature.",
+    "options": [
+      {
+        "A": "stateless"
+      },
+      {
+        "B": "stateful"
+      },
+      {
+        "C": "reliable"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 35,
+    "question": "Which of the following is the most important area of concern in cloud computing?",
+    "options": [
+      {
+        "A": "Security"
+      },
+      {
+        "B": "Storage"
+      },
+      {
+        "C": "Scalability"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 36,
+    "question": "You can’t count on a cloud provider maintaining your _____ in the face of government actions.",
+    "options": [
+      {
+        "A": "scalability"
+      },
+      {
+        "B": "reliability"
+      },
+      {
+        "C": "privacy"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 37,
+    "question": "Which of the following architectural standards is working with cloud computing industry?",
+    "options": [
+      {
+        "A": "Service-oriented architecture"
+      },
+      {
+        "B": "Standardized Web services"
+      },
+      {
+        "C": "Web-application frameworks"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 38,
+    "question": "Which of the following mechanisms are contained by Cloud API for accessing cloud services?",
+    "options": [
+      {
+        "A": "Abstraction"
+      },
+      {
+        "B": "Authentication"
+      },
+      {
+        "C": "Replication"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 39,
+    "question": "Which of the following is cross-platform API based on generalizing the major cloud vendors APIs?",
+    "options": [
+      {
+        "A": "Deltacloud"
+      },
+      {
+        "B": "Simple Cloud API"
+      },
+      {
+        "C": "Design Cloud"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 40,
+    "question": "Applications using managed cloud storage are __________ as a Service Web service.",
+    "options": [
+      {
+        "A": "Infrastructure"
+      },
+      {
+        "B": "Platform"
+      },
+      {
+        "C": "Service"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 41,
+    "question": "Which of the following presents the developer with their own APIs?",
+    "options": [
+      {
+        "A": "VMWare vCloud"
+      },
+      {
+        "B": "Racksapce Cloud services"
+      },
+      {
+        "C": "RimuHosting"
+      },
+      {
+        "D": "Racksapce Cloud Servers"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 42,
+    "question": "Which of the following storage is presented to a user as if it is a ready-to-use disk drive?",
+    "options": [
+      {
+        "A": "Managed"
+      },
+      {
+        "B": "Unmanaged"
+      },
+      {
+        "C": "Unavailable"
+      },
+      {
+        "D": "None of the mentioned"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 43,
+    "question": "Which of the following cloud storage involves the provisioning of a raw virtualized disk?",
+    "options": [
+      {
+        "A": "Managed"
+      },
+      {
+        "B": "Unmanaged"
+      },
+      {
+        "C": "Unavailable"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 44,
+    "question": "Which of the following storage option is available for managed storage?",
+    "options": [
+      {
+        "A": "formatting"
+      },
+      {
+        "B": "partitioning"
+      },
+      {
+        "C": "replicating data"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 45,
+    "question": "Which of the following cloud storage is consumed by file sharing software?",
+    "options": [
+      {
+        "A": "Managed"
+      },
+      {
+        "B": "Unmanaged"
+      },
+      {
+        "C": "UnAvailable"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 47,
+    "question": "Who is the father of cloud computing?",
+    "options": [
+      {
+        "A": "Sharon B. Codd"
+      },
+      {
+        "B": "Edgar Frank Codd"
+      },
+      {
+        "C": "J.C.R. Licklider"
+      },
+      {
+        "D": "Charles Bachman"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 48,
+    "question": "Which of the following is a type of cloud computing service?",
+    "options": [
+      {
+        "A": "Service-as-a-Software (SaaS)"
+      },
+      {
+        "B": "Software-and-a-Server (SaaS)"
+      },
+      {
+        "C": "Software-as-a-Service (SaaS)"
+      },
+      {
+        "D": "Software-as-a-Server (SaaS)"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 49,
+    "question": "Which of the following is the application of cloud computing?",
+    "options": [
+      {
+        "A": "Adobe"
+      },
+      {
+        "B": "Paypal"
+      },
+      {
+        "C": "Google G Suite"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 50,
+    "question": "Which of the following is an example of the cloud?",
+    "options": [
+      {
+        "A": "Amazon Web Services (AWS)"
+      },
+      {
+        "B": "Dropbox"
+      },
+      {
+        "C": "Cisco WebEx"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 51,
+    "question": "Which of the following is an example of a PaaS cloud service?",
+    "options": [
+      {
+        "A": "Heroku"
+      },
+      {
+        "B": "AWS Elastic Beanstalk"
+      },
+      {
+        "C": "Windows Azure"
+      },
+      {
+        "D": "None of the mentioned"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 52,
+    "question": "Which of the following is an example of an IaaS Cloud service?",
+    "options": [
+      {
+        "A": "DigitalOcean"
+      },
+      {
+        "B": "Linode"
+      },
+      {
+        "C": "Rackspace"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 53,
+    "question": "Which of the following model attempts to categorize a cloud network based on four dimensional factors?",
+    "options": [
+      {
+        "A": "Cloud Cube"
+      },
+      {
+        "B": "Cloud Square"
+      },
+      {
+        "C": "Cloud Service"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 54,
+    "question": "Which architectural layer is used as a backend in cloud computing?",
+    "options": [
+      {
+        "A": "cloud"
+      },
+      {
+        "B": "soft"
+      },
+      {
+        "C": "client"
+      },
+      {
+        "D": "None of the mentioned"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 55,
+    "question": "Which of the following architectural standards is working with cloud computing industry?",
+    "options": [
+      {
+        "A": "Web-application frameworks"
+      },
+      {
+        "B": "Service-oriented architecture"
+      },
+      {
+        "C": " Standardized Web services"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 56,
+    "question": "Which of the following is required by Cloud Computing?",
+    "options": [
+      {
+        "A": "That the identity be authenticated"
+      },
+      {
+        "B": " That the authentication be portable"
+      },
+      {
+        "C": "That you establish an identity"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 57,
+    "question": "Which of the following is the most important area of concern in cloud computing?",
+    "options": [
+      {
+        "A": "Scalability"
+      },
+      {
+        "B": "Storage"
+      },
+      {
+        "C": "Security"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 58,
+    "question": "In which of the following service models the hardware is virtualized in the cloud?",
+    "options": [
+      {
+        "A": "Naas"
+      },
+      {
+        "B": "pass"
+      },
+      {
+        "C": "Caas"
+      },
+      {
+        "D": "Iaas"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 59,
+    "question": "Which of the following is the Virtual machine conversion cloud?",
+    "options": [
+      {
+        "A": "Amazon CloudWatch"
+      },
+      {
+        "B": "AbiCloud"
+      },
+      {
+        "C": "BMC Cloud Computing Initiative"
+      },
+      {
+        "D": "None of the mentioned"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 60,
+    "question": ". Which of the following is a workflow control and policy based automation service by CA?",
+    "options": [
+      {
+        "A": "CA Cloud Compose"
+      },
+      {
+        "B": "CA Cloud Insight"
+      },
+      {
+        "C": "CA Cloud Optimize"
+      },
+      {
+        "D": " CA Cloud Orchestrate"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 61,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 62,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  }
+]
