@@ -1,0 +1,1902 @@
+[
+  {
+    "question_no": 1,
+    "question": "What is the ethics behind training how to hack a system?",
+    "options": [
+      {
+        "A": "To think like hackers and know how to defend such attacks"
+      },
+      {
+        "B": "To hack a system without the permission"
+      },
+      {
+        "C": "To hack a network that is vulnerable"
+      },
+      {
+        "D": "To corrupt software or service using malware"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 2,
+    "question": "Performing a shoulder surfing in order to check other’s password is ____________ ethical practice.",
+    "options": [
+      {
+        "A": "a good"
+      },
+      {
+        "B": "not so good"
+      },
+      {
+        "C": "very good social engineering practice"
+      },
+      {
+        "D": "a bad"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 3,
+    "question": "_________ has now evolved to be one of the most popular automated tools for unethical hacking.",
+    "options": [
+      {
+        "A": "Automated apps"
+      },
+      {
+        "B": "Database software"
+      },
+      {
+        "C": "Malware"
+      },
+      {
+        "D": "Worms"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 4,
+    "question": "___________ is the technique used in business organizations and firms to protect IT assets.",
+    "options": [
+      {
+        "A": "Ethical hacking"
+      },
+      {
+        "B": "Unethical hacking"
+      },
+      {
+        "C": "Fixing bugs"
+      },
+      {
+        "D": "Internal data-breach"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "The legal risks of ethical hacking include lawsuits due to __________ of personal data.",
+    "options": [
+      {
+        "A": "stealing"
+      },
+      {
+        "B": "disclosure"
+      },
+      {
+        "C": "deleting"
+      },
+      {
+        "D": "hacking"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 6,
+    "question": "An ethical hacker must ensure that proprietary information of the firm does not get leaked.",
+    "options": [
+      {
+        "A": "True"
+      },
+      {
+        "B": "False"
+      },
+      {
+        "C": "50/50"
+      },
+      {
+        "D": "None"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "After performing ____________ the ethical hacker should never disclose client information to other parties.",
+    "options": [
+      {
+        "A": "hacking"
+      },
+      {
+        "B": "cracking"
+      },
+      {
+        "C": "penetration testing"
+      },
+      {
+        "D": "exploiting"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 8,
+    "question": "_______ helps to classify arguments and situations, better understand a cyber-crime and helps to determine appropriate actions.",
+    "options": [
+      {
+        "A": "Cyber-ethics"
+      },
+      {
+        "B": "Social ethics"
+      },
+      {
+        "C": "Cyber-bullying"
+      },
+      {
+        "D": "Corporate behaviour"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "A penetration tester must identify and keep in mind the ___________ & ___________ requirements of a firm while evaluating the security postures.",
+    "options": [
+      {
+        "A": "privacy and security"
+      },
+      {
+        "B": "rules and regulations"
+      },
+      {
+        "C": "hacking techniques"
+      },
+      {
+        "D": "ethics to talk to seniors"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "Hackers who help in finding bugs and vulnerabilities in a system & don’t intend to crack a system are termed as ________",
+    "options": [
+      {
+        "A": "Black Hat hackers"
+      },
+      {
+        "B": "White Hat Hackers"
+      },
+      {
+        "C": "Grey Hat Hackers"
+      },
+      {
+        "D": "Red Hat Hackers"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 11,
+    "question": "Which is the legal form of hacking based on which jobs are provided in IT industries and firms?",
+    "options": [
+      {
+        "A": "Cracking"
+      },
+      {
+        "B": "Non ethical Hacking"
+      },
+      {
+        "C": "Ethical hacking"
+      },
+      {
+        "D": "Hactivism"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 12,
+    "question": "They are nefarious hackers, and their main motive is to gain financial profit by doing cyber crimes. Who are “they” referred to here?",
+    "options": [
+      {
+        "A": "Gray Hat Hackers"
+      },
+      {
+        "B": "White Hat Hackers"
+      },
+      {
+        "C": "Hactivists"
+      },
+      {
+        "D": "Black Hat Hackers"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 13,
+    "question": "________ are the combination of both white as well as black hat hackers.",
+    "options": [
+      {
+        "A": "Grey Hat hackers"
+      },
+      {
+        "B": "Green Hat hackers"
+      },
+      {
+        "C": "Blue Hat Hackers"
+      },
+      {
+        "D": "Red Hat Hackers"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "________ are those individuals who maintain and handles IT security in any firm or organization.",
+    "options": [
+      {
+        "A": "IT Security Engineer"
+      },
+      {
+        "B": "Cyber Security Interns"
+      },
+      {
+        "C": "Software Security Specialist"
+      },
+      {
+        "D": "Security Auditor"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "Role of security auditor is to ____________",
+    "options": [
+      {
+        "A": "secure the network"
+      },
+      {
+        "B": "probe for safety and security of organization’s security components and systems"
+      },
+      {
+        "C": "detects and prevents cyber attacks and threats to organization"
+      },
+      {
+        "D": "does penetration testing on different web applications"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 16,
+    "question": " ___________ has now evolved to be one of the most popular automated tools for unethical hacking.",
+    "options": [
+      {
+        "A": "Automated apps"
+      },
+      {
+        "B": "Database software"
+      },
+      {
+        "C": "Malware"
+      },
+      {
+        "D": "Worms"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 17,
+    "question": "Which algorithm is used in the digital signature process?",
+    "options": [
+      {
+        "A": "RC4"
+      },
+      {
+        "B": "RC5"
+      },
+      {
+        "C": "Blowfish"
+      },
+      {
+        "D": "MD5"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 18,
+    "question": "____________ is the technique used in business organizations and firms to protect IT assets.",
+    "options": [
+      {
+        "A": "Ethical hacking"
+      },
+      {
+        "B": "Unethical hacking"
+      },
+      {
+        "C": "Fixing bugs"
+      },
+      {
+        "D": "Internal data-breach"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 19,
+    "question": " An ethical hacker must need to have the skills of understanding the problem, networking knowledge and to know how the technology works.",
+    "options": [
+      {
+        "A": "Yes"
+      },
+      {
+        "B": "No"
+      },
+      {
+        "C": "May be"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "_________ persistence and up-to-date with the latest technological updates and their flaws are some of the major qualities; an ethical hacker must need to have.",
+    "options": [
+      {
+        "A": "Lack of understanding"
+      },
+      {
+        "B": "Weak programming skills"
+      },
+      {
+        "C": "High patience"
+      },
+      {
+        "D": "Low perseverance"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 21,
+    "question": "_____________ enables a hacker to open a piece of program or application and re-build it with further features & capabilities.",
+    "options": [
+      {
+        "A": "Social engineering"
+      },
+      {
+        "B": "Reverse engineering"
+      },
+      {
+        "C": "Planting malware"
+      },
+      {
+        "D": "Injecting code"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 22,
+    "question": "Which of the following do not comes under the intangible skills of hackers?",
+    "options": [
+      {
+        "A": "Creative thinking"
+      },
+      {
+        "B": "Problem-solving capability"
+      },
+      {
+        "C": "Persistence"
+      },
+      {
+        "D": "Smart attacking potential"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 23,
+    "question": " Why programming language is important for ethical hackers and security professionals?",
+    "options": [
+      {
+        "A": "Only to write malware"
+      },
+      {
+        "B": "For solving problems and building tool and programs"
+      },
+      {
+        "C": "To teach programming"
+      },
+      {
+        "D": "To teach programming"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 24,
+    "question": "Understanding of ___________ is also important for gaining access to a system through networks.",
+    "options": [
+      {
+        "A": "os"
+      },
+      {
+        "B": "email-servers"
+      },
+      {
+        "C": "networking"
+      },
+      {
+        "D": "hardware"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 25,
+    "question": "For hacking a database or accessing and manipulating data which of the following language the hacker must know?",
+    "options": [
+      {
+        "A": "SQL"
+      },
+      {
+        "B": "HTML"
+      },
+      {
+        "C": "Tcl"
+      },
+      {
+        "D": "F#"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "What is Ethical Hacking?",
+    "options": [
+      {
+        "A": "Hacking to steal sensitive information"
+      },
+      {
+        "B": "Hacking to identify vulnerabilities in a system"
+      },
+      {
+        "C": "Hacking to disrupt a system’s functionality"
+      },
+      {
+        "D": "Hacking to cause damage to a system"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 27,
+    "question": "What is the main goal of ethical hacking?",
+    "options": [
+      {
+        "A": "To cause damage to a system"
+      },
+      {
+        "B": "To gain unauthorized access to a system"
+      },
+      {
+        "C": "To identify and fix security vulnerabilities"
+      },
+      {
+        "D": "To steal sensitive information"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 28,
+    "question": "What is a vulnerability assessment?",
+    "options": [
+      {
+        "A": "A process to identify vulnerabilities in a system or network"
+      },
+      {
+        "B": "A process to exploit vulnerabilities in a system or network"
+      },
+      {
+        "C": "A process to fix vulnerabilities in a system or network"
+      },
+      {
+        "D": "A process to steal sensitive information from a system or network"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "Which of the following is not a common method used in ethical hacking?",
+    "options": [
+      {
+        "A": "Social engineering"
+      },
+      {
+        "B": "Penetration testing"
+      },
+      {
+        "C": "SQL injection"
+      },
+      {
+        "D": "Denial of service attack"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 30,
+    "question": "What is the purpose of a penetration test?",
+    "options": [
+      {
+        "A": "To identify vulnerabilities in a system or network"
+      },
+      {
+        "B": "To exploit vulnerabilities in a system or network"
+      },
+      {
+        "C": "To fix vulnerabilities in a system or network"
+      },
+      {
+        "D": "To steal sensitive information from a system or network"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 31,
+    "question": "What is SQL injection?",
+    "options": [
+      {
+        "A": "A technique to identify vulnerabilities in a system or network"
+      },
+      {
+        "B": "A technique to exploit vulnerabilities in a system or network"
+      },
+      {
+        "C": "A technique to fix vulnerabilities in a system or network"
+      },
+      {
+        "D": "A technique to steal sensitive information from a system or network"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 32,
+    "question": "What is a firewall?",
+    "options": [
+      {
+        "A": "A device used to prevent unauthorized access to a network"
+      },
+      {
+        "B": "A device used to monitor network traffic"
+      },
+      {
+        "C": "A device used to encrypt network traffic"
+      },
+      {
+        "D": "A device used to block email spam"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 33,
+    "question": "What is a honeypot?",
+    "options": [
+      {
+        "A": "A device used to lure attackers into a trap"
+      },
+      {
+        "B": "A type of malware that spreads through a network"
+      },
+      {
+        "C": "A tool used to test network performance"
+      },
+      {
+        "D": "A device used to monitor network traffic"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 34,
+    "question": "What is a zero-day vulnerability?",
+    "options": [
+      {
+        "A": "A vulnerability that has been identified and patched"
+      },
+      {
+        "B": "A vulnerability that has been identified but not yet patched"
+      },
+      {
+        "C": "A vulnerability that has never been identified"
+      },
+      {
+        "D": "A vulnerability that does not exist"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 35,
+    "question": "What is a man-in-the-middle attack?",
+    "options": [
+      {
+        "A": "An attack that intercepts communication between two parties"
+      },
+      {
+        "B": "An attack that infects a system with malware"
+      },
+      {
+        "C": "An attack that exploits a software vulnerability"
+      },
+      {
+        "D": "An attack that floods a network with traffic"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 36,
+    "question": "What is a denial-of-service attack?",
+    "options": [
+      {
+        "A": "An attack that floods a network with traffic to make it unavailable"
+      },
+      {
+        "B": "An attack that steals sensitive information from a system"
+      },
+      {
+        "C": "An attack that exploits a software vulnerability"
+      },
+      {
+        "D": "An attack that intercepts communication between two parties"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 37,
+    "question": "What is a password cracker?",
+    "options": [
+      {
+        "A": "A tool used to guess passwords through trial and error"
+      },
+      {
+        "B": "A tool used to encrypt passwords for storage"
+      },
+      {
+        "C": "A tool used to decrypt passwords for storage"
+      },
+      {
+        "D": "A tool used to block password guessing attempts"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 38,
+    "question": "What is a vulnerability scanner?",
+    "options": [
+      {
+        "A": "A tool used to identify weaknesses in a system or network"
+      },
+      {
+        "B": "A tool used to exploit vulnerabilities in a system or network"
+      },
+      {
+        "C": "A tool used to monitor network traffic"
+      },
+      {
+        "D": "A tool used to block email spam"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 39,
+    "question": "What is a packet sniffer?",
+    "options": [
+      {
+        "A": "A tool used to capture and analyze network traffic"
+      },
+      {
+        "B": "A tool used to block network traffic"
+      },
+      {
+        "C": "A type of malware that spreads through a network"
+      },
+      {
+        "D": "A tool used to encrypt network traffic"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 40,
+    "question": "Hacking for a cause is called __________________.",
+    "options": [
+      {
+        "A": "Active hacking"
+      },
+      {
+        "B": "Hacktivism"
+      },
+      {
+        "C": "Activism"
+      },
+      {
+        "D": "Black-hat hacking"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 41,
+    "question": " When a hacker attempts to attack a host via the Internet it is known as what type of attack?",
+    "options": [
+      {
+        "A": "Remote attack"
+      },
+      {
+        "B": "Physical access"
+      },
+      {
+        "C": "Local access"
+      },
+      {
+        "D": "Internal attack"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 42,
+    "question": "Which of the following is a tool for performing footprinting undetected?",
+    "options": [
+      {
+        "A": "Whois search"
+      },
+      {
+        "B": "Traceroute"
+      },
+      {
+        "C": "Ping sweep"
+      },
+      {
+        "D": "Host scanning"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 43,
+    "question": "What is the next step to be performed after footprinting?",
+    "options": [
+      {
+        "A": "Scanning"
+      },
+      {
+        "B": "Enumeration"
+      },
+      {
+        "C": "System hacking"
+      },
+      {
+        "D": "Active information gathering"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 44,
+    "question": "What is footprinting?",
+    "options": [
+      {
+        "A": "Measuring the shoe size of an ethical hacker"
+      },
+      {
+        "B": "Accumulation of data by gathering information on a target"
+      },
+      {
+        "C": "Scanning a target network to detect operating system types"
+      },
+      {
+        "D": "Mapping the physical layout of a target’s network"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 45,
+    "question": "Which of the following is a type of social engineering?",
+    "options": [
+      {
+        "A": "Shoulder surfing"
+      },
+      {
+        "B": "User identification"
+      },
+      {
+        "C": "System monitoring"
+      },
+      {
+        "D": "Face-to-face communication"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 46,
+    "question": "What is the best way to prevent a social-engineering attack?",
+    "options": [
+      {
+        "A": "Installing a firewall to prevent port scans"
+      },
+      {
+        "B": "Configuring an IDS to detect intrusion attempts"
+      },
+      {
+        "C": "Increasing the number of help-desk personnel"
+      },
+      {
+        "D": "Employee training and education"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 47,
+    "question": "Which of the following is the best example of reverse social engineering?",
+    "options": [
+      {
+        "A": "A hacker pretends to be a person of authority in order to get a user to give them information."
+      },
+      {
+        "B": "A help-desk employee pretends to be a person of authority."
+      },
+      {
+        "C": "A hacker tries to get a user to change their password."
+      },
+      {
+        "D": "A user changes their password."
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 48,
+    "question": "What is it called when a hacker pretends to be a valid user on the system?",
+    "options": [
+      {
+        "A": "Impersonation"
+      },
+      {
+        "B": "Third-person authorization"
+      },
+      {
+        "C": "Help desk"
+      },
+      {
+        "D": "Valid user"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 49,
+    "question": "What is the best reason to implement a security policy?",
+    "options": [
+      {
+        "A": "It increases security."
+      },
+      {
+        "B": "It makes security harder to enforce."
+      },
+      {
+        "C": "It removes the employee’s responsibility to make judgments."
+      },
+      {
+        "D": "It decreases security."
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 50,
+    "question": "What port number does FTP use?",
+    "options": [
+      {
+        "A": "21"
+      },
+      {
+        "B": "25"
+      },
+      {
+        "C": "23"
+      },
+      {
+        "D": "80"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 51,
+    "question": "What port number does HTTPS use?",
+    "options": [
+      {
+        "A": "443"
+      },
+      {
+        "B": "500"
+      },
+      {
+        "C": "502"
+      },
+      {
+        "D": "401"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 52,
+    "question": "What are the three types of scanning?",
+    "options": [
+      {
+        "A": "Server, client, and network"
+      },
+      {
+        "B": "Grey, black, and white hat"
+      },
+      {
+        "C": "Port, network, and services"
+      },
+      {
+        "D": "Port, network, and vulnerability"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 53,
+    "question": "A packet with all flags set is which type of scan?",
+    "options": [
+      {
+        "A": "Full Open"
+      },
+      {
+        "B": "Syn scan"
+      },
+      {
+        "C": "XMAS"
+      },
+      {
+        "D": "TCP connect"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 54,
+    "question": "Why would an attacker want to perform a scan on port 137?",
+    "options": [
+      {
+        "A": "To locate the FTP service on the target host"
+      },
+      {
+        "B": "To check for file and print sharing on Windows systems"
+      },
+      {
+        "C": "To discover proxy servers on a network"
+      },
+      {
+        "D": "To discover a target system with the NetBIOS null session vulnerability"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 55,
+    "question": "What is enumeration?",
+    "options": [
+      {
+        "A": "Identifying active systems on the network"
+      },
+      {
+        "B": "Cracking passwords"
+      },
+      {
+        "C": "Identifying users and machine names"
+      },
+      {
+        "D": "Identifying routers and firewalls"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 56,
+    "question": "What is a command-line tool used to look up a username from a SID?",
+    "options": [
+      {
+        "A": "UsertoSID"
+      },
+      {
+        "B": "Userenum"
+      },
+      {
+        "C": "SID2User"
+      },
+      {
+        "D": "Getacct"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 57,
+    "question": "Which tool can be used to perform a DNS zone transfer on Windows?",
+    "options": [
+      {
+        "A": "nslookup"
+      },
+      {
+        "B": "DNSlookup"
+      },
+      {
+        "C": "whois"
+      },
+      {
+        "D": "ipconfig"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 58,
+    "question": "What is the attack called “evil twin”?",
+    "options": [
+      {
+        "A": "Rogue access point"
+      },
+      {
+        "B": "ARP poisoning"
+      },
+      {
+        "C": "Session hijacking"
+      },
+      {
+        "D": "MAC spoofing"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 59,
+    "question": "What are the forms of password cracking techniques?",
+    "options": [
+      {
+        "A": "AttackSyllable"
+      },
+      {
+        "B": "AttackBrute Forcing"
+      },
+      {
+        "C": "AttacksHybrid"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 60,
+    "question": "what is the primary goal of an Ethical Hacker ?",
+    "options": [
+      {
+        "A": "Avoiding detection"
+      },
+      {
+        "B": "Testing security controls"
+      },
+      {
+        "C": "Resolving security vulnerabilities"
+      },
+      {
+        "D": "Determining return on investment for security measures"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 61,
+    "question": "What is the first phase of hacking?",
+    "options": [
+      {
+        "A": "Maintaining access"
+      },
+      {
+        "B": "Gaining access"
+      },
+      {
+        "C": "Reconnaissance"
+      },
+      {
+        "D": "Scanning"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 62,
+    "question": "What does the term Ethical Hacking mean?",
+    "options": [
+      {
+        "A": "Someone who is using his/her skills for defensive purposes."
+      },
+      {
+        "B": "Someone who is hacking for ethical reasons."
+      },
+      {
+        "C": "Someone who is using his/her skills for ethical reasons."
+      },
+      {
+        "D": "Someone who is using his/her skills for offensive purposes"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 63,
+    "question": "What are the two basic types of attacks ?",
+    "options": [
+      {
+        "A": "Active"
+      },
+      {
+        "B": "Passive"
+      },
+      {
+        "C": "DoS"
+      },
+      {
+        "D": "Both 1 & 2"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 64,
+    "question": "What is the maximum length of an SSID?",
+    "options": [
+      {
+        "A": "Thirty-two characters"
+      },
+      {
+        "B": "Sixteen characters"
+      },
+      {
+        "C": "Sixty-four characters"
+      },
+      {
+        "D": "Eight characters"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 65,
+    "question": "The process of professionally or ethically hacking a message is called",
+    "options": [
+      {
+        "A": "Cryptography"
+      },
+      {
+        "B": "Encryption"
+      },
+      {
+        "C": "Decryption"
+      },
+      {
+        "D": "Penetration Testing"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 66,
+    "question": "Ethical hacking is also known as .................",
+    "options": [
+      {
+        "A": "White hat Hacking"
+      },
+      {
+        "B": "Penetration Testing"
+      },
+      {
+        "C": "Both white hat hacking & penetration testing"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 67,
+    "question": "What are the advantages of Ethical Hacking?",
+    "options": [
+      {
+        "A": "It is used to test how good security is on your network."
+      },
+      {
+        "B": "It is used to recover the lost of information, especially when you lost your password."
+      },
+      {
+        "C": "It is used to perform penetration testing to increase the security of the computer and network."
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 68,
+    "question": "Which character is typically used first by the penetration tester?",
+    "options": [
+      {
+        "A": "Semicolon"
+      },
+      {
+        "B": "Dollar sign"
+      },
+      {
+        "C": "Single quote"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 69,
+    "question": "___________ is an attempt to steal, spy, damage or destroy computer systems, networks or their associated information.",
+    "options": [
+      {
+        "A": "Cyber-security"
+      },
+      {
+        "B": "Cyber attack"
+      },
+      {
+        "C": "Digital hacking"
+      },
+      {
+        "D": "Computer security"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 70,
+    "question": "___________ is a technique used when artificial clicks are made which increases revenue because of pay-per-click.",
+    "options": [
+      {
+        "A": "Clickjacking"
+      },
+      {
+        "B": "Clickfraud"
+      },
+      {
+        "C": "Keylogging"
+      },
+      {
+        "D": "Click-hacking"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 71,
+    "question": " Zero-day exploits are also called __________",
+    "options": [
+      {
+        "A": "zero-day attacks"
+      },
+      {
+        "B": "hidden attacks"
+      },
+      {
+        "C": "un-patched attack"
+      },
+      {
+        "D": "un-fixed exploits"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 72,
+    "question": "Mobile security is also known as ____________",
+    "options": [
+      {
+        "A": "OS Security"
+      },
+      {
+        "B": "Wireless security"
+      },
+      {
+        "C": "Cloud security"
+      },
+      {
+        "D": "Database security"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 73,
+    "question": "Which of the following is a type of social engineering attack?",
+    "options": [
+      {
+        "A": "SQL injection"
+      },
+      {
+        "B": "Cross-site scripting"
+      },
+      {
+        "C": "Phishing"
+      },
+      {
+        "D": "Buffer overflow"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 74,
+    "question": "What is the main purpose of a port scanner?",
+    "options": [
+      {
+        "A": "To identify vulnerabilities in software"
+      },
+      {
+        "B": "To encrypt network traffic"
+      },
+      {
+        "C": "To identify open ports on a network"
+      },
+      {
+        "D": "To monitor network traffic"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 75,
+    "question": "Which of the following is a type of password attack?",
+    "options": [
+      {
+        "A": "Brute force"
+      },
+      {
+        "B": "Cross-site scripting"
+      },
+      {
+        "C": "SQL injection"
+      },
+      {
+        "D": "Denial of Service"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 76,
+    "question": "Which of the following is a way to prevent SQL injection attacks?",
+    "options": [
+      {
+        "A": "Encrypting network traffic"
+      },
+      {
+        "B": "Implementing a firewall"
+      },
+      {
+        "C": "Input validation"
+      },
+      {
+        "D": "Installing antivirus software"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 77,
+    "question": "Which of the following is a type of denial of service attack?",
+    "options": [
+      {
+        "A": "Smurf attack"
+      },
+      {
+        "B": "SQL injection"
+      },
+      {
+        "C": "Cross-site scripting"
+      },
+      {
+        "D": "Port scanning"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 78,
+    "question": "Which of the following is NOT an example of a cryptography algorithm?",
+    "options": [
+      {
+        "A": "AES"
+      },
+      {
+        "B": "RSA"
+      },
+      {
+        "C": "SHA"
+      },
+      {
+        "D": "SQL"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 79,
+    "question": "Which of the following is a technique used to prevent a buffer overflow attack?",
+    "options": [
+      {
+        "A": "Input validation"
+      },
+      {
+        "B": "Brute force attack"
+      },
+      {
+        "C": "Man-in-the-middle attack"
+      },
+      {
+        "D": "Social engineering attack"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 80,
+    "question": "Which of the following is a method used to hide a message or file inside another message or file?",
+    "options": [
+      {
+        "A": "Steganography"
+      },
+      {
+        "B": "Cryptography"
+      },
+      {
+        "C": "Hashing"
+      },
+      {
+        "D": "Brute-force attack"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 81,
+    "question": "Which of the following is a passive reconnaissance technique used in ethical hacking?",
+    "options": [
+      {
+        "A": "Port Scanning"
+      },
+      {
+        "B": "Social Engineering"
+      },
+      {
+        "C": "Sniffing"
+      },
+      {
+        "D": "SQL Injection"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 82,
+    "question": "Which of the following is a vulnerability scanning tool?",
+    "options": [
+      {
+        "A": "Metasploit"
+      },
+      {
+        "B": "Nmap"
+      },
+      {
+        "C": "Wireshark"
+      },
+      {
+        "D": "Cain & Abel"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 83,
+    "question": "Which of the following is a technique used to prevent unauthorized access to a network?",
+    "options": [
+      {
+        "A": "Encryption"
+      },
+      {
+        "B": "Firewall"
+      },
+      {
+        "C": "DMZ"
+      },
+      {
+        "D": "VLAN"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 84,
+    "question": "Which of the following is a web application vulnerability?",
+    "options": [
+      {
+        "A": "Cross-site scripting (XSS)"
+      },
+      {
+        "B": "DNS spoofing"
+      },
+      {
+        "C": "SYN flood"
+      },
+      {
+        "D": "Ping of Death"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 85,
+    "question": "Which of the following is a technique used to detect network vulnerabilities by analyzing network traffic?",
+    "options": [
+      {
+        "A": "Penetration testing"
+      },
+      {
+        "B": "Vulnerability scanning"
+      },
+      {
+        "C": "Packet sniffing"
+      },
+      {
+        "D": "Hash cracking"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 86,
+    "question": "Which of the following is a type of malware that is designed to spread rapidly across a network?",
+    "options": [
+      {
+        "A": "Adware"
+      },
+      {
+        "B": "Spyware"
+      },
+      {
+        "C": "Trojan"
+      },
+      {
+        "D": "Worm"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 87,
+    "question": "Which area of security usually receives the least amount of attention during a penetration test?",
+    "options": [
+      {
+        "A": "Technical"
+      },
+      {
+        "B": "Physical"
+      },
+      {
+        "C": "Operational"
+      },
+      {
+        "D": "Wireless"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 88,
+    "question": "Which type of access allows passwords stored on a local system to be cracked?",
+    "options": [
+      {
+        "A": "Physical"
+      },
+      {
+        "B": "Technical"
+      },
+      {
+        "C": "Remote"
+      },
+      {
+        "D": "Dial-in"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 89,
+    "question": "What does LKM stand for?",
+    "options": [
+      {
+        "A": "Linux Kernel Module"
+      },
+      {
+        "B": "Linux Kernel Mode"
+      },
+      {
+        "C": "Linked Kernel Module"
+      },
+      {
+        "D": "Last Kernel Mode"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 90,
+    "question": " What type of attack can be disguised as an LKM?",
+    "options": [
+      {
+        "A": "DoS"
+      },
+      {
+        "B": "Trojan"
+      },
+      {
+        "C": "Spam virus"
+      },
+      {
+        "D": "Rootkit"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 91,
+    "question": "Which of the following is a reason to use Linux?",
+    "options": [
+      {
+        "A": "Linux has no security holes."
+      },
+      {
+        "B": "Linux is always up to date on security patches."
+      },
+      {
+        "C": "No rootkits can infect a Linux system."
+      },
+      {
+        "D": "Linux is flexible and can be modified."
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 92,
+    "question": "A system that performs attack recognition and alerting for a network is what?",
+    "options": [
+      {
+        "A": "HIDS"
+      },
+      {
+        "B": "NIDS"
+      },
+      {
+        "C": "Anomaly detection HIDS"
+      },
+      {
+        "D": "Signature-based NIDS"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 93,
+    "question": "Which of the following is a honeypot-detection tool",
+    "options": [
+      {
+        "A": "Honeyd"
+      },
+      {
+        "B": "Specter"
+      },
+      {
+        "C": "KFSensor"
+      },
+      {
+        "D": "Sobek"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 94,
+    "question": "Which of the following is a system designed to attract and identify hackers?",
+    "options": [
+      {
+        "A": "Honeypot"
+      },
+      {
+        "B": "Firewall"
+      },
+      {
+        "C": "Honeytrap"
+      },
+      {
+        "D": "IDS"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 95,
+    "question": "Which of the following is a tool used to modify an attack script to bypass an IDS’s signature detection?",
+    "options": [
+      {
+        "A": "ADMutate"
+      },
+      {
+        "B": "Script mutate"
+      },
+      {
+        "C": "Snort"
+      },
+      {
+        "D": "Specter"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 96,
+    "question": "A reverse WWW shell connects to which port on a hacker’s system?",
+    "options": [
+      {
+        "A": "80"
+      },
+      {
+        "B": "443"
+      },
+      {
+        "C": "23"
+      },
+      {
+        "D": "21"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 97,
+    "question": "What type of program is Snort?",
+    "options": [
+      {
+        "A": "NIDS"
+      },
+      {
+        "B": "Sniffer, HIDS, and traffic-logging tool"
+      },
+      {
+        "C": "Sniffer and HIDS"
+      },
+      {
+        "D": "NIDS and sniffer"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 98,
+    "question": "How many keys exist is in a public/private key pair?",
+    "options": [
+      {
+        "A": "1"
+      },
+      {
+        "B": "2"
+      },
+      {
+        "C": "3"
+      },
+      {
+        "D": "4"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 99,
+    "question": "How many keys are needed for symmetric key encryption?",
+    "options": [
+      {
+        "A": "1"
+      },
+      {
+        "B": "2"
+      },
+      {
+        "C": "3"
+      },
+      {
+        "D": "4"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 100,
+    "question": "Which of the following key lengths would be considered uncrackable? ",
+    "options": [
+      {
+        "A": "512"
+      },
+      {
+        "B": "500"
+      },
+      {
+        "C": "544"
+      },
+      {
+        "D": "443"
+      }
+    ],
+    "correct_ans": "A"
+  }
+]
