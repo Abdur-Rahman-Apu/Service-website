@@ -590,819 +590,1313 @@
   },
   {
     "question_no": 32,
-    "question": "",
+    "question": "The ___ term stands for the calendar. It displays the current month's calendar with the current day highlighted.",
     "options": [
       {
-        "A": ""
+        "A": "calendar"
       },
       {
-        "B": ""
+        "B": "calc"
       },
       {
-        "C": ""
+        "C": "cal"
       },
       {
-        "D": ""
+        "D": "None of the above"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
     "question_no": 33,
-    "question": "",
+    "question": "Which Linux command is used to record a user login session in a file?",
     "options": [
       {
-        "A": ""
+        "A": "script"
       },
       {
-        "B": ""
+        "B": "style"
       },
       {
-        "C": ""
+        "C": "log"
       },
       {
-        "D": ""
+        "D": "record"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 34,
+    "question": "Which Linux command is used to display the operating system name?",
     "options": [
       {
-        "A": ""
+        "A": "os"
       },
       {
-        "B": ""
+        "B": "osname"
       },
       {
-        "C": ""
+        "C": "osinfo"
       },
       {
-        "D": ""
+        "D": "uname"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 35,
+    "question": "Which Linux command is used to print a file?",
     "options": [
       {
-        "A": ""
+        "A": "lp"
       },
       {
-        "B": ""
+        "B": "pr"
       },
       {
-        "C": ""
+        "C": "print"
       },
       {
-        "D": ""
+        "D": "ptr"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 36,
+    "question": "Which Linux command is used to identify file type?",
     "options": [
       {
-        "A": ""
+        "A": "file"
       },
       {
-        "B": ""
+        "B": "type"
       },
       {
-        "C": ""
+        "C": "info"
       },
       {
-        "D": ""
+        "D": "finfo"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "file"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 37,
+    "question": "How many types of users are in Linux?",
     "options": [
       {
-        "A": ""
+        "A": "2"
       },
       {
-        "B": ""
+        "B": "3"
       },
       {
-        "C": ""
+        "C": "4"
       },
       {
-        "D": ""
+        "D": "5"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 38,
+    "question": "How many types of basic permissions to grant a user?",
     "options": [
       {
-        "A": ""
+        "A": "2"
       },
       {
-        "B": ""
+        "B": "3"
       },
       {
-        "C": ""
+        "C": "4"
       },
       {
-        "D": ""
+        "D": "5"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 39,
+    "question": "The ___ command in Linux is used to convert the content of input in different formats with the octal format as the default format.",
     "options": [
       {
-        "A": ""
+        "A": "od"
       },
       {
-        "B": ""
+        "B": "oct"
       },
       {
-        "C": ""
+        "C": "o_d"
       },
       {
-        "D": ""
+        "D": "octal"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 40,
+    "question": "Which Linux command displays 'cat' command's output with syntax highlighting or colorizing?",
     "options": [
       {
-        "A": ""
+        "A": "xcat"
       },
       {
-        "B": ""
+        "B": "ccat"
       },
       {
-        "C": ""
+        "C": "coloredcat"
       },
       {
-        "D": ""
+        "D": "colored"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 41,
+    "question": "The operator __ is used to redirect the output of a command to the file by erasing all existing data of that file.",
     "options": [
       {
-        "A": ""
+        "A": ">"
       },
       {
-        "B": ""
+        "B": ">>"
       },
       {
-        "C": ""
+        "C": ">>"
       },
       {
-        "D": ""
+        "D": "<>"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 42,
+    "question": "The operator __ is used to redirect the output of a command to the file without erasing all existing data of that file.",
     "options": [
       {
-        "A": ""
+        "A": ">"
       },
       {
-        "B": ""
+        "B": ">>"
       },
       {
-        "C": ""
+        "C": ">>"
       },
       {
-        "D": ""
+        "D": "<>"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 43,
+    "question": "The operators > and >> are known as ___.",
     "options": [
       {
-        "A": ""
+        "A": "Insertion operators"
       },
       {
-        "B": ""
+        "B": "Exertion operators"
       },
       {
-        "C": ""
+        "C": "Redirection operators"
       },
       {
-        "D": ""
+        "D": "None of the above"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 44,
+    "question": "Which keys are used to terminate the command execution in the command prompt?",
     "options": [
       {
-        "A": ""
+        "A": "CTRL + C"
       },
       {
-        "B": ""
+        "B": "CTRL + Pause/Break"
       },
       {
-        "C": ""
+        "C": "Both A and B"
       },
       {
-        "D": ""
+        "D": "None of the above"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 45,
+    "question": "Which has excellent support for older hardware?",
     "options": [
       {
-        "A": ""
+        "A": "Unix"
       },
       {
-        "B": ""
+        "B": "Linux"
       },
       {
-        "C": ""
+        "C": "Minix"
       },
       {
-        "D": ""
+        "D": "Xenix"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 46,
+    "question": "What is the other name of new shell?",
     "options": [
       {
-        "A": ""
+        "A": "Baby shell"
       },
       {
-        "B": ""
+        "B": "Junior shell"
       },
       {
-        "C": ""
+        "C": "Child shell"
       },
       {
-        "D": ""
+        "D": "Assistant shell"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 47,
+    "question": "In Linux hard disk partition, hda2, a stands for the ___",
     "options": [
       {
-        "A": ""
+        "A": "first hard drive"
       },
       {
-        "B": ""
+        "B": "first partition"
       },
       {
-        "C": ""
+        "C": "second partition"
       },
       {
-        "D": ""
+        "D": "second hard drive"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 48,
+    "question": "Where do the users arrive after entering exit in Linux system?",
     "options": [
       {
-        "A": ""
+        "A": "Login screen"
       },
       {
-        "B": ""
+        "B": "Internet"
       },
       {
-        "C": ""
+        "C": "Logout screen"
       },
       {
-        "D": ""
+        "D": "Login prompt"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 49,
+    "question": "Single dot (.) with cd refers to ___",
     "options": [
       {
-        "A": ""
+        "A": "Change directory"
       },
       {
-        "B": ""
+        "B": "Created directory"
       },
       {
-        "C": ""
+        "C": "Current directory"
       },
       {
-        "D": ""
+        "D": "Parent directory"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 50,
+    "question": "Which command is called as the end-of-file command?",
     "options": [
       {
-        "A": ""
+        "A": "Ctrl+ V"
       },
       {
-        "B": ""
+        "B": "Ctrl+ B"
       },
       {
-        "C": ""
+        "C": "Ctrl+ D"
       },
       {
-        "D": ""
+        "D": "Ctrl+ C"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 51,
+    "question": "Which of the following is called as the piping symbol?",
     "options": [
       {
-        "A": ""
+        "A": "_"
       },
       {
-        "B": ""
+        "B": "|"
       },
       {
-        "C": ""
+        "C": "~"
       },
       {
-        "D": ""
+        "D": "!"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 52,
+    "question": "What was the first version of Linux?",
     "options": [
       {
-        "A": ""
+        "A": "1.0"
       },
       {
-        "B": ""
+        "B": "0.11"
       },
       {
-        "C": ""
+        "C": "1.01"
       },
       {
-        "D": ""
+        "D": "0.10"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 53,
+    "question": "What should be the minimum length of a password?",
     "options": [
       {
-        "A": ""
+        "A": "5"
       },
       {
-        "B": ""
+        "B": "6"
       },
       {
-        "C": ""
+        "C": "7"
       },
       {
-        "D": ""
+        "D": "8"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 54,
+    "question": "Who can change the password of any user?",
     "options": [
       {
-        "A": ""
+        "A": "Everyone"
       },
       {
-        "B": ""
+        "B": "SA"
       },
       {
-        "C": ""
+        "C": "Supervisor"
       },
       {
-        "D": ""
+        "D": "End-user"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 55,
+    "question": "Which command creates a new shell?",
     "options": [
       {
-        "A": ""
+        "A": "ah"
       },
       {
-        "B": ""
+        "B": "oh"
       },
       {
-        "C": ""
+        "C": "ch"
       },
       {
-        "D": ""
+        "D": "sh"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 56,
+    "question": "The cd command stands for",
     "options": [
       {
-        "A": ""
+        "A": "complete directory"
       },
       {
-        "B": ""
+        "B": "created directory"
       },
       {
-        "C": ""
+        "C": "change directory"
       },
       {
-        "D": ""
+        "D": "current directory"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 57,
+    "question": "This command formats a floppy _____",
     "options": [
       {
-        "A": ""
+        "A": "mkfs"
       },
       {
-        "B": ""
+        "B": "mkf"
       },
       {
-        "C": ""
+        "C": "mks"
       },
       {
-        "D": ""
+        "D": "man"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 58,
+    "question": "Which key should be pressed to save a file in line editing mode?",
     "options": [
       {
-        "A": ""
+        "A": "x"
       },
       {
-        "B": ""
+        "B": "s"
       },
       {
-        "C": ""
+        "C": "n"
       },
       {
-        "D": ""
+        "D": "w"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 59,
+    "question": "Hard disk partition is prefixed by",
     "options": [
       {
-        "A": ""
+        "A": "hd"
       },
       {
-        "B": ""
+        "B": "hda"
       },
       {
-        "C": ""
+        "C": "hda2"
       },
       {
-        "D": ""
+        "D": "dha"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 60,
+    "question": "Which command allows you to change a word?",
     "options": [
       {
-        "A": ""
+        "A": "co"
       },
       {
-        "B": ""
+        "B": "dd"
       },
       {
-        "C": ""
+        "C": "dw"
       },
       {
-        "D": ""
+        "D": "cw"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 61,
+    "question": "A directory under a directory is called as",
     "options": [
       {
-        "A": ""
+        "A": "root directory"
       },
       {
-        "B": ""
+        "B": "parent directory"
       },
       {
-        "C": ""
+        "C": "sub directory"
       },
       {
-        "D": ""
+        "D": "child directory"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 62,
+    "question": "Double dot (..) with cd refers to",
     "options": [
       {
-        "A": ""
+        "A": "created directory"
       },
       {
-        "B": ""
+        "B": "current directory"
       },
       {
-        "C": ""
+        "C": "parent directory"
       },
       {
-        "D": ""
+        "D": "change directory"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 63,
+    "question": "Which version can run on any machine available now?",
     "options": [
       {
-        "A": ""
+        "A": "suitable Unix"
       },
       {
-        "B": ""
+        "B": "suitable Linux"
       },
       {
-        "C": ""
+        "C": "suitable Xenix"
       },
       {
-        "D": ""
+        "D": "suitable Minix"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 64,
+    "question": "The dmesg command",
     "options": [
       {
-        "A": ""
+        "A": "Shows user login logoff attempts"
       },
       {
-        "B": ""
+        "B": "Shows the syslog file for info messages"
       },
       {
-        "C": ""
+        "C": "kernel log messages"
       },
       {
-        "D": ""
+        "D": "Shows the daemon log messages"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 65,
+    "question": "Which command is used to set terminal IO characteristic?",
     "options": [
       {
-        "A": ""
+        "A": "tty"
       },
       {
-        "B": ""
+        "B": "ctty"
       },
       {
-        "C": ""
+        "C": "ptty"
       },
       {
-        "D": ""
+        "D": "stty"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 66,
+    "question": "Which command is used to record a user login session in a file",
     "options": [
       {
-        "A": ""
+        "A": "macro"
       },
       {
-        "B": ""
+        "B": "read"
       },
       {
-        "C": ""
+        "C": "script"
       },
       {
-        "D": ""
+        "D": "none of the mentioned"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 67,
+    "question": "Which command is used to print a file",
     "options": [
       {
-        "A": ""
+        "A": "print"
       },
       {
-        "B": ""
+        "B": "ptr"
       },
       {
-        "C": ""
+        "C": "lpr"
       },
       {
-        "D": ""
+        "D": "None of the above"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 68,
+    "question": "Using which command you find resource limits to the session?",
     "options": [
       {
-        "A": ""
+        "A": "rlimit"
       },
       {
-        "B": ""
+        "B": "ulimit"
       },
       {
-        "C": ""
+        "C": "setrlimit"
       },
       {
-        "D": ""
+        "D": "getrlimit"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 69,
+    "question": "Which built-in command performs integer arithmetic in bash shell?",
     "options": [
       {
-        "A": ""
+        "A": "let"
       },
       {
-        "B": ""
+        "B": "get"
       },
       {
-        "C": ""
+        "C": "set"
       },
       {
-        "D": ""
+        "D": "None of the above"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 70,
+    "question": "Which expression use the value of the enclosed arithmetic expression?",
     "options": [
       {
-        "A": ""
+        "A": "$(())"
       },
       {
-        "B": ""
+        "B": "$()"
       },
       {
-        "C": ""
+        "C": "${}"
       },
       {
-        "D": ""
+        "D": "$[]."
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 71,
+    "question": "If a and b are 2 variables then the meaning of a<<=b is",
     "options": [
       {
-        "A": ""
+        "A": "b = a << b"
       },
       {
-        "B": ""
+        "B": "a = a << b"
       },
       {
-        "C": ""
+        "C": "b = b << a"
       },
       {
-        "D": ""
+        "D": "a = a << b"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 72,
+    "question": "Which one of the following is bitwise ‘exclusive or’ operator?",
     "options": [
       {
-        "A": ""
+        "A": "^="
       },
       {
-        "B": ""
+        "B": "|="
       },
       {
-        "C": ""
+        "C": "!="
       },
       {
-        "D": ""
+        "D": "None of the above"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 73,
+    "question": "Which one of the following is not a valid operator in bash shell?",
     "options": [
       {
-        "A": ""
+        "A": "||"
       },
       {
-        "B": ""
+        "B": "~"
       },
       {
-        "C": ""
+        "C": "=<<"
       },
       {
-        "D": ""
+        "D": "-="
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 74,
+    "question": "When the return value of any function is not specified within the function, what function returns?",
     "options": [
       {
-        "A": ""
+        "A": "nothing"
       },
       {
-        "B": ""
+        "B": "exit status of the last command executed"
       },
       {
-        "C": ""
+        "C": "0"
       },
       {
-        "D": ""
+        "D": "None of the above"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 75,
+    "question": "Parameters can be passed to a function",
+    "options": [
+      {
+        "A": "by using the parameter variables $1, $2, $3……."
+      },
+      {
+        "B": "by using the environment variables"
+      },
+      {
+        "C": "by using the parameter & environment variables"
+      },
+      {
+        "D": "none of the mentioned"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 76,
+    "question": "Which of the following command provides the list of the functions defined in the login session?",
+    "options": [
+      {
+        "A": "declare -f"
+      },
+      {
+        "B": "declare -F"
+      },
+      {
+        "C": "both declare -f and -F"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 77,
+    "question": "The keyword ‘local’ is used",
+    "options": [
+      {
+        "A": "to define a variable within a function for its local scope"
+      },
+      {
+        "B": "to redefine any global variable"
+      },
+      {
+        "C": "this is not a valid keyword"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 78,
+    "question": "In the shell, by default, all variables are considered and stored as",
+    "options": [
+      {
+        "A": "string"
+      },
+      {
+        "B": "integer"
+      },
+      {
+        "C": "character"
+      },
+      {
+        "D": "float"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 79,
+    "question": "Which command reads user input from the terminal and assign this value to a variable name?",
+    "options": [
+      {
+        "A": "read"
+      },
+      {
+        "B": "get"
+      },
+      {
+        "C": "declare"
+      },
+      {
+        "D": "set"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 80,
+    "question": "Which one of the following statement is true about variables in shell?",
+    "options": [
+      {
+        "A": "variables do not require declaration before assigning value to them"
+      },
+      {
+        "B": "variables are case sensitive"
+      },
+      {
+        "C": "to extract the contents of a variable, we have to provide the variable a preceding $"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 81,
+    "question": "Which one of the following is not a valid shell variable?",
+    "options": [
+      {
+        "A": "_san"
+      },
+      {
+        "B": "san_2"
+      },
+      {
+        "C": "_san_2"
+      },
+      {
+        "D": "2_san"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 82,
+    "question": "To redefine a variable, it can be removed from the list of variables by using the command",
+    "options": [
+      {
+        "A": "unset"
+      },
+      {
+        "B": "delete"
+      },
+      {
+        "C": "remove"
+      },
+      {
+        "D": "clear"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 83,
+    "question": "How do you print the lines between 5 and 10, both inclusive",
+    "options": [
+      {
+        "A": "cat filename | head | tail -6"
+      },
+      {
+        "B": "cat filename | head | tail -5"
+      },
+      {
+        "C": "cat filename | tail +5 | head"
+      },
+      {
+        "D": "cat filename | tail -5 | head -10"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 84,
+    "question": "Create a new file “new.txt” that is a concatenation of “file1.txt” and “file2.txt”",
+    "options": [
+      {
+        "A": "cp file.txt file2.txt new.txt"
+      },
+      {
+        "B": "cat file1.txt file2.txt > new.txt"
+      },
+      {
+        "C": "mv file[12].txt new.txt"
+      },
+      {
+        "D": "ls file1.txt file2.txt | new.txt"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 85,
+    "question": "which of these is NOT a valid variable in bash",
+    "options": [
+      {
+        "A": "__ (double underscore)"
+      },
+      {
+        "B": "_1var (underscore 1 var )"
+      },
+      {
+        "C": " _var_ (underscore var underscore)"
+      },
+      {
+        "D": "some-var (some hyphen var)"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 86,
+    "question": "The expression expr -9 % 2 evaluates to:",
+    "options": [
+      {
+        "A": "0"
+      },
+      {
+        "B": "1"
+      },
+      {
+        "C": "-1"
+      },
+      {
+        "D": "2"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 87,
+    "question": "The statement z = ‘expr 5 / 2’ would store which of the following values in z?",
+    "options": [
+      {
+        "A": "0"
+      },
+      {
+        "B": "1"
+      },
+      {
+        "C": "2"
+      },
+      {
+        "D": "2.5"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 88,
+    "question": "Which command is used to reexecute the previous command?",
+    "options": [
+      {
+        "A": "!!"
+      },
+      {
+        "B": "!cat"
+      },
+      {
+        "C": "!3"
+      },
+      {
+        "D": "!$"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 89,
+    "question": "Which command allows to view the current jobs being handled by the shell?",
+    "options": [
+      {
+        "A": "jobs"
+      },
+      {
+        "B": "view"
+      },
+      {
+        "C": "show"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 90,
+    "question": "What is job number?",
+    "options": [
+      {
+        "A": "same as PID"
+      },
+      {
+        "B": "a unique number, assigned to each job in shell"
+      },
+      {
+        "C": "same as PID and a unique number, assigned to each job in shell"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 91,
+    "question": "Ctrl-Z key combination",
+    "options": [
+      {
+        "A": "generates a SIGINT signal"
+      },
+      {
+        "B": "stops the process running in the shell"
+      },
+      {
+        "C": "kills the process running in the shell"
+      },
+      {
+        "D": "generates a SIGINT signal & kills the process running in the shell"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 92,
+    "question": "Which command brings a background job into the foreground?",
+    "options": [
+      {
+        "A": "fg"
+      },
+      {
+        "B": "bg"
+      },
+      {
+        "C": "jobs %1"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 93,
+    "question": "‘kill %s’ command will",
+    "options": [
+      {
+        "A": "terminate the job whose command line starts with s"
+      },
+      {
+        "B": "terminate the last job"
+      },
+      {
+        "C": "terminate the first job"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 94,
+    "question": "‘stty tostop’ command will",
+    "options": [
+      {
+        "A": "stop all jobs running in the shell"
+      },
+      {
+        "B": "stop background jobs if they try to send output to the terminal"
+      },
+      {
+        "C": "this is not a valid command"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 95,
+    "question": "Which command terminates a running process by name of the process?",
+    "options": [
+      {
+        "A": "kill"
+      },
+      {
+        "B": "pkill"
+      },
+      {
+        "C": "killall"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 96,
+    "question": "Which command runs the shell built-in command ‘command’ with the given argument?",
+    "options": [
+      {
+        "A": "builtin"
+      },
+      {
+        "B": "caller"
+      },
+      {
+        "C": "there is no command present for this purpose"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 97,
+    "question": "Which command generates possible completions for string according to the and write it to standard output?",
+    "options": [
+      {
+        "A": "compgen"
+      },
+      {
+        "B": "complete"
+      },
+      {
+        "C": "continue"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 98,
+    "question": "Which command executes ‘command’ in place of the current process instead of creating a new process?",
+    "options": [
+      {
+        "A": "exec"
+      },
+      {
+        "B": "command"
+      },
+      {
+        "C": "trap"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 99,
+    "question": "Write the command to display the current date in the form dd/mm/yyyy.",
+    "options": [
+      {
+        "A": "date +%d/%m/%Y"
+      },
+      {
+        "B": "date +”%d/%m/%Y”"
+      },
+      {
+        "C": "date +/%d/%m/20%y"
+      },
+      {
+        "D": "date +”/%d/%m/20%y”"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 100,
+    "question": "The command syntax to display the file ‘sample.txt’ one page at a time is",
+    "options": [
+      {
+        "A": "man sample.txt>more"
+      },
+      {
+        "B": "cat sample.txt<more"
+      },
+      {
+        "C": "cat sample.txt|more"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
   }
 ]
