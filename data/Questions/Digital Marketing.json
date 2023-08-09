@@ -1,0 +1,1902 @@
+[
+  {
+    "question_no": 1,
+    "question": " Which of the following is the correct depiction of Digital Marketing?",
+    "options": [
+      {
+        "A": "E-mail Marketing"
+      },
+      {
+        "B": "Social Media Marketing"
+      },
+      {
+        "C": "Web Marketing"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 2,
+    "question": " __________ doesn't fall under the category of digital marketing.",
+    "options": [
+      {
+        "A": "TV"
+      },
+      {
+        "B": "Billboard"
+      },
+      {
+        "C": "Radio"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 3,
+    "question": "Which of the following is incorrect about digital marketing?",
+    "options": [
+      {
+        "A": "Digital marketing can only be done offline"
+      },
+      {
+        "B": "Digital marketing cannot be done offline."
+      },
+      {
+        "C": "Digital marketing requires electronic devices for promoting goods and services."
+      },
+      {
+        "D": "In general, digital marketing can be understood as online marketing, web marketing, and e-mail marketing."
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 4,
+    "question": "How many types of pillars do we have in digital marketing?",
+    "options": [
+      {
+        "A": "1"
+      },
+      {
+        "B": "2"
+      },
+      {
+        "C": "3"
+      },
+      {
+        "D": "4"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 5,
+    "question": "Which of the following is involved in the digital marketing process?",
+    "options": [
+      {
+        "A": "RSA"
+      },
+      {
+        "B": "Voice Broadcasting"
+      },
+      {
+        "C": "Podcasting"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 6,
+    "question": "What is considered while creating a front page of the website or homepage?",
+    "options": [
+      {
+        "A": "References of other websites"
+      },
+      {
+        "B": "A brief elaboration about the company"
+      },
+      {
+        "C": "Logos portraying the number of awards won by the web designer"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 7,
+    "question": "What is the name of the process in which marketing is achieved by incorporating tools, techniques, electronic devices, technologies, or systems?",
+    "options": [
+      {
+        "A": "Internet Marketing"
+      },
+      {
+        "B": "Direct Marketing"
+      },
+      {
+        "C": "Electronic Marketing"
+      },
+      {
+        "D": "Interactive Marketing"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 8,
+    "question": "Which of the following is not specifically required by the search engines?",
+    "options": [
+      {
+        "A": "Poor user experience"
+      },
+      {
+        "B": "Keyword stuffing"
+      },
+      {
+        "C": "Buying links"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 9,
+    "question": "Which of the following factors are responsible for leaving an impact on the Google PageRank?",
+    "options": [
+      {
+        "A": "The text depicting inbound links to a page of a website."
+      },
+      {
+        "B": "A total number of inbound links to a website's page."
+      },
+      {
+        "C": "The subject matter of the site providing the inbound link to a page of a website."
+      },
+      {
+        "D": "The number of outbound links on the page that contains the inbound link to a page of a website."
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 10,
+    "question": "The full form of FFA page is __________.",
+    "options": [
+      {
+        "A": "Free for All Links"
+      },
+      {
+        "B": "Free for Alexa"
+      },
+      {
+        "C": "Free for Alternative Links"
+      },
+      {
+        "D": "Free for All Search Engine"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "Which of the following is the correct depiction of optimization strategy?",
+    "options": [
+      {
+        "A": "Orange Hat Techniques"
+      },
+      {
+        "B": "Grey Hat Techniques"
+      },
+      {
+        "C": "Shady Hat Techniques"
+      },
+      {
+        "D": "Blue Hat Techniques"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 12,
+    "question": "__________ is responsible for hamper the search rankings.",
+    "options": [
+      {
+        "A": "Connecting to your own website from any random website."
+      },
+      {
+        "B": "Utilizing the same colors of texts as that of your background pages."
+      },
+      {
+        "C": "Integrating page templates into your page template."
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 13,
+    "question": "Which of the following is the correct name for Facebook's ranking algorithm?",
+    "options": [
+      {
+        "A": "Face Rank"
+      },
+      {
+        "B": "Edge Rank"
+      },
+      {
+        "C": "Like Rank"
+      },
+      {
+        "D": "Page Rank"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 14,
+    "question": "Micro-blogging can be defined as __________.",
+    "options": [
+      {
+        "A": "Mobile related blogs"
+      },
+      {
+        "B": "Blogs posted by companies instead of an individual"
+      },
+      {
+        "C": "Blogs encompassing limited individual posts, which are typically limited by character count."
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 15,
+    "question": "Name the features offered by LinkedIn for paid business accounts.",
+    "options": [
+      {
+        "A": "Facilitate posting pictures"
+      },
+      {
+        "B": "Facilitate to connect directly and send messages to people"
+      },
+      {
+        "C": "Ability to post in Groups and create a Group"
+      },
+      {
+        "D": "Ability to block users"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 16,
+    "question": "Creative marketing can be defined as __________.",
+    "options": [
+      {
+        "A": "A marketing department entailing several employees."
+      },
+      {
+        "B": "The brand value of an organization."
+      },
+      {
+        "C": "A set of schemes undertaken by the organization for distributing the marketing material."
+      },
+      {
+        "D": "The marketing content and its inventive aspect."
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 17,
+    "question": "Which of the following is the correct abbreviation CMS?",
+    "options": [
+      {
+        "A": "Content Maintenance Site"
+      },
+      {
+        "B": "Content Maintenance System"
+      },
+      {
+        "C": "Content Management System"
+      },
+      {
+        "D": "Content Marketing System"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 18,
+    "question": "Which of the following doesn't define the correct roles and responsibilities of content marketing strategy?",
+    "options": [
+      {
+        "A": "A strategy that tries to appeal and recall its target audience."
+      },
+      {
+        "B": "A marketing strategy approach."
+      },
+      {
+        "C": "Yet another name of social media marketing."
+      },
+      {
+        "D": "A technique more focused on creating and distributing valuable as well as relevant content to its users/audiences."
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 19,
+    "question": "Which of the following are essentially required to make a business case for content marketing?",
+    "options": [
+      {
+        "A": "Industry best practices."
+      },
+      {
+        "B": "Objectives and KPIs."
+      },
+      {
+        "C": "Impacts and challenges."
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 20,
+    "question": "Which of the following is incorrect?",
+    "options": [
+      {
+        "A": "If you know about your target audience's intent, you can easily focus on creating valuable content."
+      },
+      {
+        "B": "You should compare the value of Content Marketing with that of other marketing strategies carried out by competitors."
+      },
+      {
+        "C": "Both (a) and (b) are true"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 21,
+    "question": "Which of the following metric is used for tracking the status of email marketing?",
+    "options": [
+      {
+        "A": "Conversion Rate"
+      },
+      {
+        "B": "Open Rate"
+      },
+      {
+        "C": "Bounce Rate"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 22,
+    "question": "Which of the following features corresponds to the role of the lead nurturing platform?",
+    "options": [
+      {
+        "A": "A/B Testing"
+      },
+      {
+        "B": "Campaigning"
+      },
+      {
+        "C": "Landing Page Creation"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 23,
+    "question": "In the email campaign, __________ delivers the advertisements into the group of targeted customers.",
+    "options": [
+      {
+        "A": "Spoofing"
+      },
+      {
+        "B": "Indirect email marketing"
+      },
+      {
+        "C": "Direct email marketing"
+      },
+      {
+        "D": "Spamming"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 24,
+    "question": "What will happen if white space is repeatedly used around the object?",
+    "options": [
+      {
+        "A": "It will reduce the readability"
+      },
+      {
+        "B": "It will create a border"
+      },
+      {
+        "C": "It will make it more appealing by augmenting the object"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 25,
+    "question": "_______ plays a vital role in persuading the open rates.",
+    "options": [
+      {
+        "A": "Word choice"
+      },
+      {
+        "B": "Industry"
+      },
+      {
+        "C": "Personalization"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 26,
+    "question": "Which of the following is the most common delivery channel in terms of mobile marketing?",
+    "options": [
+      {
+        "A": "Graphic"
+      },
+      {
+        "B": "Text"
+      },
+      {
+        "C": "Voice call"
+      },
+      {
+        "D": "Search engine marketing"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 27,
+    "question": "In mobile marketing, the full form of LBS is __________.",
+    "options": [
+      {
+        "A": "Location-based service"
+      },
+      {
+        "B": "List-based service"
+      },
+      {
+        "C": "Lead-based service"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "In order to assess the maximum revenue generated by an Ad on the app, which of the following metrics is chosen by the developer?",
+    "options": [
+      {
+        "A": "eCPI"
+      },
+      {
+        "B": "eCOM"
+      },
+      {
+        "C": "eCPA"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 29,
+    "question": "Which of the following options can help monetize a free app?",
+    "options": [
+      {
+        "A": "In-App Purchase"
+      },
+      {
+        "B": "Ad Revenue"
+      },
+      {
+        "C": "Both (a) and (b)"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 30,
+    "question": "Which of the following formulas is used by Pay-per-click?",
+    "options": [
+      {
+        "A": "Ads clicked (#) / Advertising cost ($)"
+      },
+      {
+        "B": "Advertising cost ($) + Ads clicked (#)"
+      },
+      {
+        "C": "Advertising cost ($) / Ads clicked (#)"
+      },
+      {
+        "D": "Ads clicked (#) * Advertising cost ($)"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 31,
+    "question": "Which of the following factors leads to a Successful PPC Advertisement?",
+    "options": [
+      {
+        "A": "Selecting Relevant Keywords"
+      },
+      {
+        "B": "Improved Landing Page Quality"
+      },
+      {
+        "C": "Quality Score"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 32,
+    "question": "The correct formula for determining an actual CPC as when an advertisement is clicked can be mathematically derived as __________.",
+    "options": [
+      {
+        "A": "Position * QS"
+      },
+      {
+        "B": "Impressions * Clicks"
+      },
+      {
+        "C": "Clicks / Impressions"
+      },
+      {
+        "D": "QS * Max CPC (bid)"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 33,
+    "question": "The affinity audience can be defined as __________.",
+    "options": [
+      {
+        "A": "A user similar to that of your remarketing list"
+      },
+      {
+        "B": "A marketing user who is willing to make a purchase"
+      },
+      {
+        "C": "A user showing a continuous interest in the matter"
+      },
+      {
+        "D": "A user similar to that of your customer list"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 34,
+    "question": "In which case the conversion rate optimization results in diminishing returns?",
+    "options": [
+      {
+        "A": "When the conversion rate is 30%"
+      },
+      {
+        "B": "In 5 years"
+      },
+      {
+        "C": "When you don't notice any dramatic increase in results"
+      },
+      {
+        "D": "Never"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 35,
+    "question": "In what ways can you beat your customer's expectations?",
+    "options": [
+      {
+        "A": "By making your product more appealing"
+      },
+      {
+        "B": "By providing unique services to your customer"
+      },
+      {
+        "C": "By providing great deals in terms of discounts to your customer"
+      },
+      {
+        "D": "By getting appropriate and relevant reviews from your customers on your website"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 36,
+    "question": "The user session can be identified by the __________.",
+    "options": [
+      {
+        "A": "Authenticate users"
+      },
+      {
+        "B": "IP Address"
+      },
+      {
+        "C": "User Agent"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 37,
+    "question": "What is the need to analyze digital analytics?",
+    "options": [
+      {
+        "A": "For making better decisions related to the business"
+      },
+      {
+        "B": "For generating higher revenue from the website"
+      },
+      {
+        "C": "To define genuine customers for your business"
+      },
+      {
+        "D": "For appealing more users to drive more traffic"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 38,
+    "question": "Google Analytics can never recognize returning users on mobile apps.",
+    "options": [
+      {
+        "A": "Yes"
+      },
+      {
+        "B": "No"
+      },
+      {
+        "C": "May be"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 39,
+    "question": "Which of the following option will correctly give the success rate of the latest Facebook post?",
+    "options": [
+      {
+        "A": "Click-through and pageviews"
+      },
+      {
+        "B": "Impressions and click-through"
+      },
+      {
+        "C": "Likes and Impressions"
+      },
+      {
+        "D": "Reach and engagement"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 40,
+    "question": "The hyperlink refers to a __________.",
+    "options": [
+      {
+        "A": "Inbound link"
+      },
+      {
+        "B": "Outbound link"
+      },
+      {
+        "C": "IFTTT link"
+      },
+      {
+        "D": "KPI link"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 41,
+    "question": "What is the correct abbreviation of SERP?",
+    "options": [
+      {
+        "A": "Search Engine Result Page"
+      },
+      {
+        "B": "System Engine Random Page"
+      },
+      {
+        "C": "Search Estimate Result Page"
+      },
+      {
+        "D": "System Estimate Random Page"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 42,
+    "question": "The main advantage of online advertisement is __________.",
+    "options": [
+      {
+        "A": "Low-cost promotional strategy"
+      },
+      {
+        "B": "Online advertising is promotional as well as informational"
+      },
+      {
+        "C": "Trackable"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 43,
+    "question": "Where do we use keywords?",
+    "options": [
+      {
+        "A": "Tags"
+      },
+      {
+        "B": "Title"
+      },
+      {
+        "C": "Description"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 44,
+    "question": "How many lines are essentially required to write in the description box of a channel?",
+    "options": [
+      {
+        "A": "5"
+      },
+      {
+        "B": "4"
+      },
+      {
+        "C": "3"
+      },
+      {
+        "D": "2"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 45,
+    "question": "The correct abbreviation of ROI is __________.",
+    "options": [
+      {
+        "A": "Risk on investment"
+      },
+      {
+        "B": "Return on income"
+      },
+      {
+        "C": "Risk on income"
+      },
+      {
+        "D": "Return on investment"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 46,
+    "question": "_________ falls under the A/B testing tools.",
+    "options": [
+      {
+        "A": "Google Content Experiments"
+      },
+      {
+        "B": "Visual Website Optimizer"
+      },
+      {
+        "C": "Both (a) and (b)"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 47,
+    "question": "____ are used in digital marketing.",
+    "options": [
+      {
+        "A": "Electronic devices"
+      },
+      {
+        "B": "Internet"
+      },
+      {
+        "C": "Both (a) and (b)"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 48,
+    "question": "____ is/are the main component(s) of digital marketing.",
+    "options": [
+      {
+        "A": "SEO"
+      },
+      {
+        "B": "SMO"
+      },
+      {
+        "C": "SEM"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 49,
+    "question": "What is the full form of SEO?",
+    "options": [
+      {
+        "A": "Search Engine Optimal"
+      },
+      {
+        "B": "Social Engine Optimization"
+      },
+      {
+        "C": "Search Engine Optimization"
+      },
+      {
+        "D": "Social Engine Optimal"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 50,
+    "question": "What is the full form of SEM?",
+    "options": [
+      {
+        "A": "Social Engine Marketing"
+      },
+      {
+        "B": "Search Engine Marketing"
+      },
+      {
+        "C": "Search Engine Management"
+      },
+      {
+        "D": "Social Engine Management"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 51,
+    "question": "What is the full form of SMO?",
+    "options": [
+      {
+        "A": "Social Media Optimal"
+      },
+      {
+        "B": "Search Media Optimal"
+      },
+      {
+        "C": "Search Media Optimization"
+      },
+      {
+        "D": "Social Media Optimization"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 52,
+    "question": "In recent years, digital marketing has also become more reliant on ____.",
+    "options": [
+      {
+        "A": "Email"
+      },
+      {
+        "B": "Affiliate"
+      },
+      {
+        "C": "Both (a) and (b)"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 53,
+    "question": "____ is/are part(s) of SEO.",
+    "options": [
+      {
+        "A": "Off-Page"
+      },
+      {
+        "B": "On-Page"
+      },
+      {
+        "C": "Both (a) and (b)"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 54,
+    "question": "The important On-Page SEO factor(s) is/are -",
+    "options": [
+      {
+        "A": "Meta Tags"
+      },
+      {
+        "B": "Sitemap"
+      },
+      {
+        "C": "Canonical Tag"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 55,
+    "question": "The meta tags provide information about the ____.",
+    "options": [
+      {
+        "A": "Page"
+      },
+      {
+        "B": "Author"
+      },
+      {
+        "C": "When it was last updated"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 56,
+    "question": "How many types of meta tags are there?",
+    "options": [
+      {
+        "A": "2"
+      },
+      {
+        "B": "3"
+      },
+      {
+        "C": "4"
+      },
+      {
+        "D": "5"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 57,
+    "question": "How many types of meta tags are there?",
+    "options": [
+      {
+        "A": "Content"
+      },
+      {
+        "B": "Sitemap"
+      },
+      {
+        "C": "Outbound"
+      },
+      {
+        "D": "Internal"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 58,
+    "question": "Facebook feature(s) for Marketing is/are -",
+    "options": [
+      {
+        "A": "Facebook Business Page"
+      },
+      {
+        "B": "Create Facebook Group"
+      },
+      {
+        "C": "Join Facebook Group"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 59,
+    "question": "Twitter feature(s) for Marketing is/are -",
+    "options": [
+      {
+        "A": "Images and Videos"
+      },
+      {
+        "B": "Hashtags"
+      },
+      {
+        "C": "Twitter Chat"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 60,
+    "question": "LinkedIn feature(s) for Marketing is/are -",
+    "options": [
+      {
+        "A": "Ad Campaign on LinkedIn"
+      },
+      {
+        "B": "LinkedIn Group"
+      },
+      {
+        "C": "Both (a) and (b)"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 61,
+    "question": "Pinterest feature(s) for Marketing is/are -",
+    "options": [
+      {
+        "A": "Create Pinterest Boards"
+      },
+      {
+        "B": "Join Pinterest Boards"
+      },
+      {
+        "C": "Create a Business Account on Pinterest"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 62,
+    "question": "SEM consists of -",
+    "options": [
+      {
+        "A": "Display ads"
+      },
+      {
+        "B": "Search ads"
+      },
+      {
+        "C": "Shopping ads"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 63,
+    "question": "Google ads are also known as -",
+    "options": [
+      {
+        "A": "PPC advertising"
+      },
+      {
+        "B": "Pay-per-click advertising"
+      },
+      {
+        "C": "Both (a) and (b)"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 64,
+    "question": " How many networks do Google ads have?",
+    "options": [
+      {
+        "A": "2"
+      },
+      {
+        "B": "3"
+      },
+      {
+        "C": "4"
+      },
+      {
+        "D": "5"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 65,
+    "question": "Advertisements appear on ____ results pages in Google's search network.",
+    "options": [
+      {
+        "A": "Websites"
+      },
+      {
+        "B": "Browsers"
+      },
+      {
+        "C": "Webpages"
+      },
+      {
+        "D": "Search Engine"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 66,
+    "question": "The search engine results pages display your ad above organic results when users search for related ____.",
+    "options": [
+      {
+        "A": "Tags"
+      },
+      {
+        "B": "Meta tags"
+      },
+      {
+        "C": "Keywords"
+      },
+      {
+        "D": "Pages"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 67,
+    "question": "When a customer clicks on your PPC ad, they arrive on your ____ page.",
+    "options": [
+      {
+        "A": "Home"
+      },
+      {
+        "B": "About"
+      },
+      {
+        "C": "Landing"
+      },
+      {
+        "D": "Contact"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 68,
+    "question": "Ads are displayed on websites that have given space to Google for advertising in the ____ network.",
+    "options": [
+      {
+        "A": "Search Engine"
+      },
+      {
+        "B": "Display"
+      },
+      {
+        "C": "Both A and B"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 69,
+    "question": " ____ marketing is a form of digital marketing in which affiliates earn commissions by marketing a company's products or services.",
+    "options": [
+      {
+        "A": "Affiliate"
+      },
+      {
+        "B": "Email"
+      },
+      {
+        "C": "Search Engine"
+      },
+      {
+        "D": "None"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 70,
+    "question": "Affiliates receive a percentage of each sale's ____.",
+    "options": [
+      {
+        "A": "Profit"
+      },
+      {
+        "B": "Loss"
+      },
+      {
+        "C": "Average Profit"
+      },
+      {
+        "D": "Average Loss"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 71,
+    "question": "Affiliate Marketing is a relationship between -",
+    "options": [
+      {
+        "A": "Advertiser, Publisher"
+      },
+      {
+        "B": "Publisher, Consumer"
+      },
+      {
+        "C": "Advertiser, Publisher, and Consumer"
+      },
+      {
+        "D": "Consumer, Advertiser"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 72,
+    "question": "How many main pillars of digital marketing?",
+    "options": [
+      {
+        "A": "2"
+      },
+      {
+        "B": "3"
+      },
+      {
+        "C": "4"
+      },
+      {
+        "D": "5"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 73,
+    "question": "In the first 10 years, the web was heavily used as a static publishing and/or retailing (transactional) channel. This was known as:",
+    "options": [
+      {
+        "A": "Web 2.0."
+      },
+      {
+        "B": "Web 3.0."
+      },
+      {
+        "C": "Web 1.0."
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 74,
+    "question": "A website`s front - or home page should include_____________",
+    "options": [
+      {
+        "A": "A lengthy description of the organization"
+      },
+      {
+        "B": "Logos depicting awards the site`s designers have received"
+      },
+      {
+        "C": "Links to other websites"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 75,
+    "question": "Digital marketing is becoming very popular due to the?",
+    "options": [
+      {
+        "A": "increase in internet users"
+      },
+      {
+        "B": "increase in mobile phone users"
+      },
+      {
+        "C": "increase in digital content consumption"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 76,
+    "question": "Up to ______ of online experiences happening to people usually begin by using a search engine.",
+    "options": [
+      {
+        "A": "0.85"
+      },
+      {
+        "B": "0.9"
+      },
+      {
+        "C": " 0.93"
+      },
+      {
+        "D": " 0.97"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 77,
+    "question": "The ________ plays a major role in better content creation.",
+    "options": [
+      {
+        "A": "icon"
+      },
+      {
+        "B": "keyword"
+      },
+      {
+        "C": "description"
+      },
+      {
+        "D": "viewport"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 78,
+    "question": "__________ help in providing the user the gist of what is the article about.",
+    "options": [
+      {
+        "A": "Meta Description"
+      },
+      {
+        "B": "Meta tags"
+      },
+      {
+        "C": "Meta Description or Meta tags"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 79,
+    "question": "The 4Ps of marketing as defined by Philip Kottler are:",
+    "options": [
+      {
+        "A": "Price, Product, Place, and Promotion"
+      },
+      {
+        "B": "Price, Performance, Place, and Promotion"
+      },
+      {
+        "C": "Price, Product, Place, and Positioning"
+      },
+      {
+        "D": "PR, Product, Place, and Person"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 80,
+    "question": "Location is a unique feature of Mobile Marketing because ____________.",
+    "options": [
+      {
+        "A": "It enables brands to hyper-target their customers."
+      },
+      {
+        "B": "It allows you to customize the marketing messages to suit the needs of users of a particular location."
+      },
+      {
+        "C": "It allows you to personalize your marketing messages to the mobile user in a particular location."
+      },
+      {
+        "D": "You can run different campaigns based on the location of the mobile user."
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 81,
+    "question": "What is an ad group?",
+    "options": [
+      {
+        "A": "An ad group is a collection of related keywords and ads."
+      },
+      {
+        "B": "An ad group is a collection of related ads."
+      },
+      {
+        "C": "An ad group is a collection of related campaign settings and ads."
+      },
+      {
+        "D": "An ad group is a library of your ads grouped by category."
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 82,
+    "question": "Which of the following describes e‐commerce?",
+    "options": [
+      {
+        "A": "Doing business electronically"
+      },
+      {
+        "B": "Doing business"
+      },
+      {
+        "C": "Sale ofgoods"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 83,
+    "question": "Which ofthe following is part ofthe four main types for e‐commerce?",
+    "options": [
+      {
+        "A": "B2B"
+      },
+      {
+        "B": "B2C"
+      },
+      {
+        "C": "C2B"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 84,
+    "question": "Which segment do eBay, Amazon.com belong?",
+    "options": [
+      {
+        "A": "B2Bs"
+      },
+      {
+        "B": "B2Cs"
+      },
+      {
+        "C": "C2Bs"
+      },
+      {
+        "D": "C2Cs"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 85,
+    "question": "Which type of e‐commerce focuses on consumers dealing with each other?",
+    "options": [
+      {
+        "A": "B2B"
+      },
+      {
+        "B": "B2C"
+      },
+      {
+        "C": "C2B"
+      },
+      {
+        "D": "C2C"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 86,
+    "question": "Which segment is eBay an example?",
+    "options": [
+      {
+        "A": "B2B"
+      },
+      {
+        "B": "C2B"
+      },
+      {
+        "C": "C2C"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 87,
+    "question": "Which type deals with auction?",
+    "options": [
+      {
+        "A": "B2B"
+      },
+      {
+        "B": "B2C"
+      },
+      {
+        "C": "C2B"
+      },
+      {
+        "D": "C2C"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 88,
+    "question": "In which website Global Easy Buy is facilitated?",
+    "options": [
+      {
+        "A": "Ebay.com"
+      },
+      {
+        "B": "Amazon.com"
+      },
+      {
+        "C": "Yepme.com"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 89,
+    "question": "The best products to sell in B2C e‐commerce are:",
+    "options": [
+      {
+        "A": "Small products"
+      },
+      {
+        "B": "Digital products"
+      },
+      {
+        "C": "Specialty products"
+      },
+      {
+        "D": "Fresh products"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 90,
+    "question": "The solution for all business needs is",
+    "options": [
+      {
+        "A": "EDI"
+      },
+      {
+        "B": "ERP"
+      },
+      {
+        "C": "SCM"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 91,
+    "question": "Which is a function of E‐commerce",
+    "options": [
+      {
+        "A": "marketing"
+      },
+      {
+        "B": "advertising"
+      },
+      {
+        "C": "Ad"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 92,
+    "question": "Which is not a function of E‐commerce",
+    "options": [
+      {
+        "A": "marketing"
+      },
+      {
+        "B": "advertising"
+      },
+      {
+        "C": "warehousing"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 93,
+    "question": "What are ballpoint pens purchased by a clothing company?",
+    "options": [
+      {
+        "A": "Direct materials"
+      },
+      {
+        "B": "Indirect materials"
+      },
+      {
+        "C": "EDI"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 94,
+    "question": "Most individuals are familiar with which formof e‐commerce?",
+    "options": [
+      {
+        "A": "B2B"
+      },
+      {
+        "B": "B2C"
+      },
+      {
+        "C": "C2B"
+      },
+      {
+        "D": "C2C"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 95,
+    "question": "Which form of e‐commerce currently accounts for about 97% of all e‐commerce revenues?",
+    "options": [
+      {
+        "A": "B2B"
+      },
+      {
+        "B": "B2C"
+      },
+      {
+        "C": "C2B"
+      },
+      {
+        "D": "C2C"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 96,
+    "question": "The threat of new entrants is high when it is:",
+    "options": [
+      {
+        "A": "Hard for customers to enter the market"
+      },
+      {
+        "B": "Hard for competitorsto enterthe market"
+      },
+      {
+        "C": "Easy for competitorsto enterthe marke"
+      },
+      {
+        "D": "Easy for customersto enterthe market"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 97,
+    "question": "An industry is less attractive for suppliers when the rivalry among existing competitors is:",
+    "options": [
+      {
+        "A": "High"
+      },
+      {
+        "B": "Low"
+      },
+      {
+        "C": "More"
+      },
+      {
+        "D": "Less"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 98,
+    "question": "How the transactions occur in e‐commerce?",
+    "options": [
+      {
+        "A": "Using e‐medias"
+      },
+      {
+        "B": "Using computers only"
+      },
+      {
+        "C": "Using mobile phones only"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 99,
+    "question": "Which type of products is lesser purchased using ecommerce?",
+    "options": [
+      {
+        "A": "automobiles"
+      },
+      {
+        "B": "books"
+      },
+      {
+        "C": "softwares"
+      },
+      {
+        "D": "none"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 100,
+    "question": "Amazon.comis well‐known for which e‐commerce marketing technique?",
+    "options": [
+      {
+        "A": "Banner ads"
+      },
+      {
+        "B": "Pop‐up ads"
+      },
+      {
+        "C": "Affiliate programs"
+      },
+      {
+        "D": "Viral marketing"
+      }
+    ],
+    "correct_ans": "C"
+  }
+]
