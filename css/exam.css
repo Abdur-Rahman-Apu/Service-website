@@ -367,7 +367,7 @@ main {
 
   .question-div > div h2:first-child {
     font-size: 5vw;
-    padding: 1rem;
+    padding: 0.5rem;
   }
 
   .question-div > div h2:last-of-type {

@@ -12,6 +12,8 @@ const getQuizCourse = () => {
           // card parent div
           const cardDiv = document.createElement("div");
           cardDiv.classList.add("card");
+          cardDiv.setAttribute("data-aos", "fade-up");
+          cardDiv.setAttribute("data-aos-duration", "3000");
 
           // card image
           const imageDiv = document.createElement("div");
