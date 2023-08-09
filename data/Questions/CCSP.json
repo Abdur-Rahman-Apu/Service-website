@@ -855,7 +855,7 @@
     "correct_ans": "B"
   },
   {
-    "question_no": 47,
+    "question_no": 46,
     "question": "Who is the father of cloud computing?",
     "options": [
       {
@@ -874,7 +874,7 @@
     "correct_ans": "C"
   },
   {
-    "question_no": 48,
+    "question_no": 47,
     "question": "Which of the following is a type of cloud computing service?",
     "options": [
       {
@@ -893,7 +893,7 @@
     "correct_ans": "C"
   },
   {
-    "question_no": 49,
+    "question_no": 48,
     "question": "Which of the following is the application of cloud computing?",
     "options": [
       {
@@ -912,7 +912,7 @@
     "correct_ans": "D"
   },
   {
-    "question_no": 50,
+    "question_no": 49,
     "question": "Which of the following is an example of the cloud?",
     "options": [
       {
@@ -931,7 +931,7 @@
     "correct_ans": "D"
   },
   {
-    "question_no": 51,
+    "question_no": 50,
     "question": "Which of the following is an example of a PaaS cloud service?",
     "options": [
       {
@@ -950,7 +950,7 @@
     "correct_ans": "D"
   },
   {
-    "question_no": 52,
+    "question_no": 51,
     "question": "Which of the following is an example of an IaaS Cloud service?",
     "options": [
       {
@@ -969,7 +969,7 @@
     "correct_ans": "D"
   },
   {
-    "question_no": 53,
+    "question_no": 52,
     "question": "Which of the following model attempts to categorize a cloud network based on four dimensional factors?",
     "options": [
       {
@@ -988,7 +988,7 @@
     "correct_ans": "A"
   },
   {
-    "question_no": 54,
+    "question_no": 53,
     "question": "Which architectural layer is used as a backend in cloud computing?",
     "options": [
       {
@@ -1007,7 +1007,7 @@
     "correct_ans": "A"
   },
   {
-    "question_no": 55,
+    "question_no": 54,
     "question": "Which of the following architectural standards is working with cloud computing industry?",
     "options": [
       {
@@ -1026,7 +1026,7 @@
     "correct_ans": "B"
   },
   {
-    "question_no": 56,
+    "question_no": 55,
     "question": "Which of the following is required by Cloud Computing?",
     "options": [
       {
@@ -1045,7 +1045,7 @@
     "correct_ans": "D"
   },
   {
-    "question_no": 57,
+    "question_no": 56,
     "question": "Which of the following is the most important area of concern in cloud computing?",
     "options": [
       {
@@ -1064,7 +1064,7 @@
     "correct_ans": "C"
   },
   {
-    "question_no": 58,
+    "question_no": 57,
     "question": "In which of the following service models the hardware is virtualized in the cloud?",
     "options": [
       {
@@ -1083,7 +1083,7 @@
     "correct_ans": "D"
   },
   {
-    "question_no": 59,
+    "question_no": 58,
     "question": "Which of the following is the Virtual machine conversion cloud?",
     "options": [
       {
@@ -1102,7 +1102,7 @@
     "correct_ans": "C"
   },
   {
-    "question_no": 60,
+    "question_no": 59,
     "question": ". Which of the following is a workflow control and policy based automation service by CA?",
     "options": [
       {
@@ -1121,288 +1121,782 @@
     "correct_ans": "D"
   },
   {
-    "question_no": 61,
-    "question": "",
+    "question_no": 60,
+    "question": "An application that provides for transaction overflow in a reservation system is an example of ____________",
     "options": [
       {
-        "A": ""
+        "A": "cloud bursting"
       },
       {
-        "B": ""
+        "B": "cloud provisioning"
       },
       {
-        "C": ""
+        "C": "cloud servicing"
       },
       {
-        "D": ""
+        "D": "All of the mentioned"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 61,
+    "question": "_________ model consists of the particular types of services that you can access on a cloud computing platform.",
+    "options": [
+      {
+        "A": "Service"
+      },
+      {
+        "B": "Deployment"
+      },
+      {
+        "C": "Application"
+      },
+      {
+        "D": "None of the mentioned"
+      }
+    ],
+    "correct_ans": "A"
   },
   {
     "question_no": 62,
-    "question": "",
+    "question": "________ refers to the location and management of the cloud’s infrastructure.",
     "options": [
       {
-        "A": ""
+        "A": "Service"
       },
       {
-        "B": ""
+        "B": "Deployment"
       },
       {
-        "C": ""
+        "C": "Application"
       },
       {
-        "D": ""
+        "D": "None of the mentioned"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 63,
+    "question": "Which one of the following options can be considered as the Cloud?",
     "options": [
       {
-        "A": ""
+        "A": "Hadoop"
       },
       {
-        "B": ""
+        "B": "Intranet"
       },
       {
-        "C": ""
+        "C": "Web Applications"
       },
       {
-        "D": ""
+        "D": "All of the mentioned"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 64,
+    "question": "Which of the following has many features of that is now known as cloud computing?",
     "options": [
       {
-        "A": ""
+        "A": "Web Service"
       },
       {
-        "B": ""
+        "B": "Softwares"
       },
       {
-        "C": ""
+        "C": "Internet"
       },
       {
-        "D": ""
+        "D": "All of the mentioned"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 65,
+    "question": "Which one of the following cloud concepts is related to sharing and pooling the resources?",
     "options": [
       {
-        "A": ""
+        "A": "Polymorphism"
       },
       {
-        "B": ""
+        "B": "Virtualization"
       },
       {
-        "C": ""
+        "C": "Abstraction"
       },
       {
-        "D": ""
+        "D": "None of the mentioned"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 66,
+    "question": "Which of the following is an essential concept related to Cloud?",
     "options": [
       {
-        "A": ""
+        "A": "Reliability"
       },
       {
-        "B": ""
+        "B": "Abstraction"
       },
       {
-        "C": ""
+        "C": "Productivity"
       },
       {
-        "D": ""
+        "D": "All of the mentioned"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 67,
+    "question": "Which one of the following is a phase of the Deployment process?",
     "options": [
       {
-        "A": ""
+        "A": "Selecting Cloud Computing Provider"
       },
       {
-        "B": ""
+        "B": "IT Architecture Development"
       },
       {
-        "C": ""
+        "C": "Business Architecture Development"
       },
       {
-        "D": ""
+        "D": "Transformation Plan Development"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 68,
+    "question": "In which one of the following phases, IT Architecture Development came?",
     "options": [
       {
-        "A": ""
+        "A": "Strategy Phase"
       },
       {
-        "B": ""
+        "B": "Planning Phase"
       },
       {
-        "C": ""
+        "C": "Deployment Phase"
       },
       {
-        "D": ""
+        "D": "Development Phase"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 69,
+    "question": "Which one of the following refers to the user's part of the Cloud Computing system?",
     "options": [
       {
-        "A": ""
+        "A": "back End"
       },
       {
-        "B": ""
+        "B": "Management"
       },
       {
-        "C": ""
+        "C": "Infrastructure"
       },
       {
-        "D": ""
+        "D": "Front End"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 70,
+    "question": "Which one of the following can be considered as the example of the Front-end?",
     "options": [
       {
-        "A": ""
+        "A": "Web Browser"
       },
       {
-        "B": ""
+        "B": "Google Compute Engine"
       },
       {
-        "C": ""
+        "C": "Cisco Metapod"
       },
       {
-        "D": ""
+        "D": "Amazon Web Services"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "A"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 71,
+    "question": "By whom is the backend commonly used?",
     "options": [
       {
-        "A": ""
+        "A": "Client"
       },
       {
-        "B": ""
+        "B": "User"
       },
       {
-        "C": ""
+        "C": "Stockholders"
       },
       {
-        "D": ""
+        "D": "service provider"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 72,
+    "question": "Through which, the backend and front-end are connected with each other?",
     "options": [
       {
-        "A": ""
+        "A": "Browser"
       },
       {
-        "B": ""
+        "B": "Database"
       },
       {
-        "C": ""
+        "C": "Network"
       },
       {
-        "D": ""
+        "D": "Both A and B"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "C"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 73,
+    "question": "Which of the following provides the Graphic User Interface (GUI) for interaction with the cloud?",
     "options": [
       {
-        "A": ""
+        "A": "Client"
       },
       {
-        "B": ""
+        "B": "Client Infrastructure"
       },
       {
-        "C": ""
+        "C": "Application"
       },
       {
-        "D": ""
+        "D": "Server"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 74,
+    "question": "Which one of the following a technology works behind the cloud computing platform?",
     "options": [
       {
-        "A": ""
+        "A": "Virtualization"
       },
       {
-        "B": ""
+        "B": "SOA"
       },
       {
-        "C": ""
+        "C": "Grid Computing"
       },
       {
-        "D": ""
+        "D": "All of the mentioned"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "D"
   },
   {
-    "question_no": 1,
-    "question": "",
+    "question_no": 75,
+    "question": "In Virtualization, which architecture provides the virtual isolation between the several tenants?",
     "options": [
       {
-        "A": ""
+        "A": "IT Architecture"
       },
       {
-        "B": ""
+        "B": "Multitenant"
       },
       {
-        "C": ""
+        "C": "Deployment"
       },
       {
-        "D": ""
+        "D": "Business Architecture"
       }
     ],
-    "correct_ans": ""
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 76,
+    "question": "On which one of the following utility computing is based?",
+    "options": [
+      {
+        "A": "Grid Computing Model"
+      },
+      {
+        "B": "SOA Model"
+      },
+      {
+        "C": "virtual isolation Model"
+      },
+      {
+        "D": "Pay-per-Use model"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 77,
+    "question": "In Grid Computing, which types of computer resources are there?",
+    "options": [
+      {
+        "A": "heterogeneous dispersed."
+      },
+      {
+        "B": "geographically dispersed."
+      },
+      {
+        "C": "Both A and B"
+      },
+      {
+        "D": "None of the mentioned"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 78,
+    "question": "Managed IT services are based on the concept of which one of the following?",
+    "options": [
+      {
+        "A": "Virtualization"
+      },
+      {
+        "B": "Utility Computing"
+      },
+      {
+        "C": "Grid Computing"
+      },
+      {
+        "D": "SOA"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 79,
+    "question": "Which one of the following given programs provides the isolation (abstraction) and partitioning?",
+    "options": [
+      {
+        "A": "System hypervisor"
+      },
+      {
+        "B": "Software hypervisor"
+      },
+      {
+        "C": "Hardware hypervisor"
+      },
+      {
+        "D": "Virtualization hypervisor"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 80,
+    "question": "On which one of the following hypervisor runs directly on the underlying host system, it is also known as________?",
+    "options": [
+      {
+        "A": "Bare metal hypervisor"
+      },
+      {
+        "B": "Hosted Hypervisor"
+      },
+      {
+        "C": "Native Hypervisor"
+      },
+      {
+        "D": "Both A and C"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 81,
+    "question": "Which one of the following is also known as a Hypervisor?",
+    "options": [
+      {
+        "A": "VMA"
+      },
+      {
+        "B": "VMM"
+      },
+      {
+        "C": "VMS"
+      },
+      {
+        "D": "VMR"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 82,
+    "question": "How many kinds of Hypervisor are there?",
+    "options": [
+      {
+        "A": "4"
+      },
+      {
+        "B": "3"
+      },
+      {
+        "C": "2"
+      },
+      {
+        "D": "5"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 83,
+    "question": "How many main modules are needed to coordinate in order to emulate the underlying hardware?",
+    "options": [
+      {
+        "A": "3"
+      },
+      {
+        "B": "2"
+      },
+      {
+        "C": "4"
+      },
+      {
+        "D": "5"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 84,
+    "question": "Which one of the following is used to call the allocator?",
+    "options": [
+      {
+        "A": "INTERPRETER"
+      },
+      {
+        "B": "TYPE-2 Hypervisor"
+      },
+      {
+        "C": "Both A and B"
+      },
+      {
+        "D": "DISPATCHER"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 85,
+    "question": "The Parallels Desktop can be considered as the example of which of the following?",
+    "options": [
+      {
+        "A": "TYPE-2 Hypervisor"
+      },
+      {
+        "B": "DISPATCHER"
+      },
+      {
+        "C": "TYPE-1 Hypervisor"
+      },
+      {
+        "D": "INTERPRETER"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 86,
+    "question": " Which one of the following can be considered as the example of the Type2 Virtual Machine monitors?",
+    "options": [
+      {
+        "A": "KVM"
+      },
+      {
+        "B": "Microsoft Hyper V"
+      },
+      {
+        "C": "Parallels Desktop"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 87,
+    "question": "Which of the following is the correct full form of SaaS?",
+    "options": [
+      {
+        "A": "Storage-as-a-Service"
+      },
+      {
+        "B": "Server-as-a-Software"
+      },
+      {
+        "C": "Software-as-a-Service"
+      },
+      {
+        "D": "None of the mentioned"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 88,
+    "question": "Which types of issues are associated with the SaaS?",
+    "options": [
+      {
+        "A": "Modest software tools"
+      },
+      {
+        "B": "Multitenant solutions"
+      },
+      {
+        "C": "Centralized management and data"
+      },
+      {
+        "D": "Network dependence"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 89,
+    "question": " In SaaS, the used open-source software are also known as_____",
+    "options": [
+      {
+        "A": "Closed"
+      },
+      {
+        "B": "Free"
+      },
+      {
+        "C": "Open"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 90,
+    "question": "In AWS, which of the following is the AWS Management Console?",
+    "options": [
+      {
+        "A": "CAS"
+      },
+      {
+        "B": "CDSS"
+      },
+      {
+        "C": "CCS"
+      },
+      {
+        "D": "CDA"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 91,
+    "question": "The terms 'Iaas' stand for?",
+    "options": [
+      {
+        "A": "IT-as-a-Service"
+      },
+      {
+        "B": "Infrastructure-as-a-Service"
+      },
+      {
+        "C": "Internet-as-a-Service"
+      },
+      {
+        "D": "Interoperability-as-a-Service"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 92,
+    "question": " How many kinds of virtual private server instances are there partitioned in the IaaS stack?",
+    "options": [
+      {
+        "A": "3"
+      },
+      {
+        "B": "2"
+      },
+      {
+        "C": "4"
+      },
+      {
+        "D": "5"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 93,
+    "question": "Which of the following is the deployment model?",
+    "options": [
+      {
+        "A": "Public"
+      },
+      {
+        "B": "Private"
+      },
+      {
+        "C": "Web"
+      },
+      {
+        "D": "CubePublic"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 94,
+    "question": "How many types of security threshold values are actually present in the cloud cube model?",
+    "options": [
+      {
+        "A": "Proprietary"
+      },
+      {
+        "B": "2"
+      },
+      {
+        "C": "3On-demand self-service4"
+      },
+      {
+        "D": "5"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 95,
+    "question": "Which one of the following is the most important subject of concern in cloud computing?",
+    "options": [
+      {
+        "A": "Security"
+      },
+      {
+        "B": "RStorage"
+      },
+      {
+        "C": "Scalability"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 96,
+    "question": "What is Cyber Security?",
+    "option.": [
+      {
+        "A": "Cyber Security provides security against malware"
+      },
+      {
+        "B": "Cyber Security provides security against cyber-terrorists"
+      },
+      {
+        "C": "Cyber Security protects a system from cyber attacks"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 97,
+    "question": "What are the features of cyber security?",
+    "options": [
+      {
+        "A": "Compliance"
+      },
+      {
+        "B": "Defense against internal threats"
+      },
+      {
+        "C": "Threat Prevention"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 98,
+    "question": "Which one of the following is associated heavily with vendor lock-in?",
+    "options": [
+      {
+        "A": "DaaS"
+      },
+      {
+        "B": "SaaS"
+      },
+      {
+        "C": "IaaS"
+      },
+      {
+        "D": "PaaS"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 99,
+    "question": "How many types of PaaS are there?",
+    "options": [
+      {
+        "A": "4"
+      },
+      {
+        "B": "3"
+      },
+      {
+        "C": "2"
+      },
+      {
+        "D": "5"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 100,
+    "question": "Which one of the following is a special attribute of cloud computing?",
+    "options": [
+      {
+        "A": "utility type of delivery"
+      },
+      {
+        "B": "elasticity"
+      },
+      {
+        "C": "low barrier to entry"
+      },
+      {
+        "D": "All of the mentioned"
+      }
+    ],
+    "correct_ans": "C"
   }
 ]
