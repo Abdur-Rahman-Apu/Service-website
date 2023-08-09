@@ -1,0 +1,1902 @@
+[
+  {
+    "question_no": 1,
+    "question": "When Microsoft Azure came into existence?",
+    "options": [
+      {
+        "A": "2004"
+      },
+      {
+        "B": "2002"
+      },
+      {
+        "C": "2010"
+      },
+      {
+        "D": "2001"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 2,
+    "question": "What do you mean by cloud computing? Select the best answer.",
+    "options": [
+      {
+        "A": "A term referring to storing data over the internet"
+      },
+      {
+        "B": "A platform where you can access huge amounts of data without having a hard disk."
+      },
+      {
+        "C": "A platform where you can access the data from a remote server."
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 3,
+    "question": "What is Microsoft Azure? Select the best answer.",
+    "options": [
+      {
+        "A": "An open platform that aids in development, service hosting"
+      },
+      {
+        "B": "A cloud computing service created by Microsoft which helps in testing, deploying, and managing the application."
+      },
+      {
+        "C": "A platform that offers a variety of technologies that are used for cloud service, mobile apps, etc."
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 4,
+    "question": "How many types of clouds are there in Microsoft Azure?",
+    "options": [
+      {
+        "A": "3"
+      },
+      {
+        "B": "2"
+      },
+      {
+        "C": "4"
+      },
+      {
+        "D": "5"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "How many types of audiences are there in the Azure active directory?",
+    "options": [
+      {
+        "A": "3"
+      },
+      {
+        "B": "4"
+      },
+      {
+        "C": "5"
+      },
+      {
+        "D": "6"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "Which type of audience takes care of all the sign-in procedures in the Azure active directory?",
+    "options": [
+      {
+        "A": "IT administrators"
+      },
+      {
+        "B": "Application developers"
+      },
+      {
+        "C": "Online customers."
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "Which is the foundational cloud platform layer?",
+    "options": [
+      {
+        "A": "IAAS"
+      },
+      {
+        "B": "PAAS"
+      },
+      {
+        "C": "SAAS"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 8,
+    "question": "Who are the main users of IAAS?",
+    "options": [
+      {
+        "A": "Developers"
+      },
+      {
+        "B": "End users"
+      },
+      {
+        "C": "Network architect"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 9,
+    "question": "Which of the following are the advantages of using IAAS?",
+    "options": [
+      {
+        "A": "IAAS provides dynamic scaling."
+      },
+      {
+        "B": "IAAS enables instant recovery from outages."
+      },
+      {
+        "C": "IAAS provides us with a monthly operational expense."
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 10,
+    "question": "Which of the following platforms is used by clients to develop and deploy the application?",
+    "options": [
+      {
+        "A": "IAAS"
+      },
+      {
+        "B": "PAAS"
+      },
+      {
+        "C": "SAAS"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 11,
+    "question": "The term ____refers to a geographical location or area?",
+    "options": [
+      {
+        "A": "Regions"
+      },
+      {
+        "B": "Data center"
+      },
+      {
+        "C": "Resources"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "To reduce the latency in network requests, you should select a region that is at ____to most of the customers.",
+    "options": [
+      {
+        "A": "Far distance"
+      },
+      {
+        "B": "Closer distance"
+      },
+      {
+        "C": "Moderate distance"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 13,
+    "question": "____ are physical buildings located in specific geographical regions?",
+    "options": [
+      {
+        "A": "Resources"
+      },
+      {
+        "B": "Regions"
+      },
+      {
+        "C": "Data center"
+      },
+      {
+        "D": "Resource groups"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 14,
+    "question": "Creating, managing, and removing Azure resources and services is done through the ____, which is a web-based application?",
+    "options": [
+      {
+        "A": "Resources"
+      },
+      {
+        "B": "Azure portal"
+      },
+      {
+        "C": "Resource manager templates"
+      },
+      {
+        "D": "Resource groups"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 15,
+    "question": "Are Azure resources and Azure services the same?",
+    "options": [
+      {
+        "A": "Yes"
+      },
+      {
+        "B": "No"
+      },
+      {
+        "C": "May be"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 16,
+    "question": "An Azure ____ is a container that holds related resources for an Azure solution.",
+    "options": [
+      {
+        "A": "Resources"
+      },
+      {
+        "B": "Resource Group"
+      },
+      {
+        "C": "Azure portal"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 17,
+    "question": "Is Azure CLI and Azure PowerShell the same thing?",
+    "options": [
+      {
+        "A": "Yes"
+      },
+      {
+        "B": "No"
+      },
+      {
+        "C": "May be"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 18,
+    "question": "Which of the following act as the kernel of Azure Service Platform in managing the hardware resources?",
+    "options": [
+      {
+        "A": "Azure PowerShell"
+      },
+      {
+        "B": "Azure CLI"
+      },
+      {
+        "C": "Azure fabric controller"
+      },
+      {
+        "D": "Azure orchestrator"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 19,
+    "question": "Azure Fabric controller in Azure is connected to which software?",
+    "options": [
+      {
+        "A": "Azure PowerShell"
+      },
+      {
+        "B": "REST API"
+      },
+      {
+        "C": "Authentication servers"
+      },
+      {
+        "D": "Azure orchestrator"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 20,
+    "question": "How many certification categories does Microsoft Azure provide?",
+    "options": [
+      {
+        "A": "3"
+      },
+      {
+        "B": "4"
+      },
+      {
+        "C": "5"
+      },
+      {
+        "D": "6"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "How many types of cloud computing are there?",
+    "options": [
+      {
+        "A": "8"
+      },
+      {
+        "B": "4"
+      },
+      {
+        "C": "3"
+      },
+      {
+        "D": "6"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 22,
+    "question": "In which of the following cloud computing resources are owned and operated by a third-party cloud service provider?",
+    "options": [
+      {
+        "A": "Public cloud"
+      },
+      {
+        "B": "Private Cloud"
+      },
+      {
+        "C": "Hybrid cloud"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "A ____ is a collection of resources that are used exclusively within a business or organization.",
+    "options": [
+      {
+        "A": "Public cloud"
+      },
+      {
+        "B": "Private Cloud"
+      },
+      {
+        "C": "Hybrid cloud"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 24,
+    "question": "Which storage is used to store huge amounts of unstructured data in Azure?",
+    "options": [
+      {
+        "A": "Azure queue storage"
+      },
+      {
+        "B": "Azure File storage"
+      },
+      {
+        "C": "Azure blob storage"
+      },
+      {
+        "D": "Azure table storage"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 25,
+    "question": "Which storage is used in Azure when one wants to share the files between two servers so that they can be accessible on both servers?",
+    "options": [
+      {
+        "A": "Azure queue storage"
+      },
+      {
+        "B": "Azure File storage"
+      },
+      {
+        "C": "Azure blob storage"
+      },
+      {
+        "D": "Azure table storage"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 26,
+    "question": "Which storage in Azure provides us with the feature of cloud messaging?",
+    "options": [
+      {
+        "A": "Azure queue storage"
+      },
+      {
+        "B": "Azure File storage"
+      },
+      {
+        "C": "Azure blob storage"
+      },
+      {
+        "D": "Azure table storage"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "Which storage is used for rarely accessed files with cost-effective plans in Azure?",
+    "options": [
+      {
+        "A": "Azure queue storage"
+      },
+      {
+        "B": "Azure File storage"
+      },
+      {
+        "C": "Azure blob storage"
+      },
+      {
+        "D": "Azure archive storage"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 28,
+    "question": "Which data storage in Azure has a schema-less design and is used to store the NoSQL data?",
+    "options": [
+      {
+        "A": "Azure queue storage"
+      },
+      {
+        "B": "Azure File storage"
+      },
+      {
+        "C": "Azure blob storage"
+      },
+      {
+        "D": "Azure table storage"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 29,
+    "question": "With which storage service in Azure, Windows, and Linux can use shared cloud block storage at the same time?",
+    "options": [
+      {
+        "A": "Azure StorSimple"
+      },
+      {
+        "B": "Azure site recovery"
+      },
+      {
+        "C": "Azure disk storage"
+      },
+      {
+        "D": "Azure data box"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 30,
+    "question": "Which is the hybrid storage in Azure?",
+    "options": [
+      {
+        "A": "Azure StorSimple"
+      },
+      {
+        "B": "Azure site recovery"
+      },
+      {
+        "C": "Azure disk storage"
+      },
+      {
+        "D": "Azure data box"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 31,
+    "question": " Which storage is used for retrieval and replicating the workloads in Azure in case of disaster?",
+    "options": [
+      {
+        "A": "Azure StorSimple"
+      },
+      {
+        "B": "Azure site recovery"
+      },
+      {
+        "C": "Azure disk storage"
+      },
+      {
+        "D": "Azure data box"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 32,
+    "question": "Which service is used to transfer huge amounts of data terabytes in Azure?",
+    "options": [
+      {
+        "A": "Azure StorSimple"
+      },
+      {
+        "B": "Azure site recovery"
+      },
+      {
+        "C": "Azure disk storage"
+      },
+      {
+        "D": "Azure data box"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 33,
+    "question": " Is Azure backup and Azure site recovery service both the same?",
+    "options": [
+      {
+        "A": "Yes"
+      },
+      {
+        "B": "No"
+      },
+      {
+        "C": "May be"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 34,
+    "question": "Does Azure provide us with the service to monitor all the storage services?",
+    "options": [
+      {
+        "A": "Yes"
+      },
+      {
+        "B": "No"
+      },
+      {
+        "C": "May be"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 35,
+    "question": "What does CDN for in Azure?",
+    "options": [
+      {
+        "A": "Command dictionary network"
+      },
+      {
+        "B": "Common dictionary network"
+      },
+      {
+        "C": "Content delivery network"
+      },
+      {
+        "D": "Content dominates network"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 36,
+    "question": "What are the types of storage accounts in Azure?",
+    "options": [
+      {
+        "A": "4"
+      },
+      {
+        "B": "7"
+      },
+      {
+        "C": "3"
+      },
+      {
+        "D": "9"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 37,
+    "question": "Which of the following storage account types support only the standard performance tier?",
+    "options": [
+      {
+        "A": "General purpose V2"
+      },
+      {
+        "B": "General purpose V1"
+      },
+      {
+        "C": "Blob storage."
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 38,
+    "question": "How many types of performance tiers are there?",
+    "options": [
+      {
+        "A": "3"
+      },
+      {
+        "B": "2"
+      },
+      {
+        "C": "4"
+      },
+      {
+        "D": "5"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 39,
+    "question": "How many types of access tiers are there in Microsoft Azure?",
+    "options": [
+      {
+        "A": "3"
+      },
+      {
+        "B": "5"
+      },
+      {
+        "C": "4"
+      },
+      {
+        "D": "6"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 40,
+    "question": "Which storage tier is augmented for storing data that is accessed frequently?",
+    "options": [
+      {
+        "A": "Cold storage tier"
+      },
+      {
+        "B": "Hot storage tier"
+      },
+      {
+        "C": "Archive storage tier"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 41,
+    "question": "Among the cold storage tier and hot storage tier which have lower storage costs and higher access costs?",
+    "options": [
+      {
+        "A": "Cold storage tier"
+      },
+      {
+        "B": "Hot storage tier"
+      },
+      {
+        "C": "Archive storage tier"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 42,
+    "question": "In terms of storage, which of the following tier is expensive?",
+    "options": [
+      {
+        "A": "Cold storage tier"
+      },
+      {
+        "B": "Hot storage tier"
+      },
+      {
+        "C": "Archive storage tier"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 43,
+    "question": "How many types of replication strategies does Azure provide us?",
+    "options": [
+      {
+        "A": "5"
+      },
+      {
+        "B": "6"
+      },
+      {
+        "C": "4"
+      },
+      {
+        "D": "8"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 44,
+    "question": "In which replication strategy of Azure data replicated three times within a single data center?",
+    "options": [
+      {
+        "A": "Locally-Redundant Storage"
+      },
+      {
+        "B": "Zone-Redundant Storage"
+      },
+      {
+        "C": "Geo-Redundant Storage"
+      },
+      {
+        "D": "Read-Access Geo-Redundant Storage."
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 45,
+    "question": "In which replication strategy of Azure, data is replicated across data centers but within the region?",
+    "options": [
+      {
+        "A": "Locally-Redundant Storage"
+      },
+      {
+        "B": "Zone-Redundant Storage"
+      },
+      {
+        "C": "Geo-Redundant Storage"
+      },
+      {
+        "D": "Read-Access Geo-Redundant Storage."
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 46,
+    "question": "In which replication strategy of Azure, our data is copied synchronously three times using LRS?",
+    "options": [
+      {
+        "A": "Locally-Redundant Storage"
+      },
+      {
+        "B": "Zone-Redundant Storage"
+      },
+      {
+        "C": "Geo-Redundant Storage"
+      },
+      {
+        "D": "Read-Access Geo-Redundant Storage."
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 47,
+    "question": "Is Geo-redundant storage and Read-access Geo-redundant storage the same concept?",
+    "options": [
+      {
+        "A": "Yes"
+      },
+      {
+        "B": "No"
+      },
+      {
+        "C": "May be"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 48,
+    "question": "Which Azure service provides the record of events that have been carried out on a specific resource?",
+    "options": [
+      {
+        "A": "Azure activity log"
+      },
+      {
+        "B": "Azure resources"
+      },
+      {
+        "C": "Azure resource groups"
+      },
+      {
+        "D": "Azure resource manager"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 49,
+    "question": "What does CORS stand for in Azure?",
+    "options": [
+      {
+        "A": "Combine oriented relation system"
+      },
+      {
+        "B": "Combine object relation service"
+      },
+      {
+        "C": "Cross-origin resource service"
+      },
+      {
+        "D": "Combine origin resource service"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 50,
+    "question": "What is the full form of SAS in Azure?",
+    "options": [
+      {
+        "A": "Shared authentication service"
+      },
+      {
+        "B": "Shared access service"
+      },
+      {
+        "C": "Shared authentication system"
+      },
+      {
+        "D": "Shared access signature"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 51,
+    "question": " In Azure Storage, which service acts as a URI that grants limited access rights?",
+    "options": [
+      {
+        "A": "IAM"
+      },
+      {
+        "B": "Encryption"
+      },
+      {
+        "C": "Shared authentication system"
+      },
+      {
+        "D": "Shared access signature"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 52,
+    "question": "The maximum size of a block blob is____?",
+    "options": [
+      {
+        "A": "12 TB"
+      },
+      {
+        "B": "200 GB"
+      },
+      {
+        "C": "1000GB"
+      },
+      {
+        "D": "Unlimited"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 53,
+    "question": "How many types of Blobs are provided by Azure?",
+    "options": [
+      {
+        "A": "2"
+      },
+      {
+        "B": "3"
+      },
+      {
+        "C": "4"
+      },
+      {
+        "D": "6"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 54,
+    "question": "Which type of blob can be managed individually and store text and binary data in Azure?",
+    "options": [
+      {
+        "A": "Block blob"
+      },
+      {
+        "B": "Append blob"
+      },
+      {
+        "C": "Page blob"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 55,
+    "question": "Which type of blob ideal is for an application like logging data from virtual machines?",
+    "options": [
+      {
+        "A": "Block blob"
+      },
+      {
+        "B": "Append blob"
+      },
+      {
+        "C": "Page blob"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 56,
+    "question": "Which type of blob can store files up to 8 TB?",
+    "options": [
+      {
+        "A": "Block blob"
+      },
+      {
+        "B": "Append blob"
+      },
+      {
+        "C": "Page blob"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 57,
+    "question": "Is blob and container the same thing?",
+    "options": [
+      {
+        "A": "Yes"
+      },
+      {
+        "B": "No"
+      },
+      {
+        "C": "May be"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 58,
+    "question": "Can you write special characters while naming the container?",
+    "options": [
+      {
+        "A": "Yes"
+      },
+      {
+        "B": "No"
+      },
+      {
+        "C": "May be"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 59,
+    "question": "How many types of hosting environments are there within Azure App Service?",
+    "options": [
+      {
+        "A": "2"
+      },
+      {
+        "B": "5"
+      },
+      {
+        "C": "4"
+      },
+      {
+        "D": "7"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 60,
+    "question": "Which storage security refers to the process that affects the storage account itself?",
+    "options": [
+      {
+        "A": "Management plane security"
+      },
+      {
+        "B": "Data place security"
+      },
+      {
+        "C": "Encryption in transit"
+      },
+      {
+        "D": "Encryption in rest"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 61,
+    "question": "Which storage security in Azure denotes the approaches used to protect the data objects?",
+    "options": [
+      {
+        "A": "Management plane security"
+      },
+      {
+        "B": "Data place security"
+      },
+      {
+        "C": "Encryption in transit"
+      },
+      {
+        "D": "Encryption in rest"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 62,
+    "question": "How many ways can be used to control access to the data within the storage account in Microsoft Azure?",
+    "options": [
+      {
+        "A": "4"
+      },
+      {
+        "B": "5"
+      },
+      {
+        "C": "6"
+      },
+      {
+        "D": "3"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 63,
+    "question": "Which tool in Azure is known for file copy and best suited for migrations?",
+    "options": [
+      {
+        "A": "Robocopy"
+      },
+      {
+        "B": "Data Pipeline"
+      },
+      {
+        "C": "AzCopy"
+      },
+      {
+        "D": "Snap logic"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 64,
+    "question": "Which of the following is the command utility tool in Azure that aids us in copying the data like blob or files?",
+    "options": [
+      {
+        "A": "Robocopy"
+      },
+      {
+        "B": "Data Pipeline"
+      },
+      {
+        "C": "AzCopy"
+      },
+      {
+        "D": "Snap logic"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 65,
+    "question": "In Azure storage services, the Azure table stores which form of data?",
+    "options": [
+      {
+        "A": "Structured data"
+      },
+      {
+        "B": "Unstructured data"
+      },
+      {
+        "C": "Oriented data"
+      },
+      {
+        "D": "Distance data"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 66,
+    "question": "Which of the following is the more advanced version of queue storage service in Azure?",
+    "options": [
+      {
+        "A": "Azure table service"
+      },
+      {
+        "B": "Azure advance queue service"
+      },
+      {
+        "C": "Azure service bus queue"
+      },
+      {
+        "D": "None"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 67,
+    "question": "How many types of disk storage are provided by Azure?",
+    "options": [
+      {
+        "A": "3"
+      },
+      {
+        "B": "4"
+      },
+      {
+        "C": "5"
+      },
+      {
+        "D": "2"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 68,
+    "question": "Which type of disk is known to be the outmoded type of disk and is commonly used by VMs?",
+    "options": [
+      {
+        "A": "Managed disk"
+      },
+      {
+        "B": "Unmanaged disk"
+      },
+      {
+        "C": "Hard disk"
+      },
+      {
+        "D": "Normal disk"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 69,
+    "question": "In which type of disk, do we not have to worry about the scalability limits of the storage account?",
+    "options": [
+      {
+        "A": "Managed disk"
+      },
+      {
+        "B": "Unmanaged disk"
+      },
+      {
+        "C": "Hard disk"
+      },
+      {
+        "D": "Normal disk"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 70,
+    "question": "How many types of capabilities are present inside Azure for storage monitoring?",
+    "options": [
+      {
+        "A": "3"
+      },
+      {
+        "B": "4"
+      },
+      {
+        "C": "5"
+      },
+      {
+        "D": "2"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 71,
+    "question": "Which service in Azure accomplishes logging and offers metrics data for a storage account?",
+    "options": [
+      {
+        "A": "Azure Storage services"
+      },
+      {
+        "B": "Azure storage analytics services"
+      },
+      {
+        "C": "Azure compute services"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 72,
+    "question": "How many types of storage analytics metrics are offered by Azure?",
+    "options": [
+      {
+        "A": "3"
+      },
+      {
+        "B": "4"
+      },
+      {
+        "C": "5"
+      },
+      {
+        "D": "2"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 73,
+    "question": "Which type of metric in Azure records day-to-day storage accounts' Blob service, containers, etc?",
+    "options": [
+      {
+        "A": "Transaction metrics"
+      },
+      {
+        "B": "Capacity metrics."
+      },
+      {
+        "C": "Management metrics"
+      },
+      {
+        "D": "Loaded metrics"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 74,
+    "question": "In which type of metric accumulated data is recorded on an hourly or minute basis?",
+    "options": [
+      {
+        "A": "Transaction metrics"
+      },
+      {
+        "B": "Capacity metrics."
+      },
+      {
+        "C": "Management metrics"
+      },
+      {
+        "D": "Loaded metrics"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 75,
+    "question": "On which Azure service can we test our application against the storage services locally without spending any cost?",
+    "options": [
+      {
+        "A": "Azure storage explorer"
+      },
+      {
+        "B": "Azure storage emulator"
+      },
+      {
+        "C": "Azure test application"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 76,
+    "question": "Which Azure service permits us to proficiently work with Azure Storage data on Windows, macOS, and Linux?",
+    "options": [
+      {
+        "A": "Azure storage explorer"
+      },
+      {
+        "B": "Azure storage emulator"
+      },
+      {
+        "C": "Azure test application"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 77,
+    "question": " What is known to be the fundamental building block of Azure network services?",
+    "options": [
+      {
+        "A": "Azure virtual network"
+      },
+      {
+        "B": "Azure network security"
+      },
+      {
+        "C": "Azure network interface"
+      },
+      {
+        "D": "Azure storage emulator"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 78,
+    "question": "Which Azure service protects the workload in the virtual network from DDoS attacks in Azure?",
+    "options": [
+      {
+        "A": "Azure virtual network"
+      },
+      {
+        "B": "Azure network security"
+      },
+      {
+        "C": "Azure network interface"
+      },
+      {
+        "D": "Azure DDoS protection"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 79,
+    "question": "Which Azure service is used when we need network security?",
+    "options": [
+      {
+        "A": "Azure public network"
+      },
+      {
+        "B": "Azure network security"
+      },
+      {
+        "C": "Azure Firewall protection"
+      },
+      {
+        "D": "Azure network protection"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 80,
+    "question": "What is the full form of NSG in Azure?",
+    "options": [
+      {
+        "A": "Network service group"
+      },
+      {
+        "B": "Network system group"
+      },
+      {
+        "C": "Network security group"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 81,
+    "question": "Among NSG and Firewall, which is more expensive in Azure?",
+    "options": [
+      {
+        "A": "Network security group"
+      },
+      {
+        "B": "Firewall"
+      },
+      {
+        "C": "Virtual network security"
+      },
+      {
+        "D": "Public network security"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 82,
+    "question": "Which service in Azure controls the circulation of the user stream of traffic for service endpoints in diverse regions?",
+    "options": [
+      {
+        "A": "Network service group"
+      },
+      {
+        "B": "Traffic manager"
+      },
+      {
+        "C": "Firewall"
+      },
+      {
+        "D": "Load balancer"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 83,
+    "question": "Which service in Azure aids us to distribute the stream of traffic evenly between application servers?",
+    "options": [
+      {
+        "A": "Network service group"
+      },
+      {
+        "B": "Traffic manager"
+      },
+      {
+        "C": "Firewall"
+      },
+      {
+        "D": "Load balancer"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 84,
+    "question": "Can you have two same names of networks within the network security group?",
+    "options": [
+      {
+        "A": "Yes"
+      },
+      {
+        "B": "No"
+      },
+      {
+        "C": "May be"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 85,
+    "question": "Which service in Azure acts as an interconnection between a Virtual Machine and the underlying software network?",
+    "options": [
+      {
+        "A": "Azure network interface"
+      },
+      {
+        "B": "Security manager"
+      },
+      {
+        "C": "Firewall"
+      },
+      {
+        "D": "Load balancer"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 86,
+    "question": "How many types of IP addresses are there in Azure?",
+    "options": [
+      {
+        "A": "2"
+      },
+      {
+        "B": "3"
+      },
+      {
+        "C": "4"
+      },
+      {
+        "D": "5"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 87,
+    "question": "Which Azure service allows us to connect two VNet in the same or across regions?",
+    "options": [
+      {
+        "A": "Network service group"
+      },
+      {
+        "B": "VNet peering"
+      },
+      {
+        "C": "Global peering"
+      },
+      {
+        "D": "VNet"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 88,
+    "question": "Which Azure service acts as a middleman on both sides of the virtual networks?",
+    "options": [
+      {
+        "A": "VPN gateway"
+      },
+      {
+        "B": "VNet peering"
+      },
+      {
+        "C": "Global peering"
+      },
+      {
+        "D": "VNet"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 89,
+    "question": "How many categories are there of Azure compute services?",
+    "options": [
+      {
+        "A": "6"
+      },
+      {
+        "B": "5"
+      },
+      {
+        "C": "4"
+      },
+      {
+        "D": "3"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 90,
+    "question": "Which service of Azure is used for hosting web applications, REST APIs, and mobile backends?",
+    "options": [
+      {
+        "A": "Azure App service"
+      },
+      {
+        "B": "Azure Virtual machines"
+      },
+      {
+        "C": "Azure service fabric"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 91,
+    "question": "Which Azure service offers the rapidest method to start developing and deploying cloud-native apps in Azure?",
+    "options": [
+      {
+        "A": "Azure App service"
+      },
+      {
+        "B": "Azure Virtual machines"
+      },
+      {
+        "C": "Azure service fabric"
+      },
+      {
+        "D": "Azure Kubernetes service"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 92,
+    "question": "Which of the following are the key services that are associated with Azure compute services?",
+    "options": [
+      {
+        "A": "Azure security center"
+      },
+      {
+        "B": "Active Directory"
+      },
+      {
+        "C": "Key Vault"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 93,
+    "question": "Which disk in a virtual machine in Azure offers temporary storage for applications and processes?",
+    "options": [
+      {
+        "A": "Operating system disk"
+      },
+      {
+        "B": "Temporary disk"
+      },
+      {
+        "C": "Data disk"
+      },
+      {
+        "D": "Hard disk"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 94,
+    "question": "How many types of scaling are provided by Azure?",
+    "options": [
+      {
+        "A": "1"
+      },
+      {
+        "B": "2"
+      },
+      {
+        "C": "3"
+      },
+      {
+        "D": "4"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 95,
+    "question": "How many types of metrics are offered by Azure in terms of autoscaling?",
+    "options": [
+      {
+        "A": "4"
+      },
+      {
+        "B": "3"
+      },
+      {
+        "C": "2"
+      },
+      {
+        "D": "1"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 96,
+    "question": "How many components does Azure cloud service have?",
+    "options": [
+      {
+        "A": "4"
+      },
+      {
+        "B": "3"
+      },
+      {
+        "C": "2"
+      },
+      {
+        "D": "1"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 97,
+    "question": " Is Azure Web App and Azure App Service the same?",
+    "options": [
+      {
+        "A": "Yes"
+      },
+      {
+        "B": "No"
+      },
+      {
+        "C": "May be"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 98,
+    "question": "Which service in Azure also known as the Microsoft Data sync Framework?",
+    "options": [
+      {
+        "A": "Azure web app"
+      },
+      {
+        "B": "Azure app service"
+      },
+      {
+        "C": "Azure mobile app"
+      },
+      {
+        "D": "Azure desktop service"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 99,
+    "question": "Which of the following are the advantages of Azure Notification Hubs?",
+    "options": [
+      {
+        "A": "Provide the functionality of multiplatform"
+      },
+      {
+        "B": "Provide better scaling"
+      },
+      {
+        "C": "Vibrant set of delivery patterns."
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 100,
+    "question": "Which of the following terms defines the Consumption limits for user subscriptions?",
+    "options": [
+      {
+        "A": "Scale up"
+      },
+      {
+        "B": "Scale-out"
+      },
+      {
+        "C": "Quota"
+      },
+      {
+        "D": "Metrics"
+      }
+    ],
+    "correct_ans": "C"
+  }
+]
