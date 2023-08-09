@@ -104,7 +104,6 @@ const answerFormat = (examName) => {
     { 100: "" },
   ];
 
-  localStorage.setItem("exam-name", JSON.stringify(examName));
   localStorage.setItem("quiz", JSON.stringify(ansFormatToStore));
 };
 
@@ -176,9 +175,8 @@ const submitAnswerPaper = () => {
 
 // This function will show the questions and timer
 const quizShow = () => {
-  const query = window.location.search.replace(/[^a-zA-Z ]/g, " ");
-
-  const search = query.trim().split("  ").join("");
+  // get exam name from the localStorage
+  const search = JSON.parse(localStorage.getItem("exam-name"));
 
   const fileName = "data/Questions/" + search + ".json";
 

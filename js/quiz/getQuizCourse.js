@@ -53,6 +53,8 @@ const attemptQuiz = () => {
     attemptBtn[i].addEventListener("click", function () {
       const courseName = attemptBtn[i].previousElementSibling.innerText;
 
+      console.log(courseName);
+
       // confirm box to start quiz
       Swal.fire({
         icon: "question",
@@ -69,7 +71,8 @@ const attemptQuiz = () => {
         const { isConfirmed } = isConfirm;
 
         if (isConfirmed) {
-          window.location.href = `exam-page.html?${courseName}`;
+          localStorage.setItem("exam-name", JSON.stringify(courseName));
+          window.location.href = `exam-page.html`;
         }
       });
     });

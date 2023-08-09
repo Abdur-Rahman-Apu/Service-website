@@ -39,7 +39,8 @@ const calculateMark = () => {
       console.log(userAnswers);
 
       console.log(answerSheet.length);
-      let percentage = Math.round((correctAns / 30) * 100);
+      let percentage = (correctAns / 30) * 100;
+
       let result = undefined;
 
       if (percentage >= 80) {
@@ -47,6 +48,8 @@ const calculateMark = () => {
       } else {
         result = "Failed";
       }
+
+      percentage = percentage.toFixed(2);
 
       // header part
       const header = document.createElement("div");

@@ -1672,6 +1672,25 @@
     "correct_ans": "C"
   },
   {
+    "question_no": 89,
+    "question": " StarBand provides __________",
+    "options": [
+      {
+        "A": "FTTH internet access"
+      },
+      {
+        "B": "Cable access"
+      },
+      {
+        "C": "Telephone access"
+      },
+      {
+        "D": "Satellite access"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
     "question_no": 90,
     "question": "VPNs are financially speaking __________",
     "options": [
