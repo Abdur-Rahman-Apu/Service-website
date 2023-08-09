@@ -1,0 +1,1408 @@
+[
+  {
+    "question_no": 1,
+    "question": "Who founded Linux Kernel?",
+    "options": [
+      {
+        "A": "Ken Thompson and Dennis Ritchie"
+      },
+      {
+        "B": "Linus Torvalds"
+      },
+      {
+        "C": "Linus Torvalds and Ken Thompson"
+      },
+      {
+        "D": "Richard Stallman"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 2,
+    "question": "What is the core of the Linux operating system?",
+    "options": [
+      {
+        "A": "Vi Editor"
+      },
+      {
+        "B": "Command Line"
+      },
+      {
+        "C": "Terminal"
+      },
+      {
+        "D": "Kernel"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 3,
+    "question": "Which is/are the directories that come under the Binary directory?",
+    "options": [
+      {
+        "A": "/bin"
+      },
+      {
+        "B": "/sbin"
+      },
+      {
+        "C": "/lib"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 4,
+    "question": "The directory is a type of file?",
+    "options": [
+      {
+        "A": "Yes"
+      },
+      {
+        "B": "No"
+      },
+      {
+        "C": "May be"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "Which symbol represents the top-level directory?",
+    "options": [
+      {
+        "A": "~"
+      },
+      {
+        "B": "@"
+      },
+      {
+        "C": "#"
+      },
+      {
+        "D": "/"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 6,
+    "question": "Which symbol represents the user's home directory?",
+    "options": [
+      {
+        "A": "~"
+      },
+      {
+        "B": "@"
+      },
+      {
+        "C": "#"
+      },
+      {
+        "D": "/"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "Which Linux command is used to count the total number of lines, words, and characters contained in a file?",
+    "options": [
+      {
+        "A": "count"
+      },
+      {
+        "B": "wcount"
+      },
+      {
+        "C": "wc"
+      },
+      {
+        "D": "countw"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 8,
+    "question": "Which Linux command is used to remove files?",
+    "options": [
+      {
+        "A": "remove"
+      },
+      {
+        "B": "rm"
+      },
+      {
+        "C": "delete"
+      },
+      {
+        "D": "del"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 9,
+    "question": "Which Linux command with vi Editor is used to delete a single character?",
+    "options": [
+      {
+        "A": "d"
+      },
+      {
+        "B": "r"
+      },
+      {
+        "C": "x"
+      },
+      {
+        "D": "c"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 10,
+    "question": "Which Linux command is used to know which directory you are in?",
+    "options": [
+      {
+        "A": "know"
+      },
+      {
+        "B": "help"
+      },
+      {
+        "C": "cwd"
+      },
+      {
+        "D": "pwd"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 11,
+    "question": "Which Linux command is used to see all the hidden files?",
+    "options": [
+      {
+        "A": "ls"
+      },
+      {
+        "B": "ls -h"
+      },
+      {
+        "C": "ls -a"
+      },
+      {
+        "D": "dir -a"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 12,
+    "question": "Which Linux command is used to give a full listing?",
+    "options": [
+      {
+        "A": "ls -F"
+      },
+      {
+        "B": "ls -h"
+      },
+      {
+        "C": "ls -a"
+      },
+      {
+        "D": "dir -a"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "Which Linux command is used to go back from a folder to the folder before that?",
+    "options": [
+      {
+        "A": "cd.."
+      },
+      {
+        "B": "cd"
+      },
+      {
+        "C": "cd/"
+      },
+      {
+        "D": "chdir"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "If you want to create a new directory named XYZ, which command will be used for this purpose?",
+    "options": [
+      {
+        "A": "cd XYZ"
+      },
+      {
+        "B": "chdir XYZ"
+      },
+      {
+        "C": "mkdir XYZ"
+      },
+      {
+        "D": "md XYZ"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 15,
+    "question": "Which Linux command is used to create a new file?",
+    "options": [
+      {
+        "A": "create"
+      },
+      {
+        "B": "file"
+      },
+      {
+        "C": "tch"
+      },
+      {
+        "D": "touch"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 16,
+    "question": "Which Linux command is used to copy files through the command line?",
+    "options": [
+      {
+        "A": "cp"
+      },
+      {
+        "B": "copy"
+      },
+      {
+        "C": "fcp"
+      },
+      {
+        "D": "filecopy"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "Which Linux command is used to move files through the command line?",
+    "options": [
+      {
+        "A": "move"
+      },
+      {
+        "B": "mv"
+      },
+      {
+        "C": "ren"
+      },
+      {
+        "D": "loc"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 18,
+    "question": "Which is the correct command syntax to rename a file abc.txt to pqr.txt?",
+    "options": [
+      {
+        "A": "mv abc.txt pqr.txt"
+      },
+      {
+        "B": "mv pqr.txt abc.txt"
+      },
+      {
+        "C": "mv -a pqr.txt abc.txt"
+      },
+      {
+        "D": "mv -all pqr.txt abc.txt"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "Just like the Windows Search command, which command is used in Linux?",
+    "options": [
+      {
+        "A": "search"
+      },
+      {
+        "B": "find"
+      },
+      {
+        "C": "findall"
+      },
+      {
+        "D": "locate"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 20,
+    "question": "Which Linux command is used to display the content of a file?",
+    "options": [
+      {
+        "A": "display"
+      },
+      {
+        "B": "show"
+      },
+      {
+        "C": "echo"
+      },
+      {
+        "D": "cat"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 21,
+    "question": "If you want any command to be done with administrative or root privileges, you can use the ___ command.",
+    "options": [
+      {
+        "A": "sud"
+      },
+      {
+        "B": "sudo"
+      },
+      {
+        "C": "super"
+      },
+      {
+        "D": "superuser"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 22,
+    "question": "The sudo command stands for ___.",
+    "options": [
+      {
+        "A": "su"
+      },
+      {
+        "B": "superuser does"
+      },
+      {
+        "C": "superuser do"
+      },
+      {
+        "D": "super do"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 23,
+    "question": "Which Linux command is used to see the available disk space in each of the partitions in your system?",
+    "options": [
+      {
+        "A": "disk"
+      },
+      {
+        "B": "diskspace"
+      },
+      {
+        "C": "available"
+      },
+      {
+        "D": "df"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 24,
+    "question": "Which Linux command is used to check the computer's hostname?",
+    "options": [
+      {
+        "A": "hostname"
+      },
+      {
+        "B": "host"
+      },
+      {
+        "C": "comph"
+      },
+      {
+        "D": "hname"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "The ___ command gives you your IP address in your network.",
+    "options": [
+      {
+        "A": "hostname"
+      },
+      {
+        "B": "hostname -I"
+      },
+      {
+        "C": "host -I"
+      },
+      {
+        "D": "hostname -i"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 26,
+    "question": "Which Linux command is used to check your connection to a server?",
+    "options": [
+      {
+        "A": "connection"
+      },
+      {
+        "B": "isconnect"
+      },
+      {
+        "C": "check"
+      },
+      {
+        "D": "ping"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 27,
+    "question": "Which Linux command is used to clear the terminal if it gets filled up with too many commands?",
+    "options": [
+      {
+        "A": "clear"
+      },
+      {
+        "B": "clean"
+      },
+      {
+        "C": "cls"
+      },
+      {
+        "D": "clr"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "OSS stands for ___.",
+    "options": [
+      {
+        "A": "Open System Software"
+      },
+      {
+        "B": "Open Source Software"
+      },
+      {
+        "C": "Open System Source"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 29,
+    "question": "Which Linux command is used to force all buffers to disk?",
+    "options": [
+      {
+        "A": "sync"
+      },
+      {
+        "B": "fflush"
+      },
+      {
+        "C": "flush"
+      },
+      {
+        "D": "clearx"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "Compressed files or zipped files can be viewed with the help of ___ command.",
+    "options": [
+      {
+        "A": "unzip"
+      },
+      {
+        "B": "catz"
+      },
+      {
+        "C": "zcat"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 31,
+    "question": "The command ___ decompresses a file like gunzip command.",
+    "options": [
+      {
+        "A": "bunzip"
+      },
+      {
+        "B": "bunzip2"
+      },
+      {
+        "C": "bunzip3"
+      },
+      {
+        "D": "bunzip0"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 32,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 33,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  },
+  {
+    "question_no": 1,
+    "question": "",
+    "options": [
+      {
+        "A": ""
+      },
+      {
+        "B": ""
+      },
+      {
+        "C": ""
+      },
+      {
+        "D": ""
+      }
+    ],
+    "correct_ans": ""
+  }
+]
