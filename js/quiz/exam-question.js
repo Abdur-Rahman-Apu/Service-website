@@ -129,9 +129,18 @@ const answerSelect = () => {
   // find the selected option
   const optionList = document.querySelectorAll(".option-div p");
 
+  console.log(optionList);
+
   for (let i = 0; i < optionList.length; i++) {
     optionList[i].addEventListener("click", function () {
-      optionList.forEach((el) => el.classList.remove("select"));
+      // check other siblings has same class name or not
+      const siblings = optionList[i].parentElement.childNodes;
+      siblings.forEach((sibling) => {
+        // check
+        if (sibling.classList.contains("select")) {
+          sibling.classList.remove("select");
+        }
+      });
 
       optionList[i].classList.add("select");
 
