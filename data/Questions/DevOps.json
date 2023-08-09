@@ -1,0 +1,1902 @@
+[
+  {
+    "question_no": 1,
+    "question": "What is the full form of Devops?",
+    "options": [
+      {
+        "A": "Development And Operations"
+      },
+      {
+        "B": "Digital and Operations"
+      },
+      {
+        "C": "Drive and Operations"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 2,
+    "question": "Which of the following methods cannot be tested by JUnit test class?",
+    "options": [
+      {
+        "A": "Protected Methods"
+      },
+      {
+        "B": "Private Methods"
+      },
+      {
+        "C": "Public Methods"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 3,
+    "question": "Which command is used to remove an empty directory?",
+    "options": [
+      {
+        "A": "remove"
+      },
+      {
+        "B": "rmdir"
+      },
+      {
+        "C": "rdir"
+      },
+      {
+        "D": "rm"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 4,
+    "question": "Which method of Assert class checks that a condition is true?",
+    "options": [
+      {
+        "A": "void assert(boolean condition)"
+      },
+      {
+        "B": "int assert(boolean condition)"
+      },
+      {
+        "C": "void assertTrue(boolean condition)"
+      },
+      {
+        "D": "void assertChecks(boolean condition)"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 5,
+    "question": "Which of the followings are the popular tools for DevOps?",
+    "options": [
+      {
+        "A": "Jenkins & Monit"
+      },
+      {
+        "B": "Nagios & ELK"
+      },
+      {
+        "C": "Jenkins & Ansible"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 6,
+    "question": "What are the key components of DevOps?",
+    "options": [
+      {
+        "A": "Continuous Integration"
+      },
+      {
+        "B": "Continuous Testing"
+      },
+      {
+        "C": "Continuous Delivery & Monitoring"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 7,
+    "question": "The cloud platform which are not used for DevOps Implementation?",
+    "options": [
+      {
+        "A": "Google Cloud"
+      },
+      {
+        "B": "IBM"
+      },
+      {
+        "C": "Microsoft Azure"
+      },
+      {
+        "D": "Amazon Web Services"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 8,
+    "question": "What are the some important features of Memcached?",
+    "options": [
+      {
+        "A": "Callbacks"
+      },
+      {
+        "B": "CAS Tokens"
+      },
+      {
+        "C": "getDelayed & Igbinary"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 9,
+    "question": "Which of the following is most important DevOps KPI?",
+    "options": [
+      {
+        "A": "Meantime to failure recovery"
+      },
+      {
+        "B": "Deployment frequency"
+      },
+      {
+        "C": "Defect Volume"
+      },
+      {
+        "D": "Both 1 & 2"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 10,
+    "question": "Which of the following is the Popular Scripting Language Of Devops?",
+    "options": [
+      {
+        "A": "Java"
+      },
+      {
+        "B": "Python"
+      },
+      {
+        "C": "Html"
+      },
+      {
+        "D": "C++"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 11,
+    "question": "DevOps is an extension of ...............",
+    "options": [
+      {
+        "A": "QA"
+      },
+      {
+        "B": "Agile"
+      },
+      {
+        "C": "Waterfall"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 12,
+    "question": "Which of the following team gets priority in DevOps",
+    "options": [
+      {
+        "A": "Operational Team"
+      },
+      {
+        "B": "Development Team"
+      },
+      {
+        "C": "Both A & B"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 13,
+    "question": "........... is a source code management tool.",
+    "options": [
+      {
+        "A": "Maven"
+      },
+      {
+        "B": "Jenkins"
+      },
+      {
+        "C": "Git"
+      },
+      {
+        "D": "Hudson"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 14,
+    "question": "............ is not a part of the data structure of a Git repository.",
+    "options": [
+      {
+        "A": "Branch pointer"
+      },
+      {
+        "B": "Commit object"
+      },
+      {
+        "C": "Head pointer"
+      },
+      {
+        "D": "Body element"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 15,
+    "question": "Which of the following command is used to access the list of Ansible_Variables?",
+    "options": [
+      {
+        "A": "ansible pull"
+      },
+      {
+        "B": "ansible-playbook"
+      },
+      {
+        "C": "ansible- m setup hostname"
+      },
+      {
+        "D": "ansible-playbook playbook.yml --list-hosts"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 16,
+    "question": "Which methods cannot be tested by the JUnit test class?",
+    "options": [
+      {
+        "A": "protected methods"
+      },
+      {
+        "B": "methods with void return type"
+      },
+      {
+        "C": "private methods"
+      },
+      {
+        "D": "public methods"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 17,
+    "question": "Which of the following methodologies does least impact the establishment of DevOps methodology?",
+    "options": [
+      {
+        "A": "Agile Software Delivery"
+      },
+      {
+        "B": "Lean Manufacturing"
+      },
+      {
+        "C": "Continuous Software Delivery"
+      },
+      {
+        "D": "Waterfall Software Delivery"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 18,
+    "question": "The DevOps movement is an outgrowth of which software development methodology?",
+    "options": [
+      {
+        "A": "Scrum"
+      },
+      {
+        "B": "Extreme Programming (XP)"
+      },
+      {
+        "C": "Agile"
+      },
+      {
+        "D": "TDD and MDD"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 19,
+    "question": "Which of the following is not a feature of continuous delivery ?",
+    "options": [
+      {
+        "A": "Automate Everything"
+      },
+      {
+        "B": "Gathering Requirement"
+      },
+      {
+        "C": "Continuous Improvement"
+      },
+      {
+        "D": "Bug fixes and experiments"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 20,
+    "question": "Which of the following is not a benefit of Automation in DevOps ?",
+    "options": [
+      {
+        "A": "Implants Manual Errors"
+      },
+      {
+        "B": "Enables anyone to perform tasks"
+      },
+      {
+        "C": "Enables Speed, Reliability and Consistency"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "Which DevOps principle focuses on product and service thinking?",
+    "options": [
+      {
+        "A": "Customer-centric action"
+      },
+      {
+        "B": "Continuous Improvement"
+      },
+      {
+        "C": "Create with the end in mind"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 22,
+    "question": "What does pipeline in continuous delivery refer to?",
+    "options": [
+      {
+        "A": "Workflows"
+      },
+      {
+        "B": "Activities"
+      },
+      {
+        "C": "Automation"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 23,
+    "question": "How does a DevOps organization act in principle when it comes to financing its work?",
+    "options": [
+      {
+        "A": "It finances special projects to serve its clients."
+      },
+      {
+        "B": "It finances products and services to serve its clients."
+      },
+      {
+        "C": "It finances development and operations teams separately, so they take care of their own business"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 24,
+    "question": "What is trunk in trunk based DevOps delivery?",
+    "options": [
+      {
+        "A": "Runk is a special private branch in a developer workstation"
+      },
+      {
+        "B": "Trunk is the process of merging code in DevOps deliveries"
+      },
+      {
+        "C": "Developers collaborate on code in a single branch called trunk"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 25,
+    "question": "Which of the following best describes open source software?",
+    "options": [
+      {
+        "A": "It is completely free for all people"
+      },
+      {
+        "B": "This type of software are used for any purpose"
+      },
+      {
+        "C": "We can modify these software according to our needs"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 26,
+    "question": "When was DevOps introduced?",
+    "options": [
+      {
+        "A": "1999 and 2000"
+      },
+      {
+        "B": "2003 and 2004"
+      },
+      {
+        "C": "2007 and 2008"
+      },
+      {
+        "D": "2010 and 2011"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 27,
+    "question": "Who is the father of DevOps?",
+    "options": [
+      {
+        "A": "Patrick Debois"
+      },
+      {
+        "B": "Gene Kim"
+      },
+      {
+        "C": "David Farley"
+      },
+      {
+        "D": "Bridget Kravchenko"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "What is the full form of Devops?",
+    "options": [
+      {
+        "A": "Drive and Operations"
+      },
+      {
+        "B": "Digital and Operations"
+      },
+      {
+        "C": "Development And Operations"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 29,
+    "question": "Identify the tool for DevOps?",
+    "options": [
+      {
+        "A": "Monit"
+      },
+      {
+        "B": "Nagios"
+      },
+      {
+        "C": "Jenkins"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 30,
+    "question": "What is DevOps?",
+    "options": [
+      {
+        "A": "Developers performing operations"
+      },
+      {
+        "B": "A small team of people that own everything related to a particular service"
+      },
+      {
+        "C": "Developers and Operations team members working together"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 31,
+    "question": "Which of the following is not a part of DevOps lifecycle ______.",
+    "options": [
+      {
+        "A": "Operating"
+      },
+      {
+        "B": "Plan"
+      },
+      {
+        "C": "Build"
+      },
+      {
+        "D": "Code"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 32,
+    "question": "How does DevOps impact security of an application or machine?",
+    "options": [
+      {
+        "A": "Security is increased by including it earlier in the process."
+      },
+      {
+        "B": "Security is increased because of the automation process."
+      },
+      {
+        "C": "Security is reduced because of the automation process."
+      },
+      {
+        "D": "Both A & B"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 33,
+    "question": "What is the use of Git?",
+    "options": [
+      {
+        "A": "Containerization tool"
+      },
+      {
+        "B": "Continuous Integration tool"
+      },
+      {
+        "C": "Version Control System tool"
+      },
+      {
+        "D": "Continuous Monitoring tool"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 34,
+    "question": "Identify the methodologies does least impact the establishment of DevOps methodology?",
+    "options": [
+      {
+        "A": "Waterfall Software Delivery"
+      },
+      {
+        "B": "Lean Manufacturing"
+      },
+      {
+        "C": "Agile Software Delivery"
+      },
+      {
+        "D": "Continuous Software Delivery"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 35,
+    "question": "Which of the following team gets priority in DevOps",
+    "options": [
+      {
+        "A": "Operational Team"
+      },
+      {
+        "B": "Development Team"
+      },
+      {
+        "C": "Both (A) and (B)"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 36,
+    "question": "DevOps culture is about _______ between Dev and Ops​",
+    "options": [
+      {
+        "A": "Love"
+      },
+      {
+        "B": "Collaboration"
+      },
+      {
+        "C": "Stability"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 37,
+    "question": "DevOps is ansible an open-source tool.",
+    "options": [
+      {
+        "A": "Yes"
+      },
+      {
+        "B": "No"
+      },
+      {
+        "C": "--"
+      },
+      {
+        "D": "--"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 38,
+    "question": "Identify the correct set of DevOps values?",
+    "options": [
+      {
+        "A": "Culture, Automation, Lean, Metrics, Sharing"
+      },
+      {
+        "B": "Culture, Collaboration, Communication, Sharing"
+      },
+      {
+        "C": "Culture, Automation, Lean, Measurement, Sharing"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 39,
+    "question": "Which of the following goal of The Second Way?",
+    "options": [
+      {
+        "A": "Increasing flow"
+      },
+      {
+        "B": "Mastery through practice"
+      },
+      {
+        "C": "Experimentation and learning"
+      },
+      {
+        "D": "Shortening feedback loops"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 40,
+    "question": "Which of the following is not a benefit of Automation in DevOps?",
+    "options": [
+      {
+        "A": "Enables anyone to perform task"
+      },
+      {
+        "B": "Implants Manual Errors"
+      },
+      {
+        "C": "Enables Speed, Reliability and Consistency"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 41,
+    "question": "Which DevOps principle focuses on product and service thinking?",
+    "options": [
+      {
+        "A": "Customer-centric action"
+      },
+      {
+        "B": "Continuous Improvement"
+      },
+      {
+        "C": "Create with the end in mind"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 42,
+    "question": "What is the need for DevOps?",
+    "options": [
+      {
+        "A": "Increase deployment frequency"
+      },
+      {
+        "B": "Lower failure rate of new releases"
+      },
+      {
+        "C": "Both (A) and (B)"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 43,
+    "question": "Is Jira DevOps tool?",
+    "options": [
+      {
+        "A": "Yes"
+      },
+      {
+        "B": "No"
+      },
+      {
+        "C": "May be"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 44,
+    "question": "What is required when creating resilience by injecting production failures? ​",
+    "options": [
+      {
+        "A": "Defining the failure"
+      },
+      {
+        "B": "Training the people"
+      },
+      {
+        "C": "Using a test environment"
+      },
+      {
+        "D": "Organizing post mortem meetings"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 45,
+    "question": "Is DevOps and Agile is same?",
+    "options": [
+      {
+        "A": "Yes"
+      },
+      {
+        "B": "No"
+      },
+      {
+        "C": "May be"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 46,
+    "question": "Chef is a devops tool?",
+    "options": [
+      {
+        "A": "Yes"
+      },
+      {
+        "B": "No"
+      },
+      {
+        "C": "May be"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 47,
+    "question": "Which of the following is not true for Ant?",
+    "options": [
+      {
+        "A": "It is a tool box"
+      },
+      {
+        "B": "It is procedural"
+      },
+      {
+        "C": "It provides lifecycle management"
+      },
+      {
+        "D": "It doesn't have formal conventions"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 48,
+    "question": "Which maven plugin creates the project structure?",
+    "options": [
+      {
+        "A": "Execution"
+      },
+      {
+        "B": "Properties"
+      },
+      {
+        "C": "Archetype"
+      },
+      {
+        "D": "Dependency"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 49,
+    "question": "What are the useful plugins in Jenkin?",
+    "options": [
+      {
+        "A": "HTML Publisher"
+      },
+      {
+        "B": "Amazon EC2"
+      },
+      {
+        "C": "Maven 2 Project"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 50,
+    "question": "Which command can be used to check maven version?",
+    "options": [
+      {
+        "A": "mvn -ver"
+      },
+      {
+        "B": "mvn -version"
+      },
+      {
+        "C": "maven -ver"
+      },
+      {
+        "D": "maven -version"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 51,
+    "question": "What are the PRIMARY stakeholders for DevOps?",
+    "options": [
+      {
+        "A": "Testers"
+      },
+      {
+        "B": "Design Engineers"
+      },
+      {
+        "C": "Quality Assurance"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 52,
+    "question": "Is informatica a devops tool",
+    "options": [
+      {
+        "A": "Yes"
+      },
+      {
+        "B": "No"
+      },
+      {
+        "C": "May be"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 53,
+    "question": "What is a core value of DevOps?",
+    "options": [
+      {
+        "A": "minimizing support calls"
+      },
+      {
+        "B": "Minimizing the development time"
+      },
+      {
+        "C": "shortening release cycles"
+      },
+      {
+        "D": "shortening troubleshooting windows"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 54,
+    "question": "Which of the following DevOps practice supports The First Way?",
+    "options": [
+      {
+        "A": "Value Stream Mapping"
+      },
+      {
+        "B": "Improvement Kata"
+      },
+      {
+        "C": "Shared On-call Rotation"
+      },
+      {
+        "D": "Blameless postmortems"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 55,
+    "question": "DevOps is NOT",
+    "options": [
+      {
+        "A": "Collaboration b/w Development and Operations"
+      },
+      {
+        "B": "A one size fits all strategy"
+      },
+      {
+        "C": "A one size fits all strategy"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 56,
+    "question": "Which among the following is not included in devops?",
+    "options": [
+      {
+        "A": "Releasing"
+      },
+      {
+        "B": "Monitoring"
+      },
+      {
+        "C": "Packaging"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 57,
+    "question": "When does testing occur in a DevOps environment?",
+    "options": [
+      {
+        "A": "during development and after release"
+      },
+      {
+        "B": "only during development"
+      },
+      {
+        "C": "only after release"
+      },
+      {
+        "D": "after development but before release"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 58,
+    "question": "____________ is the primary measure of progress according to Agile Manifesto.",
+    "options": [
+      {
+        "A": "Working Software"
+      },
+      {
+        "B": "Incremental Value"
+      },
+      {
+        "C": "Continuous Deployment"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 59,
+    "question": "Product Management is one of the 7 DevOps practices.",
+    "options": [
+      {
+        "A": "Yes"
+      },
+      {
+        "B": "No"
+      },
+      {
+        "C": "May be"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 60,
+    "question": "DevOps is the union of people, process and ________ to enable continuous delivery of value to our end users.",
+    "options": [
+      {
+        "A": "Program"
+      },
+      {
+        "B": "Procedure"
+      },
+      {
+        "C": "Products"
+      },
+      {
+        "D": "Path"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 61,
+    "question": ".DevOps encompasses culture and collaboration.",
+    "options": [
+      {
+        "A": "Yes"
+      },
+      {
+        "B": "No"
+      },
+      {
+        "C": "May be"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 62,
+    "question": "During the Continuous Integration process, unit tests are executed during the build.",
+    "options": [
+      {
+        "A": "Yes"
+      },
+      {
+        "B": "No"
+      },
+      {
+        "C": "May be"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 63,
+    "question": "Continuous Delivery encourages configuration as code.",
+    "options": [
+      {
+        "A": "Yes"
+      },
+      {
+        "B": "No"
+      },
+      {
+        "C": "May be"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 64,
+    "question": "Continuous Delivery focuses on manual delivery pipeline.",
+    "options": [
+      {
+        "A": "Yes"
+      },
+      {
+        "B": "No"
+      },
+      {
+        "C": "May be"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 65,
+    "question": "_____________ ensures that the code deployed to the production environment is not necessarily released to all end users.",
+    "options": [
+      {
+        "A": "Feature Flag"
+      },
+      {
+        "B": "Configuration Checklist"
+      },
+      {
+        "C": "Deployment Checklist"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 66,
+    "question": "In Manual Integration testing, Human Intelligence is waged against the application.",
+    "options": [
+      {
+        "A": "Yes"
+      },
+      {
+        "B": "No"
+      },
+      {
+        "C": "May be"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 67,
+    "question": "It is acceptable if all the environments are not consistent in a DevOps lifecycle.",
+    "options": [
+      {
+        "A": "Yes"
+      },
+      {
+        "B": "No"
+      },
+      {
+        "C": "May be"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 68,
+    "question": "Automation empowers frequent releases and self-service.",
+    "options": [
+      {
+        "A": "Yes"
+      },
+      {
+        "B": "No"
+      },
+      {
+        "C": "May be"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 69,
+    "question": "_____________ testing tests components together in scenarios.",
+    "options": [
+      {
+        "A": "Unit"
+      },
+      {
+        "B": "Integration"
+      },
+      {
+        "C": "Performance"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 70,
+    "question": "During the Continuous Integration process, unit tests are executed during the build.",
+    "options": [
+      {
+        "A": "Yes"
+      },
+      {
+        "B": "No"
+      },
+      {
+        "C": "May be"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 71,
+    "question": "Improving the quality and performance of the applications is a major driver for switching to DevOps.",
+    "options": [
+      {
+        "A": "Yes"
+      },
+      {
+        "B": "No"
+      },
+      {
+        "C": "May be"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 72,
+    "question": "It is acceptable if all the environments are not consistent in a DevOps lifecycle.",
+    "options": [
+      {
+        "A": "Yes"
+      },
+      {
+        "B": "No"
+      },
+      {
+        "C": "May be"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 73,
+    "question": "DevOps is the union of ___________, ____________ and _________ to enable continuous delivery of value to end users.",
+    "options": [
+      {
+        "A": "People, Processes and Products"
+      },
+      {
+        "B": "People, Tools and Applications"
+      },
+      {
+        "C": "Programmers, Procedures and Products"
+      },
+      {
+        "D": "Programs, Poster and Punctuations"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 74,
+    "question": "Which one of the following methodologies does least impact the establishment of DevOps methodology?",
+    "options": [
+      {
+        "A": "Lean Manufacturing."
+      },
+      {
+        "B": "Agile Software Delivery."
+      },
+      {
+        "C": "Waterfall Software Delivery."
+      },
+      {
+        "D": "Continuous Software Delivery."
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 75,
+    "question": "Which one of the following techniques makes DevOps a successful methodology to develop and deliver software?",
+    "options": [
+      {
+        "A": "DevOps enables you to organize your teams around your organizational mission."
+      },
+      {
+        "B": "DevOps enables you to create your software with built-in quality and monitoring."
+      },
+      {
+        "C": "DevOps enables you to quickly identify, fix and learn from errors."
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 76,
+    "question": "In a DevOps organization which one of the following elements does not directly contribute to your value stream?",
+    "options": [
+      {
+        "A": "DevOps team."
+      },
+      {
+        "B": "Stakeholders of downstream work centers."
+      },
+      {
+        "C": "Errors, incidents and fixes."
+      },
+      {
+        "D": "Clients"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 77,
+    "question": "What is a widely used reusable asset to reinforce information security of deliverables from your DevOps team?",
+    "options": [
+      {
+        "A": "Data storage systems."
+      },
+      {
+        "B": "Handling the logging of sensitive client information."
+      },
+      {
+        "C": "Data transfer between clients and software."
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 78,
+    "question": "What is telemetry?",
+    "options": [
+      {
+        "A": "Telemetry is a widely known SaaS tool to plan and execute DevOps projects."
+      },
+      {
+        "B": "Telemetry is a communication tool used by DevOps teams at geographically distributed locations."
+      },
+      {
+        "C": "Telemetry is the process of recording the behaviour of your systems."
+      },
+      {
+        "D": "Telemetry is a tool to design, code and execute automated unit tests."
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 79,
+    "question": "Which DevOps principle focuses on product and service thinking?",
+    "options": [
+      {
+        "A": "Customer-centric action"
+      },
+      {
+        "B": "Continuous Improvement"
+      },
+      {
+        "C": "Create with the end in mind"
+      },
+      {
+        "D": "Automate everything you can"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 80,
+    "question": "What are the requirements to become a DevOps Engineer?",
+    "options": [
+      {
+        "A": "Fluency in web languages like Ruby, Python, PHP or Java"
+      },
+      {
+        "B": "Interpersonal skills that help you communicate and collaborate across teams and roles"
+      },
+      {
+        "C": "Experience with infrastructure automation tools like Chef, Puppet, Ansible, SaltStack or Windows PowerShell DSC"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 81,
+    "question": "Which of the following key component of DevOps?",
+    "options": [
+      {
+        "A": "Continuous Delivery"
+      },
+      {
+        "B": "Continuous Testing"
+      },
+      {
+        "C": "Continuous Testing"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 82,
+    "question": "Which of the following isn’t a goal of NewOps?",
+    "options": [
+      {
+        "A": "Integrating different operations teams like storage, network, server etc. by removing silos and be aligned with business"
+      },
+      {
+        "B": "Serving as an interface between cloud providers and customers."
+      },
+      {
+        "C": "By automating operations, remove the need for human competencies."
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 83,
+    "question": "What are the Business advantages of DevOps?",
+    "options": [
+      {
+        "A": "less stable operating environments"
+      },
+      {
+        "B": "Faster delivery of features"
+      },
+      {
+        "C": "More time available to add value"
+      },
+      {
+        "D": "Both A & B"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 84,
+    "question": "What is one of best techniques to convert normal changes into standard changes?",
+    "options": [
+      {
+        "A": "Negotiate with release managers"
+      },
+      {
+        "B": "Use your track record of successful automated deployments with standard changes"
+      },
+      {
+        "C": "Publicly complain about bureaucracy and make everyone be aware of it"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 85,
+    "question": "Which of the following goal of The Second Way?",
+    "options": [
+      {
+        "A": "Increasing flow"
+      },
+      {
+        "B": "Mastery through practice"
+      },
+      {
+        "C": "Shortening feedback loops"
+      },
+      {
+        "D": "Experimentation and learning"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 86,
+    "question": "Ansible is a?",
+    "options": [
+      {
+        "A": "Configuration Management and Deployment tools"
+      },
+      {
+        "B": "Configuration Deployment tools"
+      },
+      {
+        "C": "Continuous Integration tool"
+      },
+      {
+        "D": "Continuous Monitoring tool"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 87,
+    "question": "Mention some of the useful plugins in Jenkin___________",
+    "options": [
+      {
+        "A": "Copy artifact"
+      },
+      {
+        "B": "HTML publisher"
+      },
+      {
+        "C": "All of the above"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 88,
+    "question": "Your company is planning to host resources in the AWS Cloud. They want to use services which can be used to decouple resources hosted on the cloud. Which of the following services can help fulfill this requirement",
+    "options": [
+      {
+        "A": "AWS EBS Volumes"
+      },
+      {
+        "B": "AWS SQS"
+      },
+      {
+        "C": "AWS Glacier"
+      },
+      {
+        "D": "AWS EBS Snapshots"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 89,
+    "question": "Which git command allows downloading from repository?",
+    "options": [
+      {
+        "A": "push"
+      },
+      {
+        "B": "commit"
+      },
+      {
+        "C": "fork"
+      },
+      {
+        "D": "clone"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 90,
+    "question": "Where are user passwords stored?",
+    "options": [
+      {
+        "A": "/etc/password"
+      },
+      {
+        "B": "/root/passwd"
+      },
+      {
+        "C": "/etc/passwd"
+      },
+      {
+        "D": "/root/password"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 91,
+    "question": "How to set timezone in a VM?",
+    "options": [
+      {
+        "A": "timedatectl set-zone zone"
+      },
+      {
+        "B": "timedatectl set-zone zonename"
+      },
+      {
+        "C": "timedatectl set-timezone zonename"
+      },
+      {
+        "D": "timedatecti zone zonename"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 92,
+    "question": "What are the best practices of CI?s",
+    "options": [
+      {
+        "A": "Automate build and deployment"
+      },
+      {
+        "B": "Test in a clone of the production environment"
+      },
+      {
+        "C": "Make the build fast and self-testing"
+      },
+      {
+        "D": "All of the above"
+      }
+    ],
+    "correct_ans": "D"
+  },
+  {
+    "question_no": 93,
+    "question": "Which file is used to define dependency in Maven?",
+    "options": [
+      {
+        "A": "dependency.xml"
+      },
+      {
+        "B": "build.xml"
+      },
+      {
+        "C": "pom.xml"
+      },
+      {
+        "D": "Version.xml"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 94,
+    "question": "_______is a combination of multiple pie working together to become an automation tool",
+    "options": [
+      {
+        "A": "Ansible"
+      },
+      {
+        "B": "Git"
+      },
+      {
+        "C": "Chef"
+      },
+      {
+        "D": "Bugzilla"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 95,
+    "question": "Which one of those is a double type variable?",
+    "options": [
+      {
+        "A": "4"
+      },
+      {
+        "B": "2.36"
+      },
+      {
+        "C": "Hello World"
+      },
+      {
+        "D": "Augusta = 1234567"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 96,
+    "question": "What is the default location of Inventory file?",
+    "options": [
+      {
+        "A": "/etc/ansible/hosts"
+      },
+      {
+        "B": "/etc/configurations"
+      },
+      {
+        "C": "/etc/ansible"
+      },
+      {
+        "D": "/etc/inventory"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 97,
+    "question": "What is a core value of DevOps?",
+    "options": [
+      {
+        "A": "minimizing support calls"
+      },
+      {
+        "B": "Minimizing the development time"
+      },
+      {
+        "C": "shortening release cycles"
+      },
+      {
+        "D": "shortening troubleshooting windows"
+      }
+    ],
+    "correct_ans": "C"
+  },
+  {
+    "question_no": 98,
+    "question": "System Testing is a ______.",
+    "options": [
+      {
+        "A": "Black box testing"
+      },
+      {
+        "B": "White box testing"
+      },
+      {
+        "C": "Grey box testing"
+      },
+      {
+        "D": "Both a and b"
+      }
+    ],
+    "correct_ans": "A"
+  },
+  {
+    "question_no": 99,
+    "question": "Is informatica a devops tool",
+    "options": [
+      {
+        "A": "Yes"
+      },
+      {
+        "B": "No"
+      },
+      {
+        "C": "May be"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "B"
+  },
+  {
+    "question_no": 100,
+    "question": "Which of the following team gets priority in DevOps",
+    "options": [
+      {
+        "A": "Operational Team"
+      },
+      {
+        "B": "Development Team"
+      },
+      {
+        "C": "Both (A) and (B)"
+      },
+      {
+        "D": "None of the above"
+      }
+    ],
+    "correct_ans": "C"
+  }
+]
