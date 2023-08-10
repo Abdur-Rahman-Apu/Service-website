@@ -15,8 +15,6 @@ const calculateMark = () => {
     .then((answerSheet) => {
       // calculate mark here
 
-      console.log(answerPaper);
-
       let correctAns = 0;
       let wrongAns = 0;
       let userAnswers = [];
@@ -36,9 +34,6 @@ const calculateMark = () => {
         }
       }
 
-      console.log(userAnswers);
-
-      console.log(answerSheet.length);
       let percentage = (correctAns / 30) * 100;
 
       let result = undefined;
@@ -118,8 +113,6 @@ const calculateMark = () => {
       cardContainer.classList.add("card-container");
 
       userAnswers.forEach((ans) => {
-        console.log(ans);
-
         const questionNo = Object.keys(ans)[0];
         const givenAns = Object.values(ans)[0];
         const questionName = answerSheet[questionNo - 1].question;
@@ -127,10 +120,6 @@ const calculateMark = () => {
 
         // correct ans of each question
         const correctOption = answerSheet[questionNo - 1].correct_ans;
-
-        console.log(options);
-
-        console.log(questionNo, givenAns);
 
         const cardDiv = document.createElement("div");
         cardDiv.classList.add("card");

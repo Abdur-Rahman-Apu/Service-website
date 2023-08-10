@@ -2,7 +2,6 @@ const queryString = location.search.substring(1);
 
 const courseDetails = (data, courseId) => {
   const courseFind = data.find((course) => course.id == courseId);
-  console.log(courseFind);
 
   const {
     courseName,
@@ -288,11 +287,8 @@ const courseDetails = (data, courseId) => {
   const courseNo = ["courseOne", "courseTwo", "courseThree", "courseFour"];
 
   const courseContentSection = document.querySelector(".course-contents");
-  console.log(courseContentSection);
 
   for (let i = 0; i < curriculum.length; i++) {
-    console.log(i);
-
     const contentHolderDiv = document.createElement("div");
 
     if (separateCourses) {
@@ -305,8 +301,6 @@ const courseDetails = (data, courseId) => {
     curriculum[i].forEach((item, index) => {
       const targetId = `${courseNo[i] + index}`;
       const target = `#${courseNo[i] + index}`;
-
-      console.log(item);
 
       const parentDiv = document.createElement("div");
 
@@ -333,7 +327,6 @@ const courseDetails = (data, courseId) => {
 
       const contentSelector = `.course-contents #${targetId} ol`;
       const contentList = document.querySelector(contentSelector);
-      console.log(contentList);
 
       item.content.forEach((text) => {
         const li = document.createElement("li");

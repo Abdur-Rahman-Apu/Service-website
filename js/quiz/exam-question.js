@@ -1,6 +1,6 @@
 // This function is like initial answer paper to store users answers
 
-const answerFormat = (examName) => {
+const answerFormat = () => {
   const ansFormatToStore = [
     { 1: "" },
     { 2: "" },
@@ -110,8 +110,6 @@ const answerFormat = (examName) => {
 // This function will store users ans to the default answer paper
 
 const storeUserAnswers = (questionNo, givenAns) => {
-  console.log(questionNo, givenAns);
-
   //   get answer paper from the localStorage
   const answerPaper = JSON.parse(localStorage.getItem("quiz"));
 
@@ -128,8 +126,6 @@ const storeUserAnswers = (questionNo, givenAns) => {
 const answerSelect = () => {
   // find the selected option
   const optionList = document.querySelectorAll(".option-div p");
-
-  console.log(optionList);
 
   for (let i = 0; i < optionList.length; i++) {
     optionList[i].addEventListener("click", function () {
@@ -160,7 +156,7 @@ const answerSelect = () => {
 
 const submitAnswerPaper = () => {
   const submitBtn = document.querySelector(".submit-btn");
-  console.log(submitBtn);
+
   submitBtn.addEventListener("click", function () {
     Swal.fire({
       icon: "question",
@@ -171,8 +167,6 @@ const submitAnswerPaper = () => {
       showConfirmButton: true,
       showCancelButton: true,
     }).then((isConfirm) => {
-      console.log(isConfirm);
-
       const { isConfirmed } = isConfirm;
 
       if (isConfirmed) {
@@ -189,13 +183,9 @@ const quizShow = () => {
 
   const fileName = "data/Questions/" + search + ".json";
 
-  console.log(fileName);
-
   fetch(fileName)
     .then((res) => res.json())
     .then((data) => {
-      console.log(data);
-
       //main section
       const mainSection = document.querySelector("main");
 
@@ -258,7 +248,6 @@ const quizShow = () => {
       const randomItems = data.slice(0, 30);
 
       // Display the randomly selected items
-      console.log(randomItems);
 
       randomItems.forEach((question, index) => {
         const questionCard = document.createElement("div");
@@ -365,8 +354,6 @@ const quizShow = () => {
               showConfirmButton: true,
               allowOutsideClick: false,
             }).then((isConfirm) => {
-              console.log(isConfirm);
-
               const { isConfirmed } = isConfirm;
 
               if (isConfirmed) {
@@ -384,7 +371,6 @@ const quizShow = () => {
               .padStart(2, "0")}:${seconds.toString().padStart(2, "0")}`;
 
             timeShow.innerText = formattedTime;
-            console.log(formattedTime);
 
             // Continue the timer
             startTimer();
@@ -399,15 +385,13 @@ const quizShow = () => {
 
       timerDiv.appendChild(remainingDiv);
 
-      console.log(data, "question");
-
       //   add question div and timer div
       questionContainer.append(questionsDiv, timerDiv);
 
       mainSection.appendChild(questionContainer);
 
       // initial answer store in the local storage
-      answerFormat(search);
+      answerFormat();
 
       //   answer select
       answerSelect();

@@ -14,8 +14,6 @@ const featuredDiv = document.querySelector(".featured-projects");
 const caseStudySection = document.querySelector(".case-study-section");
 
 const featuredProjects = (data, showData) => {
-  console.log(data);
-
   let dataLength = undefined;
 
   if (showData == "all") {
@@ -49,16 +47,12 @@ const featuredProjects = (data, showData) => {
 const courseContainer = document.querySelector(".course-container");
 
 const courses = (data, showData) => {
-  console.log(data);
-
   if (showData == "all") {
     showData = data.length;
   }
 
   for (i = 0; i < showData; i++) {
     const { bannerImg, courseName, id } = data[i];
-
-    console.log(id);
 
     // course parent div
 
@@ -85,14 +79,11 @@ const courses = (data, showData) => {
 // home page featured courses
 
 const featuredCourses = (data, showData) => {
-  console.log(data);
   showData.forEach((item) => {
     const findData = data.find(
       (course) => course.shortName.toLowerCase() == item.toLowerCase()
     );
     const { bannerImg, courseName, id } = findData;
-
-    console.log(id);
 
     // course parent div
 

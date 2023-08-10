@@ -4,7 +4,6 @@ const getQuizCourse = () => {
     .then((data) => {
       // container
 
-      console.log(data);
       if (data) {
         const container = document.querySelector(".all-courses-section");
 
@@ -38,8 +37,6 @@ const getQuizCourse = () => {
           cardDiv.append(imageDiv, courseName, anchorTag);
 
           container.appendChild(cardDiv);
-
-          console.log(container);
         });
 
         attemptQuiz();
@@ -53,8 +50,6 @@ const attemptQuiz = () => {
     attemptBtn[i].addEventListener("click", function () {
       const courseName = attemptBtn[i].previousElementSibling.innerText;
 
-      console.log(courseName);
-
       // confirm box to start quiz
       Swal.fire({
         icon: "question",
@@ -66,8 +61,6 @@ const attemptQuiz = () => {
         showConfirmButton: true,
         showCancelButton: true,
       }).then((isConfirm) => {
-        console.log(isConfirm);
-
         const { isConfirmed } = isConfirm;
 
         if (isConfirmed) {

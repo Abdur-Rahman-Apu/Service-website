@@ -5,7 +5,7 @@ const caseDetailSection = document.querySelector(".case-detail-section");
 
 const caseDetails = (data, projectId) => {
   const findData = data.find((item) => item.id == projectId);
-  console.log(findData);
+
   const {
     category,
     clientName,
