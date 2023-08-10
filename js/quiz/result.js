@@ -35,10 +35,10 @@ const calculateMark = () => {
 
           // evaluate the given ans
 
-          console.log(answerSheet[originalQueNo].correct_ans);
+          console.log(answerSheet[originalQueNo - 1].correct_ans);
           console.log(givenAns);
 
-          if (answerSheet[originalQueNo].correct_ans == givenAns) {
+          if (answerSheet[originalQueNo - 1].correct_ans == givenAns) {
             correctAns++;
           } else {
             wrongAns++;
@@ -135,6 +135,9 @@ const calculateMark = () => {
         const questionName = answerSheet[questionNo - 1].question;
         const options = answerSheet[questionNo - 1].options;
         const correctOption = answerSheet[questionNo - 1].correct_ans;
+
+        console.log(userAns, "userAns");
+        console.log(correctOption, "correct option");
 
         const cardDiv = document.createElement("div");
         cardDiv.classList.add("card");
