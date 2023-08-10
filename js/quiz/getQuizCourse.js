@@ -21,6 +21,7 @@ const getQuizCourse = () => {
           // image
           const image = document.createElement("img");
           image.setAttribute("src", course?.bannerImg);
+          image.setAttribute("alt", "image");
 
           imageDiv.appendChild(image);
 

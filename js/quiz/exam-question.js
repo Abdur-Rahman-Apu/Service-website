@@ -198,7 +198,7 @@ const quizShow = () => {
       companyLogo.classList.add("company-logo");
 
       companyLogo.innerHTML = `
-        <img src="images/SK-Logo-yellow-black.png"/>
+        <img src="images/SK-Logo-yellow-black.png" alt="image"/>
       `;
 
       //   exam name

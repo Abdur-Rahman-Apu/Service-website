@@ -52,7 +52,7 @@ const calculateMark = () => {
 
       header.innerHTML = `
         <div class="logo">
-            <img src='images/SK-Logo-yellow-black.png'/>
+            <img src='images/SK-Logo-yellow-black.png' alt="image" />
         </div>
 
         <h1>Course Name: ${examName}</h1>
@@ -77,6 +77,7 @@ const calculateMark = () => {
 
       const achievementLogo = document.querySelector(".achievement-logo");
       const img = document.createElement("img");
+      img.setAttribute("alt", "image");
 
       if (result == "Passed") {
         img.setAttribute("src", "images/pass.jpg");

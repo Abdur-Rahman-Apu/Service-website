@@ -133,7 +133,7 @@ const courseDetails = (data, courseId) => {
     </div>
           
     <div class="banner-img">
-        <img src=${bannerImg} data-aos="fade-up" />
+        <img src=${bannerImg} data-aos="fade-up" alt="banner-image" />
     </div>
       
   </div>
@@ -150,7 +150,7 @@ const courseDetails = (data, courseId) => {
   <div class="reason-to-enroll">
       
       <div data-aos="fade-right" class="reason-to-enroll-left-side">
-          <img src='./images/course-img/course-details/girl.jpg' />
+          <img src='./images/course-img/course-details/girl.jpg' alt="image" />
       </div>
       
       <div data-aos="zoom-in" class="reason-to-enroll-right-side">
@@ -177,7 +177,7 @@ const courseDetails = (data, courseId) => {
           <p>${prerequisite.suggest}</p>
       </div>
       <div>
-          <img src="./images/course-img/course-details/boy.jpg" data-aos="zoom-in-up" />
+          <img src="./images/course-img/course-details/boy.jpg" data-aos="zoom-in-up" alt="image" />
       </div>
   </div>
 
@@ -348,7 +348,7 @@ const courseDetails = (data, courseId) => {
     parentDiv.setAttribute("data-aos", "flip-right");
     parentDiv.innerHTML = `
                             <div class="feature-img">
-                                <img src=${feature.img} />
+                                <img src=${feature.img} alt="image" />
                             </div>
 
                             <p>${feature.title}</p>`;

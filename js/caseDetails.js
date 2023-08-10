@@ -22,7 +22,7 @@ const caseDetails = (data, projectId) => {
         <h1 class="title">${name}</h1>
 
         <div class="project-logo">
-            <img src=${gifImg}>
+            <img src=${gifImg} alt="image" />
         </div>
 
         <hr>
@@ -50,7 +50,7 @@ const caseDetails = (data, projectId) => {
     const itemDiv = document.createElement("div");
     itemDiv.classList.add("item");
     itemDiv.innerHTML = `
-                    <img src=${link} data-action="zoom">
+                    <img src=${link} data-action="zoom" alt="image" />
             `;
 
     carouselDiv.appendChild(itemDiv);

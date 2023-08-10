@@ -31,7 +31,7 @@ const featuredProjects = (data, showData) => {
     projectParentDiv.setAttribute("data-aos-duration", 3000);
     projectParentDiv.setAttribute("data-aos-easing", "ease-in-out");
     projectParentDiv.innerHTML = `
-                  <img src='${thumbnailImg}'/>
+                  <img src='${thumbnailImg}' alt="image" />
                   <p>${name}</p>                
                   `;
 
@@ -65,7 +65,7 @@ const courses = (data, showData) => {
     courseDiv.innerHTML = `
                     <a href=${courseDetailPath}>
                         <div class="course-banner">
-                            <img src=${bannerImg} />
+                            <img src=${bannerImg} alt="image" />
                         </div>
                             <h1 class="course-title">${courseName}</h1>
                         </div>    
@@ -96,7 +96,7 @@ const featuredCourses = (data, showData) => {
     courseDiv.innerHTML = `
                     <a href=${courseDetailPath}>
                         <div class="course-banner">
-                            <img src=${bannerImg} />
+                            <img src=${bannerImg} alt="image" />
                         </div>
                             <h1 class="course-title">${courseName}</h1>
                         </div>    
