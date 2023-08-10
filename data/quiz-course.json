@@ -77,12 +77,12 @@
   {
     "id": 15,
     "courseName": "HTML",
-    "bannerImg": "./images/course-img/course-banner/html.jpg"
+    "bannerImg": "./images/course-img/course-banner/html.png"
   },
   {
     "id": 16,
     "courseName": "CSS",
-    "bannerImg": "./images/course-img/course-banner/css.jpg"
+    "bannerImg": "./images/course-img/course-banner/css.png"
   },
   {
     "id": 17,
