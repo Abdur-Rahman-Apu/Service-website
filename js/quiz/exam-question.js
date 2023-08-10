@@ -1,13 +1,9 @@
 // This function is like initial answer paper to store users answers
 
 const answerFormat = (questions) => {
-  // console.log(questions);
-
   const ansFormatToStore = [];
 
   questions.forEach((question, index) => {
-    // console.log(question);
-
     const que = {
       serial: index + 1,
       question_no: question.question_no,
@@ -16,7 +12,6 @@ const answerFormat = (questions) => {
 
     ansFormatToStore.push(que);
   });
-  console.log(ansFormatToStore);
 
   localStorage.setItem("quiz", JSON.stringify(ansFormatToStore));
 };
@@ -28,17 +23,12 @@ const storeUserAnswers = (questionNo, givenAns) => {
   const answerPaper = JSON.parse(localStorage.getItem("quiz"));
 
   for (let i = 0; i < answerPaper.length; i++) {
-    console.log(answerPaper[i].question_no);
+    // check
     if (answerPaper[i].question_no == questionNo) {
-      console.log(answerPaper[i]);
       answerPaper[i].given_ans = givenAns;
       break;
     }
   }
-
-  console.log(answerPaper);
-
-  // answerPaper[questionNo - 1][questionNo] = givenAns;
 
   localStorage.setItem("quiz", JSON.stringify(answerPaper));
 };
@@ -167,8 +157,6 @@ const quizShow = () => {
 
       // Take the first 30 items from the shuffled array
       const randomItems = data.slice(0, 30);
-
-      console.log(randomItems);
 
       // Display the randomly selected items
 

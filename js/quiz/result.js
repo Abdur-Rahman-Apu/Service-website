@@ -17,26 +17,16 @@ const calculateMark = () => {
 
       let correctAns = 0;
       let wrongAns = 0;
-      let userAnswers = [];
 
       for (let i = 0; i < answerPaper.length; i++) {
         // check ans is available or not
-
-        console.log(answerPaper[i]);
 
         const originalQueNo = answerPaper[i].question_no;
         const serialNo = answerPaper[i].serial;
         const givenAns = answerPaper[i].given_ans;
 
         if (givenAns) {
-          console.log(originalQueNo);
-          // store users ans only
-          // userAnswers.push(answerPaper[i]);
-
           // evaluate the given ans
-
-          console.log(answerSheet[originalQueNo - 1].correct_ans);
-          console.log(givenAns);
 
           if (answerSheet[originalQueNo - 1].correct_ans == givenAns) {
             correctAns++;
@@ -125,19 +115,13 @@ const calculateMark = () => {
       const cardContainer = document.createElement("div");
       cardContainer.classList.add("card-container");
 
-      console.log("Evaluation");
       answerPaper.forEach((eachAns) => {
-        console.log(eachAns);
-
         const serialNo = eachAns.serial;
         const questionNo = eachAns.question_no;
         const userAns = eachAns.given_ans;
         const questionName = answerSheet[questionNo - 1].question;
         const options = answerSheet[questionNo - 1].options;
         const correctOption = answerSheet[questionNo - 1].correct_ans;
-
-        console.log(userAns, "userAns");
-        console.log(correctOption, "correct option");
 
         const cardDiv = document.createElement("div");
         cardDiv.classList.add("card");
@@ -156,7 +140,6 @@ const calculateMark = () => {
 
         options.forEach((option) => {
           // separate the option no and option name
-          console.log(option);
 
           const optionNo = Object.keys(option)[0];
           const optionName = Object.values(option)[0];
