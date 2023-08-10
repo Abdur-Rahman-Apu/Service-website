@@ -727,7 +727,7 @@
     "id": 2,
     "price": "",
     "courseName": " C, C++ & Java Programming Course",
-    "separateCourses":["C","C++","Java"],
+    "separateCourses": ["C", "C++", "Java"],
     "shortName": " C, C++ & Java",
     "bannerImg": "./images/course-img/course-banner/c,c++,java.png",
     "overview": "A programming language is a language people use when developing software to tell a computer what to do. Do you want to career in programming sector? Then this course is for you. You can learn basic to advanced concepts of C, C++ and Java.",
@@ -1009,10 +1009,7 @@
         {
           "no": 1,
           "title": "Introduction of C++",
-          "content": [
-            "Introduction",
-            "Setting up visual studio Code"
-          ]
+          "content": ["Introduction", "Setting up visual studio Code"]
         },
         {
           "no": 2,
@@ -1136,17 +1133,12 @@
         {
           "no": 1,
           "title": "Introduction of Java",
-          "content": [
-            "Introduction to the course",
-            "Installation"
-          ]
+          "content": ["Introduction to the course", "Installation"]
         },
         {
           "no": 2,
           "title": "First Java program",
-          "content": [
-            "Writing our first Java program"
-          ]
+          "content": ["Writing our first Java program"]
         },
         {
           "no": 3,
@@ -1237,9 +1229,7 @@
         {
           "no": 11,
           "title": "Jshell",
-          "content": [
-            "Jshell"
-          ]
+          "content": ["Jshell"]
         },
         {
           "no": 12,
@@ -1276,9 +1266,7 @@
         {
           "no": 15,
           "title": "Project - phone dealership",
-          "content": [
-            "Building our awesome project"
-          ]
+          "content": ["Building our awesome project"]
         },
         {
           "no": 16,
@@ -1292,18 +1280,12 @@
         {
           "no": 17,
           "title": "Intro to Servlets",
-          "content": [
-            "Tomcat setup",
-            "What is a Servlet"
-          ]
+          "content": ["Tomcat setup", "What is a Servlet"]
         },
         {
           "no": 18,
           "title": "Servlet context and config",
-          "content": [
-            "Servlet config",
-            "Servlet context"
-          ]
+          "content": ["Servlet config", "Servlet context"]
         },
         {
           "no": 19,
@@ -1317,16 +1299,12 @@
         {
           "no": 20,
           "title": "Filter",
-          "content": [
-            "Filters explained with example"
-          ]
+          "content": ["Filters explained with example"]
         },
         {
           "no": 21,
           "title": "JSP scripting",
-          "content": [
-            "JSP scripting elements"
-          ]
+          "content": ["JSP scripting elements"]
         },
         {
           "no": 22,
@@ -1344,34 +1322,22 @@
         {
           "no": 23,
           "title": "JSP directives",
-          "content": [
-            "JSP page directives",
-            "JSP include and Taglib directive"
-          ]
+          "content": ["JSP page directives", "JSP include and Taglib directive"]
         },
         {
           "no": 24,
           "title": "JSP action tags",
-          "content": [
-            "JSP forward, param, include tag",
-            "UseBean action tag"
-          ]
+          "content": ["JSP forward, param, include tag", "UseBean action tag"]
         },
         {
           "no": 25,
           "title": "JSP MVC",
-          "content": [
-            "Expression language",
-            "Model view and controller"
-          ]
+          "content": ["Expression language", "Model view and controller"]
         },
         {
           "no": 26,
           "title": "Login app using JSP",
-          "content": [
-            "Login app - 1",
-            "Login app - 2"
-          ]
+          "content": ["Login app - 1", "Login app - 2"]
         }
       ]
     ],
@@ -1439,7 +1405,6 @@
           "que": "Is this  C, C++ & Java Programming Course for Beginners?",
           "ans": "This Programming course covers all the topics from basics to advanced level. So this is a C , C++ & Java training for anyone looking learn C, C++ & Java programming language from scratch."
         }
-        
       ],
       [
         {
@@ -1835,7 +1800,6 @@
           "Learn to create stunning UI/UX designs for any website",
           "Get hired as a UI/UX designer.",
           "Build amazing portfolio with great and extensive designs"
-          
         ],
         [
           "Convert your awesome design to code with help of HTML/CSS.",
@@ -1868,17 +1832,12 @@
         {
           "no": 1,
           "title": "Introduction to the Course",
-          "content": [
-            "Introduction"
-          ]
+          "content": ["Introduction"]
         },
         {
           "no": 2,
           "title": "Inspiration",
-          "content": [
-            "How to stay inspired",
-            "How to find inspiration"
-          ]
+          "content": ["How to stay inspired", "How to find inspiration"]
         },
         {
           "no": 3,
@@ -1907,9 +1866,7 @@
         {
           "no": 5,
           "title": "Feedback",
-          "content": [
-            "Why is feedback important and how to work on them"
-          ]
+          "content": ["Why is feedback important and how to work on them"]
         },
         {
           "no": 6,
@@ -1968,9 +1925,9 @@
 
           "content": [
             "Grid",
-           "Grid basics",
-           "Responsive grids and breakpoints",
-           "Grid guidelines"
+            "Grid basics",
+            "Responsive grids and breakpoints",
+            "Grid guidelines"
           ]
         },
         {
@@ -1992,17 +1949,16 @@
           "title": "Visual assets",
 
           "content": [
-           "Visual assets introduction",
-           "Photos in Figma",
-           "Photos in Figma 2",
-           "Working with developers",
-           "Figma plusging and icons",
-           "Custom icons"
+            "Visual assets introduction",
+            "Photos in Figma",
+            "Photos in Figma 2",
+            "Working with developers",
+            "Figma plusging and icons",
+            "Custom icons"
           ]
         }
       ],
       [
-        
         {
           "no": 13,
           "title": "Design patterns",
@@ -2045,11 +2001,11 @@
           "title": "Typography",
 
           "content": [
-           "Serif",
-           "Sans Serig",
-           "Display and mono",
-           "Choosing a typeface",
-           "Creating our own type system"
+            "Serif",
+            "Sans Serig",
+            "Display and mono",
+            "Choosing a typeface",
+            "Creating our own type system"
           ]
         },
         {
@@ -2057,19 +2013,19 @@
           "title": "Forms + UI elements",
 
           "content": [
-           "What are forms and UI elements",
-           "Best practices for forms",
-           "Best practices for inputs",
-           "Best practices for inputs_2",
-           "Best practices for inputs_3",
-           "Best practices for inputs4",
-           "Best practices for buttons",
-           "Creating components in figma",
-           "Using atomic elements",
-           "Using instances in figma",
-           "Editing instances",
-           "Responsive components",
-           "Creating a registration form"
+            "What are forms and UI elements",
+            "Best practices for forms",
+            "Best practices for inputs",
+            "Best practices for inputs_2",
+            "Best practices for inputs_3",
+            "Best practices for inputs4",
+            "Best practices for buttons",
+            "Creating components in figma",
+            "Using atomic elements",
+            "Using instances in figma",
+            "Editing instances",
+            "Responsive components",
+            "Creating a registration form"
           ]
         },
         {
@@ -2077,29 +2033,26 @@
           "title": "Accessibilty",
 
           "content": [
-           "Visual Patterns for accessibilty",
-           "Tools to make design accessible",
-           "Visual patterns for accessibilty"
+            "Visual Patterns for accessibilty",
+            "Tools to make design accessible",
+            "Visual patterns for accessibilty"
           ]
         },
         {
           "no": 19,
           "title": "Mobile design",
 
-          "content": [
-           "Mobile design best practices",
-           "Best practice part 2"
-          ]
+          "content": ["Mobile design best practices", "Best practice part 2"]
         },
         {
           "no": 20,
           "title": "Motion",
 
           "content": [
-           "Importance of motion",
-           "The purpose of motion",
-           "Intro to smart animate",
-           "The power of smart animate"
+            "Importance of motion",
+            "The purpose of motion",
+            "Intro to smart animate",
+            "The power of smart animate"
           ]
         },
         {
@@ -2107,10 +2060,10 @@
           "title": "Design systems",
 
           "content": [
-           "Components cards",
-           "Vertical cards",
-           "Recipes search",
-           "Recipes order list"
+            "Components cards",
+            "Vertical cards",
+            "Recipes search",
+            "Recipes order list"
           ]
         },
         {
@@ -2118,8 +2071,8 @@
           "title": "Web portfolio",
 
           "content": [
-           "Where to host your web portfolio",
-           "How to place and expert designs"
+            "Where to host your web portfolio",
+            "How to place and expert designs"
           ]
         },
         {
@@ -2127,14 +2080,14 @@
           "title": "Final Compositions",
 
           "content": [
-           "Using our design system",
-           "Using our design system 2 part 1",
-           "Using our design system 2 part 2",
-           "Using our design system 3",
-           "Final prototypes",
-           "Final prototypes 2",
-           "Final prototypes 3",
-           "Final prototypes 4"
+            "Using our design system",
+            "Using our design system 2 part 1",
+            "Using our design system 2 part 2",
+            "Using our design system 3",
+            "Final prototypes",
+            "Final prototypes 2",
+            "Final prototypes 3",
+            "Final prototypes 4"
           ]
         }
       ]
@@ -2199,7 +2152,6 @@
           "que": "What will the end result be of this online UI/UX training course?",
           "ans": "When you finish this course, you will be equipped with practical skills and theoretical knowledge the industry looks for. You will bloom into a certified UI/UX design professional who is ready to take on design Projects in top organizations."
         }
-        
       ],
       [
         {
@@ -2508,12 +2460,10 @@
         "title": "2- Months of live Internship"
       }
     ],
-    "forWho": 
-      {
-        "que": "Is this online Hadoop Spark course for you?",
-        "ans": "Big Data is the truth of today and Hadoop and Spark prove to be efficient in processing it. So while anyone can benefit from a career in it, here are the kind of professionals who go for this Hadoop and Spark course:<ul><li>Software developers</li><li>App Developers</li><li>Web developers, Mobile app developers</li><li>Freshers / Graduates focusing to build a rock solid career</li></ul>"
-      }
-    ,
+    "forWho": {
+      "que": "Is this online Hadoop Spark course for you?",
+      "ans": "Big Data is the truth of today and Hadoop and Spark prove to be efficient in processing it. So while anyone can benefit from a career in it, here are the kind of professionals who go for this Hadoop and Spark course:<ul><li>Software developers</li><li>App Developers</li><li>Web developers, Mobile app developers</li><li>Freshers / Graduates focusing to build a rock solid career</li></ul>"
+    },
     "companies": {
       "title": "Companies you can expect when you certified with us",
       "img": "./images/companies.png"
@@ -3636,7 +3586,8 @@
             "Project - app landing project",
             "Themes in bootstrap"
           ]
-        }, {
+        },
+        {
           "no": 5,
           "title": "JavaScript - I",
           "content": [
@@ -3689,7 +3640,8 @@
             "Droppable",
             "Jqui widget"
           ]
-        },{
+        },
+        {
           "no": 8,
           "title": "The killer website (Frontend project",
 
@@ -3767,24 +3719,15 @@
           "no": 10,
           "title": "Intro to backend",
 
-          "content": [
-            "Backend"
-          ]
+          "content": ["Backend"]
         }
       ],
       [
-       
-        
         {
           "no": 11,
           "title": "Intro to nodejs",
 
-          "content": [
-            "Nodejs",
-            "REPL",
-            "Native modules",
-            "Modules in nodejs"
-          ]
+          "content": ["Nodejs", "REPL", "Native modules", "Modules in nodejs"]
         },
         {
           "no": 12,
@@ -3802,11 +3745,7 @@
           "no": 13,
           "title": "API",
 
-          "content": [
-            "API",
-            "Authentication and JSON",
-            "Weather app"
-          ]
+          "content": ["API", "Authentication and JSON", "Weather app"]
         },
         {
           "no": 14,
@@ -5015,9 +4954,7 @@
         {
           "no": 6,
           "title": "Feedback & commenting",
-          "content": [
-            "Sharing wireframes for comments in Adobe XD"
-          ]
+          "content": ["Sharing wireframes for comments in Adobe XD"]
         },
         {
           "no": 7,
@@ -5079,9 +5016,7 @@
           "no": 12,
           "title": "Working with Illustrator",
 
-          "content": [
-            "Do I need to know Illustrator with Adobe XD"
-          ]
+          "content": ["Do I need to know Illustrator with Adobe XD"]
         },
         {
           "no": 13,
@@ -5122,9 +5057,7 @@
           "no": 16,
           "title": "What next",
 
-          "content": [
-            "Whats next after Adobe XD essentials"
-          ]
+          "content": ["Whats next after Adobe XD essentials"]
         }
       ]
     ],
@@ -5243,7 +5176,6 @@
           "Learn to take Excel spread sheets and animate this in After Effects.",
           "Learn how to make animated pie charts, line charts & bar graphs.",
           "Techniques used by professional motion graphic designers."
-          
         ],
         [
           "Get liftetime course access on each course",
@@ -5333,27 +5265,23 @@
           "title": "Exporting from after effects",
           "content": ["Exporting from after effects"]
         }
-        
       ],
       [
         {
           "no": 11,
           "title": "3d animation and camera tool",
-          "content": ["3d animation and camera tool","3d Text and Space"]
-        }
-        ,
+          "content": ["3d animation and camera tool", "3d Text and Space"]
+        },
         {
           "no": 12,
           "title": "Screen Replacement",
           "content": ["Screen Replacement"]
         },
         {
-          "no":13,
+          "no": 13,
           "title": "Effect and Presets",
 
-          "content": [
-            "Effect and Presets"
-          ]
+          "content": ["Effect and Presets"]
         },
         {
           "no": 14,
@@ -5369,9 +5297,7 @@
           "no": 15,
           "title": "After effects Audio",
 
-          "content": [
-            "After effects Audio"
-          ]
+          "content": ["After effects Audio"]
         },
         {
           "no": 16,
@@ -5398,10 +5324,7 @@
           "no": 19,
           "title": "Typography Project",
 
-          "content": [
-            "Rotating Typography",
-            "Kinetic Typography"
-          ]
+          "content": ["Rotating Typography", "Kinetic Typography"]
         },
         {
           "no": 20,
@@ -5419,9 +5342,7 @@
           "no": 21,
           "title": "Conclusion",
 
-          "content": [
-            "Conclusion"
-          ]
+          "content": ["Conclusion"]
         }
       ]
     ],
@@ -5485,7 +5406,6 @@
           "que": "What will the end result be of this online training course?",
           "ans": "When you finish this course, you will be equipped with practical skills and theoretical knowledge the industry looks for"
         }
-        
       ],
       [
         {
@@ -5623,7 +5543,6 @@
             "Final project solution"
           ]
         }
-        
       ],
       [
         {
@@ -5790,7 +5709,6 @@
           "Build awesome apps along with cool UI/UX",
           "Build major projects which makes your resume stand apart alongwith course completion certifications",
           "Get liftetime course access on each course"
-          
         ],
         [
           "Get a high paying job as an app developer",
@@ -5973,10 +5891,7 @@
           "no": 12,
           "title": "Kotlin apps",
 
-          "content": [
-            "Tic Tac Toe in Kotlin",
-            "Kotlin App Firebase"
-          ]
+          "content": ["Tic Tac Toe in Kotlin", "Kotlin App Firebase"]
         },
         {
           "no": 13,
@@ -6102,10 +6017,7 @@
     "overview": "This CCNA course will help you to improve yourself about networking basics, switching & routing technologies, IPv4 and IPv6. If you are a beginner for networking technologies, our CCNA certification program is great for you! You will get the certification easily with this CCNA course and begin your career in networking industry.",
     "reasons": {
       "enroll": [
-        [
-          "Live practicals",
-          "Study material, quizzes & manuals"
-        ],
+        ["Live practicals", "Study material, quizzes & manuals"],
         [
           "Practical oriented course with case-studies",
           "Lifetime access of LMS with videos & material"
@@ -6149,10 +6061,7 @@
         {
           "no": 1,
           "title": "About Cisco CCNA exam and training",
-          "content": [
-            "CCNA exam overview",
-            "Cisco packet tracer"
-          ]
+          "content": ["CCNA exam overview", "Cisco packet tracer"]
         },
         {
           "no": 2,
@@ -6221,7 +6130,6 @@
             "IOS images & licensing"
           ]
         }
-        
       ],
       [
         {
@@ -6343,7 +6251,6 @@
           "que": "What will the end result be of this online training course?",
           "ans": "When you finish this course, you will be equipped with practical skills and theoretical knowledge the industry looks for. You will bloom into a certified CCNA professional who is ready to take on Networking Projects in top organizations."
         }
-        
       ],
       [
         {
@@ -6385,10 +6292,7 @@
     "overview": "The Certified Cloud Security Professional (CCSP) exam is a certification exam designed to test an applicant’s knowledge of the principles of securing cloud-based environments.<br>In this course, we have addressed every aspect of the exam requirements and will continually, and weekly, add more content or quizzes to enable you master and pass the certification exam!!",
     "reasons": {
       "enroll": [
-        [
-          "Practice Exams",
-          "8+ hrs of study material, quizzes & manuals"
-        ],
+        ["Practice Exams", "8+ hrs of study material, quizzes & manuals"],
         [
           "Practical oriented course with case-studies",
           "Lifetime access of LMS with videos & material"
@@ -6400,7 +6304,6 @@
           " Grasp concepts of CCSP",
           " Become adept in CCSP",
           " Understand the CCSP architecture"
-          
         ],
         [
           "You will learn what it takes to become a Cloud Security Professional and the material required to pass the CCSP certification",
@@ -6445,16 +6348,12 @@
         {
           "no": 2,
           "title": "Question & answers deep dive - arcitecture concepts",
-          "content": [
-            "Q&A deep dive #1"
-          ]
+          "content": ["Q&A deep dive #1"]
         },
         {
           "no": 3,
           "title": "Architecture Concepts",
-          "content": [
-            "Architecture concepts"
-          ]
+          "content": ["Architecture concepts"]
         },
         {
           "no": 4,
@@ -6475,26 +6374,19 @@
         {
           "no": 6,
           "title": "Cloud data security",
-          "content": [
-            "Cloud data security"
-          ]
+          "content": ["Cloud data security"]
         },
         {
           "no": 7,
           "title": "Security in the cloud",
-          "content": [
-            "Security in the cloud"
-          ]
+          "content": ["Security in the cloud"]
         }
-        
       ],
       [
         {
           "no": 8,
           "title": "Responsibilities in the cloud",
-          "content": [
-            "Responsibilities in the cloud"
-          ]
+          "content": ["Responsibilities in the cloud"]
         },
         {
           "no": 9,
@@ -6513,9 +6405,7 @@
           "no": 10,
           "title": "Operation elements",
 
-          "content": [
-            "Operation elements"
-          ]
+          "content": ["Operation elements"]
         },
         {
           "no": 11,
@@ -6613,7 +6503,6 @@
           "que": "What will the end result be of this online training course?",
           "ans": "When you finish this course, you will be equipped with practical skills and theoretical knowledge the industry looks for. You will bloom into a certified CCSP professional who is ready to take on Angular Projects in top organizations."
         }
-       
       ],
       [
         {
@@ -6714,9 +6603,7 @@
         {
           "no": 2,
           "title": "The course condensed! Live workshop by the GPT agency",
-          "content": [
-            "Live workshop including Q&A with masterclass students"
-          ]
+          "content": ["Live workshop including Q&A with masterclass students"]
         },
         {
           "no": 3,
@@ -6760,7 +6647,6 @@
             "Write a novel with me: ChatGPT for creative fiction and screenplays"
           ]
         }
-        
       ],
       [
         {
@@ -6811,9 +6697,7 @@
           "no": 10,
           "title": "Learn from other members of the ChatGPT community",
 
-          "content": [
-            "Bonus lecture"
-          ]
+          "content": ["Bonus lecture"]
         }
       ]
     ],
@@ -6877,7 +6761,6 @@
           "que": "What will the end result be of this online training course?",
           "ans": "When you finish this course, you will be equipped with practical skills and theoretical knowledge the industry looks for. You will bloom into a certified ChatGPT professional."
         }
-        
       ],
       [
         {
@@ -6961,9 +6844,7 @@
         {
           "no": 1,
           "title": "Welcome section",
-          "content": [
-            "Welcome to cloud computing course"
-          ]
+          "content": ["Welcome to cloud computing course"]
         },
         {
           "no": 2,
@@ -7007,7 +6888,6 @@
             "Conclusion"
           ]
         }
-        
       ],
       [
         {
@@ -7079,9 +6959,7 @@
           "no": 10,
           "title": "Build your own private cloud at home",
 
-          "content": [
-            "Build your own private cloud: Devstack installation"
-          ]
+          "content": ["Build your own private cloud: Devstack installation"]
         }
       ]
     ],
@@ -7145,7 +7023,6 @@
           "que": "What will the end result be of this online Cloud Computing training course?",
           "ans": "When you finish this course, you will be equipped with practical skills and theoretical knowledge the industry looks for. You will bloom into a certified Cloud Computing professional who is ready to take on Cloud Computing Projects in top organizations."
         }
-        
       ],
       [
         {
@@ -7236,26 +7113,17 @@
         {
           "no": 1,
           "title": "Introduction",
-          "content": [
-            "Introduction"
-          ]
+          "content": ["Introduction"]
         },
         {
           "no": 2,
           "title": "Excel - Data analysis and visualization",
-          "content": [
-            "DA-Excel",
-            "DA-Excel 2",
-            "DA-Excel 3"
-          ]
+          "content": ["DA-Excel", "DA-Excel 2", "DA-Excel 3"]
         },
         {
           "no": 3,
           "title": "Data science intro",
-          "content": [
-            "Data science",
-            "Understanding Buzzwords"
-          ]
+          "content": ["Data science", "Understanding Buzzwords"]
         },
         {
           "no": 4,
@@ -7299,9 +7167,7 @@
         {
           "no": 7,
           "title": "Exploratory data analysis",
-          "content": [
-            "EDA"
-          ]
+          "content": ["EDA"]
         }
       ],
       [
@@ -7615,7 +7481,6 @@
             "AgroCD - Wrapup"
           ]
         }
-        
       ],
       [
         {
@@ -7708,12 +7573,7 @@
           "no": 12,
           "title": "Terraform",
 
-          "content": [
-            "Intro",
-            "Setup",
-            "Commands",
-            "Demo project and wrapup"
-          ]
+          "content": ["Intro", "Setup", "Commands", "Demo project and wrapup"]
         }
       ]
     ],
@@ -7777,7 +7637,6 @@
           "que": "What will the end result be of this online DevOps training course?",
           "ans": "When you finish this course, you will be equipped with practical skills and theoretical knowledge the industry looks for. You will bloom into a certified DevOps professional who is ready to take on DevOps Projects in top organizations."
         }
-        
       ],
       [
         {
@@ -8006,9 +7865,7 @@
           "no": 10,
           "title": "Content marketing",
 
-          "content": [
-            "Content marketing"
-          ]
+          "content": ["Content marketing"]
         },
         {
           "no": 11,
@@ -8180,9 +8037,7 @@
           "no": 19,
           "title": "Conclusion",
 
-          "content": [
-            "Conclusion"
-          ]
+          "content": ["Conclusion"]
         }
       ]
     ],
@@ -8246,7 +8101,6 @@
           "que": "What will the end result be of this online Digital Marketing training course?",
           "ans": "When you finish this course, you will be equipped with practical skills and theoretical knowledge the industry looks for. You will bloom into a certified Digital Marketing professional who is ready to take on Digital Marketing Projects in top organizations."
         }
-        
       ],
       [
         {
@@ -8283,7 +8137,7 @@
   {
     "id": 24,
     "courseName": "Ethical Hacking Certification Course ",
-    "bannerImg": "./images/course-img/course-banner/Ethical-Hacking.png",
+    "bannerImg": "./images/course-img/course-banner/Ethical-Hacking.jpg",
     "shortName": "Ethical Hacking",
     "overview": "Ethical hacking involves an authorized attempt to gain unauthorized access to a computer system, application, or data. This course is highly practical but it won't neglect the theory; we'll start with ethical hacking basics.",
     "reasons": {
@@ -8336,9 +8190,7 @@
         {
           "no": 1,
           "title": "Introduction to Ethical Hacking",
-          "content": [
-            "Introduction to the course"
-          ]
+          "content": ["Introduction to the course"]
         },
         {
           "no": 2,
@@ -8361,9 +8213,7 @@
         {
           "no": 4,
           "title": "System Exploitation",
-          "content": [
-            "System Exploitation"
-          ]
+          "content": ["System Exploitation"]
         },
         {
           "no": 5,
@@ -8407,9 +8257,7 @@
           "no": 9,
           "title": "Web app hacking information gathering",
 
-          "content": [
-            "Website Recon"
-          ]
+          "content": ["Website Recon"]
         },
         {
           "no": 10,
@@ -8462,9 +8310,7 @@
           "no": 14,
           "title": "Website hacking basics",
 
-          "content": [
-            "Website hacking and how the work"
-          ]
+          "content": ["Website hacking and how the work"]
         },
         {
           "no": 15,
@@ -8480,10 +8326,7 @@
           "no": 16,
           "title": "WebApp hacking XSS",
 
-          "content": [
-            "Stored XSS",
-            "Reflected XSS"
-          ]
+          "content": ["Stored XSS", "Reflected XSS"]
         }
       ]
     ],
@@ -8547,7 +8390,6 @@
           "que": "What will the end result be of this online Ethical Hacking training course?",
           "ans": "When you finish this course, you will be equipped with practical skills and theoretical knowledge the industry looks for. You will bloom into a certified Ethical Hacking professional who is ready to take on Ethical hacking related tasks in top organizations."
         }
-        
       ],
       [
         {
@@ -8603,7 +8445,6 @@
           "Learn to create stunning UI/UX designs for any website",
           "Get hired as a UI/UX designer.",
           "Build amazing portfolio with great and extensive designs"
-          
         ],
         [
           "Convert your awesome design to code with help of HTML/CSS.",
@@ -8636,17 +8477,12 @@
         {
           "no": 1,
           "title": "Introduction to the Course",
-          "content": [
-            "Introduction"
-          ]
+          "content": ["Introduction"]
         },
         {
           "no": 2,
           "title": "Inspiration",
-          "content": [
-            "How to stay inspired",
-            "How to find inspiration"
-          ]
+          "content": ["How to stay inspired", "How to find inspiration"]
         },
         {
           "no": 3,
@@ -8675,9 +8511,7 @@
         {
           "no": 5,
           "title": "Feedback",
-          "content": [
-            "Why is feedback important and how to work on them"
-          ]
+          "content": ["Why is feedback important and how to work on them"]
         },
         {
           "no": 6,
@@ -8736,9 +8570,9 @@
 
           "content": [
             "Grid",
-           "Grid basics",
-           "Responsive grids and breakpoints",
-           "Grid guidelines"
+            "Grid basics",
+            "Responsive grids and breakpoints",
+            "Grid guidelines"
           ]
         },
         {
@@ -8760,17 +8594,16 @@
           "title": "Visual assets",
 
           "content": [
-           "Visual assets introduction",
-           "Photos in Figma",
-           "Photos in Figma 2",
-           "Working with developers",
-           "Figma plusging and icons",
-           "Custom icons"
+            "Visual assets introduction",
+            "Photos in Figma",
+            "Photos in Figma 2",
+            "Working with developers",
+            "Figma plusging and icons",
+            "Custom icons"
           ]
         }
       ],
       [
-        
         {
           "no": 13,
           "title": "Design patterns",
@@ -8813,11 +8646,11 @@
           "title": "Typography",
 
           "content": [
-           "Serif",
-           "Sans Serig",
-           "Display and mono",
-           "Choosing a typeface",
-           "Creating our own type system"
+            "Serif",
+            "Sans Serig",
+            "Display and mono",
+            "Choosing a typeface",
+            "Creating our own type system"
           ]
         },
         {
@@ -8825,19 +8658,19 @@
           "title": "Forms + UI elements",
 
           "content": [
-           "What are forms and UI elements",
-           "Best practices for forms",
-           "Best practices for inputs",
-           "Best practices for inputs_2",
-           "Best practices for inputs_3",
-           "Best practices for inputs4",
-           "Best practices for buttons",
-           "Creating components in figma",
-           "Using atomic elements",
-           "Using instances in figma",
-           "Editing instances",
-           "Responsive components",
-           "Creating a registration form"
+            "What are forms and UI elements",
+            "Best practices for forms",
+            "Best practices for inputs",
+            "Best practices for inputs_2",
+            "Best practices for inputs_3",
+            "Best practices for inputs4",
+            "Best practices for buttons",
+            "Creating components in figma",
+            "Using atomic elements",
+            "Using instances in figma",
+            "Editing instances",
+            "Responsive components",
+            "Creating a registration form"
           ]
         },
         {
@@ -8845,29 +8678,26 @@
           "title": "Accessibilty",
 
           "content": [
-           "Visual Patterns for accessibilty",
-           "Tools to make design accessible",
-           "Visual patterns for accessibilty"
+            "Visual Patterns for accessibilty",
+            "Tools to make design accessible",
+            "Visual patterns for accessibilty"
           ]
         },
         {
           "no": 19,
           "title": "Mobile design",
 
-          "content": [
-           "Mobile design best practices",
-           "Best practice part 2"
-          ]
+          "content": ["Mobile design best practices", "Best practice part 2"]
         },
         {
           "no": 20,
           "title": "Motion",
 
           "content": [
-           "Importance of motion",
-           "The purpose of motion",
-           "Intro to smart animate",
-           "The power of smart animate"
+            "Importance of motion",
+            "The purpose of motion",
+            "Intro to smart animate",
+            "The power of smart animate"
           ]
         },
         {
@@ -8875,10 +8705,10 @@
           "title": "Design systems",
 
           "content": [
-           "Components cards",
-           "Vertical cards",
-           "Recipes search",
-           "Recipes order list"
+            "Components cards",
+            "Vertical cards",
+            "Recipes search",
+            "Recipes order list"
           ]
         },
         {
@@ -8886,8 +8716,8 @@
           "title": "Web portfolio",
 
           "content": [
-           "Where to host your web portfolio",
-           "How to place and expert designs"
+            "Where to host your web portfolio",
+            "How to place and expert designs"
           ]
         },
         {
@@ -8895,14 +8725,14 @@
           "title": "Final Compositions",
 
           "content": [
-           "Using our design system",
-           "Using our design system 2 part 1",
-           "Using our design system 2 part 2",
-           "Using our design system 3",
-           "Final prototypes",
-           "Final prototypes 2",
-           "Final prototypes 3",
-           "Final prototypes 4"
+            "Using our design system",
+            "Using our design system 2 part 1",
+            "Using our design system 2 part 2",
+            "Using our design system 3",
+            "Final prototypes",
+            "Final prototypes 2",
+            "Final prototypes 3",
+            "Final prototypes 4"
           ]
         }
       ]
@@ -8967,7 +8797,6 @@
           "que": "What will the end result be of this online Figma training course?",
           "ans": "When you finish this course, you will be equipped with practical skills and theoretical knowledge the industry looks for. You will bloom into a certified Figma design professional who is ready to take on design Projects in top organizations."
         }
-        
       ],
       [
         {
@@ -9065,9 +8894,7 @@
         {
           "no": 1,
           "title": "Introduction",
-          "content": [
-            "Why learn Illustrator?"
-          ]
+          "content": ["Why learn Illustrator?"]
         },
         {
           "no": 2,
@@ -9125,23 +8952,22 @@
           "no": 6,
           "title": "Drawing",
           "content": [
-           "Basic drawing tools",
-           "Drawing exercise part 1",
-           "Drawing exercise part 2",
-           "Coloring",
-           "Drawing assistance tools",
-           "Draw inside",
-           "Pen tool",
-           "Pen tool exercise",
-           "Pen tool alternatives",
-           "Curvature tool",
-           "Distort and transform tools",
-           "Symmetrical drawing",
-           "Concentric drawing techniques",
-           "Manual tracing "
+            "Basic drawing tools",
+            "Drawing exercise part 1",
+            "Drawing exercise part 2",
+            "Coloring",
+            "Drawing assistance tools",
+            "Draw inside",
+            "Pen tool",
+            "Pen tool exercise",
+            "Pen tool alternatives",
+            "Curvature tool",
+            "Distort and transform tools",
+            "Symmetrical drawing",
+            "Concentric drawing techniques",
+            "Manual tracing "
           ]
         }
-        
       ],
       [
         {
@@ -9204,30 +9030,25 @@
           "title": "Export and integration",
 
           "content": [
-           "Saving work for print",
-           "Saving work for web",
-           "Export for screens",
-           "Integration with bridge",
-           "CC libraries",
-           "Archiving projects"
+            "Saving work for print",
+            "Saving work for web",
+            "Export for screens",
+            "Integration with bridge",
+            "CC libraries",
+            "Archiving projects"
           ]
         },
         {
           "no": 11,
           "title": "Let's Build Killer projects",
 
-          "content": [
-           "Map vector project",
-           "Logo project"
-          ]
+          "content": ["Map vector project", "Logo project"]
         },
         {
           "no": 12,
           "title": "Conclusion",
 
-          "content": [
-           "Conclusion"
-          ]
+          "content": ["Conclusion"]
         }
       ]
     ],
@@ -9336,10 +9157,7 @@
     "overview": "Linux is the number ONE operating system in the Corporate world.  Linux is a popular open-source operating system that’s easy to use and highly secure. In this course you will  learn Linux installation, configuration, administration, troubleshooting, shell scripting, command line, OS tools and much more...",
     "reasons": {
       "enroll": [
-        [
-          "Live practicals",
-          "35+ hrs of study material, quizzes & manuals"
-        ],
+        ["Live practicals", "35+ hrs of study material, quizzes & manuals"],
         [
           "Practical oriented course with case-studies",
           "Lifetime access of LMS with videos & material"
@@ -9495,7 +9313,6 @@
             "Module 4 - Quiz",
             "Module 4 - Homwwork",
             "Module 4 - Handouts"
-
           ]
         },
         {
@@ -9563,173 +9380,169 @@
             "Module 6 Handouts"
           ]
         }
-       
       ],
       [
         {
           "no": 8,
           "title": "Module 7 - Networking, services and system updates ",
           "content": [
-           "Welcome to Module 7",
-           "Enable internet on Linux VM",
-           "Network components",
-           "Network files and commands (ping, ifconfig, ifup, ifdown, netstat, tcpdump)",
-           "NIC information (ethtool)",
-           "NIC or Port Bonding",
-           "New Network utilities (nmtui, nmcli, nm-connection-editor and GNOME settings",
-           "Downloading files or apps (wget)",
-           "curl and ping commands",
-           "FTP - File Transfer Protocol",
-           "SCP - Secure Copy Protocol",
-           "rsync - Reomote synchronization",
-           "System upgrade and patch management",
-           "Create local repository (Yum server)",
-           "Advance package management",
-           "Rollback patches and updates",
-           "SSH and Telnet",
-           "DNS - Download, install and configure (Domain Name System)",
-           "Hostname or IP Lookup (nslookup and dig)",
-           "Network time protocol (ntp)",
-           "New system utility command (timedatectl)",
-           "Sendmail",
-           "Web server (Apache - HTTP)",
-           "Central Logger (rsyslog)",
-           "Securing Linux Machine (OS Hardening)",
-           "OpenLDAP installation",
-           "Tracing Network traffic (traceroute)",
-           "How to open image file throught command line",
-           "Configure and secure SSH",
-           "SSH keys - access remote server without password",
-           "Linux web-based administration (cockpit)",
-           "Firewall",
-           "Tune system performance (tuned, nice and renice)",
-           "Run containers - dockers and podman",
-           "Kickstart (Automate Linux installation)",
-           "DHCP server",
-           "Module 7 Quiz",        
-           "Module 7 Homework",        
-           "Module 7 Handouts"        
+            "Welcome to Module 7",
+            "Enable internet on Linux VM",
+            "Network components",
+            "Network files and commands (ping, ifconfig, ifup, ifdown, netstat, tcpdump)",
+            "NIC information (ethtool)",
+            "NIC or Port Bonding",
+            "New Network utilities (nmtui, nmcli, nm-connection-editor and GNOME settings",
+            "Downloading files or apps (wget)",
+            "curl and ping commands",
+            "FTP - File Transfer Protocol",
+            "SCP - Secure Copy Protocol",
+            "rsync - Reomote synchronization",
+            "System upgrade and patch management",
+            "Create local repository (Yum server)",
+            "Advance package management",
+            "Rollback patches and updates",
+            "SSH and Telnet",
+            "DNS - Download, install and configure (Domain Name System)",
+            "Hostname or IP Lookup (nslookup and dig)",
+            "Network time protocol (ntp)",
+            "New system utility command (timedatectl)",
+            "Sendmail",
+            "Web server (Apache - HTTP)",
+            "Central Logger (rsyslog)",
+            "Securing Linux Machine (OS Hardening)",
+            "OpenLDAP installation",
+            "Tracing Network traffic (traceroute)",
+            "How to open image file throught command line",
+            "Configure and secure SSH",
+            "SSH keys - access remote server without password",
+            "Linux web-based administration (cockpit)",
+            "Firewall",
+            "Tune system performance (tuned, nice and renice)",
+            "Run containers - dockers and podman",
+            "Kickstart (Automate Linux installation)",
+            "DHCP server",
+            "Module 7 Quiz",
+            "Module 7 Homework",
+            "Module 7 Handouts"
           ]
         },
         {
           "no": 9,
           "title": "Module 8 - Disk management and run levels  ",
           "content": [
-           "Welcome to Module 8",
-           "System run levels (0 thru 6)",
-           "Computer boost process",
-           "Linux boot process",
-           "Linux boot process (Neweer versions)",
-           "Message of the Day",
-           "Customize message of the day",
-           "Storage",
-           "Disk partition (df, fdisk)",
-           "Add disk and create standard partition",
-           "Logical Volume Management (LVM)",
-           "LVM configuration during installation",
-           "Add disk and create new LVM partition (pvcreate,vgcreate,lvcreate)",
-           "Extend disk using LVM",
-           "Adding swap space",
-           "Advance storage management with stratis",
-           "RAID",
-           "File system check (fsck and xfs_repair)",
-           "System backup (dd command)",
-           "Network File System (NFS)",
-           "Samba installation and configuration",
-           "NAS drive for NFS or Samba",
-           "SATA and SAS",
-           "Difference between CentOS/Redhat 5, 6 and 7",
-           "Difference between CentOS/RHEL 7 and 8",
-           "Module 8 Quiz",
-           "Module 8 Homework",
-           "Module 8 Handouts"
+            "Welcome to Module 8",
+            "System run levels (0 thru 6)",
+            "Computer boost process",
+            "Linux boot process",
+            "Linux boot process (Neweer versions)",
+            "Message of the Day",
+            "Customize message of the day",
+            "Storage",
+            "Disk partition (df, fdisk)",
+            "Add disk and create standard partition",
+            "Logical Volume Management (LVM)",
+            "LVM configuration during installation",
+            "Add disk and create new LVM partition (pvcreate,vgcreate,lvcreate)",
+            "Extend disk using LVM",
+            "Adding swap space",
+            "Advance storage management with stratis",
+            "RAID",
+            "File system check (fsck and xfs_repair)",
+            "System backup (dd command)",
+            "Network File System (NFS)",
+            "Samba installation and configuration",
+            "NAS drive for NFS or Samba",
+            "SATA and SAS",
+            "Difference between CentOS/Redhat 5, 6 and 7",
+            "Difference between CentOS/RHEL 7 and 8",
+            "Module 8 Quiz",
+            "Module 8 Homework",
+            "Module 8 Handouts"
           ]
         },
         {
           "no": 10,
           "title": "Module 9 - All about resume ",
           "content": [
-           "Welcome to Module 9",
-           "Resume workshop",
-           "Resumen design and format",
-           "Grammatical mistakes",
-           "Objective or summary",
-           "Support your Resume",
-           "Cover Letter",
-           "Post resume and what to expect",
-           "Linux administrator job duties",
-           "Exposure to other technologies",
-           "Module 9 Homework",
-           "Module 9 Handouts"
+            "Welcome to Module 9",
+            "Resume workshop",
+            "Resumen design and format",
+            "Grammatical mistakes",
+            "Objective or summary",
+            "Support your Resume",
+            "Cover Letter",
+            "Post resume and what to expect",
+            "Linux administrator job duties",
+            "Exposure to other technologies",
+            "Module 9 Homework",
+            "Module 9 Handouts"
           ]
         },
         {
-          "no":11,
+          "no": 11,
           "title": "All about interview ",
           "content": [
-           "Welcome to Module 10",
-           "What is IT?",
-           "Facts about IT",
-           "Linux operating system jobs",
-           "It management jobs",
-           "Interview workshop",
-           "College degree",
-           "IT certification",
-           "IT related diplomas",
-           "New to IT (A+ certification)",
-           "Review competitive resumes",
-           "Redhat certifications (RHCSA, RHCE etc.)",
-           "Join Linux communities and forums",
-           "3000+ interview questions",
-           "Module 10 Homework",
-           "Module 10 Handouts"
+            "Welcome to Module 10",
+            "What is IT?",
+            "Facts about IT",
+            "Linux operating system jobs",
+            "It management jobs",
+            "Interview workshop",
+            "College degree",
+            "IT certification",
+            "IT related diplomas",
+            "New to IT (A+ certification)",
+            "Review competitive resumes",
+            "Redhat certifications (RHCSA, RHCE etc.)",
+            "Join Linux communities and forums",
+            "3000+ interview questions",
+            "Module 10 Homework",
+            "Module 10 Handouts"
           ]
         },
         {
           "no": 12,
           "title": "Course recap ",
           "content": [
-           "Welcome to course recap",
-           "Commands we have learned",
-           "Don't give up",
-           "Congratulations",
-           "Recap - Handout",
-           "Final Exam"
+            "Welcome to course recap",
+            "Commands we have learned",
+            "Don't give up",
+            "Congratulations",
+            "Recap - Handout",
+            "Final Exam"
           ]
         },
         {
           "no": 13,
           "title": "Additional resources",
           "content": [
-           "Welcome to additonal resources",
-           "Troubleshooting putty connection",
-           "Changing default file permissin (umask)",
-           "Create VM on VMWare player",
-           "Install Oracle Virtualbox on MAC",
-           "Install Oracle guest addition (tools)",
-           "File system color definition",
-           "Troubleshooting file issues",
-           "Troubleshooting change directory issues",
-           "Fixing corrupted file system",
-           "Linux system performance issues",
-           "IP assigned but not reachable",
-           "Remove unnecessary or orphan packages",
-           "SELinux",
-           "Types of security threats",
-           "Running Linux on web browser",
-           "Improve typing skills",
-           "What is virtualizatin and its benefits?",
-           "Introduction to VMWare",
-           "Additional resources - handout"
+            "Welcome to additonal resources",
+            "Troubleshooting putty connection",
+            "Changing default file permissin (umask)",
+            "Create VM on VMWare player",
+            "Install Oracle Virtualbox on MAC",
+            "Install Oracle guest addition (tools)",
+            "File system color definition",
+            "Troubleshooting file issues",
+            "Troubleshooting change directory issues",
+            "Fixing corrupted file system",
+            "Linux system performance issues",
+            "IP assigned but not reachable",
+            "Remove unnecessary or orphan packages",
+            "SELinux",
+            "Types of security threats",
+            "Running Linux on web browser",
+            "Improve typing skills",
+            "What is virtualizatin and its benefits?",
+            "Introduction to VMWare",
+            "Additional resources - handout"
           ]
         },
         {
           "no": 14,
           "title": "Bonus ",
-          "content": [
-           "Welcome to bonus section",
-           "Bonus lecture"
-          ]
+          "content": ["Welcome to bonus section", "Bonus lecture"]
         }
       ]
     ],
@@ -9793,7 +9606,6 @@
           "que": "What will the end result be of this online Linux training course?",
           "ans": "When you finish this course, you will be equipped with practical skills and theoretical knowledge the industry looks for. You will bloom into a certified Linux professional who is ready to take on Linux Projects in top organizations."
         }
-        
       ],
       [
         {
@@ -10130,10 +9942,8 @@
             "Quiz: Messaging in Azure"
           ]
         }
-        
       ],
       [
-        
         {
           "no": 11,
           "title": "Azure AD",
@@ -10194,108 +10004,108 @@
           "no": 13,
           "title": "Security in Azure",
           "content": [
-           "Introduction",
-           "VM security best practices",
-           "Networking security best practices",
-           "Database security best practices",
-           "App service security best practices",
-           "Keyvault",
-           "Troubleshooting keyvault",
-           "Using KeyVault in the catalog app",
-           "Publishing the KeyVault code and using insights",
-           "KeyVault tips and tricks",
-           "A quick note about security center",
-           "Security center",
-           "Using Security center",
-           "Current architecture",
-           "Quiz: Azure Security"
+            "Introduction",
+            "VM security best practices",
+            "Networking security best practices",
+            "Database security best practices",
+            "App service security best practices",
+            "Keyvault",
+            "Troubleshooting keyvault",
+            "Using KeyVault in the catalog app",
+            "Publishing the KeyVault code and using insights",
+            "KeyVault tips and tricks",
+            "A quick note about security center",
+            "Security center",
+            "Using Security center",
+            "Current architecture",
+            "Quiz: Azure Security"
           ]
         },
         {
           "no": 14,
           "title": "DR in Azure",
           "content": [
-           "Introduction to DR",
-           "DR concepts",
-           "Basics of DR implementation",
-           "DR of compute in Azure",
-           "Routing in DR",
-           "Azure Traffic Manager",
-           "Using Azure Traffic Manager",
-           "Azure front door",
-           "Using Azure Front Door",
-           "Traffic Manager vs Front Door",
-           "Current Architecture",
-           "Quiz: DR in Azure"
+            "Introduction to DR",
+            "DR concepts",
+            "Basics of DR implementation",
+            "DR of compute in Azure",
+            "Routing in DR",
+            "Azure Traffic Manager",
+            "Using Azure Traffic Manager",
+            "Azure front door",
+            "Using Azure Front Door",
+            "Traffic Manager vs Front Door",
+            "Current Architecture",
+            "Quiz: DR in Azure"
           ]
         },
         {
           "no": 15,
           "title": "Managing costs in Azure",
           "content": [
-           "Introduction",
-           "Looking at cost management",
-           "Quiz: managing costs in Azure"
+            "Introduction",
+            "Looking at cost management",
+            "Quiz: managing costs in Azure"
           ]
         },
         {
           "no": 16,
           "title": "Azure Policy",
           "content": [
-           "Introduction",
-           "Defining Initiative and policies",
-           "Custom policies",
-           "Defining custom policy and testing the policies",
-           "Quiz: Azure Policy",
-           "Completing the demo and saving costs"
+            "Introduction",
+            "Defining Initiative and policies",
+            "Custom policies",
+            "Defining custom policy and testing the policies",
+            "Quiz: Azure Policy",
+            "Completing the demo and saving costs"
           ]
         },
         {
           "no": 17,
           "title": "Architecting apps for Azure",
           "content": [
-           "Introduction",
-           "Choosing compute platform",
-           "Choosing data platform",
-           "Choosing messaging platform",
-           "Implementing security",
-           "Implementing logging and monitoring",
-           "Azure architecture center"
+            "Introduction",
+            "Choosing compute platform",
+            "Choosing data platform",
+            "Choosing messaging platform",
+            "Implementing security",
+            "Implementing logging and monitoring",
+            "Azure architecture center"
           ]
         },
         {
           "no": 18,
           "title": "Migrating to the cloud",
           "content": [
-           "Introduction",
-           "The migration process",
-           "Motivation assessment",
-           "Migration strategies",
-           "System assessment",
-           "Migration",
-           "App enhancements",
-           "Testing",
-           "Go Live"
+            "Introduction",
+            "The migration process",
+            "Motivation assessment",
+            "Migration strategies",
+            "System assessment",
+            "Migration",
+            "App enhancements",
+            "Testing",
+            "Go Live"
           ]
         },
         {
           "no": 19,
           "title": "Advanced services",
           "content": [
-           "Introduction",
-           "IOT Hub",
-           "Notification Hub",
-           "Cognitive services",
-           "Summary"
+            "Introduction",
+            "IOT Hub",
+            "Notification Hub",
+            "Cognitive services",
+            "Summary"
           ]
         },
         {
           "no": 20,
           "title": "Conclusion",
           "content": [
-           "Download the Azure Architecture summary",
-           "Conclusion",
-           "BONUS: Next steps"
+            "Download the Azure Architecture summary",
+            "Conclusion",
+            "BONUS: Next steps"
           ]
         }
       ]
@@ -10360,7 +10170,6 @@
           "que": "What will the end result be of this online Microsoft Azure training course?",
           "ans": "When you finish this course, you will be equipped with practical skills and theoretical knowledge the industry looks for. You will bloom into a certified Microsoft Azure professional who is ready to take on Microsoft Azure Projects in top organizations."
         }
-        
       ],
       [
         {
@@ -10456,9 +10265,7 @@
         {
           "no": 1,
           "title": "Introduction",
-          "content": [
-            "Introduction"
-          ]
+          "content": ["Introduction"]
         },
         {
           "no": 2,
@@ -10531,7 +10338,6 @@
             "Finally: export and share"
           ]
         }
-        
       ],
       [
         {
@@ -10579,12 +10385,12 @@
           "title": "The graphics workspace: texts, shapes, lower thirds and more",
 
           "content": [
-           "Starting the graphics workspace",
-           "Creating a graphics clip",
-           "Editing your graphics",
-           "Animating clips: keyframes concept animating graphic layers within the clip",
-           "Upgrading to master graphics clips using the default essential graphics", 
-           "templates"
+            "Starting the graphics workspace",
+            "Creating a graphics clip",
+            "Editing your graphics",
+            "Animating clips: keyframes concept animating graphic layers within the clip",
+            "Upgrading to master graphics clips using the default essential graphics",
+            "templates"
           ]
         },
         {
@@ -10607,20 +10413,18 @@
           "title": "Essential motion effects",
 
           "content": [
-           "Chromakeying - concepts and how to work",
-           "Using masks to reduce work",
-           "Cleaning up the matte",
-           "Adding shadows",
-           "Working with a blue screen"
+            "Chromakeying - concepts and how to work",
+            "Using masks to reduce work",
+            "Cleaning up the matte",
+            "Adding shadows",
+            "Working with a blue screen"
           ]
         },
         {
           "no": 14,
           "title": "Conclusion",
 
-          "content": [
-            "Thanks"
-          ]
+          "content": ["Thanks"]
         }
       ]
     ],
@@ -10684,7 +10488,6 @@
           "que": "What will the end result be of this online Adobe Premiere Pro training course?",
           "ans": "When you finish this course, you will be equipped with practical skills and theoretical knowledge the industry looks for. You will bloom into a certified Adobe Premiere Pro professional who is ready to take on Adobe Premiere Pro Projects in top organizations."
         }
-        
       ],
       [
         {
@@ -10776,9 +10579,7 @@
         {
           "no": 1,
           "title": "Introduction",
-          "content": [
-            "Introduction"
-          ]
+          "content": ["Introduction"]
         },
         {
           "no": 2,
@@ -10803,7 +10604,6 @@
             "Adding layer styles and adjustments",
             "Using layer masks project: Photo Compositing Basics (Resizing and placing layers",
             "Project solution: photo compositing basics (Resizing and placing layers)"
-            
           ]
         },
         {
@@ -10844,17 +10644,16 @@
           "no": 7,
           "title": "Blend modes",
           "content": [
-           "Introduction to Blend Modes",
-           "Easily remove a black or white background with blend modes",
-           "How to create space inside a juice glass",
-           "Creating a camera flare with blend modes",
-           "Project: design a modern graphic with blend modes",
-           "Project solution: design a modern graphic with blend modes"
+            "Introduction to Blend Modes",
+            "Easily remove a black or white background with blend modes",
+            "How to create space inside a juice glass",
+            "Creating a camera flare with blend modes",
+            "Project: design a modern graphic with blend modes",
+            "Project solution: design a modern graphic with blend modes"
           ]
         }
       ],
       [
-        
         {
           "no": 8,
           "title": "The filter gallery cc",
@@ -10908,9 +10707,7 @@
           "no": 11,
           "title": "Adobe library",
 
-          "content": [
-           "Speed up your workflow with the adobe library"
-          ]
+          "content": ["Speed up your workflow with the adobe library"]
         },
         {
           "no": 12,
@@ -10927,20 +10724,18 @@
           "title": "Full length projects",
 
           "content": [
-           "Intro to these additional project demonstrations",
-           "Project: Fantasy Walk",
-           "Project: Badge logo",
-           "Project: Mystical cat",
-           "Project: Infographic"
+            "Intro to these additional project demonstrations",
+            "Project: Fantasy Walk",
+            "Project: Badge logo",
+            "Project: Mystical cat",
+            "Project: Infographic"
           ]
         },
         {
           "no": 14,
           "title": "Conclusion",
 
-          "content": [
-            "Thanks"
-          ]
+          "content": ["Thanks"]
         }
       ]
     ],
@@ -11004,7 +10799,6 @@
           "que": "What will the end result be of this online Adobe Photoshop training course?",
           "ans": "When you finish this course, you will be equipped with practical skills and theoretical knowledge the industry looks for. You will bloom into a certified Adobe Photoshop professional who is ready to take on Adobe Photoshop Projects in top organizations."
         }
-        
       ],
       [
         {
@@ -11046,10 +10840,7 @@
     "overview": "Microsoft Word is the most popular word processor in use today.A strong understanding of Word can pay serious dividends in your productivity, efficiency, and the appearance of your documents. With this course, you'll learn to put your most professional written work out there. ",
     "reasons": {
       "enroll": [
-        [
-          "Live practicals",
-          "1+ hrs of study material, quizzes & manuals"
-        ],
+        ["Live practicals", "1+ hrs of study material, quizzes & manuals"],
         [
           "Practical oriented course with case-studies",
           "Lifetime access of LMS with videos & material"
@@ -11096,19 +10887,12 @@
         {
           "no": 1,
           "title": "Welcome and what you will learn",
-          "content": [
-            "Welcome and what we will cover",
-            "What is Microsoft 365"
-          ]
+          "content": ["Welcome and what we will cover", "What is Microsoft 365"]
         },
         {
           "no": 2,
           "title": "Open, save and print",
-          "content": [
-            "Open",
-            "Save",
-            "Print"
-          ]
+          "content": ["Open", "Save", "Print"]
         },
         {
           "no": 3,
@@ -11118,7 +10902,6 @@
             "Setting tabs",
             "Using the clipboard",
             "Find and replace"
-            
           ]
         },
         {
@@ -11131,7 +10914,8 @@
             "Format painter tool and remove formatting button",
             "Line spacing and paragraph alignment"
           ]
-        },{
+        },
+        {
           "no": 5,
           "title": "Organize text",
           "content": [
@@ -11141,7 +10925,6 @@
             "Bullets and numbering"
           ]
         }
-        
       ],
       [
         {
@@ -11157,10 +10940,7 @@
         {
           "no": 7,
           "title": "Images and shapes",
-          "content": [
-           "Insert and format images",
-           "Insert or draw a shape"
-          ]
+          "content": ["Insert and format images", "Insert or draw a shape"]
         },
         {
           "no": 8,
@@ -11185,11 +10965,8 @@
           "no": 10,
           "title": "What you've learned",
 
-          "content": [
-            "Review and wrap-up"
-          ]
+          "content": ["Review and wrap-up"]
         }
-        
       ]
     ],
     "features": [
@@ -11252,7 +11029,6 @@
           "que": "What will the end result be of this online Microsoft Word training course?",
           "ans": "When you finish this course, you will be equipped with practical skills and theoretical knowledge the industry looks for. You will bloom into a certified Microsoft Word professional who is ready to take on Microsoft Word Projects in top organizations."
         }
-        
       ],
       [
         {
@@ -11294,10 +11070,7 @@
     "overview": "Electronic spreadsheet programs were originally based on paper spreadsheets used for accounting. This course will help you to learn Microsoft Excel.",
     "reasons": {
       "enroll": [
-        [
-          "Live practicals",
-          "8+ hrs of study material, quizzes & manuals"
-        ],
+        ["Live practicals", "8+ hrs of study material, quizzes & manuals"],
         [
           "Practical oriented course with case-studies",
           "Lifetime access of LMS with videos & material"
@@ -11340,10 +11113,7 @@
         {
           "no": 1,
           "title": "Introduction",
-          "content": [
-            "Introduction",
-            "Workbook overview"
-          ]
+          "content": ["Introduction", "Workbook overview"]
         },
         {
           "no": 2,
@@ -11367,19 +11137,18 @@
             "Mathematical functions - part 1",
             "Mathematical functions - part 2",
             "Quiz",
-          "Difference between RANK, RANK, AVG and RANK.EQ",
-          "Exercise 1: Mathematical functions",
-          "Textual functions - part 1",
-          "Textual functions - part 2",
-          "Exercise 2: Textual functions",
-          "Quiz",
-          "Logical functions",
-          "Exercise 3: logical functions",
-          "Date-time functions",
-          "Exercise 4: Date-time functions",
-          "Lookup functions (V Lookup, Hlookup, Index-Match)",
-          "Exercise 5: Lookup functions"
-            
+            "Difference between RANK, RANK, AVG and RANK.EQ",
+            "Exercise 1: Mathematical functions",
+            "Textual functions - part 1",
+            "Textual functions - part 2",
+            "Exercise 2: Textual functions",
+            "Quiz",
+            "Logical functions",
+            "Exercise 3: logical functions",
+            "Date-time functions",
+            "Exercise 4: Date-time functions",
+            "Lookup functions (V Lookup, Hlookup, Index-Match)",
+            "Exercise 5: Lookup functions"
           ]
         },
         {
@@ -11413,125 +11182,98 @@
         {
           "no": 7,
           "title": "Formatting data and tables",
-          "content": [
-           "Formatting data and tables",
-           "Exercise 7: formatting"
-          ]
+          "content": ["Formatting data and tables", "Exercise 7: formatting"]
         },
         {
           "no": 8,
           "title": "Pivot ",
-          "content": [
-           "Pivot tables",
-           "Exercise 8: Pivot tables"
-          ]
+          "content": ["Pivot tables", "Exercise 8: Pivot tables"]
         },
         {
           "no": 9,
           "title": "Excel charts ",
           "content": [
-           "Excel charts - categories of messages that can be conveyed",
-           "Elements of charts",
-           "The easy way of creating charts",
-           "Bar and column charts",
-           "Formatting charts",
-           "Line charts",
-           "Area charts",
-           "Pie and doughnut charts",
-           "Why we should avoid pie charts",
-           "Scatter plot or XY chart",
-           "Frequency distribution and histograms",
-           "Waterfall charts",
-           "Hierarchy charts: sunburst and treemap",
-           "Combination charts",
-           "Sparklines",
-           "Exercise 9: charts"
+            "Excel charts - categories of messages that can be conveyed",
+            "Elements of charts",
+            "The easy way of creating charts",
+            "Bar and column charts",
+            "Formatting charts",
+            "Line charts",
+            "Area charts",
+            "Pie and doughnut charts",
+            "Why we should avoid pie charts",
+            "Scatter plot or XY chart",
+            "Frequency distribution and histograms",
+            "Waterfall charts",
+            "Hierarchy charts: sunburst and treemap",
+            "Combination charts",
+            "Sparklines",
+            "Exercise 9: charts"
           ]
         },
         {
           "no": 10,
           "title": "Pivot charts",
-          "content": [
-           "Pivot charts"
-          ]
+          "content": ["Pivot charts"]
         }
-        
       ],
       [
-        
         {
           "no": 11,
           "title": "New! Maps chart - only for Excel 2019 and above ",
-          "content": [
-           "Maps chart"
-          ]
+          "content": ["Maps chart"]
         },
         {
           "no": 12,
           "title": "Special purpose charts ",
           "content": [
-           "Stock charts",
-           "Radar charts",
-           "Surface charts",
-           "Heatmaps"
+            "Stock charts",
+            "Radar charts",
+            "Surface charts",
+            "Heatmaps"
           ]
         },
         {
           "no": 13,
           "title": "Named ranges ",
-          "content": [
-           "Named ranges",
-           "Indirect function"
-          ]
+          "content": ["Named ranges", "Indirect function"]
         },
         {
           "no": 14,
           "title": "Excel shortcuts ",
-          "content": [
-           "Shortcuts",
-           "Exercise 10: shortcuts"
-          ]
+          "content": ["Shortcuts", "Exercise 10: shortcuts"]
         },
         {
           "no": 15,
           "title": "Macros ",
-          "content": [
-           "Macros",
-           "Exercise 11: Macros"
-          ]
+          "content": ["Macros", "Exercise 11: Macros"]
         },
         {
           "no": 16,
           "title": "NEW! Importing data from PDF and websites ",
           "content": [
-           "Importing tables from PDF - Excel 2021 and office 365",
-           "Importing data from website - Excel 2019 and above"
+            "Importing tables from PDF - Excel 2021 and office 365",
+            "Importing data from website - Excel 2019 and above"
           ]
         },
         {
           "no": 17,
           "title": "Advanced Excel ",
           "content": [
-           "Advanced Excel Analytics in Excel",
-           "Solving a transportation problem using Excel",
-           "Income Tax calculation - Slabs based tax"
+            "Advanced Excel Analytics in Excel",
+            "Solving a transportation problem using Excel",
+            "Income Tax calculation - Slabs based tax"
           ]
         },
         {
           "no": 18,
           "title": "Creative infographics ",
-          "content": [
-           "Infographic example 1",
-           "Infographic example 2"
-          ]
+          "content": ["Infographic example 1", "Infographic example 2"]
         },
         {
           "no": 19,
           "title": "Congratulations & about your certificate ",
-          "content": [
-           "The final milestone!",
-           "Bonus lecture"
-          ]
+          "content": ["The final milestone!", "Bonus lecture"]
         }
       ]
     ],
@@ -11692,13 +11434,13 @@
           "no": 2,
           "title": "Basic design",
           "content": [
-           "Choosing a template",
-           "Creating objects",
-           "Customizing objects",
-           "Organizing objects",
-           "Text format",
-           "Inserting media",
-           "Charts"
+            "Choosing a template",
+            "Creating objects",
+            "Customizing objects",
+            "Organizing objects",
+            "Text format",
+            "Inserting media",
+            "Charts"
           ]
         },
         {
@@ -11709,7 +11451,6 @@
             "Content creation",
             "Advanced content design (Figures and graphs)",
             "Transition and animation"
-            
           ]
         },
         {
@@ -11753,162 +11494,155 @@
           "no": 7,
           "title": "Projects",
           "content": [
-           "Casual presentation: template selection and design",
-           "Casual presentation: content creation demo",
-           "Casual presentation: transitions and animations",
-           "Professional presentation: template selection and design",
-           "Professional presentation: content creation demo",
-           "Professional presentation: transitions and animations"
+            "Casual presentation: template selection and design",
+            "Casual presentation: content creation demo",
+            "Casual presentation: transitions and animations",
+            "Professional presentation: template selection and design",
+            "Professional presentation: content creation demo",
+            "Professional presentation: transitions and animations"
           ]
         },
         {
           "no": 8,
           "title": "User Experience Design (Theory)",
           "content": [
-           "UX principles",
-           "Purposeful design",
-           "Engagement",
-           "Usability",
-           "Storytelling design"
+            "UX principles",
+            "Purposeful design",
+            "Engagement",
+            "Usability",
+            "Storytelling design"
           ]
         },
         {
           "no": 9,
           "title": "Interactive Design",
           "content": [
-           "Programs for Engagement: Kahoot",
-           "Programs for Engagement: Mentimeter",
-           "Engaging questions",
-           "Interactive slides, Buttons and Logic",
-           "Coherent storytelling through animations",
-           "Background animations"
+            "Programs for Engagement: Kahoot",
+            "Programs for Engagement: Mentimeter",
+            "Engaging questions",
+            "Interactive slides, Buttons and Logic",
+            "Coherent storytelling through animations",
+            "Background animations"
           ]
         },
         {
           "no": 10,
           "title": "Design Styles",
           "content": [
-           "Classical Style",
-           "Minimalistic Style",
-           "Compromise Style",
-           "Fun Style"
+            "Classical Style",
+            "Minimalistic Style",
+            "Compromise Style",
+            "Fun Style"
           ]
         },
         {
           "no": 11,
           "title": "Accessibilty",
-          "content": [
-           "Accessibility"
-          ]
+          "content": ["Accessibility"]
         }
       ],
       [
-        
         {
           "no": 12,
           "title": "Beyond Powerpoin",
           "content": [
-           "Content & fluency",
-           "Confidence and inspiration",
-           "Audience engagement"
+            "Content & fluency",
+            "Confidence and inspiration",
+            "Audience engagement"
           ]
         },
         {
           "no": 13,
           "title": "Practice: UX-based slideshow",
           "content": [
-           "Content creation",
-           "Interactive design",
-           "Animation creation",
-           "Storytelling design"
+            "Content creation",
+            "Interactive design",
+            "Animation creation",
+            "Storytelling design"
           ]
         },
         {
           "no": 14,
           "title": "UI/UX presentation (Kiosk)",
           "content": [
-           "Creating a Carousel",
-           "Creating a carousel (2nd method)",
-           "Creating an interface",
-           "Writing the buttons",
-           "Creating a quiz",
-           "Alternate interface"
+            "Creating a Carousel",
+            "Creating a carousel (2nd method)",
+            "Creating an interface",
+            "Writing the buttons",
+            "Creating a quiz",
+            "Alternate interface"
           ]
         },
         {
           "no": 15,
           "title": "Business presentation",
           "content": [
-           "Template Edits",
-           "Content creation",
-           "Engagement 1: Scrolling",
-           "Engagement 2: Slide",
-           "Engagement 3: Forum",
-           "Content Creation 2",
-           "Data Analysis: Charts & Graphs",
-           "Story-line Adherence"
+            "Template Edits",
+            "Content creation",
+            "Engagement 1: Scrolling",
+            "Engagement 2: Slide",
+            "Engagement 3: Forum",
+            "Content Creation 2",
+            "Data Analysis: Charts & Graphs",
+            "Story-line Adherence"
           ]
         },
         {
           "no": 16,
           "title": "Background presentations",
           "content": [
-           "Tailoring content",
-           "Free-floating animations",
-           "Final additions",
-           "Break time & thank you slides"
+            "Tailoring content",
+            "Free-floating animations",
+            "Final additions",
+            "Break time & thank you slides"
           ]
         },
         {
           "no": 17,
           "title": "Animated Videos",
           "content": [
-           "Simple animated videos",
-           "Complex animated videos",
-           "Annotated animation videos",
-           "Annotated animated videos based on a speech",
-           "Recording and exporting"
+            "Simple animated videos",
+            "Complex animated videos",
+            "Annotated animation videos",
+            "Annotated animated videos based on a speech",
+            "Recording and exporting"
           ]
         },
         {
           "no": 18,
           "title": "Creating templates (Simple)",
           "content": [
-           "Planning visual language",
-           "Designing visuals (Illustrations)",
-           "Designing visuals (Icons)",
-           "Organizing the template",
-           "Content creation"
+            "Planning visual language",
+            "Designing visuals (Illustrations)",
+            "Designing visuals (Icons)",
+            "Organizing the template",
+            "Content creation"
           ]
         },
         {
           "no": 19,
           "title": "Creating templates (Complex)",
           "content": [
-           "Planning complex visual language",
-           "Choosing colors",
-           "Designing background visuals",
-           "Designing character visuals",
-           "Organizing the template"
+            "Planning complex visual language",
+            "Choosing colors",
+            "Designing background visuals",
+            "Designing character visuals",
+            "Organizing the template"
           ]
         },
         {
           "no": 20,
           "title": "Digital Art",
-          "content": [
-           "Vector art",
-           "Pixel art",
-           "3D art"
-          ]
+          "content": ["Vector art", "Pixel art", "3D art"]
         },
         {
           "no": 21,
           "title": "Exploring Options",
           "content": [
-           "Types of files to save",
-           "File protection settings",
-           "Setting up a template",
-           "Last words"
+            "Types of files to save",
+            "File protection settings",
+            "Setting up a template",
+            "Last words"
           ]
         }
       ]
@@ -12014,10 +11748,7 @@
     "overview": "if you plan to attain any Salesforce certifications, this is your starting point!<r>Salesforce Associate is the newest certification from Salesforce.<br>The Salesforce Associate Certification has no pre-requisites and is intended for those just starting their Salesforce Certification journey.<br>That's right! This is the course for absolute beginners. No prior knowledge is required.",
     "reasons": {
       "enroll": [
-        [
-          "Live practicals",
-          "5+ hrs of study material, quizzes & manuals"
-        ],
+        ["Live practicals", "5+ hrs of study material, quizzes & manuals"],
         [
           "Practical oriented course with case-studies",
           "Lifetime access of LMS with videos & material"
@@ -12124,10 +11855,8 @@
             "Chatter groups - public and private",
             "Global search",
             "Filtering global search results using natural language search"
-            
           ]
         }
-        
       ],
       [
         {
@@ -12279,7 +12008,6 @@
           "que": "What will the end result be of this online Sales Force training course?",
           "ans": "When you finish this course, you will be equipped with practical skills and theoretical knowledge the industry looks for. You will bloom into a certified Sales Force professional who is ready to take on Sales Force Projects in top organizations."
         }
-        
       ],
       [
         {
@@ -12387,7 +12115,6 @@
           "content": [
             "Lets create a photo gallery page",
             "Plugins introduction"
-            
           ]
         },
         {
@@ -12402,34 +12129,27 @@
         {
           "no": 5,
           "title": "Comments",
-          "content": [
-            "Comments"
-          ]
+          "content": ["Comments"]
         }
       ],
       [
         {
           "no": 6,
           "title": "Widgets",
-          "content": [
-            "Widgets"
-          ]
+          "content": ["Widgets"]
         },
         {
           "no": 7,
           "title": "Contact page",
           "content": [
-           "Lets create a contact page",
-           "Saving contact form entires to the database"
+            "Lets create a contact page",
+            "Saving contact form entires to the database"
           ]
         },
         {
           "no": 8,
           "title": "Users & settings",
-          "content": [
-            "User accounts",
-            "Settings (Permalinks & pagination)"
-          ]
+          "content": ["User accounts", "Settings (Permalinks & pagination)"]
         },
         {
           "no": 9,
@@ -12545,10 +12265,7 @@
     "overview": "If you’re looking for an instructor with a deep understanding and even more importantly – with a proven record of working in top-level institutions, then you met your dream right here.",
     "reasons": {
       "enroll": [
-        [
-          "To understand your goal",
-          "To learn which is suitable for you"
-        ],
+        ["To understand your goal", "To learn which is suitable for you"],
         [
           "To get idea about the career",
           "Lifetime access of LMS with videos & material"
@@ -12559,10 +12276,7 @@
           "Identify what is important for you to feel happy and fulfilled.",
           "Get clarity in relation to your career"
         ],
-        [
-          "Identify what motivates and drives you",
-          "Know yourself better"
-        ]
+        ["Identify what motivates and drives you", "Know yourself better"]
       ]
     },
     "why": [
@@ -12589,9 +12303,7 @@
         {
           "no": 1,
           "title": "Why this course?",
-          "content": [
-            "Introduction"
-          ]
+          "content": ["Introduction"]
         },
         {
           "no": 2,
@@ -12610,18 +12322,12 @@
         {
           "no": 3,
           "title": "Apart from 9-5 how to earn bread and butter",
-          "content": [
-            "Apart from 9-5"
-            
-          ]
+          "content": ["Apart from 9-5"]
         },
         {
           "no": 4,
           "title": "How to get job",
-          "content": [
-            "How to get job",
-            "How to get internship"
-          ]
+          "content": ["How to get job", "How to get internship"]
         }
       ]
     ],
@@ -12710,10 +12416,7 @@
     "overview": "Are you eager to learn Computer Forensics and Cyber Crime Investigation  and want to be a profound Forensics Investigator ? If your answer is YES, then this course is only for you. I specially framed this course to Transform Your Life from what you are today to what you actually want to be. ",
     "reasons": {
       "enroll": [
-        [
-          "To understand your goal",
-          "To learn which is suitable for you"
-        ],
+        ["To understand your goal", "To learn which is suitable for you"],
         [
           "To get idea about the career",
           "Lifetime access of LMS with videos & material"
@@ -12787,15 +12490,12 @@
           "content": [
             "Installing FTK imager",
             "Create forensics image of hard disk pen drive or any storage device "
-            
           ]
         },
         {
           "no": 4,
           "title": "Computer forensics lab setup",
-          "content": [
-            "Install Kali Linux"
-          ]
+          "content": ["Install Kali Linux"]
         },
         {
           "no": 5,
@@ -12813,56 +12513,39 @@
         {
           "no": 6,
           "title": "Browser Forensics",
-          "content": [
-            "Finding browsing history bookmarks and lot of evidence"
-          ]
+          "content": ["Finding browsing history bookmarks and lot of evidence"]
         }
       ],
       [
-        
         {
           "no": 7,
           "title": "Multimedia Forensics",
-          "content": [
-            "Multimedia Forensics"
-          ]
+          "content": ["Multimedia Forensics"]
         },
         {
           "no": 8,
           "title": "Picture analysis with Ghiro",
-          "content": [
-            "Picture analysis with Ghiro"
-          ]
+          "content": ["Picture analysis with Ghiro"]
         },
         {
           "no": 9,
           "title": "Tacking RAM Dump & volatile memory analysis",
-          "content": [
-            "How to dump Ram Memory",
-            "Analysis of RAM dump"
-          ]
+          "content": ["How to dump Ram Memory", "Analysis of RAM dump"]
         },
         {
           "no": 10,
           "title": "Anti-Forensics techniques & detection",
-          "content": [
-            "What is Anti-Forensics",
-            "Anti-Forensics techniques"
-          ]
+          "content": ["What is Anti-Forensics", "Anti-Forensics techniques"]
         },
         {
-          "no":11,
+          "no": 11,
           "title": "Bonus Cyber Crime Investigation",
-          "content": [
-            "Website crime investigation"
-          ]
+          "content": ["Website crime investigation"]
         },
         {
           "no": 12,
           "title": "Computer Forensic using Autopsy",
-          "content": [
-            "Computer Forensic using Autospy"
-          ]
+          "content": ["Computer Forensic using Autospy"]
         }
       ]
     ],
@@ -12955,10 +12638,7 @@
           "To understand the bug bounty",
           "To learn advanced concepts of Bug Bounty"
         ],
-        [
-          "24/7 support",
-          "Lifetime access of LMS with videos & material"
-        ]
+        ["24/7 support", "Lifetime access of LMS with videos & material"]
       ],
       "learn": [
         [
@@ -13003,10 +12683,7 @@
         {
           "no": 1,
           "title": "Introduction",
-          "content": [
-            "Request - bug hunting",
-            "Important lesson"
-          ]
+          "content": ["Request - bug hunting", "Important lesson"]
         },
         {
           "no": 2,
@@ -13024,15 +12701,12 @@
             "Active information gathering",
             "Passive information gathering",
             "Identify technology"
-            
           ]
         },
         {
           "no": 4,
           "title": "Brute force attack",
-          "content": [
-            "Brute force attack"
-          ]
+          "content": ["Brute force attack"]
         },
         {
           "no": 5,
@@ -13054,7 +12728,6 @@
         }
       ],
       [
-        
         {
           "no": 7,
           "title": "Cross site scripting vulnerability",
@@ -13076,10 +12749,7 @@
         {
           "no": 9,
           "title": "Missing SPF record",
-          "content": [
-            "What is SPF?",
-            "Sender policy framework practical"
-          ]
+          "content": ["What is SPF?", "Sender policy framework practical"]
         },
         {
           "no": 10,
@@ -13090,7 +12760,7 @@
           ]
         },
         {
-          "no":11,
+          "no": 11,
           "title": "Bonus resources",
           "content": [
             "Web security audit basics",
@@ -13187,14 +12857,8 @@
     "overview": "This specialized course is designed for Darknet & Deep Web Enthusiastic, Computer Science Students, Trainers, Government and Police Investigators, to understand how to browse into the hidden internet and access social media, darknet market place and how to operate in this new environment. ",
     "reasons": {
       "enroll": [
-        [
-          "To understand the Dark Net",
-          "To explore the Dark Net"
-        ],
-        [
-          "24/7 support",
-          "Lifetime access of LMS with videos & material"
-        ]
+        ["To understand the Dark Net", "To explore the Dark Net"],
+        ["24/7 support", "Lifetime access of LMS with videos & material"]
       ],
       "learn": [
         [
@@ -13245,9 +12909,7 @@
         {
           "no": 2,
           "title": "Setting up Lab environment for DarkNet & Deep Web",
-          "content": [
-            "Install Kali Linux"
-          ]
+          "content": ["Install Kali Linux"]
         },
         {
           "no": 3,
@@ -13255,7 +12917,6 @@
           "content": [
             "Installing TOR in Kali Linux to access DarkNet & Deep Web",
             "Installing TOR in MAC OS to access DarkNet & Deep Web"
-            
           ]
         },
         {
@@ -13303,10 +12964,7 @@
         {
           "no": 8,
           "title": "Darknet Cases",
-          "content": [
-            "Case 1",
-            "Case 2"
-          ]
+          "content": ["Case 1", "Case 2"]
         }
       ]
     ],
@@ -13400,10 +13058,7 @@
           "Real-time projects with implementation",
           "Study material, practicals, quizzes"
         ],
-        [
-          "24/7 support",
-          "Lifetime access of LMS with videos & material"
-        ]
+        ["24/7 support", "Lifetime access of LMS with videos & material"]
       ],
       "learn": [
         [
@@ -13457,55 +13112,39 @@
         {
           "no": 1,
           "title": "Orientation Call",
-          "content": [
-            "Orientation call"
-          ]
+          "content": ["Orientation call"]
         },
         {
           "no": 2,
           "title": "Important note",
-          "content": [
-            "Welcome IMP note"
-          ]
+          "content": ["Welcome IMP note"]
         },
         {
           "no": 3,
           "title": "Weapons to be carried",
-          "content": [
-            "Requirement"
-            
-          ]
+          "content": ["Requirement"]
         },
         {
           "no": 4,
           "title": "Process of hacking",
-          "content": [
-            "Process of hacking"
-          ]
+          "content": ["Process of hacking"]
         },
         {
           "no": 5,
           "title": "Footprinting",
-          "content": [
-            "Footprinting"
-          ]
+          "content": ["Footprinting"]
         },
         {
           "no": 6,
           "title": "Information Gathering",
-          "content": [
-            "Information Gathering"
-          ]
+          "content": ["Information Gathering"]
         }
       ],
       [
-        
         {
           "no": 7,
           "title": "Open source intelligence",
-          "content": [
-            "Open source intelligence"
-          ]
+          "content": ["Open source intelligence"]
         },
         {
           "no": 8,
@@ -13520,21 +13159,15 @@
         {
           "no": 9,
           "title": "Anonymous call & email",
-          "content": [
-            "Anonymous call & email",
-            "Temporary emails"
-          ]
+          "content": ["Anonymous call & email", "Temporary emails"]
         },
         {
           "no": 10,
           "title": "Keylogger - The art of spying",
-          "content": [
-            "Keylogger - I",
-            "Keylogger - II"
-          ]
+          "content": ["Keylogger - I", "Keylogger - II"]
         },
         {
-          "no":11,
+          "no": 11,
           "title": "DarkNet & DeepWeb",
           "content": [
             "What is DarkNet?",
@@ -13543,7 +13176,7 @@
           ]
         },
         {
-          "no":12,
+          "no": 12,
           "title": "Steganography hiding secret message",
           "content": [
             "Steganography using tool",
@@ -13551,15 +13184,12 @@
           ]
         },
         {
-          "no":13,
+          "no": 13,
           "title": "Spear phising art of social engineering",
-          "content": [
-            "Sear phising",
-            "Phish tank: secure yourself"
-          ]
+          "content": ["Sear phising", "Phish tank: secure yourself"]
         },
         {
-          "no":14,
+          "no": 14,
           "title": "Window password hacking and cracking",
           "content": [
             "Windows password cracking",
@@ -13567,7 +13197,7 @@
           ]
         },
         {
-          "no":15,
+          "no": 15,
           "title": "Computer Forensics investigation",
           "content": [
             "What is Digital Forensics?",
@@ -13576,7 +13206,7 @@
           ]
         },
         {
-          "no":16,
+          "no": 16,
           "title": "Web application hacking",
           "content": [
             "Distributed Denial Of Service Attack - DDOS",
@@ -13585,21 +13215,17 @@
           ]
         },
         {
-          "no":17,
+          "no": 17,
           "title": "Malware analysis",
-          "content": [
-            "Malware Game"
-          ]
+          "content": ["Malware Game"]
         },
         {
-          "no":18,
+          "no": 18,
           "title": "Find lost android device",
-          "content": [
-            "Android device manager"
-          ]
+          "content": ["Android device manager"]
         },
         {
-          "no":19,
+          "no": 19,
           "title": "Metasploit extreme on Kali Linux",
           "content": [
             "Hacking windows 7-8-10 like Black Hat Hacker Part - 1",
@@ -13607,7 +13233,7 @@
           ]
         },
         {
-          "no":20,
+          "no": 20,
           "title": "What next after Cyber Ninja",
           "content": [
             "What Next?",
@@ -13707,10 +13333,7 @@
           "Real-time projects with implementation",
           "Study material, practicals, quizzes"
         ],
-        [
-          "24/7 support",
-          "Lifetime access of LMS with videos & material"
-        ]
+        ["24/7 support", "Lifetime access of LMS with videos & material"]
       ],
       "learn": [
         [
@@ -13776,10 +13399,8 @@
             "Finding malicious strings",
             "Resource hacker",
             "Finding packers"
-            
           ]
         }
-        
       ],
       [
         {
@@ -13804,9 +13425,7 @@
         {
           "no": 6,
           "title": "Bonus",
-          "content": [
-            "Hacking android mobile like Ninja Hacker"
-          ]
+          "content": ["Hacking android mobile like Ninja Hacker"]
         }
       ]
     ],
@@ -13900,10 +13519,7 @@
           "Real-time projects with implementation",
           "Study material, practicals, quizzes"
         ],
-        [
-          "24/7 support",
-          "Lifetime access of LMS with videos & material"
-        ]
+        ["24/7 support", "Lifetime access of LMS with videos & material"]
       ],
       "learn": [
         [
@@ -13969,25 +13585,19 @@
             "Master Nessus",
             "Advanced Penetration Testing",
             "Penetration testing"
-            
           ]
         }
-        
       ],
       [
         {
           "no": 4,
           "title": "Digital Forensics",
-          "content": [
-            "Android Forensics"
-          ]
+          "content": ["Android Forensics"]
         },
         {
           "no": 5,
           "title": "Open source intelligence",
-          "content": [
-            "Master Shodan"
-          ]
+          "content": ["Master Shodan"]
         },
         {
           "no": 6,
@@ -14053,7 +13663,6 @@
           "que": "What will the end result be of this online Cyber Warrior training course?",
           "ans": "You will find your strengths. You can choose your career path. And finally you will get a certificate."
         }
-        
       ],
       [
         {
