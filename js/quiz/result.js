@@ -19,14 +19,26 @@ const calculateMark = () => {
       let wrongAns = 0;
       let userAnswers = [];
 
-      for (let i = 0; i < answerSheet.length; i++) {
+      for (let i = 0; i < answerPaper.length; i++) {
         // check ans is available or not
-        if (answerPaper[i][i + 1]) {
+
+        console.log(answerPaper[i]);
+
+        const originalQueNo = answerPaper[i].question_no;
+        const serialNo = answerPaper[i].serial;
+        const givenAns = answerPaper[i].given_ans;
+
+        if (givenAns) {
+          console.log(originalQueNo);
           // store users ans only
-          userAnswers.push(answerPaper[i]);
+          // userAnswers.push(answerPaper[i]);
 
           // evaluate the given ans
-          if (answerSheet[i].correct_ans === answerPaper[i][i + 1]) {
+
+          console.log(answerSheet[originalQueNo].correct_ans);
+          console.log(givenAns);
+
+          if (answerSheet[originalQueNo].correct_ans == givenAns) {
             correctAns++;
           } else {
             wrongAns++;
@@ -113,13 +125,15 @@ const calculateMark = () => {
       const cardContainer = document.createElement("div");
       cardContainer.classList.add("card-container");
 
-      userAnswers.forEach((ans) => {
-        const questionNo = Object.keys(ans)[0];
-        const givenAns = Object.values(ans)[0];
+      console.log("Evaluation");
+      answerPaper.forEach((eachAns) => {
+        console.log(eachAns);
+
+        const serialNo = eachAns.serial;
+        const questionNo = eachAns.question_no;
+        const userAns = eachAns.given_ans;
         const questionName = answerSheet[questionNo - 1].question;
         const options = answerSheet[questionNo - 1].options;
-
-        // correct ans of each question
         const correctOption = answerSheet[questionNo - 1].correct_ans;
 
         const cardDiv = document.createElement("div");
@@ -127,9 +141,10 @@ const calculateMark = () => {
 
         // <h2>Question No: ${questionNo}</h2>
         cardDiv.innerHTML = `
-        
+
+        <span class="question-no" >Question No: ${serialNo}</span>
         <h1>${questionName}</h1>
-        
+
         `;
 
         const optionDiv = document.createElement("div");
@@ -138,15 +153,17 @@ const calculateMark = () => {
 
         options.forEach((option) => {
           // separate the option no and option name
+          console.log(option);
 
           const optionNo = Object.keys(option)[0];
           const optionName = Object.values(option)[0];
+
           const optionShowDiv = document.createElement("p");
           optionShowDiv.innerHTML = `
           <span class="option-no">${optionNo}</span> <p class="option-value">${optionName}</p>
           `;
 
-          if (givenAns == optionNo) {
+          if (userAns == optionNo) {
             optionShowDiv.classList.add("wrong-ans");
           }
 
