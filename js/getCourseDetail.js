@@ -38,7 +38,7 @@ const courseDetails = (data, courseId) => {
 
               <div class="send-info">
                   <div>
-                      <img src="./images/course-img/send.jpg" alt="image">
+                      <img src="./images/course-img/send.jpg" alt="image" loading="lazy" >
                   </div>
 
                   <div>
@@ -133,7 +133,7 @@ const courseDetails = (data, courseId) => {
     </div>
           
     <div class="banner-img">
-        <img src=${bannerImg} data-aos="fade-up" alt="banner-image" />
+        <img src=${bannerImg} data-aos="fade-up" alt="banner-image" loading="lazy" />
     </div>
       
   </div>
@@ -150,7 +150,7 @@ const courseDetails = (data, courseId) => {
   <div class="reason-to-enroll">
       
       <div data-aos="fade-right" class="reason-to-enroll-left-side">
-          <img src='./images/course-img/course-details/girl.jpg' alt="image" />
+          <img src='./images/course-img/course-details/girl.jpg' alt="image" loading="lazy" />
       </div>
       
       <div data-aos="zoom-in" class="reason-to-enroll-right-side">
@@ -177,7 +177,7 @@ const courseDetails = (data, courseId) => {
           <p>${prerequisite.suggest}</p>
       </div>
       <div>
-          <img src="./images/course-img/course-details/boy.jpg" data-aos="zoom-in-up" alt="image" />
+          <img src="./images/course-img/course-details/boy.jpg" data-aos="zoom-in-up" alt="image" loading="lazy" />
       </div>
   </div>
 
@@ -213,7 +213,7 @@ const courseDetails = (data, courseId) => {
       <h1 data-aos="zoom-in">Companies you can expect <br> when you get ${shortName}-certified with us</h1>
 
       <div class="companies-img" data-aos="fade-up" data-aos-duration=1000>
-          <img src="./images/companies.png" alt="companies image">
+          <img src="./images/companies.png" alt="companies image" loading="lazy" >
       </div>
   </div>
   `;
@@ -348,7 +348,7 @@ const courseDetails = (data, courseId) => {
     parentDiv.setAttribute("data-aos", "flip-right");
     parentDiv.innerHTML = `
                             <div class="feature-img">
-                                <img src=${feature.img} alt="image" />
+                                <img src=${feature.img} alt="image" loading="lazy" />
                             </div>
 
                             <p>${feature.title}</p>`;
