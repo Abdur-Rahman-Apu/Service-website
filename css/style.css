@@ -1052,8 +1052,8 @@ header .profile-img {
     grid-template-columns: repeat(2, 1fr);
   }
   .webinar-info .webinar-info-heading,
-  .contact-msg h1 {
-    font-size: 30px;
+  #contact-section .contact-msg .contact-msg-heading {
+    font-size: 35px;
   }
 }
 
@@ -1105,7 +1105,7 @@ header .profile-img {
     padding: 0 20px;
   }
 
-  .certificate-title h1 {
+  .certificate-section .certificate-section-title {
     font-size: 30px;
   }
 
@@ -1124,10 +1124,6 @@ header .profile-img {
   .webinar-section > div,
   #contact-section > div {
     flex-basis: 100%;
-  }
-  .webinar-info .webinar-info-heading,
-  #contact-section .contact-msg .contact-msg-heading {
-    font-size: 30px;
   }
 
   .webinar-info p,
@@ -1202,7 +1198,7 @@ header .profile-img {
     flex-basis: 100%;
     margin-bottom: 90px;
   }
-  .certificate-title h1 {
+  .certificate-section .certificate-section-title {
     font-size: 28px;
   }
 
@@ -1211,12 +1207,7 @@ header .profile-img {
   }
 
   .display-section .display-section-heading {
-    font-size: 30px;
-  }
-
-  .webinar-info .webinar-info-heading,
-  #contact-section .contact-msg .contact-msg-heading {
-    font-size: 25px;
+    font-size: 35px;
   }
 
   .webinar-info p,
