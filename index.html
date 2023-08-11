@@ -819,6 +819,15 @@
                 this.addEventListener("mousewheel", handle, { passive: true });
             }
         };
+
+
+        $(document).ready(function () {
+            $('.floating-wpp .floating-wpp-input-message textarea').attr('aria-label', 'message');
+        })
+
+
+
+        //aos initialization
         AOS.init();
 
         // testimonial section slider 
