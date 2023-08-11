@@ -1058,6 +1058,10 @@ header .profile-img {
 }
 
 @media screen and (max-width: 700px) {
+  .profile-img img {
+    width: 45vw;
+    padding: 6px;
+  }
   .cursor {
     display: none;
   }
