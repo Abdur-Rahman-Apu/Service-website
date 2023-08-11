@@ -270,6 +270,17 @@ form input:focus {
   transition: all 200ms ease-in-out;
   transform: translate(-50%, -50%) scale(1);
 }
+
+.map-container {
+  width: 80%;
+  margin: 5rem auto;
+}
+
+.map-container iframe {
+  width: 100%;
+  border-radius: 10px;
+}
+
 /* media query  */
 
 @media screen and (max-width: 900px) {
