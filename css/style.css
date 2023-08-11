@@ -1059,7 +1059,7 @@ header .profile-img {
 
 @media screen and (max-width: 700px) {
   .profile-img img {
-    width: 45vw;
+    width: 45%;
     padding: 6px;
   }
   .cursor {
