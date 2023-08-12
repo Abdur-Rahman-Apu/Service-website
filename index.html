@@ -21,6 +21,7 @@
     <!-- IF BROWSER DOESN'T SUPPORT JAVASCRIPT THEN USE NORMAL LINK TAGS TO LOAD CSS -->
     <noscript>
         <link rel="stylesheet" type="text/css" href="./css/style.css" />
+        <link rel="stylesheet" type="text/css" href="./css/courses.css">
     </noscript>
 
     <!-- LOAD CSS -->
@@ -31,9 +32,17 @@
             css.rel = 'stylesheet';
             css.type = 'text/css';
             document.getElementsByTagName('head')[0].appendChild(css);
+
+            var css = document.createElement('link');
+            css.href = './css/courses.css';
+            css.rel = 'stylesheet';
+            css.type = 'text/css';
+            document.getElementsByTagName('head')[0].appendChild(css);
+
+
         })();
 //]]></script>
-    <link rel="stylesheet" href="./css/courses.css">
+
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 
