@@ -13,6 +13,7 @@ footer > div {
 }
 
 .footer-logo img {
+  height: 100px;
   object-fit: cover;
 }
 
