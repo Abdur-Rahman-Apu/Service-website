@@ -2,7 +2,7 @@
 @import url("./navbar.css");
 @import url("./scroll-up.css"); */
 
-::root {
+:root {
   --body-color: #fff;
   --primary-color: #f5df4e;
   --secondary-bgc: #f8f9fa;
