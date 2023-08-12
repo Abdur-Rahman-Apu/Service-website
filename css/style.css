@@ -1089,6 +1089,7 @@ header .profile-img {
 
   .services,
   .featured-projects {
+    width: 100%;
     grid-template-columns: repeat(1, 1fr);
   }
 

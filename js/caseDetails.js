@@ -22,7 +22,7 @@ const caseDetails = (data, projectId) => {
         <h1 class="title">${name}</h1>
 
         <div class="project-logo">
-            <img src=${gifImg} alt="image" loading="lazy" />
+            <img src=${gifImg} alt="image" loading="lazy"/>
         </div>
 
         <hr>

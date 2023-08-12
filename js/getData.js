@@ -31,7 +31,7 @@ const featuredProjects = (data, showData) => {
     projectParentDiv.setAttribute("data-aos-duration", 3000);
     projectParentDiv.setAttribute("data-aos-easing", "ease-in-out");
     projectParentDiv.innerHTML = `
-                  <img src='${thumbnailImg}' alt="image" />
+                  <img src='${thumbnailImg}' alt="image"  width="600" height="200"  />
                   <p>${name}</p>                
                   `;
 
