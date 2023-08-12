@@ -22,17 +22,16 @@
 }
 
 body {
-  background-color: var(--body-color);
   scroll-behavior: smooth;
 }
 
 .navbar .contact a {
-  color: var(--font-color);
+  color: #000;
 }
 
 .navbar ul li a,
 .navbar .contact i {
-  color: var(--font-color);
+  color: #000;
 }
 
 .toggle-theme {
@@ -40,7 +39,7 @@ body {
   left: 10px;
   bottom: 20px;
   font-size: 30px;
-  color: var(--font-color);
+  color: #000;
   cursor: pointer;
 }
 
@@ -185,7 +184,7 @@ header .profile-img {
   font-weight: 600;
   font-size: 42px;
   margin-bottom: 40px;
-  color: var(--font-color);
+  color: #000;
 }
 
 .about-intro {
@@ -196,7 +195,7 @@ header .profile-img {
   font-weight: 500;
   font-size: 2.2rem;
   margin-bottom: 10px;
-  color: var(--font-color);
+  color: #000;
 }
 
 .about-intro h2 span {
@@ -219,7 +218,7 @@ header .profile-img {
 .about-info {
   display: flex;
   justify-content: space-between;
-  color: var(--font-color);
+  color: #000;
 }
 
 .about-intro {
@@ -292,7 +291,7 @@ header .profile-img {
 }
 
 .service-header .service-heading {
-  color: var(--font-color);
+  color: #000;
   font-weight: bold;
   font-size: 38px;
   margin: 20px 0 30px;
@@ -328,7 +327,7 @@ header .profile-img {
 }
 
 .service-name {
-  color: var(--font-color);
+  color: #000;
   font-weight: bold;
   margin: 30px 0 20px;
   text-align: center;
@@ -338,7 +337,7 @@ header .profile-img {
 }
 
 .service-description {
-  color: var(--font-color);
+  color: #000;
   font-size: 14px;
   margin: 15px 0;
   text-align: center;
@@ -362,7 +361,7 @@ header .profile-img {
   font-size: 38px;
   font-weight: bold;
   position: relative;
-  color: var(--font-color);
+  color: #000;
 }
 
 .case-study-section .case-study-title::after {
@@ -440,7 +439,7 @@ header .profile-img {
 }
 
 .statistics-section .statistics-title {
-  color: var(--font-color);
+  color: #000;
   font-size: 38px;
   font-weight: bold;
   margin: 30px 0;
@@ -501,7 +500,7 @@ header .profile-img {
 }
 
 .statistics-info h3 {
-  color: var(--font-color);
+  color: #000;
   font-size: 28px;
 }
 
@@ -553,7 +552,6 @@ header .profile-img {
 /* featured courses section  */
 
 .featured-courses {
-  background-color: var(--secondary-bgc);
   padding: 40px 3% 120px;
 }
 
@@ -565,7 +563,6 @@ header .profile-img {
   padding: 3px 9px;
   font-size: 38px;
   margin: 18px auto 0;
-  color: var(--font-color);
 }
 
 .featured-courses > p {
@@ -606,7 +603,6 @@ header .profile-img {
   font-size: 38px;
   margin: 90px 0 100px;
   text-align: center;
-  color: var(--font-color);
 }
 
 .testimonial-section h2::after {
@@ -780,7 +776,6 @@ header .profile-img {
   justify-content: center;
   margin: 0 auto;
   padding: 120px 20%;
-  background-color: var(--third-bgc);
 }
 
 .certificate-section > div {
@@ -791,14 +786,14 @@ header .profile-img {
   text-align: center;
   font-size: 48px;
   font-weight: bold;
-  color: var(--font-color);
+  color: #000;
 }
 
 .certificate-section p {
   margin-top: 40px;
   text-align: center;
   font-size: 18px;
-  color: var(--font-color);
+  color: #000;
 }
 
 .certificates {
@@ -831,7 +826,7 @@ header .profile-img {
   font-size: 40px;
   font-weight: bold;
   margin-bottom: 60px;
-  color: var(--font-color);
+  color: #000;
 }
 
 .display-section .display-section-heading::after {
@@ -863,7 +858,7 @@ header .profile-img {
 }
 
 .blog-section .blog-section-heading {
-  color: var(--font-color);
+  color: #000;
   font-size: 38px;
   font-weight: bold;
   text-align: center;
@@ -947,14 +942,14 @@ header .profile-img {
 .webinar-info .webinar-info-heading {
   font-size: 38px;
   font-weight: bold;
-  color: var(--font-color);
+  color: #000;
 }
 
 .webinar-info p {
   font-size: 15px;
   text-align: justify;
   margin: 20px 0;
-  color: var(--font-color);
+  color: #000;
 }
 
 .webinar-btn,
@@ -998,7 +993,7 @@ header .profile-img {
   font-size: 38px;
   font-weight: bold;
   margin-bottom: 15px;
-  color: var(--font-color);
+  color: #000;
 }
 
 .contact-msg p {
