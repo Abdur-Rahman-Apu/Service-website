@@ -2,7 +2,7 @@
   {
     "id": 0,
     "name": "the alex",
-    "thumbnailImg": "./images/projects-gallery/alex/ALEX+THUMBNAIL.jpg",
+    "thumbnailImg": "./images/projects-gallery/alex/ALEX+THUMBNAIL.webp",
     "gifImg": "./images/projects-gallery/alex/The+Alex.gif",
     "clientName": "The Alex Theater",
     "category": " Entertainment",
@@ -25,7 +25,7 @@
   {
     "id": 1,
     "name": "gendergp",
-    "thumbnailImg": "./images/projects-gallery/gendergp/GenderGP-Thumbnail.jpg",
+    "thumbnailImg": "./images/projects-gallery/gendergp/GenderGP-Thumbnail.webp",
     "gifImg": "./images/projects-gallery/gendergp/GGP_Logo_COLOR_1000px.jpg",
     "clientName": "GenderGP",
     "category": "GenderGP",
@@ -49,7 +49,7 @@
   {
     "id": 2,
     "name": "aliquote skin",
-    "thumbnailImg": "./images/projects-gallery/aliquote/Aliquote+Pkg+thumbnail.jpg",
+    "thumbnailImg": "./images/projects-gallery/aliquote/Aliquote+Pkg+thumbnail.webp",
     "gifImg": "./images/projects-gallery/aliquote/AS+Main+Logo+600px.png",
     "clientName": "Marie Bertrand",
     "category": "Dermatological Skincare Brand",
