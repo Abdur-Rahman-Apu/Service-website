@@ -5,7 +5,7 @@ footer {
   display: flex;
   align-items: center;
   color: #fff;
-  padding: 0 4%;
+  padding: 0 5%;
 }
 
 footer > div {
@@ -13,7 +13,7 @@ footer > div {
 }
 
 .footer-logo img {
-  object-fit: contain;
+  object-fit: cover;
 }
 
 footer a {
@@ -62,6 +62,11 @@ footer .rules-regulations {
     flex-basis: 100%;
   }
 
+  .footer-logo img {
+    height: 90px;
+    margin-top: 20px;
+  }
+
   footer a {
     margin-right: 20px;
   }
@@ -80,7 +85,12 @@ footer .rules-regulations {
     align-items: center;
   }
 
+  footer a {
+    margin-right: 0px;
+  }
+
   footer .rules-regulations a {
     margin-bottom: 10px;
+    font-size: 14px;
   }
 }
