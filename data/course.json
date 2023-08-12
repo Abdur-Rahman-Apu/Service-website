@@ -3134,7 +3134,7 @@
   {
     "id": 8,
     "courseName": "AWS Certification Course ",
-    "bannerImg": "./images/course-img/course-banner/AWS.webp",
+    "bannerImg": "./images/course-banner/AWS.webp",
     "shortName": "AWS",
     "overview": "A perfect blend of in-depth AWS knowledge and strong practical skills for AWS Certified Cloud Practitioner (CLF-C01) Exam.  AWS course gives you a headstart in learning Amazon Cloud and enables you to bag top jobs in IT industry.",
     "reasons": {
@@ -8426,7 +8426,7 @@
   {
     "id": 25,
     "courseName": "Figma Certification Course ",
-    "bannerImg": "./images/course-img/course-banner/figma.webp",
+    "bannerImg": "./images/course-banner/figma.webp",
     "shortName": "Figma",
     "overview": "Figma course offers a perfect blend of in-depth theoretical knowledge and strong practical skills via implementation of real-life Figma projects to give you a headstart and enable you to bag top designer jobs in the industry.",
     "reasons": {
@@ -13509,7 +13509,7 @@
   {
     "id": 42,
     "courseName": "Cyber Warrior Certification Course",
-    "bannerImg": "./images/course-img/course-banner/cyber-warrior.webp",
+    "bannerImg": "./images/course-banner/cyber-warrior.webp",
     "shortName": "Cyber Warrior",
     "overview": "Although this Ethical Hacking & Cyber Security class focused on the practical side of Hacking, the theory behind every attack is also covered along with. Before jumping into Hacking, you will first learn how to set up a lab and install needed software to practice these hacking techniques on your own machine. All the attacks explained are launched against real devices in my Hacking Lab. ",
     "reasons": {
