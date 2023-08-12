@@ -95,6 +95,10 @@ header .profile-img {
   color: #fff;
 }
 
+.dynamic-writing h2 {
+  font-size: 20px;
+}
+
 .dynamic-writing .type {
   color: #f5df4e;
 }
@@ -109,7 +113,7 @@ header .profile-img {
 
 .intro p {
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1rem;
   color: #dee3e4;
   margin: 10px 0;
 }
@@ -1150,7 +1154,11 @@ header .profile-img {
   }
 
   .intro p {
-    font-size: 18px;
+    font-size: 15px;
+  }
+
+  .dynamic-writing h2 {
+    font-size: 17px;
   }
 
   .about-header h2 {
