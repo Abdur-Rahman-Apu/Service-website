@@ -5,7 +5,7 @@ viewAllBtn.textContent = "VIEW ALL PROJECTS";
 
 Object.assign(viewAllBtn, {
   className: "view-all-btn",
-  href: "./case-studies.html",
+  href: "case-studies",
 });
 
 viewAllBtn.setAttribute("data-aos", "fade-up");
