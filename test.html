@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page with Sections and Smooth Scrolling</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        section {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#section1">Go to Section 1</a></li>
+            <li><a href="#section2">Go to Section 2</a></li>
+            <!-- Add more links for other sections... -->
+        </ul>
+    </nav>
+
+    <section id="section1">
+        Section 1
+    </section>
+
+    <section id="section2">
+        Section 2
+    </section>
+
+    <!-- More sections... -->
+
+    <script>
+        // Smooth scroll function
+        function smoothScroll(target, duration) {
+            const targetElement = document.querySelector(target);
+            const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
+            const startPosition = window.pageYOffset;
+            const distance = targetPosition - startPosition;
+            let startTime = null;
+
+            function animation(currentTime) {
+                if (startTime === null) startTime = currentTime;
+                const timeElapsed = currentTime - startTime;
+                const progress = Math.min(timeElapsed / duration, 1);
+                const easing = easeInOutCubic(progress);
+                window.scrollTo(0, startPosition + distance * easing);
+                if (timeElapsed < duration) requestAnimationFrame(animation);
+            }
+
+            requestAnimationFrame(animation);
+        }
+
+        // Easing function
+        function easeInOutCubic(t) {
+            return t < 0.5 ? 4 * t * t * t : (t - 1) * (2 * t - 2) * (2 * t - 2) + 1;
+        }
+
+        // Handle smooth scrolling on click
+        document.addEventListener('DOMContentLoaded', function () {
+            const links = document.querySelectorAll('nav a');
+            links.forEach(link => {
+                link.addEventListener('click', function (event) {
+                    event.preventDefault();
+                    const target = link.getAttribute('href');
+                    smoothScroll(target, 800);
+                    console.log(target);
+                    // Update URL without the fragment identifier
+                    history.pushState(null, null, target);
+                });
+            });
+        });
+
+    </script>
+</body>
+
+</html>
