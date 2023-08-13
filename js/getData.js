@@ -90,7 +90,8 @@ const featuredCourses = (data, showData) => {
 
     // course parent div
 
-    const courseDetailPath = "./course-detail.html?" + id;
+    const courseDetailPath =
+      "./course-detail.html?" + courseName.split(" ").join("-");
 
     const courseDiv = document.createElement("div");
     courseDiv.setAttribute("data-aos", "fade-up");
