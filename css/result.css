@@ -25,7 +25,7 @@
 }
 
 .logo {
-  width: 40vw;
+  width: 10vw;
   height: 20vh;
   margin: 10px auto 0;
 }
@@ -156,6 +156,7 @@
 .options p {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   font-family: var(--font-roboto);
   font-weight: 400;
   font-size: 1.5vw;
@@ -178,6 +179,7 @@
 
 .option-value {
   font-weight: 700 !important;
+  margin: 0;
 }
 
 .wrong-ans {

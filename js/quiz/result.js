@@ -54,7 +54,7 @@ const calculateMark = () => {
 
       header.innerHTML = `
         <div class="logo">
-            <img src='images/SK-Logo-yellow-black.png' alt="image" />
+            <img src='images/SK-Logo-exam.png' alt="image" />
         </div>
 
         <h1>Course Name: ${examName}</h1>

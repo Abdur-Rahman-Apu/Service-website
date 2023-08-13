@@ -6,6 +6,10 @@
   --font-roboto: "Roboto Condensed", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #f5f6fa;
   scroll-behavior: smooth;
