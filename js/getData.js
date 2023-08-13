@@ -56,7 +56,8 @@ const courses = (data, showData) => {
 
     // course parent div
 
-    const courseDetailPath = "./course-detail.html?" + id;
+    const courseDetailPath =
+      "./course-detail.html?" + courseName.split(" ").join("-");
 
     const courseDiv = document.createElement("div");
     courseDiv.setAttribute("data-aos", "fade-up");
@@ -67,7 +68,9 @@ const courses = (data, showData) => {
                         <div class="course-banner">
                             <img src=${bannerImg} alt="image" />
                         </div>
-                            <h1 class="course-title">${courseName}</h1>
+                            <h1 class="course-title">${courseName
+                              .split(" ")
+                              .join("-")}</h1>
                         </div>    
                     </a>
             `;

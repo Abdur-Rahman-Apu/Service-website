@@ -1,7 +1,8 @@
-const queryString = location.search.substring(1);
+// extract course name from the url
+const queryString = window.location.search.substring(1).split("-").join(" ");
 
-const courseDetails = (data, courseId) => {
-  const courseFind = data.find((course) => course.id == courseId);
+const courseDetails = (data, queryString) => {
+  const courseFind = data.find((course) => course.courseName == queryString);
 
   const {
     courseName,
@@ -12,8 +13,6 @@ const courseDetails = (data, courseId) => {
     why,
     curriculum,
     features,
-    faq,
-    forWho,
     prerequisite,
     separateCourses,
   } = courseFind;
