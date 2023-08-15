@@ -363,20 +363,6 @@ const courseDetails = (data, queryString) => {
     easing: "ease-in",
   });
 
-  $(".faqs .faq-left").vCollapse({
-    any: true,
-    onLoad: -1,
-    speed: 300,
-    easing: "ease-in",
-  });
-
-  $(".faqs .faq-right").vCollapse({
-    any: true,
-    onLoad: -1,
-    speed: 300,
-    easing: "ease-in",
-  });
-
   // modal
   (function () {
     emailjs.init("huB7HdbtLQHtlBqmr");

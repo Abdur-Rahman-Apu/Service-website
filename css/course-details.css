@@ -249,6 +249,10 @@ body {
   color: #000;
 }
 
+.reason-to-learn .reasons span {
+  font-weight: bold;
+}
+
 /* course content section  */
 
 .course-contents {
@@ -295,9 +299,7 @@ body {
   background-color: #f5df4e;
 }
 
-.course-contents > div > div,
 .course-contents > div > div {
-  background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -313,21 +315,14 @@ body {
   position: absolute;
   bottom: 0;
   left: 43%;
-
   width: 15%;
   height: 4px;
   background-color: #f5df4e;
 }
 
-.course-contents > div p,
 .course-contents > div p {
   margin-left: 30px;
   padding-right: 30px;
-}
-
-.course-contents > div > div {
-  display: block;
-  padding: 0;
 }
 
 .course-contents .vcollapse-content ul {
