@@ -2,8 +2,10 @@
 const queryString = window.location.search.substring(1).split("-").join(" ");
 
 const courseDetails = (data, queryString) => {
+  console.log(data);
+  console.log(queryString);
   const courseFind = data.find((course) => course.courseName == queryString);
-
+  console.log(courseFind);
   const {
     courseName,
     bannerImg,

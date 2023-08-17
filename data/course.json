@@ -2,22 +2,1781 @@
   {
     "id": 0,
     "courseName": "Python Certification Course",
-    "bannerImg": "./images/course-img/course-banner/python.png"
+    "bannerImg": "./images/course-img/course-banner/python.png",
+    "shortName": "python",
+    "overview": "Learn Python with our all-inclusive course! Learn theory, practice coding with hands-on projects, and test your skills with engaging quizzes. Start your Python journey now!",
+    "reasons": {
+      "enroll": [
+        [
+          "Learn Python from scratch",
+          "Learn full stack Python development",
+          "Work on real-time use-cases and live projects",
+          "Learn advanced python concepts like decorators",
+          "Get to know the top python frameworks",
+          "Understand how Python helps in Machine Learning"
+        ],
+        [
+          "Build industry-grad GUIs with Python",
+          "Able to use Python to solve tasks and implement it",
+          "Learn to build your own modules and packages",
+          "Learn to use the object oriented programming with Python",
+          "Beginner friendly course which makes you an expert",
+          "Work with images and files"
+        ]
+      ],
+      "learn": [
+        [
+          "50+ hrs of self-paced video course",
+          "70+ Real-time projects with implementation",
+          "170+ hrs of study material, practicals, quizzes"
+        ],
+        [
+          "Practical course with real-time case-studies",
+          "Lifetime access with industry renowned certification"
+        ]
+      ]
+    },
+    "why": [
+      {
+        "title": "Python is the #1 Programming Language from last few years",
+        "src": "IEEE Spectrum"
+      },
+      {
+        "title": "Python is recognized as the ‘Language of the Year’",
+        "src": "TIOBE Index"
+      },
+      {
+        "title": "Python is the most preferred language of Data Scientists for Machine Learning & Data Science applications",
+        "src": "Google"
+      },
+      {
+        "title": "The average salary of all Python developers today is $123,360",
+        "src": "Indeed"
+      },
+      {
+        "title": "Python is becoming the world’s most popular coding language",
+        "src": "The Economist"
+      }
+    ],
+    "prerequisite": {
+      "que": "What to do before you begin your  Python Course?",
+      "ans": "Nothing!",
+      "suggest": "ll you need to make the most out of this  python course is a desire to learn and a penchant for solving problems"
+    },
+    "curriculum": [
+      [
+        {
+          "no": 1,
+          "title": "Demystifying Python",
+          "content": [
+            "Introduction to Python",
+            "installation & configuration of Python <ul><li>Statements, Indentation-alignment, and Comments</li></ul>",
+            "Python Features",
+            "Basic Python Programming Syntax",
+            "Reasons – Why you must learn Python",
+            "Benefits and Limitations of Python",
+            "Career in Python",
+            "Real-world applications of Python",
+            "Python top Compilers and Interpreters"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Python Basic Constructs",
+          "content": [
+            "Variables  <ul><li>Python Variable Scope</li></ul>",
+            "Different Data Types in Python",
+            "Importance of Python Operators <ul><li>Bitwise Operators</li><li>Comparison Operators</li><li>Operator Precedence</li><Ternary Operators</li></ul>",
+            "Python if else <ul><li>Switch-case in Python</li></ul>",
+            "Python Loops",
+            "Python play with Numbers",
+            "String Handling in Python <ul><li>Python String Formatters</li> <li>Escape Sequences in Python</li> <li>Play with String Functions and String Operations in Python</li> <li>Python repr() & other important Functions</li></ul>"
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Python Data Structures",
+          "content": [
+            "Work on Python Lists <ul><li>List Comprehension</li><li>The array Module</li></ul>",
+            "Deep dive in to Python Tuples <ul><li>The zip() Function</li><li>Tuples vs Lists</li></ul>",
+            "Python Slicing",
+            "Python Binary Sequence Types- bytes, bytearray, memoryview",
+            "Dictionaries in Python – how to use them in live projects",
+            "Sets in Python",
+            "Booleans in Python"
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Functional Programming in Python",
+          "content": [
+            "Functions in Python – how to resuse them",
+            "Python Lambda Functions",
+            "Python Function Arguments",
+            "Python Recursion – powerfull ways to call oneself",
+            "Python Built-in Functions <ul><li>range()</li><li>eval()</li><li>exec()</li></ul>",
+            "Decorators in Python – master the advanced concepts",
+            "Closure in Python",
+            "Working with Itertools in Python"
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Python Modules & packages",
+          "content": [
+            "Python Counter",
+            "Python Defaultdict",
+            "Python OrderedDict",
+            "namedtuple in Python",
+            "Python Numeric Modules- math, decimal, random",
+            "sys",
+            "Play with Random module",
+            "Python calendar",
+            "Python datetime Module",
+            "Python packages <ul><li>Python pip and PyPI</li><li>Python Modules vs Packages – Which one is right for you?</li></ul>"
+          ]
+        }
+      ],
+      [
+        {
+          "no": 6,
+          "title": "Deep Dive into Python",
+          "content": [
+            "Python Multithreading – efficiently perform multiple tasks",
+            "Working with Date and Time module in Python",
+            "Python Namespace and Scope – detailed understanding",
+            "Python Terminologies – master them all",
+            "Deep Copy vs Shallow Copy in Python",
+            "Assert Statements in Python",
+            "Python Pretty-Printing with pprint",
+            "Python Virtual Environments",
+            "CGI Programming with Python",
+            "Play with urllib",
+            "Python XML Processing",
+            "Sending Mail with Python"
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Python Object-Oriented Programming Concepts",
+          "content": [
+            "Methods in Python <ul><li>Python Methods vs Functions</li><li>Magic (Dunder) Methods in Python</li></ul>",
+            "Python Classes",
+            "Python Objects",
+            "Inheritance in Python – Understand code reusability",
+            "Python Multiple Inheritance",
+            "Python Operator Overloading",
+            "Iterators in Python<ul><li>Python Generators vs Iterators</li></ul>",
+            "Understanding Serialization with pickle",
+            "Python property Decorator",
+            "Python Generators"
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Python Exception Handling",
+          "content": [
+            "Python Errors and Exceptions",
+            "Python Exception Handling with real-time examples",
+            "Python Testing with unittest",
+            "File Handling in Python <ul><li>Python Read and Write Files</li><li>Python Manage Directories</li><li>Python OS Module – interact with Operating System</li><li>Python shutil Module</li><li>Python – Copying Renaming Zipping Files</li></ul>"
+          ]
+        },
+
+        {
+          "no": 9,
+          "title": "Python Advanced Concepts",
+          "content": [
+            "Python Regular Expressions – Powerful data manipulation tool",
+            "Networking in Python – It’s time for a Python Networking",
+            "Python Images Processing Libraries",
+            "Python GUI Programming",
+            "Python Powerful Tools",
+            "The Python Debugger (pdb)",
+            "Logging with Python",
+            "Python Multiprocessing",
+            "Python Web Frameworks",
+            "Python Django",
+            "Python Flask",
+            "Python vs Other Programming Languages <ul><li>Python vs Java</li><li>Python vs C</li><li>Python vs C++</li><li>Python vs Scala</li><li>Python vs R</li></ul>"
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Real-time Python Projects",
+          "content": [
+            "<strong>Python Projects for beginners</strong>70+ real-time python projects based on industry requirements to learn python language. In this  python course for beginners We will also provide projects implementation to make you job readyPassword Generator, Calculator, Alarm Clock, Create Voice Assistant, Language Translation, Countdown Timer, Contact Book, Text Editor (Notepad), Convert Text to Speech, YouTube Downloader, Message Encryption Decryption, Currency Converter, MP3 Music Player, Python QR Code Generator, Generating Random Numbers, Website Connectivity Checker, Create a Web Browser, Video to Audio Converter, Screen Recorder, Convert PDF File Text to AudioBook &amp; Speech to PDF, Expense Tracker, ToDo List<strong>Python Game Projects:</strong>Typing Test, Song Lyrics Extractor, Binary Search, Weight Converter with GUI using Tkinter, Visualize a Solar System, Shutdown-Restart and Logout Computer, Live Weather Notifications, Shop Management System, Library Management System<strong>And many more!! Don’t worry, we have an unending list of python projects for you.</strong>"
+          ]
+        }
+      ]
+    ],
+    "features": [
+      {
+        "img": "./images/course-img/course-features/time.png",
+        "title": "Live session"
+      },
+      {
+        "img": "./images/course-img/course-features/support.png",
+        "title": "Lifetime access to course with support"
+      },
+      {
+        "img": "./images/course-img/course-features/project.png",
+        "title": "Real time company/Live projects"
+      },
+      {
+        "img": "./images/course-img/course-features/certificate.png",
+        "title": "Certificate"
+      },
+      {
+        "img": "./images/course-img/course-features/brainstorming.png",
+        "title": "2- Months of live Internship"
+      }
+    ],
+    "forWho": {
+      "que": "Is this online Python training course for beginners?",
+      "ans": "Yes, this python course starts from scratch, and any newbie can learn easily.<br>Python is the most popular programming language on the planet. It has quickly become a preferred language for everything from desktop apps, web development to Data Science and Machine Learning. Although anyone can learn Python and carve his/her career, here are the kind of professionals / beginners who can easily go for this  Python course:<ul><li>  Machine Learning, AI professionals</li><li> Software developers, Testers, Leads and architects</li><li>Data Science aspirants</li><li> Freshers / Graduates focusing to build a rock solid career</li></ul>"
+    },
+    "companies": {
+      "title": "Companies you can expect when you get Python-certified with us",
+      "img": "./images/companies.png"
+    },
+    "faq": [
+      [
+        {
+          "que": "Is the Python course  or is it paid?",
+          "ans": "It is a completely  python course and there is no payment required"
+        },
+        {
+          "que": "How long are the  python course materials accessible?",
+          "ans": "The python for beginners course will be available for the lifetime, which includes sessions along with the complete Python study material, python practicals, and python projects."
+        },
+        {
+          "que": "Is this  Python Course for Beginners?",
+          "ans": "This Python course covers all the topics from scratch till the advanced level (ie python basics to advanced). So, any beginner or a person with experience can take advantage of this python training."
+        },
+        {
+          "que": "How do I get answer to my python queries?",
+          "ans": "The doubts can be posted on the discussion forum. Our support team will answer the python queries"
+        },
+        {
+          "que": "How will I perform the Python practicals?",
+          "ans": "For Python practicals, We will provide manual and study material in the LMS and you need to install it on your system."
+        },
+        {
+          "que": "What do I need in order to attend the course?",
+          "ans": "To attend this  Python training, you just need a laptop or PC with a good internet connection. You must be eager to learn in order to carve your career in a booming field."
+        },
+        {
+          "que": "What things do I need to learn Python through this course?",
+          "ans": "To attend this  online Python training, you just need a laptop or a PC with minimum 4GB RAM. Nothing else is required to learn it."
+        },
+        {
+          "que": "What are the system specifications required to attend this python course?",
+          "ans": "It is recommended to have a minimum of an i3 processor, 20 GB  disk, and 4 GB RAM for installing python and related software."
+        },
+        {
+          "que": "Is this python course for one looking for Data Science carrer option?",
+          "ans": "Yes, this python course in hindi covers all the basics python concepts to learn python programming and also includes the foundation topics for a person looking for data science job. Our  python training starts with basics then we cover multiple workshops, POCs, and live projects. These python classes will help you get your dream Data Science job in the industry."
+        },
+        {
+          "que": "What will be the end result of DataFlair  online Python training course?",
+          "ans": "This python course not only covers python basics for beginners but also includes full stack python development. When you finish this  course, you will be equipped with practical skills and theoretical knowledge the industry looks for. You will bloom into a certified Python professional who is ready to take on Data Science Projects in top organizations."
+        },
+        {
+          "que": "Where do python students come from?",
+          "ans": "DataFlair has blend of students from 130+ Countries. Apart from India, we provide training in the US, UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, and many others covering the globe. You can learn python  from across the world with our innovative online training."
+        }
+      ],
+      [
+        {
+          "que": "Is this  python course for programmers classroom-based?",
+          "ans": "This  python training program in hindi is entirely online and self-paced."
+        },
+        {
+          "que": "Why should I learn Python?",
+          "ans": "Python is one of the most popular programming languages on the planet and is also a very handy and general purpose language with simple syntax and wide range of carrer options. Learn python will be your best investment – we offer best way to learn python ie learn python online. You can learn python from the comfort of your home at your own pace and convenience."
+        },
+        {
+          "que": "Will there be any certificate provided as a part of the python course?",
+          "ans": "Yes, you will be provided with an industry-recognized python certification.<br>Once you finish this python certification course, you will work on real-time Python projects after successful submission, you will be awarded DataFlair python online course certification."
+        },
+        {
+          "que": "How do I get in touch for further queries?",
+          "ans": "Feel  to contact us by dropping a mail to <br>info@data-flair.training</br> BTW this python for programmers course is self explanatory and covers details about each and every topic"
+        },
+        {
+          "que": "What type of python projects will I be doing during the training?",
+          "ans": "You will be doing Python real life projects in different domains like retail, banking, and finance. After successful completion of this best python course, we will assign 100+ live projects on python, the projects are derived from industry requirements and real-world problems"
+        },
+        {
+          "que": "After python full course do you provide placement assistance?",
+          "ans": "This python full course in Hindi is a job-oriented program and will prepare you completely for interviews. After working on tons of python projects, you will be ready to work in the industry, we will offer job portal where we post relevant jobs, now whichever python job is matching your profile you can apply there."
+        },
+        {
+          "que": "Does this course contain only theory concepts?",
+          "ans": "This python hindi course contains both theoretical and practical concepts as well as real-time python projects.<br>Here you can learn python from scratch with fundamental concepts, after that you can jump to intermediate level and make hands dirty with python practicals. At the end work on live projects to master the python programming language."
+        },
+        {
+          "que": "Can I attend a demo session before enrolling for this  Python course?",
+          "ans": "Yes, you can attend the demo Python class recording on this course page to understand the python training quality we provide. This is what creates the difference between DataFlair and other online Python training providers."
+        },
+        {
+          "que": "Can you guide me about the career aspects of Python developers?",
+          "ans": "Python is the technology that will open many doors for you. Not only is it a general-purpose language, it is used everywhere from scripting and web scraping to hot topics like Data Science and Machine Learning. With Python, you can be a:<br><ul><li>Python Developer</li><li>Data Scientist</li><li>Python Research Analyst</li><li>Software Engineer</li><li>Software Developer</li><li>Data Analyst</li></ul>"
+        },
+        {
+          "que": "Why should I enroll in this  Python Course?",
+          "ans": "This  python course in Hindi gives hands-on learning with basics of python programming to real-time python projects.<br>This course includes python tutorial, data structures with python, basic coding in python, python programming basics, real-time examples of python programming to make you a python expert.<br>Self paced training with lifetime access to the course, study material, practical codes, quizzes, interview guides,"
+        },
+        {
+          "que": "Is this Python course completely  or do I need to pay anything in between?",
+          "ans": "It’s a completely  python course in Hindi and you need not pay anything for it. Even Python Certification is also  – ie we offer  python course with certificate."
+        }
+      ]
+    ]
   },
   {
     "id": 1,
+    "price": "",
     "courseName": "Big Data and Hadoop Certification Course",
-    "bannerImg": "./images/course-img/course-banner/hadoop--big-data.png"
+    "bannerImg": "./images/course-img/course-banner/hadoop--big-data.png",
+    "shortName": "Big Data & Hadoop",
+    "overview": "A perfect blend of in-depth Hadoop theoretical knowledge and strong practical skills via implementation of real-time Hadoop projects to give you a headstart and enable you to bag top Hadoop jobs in the Big Data industry.",
+    "reasons": {
+      "enroll": [
+        [
+          " Shape your career as Big Data shapes the IT World",
+          " Grasp concepts of HDFS and MapReduce",
+          "Become adept in the latest version of Apache Hadoop",
+          "  Develop a complex game-changing MapReduce application"
+        ],
+        []
+      ],
+      "learn": [
+        [
+          "Shape your career as Big Data shapes the IT World",
+          "Grasp concepts of HDFS and MapReduce",
+          "Become adept in the latest version of Apache Hadoop",
+          "Develop a complex game-changing MapReduce application",
+          "Perform data analysis using Pig and Hive",
+          "Play with the NoSQL database Apache HBase"
+        ],
+        [
+          "Acquire an understanding of the ZooKeeper service",
+          " Load data using Apache Sqoop and Flume",
+          " Enforce best practices for Hadoop development and deployment",
+          "Master handling of large datasets using the Hadoop ecosystem",
+          "Work on live Big Data projects for hands-on experience",
+          "Comprehend other Big Data technologies like Apache Spark"
+        ]
+      ]
+    },
+    "why": [
+      {
+        "title": "The Hadoop market will reach almost $99B by 2022 at the CAGR of around 42%",
+        "src": "Forbes"
+      },
+      {
+        "title": "More than 77% of organizations consider Big Data a top priority",
+        "src": "Peer Research"
+      },
+      {
+        "title": "The average salary of all Big Data Hadoop developers today is $135k",
+        "src": "Indeed"
+      },
+      {
+        "title": "The world’s most valuable resource is Big Data, no longer oil.",
+        "src": "The Economist"
+      }
+    ],
+    "prerequisite": {
+      "que": "What to do before you begin your Hadoop online training?",
+      "ans": "Nothing!",
+      "suggest": "Although if you’d like, you can brush up on your Java skills with our complementary Java course right in your LMS."
+    },
+    "curriculum": [
+      [
+        {
+          "no": 1,
+          "title": "The big picture of Big Data",
+          "content": [
+            "What is Big Data",
+            "Necessity of Big Data and Hadoop in the industry",
+            "Paradigm shift - why the industry is shifting to Big Data tools",
+            "Different dimensions of Big Data",
+            "Data explosion in the Big Data industry",
+            "Various implementations of Big Data",
+            "Different technologies to handle Big Data",
+            "Traditional systems and associated problems",
+            "Future of Big Data in the IT industry"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Demystifying Hadoop",
+          "content": [
+            "Why Hadoop is at the heart of every Big Data solution",
+            "Introduction to the Big Data Hadoop framework",
+            "Hadoop architecture and design principles",
+            "Ingredients of Hadoop",
+            "Hadoop characteristics and data-flow",
+            "Components of the Hadoop ecosystem",
+            "Introduction to the Big Data Hadoop framework"
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Setup and Installation of Hadoop",
+          "content": [
+            "<b>SETUP AND INSTALLATION OF SINGLE-NODE HADOOP CLUSTER</b><ol><li>Hadoop environment setup and pre-requisites</li><li>Hadoop Installation and configuration</li><li>Working with Hadoop in pseudo-distributed mode</li><li>Troubleshooting encountered problems</li></ol>",
+            "<b>SETUP AND INSTALLATION OF HADOOP MULTI-NODE CLUSTER</b><ol><li>Hadoop environment setup on the cloud (Amazon cloud)</li><li>Installation of Hadoop pre-requisites on all nodes</li><li>Configuration of masters and slaves on the cluster</li><li>Playing with Hadoop in distributed mode</li></ol>"
+          ]
+        },
+        {
+          "no": 4,
+          "title": "HDFS – The Storage Layer",
+          "content": [
+            "What is HDFS (Hadoop Distributed File System)",
+            "HDFS daemons and architecture",
+            "HDFS data flow and storage mechanism",
+            "Hadoop HDFS characteristics and design principles",
+            "Responsibility of HDFS Master – NameNode",
+            "Storage mechanism of Hadoop meta-data",
+            "Work of HDFS Slaves – DataNodes",
+            "Data Blocks and distributed storage",
+            "Replication of blocks, reliability, and high availability",
+            "Rack-awareness, scalability, and other features",
+            "Different HDFS APIs and terminologies",
+            "Commissioning of nodes and addition of more nodes",
+            "Expanding clusters in real-time",
+            "Hadoop HDFS Web UI and HDFS explorer",
+            "HDFS best practices and hardware discussion"
+          ]
+        },
+        {
+          "no": 5,
+          "title": "A Deep Dive into MapReduce",
+          "content": [
+            "What is MapReduce, the processing layer of Hadoop",
+            "The need for a distributed processing framework",
+            "Issues before MapReduce and its evolution",
+            "List processing concepts",
+            "Components of MapReduce – Mapper and Reducer",
+            "MapReduce terminologies- keys, values, lists, and more",
+            "Hadoop MapReduce execution flow",
+            "Mapping and reducing data based on keys",
+            "MapReduce word-count example to understand the flow",
+            "Execution of Map and Reduce together",
+            "MapReduce word-count example to understand the flow",
+            "Controlling the flow of mappers and reducers",
+            "Optimization of MapReduce Jobs",
+            "Fault-tolerance and data locality",
+            "Working with map-only jobs",
+            "Introduction to Combiners in MapReduce",
+            "How MR jobs can be optimized using combiners"
+          ]
+        },
+        {
+          "no": 6,
+          "title": "MapReduce - Advanced Concepts",
+          "content": [
+            "Anatomy of MapReduce",
+            "Hadoop MapReduce data types",
+            "Developing custom data types using Writable & Comparable",
+            "InputFormats in MapReduce",
+            "InputSplit as a unit of work",
+            "How Partitioners partition data",
+            "Customization of RecordReader",
+            "Moving data from mapper to reducer – shuffling & sorting",
+            "Distributed cache and job chaining",
+            "Different Hadoop case-studies to customize each component",
+            "Job scheduling in MapReduce"
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Hive – Data Analysis Tool",
+          "content": [
+            "The need for an adhoc SQL based solution – Apache Hive",
+            "Introduction to and architecture of Hadoop Hive",
+            "Playing with the Hive shell and running HQL queries",
+            "Hive DDL and DML operations",
+            "Hive execution flow",
+            "Schema design and other Hive operations",
+            "Schema-on-Read vs Schema-on-Write in Hive",
+            "Meta-store management and the need for RDBMS",
+            "Limitations of the default meta-store",
+            "Using SerDe to handle different types of data",
+            "Optimization of performance using partitioning",
+            "Different Hive applications and use cases"
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Pig – Data Analysis Tool",
+          "content": [
+            "The need for a high level query language - Apache Pig",
+            "How Pig complements Hadoop with a scripting language",
+            "What is Pig",
+            "Pig execution flow",
+            "Different Pig operations like filter and join",
+            "Compilation of Pig code into MapReduce",
+            "Comparison - Pig vs MapReduce"
+          ]
+        }
+      ],
+      [
+        {
+          "no": 9,
+          "title": " NoSQL Database - HBase",
+          "content": [
+            "NoSQL databases and their need in the industry",
+            "Introduction to Apache HBase",
+            "Internals of the HBase architecture",
+            "The HBase Master and Slave Model",
+            "Column-oriented, 3-dimensional, schema-less datastores",
+            "Data modeling in Hadoop HBase",
+            "Storing multiple versions of data",
+            "Data high-availability and reliability",
+            "Comparison - HBase vs HDFS",
+            "Comparison - HBase vs RDBMS",
+            "Data access mechanisms",
+            "Work with HBase using the shell"
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Data Collection using Sqoop",
+          "content": [
+            "The need for Apache Sqoop",
+            "Introduction and working of Sqoop",
+            "Importing data from RDBMS to HDFS",
+            "Exporting data to RDBMS from HDFS",
+            "Conversion of data import/export queries into MapReduce jobs"
+          ]
+        },
+        {
+          "no": 11,
+          "title": "Data Collection using Flume",
+          "content": [
+            "What is Apache Flume",
+            "Flume architecture and aggregation flow",
+            "Understanding Flume components like data Sources and Sinks",
+            "Flume channels to buffer events",
+            "Reliable & scalable data collection tools",
+            "Aggregating streams using Fan-in",
+            "Separating streams using Fan-out",
+            "Internals of the agent architecture",
+            "Production architecture of Flume",
+            "Collecting data from different sources to Hadoop HDFS",
+            "Multi-tier Flume flow for collection of volumes of data using AVRO"
+          ]
+        },
+        {
+          "no": 12,
+          "title": "Apache YARN & advanced concepts in the latest version",
+          "content": [
+            "The need for and the evolution of YARN",
+            "YARN and its eco-system",
+            "YARN daemon architecture",
+            "Master of YARN – Resource Manager",
+            "Slave of YARN – Node Manager",
+            "Requesting resources from the application master",
+            "Dynamic slots (containers)",
+            "Application execution flow",
+            "MapReduce version 2 application over Yarn",
+            "Hadoop Federation and Namenode HA"
+          ]
+        },
+        {
+          "no": 13,
+          "title": "Processing data with Apache Spark",
+          "content": [
+            "Introduction to Apache Spark",
+            "Comparison - Hadoop MapReduce vs Apache Spark",
+            "Spark key features",
+            "RDD and various RDD operations",
+            "RDD abstraction, interfacing, and creation of RDDs",
+            "Fault Tolerance in Spark",
+            "The Spark Programming Model",
+            "Data flow in Spark",
+            "The Spark Ecosystem, Hadoop compatibility, & integration",
+            "Installation & configuration of Spark",
+            "Processing Big Data using Spark"
+          ]
+        },
+        {
+          "no": 14,
+          "title": "Real-Life Project on Big Data",
+          "content": [
+            "A live Big Data Hadoop project based on industry use-cases using Hadoop components like Pig, HBase, MapReduce, and Hive to solve real-world problems in Big Data Analytics"
+          ]
+        }
+      ]
+    ],
+    "features": [
+      {
+        "img": "./images/course-img/course-features/time.png",
+        "title": "Live session"
+      },
+      {
+        "img": "./images/course-img/course-features/support.png",
+        "title": "Lifetime access to course with support"
+      },
+      {
+        "img": "./images/course-img/course-features/project.png",
+        "title": "Real time company/Live projects"
+      },
+      {
+        "img": "./images/course-img/course-features/certificate.png",
+        "title": "Certificate"
+      },
+      {
+        "img": "./images/course-img/course-features/brainstorming.png",
+        "title": "2- Months of live Internship"
+      }
+    ],
+    "forWho": {
+      "que": "Is this Big Data Hadoop course for you?",
+      "ans": "Big Data is the truth of today and Hadoop proves to be efficient in processing it. So while anyone can benefit from a career in it, here are the kind of professionals who go for this Hadoop course:<ul><li>Software developers, project managers, and architects</li><li>BI, ETL and Data Warehousing professionals</li><li>Mainframe and testing professionals</li><li>Business analysts and analytics professionals</li><li>DBAs and DB professionals</li><li>Professionals willing to learn Data Science techniques</li><li>Any graduate focusing to build a career in Apache Spark and Scala</li></ul>"
+    },
+    "companies": {
+      "title": "Companies you can expect when you get Big Data & Hadoop-certified with us",
+      "img": "./images/companies.png"
+    },
+    "faq": [
+      [
+        {
+          "que": "How will you help me if I miss any Hadoop training session?",
+          "ans": "If you miss any session, you need not worry as recordings will be uploaded in LMS immediately as the session gets over. You can go through it and get your queries cleared from the instructor during next session. You can also ask him to explain the concepts that you did not understand and were covered in session you missed. Alternatively you can attend the missed session in any other batch running parallely."
+        },
+        {
+          "que": "How will I perform the Big Data Hadoop practicals at home??",
+          "ans": "Instructor will help you in setting virtual machine on your own system at which you can do practicals anytime from anywhere. Manual to set virtual machine will be available in your LMS in case you want to go through the steps again. Virtual machine can be set on MAC or Windows machine also."
+        },
+        {
+          "que": "How long will the Hadoop course recording be available?",
+          "ans": "All the Hadoop training sessions will be recorded and you will have lifetime access to the recordings along with the complete Hadoop study material, POCs, Hadoop project etc."
+        },
+        {
+          "que": "What things do I need to attend the online classes?",
+          "ans": "To attend online Hadoop training, you just need a laptop or PC with a good internet connection of around 1 MBPS (But the lesser speed of 512 KBPS will also work). The broadband connection is recommended but you can connect through data card as well."
+        },
+        {
+          "que": "How do I clear my doubts after a class?",
+          "ans": "If you have any doubts during sessions, you can clear it with the instructor immediately. If you get queries after the session, you can get it cleared from the instructor in the next session as before starting any session, instructor spends around 15 minutes in doubt clearing. Post training, you can post your query over discussion forum and our support team will assist you. Still if you are not comfortable, you can drop mail to instructor or directly interact with him."
+        },
+        {
+          "que": "What are the system specifications required to learn Hadoop?",
+          "ans": "Recommended is a minimum of an i3 processor, a 20 GB disk, and 4 GB RAM in order to learn Hadoop, although students have learnt Hadoop on 2 GB RAM as well."
+        },
+        {
+          "que": "How will this Hadoop course help me in getting a Big Data job?",
+          "ans": "Our training includes multiple workshops, POCs and projects. Those will prepare you to a level where you can start working from day 1 wherever you go. You will be assisted in resume preparation. The mock interviews will help you get ready to face real interviews. We will also guide you with job openings matching your resume. These things will help you get your dream Big Data job in the industry."
+        },
+        {
+          "que": "What will the end result be of this Hadoop online course?",
+          "ans": "You will be skilled with practical and theoretical knowledge that the industry looks for and will become a certified Hadoop professional who is ready to take on Big Data Projects in top organizations."
+        },
+        {
+          "que": "Where do DataFlair students come from?",
+          "ans": "DataFlair has blend of students from across the globe. Apart from India, we provide Hadoop training in the US, UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, etc to cover the complete globe."
+        },
+        {
+          "que": "How will I be able to interact with the instructor during the training?",
+          "ans": "Both voice and chat will be enabled during the Big Data Hadoop training sessions. You can talk with the instructor or can also interact via chatting."
+        },
+        {
+          "que": "Is this Hadoop training classroom-based or online?",
+          "ans": "This is completely online training with a batch size of 10-12 students only. You will be able to interact with trainer through voice or chat and individual attention will be provided to all. The trainer ensures that every student is clear of all the concepts taught before proceeding ahead. So there will be complete environment of classroom learning."
+        }
+      ],
+      [
+        {
+          "que": "Will you provide any Hadoop certification after the training?",
+          "ans": "Yes, you will be provided DataFlair Certification. At the end of this course, you will work on a real time Project. Once you are successfully through the project, you will be awarded a certificate."
+        },
+        {
+          "que": "How do I get in touch with you for further queries?",
+          "ans": "You can feel  to contact us by placing a CALL at +91 8451097879 OR dropping your queries on our email at info@data-flair.training"
+        },
+        {
+          "que": "Why should I learn Hadoop?",
+          "ans": "Big data is the latest and the most demanding technology with continuously increasing demand in the Indian market and abroad. Hadoop professionals are among the highest paid IT professionals today with salary $135k (source: indeed job portal). You can check our blog related to Why should I learn Big Data?"
+        },
+        {
+          "que": "What type of projects I will be doing during the training?",
+          "ans": "You will be doing real-time Hadoop projects in different domains like retail, banking, and finance, etc. using different technologies like Hadoop HDFS, MapReduce, Apache Pig, Apache Hive, Apache HBase, Apache Oozie, Apache Flume and Apache Sqoop."
+        },
+        {
+          "que": "Do you provide placement assistance?",
+          "ans": "The Hadoop course from DataFlair is 100% job oriented that will prepare you completely for interview and Big Data job perspective. Post Big Data course completion, we will provide you assistance in resume preparation and tips to clear Hadoop interviews. We will also let you know for Hadoop jobs across the globe matching your resume."
+        },
+        {
+          "que": "Can I attend a demo session before enrolling for this Hadoop course?",
+          "ans": "Yes, you can attend the Hadoop demo class recording on our Big data Hadoop course page itself to understand the quality and level of Big Data training we provide and that creates the difference between DataFlair and other Hadoop online training providers."
+        },
+        {
+          "que": "Can you guide me about the career aspects of Big Data hadoop developers?",
+          "ans": "Hadoop is one of the hottest career options available today for all the software engineers to boost their professional career. In the US itself there are approximately 12,000 jobs currently for Hadoop developers and demand for Hadoop developers are increasing day by day rapidly far more than the availability."
+        }
+      ]
+    ]
   },
   {
     "id": 2,
+    "price": "",
     "courseName": "C, C++ & Java Programming Course",
-    "bannerImg": "./images/course-img/course-banner/c,c++,java.png"
+    "separateCourses": ["C", "C++", "Java"],
+    "shortName": " C, C++ & Java",
+    "bannerImg": "./images/course-img/course-banner/c,c++,java.png",
+    "overview": "A programming language is a language people use when developing software to tell a computer what to do. Do you want to career in programming sector? Then this course is for you. You can learn basic to advanced concepts of C, C++ and Java.",
+    "reasons": {
+      "enroll": [
+        [
+          "Real-time projects with implementation",
+          "Study material, practicals, quizzes",
+          "Lifetime access with industry renowned certification"
+        ],
+        []
+      ],
+      "learn": [
+        [
+          "Lifetime access with industry renowned certification",
+          "Build a strong foundation in Evergreen language C, C++ & Java",
+          "Learn data types, pointers, memory allocation",
+          "Get knowledge of various concepts of data structures",
+          "Master loops, conditions, switch-case, operators",
+          "Work on standard industry use-cases and live projects"
+        ],
+        [
+          "Learn to apply knowledge gained to build optimized code",
+          "Unleash the power of Functional Programming with C, C++ & Java",
+          "Beginner friendly course which makes you an expert",
+          "learn to use array, struct, union efficiently",
+          "Discover powerful libraries used in live projects",
+          "Deepen your understanding of programming skills"
+        ]
+      ]
+    },
+    "why": [
+      {
+        "title": "C is used in the tech stack of products including Telegram, GitHub, Oracle, Windows, Linux, Mozilla Firefox, & Mastercard ",
+        "src": "Google"
+      },
+      {
+        "title": "C language combines all the power of assembly language with ease-of-use",
+        "src": "Mark Pearce"
+      },
+      {
+        "title": "C was developed by Dennis Ritchie in 1972 is an evergreen programming language of all time",
+        "src": "Google"
+      },
+      {
+        "title": "TThe average salary of C developers today is $91,850",
+        "src": "Indeed"
+      }
+    ],
+    "prerequisite": {
+      "que": "What to do before you begin your  C, C++ & Java online training?",
+      "ans": "Nothing!",
+      "suggest": "All you need to make the most out of this  C, C++ & Java course is a desire to learn and a penchant for solving real-world problems"
+    },
+    "curriculum": [
+      [
+        {
+          "no": 1,
+          "title": "learn C Language Basics",
+          "content": [
+            "Introduction to C Programming",
+            "C Environment Setup – installation & configuration",
+            "Features of C Programming",
+            "C Program Structure – The preprocessos, The #include statement, Displaying Output",
+            "Reading input from the terminal",
+            "Comments in C",
+            "Why you should Learn C",
+            "Benefits and Limitations of C",
+            "Career in C",
+            "Real-time applications of C language"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Variables and Datatypes",
+          "content": [
+            "What are variables",
+            "Naming Rules",
+            "Datatypes – Range of Datatypes, Format Specifiers",
+            "Const in C",
+            "Void type",
+            "Type conversion in C",
+            "Enums and Chars"
+          ]
+        },
+        {
+          "no": 3,
+          "title": " C Operators",
+          "content": [
+            "Arithmetic Operators",
+            "Comparison Operators",
+            "Logical Operators",
+            "Assingnment Operators in C",
+            "Bitwise Operators",
+            "The Cast and sizeof Operators",
+            "Operator Precedence in C Programming"
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Control Flow in C",
+          "content": [
+            "If else in C",
+            "Nested If else",
+            "Switch statement in C",
+            "C Loop",
+            "C For Loop",
+            "While and Do-While loops in C, do c",
+            "Nested Loops",
+            "Break & Continue statements in C"
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Functions in C Programming",
+          "content": [
+            "Defining Functions in C",
+            "Arguments and Parameters",
+            "Returning data from functions",
+            "Local and Global Variables",
+            "Decorators in Python – master the advanced concepts",
+            "Recursion in C",
+            "Call by Value"
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Call by Value",
+          "content": [
+            "Declaring and Initializing Arrays in C",
+            "Array Traversal",
+            "Check if Array is Sorted, Maximum in an Array, etc.",
+            "Variable Length Arrays",
+            "Multidimensional Arrays in C",
+            "Multidimensional Arrays in C"
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Strings in C",
+          "content": [
+            "Play with String handling in C",
+            "Memory presentation of string",
+            "Common String Functions in C Programming",
+            "String Comparison, String Traversal, Reverse a String, Pattern Searching, etc"
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Structures and Unions in C",
+          "content": [
+            "Struct in C",
+            "structures in c programming",
+            "Structure Alignment and Padding",
+            "Array of structure",
+            "Nested Structures",
+            "Structures and Functions",
+            "Union in C",
+            "Structure vs Union in C Language"
+          ]
+        },
+        {
+          "no": 9,
+          "title": "Pointers in C",
+          "content": [
+            "Introduction to Pointers in C Programming",
+            "Function Parameter and Pointers",
+            "Nullptr in C",
+            "void pointers",
+            "Pointer Arithmetic",
+            "Pointers and Arrays in C",
+            "C Pointers and Strings",
+            "Call by Reference in C",
+            "Call by Value in C",
+            "Structures and Pointers",
+            "Dynamic Memory Allocation",
+            "Static Memory Vs Dynamic Memory",
+            "malloc, calloc, and realloc"
+          ]
+        },
+        {
+          "no": 10,
+          "title": "File Handeling in C",
+          "content": [
+            "File Input and Output in C",
+            "Accessing Files in C",
+            "Reading for a file in C",
+            "Writing to a file",
+            "Binary file I/O"
+          ]
+        },
+        {
+          "no": 11,
+          "title": "Standard C library",
+          "content": [
+            "Standard Header Files",
+            "Various Functions",
+            "Math Functions in C Programming",
+            "Utility Functions in C"
+          ]
+        },
+        {
+          "no": 12,
+          "title": "Hashing in C Programming",
+
+          "content": [
+            "Concept of hashing",
+            "Direct Address Table",
+            "Collision Handling",
+            "Play with urllib",
+            "Chaining in C",
+            "Open addressing",
+            "Double Hashing"
+          ]
+        },
+        {
+          "no": 13,
+          "title": " Searching and Sorting in C",
+          "content": [
+            "Linear & Binary search in C",
+            "Different sorting techniques with their analysis"
+          ]
+        },
+        {
+          "no": 14,
+          "title": "Linked Lists using C",
+          "content": [
+            "Linked List Creation, Traversing, Reversal, and Deletion in C",
+            "Double Linked list in C",
+            "Circular Linked List in C"
+          ]
+        },
+        {
+          "no": 15,
+          "title": "Stack and Queues in C",
+          "content": [
+            "Insertion and Deletion",
+            "Array based implementation",
+            "Linked List based implementation",
+            "Circular queues in C",
+            "Prefix, Infix, and Postfix expressions"
+          ]
+        },
+        {
+          "no": 16,
+          "title": "Trees",
+          "content": [
+            "Introduction of Trees and Applications",
+            "Binary Tree & Binary Search Tree BST",
+            "Traversal of Tree",
+            "Implementation of Preorder, Inorder and Postorder traversal",
+            "Iterative Inorder and Preorder"
+          ]
+        },
+        {
+          "no": 17,
+          "title": "Heap",
+          "content": [
+            "Heap Introduction",
+            "Implementation of Heap",
+            "Binary Heap",
+            "Heapify and Extract"
+          ]
+        },
+        {
+          "no": 18,
+          "title": "Graph",
+          "content": [
+            "Introduction to Graph",
+            "Representation",
+            "Traversal of Tree",
+            "Adjacency List and Adjacency Matrix",
+            "Implementation of Adjacency List",
+            "Application of BFS and DFS"
+          ]
+        }
+      ],
+      [
+        {
+          "no": 1,
+          "title": "Introduction of C++",
+          "content": ["Introduction", "Setting up visual studio Code"]
+        },
+        {
+          "no": 2,
+          "title": "Basics",
+          "content": [
+            "Introduction & Skeleton",
+            "Input/output, variables & data types",
+            "Arithmetic Operators & precedence",
+            "Compound operators, expressions & comments",
+            "Conditionals, If else & switch case",
+            "Assignment 1"
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Strings",
+          "content": [
+            "Strings using Char array",
+            "Strings using string class",
+            "Assignment 2"
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Loops & basic data structures",
+          "content": [
+            "Loops - while loops",
+            "Loops - do while & for loops",
+            "Arrays",
+            "Pointers",
+            "Assignment 3"
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Functions",
+          "content": [
+            "Functions in C++ [1]",
+            "Functions in C++ [2]",
+            "Assignment 4"
+          ]
+        },
+        {
+          "no": 6,
+          "title": "OOPs & encapsulation",
+          "content": [
+            "Structures in C++",
+            "OOPs basics",
+            "Class & objects",
+            "Assignment 5"
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Inheritance",
+          "content": [
+            "Inheritance - introduction",
+            "Inheritance - access specifiers",
+            "Inheritance & constructors",
+            "Types of inheritance",
+            "Inheritance - pointers & Fn overriding",
+            "Assignment 6"
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Polymorphism",
+          "content": [
+            "Constructors & Fn overloading",
+            "Class Functions",
+            "Operator overloading",
+            "Assignment 7"
+          ]
+        },
+        {
+          "no": 9,
+          "title": "Abstraction",
+          "content": [
+            "Virtual Fns & runtime polymorphism",
+            "Abstract classes & interface",
+            "Friend Fn & classes",
+            "Static data members",
+            "Static Fns",
+            "Nested or Inner classes",
+            "Destructors in C++",
+            "Assignment 8"
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Exception handling",
+          "content": [
+            "Exception handling - introduction",
+            "Exception handling - Syntax & use",
+            "Exception handling - Nested try, multiple catch",
+            "Assignment 9"
+          ]
+        },
+        {
+          "no": 11,
+          "title": "Streams - File input / output in C++",
+          "content": [
+            "Streams - introduction",
+            "Streams - syntax (Using in programs)",
+            "Assignment 10"
+          ]
+        },
+        {
+          "no": 12,
+          "title": "STL - Standard Template Library",
+          "content": [
+            "Template Fns & classes",
+            "STL - why do we need STL?",
+            "STL - introduction",
+            "STL - Using in programs",
+            "Assignment 11"
+          ]
+        }
+      ],
+      [
+        {
+          "no": 1,
+          "title": "Introduction of Java",
+          "content": ["Introduction to the course", "Installation"]
+        },
+        {
+          "no": 2,
+          "title": "First Java program",
+          "content": ["Writing our first Java program"]
+        },
+        {
+          "no": 3,
+          "title": "Java basics",
+          "content": [
+            "Vars and Data types -1",
+            "Variables and Data types -2",
+            "Array",
+            "If-else",
+            "Nested If-else and switch case"
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Methods",
+          "content": [
+            "Creating our first method",
+            "Return types and arguments",
+            "Public static void main explained",
+            "Public static void main explained",
+            "More on public static void main"
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Classes and objects",
+          "content": [
+            "Starting with classes and objects",
+            "Constructors",
+            "Project structure and runtime",
+            "The Java stack",
+            "Java heap",
+            "Inheritance",
+            "Interfaces and method overriding",
+            "Abstract classes"
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Essentials",
+          "content": [
+            "Strings",
+            "While loops",
+            "For loop",
+            "Nested loops and debugger"
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Java programs and JAR",
+          "content": [
+            "Using CMD to run java files",
+            "Into to JAR files",
+            "JAR files using CMD"
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Exceptions - Errors and File handling",
+          "content": [
+            "User input and reading files",
+            "Exceptions",
+            "Buffered reader",
+            "Auto closeable interface"
+          ]
+        },
+        {
+          "no": 9,
+          "title": "Collection framework",
+          "content": [
+            "ArrayLists and LinkedLists",
+            "Custom ArrayLists and LinkedLists",
+            "HashSet, LinkedHashSet and HashCode",
+            "Custom comparators",
+            "Maps"
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Generics",
+          "content": [
+            "Introduction and creating a generic class",
+            "Generic methods",
+            "Intro to wildcards",
+            "More on wildcards"
+          ]
+        },
+        {
+          "no": 11,
+          "title": "Jshell",
+          "content": ["Jshell"]
+        },
+        {
+          "no": 12,
+          "title": "Concurrency",
+          "content": [
+            "Intro to threads",
+            "Methods on threads",
+            "Synchronized threads",
+            "Concurrency with collections",
+            "Producer-consumer using array blocking queue",
+            "Thread pool"
+          ]
+        },
+        {
+          "no": 13,
+          "title": "JDBC",
+          "content": [
+            "Setting up everything!",
+            "Database and SQL",
+            "JDBC and SQL",
+            "Insert_Update_Delete using JDBC"
+          ]
+        },
+        {
+          "no": 14,
+          "title": "Lambda expressions and streams",
+          "content": [
+            "Function interfaces and lambdas",
+            "Examples of lambda expressions",
+            "Built in functional interfaces",
+            "Streams"
+          ]
+        },
+        {
+          "no": 15,
+          "title": "Project - phone dealership",
+          "content": ["Building our awesome project"]
+        },
+        {
+          "no": 16,
+          "title": "Getting started with Servlets",
+          "content": [
+            "Basics + our first Servlet",
+            "doGet and doPost",
+            "Request dispatcher"
+          ]
+        },
+        {
+          "no": 17,
+          "title": "Intro to Servlets",
+          "content": ["Tomcat setup", "What is a Servlet"]
+        },
+        {
+          "no": 18,
+          "title": "Servlet context and config",
+          "content": ["Servlet config", "Servlet context"]
+        },
+        {
+          "no": 19,
+          "title": "Session tracking in servlets",
+          "content": [
+            "Using HttpSession",
+            "Using Cookies",
+            "Using Url rewriting"
+          ]
+        },
+        {
+          "no": 20,
+          "title": "Filter",
+          "content": ["Filters explained with example"]
+        },
+        {
+          "no": 21,
+          "title": "JSP scripting",
+          "content": ["JSP scripting elements"]
+        },
+        {
+          "no": 22,
+          "title": "JSP implicit objects",
+          "content": [
+            "JSP implicit objects",
+            "Response implicit object",
+            "Config implicit object",
+            "Application implicit object",
+            "Session implicit object",
+            "PageContext, page and exception implicit object",
+            "JSP implicit objects"
+          ]
+        },
+        {
+          "no": 23,
+          "title": "JSP directives",
+          "content": ["JSP page directives", "JSP include and Taglib directive"]
+        },
+        {
+          "no": 24,
+          "title": "JSP action tags",
+          "content": ["JSP forward, param, include tag", "UseBean action tag"]
+        },
+        {
+          "no": 25,
+          "title": "JSP MVC",
+          "content": ["Expression language", "Model view and controller"]
+        },
+        {
+          "no": 26,
+          "title": "Login app using JSP",
+          "content": ["Login app - 1", "Login app - 2"]
+        }
+      ]
+    ],
+    "features": [
+      {
+        "img": "./images/course-img/course-features/time.png",
+        "title": "Live session"
+      },
+      {
+        "img": "./images/course-img/course-features/support.png",
+        "title": "Lifetime access to course with support"
+      },
+      {
+        "img": "./images/course-img/course-features/project.png",
+        "title": "Real time company/Live projects"
+      },
+      {
+        "img": "./images/course-img/course-features/certificate.png",
+        "title": "Certificate"
+      },
+      {
+        "img": "./images/course-img/course-features/brainstorming.png",
+        "title": "2- Months of live Internship"
+      }
+    ],
+    "forWho": {
+      "que": "Is this  online C, C++ & Java Programming course for beginners?",
+      "ans": "C is an evergreen programming language. Yes, this course is for absolute beginners. Anyone can benefit from a career in it, here are the kind of professionals / freshers / beginners who should go for this C, C++ & Java training course:<ul><li>System developer / OS developer</li><li>Software developers and architects</li><li>Game Developers</li><li>Freshers / Graduates focusing to build a rock solid career</li></ul>"
+    },
+    "companies": {
+      "title": "Companies you can expect when you get C, C++ & Java-certified with us",
+      "img": "./images/companies.png"
+    },
+    "faq": [
+      [
+        {
+          "que": "Is the C, C++ & Java course  or is it paid?",
+          "ans": "This C, C++ & Java course offered by Dataflair is a  course. Even C Certification is also ."
+        },
+        {
+          "que": "How long will the course recordings be available?",
+          "ans": "Once enrolled, the course materials can be accessed for a lifetime. All the sessions, material, Codes, and projects will be available forever."
+        },
+        {
+          "que": "What do I need in order to take this course?",
+          "ans": "To attend this course, you need to have a laptop or PC with a good internet connection. An elementary machine with 4 GB RAM is enough for the practice."
+        },
+        {
+          "que": "How do I clear my course related queries?",
+          "ans": "You can post your queries/doubts/issues in the comment section of video or study material. The instructor will answer your questions."
+        },
+        {
+          "que": "What are the system specifications required?",
+          "ans": "Any basic  / elementary PC is sufficient to learn C, C++ & Java, it is recommended to have minimum of an i3 processor (or dual core), a 20 GB disk, and 4 GB RAM for installing and practising C, C++ & Java."
+        },
+        {
+          "que": "What will be the end result of this  online C, C++ & Java programming course?",
+          "ans": "At the end of the C, C++ & Java course, you will greatly understand C, C++ & Java coding, algorithms, and data structures. This knowledge will help you get placed in a job of your choice and also act as a foundation for you to learn any other programming language."
+        },
+        {
+          "que": "Where do all the students come from?",
+          "ans": "DataFlair has a blend of students from across the globe. Apart from India, we provide training in the US, the UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, and many others covering the globe."
+        },
+        {
+          "que": "Is this  C, C++ & Java Programming Course for Beginners?",
+          "ans": "This Programming course covers all the topics from basics to advanced level. So this is a C , C++ & Java training for anyone looking learn C, C++ & Java programming language from scratch."
+        }
+      ],
+      [
+        {
+          "que": "Where do DataFlair students come from?",
+          "ans": "DataFlair has blend of students from across the globe. Apart from India, we provide Hadoop training in the US, UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, etc to cover the complete globe."
+        },
+        {
+          "que": "How will I be able to interact with the instructor during the training?",
+          "ans": "Both voice and chat will be enabled during the Big Data Hadoop training sessions. You can talk with the instructor or can also interact via chatting."
+        },
+        {
+          "que": "Is this  C, C++ & Java language training classroom-based or online?",
+          "ans": "This training program on C, C++ & Java is entirely online and self-paced. You need not to travel anywhere rather learn c programming from the comfort of your home."
+        },
+        {
+          "que": "Will I get any certificate at the end of this course?",
+          "ans": "Yes, we will provide an industry-recognized certificate declaring your proficiency. You will work on real-time C, C++ & Java projects at the end of this  C, C++ & Java course. Once you have successfully made it through the C, C++ & Java projects, you will be awarded DataFlair certification."
+        },
+        {
+          "que": "How do I get in touch with you for further queries?",
+          "ans": "You are  to contact us by dropping a mail to info@data-flair."
+        },
+        {
+          "que": "Why should I learn C Programming?",
+          "ans": "C is a language which forms a base for many of the present programming languages. It is also a part of tech stack of major projects including Telegram, GitHub, Oracle, Windows, Linux, Mozilla Firefox, and Mastercard. The concepts learned in this course will help you form a foundation for your programming skills"
+        },
+        {
+          "que": "What type of C projects will I be doing during the training?",
+          "ans": "You will be doing real life projects in different domains like retail, banking, and finance."
+        },
+        {
+          "que": "Do you provide placement assistance?",
+          "ans": "This C, C++ & Java course from DataFlair is 100% job-oriented and will prepare you entirely for interviews for top product companies"
+        }
+      ]
+    ]
   },
   {
     "id": 3,
     "courseName": "ML Course",
-    "bannerImg": "./images/course-img/course-banner/machine-learning.png"
+    "bannerImg": "./images/course-img/course-banner/machine-learning.png",
+    "shortName": "Machine Learning",
+    "overview": "A perfect blend of in-depth Machine Learning knowledge and strong practical skills using Python ML libraries to become a Data Scientist. This  machine learning course provides the implementation of real-time machine learning projects to give you a headstart and enables you to bag top ML jobs.",
+    "reasons": {
+      "enroll": [
+        [
+          "50+ real-time projects to gain hands-on experience",
+          "370+ hrs of study material, practicals, interview guides",
+          "Practical course with real-world use-cases",
+          "Beginner-friendly course to kickstart your ML journey"
+        ],
+        [
+          "Acquire practical knowledge which industry needs",
+          "Thoroughly curated ML course with hands-on",
+          "Lifetime access with industry renowned certificate",
+          "Get ready to enter into IT industry as a Data Scientist"
+        ]
+      ],
+      "learn": [
+        [
+          "Kickstart your career with a rock-strong ML foundation",
+          "Understand various types of Machine Learning models",
+          "Work on Supervised, Unsupervised, and Reinforcement Learning",
+          "Understand data manipulation along with visualization",
+          "Develop standard industry use-cases and live projects",
+          "Understand data manipulation along with visualization",
+          "Identify the various problems related to building a Machine Learning model"
+        ],
+        [
+          "Learn to develop efficient solutions using Python ML libraries",
+          "Work on linear as well as logistic regression",
+          "Learn how to use various classification models",
+          "Learn about the impact of dimensions within data",
+          "Work on time series analysis to forecast dependent variables based on time",
+          "Understand how to develop enterprise ML projects"
+        ]
+      ]
+    },
+    "why": [
+      {
+        "title": "Machine Learning Engineers rank among the top emerging jobs.",
+        "src": "LinkedIn"
+      },
+      {
+        "title": "Global ML market is expected to grow with Compound Annual Growth Rate of 44.1%",
+        "src": "MarketsandMarkets"
+      },
+      {
+        "title": "There will be around 11.5 million new jobs for Data Science professionals by 2026",
+        "src": "U.S. Bureau of Labor Statistics"
+      },
+      {
+        "title": "The median salary for an experienced Data Scientist is $1628,00",
+        "src": "Zip Recuriter"
+      }
+    ],
+    "prerequisite": {
+      "que": "What to do before you begin your  ML online training?",
+      "ans": "Nothing!",
+      "suggest": "All you need to make the most out of this  ML course is a desire to learn and a penchant for solving real-world problems"
+    },
+    "curriculum": [
+      [
+        {
+          "no": 1,
+          "title": "Statistics and Mathematics for Machine Learning",
+          "content": [
+            "Statistical Inference",
+            "Descriptive Statistics",
+            "Introduction to Probability, Conditional probability, Bayes theorem",
+            "Probability Distribution",
+            "Introduction to inferential statistics",
+            "Normality, Normal Distribution",
+            "Measures of Central Tendencies",
+            "Hypothesis Testing"
+          ]
+        },
+        {
+          "no": 2,
+          "title": " Data Visualization, Analysis & Manipulation",
+          "content": [
+            "Data visualization using matplotlib and seaborn",
+            "Exploratory data analysis",
+            "Basic Functionalities of a data object",
+            "Concatenation, Join, Aggregation, Merging, GroupBy using Pandast",
+            "Reading and Writing data from Excel/CSV formats into Pandas",
+            "NumPy – arrays & Operations",
+            "Indexing slicing and iterating",
+            "What is SciPy?",
+            "Reading and writing arrays on files?",
+            "Pandas – data structures & index operations?"
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Introduction to Machine Learning with Python",
+          "content": [
+            "Machine Learning introduction",
+            "Machine Learning applications & use-cases",
+            "Machine Learning Flows",
+            "Machine Learning categories",
+            "Linear regression",
+            "Gradient descent",
+            "Model evaluation"
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Supervised Learning",
+          "content": [
+            "What is Supervised Learning?",
+            "Logistic Regression in Python",
+            "Classification & implementations",
+            "Decision Tree",
+            "Different algorithms for Decision Tree Induction",
+            "How to create a Perfect Decision Tree",
+            "Confusion Matrix",
+            "Random Forest",
+            "Tree based Ensemble",
+            "Hyper-parameter tuning",
+            "Evaluating model output",
+            "Naive Bayes Classifier",
+            "Support Vector Machine",
+            "Hyperparameter Optimization",
+            "Grid Search vs Random Search"
+          ]
+        },
+        {
+          "no": 5,
+          "title": " Unsupervised Learning",
+          "content": [
+            "What is Unsupervised Learning",
+            "Clustering",
+            "K-means Clustering",
+            "Optimal clustering",
+            "C-means Clustering",
+            "Hierarchical Clustering",
+            "Association Rules",
+            "Recommendation Engines",
+            "Collaborative Filtering",
+            "Content-Based Filtering"
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Reinforcement Learning",
+          "content": [
+            "What is Reinforcement Learning?",
+            "Exploration vs Exploitation",
+            "Epsilon Greedy Algorithm",
+            "Markov Decision Process",
+            "Q values and V values",
+            "Q – Learning",
+            "α values"
+          ]
+        }
+      ],
+      [
+        {
+          "no": 7,
+          "title": "Time Series Analysis",
+          "content": [
+            "Introduction to Time Series Analysis",
+            "Univariate Analysis",
+            "Multivarate modelling",
+            "AR, MA, ARMA, ARIMA model",
+            "Model Selection",
+            "Cross-Validation",
+            "Boosting Algorithms"
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Dimensionality Reduction",
+          "content": [
+            "What is Dimensionality?",
+            "The Curse of Dimensionality",
+            "Why Dimensionality Reduction",
+            "PCA and Kernel PCA",
+            "Factor Analysis",
+            "Scaling dimensional model",
+            "LLE and LDA",
+            "Different Dimensionality Reduction Techniques"
+          ]
+        },
+        {
+          "no": 9,
+          "title": "Tensorflow and ANN",
+          "content": [
+            "Introduction to TensorFlow, Architecture & Operations on Tensorflow",
+            "Introduction to Neural Networks:",
+            "Optimization Techniques",
+            "Loss Functions like Cross-entropy loss, MSE etc",
+            "Concepts of FFNN and Backpropagation algorithms, MLP Architecture",
+            "Linear Regression model using Tensorflow:c",
+            "Regularization techniques like L1, L2, dropout, Earlystopping etc."
+          ]
+        },
+
+        {
+          "no": 10,
+          "title": "Deep Neural networks",
+
+          "content": [
+            "Convolutional Neural Networks",
+            "CNN implementations",
+            "CNN Applications"
+          ]
+        },
+        {
+          "no": 11,
+          "title": " Conversational AI",
+          "content": [
+            "NLP",
+            "Recurrent Neural Networks with Tensorflow",
+            "Working with text data",
+            "NLP – Natural Language processing using RNN"
+          ]
+        },
+        {
+          "no": 12,
+          "title": "Machine Learning Projects",
+          "content": [
+            "Work on live machine learning projects using Python machine learning libraries to solve real-world problems. Some the machine learning project ideas are listed below: <ul><li>Digit / Character Classification &amp; Recognition</li><li>Stock Price Prediction</li><li>Fake News Detection</li><li>Music Genre Classification</li><li>Credit Card Fraud Detection</li><li>Sign Language Recognition</li><li>Sentiment Analysis</li><li>Speech Emotion Recognition</li><li>License Number Plate Recognition</li><li>Image Segmentation</li><li>Road Lane Line Detection</li><li>Detecting Parkinson’s Disease</li><li>Color Detection</li><li>Gender and Age Detection</li><li>Driver Drowsiness detection</li><li>Chatbot Project</li><li>Image Caption Generator</li><li>Customer Segmentation</li><li>Breast Cancer Classification</li><li>Traffic Signs Recognition</li><li>Language Translation</li></ul><p><strong>And many more...</strong></p>"
+          ]
+        }
+      ]
+    ],
+    "features": [
+      {
+        "img": "./images/course-img/course-features/time.png",
+        "title": "Live session"
+      },
+      {
+        "img": "./images/course-img/course-features/support.png",
+        "title": "Lifetime access to course with support"
+      },
+      {
+        "img": "./images/course-img/course-features/project.png",
+        "title": "Real time company/Live projects"
+      },
+      {
+        "img": "./images/course-img/course-features/certificate.png",
+        "title": "Certificate"
+      },
+      {
+        "img": "./images/course-img/course-features/brainstorming.png",
+        "title": "2- Months of live Internship"
+      }
+    ],
+    "forWho": {
+      "que": "Is this  online Machine Learning course for beginners?",
+      "ans": "This course will help you with your basic understanding of Machine Learning topics. The curated course will be beneficial for you in establishing a strong foundation to ensure an even stronger future hold on the topics. While anyone can benefit from it in their career, here are the kind of professionals / beginners who should go for this  Machine Learning Course:<ul><li>Software developers, project managers, and architects</li><li>BI, ETL and Data Warehousing professionals</li><li>Web developers, Mobile app developers</li><li>Freshers / Graduates focusing to build a rock solid career</li></ul>"
+    },
+    "companies": {
+      "title": "Companies you can expect when you get ML-certified with us",
+      "img": "./images/companies.png"
+    },
+    "faq": [
+      [
+        {
+          "que": "Is the ML course  or is it paid?",
+          "ans": "This course offered by Dataflair is a  course. Even C Certification is also ."
+        },
+        {
+          "que": "How long will the course recordings be available?",
+          "ans": "Once enrolled, the  course materials can be accessed for a lifetime. All the sessions, material, Codes, and projects will be available forever."
+        },
+        {
+          "que": "What do I need in order to take this  course?",
+          "ans": "To attend this  course, you need to have a laptop or PC with a good internet connection. An elementary machine with 4 GB RAM is enough for the practicals."
+        },
+        {
+          "que": "How do I clear my ML related queries?",
+          "ans": "You can post your queries/doubts/issues in the comment section of video or study material. The instructor will answer your questions."
+        },
+        {
+          "que": "What are the system specifications required?",
+          "ans": "Any basic  / elementary PC is sufficient to learn C, it is recommended to have minimum of an i3 processor (or dual core), a 20 GB disk, and 4 GB RAM for installing and practising C."
+        },
+        {
+          "que": "What will be the end result of this  online  course?",
+          "ans": "At the end of the course, you will greatly understand  ML algorithms. This knowledge will help you get placed in a job of your choice."
+        },
+        {
+          "que": "Where do all the students come from?",
+          "ans": "DataFlair has blend of students from across the globe. Apart from India, we provide training in the US, the UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, and many others covering the globe."
+        },
+        {
+          "que": "Is this Course for Beginners?",
+          "ans": "This   course covers all the topics from basics to advanced level.."
+        },
+        {
+          "que": "Where do DataFlair students come from?",
+          "ans": "DataFlair has blend of students from across the globe. Apart from India, we provide Hadoop training in the US, UK, Singapore, Canada, UAE, France, Brazil, Ireland, Indonesia, Japan, Sri Lanka, etc to cover the complete globe."
+        },
+        {
+          "que": "How will I be able to interact with the instructor during the training?",
+          "ans": "Both voice and chat will be enabled during the Big Data Hadoop training sessions. You can talk with the instructor or can also interact via chatting."
+        }
+      ],
+      [
+        {
+          "que": "Is this  ML training classroom-based or online?",
+          "ans": "This  training program on ML is entirely online and self-paced. You need not to travel anywhere rather learn c programming from the comfort of your home."
+        },
+        {
+          "que": "Will I get any certificate at the end of this course?",
+          "ans": "Yes, we will provide an industry-recognized  certificate declaring your proficiency. You will work on real-time  projects at the end of this  course."
+        },
+        {
+          "que": "How will this Machine Learning course be beneficial to me?",
+          "ans": "This Machine Learning course will provide you with all the basics that you will require for a hassle- Machine Learning industry experience. It will teach you the basics as well as the complex topics of Machine Learning with ease. Apart from this, you will also gain practical knowledge for deploying Machine Learning models with the help of live Machine Learning projects."
+        },
+        {
+          "que": "How do I get in touch with you for further queries?",
+          "ans": "You are  to contact us by dropping a mail to info@data-flair.training "
+        },
+        {
+          "que": "I am a complete beginner at Machine Learning. Will that become a problem while doing this ML course?",
+          "ans": "Not at all. This Machine Learning course aims at making basic Machine Learning topics accessible to beginners. This course is curated in such a way that you will not have to worry about any prerequisites and enjoy your journey of attaining thorough knowledge and expertise in Machine Learning."
+        },
+        {
+          "que": "What type projects will I be doing during the training?",
+          "ans": "You will be doing real life projects in different domains"
+        },
+        {
+          "que": "Do you provide placement assistance?",
+          "ans": "This course from DataFlair is 100% job-oriented and will prepare you entirely for interviews for top product companies"
+        }
+      ]
+    ]
   },
   {
     "id": 4,
@@ -126,7 +1885,7 @@
           "no": 7,
           "title": "Introduction to Figma",
           "content": [
-            "Introduction to Figma",
+            "Introductin to Figma",
             "Figma dashboard",
             "Figma tools",
             "Layers and pages",
@@ -429,22 +2188,1279 @@
   {
     "id": 5,
     "courseName": "Big Data Certification Course with Hadoop & Spark",
-    "bannerImg": "./images/course-img/course-banner/Apache-Hadoop-Big-Data-and-Apache-Spark.png"
+    "bannerImg": "./images/course-img/course-banner/Apache-Hadoop-Big-Data-and-Apache-Spark.png",
+    "shortName": "Big Data, Hadoop & Spark",
+    "overview": "A perfect blend of in-depth Hadoop and Spark theoretical knowledge and strong practical skills via implementation of real-time Hadoop and Spark projects to give you a headstart and enable you to bag top Hadoop jobs in the Big Data industry.",
+    "reasons": {
+      "enroll": [
+        [
+          "5+ Real-time ML projects with implementation",
+          "170+ hrs of study material, practicals, quizzes",
+          "Practice oriented course with live case-studies to gain hands-on expertise",
+          "Lifetime access with industry renowned certification"
+        ],
+        []
+      ],
+      "learn": [
+        [
+          "Shape your career as Big Data shapes the IT World",
+          "Grasp concepts of Hadoop and its ecosystem components",
+          " Become adept in the latest version of Apache Hadoop",
+          "Develop a complex game-changing MapReduce application",
+          "Master the Hadoop ecosystem components",
+          "Grasp the concepts of Apache Spark and its components"
+        ],
+        [
+          "Acquire an understanding of Spark SQL and Spark MLlib",
+          "Become capable of clearing the CCA175 Spark and Hadoop developer certifications",
+          "Enforce best practices for Hadoop and Spark development",
+          "Gain in-depth Spark practical knowledge",
+          "Work on live projects on Big Data analytics to get hands-on Experience"
+        ]
+      ]
+    },
+    "why": [
+      {
+        "title": "The Hadoop market will reach almost $99B by 2022 at the CAGR of around 42%",
+        "src": "Forbes"
+      },
+      {
+        "title": "More than 77% of organizations consider Big Data a top priority",
+        "src": "Peer Research"
+      },
+      {
+        "title": "TThe average salary of all Hadoop developers today is the amount of $135k",
+        "src": "Indeed"
+      },
+      {
+        "title": "The world’s most valuable resource is Big Data, no longer oil.",
+        "src": "The Economist"
+      }
+    ],
+    "prerequisite": {
+      "que": "What to do before you begin your  online training?",
+      "ans": "Nothing!",
+      "suggest": "All you need to make the most out of this  course is a desire to learn and a penchant for solving real-world problems"
+    },
+    "curriculum": [
+      [
+        {
+          "no": 1,
+          "title": "The big picture of Big Data",
+          "content": [
+            "Necessity of Big Data and Hadoop in the industry",
+            "Paradigm shift - why the industry is shifting to Big Data tools",
+            "Different dimensions of Big Data",
+            "Data explosion in the Big Data industry",
+            "Various implementations of Big Data",
+            "Different technologies to handle Big Data",
+            "Traditional systems and associated problems",
+            "Future of Big Data in the IT industry"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Demystifying Hadoop",
+          "content": [
+            "Why Hadoop is at the heart of every Big Data solution",
+            "Introduction to the Big Data Hadoop framework",
+            "Hadoop architecture and design principles",
+            "Ingredients of Hadoop",
+            "Hadoop characteristics and data-flow",
+            "Components of the Hadoop ecosystem",
+            "Hadoop Flavors – Apache, Cloudera, Hortonworks, and more"
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Setup and Installation of Hadoop",
+          "content": [
+            "<b>SETUP AND INSTALLATION OF SINGLE-NODE HADOOP CLUSTER</b><ol><li>Hadoop environment setup and pre-requisites</li><li>Hadoop Installation and configuration</li><li>Working with Hadoop in pseudo-distributed mode</li><li>Troubleshooting encountered problems</li></ol>",
+            "<b>SETUP AND INSTALLATION OF HADOOP MULTI-NODE CLUSTER</b> <ol><li>Hadoop environment setup on the cloud (Amazon cloud)</li><li>Installation of Hadoop pre-requisites on all nodes</li><li>Configuration of masters and slaves on the cluster</li><li>Playing with Hadoop in distributed mode</li></ol>"
+          ]
+        },
+        {
+          "no": 4,
+          "title": "HDFS – The Storage Layer",
+          "content": [
+            "What is HDFS (Hadoop Distributed File System)",
+            "HDFS daemons and architecture",
+            "HDFS data flow and storage mechanism",
+            "Hadoop HDFS characteristics and design principles",
+            "Responsibility of HDFS Master – NameNode",
+            "Storage mechanism of Hadoop meta-data",
+            "Work of HDFS Slaves – DataNodes",
+            "Data Blocks and distributed storage",
+            "Replication of blocks, reliability, and high availability",
+            "Rack-awareness, scalability, and other features",
+            "Different HDFS APIs and terminologies",
+            "Commissioning of nodes and addition of more nodes",
+            "Expanding clusters in real-time",
+            "Hadoop HDFS Web UI and HDFS explorer",
+            "HDFS best practices and hardware discussion"
+          ]
+        },
+        {
+          "no": 5,
+          "title": " A Deep Dive into MapReduce",
+          "content": [
+            "What is MapReduce, the processing layer of Hadoop",
+            "The need for a distributed processing framework",
+            "Issues before MapReduce and its evolution",
+            "List processing concepts",
+            "Components of MapReduce – Mapper and Reducer",
+            "MapReduce terminologies- keys, values, lists, and more",
+            "Hadoop MapReduce execution flow",
+            "Mapping and reducing data based on keys",
+            "MapReduce word-count example to understand the flow",
+            "Execution of Map and Reduce together",
+            "Controlling the flow of mappers and reducers",
+            "Optimization of MapReduce Jobs",
+            "Fault-tolerance and data locality",
+            "Working with map-only jobs",
+            "Introduction to Combiners in MapReduce",
+            "How MR jobs can be optimized using combiners"
+          ]
+        },
+        {
+          "no": 6,
+          "title": "MapReduce - Advanced Concepts",
+          "content": [
+            "Anatomy of MapReduce",
+            "Hadoop MapReduce data types",
+            "Developing custom data types using Writable & WritableComparable",
+            "InputFormats in MapReduce",
+            "InputSplit as a unit of work",
+            "How Partitioners partition data",
+            "Customization of RecordReader",
+            "Moving data from mapper to reducer – shuffling & sorting",
+            "Distributed cache and job chaining",
+            "Different Hadoop case-studies to customize each component",
+            "Job scheduling in MapReduce"
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Hive – Data Analysis Tool",
+          "content": [
+            "The need for an adhoc SQL based solution – Apache Hive",
+            "Introduction to and architecture of Hadoop Hive",
+            "Playing with the Hive shell and running HQL queries",
+            "Hive DDL and DML operations",
+            "Hive execution flow",
+            "Schema design and other Hive operations",
+            "Schema-on-Read vs Schema-on-Write in Hive",
+            "Meta-store management and the need for RDBMS",
+            "Limitations of the default meta-store",
+            "Using SerDe to handle different types of data",
+            "Optimization of performance using partitioning",
+            "Different Hive applications and use cases"
+          ]
+        }
+      ],
+      [
+        {
+          "no": 8,
+          "title": "Pig - Data Analysis Tool",
+          "content": [
+            "The need for a high level query language - Apache Pig",
+            "How Pig complements Hadoop with a scripting language",
+            "What is Pig",
+            "Pig execution flow",
+            "Different Pig operations like filter and join",
+            "Compilation of Pig code into MapReduce",
+            "Comparison – Pig vs MapReduce"
+          ]
+        },
+        {
+          "no": 9,
+          "title": "NoSQL Database - HBase",
+          "content": [
+            "NoSQL databases and their need in the industry",
+            "Introduction to Apache HBase",
+            "Internals of the HBase architecture",
+            "The HBase Master and Slave Model",
+            "Column-oriented, 3-dimensional, schema-less datastores",
+            "Data modeling in Hadoop HBase",
+            "Storing multiple versions of data",
+            "Data high-availability and reliability",
+            "Comparison – HBase vs HDFS",
+            "Comparison – HBase vs RDBMS",
+            "Data access mechanisms",
+            "Work with HBase using the shell"
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Data Collection using Sqoop",
+          "content": [
+            "The need for Apache Sqoop",
+            "Introduction and working of Sqoop",
+            "Importing data from RDBMS to HDFS",
+            "Exporting data to RDBMS from HDFS",
+            "Conversion of data import/export queries into MapReduce jobs"
+          ]
+        },
+
+        {
+          "no": 11,
+          "title": "Data Collection using Flume",
+
+          "content": [
+            "What is Apache Flume",
+            "Flume architecture and aggregation flow",
+            "Understanding Flume components like data Sources and Sinks",
+            "Flume channels to buffer events",
+            "Reliable & scalable data collection tools",
+            "Aggregating streams using Fan-in",
+            "Separating streams using Fan-out",
+            "Internals of the agent architecture",
+            "Production architecture of Flume",
+            "Collecting data from different sources to Hadoop HDFS",
+            "Multi-tier Flume flow for collection of volumes of data using AVRO"
+          ]
+        },
+        {
+          "no": 12,
+          "title": "Apache YARN & advanced concepts in the latest version",
+          "content": [
+            "The need for and the evolution of YARN",
+            "YARN and its eco-system",
+            "YARN daemon architecture",
+            "Master of YARN – Resource Manager",
+            "Slave of YARN – Node Manager",
+            "Requesting resources from the application master",
+            "Dynamic slots (containers)",
+            "Application execution flow",
+            "MapReduce version 2 application over Yarn",
+            "Hadoop Federation and Namenode HA"
+          ]
+        }
+      ]
+    ],
+    "features": [
+      {
+        "img": "./images/course-img/course-features/time.png",
+        "title": "Live session"
+      },
+      {
+        "img": "./images/course-img/course-features/support.png",
+        "title": "Lifetime access to course with support"
+      },
+      {
+        "img": "./images/course-img/course-features/project.png",
+        "title": "Real time company/Live projects"
+      },
+      {
+        "img": "./images/course-img/course-features/certificate.png",
+        "title": "Certificate"
+      },
+      {
+        "img": "./images/course-img/course-features/brainstorming.png",
+        "title": "2- Months of live Internship"
+      }
+    ],
+    "forWho": {
+      "que": "Is this online Hadoop Spark course for you?",
+      "ans": "Big Data is the truth of today and Hadoop and Spark prove to be efficient in processing it. So while anyone can benefit from a career in it, here are the kind of professionals who go for this Hadoop and Spark course:<ul><li>Software developers</li><li>App Developers</li><li>Web developers, Mobile app developers</li><li>Freshers / Graduates focusing to build a rock solid career</li></ul>"
+    },
+    "companies": {
+      "title": "Companies you can expect when you certified with us",
+      "img": "./images/companies.png"
+    },
+    "faq": [
+      [
+        {
+          "que": "How will you help me if I miss any Hadoop and Spark training session?",
+          "ans": "If you miss any session, you need not worry as recordings will be uploaded in LMS immediately as the session gets over. You can go through it and get your queries cleared from the instructor during next session. You can also ask him to explain the concepts that you did not understand and were covered in session you missed. Alternatively you can attend the missed session in any other Hadoop and Spark batch running parallely."
+        },
+        {
+          "que": "How will I perform the Hadoop Spark practicals at home?",
+          "ans": "Instructor will help you in setting virtual machine on your own system at which you can do Spark and Hadoop practicals anytime from anywhere. Manual to set virtual machine will be available in your LMS in case you want to go through the steps again. Virtual machine can be set on MAC or Windows machine also."
+        },
+        {
+          "que": "How long will the Hadoop course recording be available?",
+          "ans": "All the Hadoop Spark training sessions will be recorded and you will have lifetime access to the recordings along with the complete Hadoop study material, POCs, Hadoop project etc."
+        },
+        {
+          "que": "What things do I need to attend the online classes?",
+          "ans": "To attend online Spark Hadoop training, you just need a laptop or PC with a good internet connection of around 1 MBPS (But the lesser speed of 512 KBPS will also work). The broadband connection is recommended but you can connect through data card as well."
+        },
+        {
+          "que": "How do I clear my doubts after a Spark Hadoop class?",
+          "ans": "If you have any doubts during Spark Hadoop sessions, you can clear it with the instructor immediately. If you get queries after the session, you can get it cleared from the instructor in the next session as before starting any session, instructor spends around 15 minutes in doubt clearing. Post training, you can post your query over discussion forum and our support team will assist you. Still if you are not comfortable, you can drop mail to instructor or directly interact with him."
+        }
+      ],
+      [
+        {
+          "que": "What are the system specifications required for learning Hadoop & Spark?",
+          "ans": "Recommended is minimum of i3 processor, 20 GB disk and 4 GB RAM in order to learn Big Data, Spark, and Hadoop, although students have learnt Hadoop & Spark on 3 GB RAM as well."
+        },
+        {
+          "que": "How will this Big Data training help me in getting a job?",
+          "ans": "Our Certified Hadoop Spark training course includes multiple workshops, POCs, project etc. that will prepare you to the level that you can start working from day 1 wherever you go. You will be assisted in resume preparation. Mock interview will help you in getting ready to face interviews. We will also guide you with the job openings matching to your resume. All this will help you in landing your dream job in Big Data industry."
+        },
+        {
+          "que": "What will be the end result of doing this course?",
+          "ans": "You will be skilled with the practical and theoretical knowledge that industry is looking for and will become certified Hadoop & Spark professional who is ready to take Big Data Projects in top organizations."
+        },
+        {
+          "que": "How will I be able to interact with the instructor during the training?",
+          "ans": "Both voice and chat will be enabled during the big data Hadoop & Spark training course. You can talk with the instructor or can also interact via chatting."
+        },
+        {
+          "que": "Is this Hadoop Spark classroom training or online training?",
+          "ans": "This Spark & Hadoop course is completely online training course with a batch size of 10-12 students only. You will be able to interact with the trainer through voice or chat and individual attention will be provided to all. The trainer ensures that every student is clear of all the concepts taught before proceeding ahead. So there will be a complete environment of classroom learning."
+        }
+      ]
+    ]
   },
   {
     "id": 6,
     "courseName": "Apache Kafka Certification Course",
-    "bannerImg": "./images/course-img/course-banner/apache-kafka.png"
+    "bannerImg": "./images/course-img/course-banner/apache-kafka.png",
+    "shortName": "Apache Kafka",
+    "overview": "DataFlair’s  Kafka Training will give you a perfect blend of in-depth Kafka theoretical knowledge and strong practical skills. This Kafka certification training course introduces real-time Kafka projects to give you a headstart in learning Kafka and enables you to bag top Kafka jobs in the industry. <br>Online Kafka training is designed to provide you the best online classes for learning kafka API, configuration, integration of Kafka with Hadoop, Storm, and Spark.",
+    "reasons": {
+      "enroll": [
+        [
+          "5+ Real-time projects with implementation",
+          "170+ hrs of study material, practicals, quizzes",
+          "Practice oriented course with live case-studies to gain hands-on expertise",
+          "Lifetime access with industry renowned certification"
+        ],
+        []
+      ],
+      "learn": [
+        [
+          "Understand Kafka architecture and Kafka configuration on cluster",
+          "Master various Kafka components- consumer, producer, and brokers",
+          "Perform different operations on topics",
+          "Integrate Kafka with various consumers",
+          "Play with Kafka partitions and distribute data between them",
+          "Understand insights of high & low level Kafka APIs"
+        ],
+        [
+          "Learn concepts of the latest version of Kafka",
+          "Develop real-time Kafka applications",
+          "Learn Zookeeper and its installation",
+          "Master balancing of Kafka clusters",
+          "Understand replication and its importance in Kafka",
+          "Learn Kafka best practices and develop live Kafka project"
+        ]
+      ]
+    },
+    "why": [
+      {
+        "title": "Next-gen messaging queue, mandatory component for all real-time Big Data project",
+        "src": ""
+      },
+      {
+        "title": "Linkedin, Uber, Airbnb, and other 1000s of companies are using Kafka.",
+        "src": ""
+      },
+      {
+        "title": "Kafka revolutionizes Big Data, whose market will reach $99B in next 2 yrs.",
+        "src": "Gartner"
+      },
+      {
+        "title": "Average Salary of Kafka Professional is 122,000 USD per annum.",
+        "src": "Indeed"
+      }
+    ],
+    "prerequisite": {
+      "que": "What to do before you begin your  online training?",
+      "ans": "Nothing!",
+      "suggest": "All you need to make the most out of this  course is a desire to learn and a penchant for solving real-world problems"
+    },
+
+    "curriculum": [
+      [
+        {
+          "no": 1,
+          "title": "Demystifying Apache Kafka",
+          "content": [
+            "Introduction to Big data",
+            "Importance for messaging queue",
+            "Need for distributed messaging queue",
+            "Conventional solutions and associated problems",
+            "Why we need Apache Kafka"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Kafka Introduction",
+          "content": [
+            "What is Apache Kafka?",
+            "Kafka Features and terminologies",
+            "High-level kafka architecture",
+            "Real-life Kafka Case Studies"
+          ]
+        },
+        {
+          "no": 3,
+          "title": "A Deep Dive into the Kafka Architecture",
+          "content": [
+            "Internals of architecture and core concepts",
+            "Kafka components - Broker, Producer, Consumer, Topics, Partitions",
+            "Different versions of Kafka"
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Understanding Brokers",
+          "content": [
+            "Working of a broker",
+            "Broker Deployment",
+            "Multiple brokers on a single machine",
+            "Decommisioning brokers"
+          ]
+        },
+        {
+          "no": 5,
+          "title": " Understanding Producers",
+          "content": [
+            "Basics of producers",
+            "The producer architecture",
+            "Producer partition- Custom, Round Robin, Field-Based Partition",
+            "Producer Java API",
+            "Types of producers - sync, async",
+            "Different producer configurations",
+            "Sync and async producer hands on"
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Understanding Consumers",
+          "content": [
+            "Basics of consumers",
+            "Consumer queuing, consumer groups, and consumer broadcast",
+            "The Consumer Java API",
+            "Producer and Consumer Hands-on"
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Mirroring Kafka",
+          "content": [
+            "What is mirroring?",
+            "How mirroring works",
+            "Mirror Maker and its role",
+            "Kafka Mirroring Hands-on",
+            "Mirror Maker producers and consumers"
+          ]
+        }
+      ],
+      [
+        {
+          "no": 8,
+          "title": "Topics and Partitions",
+          "content": [
+            "Working with topics and updating them",
+            "Performance optimization and configurations",
+            "Using Partitions and distribution of partitions",
+            "Partition reassignment - Automatic migrating",
+            "Partition reassignment - Manual migrating"
+          ]
+        },
+        {
+          "no": 9,
+          "title": "Replication in Kafka",
+          "content": [
+            "High availability and reliability using replication",
+            "ISR - In Sync Replication",
+            "Primary Replication and Quorum Replication",
+            "Partition reassignment - Increasing Replication",
+            "Topic, Partition and Replication Hands-on"
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Introduction to Zookeeper",
+          "content": [
+            "What is Zookeeper?",
+            "Leader Election by Zookeeper",
+            "Applications using Zookeeper",
+            "Zookeeper Architecture",
+            "Zookeeper configuration and installation",
+            "Zookeeper troubleshooting"
+          ]
+        },
+
+        {
+          "no": 11,
+          "title": "Installation of Kafka",
+
+          "content": [
+            "Setup environment and pre-requisites",
+            "Configuration of different components",
+            "Deploying Apache Kafka on single node cluster",
+            "Deploying Apache Kafka on multi-node cluster",
+            "Balancing Leadership",
+            "Scaling Kafka cluster and troubleshooting"
+          ]
+        },
+        {
+          "no": 12,
+          "title": "Kafka Advanced Operations - Part 1",
+          "content": [
+            "Working with multiple topics for different type of data",
+            "Developing applications using high and low level APIs",
+            "Buffering data in Apache Kafka",
+            "Best practices of data distribution",
+            "Different types of consumers high level & low level",
+            "Multiple consumers grouping"
+          ]
+        },
+        {
+          "no": 13,
+          "title": "Kafka Advanced Operations - Part 2",
+          "content": [
+            "Multiple partitions and multi-threaded consumers.",
+            "Best practices for consumers",
+            "Configuring multiple producers & consumers together",
+            "Log Segment and Data Retention",
+            "Monitoring and management of Kafka Cluster",
+            "JMX Monitor and Kafka administration tools"
+          ]
+        },
+        {
+          "no": 14,
+          "title": "Real-life Kafka Project",
+          "content": [
+            "Live Kafka project based on industry use-cases to solve real world problems"
+          ]
+        }
+      ]
+    ],
+    "features": [
+      {
+        "img": "./images/course-img/course-features/time.png",
+        "title": "Live session"
+      },
+      {
+        "img": "./images/course-img/course-features/support.png",
+        "title": "Lifetime access to course with support"
+      },
+      {
+        "img": "./images/course-img/course-features/project.png",
+        "title": "Real time company/Live projects"
+      },
+      {
+        "img": "./images/course-img/course-features/certificate.png",
+        "title": "Certificate"
+      },
+      {
+        "img": "./images/course-img/course-features/brainstorming.png",
+        "title": "2- Months of live Internship"
+      }
+    ],
+    "forWho": {
+      "que": "Is this Apache Kafka training course for you?",
+      "ans": "Kafka has quickly made a name for itself. Of all Fortune 500 companies, more than 50% use it. And while anyone can benefit from a career in it, here are the kind of professionals who go for this online Kafka course:<ul><li>Software engineers, leads, and architects</li><li>Data engineers, ETL professionals, DBAs & Data professionals</li><li>Project managers, BI and analytics professionals</li><li>Big Data professionals willing to accelerate their career as Kafka developer</li></ul>"
+    },
+    "companies": {
+      "title": "Companies you can expect when you get Apache Kafka-certified with us",
+      "img": "./images/companies.png"
+    },
+    "faq": [
+      [
+        {
+          "que": "How will you help me if I miss any session?",
+          "ans": "If you miss any session of DataFlair’s Kafka Training, you can go through the recorded session that will be uploaded in LMS immediately once the session is done. You can then ask your queries to the instructor in the next session. Alternatively, you can attend the missed session in any other batch running parallely."
+        },
+        {
+          "que": "How will I perform the Kafka practicals at home?",
+          "ans": "The instructor will help you set the virtual machine on your own system; on this, you can do the practicals anytime, from anywhere. The manual with instructions to set up the virtual machine will be available in your LMS in case you want to go through the steps again. The virtual machine can be set up on a MAC or Windows machine as well."
+        },
+        {
+          "que": "How long will the online Kafka course recordings be available?",
+          "ans": "You will have lifetime access to the recordings along with the complete study material, POCs, and projects."
+        },
+        {
+          "que": "What things do I need to learn Kafka through this course?",
+          "ans": "To attend this online Kafka training course, you just need a laptop or a PC with a good Internet connection of around 1 MBPS (although, the lesser speed of 512 KBPS will do)."
+        },
+        {
+          "que": "How do I clear my Kafka-related doubts?",
+          "ans": "If you have doubts during a session, you can ask the instructor immediately. If you have queries after the session, you can ask the instructor in the next session. After the training, you can post your query on the discussion forum and our support team will be happy to assist you."
+        },
+        {
+          "que": "When will I get access to the Learning Management System?",
+          "ans": "As soon as you enroll for the kafka online training course, you will get access to the LMS, and you will have access to it for lifetime. Complementary courses will also be added immediately for you to start learning."
+        },
+        {
+          "que": "How will this kafka training will help me get a job?",
+          "ans": "Our training consists of multiple workshops, POCs, and projects to make you ready to work in the industry. You will be assisted with resume preparation and will need to appear for a mock interview to help you learn to face interviews. We will also guide you with job openings matching your resume. All this will help you land your dream job in the Big Data industry."
+        }
+      ],
+      [
+        {
+          "que": "What will be the end result of completing this kafka certification course?",
+          "ans": "You will gain all the practical and theoretical knowledge that the industry is looking for, and will become an Apache Kafka expert who is ready to take on Kafka projects."
+        },
+        {
+          "que": "How will I be able to interact with the instructor during the online kafka training?",
+          "ans": "You can talk to the instructor as you’d do on telephone, or can also interact via chatting, as both voice and chat will be enabled for interaction."
+        },
+        {
+          "que": "Is this Kafka training classroom-based or online?",
+          "ans": "This is a completely online training with a batch size of only 8-10 students. You can interact with the trainer through voice or chat, and individual attention will be provided to all. The trainer ensures that every student gets all concepts taught before proceeding to the next. There will be a complete environment for classroom learning."
+        },
+        {
+          "que": "Can I enroll now and join classes in a later batch?",
+          "ans": "Yes, you can register whenever you feel like, and can join any upcoming future batches at any point of time."
+        },
+        {
+          "que": "What are the payment options?",
+          "ans": "You can make payment via credit card, debit card, or net banking through any of the banks. You can also use our payment gateway PayU for payment in INR. For payments in USD, you can do it via Paypal. We also have a part-payment option."
+        },
+        {
+          "que": "What are the system requirements to learn Kafka?",
+          "ans": "Recommended is a minimum of the i3 processor, 20 GB disk, and 4 GB RAM in order to learn Kafka; however, students have also done it on 2 GB RAM."
+        },
+        {
+          "que": "What if I have any further queries or doubts about this kafka training course?",
+          "ans": "For further queries, you can contact us on +91-8451097879 or drop a mail at info@data-flair.training"
+        }
+      ]
+    ]
   },
   {
     "id": 7,
     "courseName": "Apache Flink Certification Course",
-    "bannerImg": "./images/course-img/course-banner/Apache-Flink.png"
+    "bannerImg": "./images/course-img/course-banner/Apache-Flink.png",
+    "shortName": "Apache Flink",
+    "overview": "Certified Apache Flink Online Training course from DataFlair is developed by Big Data experts to facilitate you with theoretical and practical knowledge for distributed stream and batch data processing system of Apache Flink – The Next Gen Big Data Analytics Framework.",
+    "reasons": {
+      "enroll": [
+        [
+          "30+ Hrs of instructor-led sessions",
+          "100+ Hrs of practicals & assignments",
+          "5 Real-time big data projects",
+          "Lifetime access to course with support",
+          "Job oriented course with job assistance"
+        ],
+        []
+      ],
+      "learn": [
+        [
+          "Become adept in latest Big Data technology – ‘Apache Flink’ and be future ready",
+          "Master core concepts of Apache Flink internals",
+          "Learn Data Streaming Architecture with Apache Flink",
+          "Learn how to handle diverse workload with Apache Flink",
+          "Setup of multi-node Flink cluster on cloud",
+          "Gain in depth knowledge on Flink Stack",
+          "Grasp fundamental concepts of Flink Libraries and APIs"
+        ],
+        [
+          "Learn development of real-time streaming Flink applications",
+          "Handle structured data using Table-API",
+          "Perform advanced analytics using Flink ML – Flink Machine learning Example",
+          "Process graph at scala using Gelly – Flink Graph API",
+          "Complex Event Processing using Apache Flink – Flink CEP",
+          "Integrate with different Big Data systems",
+          "Work on real-time Flink Project"
+        ]
+      ]
+    },
+    "why": [
+      {
+        "title": "Average salary of Apache Flink Developers is $135k",
+        "src": "Indeed"
+      },
+      {
+        "title": "There will be a shortage of 1.5M Big Data experts by 2018",
+        "src": "McKinsey"
+      },
+      {
+        "title": "Flink market will reach $99B by 2022 at the CAGR of 42% ",
+        "src": "Forbes"
+      },
+      {
+        "title": "More than 77% of organizations consider Flink a top priority",
+        "src": "Peer Research"
+      }
+    ],
+    "prerequisite": {
+      "que": "What to do before you begin your  online training?",
+      "ans": "Nothing!",
+      "suggest": "To learn Apache Flink, Knowledge of core java will be helpful but it is not mandatory. Java course will be provided as the complimentary course with this Flink training"
+    },
+
+    "curriculum": [
+      [
+        {
+          "no": 1,
+          "title": "Demystify Scala",
+          "content": [
+            "Introduction to Scala",
+            "Setup, Installation and configuration of Scala",
+            "Develop and execute Scala Programs",
+            "Scala operators and features",
+            "Different Functions, procedures and Anonymous functions",
+            "Deep dive into Scala APIs",
+            "Collections Array, Map, Lists, Tuples and Loops",
+            "Advanced operations - Pattern matching",
+            "Eclipse IDE with Scala"
+          ]
+        },
+        {
+          "no": 2,
+          "title": " Object Oriented and Functional Programming",
+          "content": [
+            "Object oriented programming",
+            "Oops concepts",
+            "Constructor, getter, setter, singleton, overloading and overriding",
+            "Type Inference, Implicit Parameters, Closures",
+            "Lists, Maps and Map Operations",
+            "Nested Classes, Visibility Rules",
+            "Functional Structures",
+            "Functional programming constructs"
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Introduction to Apache Flink",
+          "content": [
+            "Learn What and why Apache Flink",
+            "Understand Features of Apache Flink",
+            "Apache Flink architecture and Flink design principles",
+            "Work of master process - JobManager",
+            "Role of worker process - TaskManager",
+            "Workers, Slots and Resources",
+            "Overview of Apache Flink APIs",
+            "Understand difference between Apache Spark and Apache Flink to learn Flink vs Spark"
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Master Flink Stack",
+          "content": [
+            "Distributed Streaming DataFlow at Runtime with Flink",
+            "Apache Flink APIs",
+            "Apache Flink Libraries",
+            "Data Flow in Apache Flink",
+            "Fault tolerance in Apache Flink"
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Setup and Installation of single node Flink",
+          "content": [
+            "Setup of Apache Flink environment and pre-requisites",
+            "Installation and configuration of Flink on single node",
+            "Troubleshooting the encountered problems"
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Setup and Installation of multi node Flink cluster and Cloud",
+          "content": [
+            "Setup environment on Cloud",
+            "Install pre-requisites on all nodes",
+            "Deploy Apache Flink on cluster and Cloud",
+            "Play with Flink in cluster mode"
+          ]
+        }
+      ],
+      [
+        {
+          "no": 7,
+          "title": "Master DataStream API for Unbounded Streams",
+          "content": [
+            "Introduction to Flink DataStream API",
+            "Different DataStream Transformations in Flink",
+            "Various Data Sources - File based, Socket based, Collection based, Custom",
+            "Responsibility of Data Sink in Apache Flink",
+            "Iterations in DataStream APIs",
+            "DataStream Execution Parameters - Fault tolerance, Controlling Latency"
+          ]
+        },
+        {
+          "no": 8,
+          "title": " Learn Flink DataSet APIs for Static Data",
+          "content": [
+            "Overview of DataSet APIs in Flink",
+            "ISR - In Sync Replication",
+            "Various DataSet Transformations in Flinkn",
+            "Different Data Sources - File based, Collection based, Generic",
+            "Responsibility of Data Sink in Flink DataSet APIs",
+            "Iteration Operators in DataSet APIs",
+            "Operating on Data Objects in Functions - Object Reuse Disabled/Enabled"
+          ]
+        },
+        {
+          "no": 9,
+          "title": "Play with Flink Table APIs and SQL Beta",
+          "content": [
+            "Registering Tables in Flink",
+            "Table Access and various Table API operators in Flink",
+            "SQL on batch tables and Streaming Tables",
+            "Writing Flink Tables to external sinks"
+          ]
+        },
+
+        {
+          "no": 10,
+          "title": "Apache Flink Libraries",
+
+          "content": [
+            "Overview of Flink Libraries",
+            "Flink CEP - Complex Event Processing library",
+            "Apache Flink Machine Learning library",
+            "Apache Flink Gelly -Graph processing API and Library"
+          ]
+        },
+        {
+          "no": 11,
+          "title": " Flink Integration with other Big data tools",
+          "content": [
+            "Integrate Flink with Hadoop",
+            "Process existing HDFS data with Flink",
+            "Yarn and Flink integration",
+            "Flink Data Streaming with Kafka",
+            "Different types of consumers high level & low level",
+            "Consume data in real time from Kafka"
+          ]
+        },
+        {
+          "no": 12,
+          "title": ". Programming in Flink",
+          "content": [
+            "Parallel Data Flow in Flink",
+            "Develop complex Streaming applications in Flink",
+            "Handle Batch processing in Flink using DataSet APIs",
+            "Troubleshooting and Debugging Flink Programs",
+            "Best Practices of development in Flink",
+            "Real time Apache Flink Project"
+          ]
+        }
+      ]
+    ],
+    "features": [
+      {
+        "img": "./images/course-img/course-features/time.png",
+        "title": "Live session"
+      },
+      {
+        "img": "./images/course-img/course-features/support.png",
+        "title": "Lifetime access to course with support"
+      },
+      {
+        "img": "./images/course-img/course-features/project.png",
+        "title": "Real time company/Live projects"
+      },
+      {
+        "img": "./images/course-img/course-features/certificate.png",
+        "title": "Certificate"
+      },
+      {
+        "img": "./images/course-img/course-features/brainstorming.png",
+        "title": "2- Months of live Internship"
+      }
+    ],
+    "forWho": {
+      "que": "Is this Apache Fkink training course for you?",
+      "ans": "Professionals who are looking to make their career in latest and fastest Big Data technology Apache Flink should go for this course.<ul><li>Software developers, leads and project managers who would like to include Flink in their profile</li><li>Data engineers, ETL professionals, DBAs & Data professionals</li><li>ETL developers, Analytics professionals and Architects</li><li>Big Data professionals willing to accelerate their career as Flink developer</li></ul>"
+    },
+    "companies": {
+      "title": "Companies you can expect when you get Apache Flink-certified with us",
+      "img": "./images/companies.png"
+    },
+    "faq": [
+      [
+        {
+          "que": "How will you help me if I miss any session?",
+          "ans": "If you miss any session, you need not worry as we will not let you lose anything. All sessions will be recorded and recordings will be uploaded in LMS immediately as the session gets over. You can go through it and get your queries cleared from the instructor during next session. Alternatively you can attend the missed session in any other batch running parallely."
+        },
+        {
+          "que": "How will I do Flink practicals at home?",
+          "ans": "For performing practicals in Flink, Instructor will help you in setting virtual machine on your own system. LMS will contain manual to set virtual machine in case you want to go through the steps again."
+        },
+        {
+          "que": "How long will the Flink course recording be available with me?",
+          "ans": "There will be lifetime access to all the recorded sessions along with the complete study material, Flink POCs, Flink project etc."
+        },
+        {
+          "que": "What things do I need to attend online Flink Training?",
+          "ans": "For attending Flink online training, you just need a laptop or PC with a good internet connection of around 1 MBPS (But lesser speed of 512 KBPS will also work)."
+        },
+        {
+          "que": "How can I get my doubts cleared post class gets over?",
+          "ans": "If you have any doubt during any session, you can get it cleared from the instructor immediately. If you get queries after the session, you can get it cleared from the instructor in the next session. Post training, you can post your query over discussion forum and our support team will assist you."
+        },
+        {
+          "que": "When will I get access to the Learning Management System?",
+          "ans": "As soon as you enroll for the course, you will get lifetime access to LMS. Complimentary course will also be added immediately so that you can start learning immediately."
+        },
+        {
+          "que": "How this Flink training will help me in getting job?",
+          "ans": "Multiple workshops, POCs, project etc. will prepare you to the level that you can start working from day 1 wherever you go. Resume preparation and Flink interview questions will help you in facing interviews. We will also guide you with the job openings matching to your resume. All this will help you in landing your dream Flink job in Big Data industry."
+        }
+      ],
+      [
+        {
+          "que": "What will be the end result of doing training on Flink?",
+          "ans": "You will gain thorough practical and theoretical knowledge that industry is looking for and will become Apache Flink professional who is ready to take Big Data requiring Flink Projects in your dream organisation."
+        },
+        {
+          "que": "How will I be able to interact with the instructor during Flink training?",
+          "ans": "Both voice and chat will be enabled during the online Flink training sessions to interact with the instructor."
+        },
+        {
+          "que": "Is this Flink classroom training or online?",
+          "ans": "This is completely online Flink training with a batch size of 8-10 students only. You will be able to interact with trainer through voice or chat and individual interaction and attention will be provided to all. So there will be complete environment of classroom learning."
+        },
+        {
+          "que": "Can I enroll now and join Flink classes in a later batch?",
+          "ans": "Yes you can register now and can join any upcoming future batches at any point of time."
+        },
+        {
+          "que": "What are the payment options?",
+          "ans": "You can do the payment via credit card, debit card or net banking through any of the banks. You can use our payment gateway Payu for payment in INR. For payments in USD, you can do via Paypal. We also have part payment option."
+        },
+        {
+          "que": "Is Hadoop knowledge compulsory to learn Apache Flink?",
+          "ans": "It is not compulsory to know Hadoop for learning Flink but Prior Hadoop knowledge will be advantageous. If you are not aware of Hadoop, we will assist you in learning Hadoop basics."
+        },
+        {
+          "que": "Why I should learn Apache Flink?",
+          "ans": "Apache Flink is a streaming dataflow engine. It is 4G of Big data and is faster than Apache Spark. The demand for faster data processing has been increasing and real-time streaming data processing appears to be the answer. While Apache Spark is still being used in a lot of organizations for big data processing, Apache Flink has been coming up fast as an alternative."
+        }
+      ]
+    ]
   },
   {
     "id": 8,
     "courseName": "AWS Certification Course",
-    "bannerImg": "./images/course-img/course-banner/AWS.webp"
+    "bannerImg": "./images/course-img/course-banner/AWS.webp",
+    "shortName": "AWS",
+    "overview": "A perfect blend of in-depth AWS knowledge and strong practical skills for AWS Certified Cloud Practitioner (CLF-C01) Exam.  AWS course gives you a headstart in learning Amazon Cloud and enables you to bag top jobs in IT industry.",
+    "reasons": {
+      "enroll": [
+        [
+          " Regular practical sessions to gain hands-on experience",
+          " Get ready to crack AWS certified cloud practitioner exam",
+          "170+ hrs of study material, practicals, quizzes, interview guides"
+        ],
+        [
+          "Acquire practical knowledge which industry needs",
+          " Lifetime access of LMS with industry renowned certificate",
+          "Get ready to enter in IT industry as AWS professional"
+        ]
+      ],
+      "learn": [
+        [
+          "Kickstart your career with a strong cloud foundation",
+          "Understand internals of cloud computing & its working",
+          "Work on core services of AWS",
+          "Develop standard industry use-cases and live projects",
+          "Understand AWS cloud’s pricing, economics, & billing methods",
+          "Learn about AWS Cloud migration and disaster recovery"
+        ],
+        [
+          "Know AWS Cloud security best practises and compliance",
+          "Learn to develop efficient applications using AWS cloud",
+          "Unleash the power of AWS with serverless implementation",
+          "Understand AWS cloud’s underlying global infrastructure",
+          "Identify appropriate solutions for various use cases using AWS",
+          "Understand financial advantages of using AWS for cost-cutting"
+        ]
+      ]
+    },
+    "why": [
+      {
+        "title": "In terms of cloud adoption, AWS is the most widely used platform.",
+        "src": ""
+      },
+      {
+        "title": "People having Skills in Amazon AWS are well compensated.",
+        "src": ""
+      },
+      {
+        "title": "Cloud Computing is the third wave of digital revolution.",
+        "src": ""
+      },
+      {
+        "title": "AWS is the most rapidly expanding public cloud service.",
+        "src": ""
+      }
+    ],
+    "prerequisite": {
+      "que": "What to do before you begin your  online training?",
+      "ans": "Nothing!",
+      "suggest": "All you need to make the most out of this  aws course is a desire to not only learn but master the cloud"
+    },
+
+    "curriculum": [
+      [
+        {
+          "no": 1,
+          "title": "Introduction to Cloud",
+          "content": [
+            "Introduction to Cloud Computing",
+            "Type of cloud services",
+            "Type of cloud deployment model",
+            "AWS Cloud overview",
+            "Traditional IT Vs Cloud"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Work on EC2",
+          "content": [
+            "Amazon EC2 Introduction",
+            "Amazon Machine Image",
+            "Instance Type",
+            "Accessing EC2",
+            "EC2 Storage – Instance Store Vs EBS"
+          ]
+        },
+        {
+          "no": 3,
+          "title": " Understand EFS",
+          "content": [
+            "Introduction to EFS",
+            "Change permissions on EFS",
+            "Working with EFS with EC2"
+          ]
+        },
+        {
+          "no": 4,
+          "title": " Deep Dive into S3",
+          "content": [
+            "Amazon S3 Introduction",
+            "AWS S3 presigned URL",
+            "Security Policy",
+            "Versioning",
+            "Static Website hosting",
+            "Storage Classes",
+            "Encryption",
+            "Glacier"
+          ]
+        },
+        {
+          "no": 5,
+          "title": " Getting started with Database",
+          "content": [
+            "Amazon RDS Introduction",
+            "RDS Aurora",
+            "RDS Multi-AZ deployment",
+            "DynamoDB introduction",
+            "DynamoDB Global Tables",
+            "Redshift"
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Play with Analytics",
+          "content": [
+            "Understand Athena",
+            "Introduction to DMS",
+            "Work on Glue"
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Identity and Access Management with IAM",
+          "content": [
+            "IAM Overview",
+            "IAM Users",
+            "IAM Groups",
+            "IAM Roles",
+            "MFA for IAM user",
+            "AWS CLI",
+            "AWS Policies – Identity and Resource Policy"
+          ]
+        },
+        {
+          "no": 8,
+          "title": "AWS Security",
+          "content": [
+            "KMS",
+            "Shared Responsibility Model",
+            "DDoS Protection: WAF & Shield",
+            "Secrets Manager Overview",
+            "Artifact Overview",
+            "GuardDuty Overview",
+            "Inspector Overview",
+            "Config Overview",
+            "Macie Overview",
+            "Security Hub Overview",
+            "Amazon Detective Overview",
+            "Security Token Service (STS) Overview",
+            "Cognito Overview"
+          ]
+        }
+      ],
+      [
+        {
+          "no": 9,
+          "title": "Understand AWS Infrastructure",
+          "content": [
+            "Work on CloudFormation",
+            "Develop applications on Beanstalk",
+            "SSM Cloud9"
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Work on Compute Services",
+          "content": ["AWS Lambda", "ECS and ECR"]
+        },
+        {
+          "no": 11,
+          "title": " Demistify VPC",
+          "content": ["Demistify VPC", "VPC, Subnet", "VPC Peering"]
+        },
+        {
+          "no": 12,
+          "title": "Work on Integration",
+
+          "content": [
+            "SQS Introduction & working",
+            "Work on SNS",
+            "Play with Kinesis"
+          ]
+        },
+        {
+          "no": 13,
+          "title": "Master Monitoring Services",
+          "content": [
+            "CloudWatch Introduction",
+            "CloudWatch – Metrics",
+            "CloudWatch – Alarm",
+            "CloudWatch – Logs",
+            "CloudTrail"
+          ]
+        },
+        {
+          "no": 14,
+          "title": "Work on Machine Learning",
+          "content": [
+            "Rekognition Overview",
+            "Transcribe Overview",
+            "Polly Overview",
+            "Translate Overview",
+            "Lex + Connect Overview",
+            "Comprehend Overview",
+            "SageMaker Overview",
+            "Forecast Overview",
+            "Kendra Overview",
+            "Personalize Overview"
+          ]
+        },
+
+        {
+          "no": 15,
+          "title": "Miscellaneous",
+          "content": [
+            "WorkSpaces Overview",
+            "AppStream 2.0 Overview",
+            "Elastic Transcoder Overview",
+            "Disaster Recovery Strategies",
+            "AWS DataSync"
+          ]
+        },
+
+        {
+          "no": 16,
+          "title": "Projects",
+          "content": [
+            "Recognizing celebrities using Amazon Rekognition",
+            "Building chatbots with AWS Lex",
+            "Windows Virtual Machine Deployment",
+            "Rapid Document Conversion",
+            "Mass Emailing using AWS Lambda"
+          ]
+        }
+      ]
+    ],
+    "features": [
+      {
+        "img": "./images/course-img/course-features/time.png",
+        "title": "Live session"
+      },
+      {
+        "img": "./images/course-img/course-features/support.png",
+        "title": "Lifetime access to course with support"
+      },
+      {
+        "img": "./images/course-img/course-features/project.png",
+        "title": "Real time company/Live projects"
+      },
+      {
+        "img": "./images/course-img/course-features/certificate.png",
+        "title": "Certificate"
+      },
+      {
+        "img": "./images/course-img/course-features/brainstorming.png",
+        "title": "2- Months of live Internship"
+      }
+    ],
+    "forWho": {
+      "que": "Is this AWS training course for you?",
+      "ans": "Professionals who are looking to make their career in latest and fastest Big Data technology AWS should go for this course.<ul><li>Software developers, leads and project managers who would like to include Flink in their profile</li><li>Data engineers, ETL professionals, DBAs & Data professionals</li><li>ETL developers, Analytics professionals and Architects</li><li>Big Data professionals willing to accelerate their career as Flink developer</li></ul>"
+    },
+    "companies": {
+      "title": "Companies you can expect when you get AWS-certified with us",
+      "img": "./images/companies.png"
+    },
+    "faq": [
+      [
+        {
+          "que": "How will you help me if I miss any session?",
+          "ans": "If you miss any session, you need not worry as we will not let you lose anything. All sessions will be recorded and recordings will be uploaded in LMS immediately as the session gets over. You can go through it and get your queries cleared from the instructor during next session. Alternatively you can attend the missed session in any other batch running parallely."
+        },
+        {
+          "que": "How will I do AWS practicals at home?",
+          "ans": "For performing practicals in AWS, Instructor will help you in setting virtual machine on your own system. LMS will contain manual to set virtual machine in case you want to go through the steps again."
+        },
+        {
+          "que": "How long will the AWS course recording be available with me?",
+          "ans": "There will be lifetime access to all the recorded sessions along with the complete study material, project etc."
+        },
+        {
+          "que": "What things do I need to attend online AWS Training?",
+          "ans": "For attending AWS online training, you just need a laptop or PC with a good internet connection of around 1 MBPS (But lesser speed of 512 KBPS will also work)."
+        },
+        {
+          "que": "How can I get my doubts cleared post class gets over?",
+          "ans": "If you have any doubt during any session, you can get it cleared from the instructor immediately. If you get queries after the session, you can get it cleared from the instructor in the next session. Post training, you can post your query over discussion forum and our support team will assist you."
+        },
+        {
+          "que": "When will I get access to the Learning Management System?",
+          "ans": "As soon as you enroll for the course, you will get lifetime access to LMS. Complimentary course will also be added immediately so that you can start learning immediately."
+        },
+        {
+          "que": "How this AWS training will help me in getting job?",
+          "ans": "Multiple workshops, project etc. will prepare you to the level that you can start working from day 1 wherever you go. Resume preparation and Flink interview questions will help you in facing interviews. We will also guide you with the job openings matching to your resume. All this will help you in landing your dream job."
+        }
+      ],
+      [
+        {
+          "que": "What will be the end result of doing training on AWS?",
+          "ans": "You will gain thorough practical and theoretical knowledge that industry is looking for and will become AWS professional."
+        },
+        {
+          "que": "How will I be able to interact with the instructor during AWS training?",
+          "ans": "Both voice and chat will be enabled during the online AWS training sessions to interact with the instructor."
+        },
+        {
+          "que": "Is this AWS classroom training or online?",
+          "ans": "This is completely online AWS training with a batch size of 8-10 students only. You will be able to interact with trainer through voice or chat and individual interaction and attention will be provided to all. So there will be complete environment of classroom learning."
+        },
+        {
+          "que": "Can I enroll now and join AWS classes in a later batch?",
+          "ans": "Yes you can register now and can join any upcoming future batches at any point of time."
+        },
+        {
+          "que": "What are the payment options?",
+          "ans": "You can do the payment via credit card, debit card or net banking through any of the banks. You can use our payment gateway Payu for payment in INR. For payments in USD, you can do via Paypal. We also have part payment option."
+        }
+      ]
+    ]
   },
   {
     "id": 9,
@@ -761,7 +3777,7 @@
           "title": "Mongodb Database",
 
           "content": [
-            "",
+            "What is database?",
             "Installing mongodb",
             "Create in CRUD",
             "Read in CRUD",
@@ -5121,7 +8137,7 @@
   {
     "id": 24,
     "courseName": "Ethical Hacking Certification Course",
-    "bannerImg": "./images/course-img/course-banner/Ethical-Hacking.jpg",
+    "bannerImg": "./images/course-img/course-banner/Ethical-Hacking.png",
     "shortName": "Ethical Hacking",
     "overview": "Ethical hacking involves an authorized attempt to gain unauthorized access to a computer system, application, or data. This course is highly practical but it won't neglect the theory; we'll start with ethical hacking basics.",
     "reasons": {
