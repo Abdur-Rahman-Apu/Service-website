@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Unlocking creativity! Your go-to digital solution destination for exceptional design, marketing, and digital solutions. Let's bring your ideas to life">
+
+    <title>Shravan Kumar - Learn to Earn</title>
+
+    <link rel="shortcut icon" href="../images/sk.webp" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <link rel="stylesheet" href="../css/countrySelect.css">
+    <link rel="stylesheet" href="../css/jquery.toast.css">
+    <!-- <link rel="stylesheet" href="../css/style.css"> -->
+    <link rel="stylesheet" href="../css/pop-up.css">
+    <link rel="stylesheet" href="../css/course-details.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../css/floating-wpp.css" />
+
+    <script src="https://kit.fontawesome.com/3b7a96cd6e.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+
+    <!-- scroll-to-top  -->
+    <div class="up">
+        <div class="scroll-to-top">
+            <i class="fa-solid fa-arrow-up"></i>
+        </div>
+    </div>
+
+    <!-- floating whatsapp chat  -->
+    <div class="floating-wpp"></div>
+
+    <!-- navbar  -->
+    <div class="navbar">
+        <div class="logo">
+            <a href="/">
+                <img src="../images/SK-Logo-yellow-black.png" alt="logo">
+            </a>
+        </div>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="../case-studies">Case Study</a></li>
+            <li><a class="active" href="../courses">Courses</a></li>
+            <li><a href="../quiz">Quiz</a></li>
+            <li><a href="../blog">Blog</a></li>
+            <li><a href="../workshop">Workshop</a></li>
+            <li><a href="../contact-us">Contact</a></li>
+        </ul>
+
+
+        <div class="contact">
+            <div class="humburger" onclick="toggleMenu()">
+                <i class="fa-solid fa-bars" id="humburger-icon"></i>
+
+                <span></span>
+
+                <i class="fa-regular fa-circle-xmark" id="close-icon"></i>
+
+                <ul class="humburger-menus">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="../case-studies">Case Study</a></li>
+                    <li><a class="active" href="../courses">Courses</a></li>
+                    <li><a href="../quiz">Quiz</a></li>
+                    <li><a href="../blog">Blog</a></li>
+                    <li><a href="../workshop">Workshop</a></li>
+                    <li><a href="../contact-us">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook facebook"></i></a>
+                <p>Facebook</p>
+            </div>
+            <div>
+                <a href="https://twitter.com/?lang=en"><i class="fa-brands fa-twitter twitter"></i></a>
+                <p>Twitter</p>
+            </div>
+            <div>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram instagram"></i></a>
+                <p>Instagram</p>
+            </div>
+            <div>
+                <a href="https://bd.linkedin.com/">
+                    <i class="fa-brands fa-linkedin linkedin"></i>
+                </a>
+                <p>LinkedIn</p>
+            </div>
+            <div>
+                <a href="https://www.behance.net/"><i class="fa-brands fa-square-behance behance"></i></a>
+                <p>Behance</p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- course detail section  -->
+
+    <div class="course-detail-container">
+        <div class="course-detail-header">
+
+            <div class="course-info" data-aos="fade-down">
+                <h1 class="course-title">Adobe Premiere Pro Certification Course</h1>
+                <p class="overview">After the internet boom lots of new opportunities have emerged. You can create
+                    videos and earn thousands of rupees, from uploading it in YouTube, Instagram or other social media.
+                    However previously earning from doing jobs related to videography was not easy. But we are living in
+                    a new age, and the future of technology is bright. So as those people who know software like Adobe
+                    premiere pro. It is a product offered by adobe which is not only one of the favorites for Youtubers,
+                    but also it is widely accepted and used in the film industry.</p>
+
+                <!-- modal  -->
+                <div id="ex1" class="modal">
+                    <div>
+                        <h1>Want to Book Your Seat?</h1>
+                        <hr>
+
+                        <div class="send-info">
+                            <div>
+                                <img src="../images/course-img/send.jpg"
+                                    alt="An image of booking seat page which represents the send detail information"
+                                    loading="lazy">
+                            </div>
+
+                            <div>
+                                <form method="POST" id="send-message-form">
+                                    <div class="name-field">
+                                        <label for="name">Name</label> <br>
+                                        <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                                    </div>
+
+                                    <div class="email">
+                                        <label for="email">Email</label> <br>
+                                        <input type="email" name="email" id="email" placeholder="Enter your email"
+                                            required>
+                                    </div>
+
+                                    <div class="country-select">
+                                        <label for="country_selector">Country</label> <br>
+                                        <input id="country_selector" type="text">
+                                    </div>
+
+                                    <div class="phone-no">
+                                        <label for="phoneField">Phone</label> <br>
+                                        <input type="text" id="phoneField" name="phoneField" class="phone-field"
+                                            placeholder="+14844731560" required>
+                                    </div>
+
+                                    <div class="course-select">
+                                        <label for="courses">Course</label> <br>
+                                        <select id="courses" name="course">
+                                            <option>Python Certification Course </option>
+                                            <option>Big Data and Hadoop Certification Course</option>
+                                            <option>C, C++ & Java Programming Course</option>
+                                            <option>ML Course </option>
+                                            <option>FiaUI/UX Certification Course </option>
+                                            <option>Big Data Certification Course with Hadoop & Spark</option>
+                                            <option>Apache Kafka Certification Course</option>
+                                            <option>Apache Flink Certification Course</option>
+                                            <option>AWS Certification Course </option>
+                                            <option>Full Stack Web Development Certification Course </option>
+                                            <option>Apache Spark and Scala Certification Course </option>
+                                            <option>Scala Certification Course </option>
+                                            <option>Angular Certification Course </option>
+                                            <option>ADOBE-XD Certification Course </option>
+                                            <option>Adobe After Effects Certification Course </option>
+                                            <option>Artificial Intelligence Certification Course </option>
+                                            <option>Android Development Certification Course </option>
+                                            <option>CCNA Certification Course </option>
+                                            <option>CCSP Certification Course </option>
+                                            <option>ChatGPT Certification Course </option>
+                                            <option>Cloud Computing Certification Course </option>
+                                            <option>Data Science Certification Course </option>
+                                            <option>DevOps Certification Course </option>
+                                            <option>Digital Marketing Certification Course </option>
+                                            <option>Ethical Hacking Certification Course </option>
+                                            <option>Figma Certification Course </option>
+                                            <option>Adobe Illustrator Certification Course </option>
+                                            <option>Linux Certification Course </option>
+                                            <option>Microsoft Azure Certification Course </option>
+                                            <option>Adobe Premiere Pro Certification Course </option>
+                                            <option>Adobe Photoshop Certification Course </option>
+                                            <option>Microsoft Word Certification Course </option>
+                                            <option>Microsoft Excel Certification Course </option>
+                                            <option>Microsoft Powerpoint Certification Course </option>
+                                            <option>Sales Force Certification Course </option>
+                                            <option>Wordpress Certification Course </option>
+                                            <option>Career Clarity Certification Course </option>
+                                            <option>Computer Forensics Certification Course </option>
+                                            <option>Bug Bounty Certification Course </option>
+                                            <option>Dark Net Certification Course </option>
+                                            <option>Certified Cyber Ninja Course </option>
+                                            <option>Malware Analysis and Dissecting Malicious Softwares Certification
+                                                Course
+                                            </option>
+                                            <option>Cyber Warrior Certification Course</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="message-box">
+                                        <label for="message">Message</label> <br>
+                                        <textarea name="message" id="message" cols="45" rows="15"
+                                            placeholder="Enter your message" required></textarea>
+                                    </div>
+
+                                    <input id="submit-btn" type="submit" value="Submit">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <a href="#ex1" rel="modal:open" class="book-btn">Book a Session</a>
+            </div>
+
+            <div class="banner-img">
+                <img src="../images/course-img/course-banner/premiere-pro.jpg" data-aos="fade-up"
+                    alt="Adobe Premiere Pro Certification Course banner image" loading="lazy">
+            </div>
+
+        </div>
+
+        <div class="achievements">
+            <h1 data-aos="fade-right">What will you take home <br> from this Adobe Premiere Pro course?
+            </h1>
+
+            <div class="achievements-details">
+                <div class="left-side " data-aos="zoom-in">
+                    <p><i class="fa-solid fa-check"></i> Learn to edit videos for documentry social media etc with
+                        premiere pro</p>
+                    <p><i class="fa-solid fa-check"></i> Color grading video using LUTs &amp; Looks</p>
+                    <p><i class="fa-solid fa-check"></i> Add animated text &amp; lower thirds</p>
+                    <p><i class="fa-solid fa-check"></i> Removing echo, background noise like fans, aircon &amp; fridge
+                        hum</p>
+                    <p><i class="fa-solid fa-check"></i> Syncing aligning video &amp; audio automatically</p>
+                    <p><i class="fa-solid fa-check"></i> Mastering the Essentials Graphics panel</p>
+                    <p><i class="fa-solid fa-check"></i> Working with green screens</p>
+                </div>
+                <div class="right-side " data-aos="zoom-in">
+                    <p><i class="fa-solid fa-check"></i> Create video transitions</p>
+                    <p><i class="fa-solid fa-check"></i> Video effects like Cinema effects, Black &amp; White, Film
+                        Grain, Vignettes, Orange &amp; Teal effect.</p>
+                    <p><i class="fa-solid fa-check"></i> How to organize your video editing footage like a Pro</p>
+                    <p><i class="fa-solid fa-check"></i> Work with transition &amp; video effects presets and templates.
+                    </p>
+                    <p><i class="fa-solid fa-check"></i> How to create motion graphic</p>
+                    <p><i class="fa-solid fa-check"></i> How to work with B-Roll</p>
+                    <p><i class="fa-solid fa-check"></i> The ultimate Premiere Pro shortcuts</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="reason-to-enroll">
+
+            <div data-aos="fade-right" class="reason-to-enroll-left-side ">
+                <img src="../images/course-img/course-details/girl.jpg" alt="A girl image" loading="lazy">
+            </div>
+
+            <div data-aos="zoom-in" class="reason-to-enroll-right-side ">
+                <h1>Why should you enroll in this Adobe Premiere Pro course?</h1>
+
+                <div class="reason-part-one">
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> Real-time projects + tons of live practicals</li>
+                        <li><i class="fa-solid fa-check"></i> 20+ hrs of study material, quizzes &amp; manuals</li>
+                    </ul>
+                </div>
+
+                <div class="reason-part-two">
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> Practical oriented course with case-studies</li>
+                        <li><i class="fa-solid fa-check"></i> Lifetime access of LMS with videos &amp; material</li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="prerequisite">
+            <div data-aos="fade-right" data-aos-easing="ease-in-sine">
+                <h1>What to do before you begin your Adobe Premiere Pro online training?</h1>
+                <b><span class="highlight">Nothing!</span></b>
+                <p>Although if you’d like, you can brush up on your skills with our complementary HTML material right in
+                    your LMS.</p>
+            </div>
+            <div>
+                <img src="../images/course-img/course-details/boy.jpg" data-aos="zoom-in-up" alt="A boy image"
+                    loading="lazy">
+            </div>
+        </div>
+
+
+
+        <div class="reason-to-learn">
+            <h2 data-aos="zoom-in" data-aos-duration="3000">Why should you learn Adobe Premiere Pro?
+            </h2>
+            <div class="reasons">
+                <div data-aos="fade-right" data-aos-duration="1000">
+                    <p>Premiere Pro (Pr) is a video editing software that is part of the Adobe Creative Cloud.</p>
+                    <span>-Google</span>
+                </div>
+                <div data-aos="fade-right" data-aos-duration="1000">
+                    <p>Premiere Pro program may be used for producing broadcast-quality and high-definition videos.</p>
+                    <span>-Google</span>
+                </div>
+                <div data-aos="fade-right" data-aos-duration="1000">
+                    <p>As of Apr 28, 2023, the average annual pay for an Adobe Premiere Pro in the United States is
+                        $57,070 a year</p><span>-Zip Recuriter</span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="course-content-section">
+            <h2 data-aos="zoom-in">Course Content</h2>
+
+            <div class="course-contents">
+
+                <div>
+                    <div>
+
+
+                        <div class="vcollapse-toggle" data-target="#courseOne0">
+                            <p>1. Introduction</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="courseOne0">
+
+                            <ol>
+                                <li>Introduction</li>
+                            </ol>
+
+                        </div>
+
+
+
+                    </div>
+                    <div>
+
+
+                        <div class="vcollapse-toggle" data-target="#courseOne1">
+                            <p>2. Previewing, importing and organizing your media</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="courseOne1">
+
+                            <ol>
+                                <li>Using the media browser to locate, prview, select and import media</li>
+                                <li>Using the project panel to organize your media: list view</li>
+                                <li>Performing searches &amp; creating search bins</li>
+                                <li>Final step - organizing your project</li>
+                            </ol>
+
+                        </div>
+
+
+
+                    </div>
+                    <div>
+
+
+                        <div class="vcollapse-toggle" data-target="#courseOne2">
+                            <p>3. Editing techniques &amp; editing tools</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="courseOne2">
+
+                            <ol>
+                                <li>Zooming vertically on the timeline</li>
+                                <li>Re-trimming clips from the timeline in the source monitor</li>
+                                <li>Lifts, extracts and basic trims</li>
+                                <li>Using the ripple edit tool</li>
+                                <li>Refining transitions in the trim monitor: rolling &amp; ripple edit tools</li>
+                                <li>Changing relative clip content &amp; position</li>
+                            </ol>
+
+                        </div>
+
+
+
+                    </div>
+                    <div>
+
+
+                        <div class="vcollapse-toggle" data-target="#courseOne3">
+                            <p>4. Essential audio editing</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="courseOne3">
+
+                            <ol>
+                                <li>Audio channels - from mono to stereo and vice versa</li>
+                                <li>Gain or volume - what's the difference volume adjustment - Audio Clip Mixer and
+                                    Audio Track Mixer</li>
+                                <li>Using presets to enhance audio</li>
+                            </ol>
+
+                        </div>
+
+
+
+                    </div>
+                    <div>
+
+
+                        <div class="vcollapse-toggle" data-target="#courseOne4">
+                            <p>5. Adding, editing and creating transition: video, audio and stills</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="courseOne4">
+
+                            <ol>
+                                <li>Clip handles: the key to smooth transitions</li>
+                                <li>Refining transitions in the effect controls panel</li>
+                                <li>The effects panel transitions: adding, replacing and special properties</li>
+                                <li>Combining standard transitions with video effects</li>
+                                <li>Custom transitions with color mattes</li>
+                            </ol>
+
+                        </div>
+
+
+
+                    </div>
+                    <div>
+
+
+                        <div class="vcollapse-toggle" data-target="#courseOne5">
+                            <p>6. Color grading</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="courseOne5">
+
+                            <ol>
+                                <li>What is color grading?</li>
+                                <li>Using on adjustment layer to apply color grading to your project</li>
+                                <li>Color grading effects from the lumetri presets</li>
+                                <li>Saving or exporting your color grading effects</li>
+                            </ol>
+
+                        </div>
+
+
+
+                    </div>
+                    <div>
+
+
+                        <div class="vcollapse-toggle" data-target="#courseOne6">
+                            <p>7. Post-production training - start creating your demo-reel now</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="courseOne6">
+
+                            <ol>
+                                <li>Workflow: post-production for this documentory</li>
+                                <li>Step one: download, import, preview and organize your media</li>
+                                <li>Step two: interview master clips color correcting and color grading</li>
+                                <li>Step three: creating interview subclips</li>
+                                <li>Step four: creating your montage interview</li>
+                                <li>Step five: adding b-roll clips</li>
+                                <li>Step six: refining your rough montag</li>
+                                <li>Step seven: refining the edits</li>
+                                <li>Step eight: b-roll color correction</li>
+                                <li>Step nine: b-roll color grading</li>
+                                <li>Step ten: adding music and adjusting volumes</li>
+                                <li>Step 11: adding graphics - titles, lower thirds, intro, outro...</li>
+                                <li>Finally: export and share</li>
+                            </ol>
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+                <div>
+                    <div>
+
+
+                        <div class="vcollapse-toggle" data-target="#courseTwo0">
+                            <p>8. Your first project: easy video editing in premier pro cc</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="courseTwo0">
+
+                            <ol>
+                                <li>Create your first project &amp; import your media</li>
+                                <li>Assemble your first movie - your first montage</li>
+                                <li>Add stills and text</li>
+                                <li>Add graphics</li>
+                                <li>Add transitions</li>
+                                <li>Export and produce your video</li>
+                                <li>How to re-link offline media your first practice activity and assignment</li>
+                            </ol>
+
+                        </div>
+
+
+
+                    </div>
+                    <div>
+
+
+                        <div class="vcollapse-toggle" data-target="#courseTwo1">
+                            <p>9. Adding, inserting and arranging clips in a sequence: tools &amp; techniques</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="courseTwo1">
+
+                            <ol>
+                                <li>Editing a documentary with an interview working in the source monitor - playing
+                                    &amp; marketing</li>
+                                <li>Rough cutting &amp; creating subclips</li>
+                                <li>Multiple ways to create a new sequence</li>
+                                <li>Performing insert edits, lifts &amp; inserts</li>
+                                <li>Performing overwrite edits with track section</li>
+                                <li>Performing insert edit and lift &amp; insert with modifier key</li>
+                                <li>Selecting and moving contiguous clips - Track Select Tool</li>
+                                <li>Detecting duplicate clips and duplicate frames</li>
+                                <li>Synchronizing audio and video</li>
+                                <li>Timeline navigation &amp; selection techniques</li>
+                            </ol>
+
+                        </div>
+
+
+
+                    </div>
+                    <div>
+
+
+                        <div class="vcollapse-toggle" data-target="#courseTwo2">
+                            <p>10. Manipulating clip speed</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="courseTwo2">
+
+                            <ol>
+                                <li>Freeze and still frames</li>
+                                <li>Forcing speed changes with fill-to-fit changing speed with the rate stretch tool
+                                </li>
+                                <li>Changing speed with the speed duration panel</li>
+                            </ol>
+
+                        </div>
+
+
+
+                    </div>
+                    <div>
+
+
+                        <div class="vcollapse-toggle" data-target="#courseTwo3">
+                            <p>11. The graphics workspace: texts, shapes, lower thirds and more</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="courseTwo3">
+
+                            <ol>
+                                <li>Starting the graphics workspace</li>
+                                <li>Creating a graphics clip</li>
+                                <li>Editing your graphics</li>
+                                <li>Animating clips: keyframes concept animating graphic layers within the clip</li>
+                                <li>Upgrading to master graphics clips using the default essential graphics</li>
+                                <li>templates</li>
+                            </ol>
+
+                        </div>
+
+
+
+                    </div>
+                    <div>
+
+
+                        <div class="vcollapse-toggle" data-target="#courseTwo4">
+                            <p>12. The color correction process and workflow</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="courseTwo4">
+
+                            <ol>
+                                <li>Color correction - what you should never do</li>
+                                <li>The color correction workflow</li>
+                                <li>Intro to the lumetri color panel the lumetri scopes</li>
+                                <li>Adjusting tonality using the lumetri scope: waveform</li>
+                                <li>Lumetri color: how to use curves to achieve color correction</li>
+                                <li>Balancing color, removing color cast with lumetri scope: RGB parade</li>
+                                <li>How to use the HSL secondary for additional color correction</li>
+                                <li>Hue &amp; saturation using the lumetri scopes: the vectorscopes</li>
+                            </ol>
+
+                        </div>
+
+
+
+                    </div>
+                    <div>
+
+
+                        <div class="vcollapse-toggle" data-target="#courseTwo5">
+                            <p>13. Essential motion effects</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="courseTwo5">
+
+                            <ol>
+                                <li>Chromakeying - concepts and how to work</li>
+                                <li>Using masks to reduce work</li>
+                                <li>Cleaning up the matte</li>
+                                <li>Adding shadows</li>
+                                <li>Working with a blue screen</li>
+                            </ol>
+
+                        </div>
+
+
+
+                    </div>
+                    <div>
+
+
+                        <div class="vcollapse-toggle" data-target="#courseTwo6">
+                            <p>14. Conclusion</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="courseTwo6">
+
+                            <ol>
+                                <li>Thanks</li>
+                            </ol>
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="course-features-section">
+            <h2 data-aos="fade-right" data-aos-animation="1000">Features of Adobe Premiere Pro course
+            </h2>
+
+            <div class="course-feature-container " data-aos="fade-up" data-aos-duration="1000">
+
+                <div class="feature " data-aos="flip-right">
+                    <div class="feature-img">
+                        <img src="../images/course-img/course-features/time.png" alt="feature image" loading="lazy">
+                    </div>
+
+                    <p>Live session</p>
+                </div>
+                <div class="feature " data-aos="flip-right">
+                    <div class="feature-img">
+                        <img src="../images/course-img/course-features/support.png" alt="feature image" loading="lazy">
+                    </div>
+
+                    <p>Lifetime access to course with support</p>
+                </div>
+                <div class="feature " data-aos="flip-right">
+                    <div class="feature-img">
+                        <img src="../images/course-img/course-features/project.png" alt="feature image" loading="lazy">
+                    </div>
+
+                    <p>Real time company/Live projects</p>
+                </div>
+                <div class="feature " data-aos="flip-right">
+                    <div class="feature-img">
+                        <img src="../images/course-img/course-features/certificate.png" alt="feature image"
+                            loading="lazy">
+                    </div>
+
+                    <p>Certificate</p>
+                </div>
+                <div class="feature " data-aos="flip-right">
+                    <div class="feature-img">
+                        <img src="../images/course-img/course-features/brainstorming.png" alt="feature image"
+                            loading="lazy">
+                    </div>
+
+                    <p>2- Months of live Internship</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="companies">
+            <h1 data-aos="zoom-in">Companies you can expect <br> when you get Adobe Premiere
+                Pro-certified with us</h1>
+
+            <div class="companies-img " data-aos="fade-up" data-aos-duration="1000">
+                <img src="../images/companies.png" alt="companies image" loading="lazy">
+            </div>
+        </div>
+    </div>
+
+    <!-- footer  -->
+    <footer>
+        <div class="footer-logo">
+            <a href="/">
+                <img src="../images/SK-Logo-white-logo.png" alt="logo">
+            </a>
+        </div>
+        <div>
+            <p>&copy; 2023 Designershravan.in.</p>
+        </div>
+
+        <div class="rules-regulations">
+            <a href="../privacy-policy">Privacy</a>
+            <a href="../terms-conditions">Terms & conditions</a>
+            <a href="../refund-policy">Refund policy</a>
+        </div>
+    </footer>
+
+
+    <!-- js files  -->
+    <script src="../js/getData.js"></script>
+    <script src="../js/common.js"></script>
+    <!-- <script src="../js/getCourseDetail.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script src="../js/jquery.toast.js"></script>
+    <script src="../js/countrySelect.js"></script>
+    <script src="../js/vcollapse.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="../js/whatsapp/floating-wpp.js"></script>
+    <script src="../js/whatsapp/whatsapp-chat.js"></script>
+
+    <!-- AOS initialization code  -->
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 2000,
+        });
+
+        $(".course-contents > div").vCollapse({
+            any: true,
+            onLoad: -1,
+            speed: 300,
+            easing: "ease-in",
+        });
+
+        // modal
+        (function () {
+            emailjs.init("huB7HdbtLQHtlBqmr");
+        })();
+
+        $(document).ready(function () {
+            $(
+                ".course-detail-header .course-info .modal .send-info .country-select #country_selector"
+            ).countrySelect({
+                defaultCountry: "us",
+                defaultStyling: "inside",
+            });
+        });
+
+        const handleForm = () => {
+            event.preventDefault();
+
+            const form = document.getElementById("send-message-form");
+
+            const name = form.name.value;
+            const email = form.email.value;
+
+            const country = $("#country_selector").countrySelect(
+                "getSelectedCountryData"
+            ).name;
+
+            const telephone = form.phoneField.value;
+
+            const course = form.course.value;
+
+            const message = form.message.value;
+
+            const emailParams = {
+                from_name: name,
+                email_id: email,
+                country_name: country,
+                telephone: telephone,
+                course_name: course,
+                message: message,
+            };
+
+            emailjs
+                .send(
+                    "service_hcm5p5a",
+                    "template_o0io9dy",
+                    emailParams,
+                    "huB7HdbtLQHtlBqmr"
+                )
+                .then((res) => {
+                    $.toast({
+                        text: "Your email sent successfully",
+                        showHideTransition: "slide",
+                        bgColor: "#2ecc71",
+                        textColor: "#fff",
+                        allowToastClose: false,
+                        hideAfter: 5000,
+                        stack: 5,
+                        textAlign: "center",
+                        position: "top-center",
+                    });
+                    form.reset();
+                })
+                .catch((err) => {
+                    $.toast({
+                        text: "Sorry. Something wrong!",
+                        showHideTransition: "slide",
+                        bgColor: "#e74c3c",
+                        textColor: "#fff",
+                        allowToastClose: false,
+                        hideAfter: 5000,
+                        stack: 5,
+                        textAlign: "center",
+                        position: "top-center",
+                    });
+
+                    form.reset();
+                });
+
+
+
+        }
+
+        document.getElementById("submit-btn").addEventListener("click", handleForm);
+    </script>
+
+
+
+</body>
+
+</html>

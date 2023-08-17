@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Unlocking creativity! Your go-to digital solution destination for exceptional design, marketing, and digital solutions. Let's bring your ideas to life">
+
+    <title>Shravan Kumar - Learn to Earn</title>
+
+    <link rel="shortcut icon" href="../images/sk.webp" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <link rel="stylesheet" href="../css/countrySelect.css">
+    <link rel="stylesheet" href="../css/jquery.toast.css">
+    <!-- <link rel="stylesheet" href="../css/style.css"> -->
+    <link rel="stylesheet" href="../css/pop-up.css">
+    <link rel="stylesheet" href="../css/course-details.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../css/floating-wpp.css" />
+
+    <script src="https://kit.fontawesome.com/3b7a96cd6e.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+
+    <!-- scroll-to-top  -->
+    <div class="up">
+        <div class="scroll-to-top">
+            <i class="fa-solid fa-arrow-up"></i>
+        </div>
+    </div>
+
+    <!-- floating whatsapp chat  -->
+    <div class="floating-wpp"></div>
+
+    <!-- navbar  -->
+    <div class="navbar">
+        <div class="logo">
+            <a href="/">
+                <img src="../images/SK-Logo-yellow-black.png" alt="logo">
+            </a>
+        </div>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="../case-studies">Case Study</a></li>
+            <li><a class="active" href="../courses">Courses</a></li>
+            <li><a href="../quiz">Quiz</a></li>
+            <li><a href="../blog">Blog</a></li>
+            <li><a href="../workshop">Workshop</a></li>
+            <li><a href="../contact-us">Contact</a></li>
+        </ul>
+
+
+        <div class="contact">
+            <div class="humburger" onclick="toggleMenu()">
+                <i class="fa-solid fa-bars" id="humburger-icon"></i>
+
+                <span></span>
+
+                <i class="fa-regular fa-circle-xmark" id="close-icon"></i>
+
+                <ul class="humburger-menus">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="../case-studies">Case Study</a></li>
+                    <li><a class="active" href="../courses">Courses</a></li>
+                    <li><a href="../quiz">Quiz</a></li>
+                    <li><a href="../blog">Blog</a></li>
+                    <li><a href="../workshop">Workshop</a></li>
+                    <li><a href="../contact-us">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook facebook"></i></a>
+                <p>Facebook</p>
+            </div>
+            <div>
+                <a href="https://twitter.com/?lang=en"><i class="fa-brands fa-twitter twitter"></i></a>
+                <p>Twitter</p>
+            </div>
+            <div>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram instagram"></i></a>
+                <p>Instagram</p>
+            </div>
+            <div>
+                <a href="https://bd.linkedin.com/">
+                    <i class="fa-brands fa-linkedin linkedin"></i>
+                </a>
+                <p>LinkedIn</p>
+            </div>
+            <div>
+                <a href="https://www.behance.net/"><i class="fa-brands fa-square-behance behance"></i></a>
+                <p>Behance</p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- course detail section  -->
+
+    <div class="course-detail-container">
+        <div class="course-detail-header">
+
+            <div class="course-info" data-aos="fade-down">
+                <h1 class="course-title">Linux Certification Course</h1>
+                <p class="overview">Linux is the number ONE operating system in the Corporate world. Linux is a popular
+                    open-source operating system that’s easy to use and highly secure. In this course you will learn
+                    Linux installation, configuration, administration, troubleshooting, shell scripting, command line,
+                    OS tools and much more...</p>
+
+                <!-- modal  -->
+                <div id="ex1" class="modal">
+                    <div>
+                        <h1>Want to Book Your Seat?</h1>
+                        <hr>
+
+                        <div class="send-info">
+                            <div>
+                                <img src="../images/course-img/send.jpg"
+                                    alt="An image of booking seat page which represents the send detail information"
+                                    loading="lazy">
+                            </div>
+
+                            <div>
+                                <form method="POST" id="send-message-form">
+                                    <div class="name-field">
+                                        <label for="name">Name</label> <br>
+                                        <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                                    </div>
+
+                                    <div class="email">
+                                        <label for="email">Email</label> <br>
+                                        <input type="email" name="email" id="email" placeholder="Enter your email"
+                                            required>
+                                    </div>
+
+                                    <div class="country-select">
+                                        <label for="country_selector">Country</label> <br>
+                                        <input id="country_selector" type="text">
+                                    </div>
+
+                                    <div class="phone-no">
+                                        <label for="phoneField">Phone</label> <br>
+                                        <input type="text" id="phoneField" name="phoneField" class="phone-field"
+                                            placeholder="+14844731560" required>
+                                    </div>
+
+                                    <div class="course-select">
+                                        <label for="courses">Course</label> <br>
+                                        <select id="courses" name="course">
+                                            <option>Python Certification Course </option>
+                                            <option>Big Data and Hadoop Certification Course</option>
+                                            <option>C, C++ & Java Programming Course</option>
+                                            <option>ML Course </option>
+                                            <option>FiaUI/UX Certification Course </option>
+                                            <option>Big Data Certification Course with Hadoop & Spark</option>
+                                            <option>Apache Kafka Certification Course</option>
+                                            <option>Apache Flink Certification Course</option>
+                                            <option>AWS Certification Course </option>
+                                            <option>Full Stack Web Development Certification Course </option>
+                                            <option>Apache Spark and Scala Certification Course </option>
+                                            <option>Scala Certification Course </option>
+                                            <option>Angular Certification Course </option>
+                                            <option>ADOBE-XD Certification Course </option>
+                                            <option>Adobe After Effects Certification Course </option>
+                                            <option>Artificial Intelligence Certification Course </option>
+                                            <option>Android Development Certification Course </option>
+                                            <option>CCNA Certification Course </option>
+                                            <option>CCSP Certification Course </option>
+                                            <option>ChatGPT Certification Course </option>
+                                            <option>Cloud Computing Certification Course </option>
+                                            <option>Data Science Certification Course </option>
+                                            <option>DevOps Certification Course </option>
+                                            <option>Digital Marketing Certification Course </option>
+                                            <option>Ethical Hacking Certification Course </option>
+                                            <option>Figma Certification Course </option>
+                                            <option>Adobe Illustrator Certification Course </option>
+                                            <option>Linux Certification Course </option>
+                                            <option>Microsoft Azure Certification Course </option>
+                                            <option>Adobe Premiere Pro Certification Course </option>
+                                            <option>Adobe Photoshop Certification Course </option>
+                                            <option>Microsoft Word Certification Course </option>
+                                            <option>Microsoft Excel Certification Course </option>
+                                            <option>Microsoft Powerpoint Certification Course </option>
+                                            <option>Sales Force Certification Course </option>
+                                            <option>Wordpress Certification Course </option>
+                                            <option>Career Clarity Certification Course </option>
+                                            <option>Computer Forensics Certification Course </option>
+                                            <option>Bug Bounty Certification Course </option>
+                                            <option>Dark Net Certification Course </option>
+                                            <option>Certified Cyber Ninja Course </option>
+                                            <option>Malware Analysis and Dissecting Malicious Softwares Certification
+                                                Course
+                                            </option>
+                                            <option>Cyber Warrior Certification Course</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="message-box">
+                                        <label for="message">Message</label> <br>
+                                        <textarea name="message" id="message" cols="45" rows="15"
+                                            placeholder="Enter your message" required></textarea>
+                                    </div>
+
+                                    <input id="submit-btn" type="submit" value="Submit">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <a href="#ex1" rel="modal:open" class="book-btn">Book a Session</a>
+            </div>
+
+            <div class="banner-img">
+                <img src="../images/course-img/course-banner/linux.png" data-aos="fade-up"
+                    alt="Linux Certification Course banner image" loading="lazy">
+            </div>
+
+        </div>
+
+
+        <div class="achievements">
+            <h1 data-aos="fade-right">What will you take home <br> from this Linux course?</h1>
+
+            <div class="achievements-details">
+                <div class="left-side " data-aos="zoom-in">
+                    <p><i class="fa-solid fa-check"></i> By the end of this course you will be a professional Linux
+                        administrator and be able to apply for Linux jobs</p>
+                    <p><i class="fa-solid fa-check"></i> You will learn 200+ Linux system administration commands</p>
+                    <p><i class="fa-solid fa-check"></i> You will manage Linux servers in a corporate environment</p>
+                </div>
+                <div class="right-side " data-aos="zoom-in">
+                    <p><i class="fa-solid fa-check"></i> You will be able to troubleshoot everyday Linux related issues
+                    </p>
+                    <p><i class="fa-solid fa-check"></i> You will write basic to advance level shell scripts</p>
+                    <p><i class="fa-solid fa-check"></i> Understand the concept of permissions and how to set them for
+                        files and directories</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="reason-to-enroll">
+
+            <div data-aos="fade-right" class="reason-to-enroll-left-side ">
+                <img src="../images/course-img/course-details/girl.jpg" alt="A girl image" loading="lazy">
+            </div>
+
+            <div data-aos="zoom-in" class="reason-to-enroll-right-side ">
+                <h1>Why should you enroll in this Linux course?</h1>
+
+                <div class="reason-part-one">
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> Live practicals</li>
+                        <li><i class="fa-solid fa-check"></i> 35+ hrs of study material, quizzes &amp; manuals</li>
+                    </ul>
+                </div>
+
+                <div class="reason-part-two">
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> Practical oriented course with case-studies</li>
+                        <li><i class="fa-solid fa-check"></i> Lifetime access of LMS with videos &amp; material</li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="prerequisite">
+            <div data-aos="fade-right" data-aos-easing="ease-in-sine">
+                <h1>What to do before you begin your Linux online training?</h1>
+                <b><span class="highlight">Nothing!</span></b>
+                <p>Although if you’d like, you can brush up on your skills with our complementary HTML material right in
+                    your LMS.</p>
+            </div>
+            <div>
+                <img src="../images/course-img/course-details/boy.jpg" data-aos="zoom-in-up" alt="A boy image"
+                    loading="lazy">
+            </div>
+        </div>
+
+
+
+        <div class="reason-to-learn">
+            <h2 data-aos="zoom-in" data-aos-duration="3000">Why should you learn Linux?</h2>
+            <div class="reasons">
+                <div data-aos="fade-right" data-aos-duration="1000">
+                    <p>Linux is the number ONE operating system in the Corporate world.</p><span>-Udemy</span>
+                </div>
+                <div data-aos="fade-right" data-aos-duration="1000">
+                    <p>Linux is a popular open-source operating system that’s easy to use and highly secure</p>
+                    <span>-Google</span>
+                </div>
+                <div data-aos="fade-right" data-aos-duration="1000">
+                    <p>The average salary for a linux engineer is $118,290 per year in the United States</p>
+                    <span>-Indeed</span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="course-content-section">
+            <h2 data-aos="zoom-in">Course Content</h2>
+
+            <div class="course-contents">
+
+                <div>
+                    <div>
+
+
+                        <div class="vcollapse-toggle" data-target="#courseOne0">
+                            <p>1. Introduction</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="courseOne0">
+
+                            <ol>
+                                <li>Introduction</li>
+                                <li>Good news</li>
+                                <li>Syllabus Overview</li>
+                                <li>Downoload syllabus</li>
+                                <li>Thank you</li>
+                            </ol>
+
+                        </div>
+
+
+
+                    </div>
+                    <div>
+
+
+                        <div class="vcollapse-toggle" data-target="#courseOne1">
+                            <p>2. Module 1 - Understanding Linux concepts</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="courseOne1">
+
+                            <ol>
+                                <li>Welcome to Module 1</li>
+                                <li>Everyday Linux</li>
+                                <li>What is Linux?</li>
+                                <li>Unix vs Linux</li>
+                                <li>Linux distributions</li>
+                                <li>Linux users</li>
+                                <li>Linux vs Windows</li>
+                                <li>Module 1 - Quiz</li>
+                                <li>Module 1 - Homework</li>
+                                <li>Module 1 - Handouts</li>
+                            </ol>
+
+                        </div>
+
+
+
+                    </div>
+                    <div>
+
+
+                        <div class="vcollapse-toggle" data-target="#courseOne2">
+                            <p>3. Module 2 - Download, Install and configure</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="courseOne2">
+
+                            <ol>
+                                <li>Welcome to Module 2</li>
+                                <li>Lab design</li>
+                                <li>What is Virtual Box?</li>
+                                <li>Downloading and installing Oracle VirtualBox</li>
+                                <li>Download and install VMWare Player (Optional)</li>
+                                <li>CentOS vs. CentOS stream</li>
+                                <li>Different ways to install Linux</li>
+                                <li>Creating at Virtual Machine</li>
+                                <li>Download and install Linux (CentOS 7)</li>
+                                <li>Download and install Linux (CentOS 8)</li>
+                                <li>Download and install Linux (CentOS 9)</li>
+                                <li>Option 2 - Linux installation on cloud</li>
+                                <li>Message for redhat installation</li>
+                                <li>Redhat Linux installation (Optional)</li>
+                                <li>Ubuntu Linux installation (Optional)</li>
+                                <li>Take a snapshot of VM</li>
+                                <li>Virtual Machine management</li>
+                                <li>Keyboard keys used in Linux</li>
+                                <li>Module 2 - Quiz</li>
+                                <li>Module 2 - Homework</li>
+                                <li>Module 2 - Handouts</li>
+                            </ol>
+
+                        </div>
+
+
+
+                    </div>
+                    <div>
+
+
+                        <div class="vcollapse-toggle" data-target="#courseOne3">
+                            <p>4. Module 3 - System access and file system</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="courseOne3">
+
+                            <ol>
+                                <li>Welcme to module 3</li>
+                                <li>Important things to remember in Linux</li>
+                                <li>Access to Linux system</li>
+                                <li>Download and install Putty</li>
+                                <li>Access Linux via Putty or SSH command line</li>
+                                <li>Command prompts and getting prompts back</li>
+                                <li>Introduction to Linux file system</li>
+                                <li>File system structure and description</li>
+                                <li>File system navigation commands (cd, ls and pwd)</li>
+                                <li>Linux file or directory properties</li>
+                                <li>Linux file or directory properties</li>
+                                <li>Linux file types</li>
+                                <li>What is root?</li>
+                                <li>Changing password</li>
+                                <li>Absolute and relative paths</li>
+                                <li>Creating files and directories (touch, cp, vi, mkdir)</li>
+                                <li>Copying directories</li>
+                                <li>Finding files and directiories (find,locate)</li>
+                                <li>Difference between find and locate commands</li>
+                                <li>WildCards (*,?,^,[])</li>
+                                <li>Soft and hard links (In)</li>
+                                <li>Module 3 - Quiz</li>
+                                <li>Module 3 - Homework</li>
+                                <li>Module 3 - Handouts</li>
+                            </ol>
+
+                        </div>
+
+
+
+                    </div>
+                    <div>
+
+
+                        <div class="vcollapse-toggle" data-target="#courseOne4">
+                            <p>5. Module 4 - Linux fundamentals</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="courseOne4">
+
+                            <ol>
+                                <li>Welcome to Module 4</li>
+                                <li>Linux command syntax</li>
+                                <li>Files and directory permissions (chmod)</li>
+                                <li>File permissions using numeric mode</li>
+                                <li>File ownership commands (Chown, chgrp)</li>
+                                <li>Access control list (ACL)</li>
+                                <li>Help commands</li>
+                                <li>TAB completion and Up Arrow Keys</li>
+                                <li>Adding text to files</li>
+                                <li>Input and output redirects (&gt;,&gt;&gt;,&lt;,stdin, stdout and stderr)</li>
+                                <li>Standard output to a file (tee command)</li>
+                                <li>Pipes (|)</li>
+                                <li>File maintenance commands (cp,rm,mv,mkdir,rmdir)</li>
+                                <li>File display commands (cat, less, more, head, tail)</li>
+                                <li>Filters/text processing commands</li>
+                                <li>cut - Text processors commands</li>
+                                <li>awk - Text processors commands</li>
+                                <li>grep/egrep - Text processors commands</li>
+                                <li>sort/uniq - Text processors commands</li>
+                                <li>wc - Text processors commands</li>
+                                <li>Compare files (diff and cmp)</li>
+                                <li>Compress and uncompress (tar, gzip, gunzip)</li>
+                                <li>Truncate file size (truncate)</li>
+                                <li>Combining and splitting files</li>
+                                <li>Linux vs windows commands</li>
+                                <li>Module 4 - Quiz</li>
+                                <li>Module 4 - Homwwork</li>
+                                <li>Module 4 - Handouts</li>
+                            </ol>
+
+                        </div>
+
+
+
+                    </div>
+                    <div>
+
+
+                        <div class="vcollapse-toggle" data-target="#courseOne5">
+                            <p>6. Module 5 - System administration</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="courseOne5">
+
+                            <ol>
+                                <li>Welcome to Module 5</li>
+                                <li>Linux file editor (vi)</li>
+                                <li>Difference between vi and vim editors</li>
+                                <li>'sed' command</li>
+                                <li>User accound management (useradd, groupadd, usermod, userdel, groupdel)</li>
+                                <li>Enable password aging</li>
+                                <li>Switch users and sudo access (su, sudo)</li>
+                                <li>Monitor users (users, wall, write)</li>
+                                <li>Talking to users (users, wall, write)</li>
+                                <li>Linux directory service - account authentication</li>
+                                <li>Difference between active directory, LDAP, IDM, WinBIND, OpenLDAP etc.</li>
+                                <li>System utility commands (date, uptime, hostname, uname, which, cal, bc)</li>
+                                <li>Processes, Jobs and scheduling</li>
+                                <li>Systemctl command</li>
+                                <li>ps command</li>
+                                <li>top command</li>
+                                <li>kill command</li>
+                                <li>crontb command</li>
+                                <li>at command</li>
+                                <li>Additional cronjobs (hourly, daily, weekly, monthly)</li>
+                                <li>Process management (bg, fg, nice)</li>
+                                <li>System monitoring commands (df, dmesg, iostat 1,netstat, free, top)</li>
+                                <li>System Logs Monitor (/Vag/log)</li>
+                                <li>System maintenance commands (shutdown, ini, reboot, halt)</li>
+                                <li>Changing system hostname (hostnamectl)</li>
+                                <li>Finding system information (uname, dmindecode)</li>
+                                <li>Finding system architecture (arch)</li>
+                                <li>Terminal Control Keys</li>
+                                <li>Terminal Commands (clear, exit, script)</li>
+                                <li>Recover root password</li>
+                                <li>SOS report</li>
+                                <li>Environment variables</li>
+                                <li>Module 5 - Quiz</li>
+                                <li>Module 5 - Homework</li>
+                                <li>Module 5 - Handouts</li>
+                            </ol>
+
+                        </div>
+
+
+
+                    </div>
+                    <div>
+
+
+                        <div class="vcollapse-toggle" data-target="#courseOne6">
+                            <p>7. Module 6 - Shell scripting</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="courseOne6">
+
+                            <ol>
+                                <li>Welcome to Module 6</li>
+                                <li>Linux kernel</li>
+                                <li>What is Shell?</li>
+                                <li>Types of shells</li>
+                                <li>Shell scripting</li>
+                                <li>Basic Shell scripts</li>
+                                <li>Input and output of script</li>
+                                <li>if-then scripts</li>
+                                <li>for loop scripts</li>
+                                <li>do-while scripts</li>
+                                <li>Case statement scripts</li>
+                                <li>Check remote servers connectivity</li>
+                                <li>Aliases (alias)</li>
+                                <li>User and global aliases</li>
+                                <li>Shell history (history)</li>
+                                <li>Module 6 Quiz</li>
+                                <li>Module 6 Homework</li>
+                                <li>Module 6 Handouts</li>
+                            </ol>
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+                <div>
+                    <div>
+
+
+                        <div class="vcollapse-toggle" data-target="#courseTwo0">
+                            <p>8. Module 7 - Networking, services and system updates </p>
+                        </div>
+
+                        <div class="vcollapse-content" id="courseTwo0">
+
+                            <ol>
+                                <li>Welcome to Module 7</li>
+                                <li>Enable internet on Linux VM</li>
+                                <li>Network components</li>
+                                <li>Network files and commands (ping, ifconfig, ifup, ifdown, netstat, tcpdump)</li>
+                                <li>NIC information (ethtool)</li>
+                                <li>NIC or Port Bonding</li>
+                                <li>New Network utilities (nmtui, nmcli, nm-connection-editor and GNOME settings</li>
+                                <li>Downloading files or apps (wget)</li>
+                                <li>curl and ping commands</li>
+                                <li>FTP - File Transfer Protocol</li>
+                                <li>SCP - Secure Copy Protocol</li>
+                                <li>rsync - Reomote synchronization</li>
+                                <li>System upgrade and patch management</li>
+                                <li>Create local repository (Yum server)</li>
+                                <li>Advance package management</li>
+                                <li>Rollback patches and updates</li>
+                                <li>SSH and Telnet</li>
+                                <li>DNS - Download, install and configure (Domain Name System)</li>
+                                <li>Hostname or IP Lookup (nslookup and dig)</li>
+                                <li>Network time protocol (ntp)</li>
+                                <li>New system utility command (timedatectl)</li>
+                                <li>Sendmail</li>
+                                <li>Web server (Apache - HTTP)</li>
+                                <li>Central Logger (rsyslog)</li>
+                                <li>Securing Linux Machine (OS Hardening)</li>
+                                <li>OpenLDAP installation</li>
+                                <li>Tracing Network traffic (traceroute)</li>
+                                <li>How to open image file throught command line</li>
+                                <li>Configure and secure SSH</li>
+                                <li>SSH keys - access remote server without password</li>
+                                <li>Linux web-based administration (cockpit)</li>
+                                <li>Firewall</li>
+                                <li>Tune system performance (tuned, nice and renice)</li>
+                                <li>Run containers - dockers and podman</li>
+                                <li>Kickstart (Automate Linux installation)</li>
+                                <li>DHCP server</li>
+                                <li>Module 7 Quiz</li>
+                                <li>Module 7 Homework</li>
+                                <li>Module 7 Handouts</li>
+                            </ol>
+
+                        </div>
+
+
+
+                    </div>
+                    <div>
+
+
+                        <div class="vcollapse-toggle" data-target="#courseTwo1">
+                            <p>9. Module 8 - Disk management and run levels </p>
+                        </div>
+
+                        <div class="vcollapse-content" id="courseTwo1">
+
+                            <ol>
+                                <li>Welcome to Module 8</li>
+                                <li>System run levels (0 thru 6)</li>
+                                <li>Computer boost process</li>
+                                <li>Linux boot process</li>
+                                <li>Linux boot process (Neweer versions)</li>
+                                <li>Message of the Day</li>
+                                <li>Customize message of the day</li>
+                                <li>Storage</li>
+                                <li>Disk partition (df, fdisk)</li>
+                                <li>Add disk and create standard partition</li>
+                                <li>Logical Volume Management (LVM)</li>
+                                <li>LVM configuration during installation</li>
+                                <li>Add disk and create new LVM partition (pvcreate,vgcreate,lvcreate)</li>
+                                <li>Extend disk using LVM</li>
+                                <li>Adding swap space</li>
+                                <li>Advance storage management with stratis</li>
+                                <li>RAID</li>
+                                <li>File system check (fsck and xfs_repair)</li>
+                                <li>System backup (dd command)</li>
+                                <li>Network File System (NFS)</li>
+                                <li>Samba installation and configuration</li>
+                                <li>NAS drive for NFS or Samba</li>
+                                <li>SATA and SAS</li>
+                                <li>Difference between CentOS/Redhat 5, 6 and 7</li>
+                                <li>Difference between CentOS/RHEL 7 and 8</li>
+                                <li>Module 8 Quiz</li>
+                                <li>Module 8 Homework</li>
+                                <li>Module 8 Handouts</li>
+                            </ol>
+
+                        </div>
+
+
+
+                    </div>
+                    <div>
+
+
+                        <div class="vcollapse-toggle" data-target="#courseTwo2">
+                            <p>10. Module 9 - All about resume </p>
+                        </div>
+
+                        <div class="vcollapse-content" id="courseTwo2">
+
+                            <ol>
+                                <li>Welcome to Module 9</li>
+                                <li>Resume workshop</li>
+                                <li>Resumen design and format</li>
+                                <li>Grammatical mistakes</li>
+                                <li>Objective or summary</li>
+                                <li>Support your Resume</li>
+                                <li>Cover Letter</li>
+                                <li>Post resume and what to expect</li>
+                                <li>Linux administrator job duties</li>
+                                <li>Exposure to other technologies</li>
+                                <li>Module 9 Homework</li>
+                                <li>Module 9 Handouts</li>
+                            </ol>
+
+                        </div>
+
+
+
+                    </div>
+                    <div>
+
+
+                        <div class="vcollapse-toggle" data-target="#courseTwo3">
+                            <p>11. All about interview </p>
+                        </div>
+
+                        <div class="vcollapse-content" id="courseTwo3">
+
+                            <ol>
+                                <li>Welcome to Module 10</li>
+                                <li>What is IT?</li>
+                                <li>Facts about IT</li>
+                                <li>Linux operating system jobs</li>
+                                <li>It management jobs</li>
+                                <li>Interview workshop</li>
+                                <li>College degree</li>
+                                <li>IT certification</li>
+                                <li>IT related diplomas</li>
+                                <li>New to IT (A+ certification)</li>
+                                <li>Review competitive resumes</li>
+                                <li>Redhat certifications (RHCSA, RHCE etc.)</li>
+                                <li>Join Linux communities and forums</li>
+                                <li>3000+ interview questions</li>
+                                <li>Module 10 Homework</li>
+                                <li>Module 10 Handouts</li>
+                            </ol>
+
+                        </div>
+
+
+
+                    </div>
+                    <div>
+
+
+                        <div class="vcollapse-toggle" data-target="#courseTwo4">
+                            <p>12. Course recap </p>
+                        </div>
+
+                        <div class="vcollapse-content" id="courseTwo4">
+
+                            <ol>
+                                <li>Welcome to course recap</li>
+                                <li>Commands we have learned</li>
+                                <li>Don't give up</li>
+                                <li>Congratulations</li>
+                                <li>Recap - Handout</li>
+                                <li>Final Exam</li>
+                            </ol>
+
+                        </div>
+
+
+
+                    </div>
+                    <div>
+
+
+                        <div class="vcollapse-toggle" data-target="#courseTwo5">
+                            <p>13. Additional resources</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="courseTwo5">
+
+                            <ol>
+                                <li>Welcome to additonal resources</li>
+                                <li>Troubleshooting putty connection</li>
+                                <li>Changing default file permissin (umask)</li>
+                                <li>Create VM on VMWare player</li>
+                                <li>Install Oracle Virtualbox on MAC</li>
+                                <li>Install Oracle guest addition (tools)</li>
+                                <li>File system color definition</li>
+                                <li>Troubleshooting file issues</li>
+                                <li>Troubleshooting change directory issues</li>
+                                <li>Fixing corrupted file system</li>
+                                <li>Linux system performance issues</li>
+                                <li>IP assigned but not reachable</li>
+                                <li>Remove unnecessary or orphan packages</li>
+                                <li>SELinux</li>
+                                <li>Types of security threats</li>
+                                <li>Running Linux on web browser</li>
+                                <li>Improve typing skills</li>
+                                <li>What is virtualizatin and its benefits?</li>
+                                <li>Introduction to VMWare</li>
+                                <li>Additional resources - handout</li>
+                            </ol>
+
+                        </div>
+
+
+
+                    </div>
+                    <div>
+
+
+                        <div class="vcollapse-toggle" data-target="#courseTwo6">
+                            <p>14. Bonus </p>
+                        </div>
+
+                        <div class="vcollapse-content" id="courseTwo6">
+
+                            <ol>
+                                <li>Welcome to bonus section</li>
+                                <li>Bonus lecture</li>
+                            </ol>
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="course-features-section">
+            <h2 data-aos="fade-right" data-aos-animation="1000">Features of Linux course</h2>
+
+            <div class="course-feature-container " data-aos="fade-up" data-aos-duration="1000">
+
+                <div class="feature " data-aos="flip-right">
+                    <div class="feature-img">
+                        <img src="../images/course-img/course-features/time.png" alt="feature image" loading="lazy">
+                    </div>
+
+                    <p>Live session</p>
+                </div>
+                <div class="feature " data-aos="flip-right">
+                    <div class="feature-img">
+                        <img src="../images/course-img/course-features/support.png" alt="feature image" loading="lazy">
+                    </div>
+
+                    <p>Lifetime access to course with support</p>
+                </div>
+                <div class="feature " data-aos="flip-right">
+                    <div class="feature-img">
+                        <img src="../images/course-img/course-features/project.png" alt="feature image" loading="lazy">
+                    </div>
+
+                    <p>Real time company/Live projects</p>
+                </div>
+                <div class="feature " data-aos="flip-right">
+                    <div class="feature-img">
+                        <img src="../images/course-img/course-features/certificate.png" alt="feature image"
+                            loading="lazy">
+                    </div>
+
+                    <p>Certificate</p>
+                </div>
+                <div class="feature " data-aos="flip-right">
+                    <div class="feature-img">
+                        <img src="../images/course-img/course-features/brainstorming.png" alt="feature image"
+                            loading="lazy">
+                    </div>
+
+                    <p>2- Months of live Internship</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="companies">
+            <h1 data-aos="zoom-in">Companies you can expect <br> when you get Linux-certified with us
+            </h1>
+
+            <div class="companies-img " data-aos="fade-up" data-aos-duration="1000">
+                <img src="../images/companies.png" alt="companies image" loading="lazy">
+            </div>
+        </div>
+    </div>
+
+    <!-- footer  -->
+    <footer>
+        <div class="footer-logo">
+            <a href="/">
+                <img src="../images/SK-Logo-white-logo.png" alt="logo">
+            </a>
+        </div>
+        <div>
+            <p>&copy; 2023 Designershravan.in.</p>
+        </div>
+
+        <div class="rules-regulations">
+            <a href="../privacy-policy">Privacy</a>
+            <a href="../terms-conditions">Terms & conditions</a>
+            <a href="../refund-policy">Refund policy</a>
+        </div>
+    </footer>
+
+
+    <!-- js files  -->
+    <script src="../js/getData.js"></script>
+    <script src="../js/common.js"></script>
+    <!-- <script src="../js/getCourseDetail.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script src="../js/jquery.toast.js"></script>
+    <script src="../js/countrySelect.js"></script>
+    <script src="../js/vcollapse.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="../js/whatsapp/floating-wpp.js"></script>
+    <script src="../js/whatsapp/whatsapp-chat.js"></script>
+
+    <!-- AOS initialization code  -->
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 2000,
+        });
+
+        $(".course-contents > div").vCollapse({
+            any: true,
+            onLoad: -1,
+            speed: 300,
+            easing: "ease-in",
+        });
+
+        // modal
+        (function () {
+            emailjs.init("huB7HdbtLQHtlBqmr");
+        })();
+
+        $(document).ready(function () {
+            $(
+                ".course-detail-header .course-info .modal .send-info .country-select #country_selector"
+            ).countrySelect({
+                defaultCountry: "us",
+                defaultStyling: "inside",
+            });
+        });
+
+        const handleForm = () => {
+            event.preventDefault();
+
+            const form = document.getElementById("send-message-form");
+
+            const name = form.name.value;
+            const email = form.email.value;
+
+            const country = $("#country_selector").countrySelect(
+                "getSelectedCountryData"
+            ).name;
+
+            const telephone = form.phoneField.value;
+
+            const course = form.course.value;
+
+            const message = form.message.value;
+
+            const emailParams = {
+                from_name: name,
+                email_id: email,
+                country_name: country,
+                telephone: telephone,
+                course_name: course,
+                message: message,
+            };
+
+            emailjs
+                .send(
+                    "service_hcm5p5a",
+                    "template_o0io9dy",
+                    emailParams,
+                    "huB7HdbtLQHtlBqmr"
+                )
+                .then((res) => {
+                    $.toast({
+                        text: "Your email sent successfully",
+                        showHideTransition: "slide",
+                        bgColor: "#2ecc71",
+                        textColor: "#fff",
+                        allowToastClose: false,
+                        hideAfter: 5000,
+                        stack: 5,
+                        textAlign: "center",
+                        position: "top-center",
+                    });
+                    form.reset();
+                })
+                .catch((err) => {
+                    $.toast({
+                        text: "Sorry. Something wrong!",
+                        showHideTransition: "slide",
+                        bgColor: "#e74c3c",
+                        textColor: "#fff",
+                        allowToastClose: false,
+                        hideAfter: 5000,
+                        stack: 5,
+                        textAlign: "center",
+                        position: "top-center",
+                    });
+
+                    form.reset();
+                });
+
+
+
+        }
+
+        document.getElementById("submit-btn").addEventListener("click", handleForm);
+    </script>
+
+
+
+</body>
+
+</html>

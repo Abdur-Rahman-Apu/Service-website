@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Unlocking creativity! Your go-to digital solution destination for exceptional design, marketing, and digital solutions. Let's bring your ideas to life">
+
+    <title>Shravan Kumar - Learn to Earn</title>
+
+    <link rel="shortcut icon" href="../images/sk.webp" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <link rel="stylesheet" href="../css/countrySelect.css">
+    <link rel="stylesheet" href="../css/jquery.toast.css">
+    <!-- <link rel="stylesheet" href="../css/style.css"> -->
+    <link rel="stylesheet" href="../css/pop-up.css">
+    <link rel="stylesheet" href="../css/course-details.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../css/floating-wpp.css" />
+
+    <script src="https://kit.fontawesome.com/3b7a96cd6e.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+
+    <!-- scroll-to-top  -->
+    <div class="up">
+        <div class="scroll-to-top">
+            <i class="fa-solid fa-arrow-up"></i>
+        </div>
+    </div>
+
+    <!-- floating whatsapp chat  -->
+    <div class="floating-wpp"></div>
+
+    <!-- navbar  -->
+    <div class="navbar">
+        <div class="logo">
+            <a href="/">
+                <img src="../images/SK-Logo-yellow-black.png" alt="logo">
+            </a>
+        </div>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="../case-studies">Case Study</a></li>
+            <li><a class="active" href="../courses">Courses</a></li>
+            <li><a href="../quiz">Quiz</a></li>
+            <li><a href="../blog">Blog</a></li>
+            <li><a href="../workshop">Workshop</a></li>
+            <li><a href="../contact-us">Contact</a></li>
+        </ul>
+
+
+        <div class="contact">
+            <div class="humburger" onclick="toggleMenu()">
+                <i class="fa-solid fa-bars" id="humburger-icon"></i>
+
+                <span></span>
+
+                <i class="fa-regular fa-circle-xmark" id="close-icon"></i>
+
+                <ul class="humburger-menus">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="../case-studies">Case Study</a></li>
+                    <li><a class="active" href="../courses">Courses</a></li>
+                    <li><a href="../quiz">Quiz</a></li>
+                    <li><a href="../blog">Blog</a></li>
+                    <li><a href="../workshop">Workshop</a></li>
+                    <li><a href="../contact-us">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook facebook"></i></a>
+                <p>Facebook</p>
+            </div>
+            <div>
+                <a href="https://twitter.com/?lang=en"><i class="fa-brands fa-twitter twitter"></i></a>
+                <p>Twitter</p>
+            </div>
+            <div>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram instagram"></i></a>
+                <p>Instagram</p>
+            </div>
+            <div>
+                <a href="https://bd.linkedin.com/">
+                    <i class="fa-brands fa-linkedin linkedin"></i>
+                </a>
+                <p>LinkedIn</p>
+            </div>
+            <div>
+                <a href="https://www.behance.net/"><i class="fa-brands fa-square-behance behance"></i></a>
+                <p>Behance</p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- course detail section  -->
+
+    <div class="course-detail-container">
+        <div class="course-detail-header">
+
+            <div class="course-info" data-aos="fade-down">
+                <h1 class="course-title">Artificial Intelligence Certification Course</h1>
+                <p class="overview">Artificial intelligence is one of the top tech fields to be in right now! <br>AI is
+                    widely adopted in Finance, banking, healthcare, transportation, and technology. <br>The purpose of
+                    this course is to provide you with knowledge of key aspects of modern AI without any intimidating
+                    mathematics and in a practical, easy, and fun way. The course provides students with practical
+                    hands-on experience using real-world datasets.</p>
+
+
+                <!-- modal  -->
+                <div id="ex1" class="modal">
+                    <div>
+                        <h1>Want to Book Your Seat?</h1>
+                        <hr>
+
+                        <div class="send-info">
+                            <div>
+                                <img src="../images/course-img/send.jpg"
+                                    alt="An image of booking seat page which represents the send detail information"
+                                    loading="lazy">
+                            </div>
+
+                            <div>
+                                <form method="POST" id="send-message-form">
+                                    <div class="name-field">
+                                        <label for="name">Name</label> <br>
+                                        <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                                    </div>
+
+                                    <div class="email">
+                                        <label for="email">Email</label> <br>
+                                        <input type="email" name="email" id="email" placeholder="Enter your email"
+                                            required>
+                                    </div>
+
+                                    <div class="country-select">
+                                        <label for="country_selector">Country</label> <br>
+                                        <input id="country_selector" type="text">
+                                    </div>
+
+                                    <div class="phone-no">
+                                        <label for="phoneField">Phone</label> <br>
+                                        <input type="text" id="phoneField" name="phoneField" class="phone-field"
+                                            placeholder="+14844731560" required>
+                                    </div>
+
+                                    <div class="course-select">
+                                        <label for="courses">Course</label> <br>
+                                        <select id="courses" name="course">
+                                            <option>Python Certification Course </option>
+                                            <option>Big Data and Hadoop Certification Course</option>
+                                            <option>C, C++ & Java Programming Course</option>
+                                            <option>ML Course </option>
+                                            <option>FiaUI/UX Certification Course </option>
+                                            <option>Big Data Certification Course with Hadoop & Spark</option>
+                                            <option>Apache Kafka Certification Course</option>
+                                            <option>Apache Flink Certification Course</option>
+                                            <option>AWS Certification Course </option>
+                                            <option>Full Stack Web Development Certification Course </option>
+                                            <option>Apache Spark and Scala Certification Course </option>
+                                            <option>Scala Certification Course </option>
+                                            <option>Angular Certification Course </option>
+                                            <option>ADOBE-XD Certification Course </option>
+                                            <option>Adobe After Effects Certification Course </option>
+                                            <option>Artificial Intelligence Certification Course </option>
+                                            <option>Android Development Certification Course </option>
+                                            <option>CCNA Certification Course </option>
+                                            <option>CCSP Certification Course </option>
+                                            <option>ChatGPT Certification Course </option>
+                                            <option>Cloud Computing Certification Course </option>
+                                            <option>Data Science Certification Course </option>
+                                            <option>DevOps Certification Course </option>
+                                            <option>Digital Marketing Certification Course </option>
+                                            <option>Ethical Hacking Certification Course </option>
+                                            <option>Figma Certification Course </option>
+                                            <option>Adobe Illustrator Certification Course </option>
+                                            <option>Linux Certification Course </option>
+                                            <option>Microsoft Azure Certification Course </option>
+                                            <option>Adobe Premiere Pro Certification Course </option>
+                                            <option>Adobe Photoshop Certification Course </option>
+                                            <option>Microsoft Word Certification Course </option>
+                                            <option>Microsoft Excel Certification Course </option>
+                                            <option>Microsoft Powerpoint Certification Course </option>
+                                            <option>Sales Force Certification Course </option>
+                                            <option>Wordpress Certification Course </option>
+                                            <option>Career Clarity Certification Course </option>
+                                            <option>Computer Forensics Certification Course </option>
+                                            <option>Bug Bounty Certification Course </option>
+                                            <option>Dark Net Certification Course </option>
+                                            <option>Certified Cyber Ninja Course </option>
+                                            <option>Malware Analysis and Dissecting Malicious Softwares Certification
+                                                Course
+                                            </option>
+                                            <option>Cyber Warrior Certification Course</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="message-box">
+                                        <label for="message">Message</label> <br>
+                                        <textarea name="message" id="message" cols="45" rows="15"
+                                            placeholder="Enter your message" required></textarea>
+                                    </div>
+
+                                    <input id="submit-btn" type="submit" value="Submit">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <a href="#ex1" rel="modal:open" class="book-btn">Book a Session</a>
+            </div>
+
+            <div class="banner-img">
+                <img src="../images/course-img/course-banner/ai.png" data-aos="fade-up"
+                    alt="Artificial Intelligence Certification Course banner image" loading="lazy">
+            </div>
+
+        </div>
+
+        <div class="achievements">
+            <h1 data-aos="fade-right">What will you take home <br> from this Artificial Intelligence
+                course?</h1>
+
+            <div class="achievements-details">
+                <div class="left-side " data-aos="zoom-in">
+                    <p><i class="fa-solid fa-check"></i> Build, train and deploy AI models to detect people emotions
+                        using Google Teachable Machine</p>
+                    <p><i class="fa-solid fa-check"></i> Evaluate trained AI models using various KPIs such as confusion
+                        matrix, classification accuracy, and error rate</p>
+                    <p><i class="fa-solid fa-check"></i> Understand the theory and intuition behind residual networks, a
+                        state-of-the-art deep neural networks that are widely adopted in business, and healthcare</p>
+                    <p><i class="fa-solid fa-check"></i> Understand Basics to advanced concepts</p>
+                </div>
+                <div class="right-side " data-aos="zoom-in">
+                    <p><i class="fa-solid fa-check"></i> Learn how to train multiple AI models based on XG-Boost,
+                        Artificial Neural Networks, Random Forest Classifiers and compare their performance in DataRobot
+                    </p>
+                    <p><i class="fa-solid fa-check"></i> Learn how to use SageMaker Studio AutoML tool to build, train
+                        and deploy AI/Ml models which requires almost zero coding experience</p>
+                    <p><i class="fa-solid fa-check"></i> Learn how to use SageMaker Studio AutoML tool to build, train
+                        and deploy AI/Ml models which requires almost zero coding experience</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="reason-to-enroll">
+
+            <div data-aos="fade-right" class="reason-to-enroll-left-side ">
+                <img src="../images/course-img/course-details/girl.jpg" alt="A girl image" loading="lazy">
+            </div>
+
+            <div data-aos="zoom-in" class="reason-to-enroll-right-side ">
+                <h1>Why should you enroll in this Artificial Intelligence course?</h1>
+
+                <div class="reason-part-one">
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> 5 Real-time projects + tons of live practicals</li>
+                        <li><i class="fa-solid fa-check"></i> 9+ hrs of study material, quizzes &amp; manuals</li>
+                    </ul>
+                </div>
+
+                <div class="reason-part-two">
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> Practical oriented course with case-studies</li>
+                        <li><i class="fa-solid fa-check"></i> Lifetime access of LMS with videos &amp; material</li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="prerequisite">
+            <div data-aos="fade-right" data-aos-easing="ease-in-sine">
+                <h1>What to do before you begin your Artificial Intelligence online training?</h1>
+                <b><span class="highlight">Nothing!</span></b>
+                <p>Need dedication, hard work and passion</p>
+            </div>
+            <div>
+                <img src="../images/course-img/course-details/boy.jpg" data-aos="zoom-in-up" alt="A boy image"
+                    loading="lazy">
+            </div>
+        </div>
+
+
+
+        <div class="reason-to-learn">
+            <h2 data-aos="zoom-in" data-aos-duration="3000">Why should you learn Artificial
+                Intelligence?</h2>
+            <div class="reasons">
+                <div data-aos="fade-right" data-aos-duration="1000">
+                    <p>Artificial Intelligence is one of the emerging technologies making its mark in every industry
+                        ranging from fashion to finance. </p><span>-</span>
+                </div>
+                <div data-aos="fade-right" data-aos-duration="1000">
+                    <p>In fact, AI jobs account for an average of 18% of jobs in most companies. </p><span>-</span>
+                </div>
+                <div data-aos="fade-right" data-aos-duration="1000">
+                    <p>The average pay scale of an AI professional varies from $100,000 to $150,000 in States and 15
+                        lakhs in India.</p><span>-</span>
+                </div>
+                <div data-aos="fade-right" data-aos-duration="1000">
+                    <p>As cliche as it sounds, artificial intelligence has got everything in the bag to stand out from
+                        the crowd.</p><span>-</span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="course-content-section">
+            <h2 data-aos="zoom-in">Course Content</h2>
+
+            <div class="course-contents">
+
+                <div>
+                    <div>
+
+
+                        <div class="vcollapse-toggle" data-target="#courseOne0">
+                            <p>1. Course introduction, key learning outcomes, and key tips for success</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="courseOne0">
+
+                            <ol>
+                                <li>Course introduction and welcome message</li>
+                                <li>Course introduction key tips for success, best practices and getting certified</li>
+                                <li>What is Artificial Intelligence (AI)?</li>
+                                <li>AI recipe and key ingredients!</li>
+                                <li>Supervised vs unsupervised AI training</li>
+                                <li>Course outline and key learning outcomes</li>
+                            </ol>
+
+                        </div>
+
+
+
+                    </div>
+                    <div>
+
+
+                        <div class="vcollapse-toggle" data-target="#courseOne1">
+                            <p>2. AI in healthcare: disease detection with AI-powered Google teachable machine</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="courseOne1">
+
+                            <ol>
+                                <li>Case study 1: chest disease detection using Google Teachable Machine</li>
+                                <li>The rise of AI in HealthCare</li>
+                                <li>Project overview</li>
+                                <li>AI model training &amp; testing in Google Teachable Machines</li>
+                                <li>Under the hood - Artificial Neural Networks simplified</li>
+                                <li>Under the hood - Artificial Neural Networks training &amp; testing process</li>
+                                <li>Under the hood - AI lingo demystified</li>
+                                <li>Under the hood - Confusion Matrix</li>
+                                <li>ANN demo in Tensorflow playground</li>
+                                <li>Export, save and deploy the AI model</li>
+                                <li>Convolutional Neural Networks (CNNs) deep dive</li>
+                                <li>Covid-Net overview</li>
+                                <li>Final project solution</li>
+                            </ol>
+
+                        </div>
+
+
+
+                    </div>
+                    <div>
+
+
+                        <div class="vcollapse-toggle" data-target="#courseOne2">
+                            <p>3. Emotion AI with AI-powered Google Teachable Machines</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="courseOne2">
+
+                            <ol>
+                                <li>Case study 2: Emotion AI with Google Teachable Machine</li>
+                                <li>Introduction to Emotion AI and project overview</li>
+                                <li>Teachable Machine demo #1 - Data collection</li>
+                                <li>Teachable Machine demo #1 - Model training</li>
+                                <li>Teachable Machine demo #1 - Model deployment testing</li>
+                                <li>Classification Models KPIs - Part #1</li>
+                                <li>Classification Models KPIs - Part #2</li>
+                                <li>Transfer learning</li>
+                                <li>Off the shelf networks, ResNets and ImageNet</li>
+                                <li>Final Project overview</li>
+                                <li>Final project solution</li>
+                            </ol>
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+                <div>
+                    <div>
+
+
+                        <div class="vcollapse-toggle" data-target="#courseTwo0">
+                            <p>4. AI for Cardiovascular disease detection with DataRobot</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="courseTwo0">
+
+                            <ol>
+                                <li>Case study 3: Cardiovascular disease detection with DateRobot</li>
+                                <li>Project overview: Cardiovascular disease detection</li>
+                                <li>DataRobot demo #1: Signup and data upload</li>
+                                <li>DataRobot demo #2: Target selection &amp; exploration data analysis</li>
+                                <li>DataRobot demo #3: Model training and feature importance</li>
+                                <li>Precision, Recall, ROC and AUC</li>
+                                <li>DataRobot demo #4: model eva;iatopm amd assess,emt</li>
+                                <li>DataRobot demo #5: Model deployment and inference</li>
+                            </ol>
+
+                        </div>
+
+
+
+                    </div>
+                    <div>
+
+
+                        <div class="vcollapse-toggle" data-target="#courseTwo1">
+                            <p>5. AI business with AWS autopilot</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="courseTwo1">
+
+                            <ol>
+                                <li>Case study 4: AI in business</li>
+                                <li>Introduction to AI in business with AWS</li>
+                                <li>Project overview: Insurance premier prediction</li>
+                                <li>Simple and multiple linear regression</li>
+                                <li>Amazon web services (AWS)</li>
+                                <li>Amazon web services</li>
+                                <li>Amazon S3 and EC2</li>
+                            </ol>
+
+                        </div>
+
+
+
+                    </div>
+                    <div>
+
+
+                        <div class="vcollapse-toggle" data-target="#courseTwo2">
+                            <p>6. AI for food recognition &amp; explained AI with DataRobot</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="courseTwo2">
+
+                            <ol>
+                                <li>Food recognition with AI &amp; explainable AI</li>
+                                <li>Project interoduuction: Food recognition with AI</li>
+                                <li>DataRobot demo #1 - upload &amp; explore dataset</li>
+                                <li>DataRobot Demo #2 - Train AI model</li>
+                                <li>DataRobot demo #3 - Explainable AI</li>
+                                <li>Logistic Regression Theory</li>
+                                <li>Bias, Variance, Tradeoff</li>
+                                <li>L1 &amp; L2 Regularization part #1</li>
+                                <li>L1 &amp; L2 Regularization part #2</li>
+                            </ol>
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="course-features-section">
+            <h2 data-aos="fade-right" data-aos-animation="1000">Features of Artificial Intelligence
+                course</h2>
+
+            <div class="course-feature-container " data-aos="fade-up" data-aos-duration="1000">
+
+                <div class="feature " data-aos="flip-right">
+                    <div class="feature-img">
+                        <img src="../images/course-img/course-features/time.png" alt="feature image" loading="lazy">
+                    </div>
+
+                    <p>Live session</p>
+                </div>
+                <div class="feature " data-aos="flip-right">
+                    <div class="feature-img">
+                        <img src="../images/course-img/course-features/support.png" alt="feature image" loading="lazy">
+                    </div>
+
+                    <p>Lifetime access to course with support</p>
+                </div>
+                <div class="feature " data-aos="flip-right">
+                    <div class="feature-img">
+                        <img src="../images/course-img/course-features/project.png" alt="feature image" loading="lazy">
+                    </div>
+
+                    <p>Real time company/Live projects</p>
+                </div>
+                <div class="feature " data-aos="flip-right">
+                    <div class="feature-img">
+                        <img src="../images/course-img/course-features/certificate.png" alt="feature image"
+                            loading="lazy">
+                    </div>
+
+                    <p>Certificate</p>
+                </div>
+                <div class="feature " data-aos="flip-right">
+                    <div class="feature-img">
+                        <img src="../images/course-img/course-features/brainstorming.png" alt="feature image"
+                            loading="lazy">
+                    </div>
+
+                    <p>2- Months of live Internship</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="companies">
+            <h1 data-aos="zoom-in">Companies you can expect <br> when you get Artificial
+                Intelligence-certified with us</h1>
+
+            <div class="companies-img " data-aos="fade-up" data-aos-duration="1000">
+                <img src="../images/companies.png" alt="companies image" loading="lazy">
+            </div>
+        </div>
+    </div>
+
+    <!-- footer  -->
+    <footer>
+        <div class="footer-logo">
+            <a href="/">
+                <img src="../images/SK-Logo-white-logo.png" alt="logo">
+            </a>
+        </div>
+        <div>
+            <p>&copy; 2023 Designershravan.in.</p>
+        </div>
+
+        <div class="rules-regulations">
+            <a href="../privacy-policy">Privacy</a>
+            <a href="../terms-conditions">Terms & conditions</a>
+            <a href="../refund-policy">Refund policy</a>
+        </div>
+    </footer>
+
+
+    <!-- js files  -->
+    <script src="../js/getData.js"></script>
+    <script src="../js/common.js"></script>
+    <!-- <script src="../js/getCourseDetail.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script src="../js/jquery.toast.js"></script>
+    <script src="../js/countrySelect.js"></script>
+    <script src="../js/vcollapse.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="../js/whatsapp/floating-wpp.js"></script>
+    <script src="../js/whatsapp/whatsapp-chat.js"></script>
+
+    <!-- AOS initialization code  -->
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 2000,
+        });
+
+        $(".course-contents > div").vCollapse({
+            any: true,
+            onLoad: -1,
+            speed: 300,
+            easing: "ease-in",
+        });
+
+        // modal
+        (function () {
+            emailjs.init("huB7HdbtLQHtlBqmr");
+        })();
+
+        $(document).ready(function () {
+            $(
+                ".course-detail-header .course-info .modal .send-info .country-select #country_selector"
+            ).countrySelect({
+                defaultCountry: "us",
+                defaultStyling: "inside",
+            });
+        });
+
+        const handleForm = () => {
+            event.preventDefault();
+
+            const form = document.getElementById("send-message-form");
+
+            const name = form.name.value;
+            const email = form.email.value;
+
+            const country = $("#country_selector").countrySelect(
+                "getSelectedCountryData"
+            ).name;
+
+            const telephone = form.phoneField.value;
+
+            const course = form.course.value;
+
+            const message = form.message.value;
+
+            const emailParams = {
+                from_name: name,
+                email_id: email,
+                country_name: country,
+                telephone: telephone,
+                course_name: course,
+                message: message,
+            };
+
+            emailjs
+                .send(
+                    "service_hcm5p5a",
+                    "template_o0io9dy",
+                    emailParams,
+                    "huB7HdbtLQHtlBqmr"
+                )
+                .then((res) => {
+                    $.toast({
+                        text: "Your email sent successfully",
+                        showHideTransition: "slide",
+                        bgColor: "#2ecc71",
+                        textColor: "#fff",
+                        allowToastClose: false,
+                        hideAfter: 5000,
+                        stack: 5,
+                        textAlign: "center",
+                        position: "top-center",
+                    });
+                    form.reset();
+                })
+                .catch((err) => {
+                    $.toast({
+                        text: "Sorry. Something wrong!",
+                        showHideTransition: "slide",
+                        bgColor: "#e74c3c",
+                        textColor: "#fff",
+                        allowToastClose: false,
+                        hideAfter: 5000,
+                        stack: 5,
+                        textAlign: "center",
+                        position: "top-center",
+                    });
+
+                    form.reset();
+                });
+
+
+
+        }
+
+        document.getElementById("submit-btn").addEventListener("click", handleForm);
+    </script>
+
+
+
+</body>
+
+</html>

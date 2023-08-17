@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Unlocking creativity! Your go-to digital solution destination for exceptional design, marketing, and digital solutions. Let's bring your ideas to life">
+
+    <title>Shravan Kumar - Learn to Earn</title>
+
+    <link rel="shortcut icon" href="../images/sk.webp" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <link rel="stylesheet" href="../css/countrySelect.css">
+    <link rel="stylesheet" href="../css/jquery.toast.css">
+    <!-- <link rel="stylesheet" href="../css/style.css"> -->
+    <link rel="stylesheet" href="../css/pop-up.css">
+    <link rel="stylesheet" href="../css/course-details.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../css/floating-wpp.css" />
+
+    <script src="https://kit.fontawesome.com/3b7a96cd6e.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+
+    <!-- scroll-to-top  -->
+    <div class="up">
+        <div class="scroll-to-top">
+            <i class="fa-solid fa-arrow-up"></i>
+        </div>
+    </div>
+
+    <!-- floating whatsapp chat  -->
+    <div class="floating-wpp"></div>
+
+    <!-- navbar  -->
+    <div class="navbar">
+        <div class="logo">
+            <a href="/">
+                <img src="../images/SK-Logo-yellow-black.png" alt="logo">
+            </a>
+        </div>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="../case-studies">Case Study</a></li>
+            <li><a class="active" href="../courses">Courses</a></li>
+            <li><a href="../quiz">Quiz</a></li>
+            <li><a href="../blog">Blog</a></li>
+            <li><a href="../workshop">Workshop</a></li>
+            <li><a href="../contact-us">Contact</a></li>
+        </ul>
+
+
+        <div class="contact">
+            <div class="humburger" onclick="toggleMenu()">
+                <i class="fa-solid fa-bars" id="humburger-icon"></i>
+
+                <span></span>
+
+                <i class="fa-regular fa-circle-xmark" id="close-icon"></i>
+
+                <ul class="humburger-menus">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="../case-studies">Case Study</a></li>
+                    <li><a class="active" href="../courses">Courses</a></li>
+                    <li><a href="../quiz">Quiz</a></li>
+                    <li><a href="../blog">Blog</a></li>
+                    <li><a href="../workshop">Workshop</a></li>
+                    <li><a href="../contact-us">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook facebook"></i></a>
+                <p>Facebook</p>
+            </div>
+            <div>
+                <a href="https://twitter.com/?lang=en"><i class="fa-brands fa-twitter twitter"></i></a>
+                <p>Twitter</p>
+            </div>
+            <div>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram instagram"></i></a>
+                <p>Instagram</p>
+            </div>
+            <div>
+                <a href="https://bd.linkedin.com/">
+                    <i class="fa-brands fa-linkedin linkedin"></i>
+                </a>
+                <p>LinkedIn</p>
+            </div>
+            <div>
+                <a href="https://www.behance.net/"><i class="fa-brands fa-square-behance behance"></i></a>
+                <p>Behance</p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- course detail section  -->
+
+    <div class="course-detail-container">
+        <div class="course-detail-header">
+
+            <div class="course-info" data-aos="fade-down">
+                <h1 class="course-title">Apache Kafka Certification Course</h1>
+                <p class="overview">DataFlair’s Kafka Training will give you a perfect blend of in-depth Kafka
+                    theoretical knowledge and strong practical skills. This Kafka certification training course
+                    introduces real-time Kafka projects to give you a headstart in learning Kafka and enables you to bag
+                    top Kafka jobs in the industry. <br>Online Kafka training is designed to provide you the best online
+                    classes for learning kafka API, configuration, integration of Kafka with Hadoop, Storm, and Spark.
+                </p>
+
+                <!-- modal  -->
+                <div id="ex1" class="modal">
+                    <div>
+                        <h1>Want to Book Your Seat?</h1>
+                        <hr>
+
+                        <div class="send-info">
+                            <div>
+                                <img src="../images/course-img/send.jpg"
+                                    alt="An image of booking seat page which represents the send detail information"
+                                    loading="lazy">
+                            </div>
+
+                            <div>
+                                <form method="POST" id="send-message-form">
+                                    <div class="name-field">
+                                        <label for="name">Name</label> <br>
+                                        <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                                    </div>
+
+                                    <div class="email">
+                                        <label for="email">Email</label> <br>
+                                        <input type="email" name="email" id="email" placeholder="Enter your email"
+                                            required>
+                                    </div>
+
+                                    <div class="country-select">
+                                        <label for="country_selector">Country</label> <br>
+                                        <input id="country_selector" type="text">
+                                    </div>
+
+                                    <div class="phone-no">
+                                        <label for="phoneField">Phone</label> <br>
+                                        <input type="text" id="phoneField" name="phoneField" class="phone-field"
+                                            placeholder="+14844731560" required>
+                                    </div>
+
+                                    <div class="course-select">
+                                        <label for="courses">Course</label> <br>
+                                        <select id="courses" name="course">
+                                            <option>Python Certification Course </option>
+                                            <option>Big Data and Hadoop Certification Course</option>
+                                            <option>C, C++ & Java Programming Course</option>
+                                            <option>ML Course </option>
+                                            <option>FiaUI/UX Certification Course </option>
+                                            <option>Big Data Certification Course with Hadoop & Spark</option>
+                                            <option>Apache Kafka Certification Course</option>
+                                            <option>Apache Flink Certification Course</option>
+                                            <option>AWS Certification Course </option>
+                                            <option>Full Stack Web Development Certification Course </option>
+                                            <option>Apache Spark and Scala Certification Course </option>
+                                            <option>Scala Certification Course </option>
+                                            <option>Angular Certification Course </option>
+                                            <option>ADOBE-XD Certification Course </option>
+                                            <option>Adobe After Effects Certification Course </option>
+                                            <option>Artificial Intelligence Certification Course </option>
+                                            <option>Android Development Certification Course </option>
+                                            <option>CCNA Certification Course </option>
+                                            <option>CCSP Certification Course </option>
+                                            <option>ChatGPT Certification Course </option>
+                                            <option>Cloud Computing Certification Course </option>
+                                            <option>Data Science Certification Course </option>
+                                            <option>DevOps Certification Course </option>
+                                            <option>Digital Marketing Certification Course </option>
+                                            <option>Ethical Hacking Certification Course </option>
+                                            <option>Figma Certification Course </option>
+                                            <option>Adobe Illustrator Certification Course </option>
+                                            <option>Linux Certification Course </option>
+                                            <option>Microsoft Azure Certification Course </option>
+                                            <option>Adobe Premiere Pro Certification Course </option>
+                                            <option>Adobe Photoshop Certification Course </option>
+                                            <option>Microsoft Word Certification Course </option>
+                                            <option>Microsoft Excel Certification Course </option>
+                                            <option>Microsoft Powerpoint Certification Course </option>
+                                            <option>Sales Force Certification Course </option>
+                                            <option>Wordpress Certification Course </option>
+                                            <option>Career Clarity Certification Course </option>
+                                            <option>Computer Forensics Certification Course </option>
+                                            <option>Bug Bounty Certification Course </option>
+                                            <option>Dark Net Certification Course </option>
+                                            <option>Certified Cyber Ninja Course </option>
+                                            <option>Malware Analysis and Dissecting Malicious Softwares Certification
+                                                Course
+                                            </option>
+                                            <option>Cyber Warrior Certification Course</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="message-box">
+                                        <label for="message">Message</label> <br>
+                                        <textarea name="message" id="message" cols="45" rows="15"
+                                            placeholder="Enter your message" required></textarea>
+                                    </div>
+
+                                    <input id="submit-btn" type="submit" value="Submit">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <a href="#ex1" rel="modal:open" class="book-btn">Book a Session</a>
+            </div>
+
+            <div class="banner-img">
+                <img src="../images/course-img/course-banner/apache-kafka.png" data-aos="fade-up"
+                    alt="Apache kafka course banner image" loading="lazy" />
+            </div>
+
+        </div>
+
+        <div class="achievements">
+            <h1 data-aos="fade-right">What will you take home <br> from this Apache Kafka Certification Course?</h1>
+
+            <div class="achievements-details">
+
+                <div class="left-side" data-aos="zoom-in">
+                    <p><i class="fa-solid fa-check"></i> Understand Kafka architecture and Kafka configuration on
+                        cluster</p>
+                    <p><i class="fa-solid fa-check"></i> Master various Kafka components- consumer, producer, and
+                        brokers</p>
+                    <p><i class="fa-solid fa-check"></i> Perform different operations on topics</p>
+                    <p><i class="fa-solid fa-check"></i> Integrate Kafka with various consumers</p>
+                    <p><i class="fa-solid fa-check"></i> Play with Kafka partitions and distribute data between them</p>
+                    <p><i class="fa-solid fa-check"></i> Understand insights of high & low level Kafka APIs</p>
+                </div>
+
+                <div class="right-side" data-aos="zoom-in">
+                    <p><i class="fa-solid fa-check"></i> Learn concepts of the latest version of Kafka</p>
+                    <p><i class="fa-solid fa-check"></i> Develop real-time Kafka applications</p>
+                    <p><i class="fa-solid fa-check"></i> Learn Zookeeper and its installation</p>
+                    <p><i class="fa-solid fa-check"></i> Master balancing of Kafka clusters</p>
+                    <p><i class="fa-solid fa-check"></i> Understand replication and its importance in Kafka</p>
+                    <p><i class="fa-solid fa-check"></i> Learn Kafka best practices and develop live Kafka project</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="reason-to-enroll">
+
+            <div data-aos="fade-right" class="reason-to-enroll-left-side">
+                <img src='../images/course-img/course-details/girl.jpg' alt="A girl image" loading="lazy" />
+            </div>
+
+            <div data-aos="zoom-in" class="reason-to-enroll-right-side">
+                <h1>Why should you enroll in this Apache Kafka Certification Course?</h1>
+
+                <div class="reason-part-one">
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> 5+ Real-time projects with implementation</li>
+                        <li><i class="fa-solid fa-check"></i> 170+ hrs of study material, practicals, quizzes</li>
+                        <li><i class="fa-solid fa-check"></i> Practice oriented course with live case-studies to gain
+                            hands-on expertise</li>
+                        <li><i class="fa-solid fa-check"></i> Lifetime access with industry renowned certification</li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <div class="prerequisite">
+            <div data-aos="fade-right" data-aos-easing="ease-in-sine">
+                <h1>What to do before you begin your online training?</h1>
+                <b><span class="highlight">Nothing!</span></b>
+                <p>All you need to make the most out of this course is a desire to learn and a penchant for solving
+                    real-world problems</p>
+            </div>
+            <div>
+                <img src="../images/course-img/course-details/boy.jpg" data-aos="zoom-in-up" alt="A boy image"
+                    loading="lazy" />
+            </div>
+        </div>
+
+
+
+        <div class="reason-to-learn">
+            <h2 data-aos="zoom-in" data-aos-duration=3000>Why should you learn Apache Kafka?</h2>
+            <div class="reasons">
+                <div data-aos="fade-right" data-aos-duration="1000">
+                    <p>Next-gen messaging queue, mandatory component for all real-time Big Data project</p>
+                    <span>-</span>
+                </div>
+                <div data-aos="fade-right" data-aos-duration="1000">
+                    <p>Linkedin, Uber, Airbnb, and other 1000s of companies are using Kafka.</p>
+                    <span>-</span>
+                </div>
+                <div data-aos="fade-right" data-aos-duration="1000">
+                    <p>Kafka revolutionizes Big Data, whose market will reach $99B in next 2 yrs.</p>
+                    <span>-Gartner</span>
+                </div>
+                <div data-aos="fade-right" data-aos-duration="1000">
+                    <p>Average Salary of Kafka Professional is 122,000 USD per annum.</p>
+                    <span>-Indeed</span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="course-content-section">
+            <h2 data-aos="zoom-in">Course Content</h2>
+
+            <div class="course-contents">
+
+                <div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#c-1">
+                            <p>1. Demystifying Apache Kafka</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="c-1">
+
+                            <ol>
+                                <li>Introduction to Big data</li>
+                                <li>Importance for messaging queue</li>
+                                <li>Need for distributed messaging queue</li>
+                                <li>Conventional solutions and associated problems</li>
+                                <li>Why we need Apache Kafka</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#c-2">
+                            <p>2. Kafka Introduction</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="c-2">
+
+                            <ol>
+                                <li>What is Apache Kafka?</li>
+                                <li>Kafka Features and terminologies</li>
+                                <li>High-level kafka architecture</li>
+                                <li>Real-life Kafka Case Studies</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#c-3">
+                            <p>3. A Deep Dive into the Kafka Architecture</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="c-3">
+
+                            <ol>
+                                <li>Internals of architecture and core concepts</li>
+                                <li>Kafka components - Broker, Producer, Consumer, Topics, Partitions</li>
+                                <li>Different versions of Kafka</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#c-4">
+                            <p>4. Understanding Brokers</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="c-4">
+
+                            <ol>
+                                <li>Working of a broker</li>
+                                <li>Broker Deployment</li>
+                                <li>Multiple brokers on a single machine</li>
+                                <li>Decommisioning brokers</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#c-5">
+                            <p>5. Understanding Producers</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="c-5">
+
+                            <ol>
+                                <li>Basics of producers</li>
+                                <li>The producer architecture</li>
+                                <li>Producer partition- Custom, Round Robin, Field-Based Partition</li>
+                                <li>Producer Java API</li>
+                                <li>Types of producers - sync, async</li>
+                                <li>Different producer configurations</li>
+                                <li>Sync and async producer hands on</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#c-6">
+                            <p>6. Understanding Consumers</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="c-6">
+
+                            <ol>
+                                <li>Basics of consumers</li>
+                                <li>Consumer queuing, consumer groups, and consumer broadcas</li>
+                                <li>The Consumer Java API</li>
+                                <li>Producer and Consumer Hands-on</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#c-7">
+                            <p>7. Mirroring Kafka</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="c-7">
+
+                            <ol>
+                                <li>What is mirroring?</li>
+                                <li>How mirroring works</li>
+                                <li>Mirror Maker and its role</li>
+                                <li>Kafka Mirroring Hands-on</li>
+                                <li>Mirror Maker producers and consumers</li>
+                            </ol>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#c-8">
+                            <p>8. Topics and Partitions</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="c-8">
+
+                            <ol>
+                                <li>Working with topics and updating them</li>
+                                <li>Performance optimization and configurations</li>
+                                <li>Using Partitions and distribution of partitions</li>
+                                <li>Partition reassignment - Automatic migrating</li>
+                                <li>Partition reassignment - Manual migrating</li>
+
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#c-9">
+                            <p>9. Replication in Kafka</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="c-9">
+
+                            <ol>
+                                <li>High availability and reliability using replication</li>
+                                <li>ISR - In Sync Replication</li>
+                                <li>Primary Replication and Quorum Replication</li>
+                                <li>Partition reassignment - Increasing Replication</li>
+                                <li>Topic, Partition and Replication Hands-on</li>
+
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#c-10">
+                            <p>10. Introduction to Zookeeper</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="c-10">
+
+                            <ol>
+                                <li>What is Zookeeper?</li>
+                                <li>Leader Election by Zookeeper</li>
+                                <li>Applications using Zookeeper</li>
+                                <li>Zookeeper Architecture</li>
+                                <li>Zookeeper configuration and installation</li>
+                                <li>Zookeeper troubleshooting</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#c-11">
+                            <p>11. Installation of Kafka</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="c-11">
+
+                            <ol>
+                                <li>Setup environment and pre-requisites</li>
+                                <li>Configuration of different components</li>
+                                <li>Deploying Apache Kafka on single node cluster</li>
+                                <li>Deploying Apache Kafka on multi-node cluster</li>
+                                <li>Balancing Leadership</li>
+                                <li>Scaling Kafka cluster and troubleshooting</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#c-12">
+                            <p>12. Kafka Advanced Operations - Part 1</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="c-12">
+
+                            <ol>
+                                <li>Working with multiple topics for different type of data</li>
+                                <li>Developing applications using high and low level APIs</li>
+                                <li>Buffering data in Apache Kafka</li>
+                                <li>Best practices of data distribution</li>
+                                <li>Different types of consumers high level & low level</li>
+                                <li>Multiple consumers grouping</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#c-13">
+                            <p>13. Kafka Advanced Operations - Part 2</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="c-13">
+
+                            <ol>
+                                <li>Multiple partitions and multi-threaded consumers.</li>
+                                <li>Best practices for consumers</li>
+                                <li>Configuring multiple producers & consumers together</li>
+                                <li>Log Segment and Data Retention</li>
+                                <li>Monitoring and management of Kafka Cluster</li>
+                                <li>JMX Monitor and Kafka administration tools</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#c-14">
+                            <p>14. Real-life Kafka Project</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="c-14">
+
+                            <ol>
+                                <li>Live Kafka project based on industry use-cases to solve real world problems</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="course-features-section">
+            <h2 data-aos="fade-right" data-aos-animation=1000>Features of Apache Kafka Certification Course</h2>
+
+            <div class="course-feature-container" data-aos="fade-up" data-aos-duration=1000>
+
+                <div class="feature" data-aos="flip-right">
+                    <div class="feature-img">
+                        <img src="../images/course-img/course-features/time.png" alt="feature image" loading="lazy" />
+                    </div>
+
+                    <p>Live session</p>
+                </div>
+                <div class="feature" data-aos="flip-right">
+                    <div class="feature-img">
+                        <img src="../images/course-img/course-features/support.png" alt="feature image"
+                            loading="lazy" />
+                    </div>
+
+                    <p>Lifetime access to course with support</p>
+                </div>
+                <div class="feature" data-aos="flip-right">
+                    <div class="feature-img">
+                        <img src="../images/course-img/course-features/project.png" alt="feature image"
+                            loading="lazy" />
+                    </div>
+
+                    <p>Real time company/Live projects</p>
+                </div>
+                <div class="feature" data-aos="flip-right">
+                    <div class="feature-img">
+                        <img src="../images/course-img/course-features/certificate.png" alt="feature image"
+                            loading="lazy" />
+                    </div>
+
+                    <p>Certificate</p>
+                </div>
+                <div class="feature" data-aos="flip-right">
+                    <div class="feature-img">
+                        <img src="../images/course-img/course-features/brainstorming.png" alt="feature image"
+                            loading="lazy" />
+                    </div>
+
+                    <p>2- Months of live Internship</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="companies">
+            <h1 data-aos="zoom-in">Companies you can expect <br> when you get Apache Kafka-certified with us</h1>
+
+            <div class="companies-img" data-aos="fade-up" data-aos-duration=1000>
+                <img src="../images/companies.png" alt="companies image" loading="lazy">
+            </div>
+        </div>
+    </div>
+
+    <!-- footer  -->
+    <footer>
+        <div class="footer-logo">
+            <a href="/">
+                <img src="../images/SK-Logo-white-logo.png" alt="logo">
+            </a>
+        </div>
+        <div>
+            <p>&copy; 2023 Designershravan.in.</p>
+        </div>
+
+        <div class="rules-regulations">
+            <a href="../privacy-policy">Privacy</a>
+            <a href="../terms-conditions">Terms & conditions</a>
+            <a href="../refund-policy">Refund policy</a>
+        </div>
+    </footer>
+
+
+    <!-- js files  -->
+    <script src="../js/getData.js"></script>
+    <script src="../js/common.js"></script>
+    <!-- <script src="../js/getCourseDetail.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script src="../js/jquery.toast.js"></script>
+    <script src="../js/countrySelect.js"></script>
+    <script src="../js/vcollapse.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="../js/whatsapp/floating-wpp.js"></script>
+    <script src="../js/whatsapp/whatsapp-chat.js"></script>
+
+    <!-- AOS initialization code  -->
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 2000,
+        });
+
+        $(".course-contents > div").vCollapse({
+            any: true,
+            onLoad: -1,
+            speed: 300,
+            easing: "ease-in",
+        });
+
+        // modal
+        (function () {
+            emailjs.init("huB7HdbtLQHtlBqmr");
+        })();
+
+        $(document).ready(function () {
+            $(
+                ".course-detail-header .course-info .modal .send-info .country-select #country_selector"
+            ).countrySelect({
+                defaultCountry: "us",
+                defaultStyling: "inside",
+            });
+        });
+
+        const handleForm = () => {
+            event.preventDefault();
+
+            const form = document.getElementById("send-message-form");
+
+            const name = form.name.value;
+            const email = form.email.value;
+
+            const country = $("#country_selector").countrySelect(
+                "getSelectedCountryData"
+            ).name;
+
+            const telephone = form.phoneField.value;
+
+            const course = form.course.value;
+
+            const message = form.message.value;
+
+            const emailParams = {
+                from_name: name,
+                email_id: email,
+                country_name: country,
+                telephone: telephone,
+                course_name: course,
+                message: message,
+            };
+
+            emailjs
+                .send(
+                    "service_hcm5p5a",
+                    "template_o0io9dy",
+                    emailParams,
+                    "huB7HdbtLQHtlBqmr"
+                )
+                .then((res) => {
+                    $.toast({
+                        text: "Your email sent successfully",
+                        showHideTransition: "slide",
+                        bgColor: "#2ecc71",
+                        textColor: "#fff",
+                        allowToastClose: false,
+                        hideAfter: 5000,
+                        stack: 5,
+                        textAlign: "center",
+                        position: "top-center",
+                    });
+                    form.reset();
+                })
+                .catch((err) => {
+                    $.toast({
+                        text: "Sorry. Something wrong!",
+                        showHideTransition: "slide",
+                        bgColor: "#e74c3c",
+                        textColor: "#fff",
+                        allowToastClose: false,
+                        hideAfter: 5000,
+                        stack: 5,
+                        textAlign: "center",
+                        position: "top-center",
+                    });
+
+                    form.reset();
+                });
+
+
+
+        }
+
+        document.getElementById("submit-btn").addEventListener("click", handleForm);
+    </script>
+
+
+
+</body>
+
+</html>

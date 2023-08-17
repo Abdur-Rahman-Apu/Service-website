@@ -1,0 +1,1297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Unlocking creativity! Your go-to digital solution destination for exceptional design, marketing, and digital solutions. Let's bring your ideas to life">
+
+    <title>Shravan Kumar - Learn to Earn</title>
+
+    <link rel="shortcut icon" href="../images/sk.webp" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <link rel="stylesheet" href="../css/countrySelect.css">
+    <link rel="stylesheet" href="../css/jquery.toast.css">
+    <!-- <link rel="stylesheet" href="../css/style.css"> -->
+    <link rel="stylesheet" href="../css/pop-up.css">
+    <link rel="stylesheet" href="../css/course-details.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../css/floating-wpp.css" />
+
+    <script src="https://kit.fontawesome.com/3b7a96cd6e.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+
+    <!-- scroll-to-top  -->
+    <div class="up">
+        <div class="scroll-to-top">
+            <i class="fa-solid fa-arrow-up"></i>
+        </div>
+    </div>
+
+    <!-- floating whatsapp chat  -->
+    <div class="floating-wpp"></div>
+
+    <!-- navbar  -->
+    <div class="navbar">
+        <div class="logo">
+            <a href="/">
+                <img src="../images/SK-Logo-yellow-black.png" alt="logo">
+            </a>
+        </div>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="../case-studies">Case Study</a></li>
+            <li><a class="active" href="../courses">Courses</a></li>
+            <li><a href="../quiz">Quiz</a></li>
+            <li><a href="../blog">Blog</a></li>
+            <li><a href="../workshop">Workshop</a></li>
+            <li><a href="../contact-us">Contact</a></li>
+        </ul>
+
+
+        <div class="contact">
+            <div class="humburger" onclick="toggleMenu()">
+                <i class="fa-solid fa-bars" id="humburger-icon"></i>
+
+                <span></span>
+
+                <i class="fa-regular fa-circle-xmark" id="close-icon"></i>
+
+                <ul class="humburger-menus">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="../case-studies">Case Study</a></li>
+                    <li><a class="active" href="../courses">Courses</a></li>
+                    <li><a href="../quiz">Quiz</a></li>
+                    <li><a href="../blog">Blog</a></li>
+                    <li><a href="../workshop">Workshop</a></li>
+                    <li><a href="../contact-us">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook facebook"></i></a>
+                <p>Facebook</p>
+            </div>
+            <div>
+                <a href="https://twitter.com/?lang=en"><i class="fa-brands fa-twitter twitter"></i></a>
+                <p>Twitter</p>
+            </div>
+            <div>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram instagram"></i></a>
+                <p>Instagram</p>
+            </div>
+            <div>
+                <a href="https://bd.linkedin.com/">
+                    <i class="fa-brands fa-linkedin linkedin"></i>
+                </a>
+                <p>LinkedIn</p>
+            </div>
+            <div>
+                <a href="https://www.behance.net/"><i class="fa-brands fa-square-behance behance"></i></a>
+                <p>Behance</p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- course detail section  -->
+
+    <div class="course-detail-container">
+        <div class="course-detail-header">
+
+            <div class="course-info" data-aos="fade-down">
+                <h1 class="course-title">C, C++ & Java Programming Course</h1>
+                <p class="overview">A programming language is a language people use when developing software to tell a
+                    computer what to do. Do you want to career in programming sector? Then this course is for you. You
+                    can learn basic to advanced concepts of C, C++ and Java.</p>
+
+                <!-- modal  -->
+                <div id="ex1" class="modal">
+                    <div>
+                        <h1>Want to Book Your Seat?</h1>
+                        <hr>
+
+                        <div class="send-info">
+                            <div>
+                                <img src="../images/course-img/send.jpg"
+                                    alt="An image of booking seat page which represents the send detail information"
+                                    loading="lazy">
+                            </div>
+
+                            <div>
+                                <form method="POST" id="send-message-form">
+                                    <div class="name-field">
+                                        <label for="name">Name</label> <br>
+                                        <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                                    </div>
+
+                                    <div class="email">
+                                        <label for="email">Email</label> <br>
+                                        <input type="email" name="email" id="email" placeholder="Enter your email"
+                                            required>
+                                    </div>
+
+                                    <div class="country-select">
+                                        <label for="country_selector">Country</label> <br>
+                                        <input id="country_selector" type="text">
+                                    </div>
+
+                                    <div class="phone-no">
+                                        <label for="phoneField">Phone</label> <br>
+                                        <input type="text" id="phoneField" name="phoneField" class="phone-field"
+                                            placeholder="+14844731560" required>
+                                    </div>
+
+                                    <div class="course-select">
+                                        <label for="courses">Course</label> <br>
+                                        <select id="courses" name="course">
+                                            <option>Python Certification Course </option>
+                                            <option>Big Data and Hadoop Certification Course</option>
+                                            <option>C, C++ & Java Programming Course</option>
+                                            <option>ML Course </option>
+                                            <option>FiaUI/UX Certification Course </option>
+                                            <option>Big Data Certification Course with Hadoop & Spark</option>
+                                            <option>Apache Kafka Certification Course</option>
+                                            <option>Apache Flink Certification Course</option>
+                                            <option>AWS Certification Course </option>
+                                            <option>Full Stack Web Development Certification Course </option>
+                                            <option>Apache Spark and Scala Certification Course </option>
+                                            <option>Scala Certification Course </option>
+                                            <option>Angular Certification Course </option>
+                                            <option>ADOBE-XD Certification Course </option>
+                                            <option>Adobe After Effects Certification Course </option>
+                                            <option>Artificial Intelligence Certification Course </option>
+                                            <option>Android Development Certification Course </option>
+                                            <option>CCNA Certification Course </option>
+                                            <option>CCSP Certification Course </option>
+                                            <option>ChatGPT Certification Course </option>
+                                            <option>Cloud Computing Certification Course </option>
+                                            <option>Data Science Certification Course </option>
+                                            <option>DevOps Certification Course </option>
+                                            <option>Digital Marketing Certification Course </option>
+                                            <option>Ethical Hacking Certification Course </option>
+                                            <option>Figma Certification Course </option>
+                                            <option>Adobe Illustrator Certification Course </option>
+                                            <option>Linux Certification Course </option>
+                                            <option>Microsoft Azure Certification Course </option>
+                                            <option>Adobe Premiere Pro Certification Course </option>
+                                            <option>Adobe Photoshop Certification Course </option>
+                                            <option>Microsoft Word Certification Course </option>
+                                            <option>Microsoft Excel Certification Course </option>
+                                            <option>Microsoft Powerpoint Certification Course </option>
+                                            <option>Sales Force Certification Course </option>
+                                            <option>Wordpress Certification Course </option>
+                                            <option>Career Clarity Certification Course </option>
+                                            <option>Computer Forensics Certification Course </option>
+                                            <option>Bug Bounty Certification Course </option>
+                                            <option>Dark Net Certification Course </option>
+                                            <option>Certified Cyber Ninja Course </option>
+                                            <option>Malware Analysis and Dissecting Malicious Softwares Certification
+                                                Course
+                                            </option>
+                                            <option>Cyber Warrior Certification Course</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="message-box">
+                                        <label for="message">Message</label> <br>
+                                        <textarea name="message" id="message" cols="45" rows="15"
+                                            placeholder="Enter your message" required></textarea>
+                                    </div>
+
+                                    <input id="submit-btn" type="submit" value="Submit">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <a href="#ex1" rel="modal:open" class="book-btn">Book a Session</a>
+            </div>
+
+            <div class="banner-img">
+                <img src="../images/course-img/course-banner/c,c++,java.png" data-aos="fade-up"
+                    alt="C, C++ & Java Programming Course banner-image" loading="lazy" />
+            </div>
+
+        </div>
+
+        <div class="achievements">
+            <h1 data-aos="fade-right">What will you take home <br> from this C, C++ & Java Programming course?</h1>
+
+            <div class="achievements-details">
+                <div class="left-side" data-aos="zoom-in">
+                    <p><i class="fa-solid fa-check"></i> Lifetime access with industry renowned certification</p>
+                    <p><i class="fa-solid fa-check"></i> Build a strong foundation in Evergreen language C, C++ & Java
+                    </p>
+                    <p><i class="fa-solid fa-check"></i> Learn data types, pointers, memory allocation</p>
+                    <p><i class="fa-solid fa-check"></i> Get knowledge of various concepts of data structures</p>
+                    <p><i class="fa-solid fa-check"></i> Master loops, conditions, switch-case, operators</p>
+                    <p><i class="fa-solid fa-check"></i> Work on standard industry use-cases and live projects</p>
+                </div>
+                <div class="right-side" data-aos="zoom-in">
+                    <p><i class="fa-solid fa-check"></i> Learn to apply knowledge gained to build optimized code</p>
+                    <p><i class="fa-solid fa-check"></i> Unleash the power of Functional Programming with C, C++ & Java
+                    </p>
+                    <p><i class="fa-solid fa-check"></i> Beginner friendly course which makes you an expert</p>
+                    <p><i class="fa-solid fa-check"></i> learn to use array, struct, union efficiently</p>
+                    <p><i class="fa-solid fa-check"></i> Discover powerful libraries used in live projects</p>
+                    <p><i class="fa-solid fa-check"></i> Deepen your understanding of programming skills</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="reason-to-enroll">
+
+            <div data-aos="fade-right" class="reason-to-enroll-left-side">
+                <img src='../images/course-img/course-details/girl.jpg' alt="image" loading="lazy" />
+            </div>
+
+            <div data-aos="zoom-in" class="reason-to-enroll-right-side">
+                <h1>Why should you enroll in this $C, C++ & Java Programming course?</h1>
+
+                <div class="reason-part-one">
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> Real-time projects with implementation</li>
+                        <li><i class="fa-solid fa-check"></i> Study material, practicals, quizzes</li>
+                        <li><i class="fa-solid fa-check"></i> Lifetime access with industry renowned certification</li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <div class="prerequisite">
+            <div data-aos="fade-right" data-aos-easing="ease-in-sine">
+                <h1>What to do before you begin your C, C++ & Java online training?</h1>
+                <b><span class="highlight">Nothing!</span></b>
+                <p>All you need to make the most out of this C, C++ & Java course is a desire to learn and a penchant
+                    for solving real-world problems</p>
+            </div>
+            <div>
+                <img src="../images/course-img/course-details/boy.jpg" data-aos="zoom-in-up" alt="A small boy image"
+                    loading="lazy" />
+            </div>
+        </div>
+
+
+
+        <div class="reason-to-learn">
+            <h2 data-aos="zoom-in" data-aos-duration=3000>Why should you learn C, C++ & Java Programming Course?</h2>
+            <div class="reasons">
+                <div data-aos="fade-right" data-aos-duration="1000">
+                    <p>C is used in the tech stack of products including Telegram, GitHub, Oracle, Windows, Linux,
+                        Mozilla Firefox, & Mastercard </p>
+                    <span>-Google</span>
+                </div>
+                <div data-aos="fade-right" data-aos-duration="1000">
+                    <p>C language combines all the power of assembly language with ease-of-use</p>
+                    <span>-Mark Pearce</span>
+                </div>
+                <div data-aos="fade-right" data-aos-duration="1000">
+                    <p>TThe average salary of C developers today is $91,850</p>
+                    <span>-Indeed</span>
+                </div>
+                <div data-aos="fade-right" data-aos-duration="1000">
+                    <p>C was developed by Dennis Ritchie in 1972 is an evergreen programming language of all time</p>
+                    <span>-Google</span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="course-content-section">
+            <h2 data-aos="zoom-in">Course Content</h2>
+
+            <div class="course-contents">
+                <div>
+                    <h1 class="course-name">C</h1>
+
+                    <!-- content start  -->
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#c-1">
+                            <p>1. Learn C Language Basics</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="c-1">
+
+                            <ol>
+                                <li>Introduction to C Programming</li>
+                                <li>C Environment Setup – installation & configuration</li>
+                                <li>Features of C Programming</li>
+                                <li>C Program Structure – The preprocessos, The #include statement, Displaying Output
+                                </li>
+                                <li>Reading input from the terminal</li>
+                                <li>Comments in C</li>
+                                <li>Why you should Learn C</li>
+                                <li>Benefits and Limitations of C</li>
+                                <li>Career in C</li>
+                                <li>Real-time applications of C language</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#c-2">
+                            <p>2. Variables and Data types</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="c-2">
+
+                            <ol>
+                                <li>What are variables</li>
+                                <li>Naming Rules</li>
+                                <li>Datatypes – Range of Datatypes, Format Specifiers</li>
+                                <li>Const in C</li>
+                                <li>Void type</li>
+                                <li>Type conversion in C</li>
+                                <li>Enums and Chars</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#c-3">
+                            <p>3. C Operators</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="c-3">
+
+                            <ol>
+                                <li>Arithmetic Operators</li>
+                                <li>Comparison Operators</li>
+                                <li>Logical Operators</li>
+                                <li>Assignment Operators in C</li>
+                                <li>Bitwise Operators</li>
+                                <li>The Cast and sizeof Operators</li>
+                                <li>Operator Precedence in C Programming</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#c-4">
+                            <p>4. C Operators</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="c-4">
+
+                            <ol>
+                                <li>If else in C</li>
+                                <li>Nested If else</li>
+                                <li>Switch statement in C</li>
+                                <li>C Loop</li>
+                                <li>C For Loop</li>
+                                <li>While and Do-While loops in C, do c</li>
+                                <li>Nested Loops</li>
+                                <li>Break & Continue statements in C</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#c-5">
+                            <p>5. Functions in C Programming</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="c-5">
+
+                            <ol>
+                                <li>Defining Functions in C</li>
+                                <li>Arguments and Parameters</li>
+                                <li>Returning data from functions</li>
+                                <li>Local and Global Variables</li>
+                                <li>Decorators in Python – master the advanced concepts</li>
+                                <li>Recursion in C</li>
+                                <li>Call by Value</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#c-6">
+                            <p>6. Strings in C</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="c-6">
+
+                            <ol>
+                                <li>Play with String handling in C</li>
+                                <li>Memory presentation of string</li>
+                                <li>Common String Functions in C Programming</li>
+                                <li>String Comparison, String Traversal, Reverse a String, Pattern Searching, etc</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#c-7">
+                            <p>7. Call by Value</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="c-7">
+
+                            <ol>
+                                <li>Declaring and Initializing Arrays in C",
+                                    "Array Traversal</li>
+                                <li>Check if Array is Sorted, Maximum in an Array, etc.</li>
+                                <li>Variable Length Arrays</li>
+                                <li>Multidimensional Arrays in C</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#c-8">
+                            <p>8. Structures and Unions in C</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="c-8">
+
+                            <ol>
+                                <li>Struct in C</li>
+                                <li>structures in c programming</li>
+                                <li>Structure Alignment and Padding</li>
+                                <li>Array of structure</li>
+                                <li>Nested Structures</li>
+                                <li>Structures and Functions</li>
+                                <li>Union in C</li>
+                                <li>Structure vs Union in C Language</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#c-9">
+                            <p>9. Pointers in C</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="c-9">
+
+                            <ol>
+                                <li>Introduction to Pointers in C Programming</li>
+                                <li>Function Parameter and Pointers</li>
+                                <li>Nullptr in C</li>
+                                <li>void pointers</li>
+                                <li>Pointer Arithmetic</li>
+                                <li>Pointers and Arrays in C</li>
+                                <li>C Pointers and Strings</li>
+                                <li>Call by Reference in C</li>
+                                <li>Call by Value in C</li>
+                                <li>Structures and Pointers</li>
+                                <li>Dynamic Memory Allocation</li>
+                                <li>Static Memory Vs Dynamic Memory</li>
+                                <li>malloc, calloc, and realloc</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#c-10">
+                            <p>10. File Handeling in C</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="c-10">
+
+                            <ol>
+                                <li>File Input and Output in C</li>
+                                <li>Accessing Files in C</li>
+                                <li>Reading for a file in C</li>
+                                <li>Writing to a file</li>
+                                <li>Binary file I/O</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#c-11">
+                            <p>11. Standard C library</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="c-11">
+
+                            <ol>
+                                <li>Concept of hashing</li>
+                                <li>Direct Address Table</li>
+                                <li>Collision Handling</li>
+                                <li>Play with urllib</li>
+                                <li>Chaining in C</li>
+                                <li>Open addressing</li>
+                                <li>Double Hashing</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#c-12">
+                            <p>12. Hashing in C Programming</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="c-12">
+
+                            <ol>
+                                <li>Concept of hashing</li>
+                                <li>Direct Address Table</li>
+                                <li>Collision Handling</li>
+                                <li>Play with urllib</li>
+                                <li>Chaining in C</li>
+                                <li>Open addressing</li>
+                                <li>Double Hashing</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#c-13">
+                            <p>13. Searching and Sorting in C</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="c-13">
+
+                            <ol>
+                                <li>Linear & Binary search in C</li>
+                                <li>Different sorting techniques with their analysis</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#c-14">
+                            <p>14. Linked Lists using C</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="c-14">
+
+                            <ol>
+                                <li>Linked List Creation, Traversing, Reversal, and Deletion in C</li>
+                                <li>Double Linked list in C</li>
+                                <li>Circular Linked List in C</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#c-15">
+                            <p>15. Stack and Queues in C</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="c-15">
+
+                            <ol>
+                                <li>Insertion and Deletion</li>
+                                <li>Array based implementation</li>
+                                <li>Linked List based implementation</li>
+                                <li>Circular queues in C</li>
+                                <li>Prefix, Infix, and Postfix expressions</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#c-16">
+                            <p>16. Trees</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="c-16">
+
+                            <ol>
+                                <li>Introduction of Trees and Applications</li>
+                                <li>Binary Tree & Binary Search Tree BST</li>
+                                <li>Traversal of Tree</li>
+                                <li>Implementation of Preorder, Inorder and Postorder traversal</li>
+                                <li>Iterative Inorder and Preorder</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#c-17">
+                            <p>17. Heap</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="c-17">
+
+                            <ol>
+                                <li>Heap Introduction</li>
+                                <li>Implementation of Heap</li>
+                                <li>Binary Heap</li>
+                                <li>Heapify and Extract</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#c-18">
+                            <p>18. Graph</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="c-18">
+
+                            <ol>
+                                <li>Introduction to Graph</li>
+                                <li>Representation</li>
+                                <li>Traversal of Tree</li>
+                                <li>Adjacency List and Adjacency Matrix</li>
+                                <li>Implementation of Adjacency List</li>
+                                <li>Application of BFS and DFS</li>
+                            </ol>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div>
+                    <h1 class="course-name">C++</h1>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#d-1">
+                            <p>1. Introduction of C++</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="d-1">
+
+                            <ol>
+                                <li>Introduction</li>
+                                <li>Setting up visual studio Code</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#d-2">
+                            <p>2. Basics</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="d-2">
+
+                            <ol>
+                                <li>Introduction & Skeleton</li>
+                                <li>Input/output, variables & data types</li>
+                                <li>Arithmetic Operators & precedence</li>
+                                <li>Compound operators, expressions & comments</li>
+                                <li>Conditionals, If else & switch case</li>
+                                <li>Assignment 1</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#d-3">
+                            <p>3. Strings</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="d-3">
+
+                            <ol>
+                                <li>Strings using Char array</li>
+                                <li>Strings using string class</li>
+                                <li>Assignment 2</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#d-4">
+                            <p>4. Loops & basic data structures</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="d-4">
+
+                            <ol>
+                                <li>Loops - while loops</li>
+                                <li>Loops - do while & for loops</li>
+                                <li>Arrays</li>
+                                <li>Pointers</li>
+                                <li>Assignment 3</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#d-5">
+                            <p>5. Functions</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="d-5">
+
+                            <ol>
+                                <li>Functions in C++ [1]</li>
+                                <li>Functions in C++ [2]</li>
+                                <li>Assignment 4</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#d-6">
+                            <p>6. OOPs & encapsulation</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="d-6">
+
+                            <ol>
+                                <li>Structures in C++</li>
+                                <li>OOPs basics</li>
+                                <li>Class & objects</li>
+                                <li>Assignment 5</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#d-7">
+                            <p>7. Inheritance</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="d-7">
+
+                            <ol>
+                                <li>Inheritance - introduction</li>
+                                <li>Inheritance - access specifiers</li>
+                                <li>Inheritance & constructors</li>
+                                <li>Types of inheritance</li>
+                                <li>Inheritance - pointers & Fn overriding</li>
+                                <li>Assignment 6</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#d-8">
+                            <p>8. Polymorphism</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="d-8">
+
+                            <ol>
+                                <li>Constructors & Fn overloading</li>
+                                <li>Class Functions</li>
+                                <li>Operator overloading</li>
+                                <li>Assignment 7</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#d-9">
+                            <p>9. Abstraction</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="d-9">
+
+                            <ol>
+                                <li>Virtual Fns & runtime polymorphism</li>
+                                <li>Abstract classes & interface</li>
+                                <li>Friend Fn & classes</li>
+                                <li>Static data members</li>
+                                <li>Static Fns</li>
+                                <li>Nested or Inner classes</li>
+                                <li>Destructors in C++</li>
+                                <li>Assignment 8</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#d-10">
+                            <p>10. Exception handling</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="d-10">
+
+                            <ol>
+                                <li>Exception handling - introduction</li>
+                                <li>Exception handling - Syntax & use</li>
+                                <li>Exception handling - Nested try, multiple catch</li>
+                                <li>Assignment 9</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#d-11">
+                            <p>11. Streams - File input / output in C++</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="d-11">
+
+                            <ol>
+                                <li>Streams - introduction</li>
+                                <li>Streams - syntax (Using in programs)</li>
+                                <li>Assignment 10</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#d-12">
+                            <p>12. STL - Standard Template Library</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="d-12">
+
+                            <ol>
+                                <li>Template Fns & classes</li>
+                                <li>STL - why do we need STL?</li>
+                                <li>STL - introduction</li>
+                                <li>STL - Using in programs</li>
+                                <li>Assignment 11</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h1 class="course-name">Java</h1>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#e-1">
+                            <p>1. Introduction of Java</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="e-1">
+                            <ol>
+                                <li>Introduction to the course</li>
+                                <li>Installation</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#e-2">
+                            <p>2. First Java program</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="e-2">
+
+                            <ol>
+                                <li>Writing our first Java program</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#e-3">
+                            <p>3. Java basics</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="e-3">
+
+                            <ol>
+                                <li>Vars and Data types -1</li>
+                                <li>Variables and Data types -2</li>
+                                <li>Array</li>
+                                <li>If-else</li>
+                                <li>Nested If-else and switch case</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#e-4">
+                            <p>4. Methods</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="e-4">
+
+                            <ol>
+                                <li>Creating our first method</li>
+                                <li>Return types and arguments</li>
+                                <li>Public static void main explained</li>
+                                <li>More on public static void main</li>
+
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#e-5">
+                            <p>5. Classes and objects</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="e-5">
+
+                            <ol>
+                                <li>Starting with classes and objects</li>
+                                <li>Constructors</li>
+                                <li>Project structure and runtime</li>
+                                <li>The Java stack</li>
+                                <li>Java heap</li>
+                                <li>Inheritance</li>
+                                <li>Interfaces and method overriding</li>
+                                <li>Abstract classes</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#e-6">
+                            <p>6. Essentials</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="e-6">
+
+                            <ol>
+                                <li>Strings</li>
+                                <li>While loops</li>
+                                <li>For loop</li>
+                                <li>Nested loops and debugger</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#e-7">
+                            <p>7. Java programs and JAR</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="e-7">
+
+                            <ol>
+                                <li>Using CMD to run java files</li>
+                                <li>Into to JAR files</li>
+                                <li>JAR files using CMD</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#e-8">
+                            <p>8. Exceptions - Errors and File handling</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="e-8">
+
+                            <ol>
+                                <li>User input and reading files</li>
+                                <li>Exceptions</li>
+                                <li>Buffered reader</li>
+                                <li>Auto closeable interface</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#e-9">
+                            <p>9. Collection framework</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="e-9">
+
+                            <ol>
+                                <li>ArrayLists and LinkedLists</li>
+                                <li>Custom ArrayLists and LinkedLists</li>
+                                <li>HashSet, LinkedHashSet and HashCode</li>
+                                <li>Custom comparators</li>
+                                <li>Maps</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#e-10">
+                            <p>10. Generics</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="e-10">
+
+                            <ol>
+                                <li>Introduction and creating a generic class</li>
+                                <li>Generic methods</li>
+
+                                <li>Intro to wildcards</li>
+                                <li>More on wildcards</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#e-11">
+                            <p>11. Jshell</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="e-11">
+
+                            <ol>
+                                <li>Jshell</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#e-12">
+                            <p>12. Concurrency</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="e-12">
+
+                            <ol>
+                                <li>Intro to threads</li>
+                                <li>Methods on threads</li>
+                                <li>Synchronized threads</li>
+                                <li>Concurrency with collections</li>
+                                <li>Producer-consumer using array blocking queue</li>
+                                <li>Thread pool</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#e-13">
+                            <p>13. JDBC</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="e-13">
+
+                            <ol>
+                                <li>Setting up everything!</li>
+                                <li>Database and SQL</li>
+                                <li>JDBC and SQL</li>
+                                <li>Insert_Update_Delete using JDBC</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#e-14">
+                            <p>14. Lambda expressions and streams</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="e-14">
+
+                            <ol>
+                                <li>Function interfaces and lambdas</li>
+                                <li>Examples of lambda expressions</li>
+                                <li>Built in functional interfaces</li>
+                                <li>Streams</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vcollapse-toggle" data-target="#e-15">
+                            <p>15. Project - phone dealership</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="e-15">
+
+                            <ol>
+                                <li>Building our awesome project</li>
+                            </ol>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="course-features-section">
+            <h2 data-aos="fade-right" data-aos-animation=1000>Features of C, C++ & Java Programming Course</h2>
+
+            <div class="course-feature-container" data-aos="fade-up" data-aos-duration=1000>
+
+                <div class="feature" data-aos="flip-right">
+                    <div class="feature-img">
+                        <img src="../images/course-img/course-features/time.png" alt="feature image" loading="lazy" />
+                    </div>
+
+                    <p>Live session</p>
+                </div>
+                <div class="feature" data-aos="flip-right">
+                    <div class="feature-img">
+                        <img src="../images/course-img/course-features/support.png" alt="feature image"
+                            loading="lazy" />
+                    </div>
+
+                    <p>Lifetime access to course with support</p>
+                </div>
+                <div class="feature" data-aos="flip-right">
+                    <div class="feature-img">
+                        <img src="../images/course-img/course-features/project.png" alt="feature image"
+                            loading="lazy" />
+                    </div>
+
+                    <p>Real time company/Live projects</p>
+                </div>
+                <div class="feature" data-aos="flip-right">
+                    <div class="feature-img">
+                        <img src="../images/course-img/course-features/certificate.png" alt="feature image"
+                            loading="lazy" />
+                    </div>
+
+                    <p>Certificate</p>
+                </div>
+                <div class="feature" data-aos="flip-right">
+                    <div class="feature-img">
+                        <img src="../images/course-img/course-features/brainstorming.png" alt="feature image"
+                            loading="lazy" />
+                    </div>
+
+                    <p>2- Months of live Internship</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="companies">
+            <h1 data-aos="zoom-in">Companies you can expect <br> when you get C, C++ & Java Programming-certified
+                with us</h1>
+
+            <div class="companies-img" data-aos="fade-up" data-aos-duration=1000>
+                <img src="../images/companies.png" alt="companies image" loading="lazy">
+            </div>
+        </div>
+    </div>
+
+    <!-- footer  -->
+    <footer>
+        <div class="footer-logo">
+            <a href="/">
+                <img src="../images/SK-Logo-white-logo.png" alt="logo">
+            </a>
+        </div>
+        <div>
+            <p>&copy; 2023 Designershravan.in.</p>
+        </div>
+
+        <div class="rules-regulations">
+            <a href="../privacy-policy">Privacy</a>
+            <a href="../terms-conditions">Terms & conditions</a>
+            <a href="../refund-policy">Refund policy</a>
+        </div>
+    </footer>
+
+
+    <!-- js files  -->
+    <script src="../js/getData.js"></script>
+    <script src="../js/common.js"></script>
+    <!-- <script src="../js/getCourseDetail.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script src="../js/jquery.toast.js"></script>
+    <script src="../js/countrySelect.js"></script>
+    <script src="../js/vcollapse.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="../js/whatsapp/floating-wpp.js"></script>
+    <script src="../js/whatsapp/whatsapp-chat.js"></script>
+
+    <!-- AOS initialization code  -->
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 2000,
+        });
+
+        $(".course-contents > div").vCollapse({
+            any: true,
+            onLoad: -1,
+            speed: 300,
+            easing: "ease-in",
+        });
+
+        // modal
+        (function () {
+            emailjs.init("huB7HdbtLQHtlBqmr");
+        })();
+
+        $(document).ready(function () {
+            $(
+                ".course-detail-header .course-info .modal .send-info .country-select #country_selector"
+            ).countrySelect({
+                defaultCountry: "us",
+                defaultStyling: "inside",
+            });
+        });
+
+        const handleForm = () => {
+            event.preventDefault();
+
+            const form = document.getElementById("send-message-form");
+
+            const name = form.name.value;
+            const email = form.email.value;
+
+            const country = $("#country_selector").countrySelect(
+                "getSelectedCountryData"
+            ).name;
+
+            const telephone = form.phoneField.value;
+
+            const course = form.course.value;
+
+            const message = form.message.value;
+
+            const emailParams = {
+                from_name: name,
+                email_id: email,
+                country_name: country,
+                telephone: telephone,
+                course_name: course,
+                message: message,
+            };
+
+            emailjs
+                .send(
+                    "service_hcm5p5a",
+                    "template_o0io9dy",
+                    emailParams,
+                    "huB7HdbtLQHtlBqmr"
+                )
+                .then((res) => {
+                    $.toast({
+                        text: "Your email sent successfully",
+                        showHideTransition: "slide",
+                        bgColor: "#2ecc71",
+                        textColor: "#fff",
+                        allowToastClose: false,
+                        hideAfter: 5000,
+                        stack: 5,
+                        textAlign: "center",
+                        position: "top-center",
+                    });
+                    form.reset();
+                })
+                .catch((err) => {
+                    $.toast({
+                        text: "Sorry. Something wrong!",
+                        showHideTransition: "slide",
+                        bgColor: "#e74c3c",
+                        textColor: "#fff",
+                        allowToastClose: false,
+                        hideAfter: 5000,
+                        stack: 5,
+                        textAlign: "center",
+                        position: "top-center",
+                    });
+
+                    form.reset();
+                });
+
+
+
+        }
+
+        document.getElementById("submit-btn").addEventListener("click", handleForm);
+    </script>
+
+
+
+</body>
+
+</html>

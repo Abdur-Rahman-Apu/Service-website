@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Unlocking creativity! Your go-to digital solution destination for exceptional design, marketing, and digital solutions. Let's bring your ideas to life">
+
+    <title>Shravan Kumar - Learn to Earn</title>
+
+    <link rel="shortcut icon" href="../images/sk.webp" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <link rel="stylesheet" href="../css/countrySelect.css">
+    <link rel="stylesheet" href="../css/jquery.toast.css">
+    <!-- <link rel="stylesheet" href="../css/style.css"> -->
+    <link rel="stylesheet" href="../css/pop-up.css">
+    <link rel="stylesheet" href="../css/course-details.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../css/floating-wpp.css" />
+
+    <script src="https://kit.fontawesome.com/3b7a96cd6e.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+
+    <!-- scroll-to-top  -->
+    <div class="up">
+        <div class="scroll-to-top">
+            <i class="fa-solid fa-arrow-up"></i>
+        </div>
+    </div>
+
+    <!-- floating whatsapp chat  -->
+    <div class="floating-wpp"></div>
+
+    <!-- navbar  -->
+    <div class="navbar">
+        <div class="logo">
+            <a href="/">
+                <img src="../images/SK-Logo-yellow-black.png" alt="logo">
+            </a>
+        </div>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="../case-studies">Case Study</a></li>
+            <li><a class="active" href="../courses">Courses</a></li>
+            <li><a href="../quiz">Quiz</a></li>
+            <li><a href="../blog">Blog</a></li>
+            <li><a href="../workshop">Workshop</a></li>
+            <li><a href="../contact-us">Contact</a></li>
+        </ul>
+
+
+        <div class="contact">
+            <div class="humburger" onclick="toggleMenu()">
+                <i class="fa-solid fa-bars" id="humburger-icon"></i>
+
+                <span></span>
+
+                <i class="fa-regular fa-circle-xmark" id="close-icon"></i>
+
+                <ul class="humburger-menus">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="../case-studies">Case Study</a></li>
+                    <li><a class="active" href="../courses">Courses</a></li>
+                    <li><a href="../quiz">Quiz</a></li>
+                    <li><a href="../blog">Blog</a></li>
+                    <li><a href="../workshop">Workshop</a></li>
+                    <li><a href="../contact-us">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook facebook"></i></a>
+                <p>Facebook</p>
+            </div>
+            <div>
+                <a href="https://twitter.com/?lang=en"><i class="fa-brands fa-twitter twitter"></i></a>
+                <p>Twitter</p>
+            </div>
+            <div>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram instagram"></i></a>
+                <p>Instagram</p>
+            </div>
+            <div>
+                <a href="https://bd.linkedin.com/">
+                    <i class="fa-brands fa-linkedin linkedin"></i>
+                </a>
+                <p>LinkedIn</p>
+            </div>
+            <div>
+                <a href="https://www.behance.net/"><i class="fa-brands fa-square-behance behance"></i></a>
+                <p>Behance</p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- course detail section  -->
+
+    <div class="course-detail-container">
+        <div class="course-detail-header">
+
+            <div class="course-info" data-aos="fade-down">
+                <h1 class="course-title">Big Data and Hadoop Certification Course</h1>
+                <p class="overview">A perfect blend of in-depth Hadoop theoretical knowledge and strong practical skills
+                    via implementation of real-time Hadoop projects to give you a headstart and enable you to bag top
+                    Hadoop jobs in the Big Data industry.</p>
+
+                <!-- modal  -->
+                <div id="ex1" class="modal">
+                    <div>
+                        <h1>Want to Book Your Seat?</h1>
+                        <hr>
+
+                        <div class="send-info">
+                            <div>
+                                <img src="../images/course-img/send.jpg"
+                                    alt="An image of booking seat page which represents the send detail information"
+                                    loading="lazy">
+                            </div>
+
+                            <div>
+                                <form method="POST" id="send-message-form">
+                                    <div class="name-field">
+                                        <label for="name">Name</label> <br>
+                                        <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                                    </div>
+
+                                    <div class="email">
+                                        <label for="email">Email</label> <br>
+                                        <input type="email" name="email" id="email" placeholder="Enter your email"
+                                            required>
+                                    </div>
+
+                                    <div class="country-select">
+                                        <label for="country_selector">Country</label> <br>
+                                        <input id="country_selector" type="text">
+                                    </div>
+
+                                    <div class="phone-no">
+                                        <label for="phoneField">Phone</label> <br>
+                                        <input type="text" id="phoneField" name="phoneField" class="phone-field"
+                                            placeholder="+14844731560" required>
+                                    </div>
+
+                                    <div class="course-select">
+                                        <label for="courses">Course</label> <br>
+                                        <select id="courses" name="course">
+                                            <option>Python Certification Course </option>
+                                            <option>Big Data and Hadoop Certification Course</option>
+                                            <option>C, C++ & Java Programming Course</option>
+                                            <option>ML Course </option>
+                                            <option>FiaUI/UX Certification Course </option>
+                                            <option>Big Data Certification Course with Hadoop & Spark</option>
+                                            <option>Apache Kafka Certification Course</option>
+                                            <option>Apache Flink Certification Course</option>
+                                            <option>AWS Certification Course </option>
+                                            <option>Full Stack Web Development Certification Course </option>
+                                            <option>Apache Spark and Scala Certification Course </option>
+                                            <option>Scala Certification Course </option>
+                                            <option>Angular Certification Course </option>
+                                            <option>ADOBE-XD Certification Course </option>
+                                            <option>Adobe After Effects Certification Course </option>
+                                            <option>Artificial Intelligence Certification Course </option>
+                                            <option>Android Development Certification Course </option>
+                                            <option>CCNA Certification Course </option>
+                                            <option>CCSP Certification Course </option>
+                                            <option>ChatGPT Certification Course </option>
+                                            <option>Cloud Computing Certification Course </option>
+                                            <option>Data Science Certification Course </option>
+                                            <option>DevOps Certification Course </option>
+                                            <option>Digital Marketing Certification Course </option>
+                                            <option>Ethical Hacking Certification Course </option>
+                                            <option>Figma Certification Course </option>
+                                            <option>Adobe Illustrator Certification Course </option>
+                                            <option>Linux Certification Course </option>
+                                            <option>Microsoft Azure Certification Course </option>
+                                            <option>Adobe Premiere Pro Certification Course </option>
+                                            <option>Adobe Photoshop Certification Course </option>
+                                            <option>Microsoft Word Certification Course </option>
+                                            <option>Microsoft Excel Certification Course </option>
+                                            <option>Microsoft Powerpoint Certification Course </option>
+                                            <option>Sales Force Certification Course </option>
+                                            <option>Wordpress Certification Course </option>
+                                            <option>Career Clarity Certification Course </option>
+                                            <option>Computer Forensics Certification Course </option>
+                                            <option>Bug Bounty Certification Course </option>
+                                            <option>Dark Net Certification Course </option>
+                                            <option>Certified Cyber Ninja Course </option>
+                                            <option>Malware Analysis and Dissecting Malicious Softwares Certification
+                                                Course
+                                            </option>
+                                            <option>Cyber Warrior Certification Course</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="message-box">
+                                        <label for="message">Message</label> <br>
+                                        <textarea name="message" id="message" cols="45" rows="15"
+                                            placeholder="Enter your message" required></textarea>
+                                    </div>
+
+                                    <input id="submit-btn" type="submit" value="Submit">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <a href="#ex1" rel="modal:open" class="book-btn">Book a Session</a>
+            </div>
+
+            <div class="banner-img">
+                <img src="../images/course-img/course-banner/hadoop--big-data.png" data-aos="fade-up"
+                    alt="Big data and hadoop course banner-image" loading="lazy" />
+            </div>
+
+        </div>
+
+        <div class="achievements">
+            <h1 data-aos="fade-right">What will you take home <br> from this Big Data & Hadoop course?</h1>
+
+            <div class="achievements-details">
+                <div class="left-side" data-aos="zoom-in">
+                    <p><i class="fa-solid fa-check"></i> Shape your career as Big Data shapes the IT World</p>
+
+                    <p><i class="fa-solid fa-check"></i> Grasp concepts of HDFS and MapReduce</p>
+
+                    <p><i class="fa-solid fa-check"></i> Become adept in the latest version of Apache Hadoop</p>
+
+                    <p><i class="fa-solid fa-check"></i> Develop a complex game-changing MapReduce application</p>
+
+                    <p><i class="fa-solid fa-check"></i> Perform data analysis using Pig and Hive</p>
+
+                    <p><i class="fa-solid fa-check"></i> Play with the NoSQL database Apache HBase</p>
+                </div>
+                <div class="right-side" data-aos="zoom-in">
+                    <p><i class="fa-solid fa-check"></i> Acquire an understanding of the ZooKeeper service</p>
+                    <p><i class="fa-solid fa-check"></i> Load data using Apache Sqoop and Flume</p>
+                    <p><i class="fa-solid fa-check"></i> Enforce best practices for Hadoop development and deployment
+                    </p>
+                    <p><i class="fa-solid fa-check"></i> Master handling of large datasets using the Hadoop ecosystem
+                    </p>
+                    <p><i class="fa-solid fa-check"></i> Work on live Big Data projects for hands-on experience</p>
+                    <p><i class="fa-solid fa-check"></i> Comprehend other Big Data technologies like Apache Spark</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="reason-to-enroll">
+
+            <div data-aos="fade-right" class="reason-to-enroll-left-side">
+                <img src='../images/course-img/course-details/girl.jpg' alt="image" loading="lazy" />
+            </div>
+
+            <div data-aos="zoom-in" class="reason-to-enroll-right-side">
+                <h1>Why should you enroll in this $Big Data & Hadoop course?</h1>
+
+                <div class="reason-part-one">
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> Shape your career as Big Data shapes the IT World</li>
+                        <li><i class="fa-solid fa-check"></i> Grasp concepts of HDFS and MapReduce</li>
+                        <li><i class="fa-solid fa-check"></i> Become adept in the latest version of Apache Hadoop</li>
+                        <li><i class="fa-solid fa-check"></i> Develop a complex game-changing MapReduce application</li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="prerequisite">
+            <div data-aos="fade-right" data-aos-easing="ease-in-sine">
+                <h1>What to do before you begin your Hadoop online training?</h1>
+                <b><span class="highlight">Nothing!</span></b>
+                <p>Although if you’d like, you can brush up on your Java skills with our complementary Java course right
+                    in your LMS.</p>
+            </div>
+            <div>
+                <img src="../images/course-img/course-details/boy.jpg" data-aos="zoom-in-up"
+                    alt="course prerequisite section right side image" loading="lazy" />
+            </div>
+        </div>
+
+
+
+        <div class="reason-to-learn">
+            <h2 data-aos="zoom-in" data-aos-duration=3000>Why should you learn ${shortName}?</h2>
+            <div class="reasons">
+                <div data-aos="fade-right" data-aos-duration="1000">
+                    <p>The Hadoop market will reach almost $99B by 2022 at the CAGR of around 42%</p>
+                    <span>-Forbes</span>
+                </div>
+                <div data-aos="fade-right" data-aos-duration="1000">
+                    <p>More than 77% of organizations consider Big Data a top priority</p>
+                    <span>-Peer Research</span>
+                </div>
+                <div data-aos="fade-right" data-aos-duration="1000">
+                    <p>The average salary of all Big Data Hadoop developers today is $135k</p>
+                    <span>-Indeed</span>
+                </div>
+                <div data-aos="fade-right" data-aos-duration="1000">
+                    <p>The world’s most valuable resource is Big Data, no longer oil.</p>
+                    <span>-The Economist</span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="course-content-section">
+            <h2 data-aos="zoom-in">Course Content</h2>
+
+            <div class="course-contents">
+                <div>
+                    <div class="vcollapse-toggle" data-target="#c-1">
+                        <p>1. The big picture of Big Data</p>
+                    </div>
+
+                    <div class="vcollapse-content" id="c-1">
+
+                        <ol>
+                            <li>What is Big Data</li>
+                            <li>Necessity of Big Data and Hadoop in the industry</li>
+                            <li>Paradigm shift - why the industry is shifting to Big Data tools</li>
+                            <li>Different dimensions of Big Data</li>
+                            <li>Data explosion in the Big Data industry</li>
+                            <li>Various implementations of Big Data</li>
+                            <li>Different technologies to handle Big Data</li>
+                            <li>Traditional systems and associated problems</li>
+                            <li>Future of Big Data in the IT industry</li>
+
+                        </ol>
+
+                    </div>
+                </div>
+                <div>
+                    <div class="vcollapse-toggle" data-target="#c-2">
+                        <p>2. Demystifying Hadoop</p>
+                    </div>
+
+                    <div class="vcollapse-content" id="c-2">
+
+                        <ol>
+                            <li>Why Hadoop is at the heart of every Big Data solution</li>
+                            <li>Introduction to the Big Data Hadoop framework</li>
+                            <li>Hadoop architecture and design principles</li>
+                            <li>Ingredients of Hadoop</li>
+                            <li>Hadoop characteristics and data-flow</li>
+                            <li>Components of the Hadoop ecosystem</li>
+                            <li>Introduction to the Big Data Hadoop framework</li>
+                        </ol>
+
+                    </div>
+                </div>
+                <div>
+                    <div class="vcollapse-toggle" data-target="#c-3">
+                        <p>3. Setup and Installation of Hadoop</p>
+                    </div>
+
+                    <div class="vcollapse-content" id="c-3">
+
+                        <ol>
+                            <li><b>SETUP AND INSTALLATION OF SINGLE-NODE HADOOP CLUSTER</b>
+                                <ol>
+                                    <li>Hadoop environment setup and pre-requisites</li>
+                                    <li>Hadoop Installation and configuration</li>
+                                    <li>Working with Hadoop in pseudo-distributed mode</li>
+                                    <li>Troubleshooting encountered problems</li>
+                                </ol>
+                            </li>
+                            <li><b>SETUP AND INSTALLATION OF HADOOP MULTI-NODE CLUSTER</b>
+                                <ol>
+                                    <li>Hadoop environment setup on the cloud (Amazon cloud)</li>
+                                    <li>Installation of Hadoop pre-requisites on all nodes</li>
+                                    <li>Configuration of masters and slaves on the cluster</li>
+                                    <li>Playing with Hadoop in distributed mode</li>
+                                </ol>
+                            </li>
+                        </ol>
+
+                    </div>
+                </div>
+                <div>
+                    <div class="vcollapse-toggle" data-target="#c-4">
+                        <p>4. HDFS – The Storage Layer</p>
+                    </div>
+
+                    <div class="vcollapse-content" id="c-4">
+
+                        <ol>
+                            <li>What is HDFS (Hadoop Distributed File System)</li>
+                            <li>HDFS daemons and architecture</li>
+                            <li>HDFS data flow and storage mechanism</li>
+                            <li>Hadoop HDFS characteristics and design principles</li>
+                            <li>Responsibility of HDFS Master – NameNode</li>
+                            <li>Storage mechanism of Hadoop meta-data</li>
+                            <li>Storage mechanism of Hadoop meta-data</li>
+                            <li>Work of HDFS Slaves – DataNodes</li>
+                            <li>Data Blocks and distributed storage</li>
+                            <li>Replication of blocks, reliability, and high availability</li>
+                            <li>Rack-awareness, scalability, and other features</li>
+                            <li>Different HDFS APIs and terminologies</li>
+                            <li>Commissioning of nodes and addition of more nodes</li>
+                            <li>Expanding clusters in real-time</li>
+                            <li>Hadoop HDFS Web UI and HDFS explorer</li>
+                            <li>HDFS best practices and hardware discussion</li>
+                        </ol>
+
+                    </div>
+                </div>
+                <div>
+                    <div class="vcollapse-toggle" data-target="#c-5">
+                        <p>5. A Deep Dive into MapReduce</p>
+                    </div>
+
+                    <div class="vcollapse-content" id="c-5">
+
+                        <ol>
+                            <li>What is MapReduce, the processing layer of Hadoop</li>
+                            <li>The need for a distributed processing framework</li>
+                            <li>Issues before MapReduce and its evolution</li>
+                            <li>List processing concepts</li>
+                            <li>Components of MapReduce – Mapper and Reducer</li>
+                            <li>MapReduce terminologies- keys, values, lists, and more</li>
+                            <li>Hadoop MapReduce execution flow</li>
+                            <li>Mapping and reducing data based on keys</li>
+                            <li>MapReduce word-count example to understand the flow</li>
+                            <li>Execution of Map and Reduce together</li>
+                            <li>MapReduce word-count example to understand the flow</li>
+                            <li>Controlling the flow of mappers and reducers</li>
+                            <li>Optimization of MapReduce Jobs</li>
+                            <li>Fault-tolerance and data locality</li>
+                            <li>Working with map-only jobs</li>
+                            <li>Introduction to Combiners in MapReduce</li>
+                            <li>How MR jobs can be optimized using combiners</li>
+                        </ol>
+
+                    </div>
+                </div>
+                <div>
+                    <div class="vcollapse-toggle" data-target="#c-6">
+                        <p>6. MapReduce - Advanced Concepts</p>
+                    </div>
+
+                    <div class="vcollapse-content" id="c-6">
+
+                        <ol>
+                            <li>Anatomy of MapReduce</li>
+                            <li>Hadoop MapReduce data types</li>
+                            <li>Developing custom data types using Writable & Comparable</li>
+                            <li>InputFormats in MapReduce</li>
+                            <li>InputSplit as a unit of work</li>
+                            <li>How Partitioners partition data</li>
+                            <li>Customization of RecordReader</li>
+                            <li>Moving data from mapper to reducer – shuffling & sorting</li>
+                            <li>Distributed cache and job chaining</li>
+                            <li>Different Hadoop case-studies to customize each component</li>
+                            <li>Job scheduling in MapReduce</li>
+                        </ol>
+
+                    </div>
+                </div>
+                <div>
+                    <div class="vcollapse-toggle" data-target="#c-7">
+                        <p>7. Hive – Data Analysis Tool</p>
+                    </div>
+
+                    <div class="vcollapse-content" id="c-7">
+
+                        <ol>
+                            <li>The need for an adhoc SQL based solution – Apache Hive</li>
+                            <li>Introduction to and architecture of Hadoop Hive</li>
+                            <li>Playing with the Hive shell and running HQL queries</li>
+                            <li>Hive DDL and DML operations</li>
+                            <li>Hive execution flow</li>
+                            <li>Schema design and other Hive operations</li>
+                            <li>Schema-on-Read vs Schema-on-Write in Hive</li>
+                            <li>Meta-store management and the need for RDBMS</li>
+                            <li>Limitations of the default meta-store</li>
+                            <li>Using SerDe to handle different types of data</li>
+                            <li>Optimization of performance using partitioning</li>
+                            <li>Different Hive applications and use cases</li>
+                        </ol>
+
+                    </div>
+                </div>
+                <div>
+                    <div class="vcollapse-toggle" data-target="#c-8">
+                        <p>8. Pig – Data Analysis Tool</p>
+                    </div>
+
+                    <div class="vcollapse-content" id="c-8">
+
+                        <ol>
+                            <li>The need for a high level query language - Apache Pig</li>
+                            <li>How Pig complements Hadoop with a scripting language</li>
+                            <li>What is Pig</li>
+                            <li>Pig execution flow</li>
+                            <li>Different Pig operations like filter and join</li>
+                            <li>Compilation of Pig code into MapReduce</li>
+                            <li>Comparison - Pig vs MapReduce</li>
+                        </ol>
+
+                    </div>
+                </div>
+                <div>
+                    <div class="vcollapse-toggle" data-target="#c-9">
+                        <p>9. NoSQL Database - HBase</p>
+                    </div>
+
+                    <div class="vcollapse-content" id="c-9">
+
+                        <ol>
+                            <li>NoSQL databases and their need in the industry</li>
+                            <li>Introduction to Apache HBase</li>
+                            <li>Internals of the HBase architecture</li>
+                            <li>The HBase Master and Slave Model",
+                                "Column-oriented, 3-dimensional, schema-less datastores</li>
+                            <li>Column-oriented, 3-dimensional, schema-less datastores</li>
+                            <li>Data modeling in Hadoop HBase</li>
+                            <li>Storing multiple versions of data</li>
+                            <li>Data high-availability and reliability</li>
+                            <li>Comparison - HBase vs HDFS</li>
+                            <li>Comparison - HBase vs RDBMS</li>
+                            <li>Data access mechanisms</li>
+                            <li>Work with HBase using the shell</li>
+                        </ol>
+
+                    </div>
+                </div>
+                <div>
+                    <div class="vcollapse-toggle" data-target="#c-10">
+                        <p>10. Data Collection using Sqoop</p>
+                    </div>
+
+                    <div class="vcollapse-content" id="c-10">
+
+                        <ol>
+                            <li>The need for Apache Sqoop</li>
+                            <li>Introduction and working of Sqoop</li>
+                            <li>Importing data from RDBMS to HDFS</li>
+                            <li>Exporting data to RDBMS from HDFS</li>
+                            <li>Conversion of data import/export queries into MapReduce jobs</li>
+                        </ol>
+
+                    </div>
+                </div>
+                <div>
+                    <div class="vcollapse-toggle" data-target="#c-11">
+                        <p>11. Data Collection using Flume</p>
+                    </div>
+
+                    <div class="vcollapse-content" id="c-11">
+
+                        <ol>
+                            <li>What is Apache Flume</li>
+                            <li>Flume architecture and aggregation flow</li>
+                            <li>Understanding Flume components like data Sources and Sinks</li>
+                            <li>Flume channels to buffer events</li>
+                            <li>Reliable & scalable data collection tools</li>
+                            <li>Aggregating streams using Fan-in</li>
+                            <li>Separating streams using Fan-out</li>
+                            <li>Internals of the agent architecture</li>
+                            <li>Production architecture of Flume</li>
+                            <li>Collecting data from different sources to Hadoop HDFS</li>
+                            <li>Multi-tier Flume flow for collection of volumes of data using AVRO</li>
+                        </ol>
+
+                    </div>
+                </div>
+                <div>
+                    <div class="vcollapse-toggle" data-target="#c-12">
+                        <p>12. Apache YARN & advanced concepts in the latest version</p>
+                    </div>
+
+                    <div class="vcollapse-content" id="c-12">
+
+                        <ol>
+                            <li>The need for and the evolution of YARN</li>
+                            <li>YARN and its eco-system</li>
+                            <li>YARN daemon architecture</li>
+                            <li>Master of YARN – Resource Manager</li>
+                            <li>Slave of YARN – Node Manager</li>
+                            <li>Requesting resources from the application master</li>
+                            <li>Dynamic slots (containers)</li>
+                            <li>Application execution flow</li>
+                            <li>MapReduce version 2 application over Yarn</li>
+                            <li>Hadoop Federation and Namenode HA</li>
+                        </ol>
+
+                    </div>
+                </div>
+                <div>
+                    <div class="vcollapse-toggle" data-target="#c-13">
+                        <p>13. Processing data with Apache Spark</p>
+                    </div>
+
+                    <div class="vcollapse-content" id="c-13">
+
+                        <ol>
+                            <li>Introduction to Apache Spark</li>
+                            <li>Comparison - Hadoop MapReduce vs Apache Spark</li>
+                            <li>Spark key features</li>
+                            <li>RDD and various RDD operations</li>
+                            <li>RDD abstraction, interfacing, and creation of RDDs</li>
+                            <li>Fault Tolerance in Spark</li>
+                            <li>The Spark Programming Model</li>
+                            <li>Data flow in Spark</li>
+                            <li>The Spark Ecosystem, Hadoop compatibility, & integration</li>
+                            <li>Installation & configuration of Spark</li>
+                            <li>Processing Big Data using Spark</li>
+                        </ol>
+
+                    </div>
+                </div>
+                <div>
+                    <div class="vcollapse-toggle" data-target="#c-14">
+                        <p>14. Real-Life Project on Big Data</p>
+                    </div>
+
+                    <div class="vcollapse-content" id="c-14">
+
+                        <ol>
+                            <li>A live Big Data Hadoop project based on industry use-cases using Hadoop components like
+                                Pig, HBase, MapReduce, and Hive to solve real-world problems in Big Data Analytics</li>
+                        </ol>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="course-features-section">
+            <h2 data-aos="fade-right" data-aos-animation=1000>Features of Big Data & Hadoop course</h2>
+
+            <div class="course-feature-container" data-aos="fade-up" data-aos-duration=1000>
+
+                <div class="feature" data-aos="flip-right">
+                    <div class="feature-img">
+                        <img src="../images/course-img/course-features/time.png" alt="course feature image"
+                            loading="lazy" />
+                    </div>
+
+                    <p>Live session</p>
+                </div>
+                <div class="feature" data-aos="flip-right">
+                    <div class="feature-img">
+                        <img src="../images/course-img/course-features/support.png" alt="course feature image"
+                            loading="lazy" />
+                    </div>
+
+                    <p>Lifetime access to course with support</p>
+                </div>
+                <div class="feature" data-aos="flip-right">
+                    <div class="feature-img">
+                        <img src="../images/course-img/course-features/project.png" alt="course feature image"
+                            loading="lazy" />
+                    </div>
+
+                    <p>Real time company/Live projects</p>
+                </div>
+                <div class="feature" data-aos="flip-right">
+                    <div class="feature-img">
+                        <img src="../images/course-img/course-features/certificate.png" alt="course feature image"
+                            loading="lazy" />
+                    </div>
+
+                    <p>Certificate</p>
+                </div>
+                <div class="feature" data-aos="flip-right">
+                    <div class="feature-img">
+                        <img src="../images/course-img/course-features/brainstorming.png" alt="course feature image"
+                            loading="lazy" />
+                    </div>
+
+                    <p>2- Months of live Internship</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="companies">
+            <h1 data-aos="zoom-in">Companies you can expect <br> when you get Big Data and Hadoop-certified with us</h1>
+
+            <div class="companies-img" data-aos="fade-up" data-aos-duration=1000>
+                <img src="../images/companies.png" alt="companies image" loading="lazy">
+            </div>
+        </div>
+    </div>
+
+    <!-- footer  -->
+    <footer>
+        <div class="footer-logo">
+            <a href="/">
+                <img src="../images/SK-Logo-white-logo.png" alt="logo">
+            </a>
+        </div>
+        <div>
+            <p>&copy; 2023 Designershravan.in.</p>
+        </div>
+
+        <div class="rules-regulations">
+            <a href="../privacy-policy">Privacy</a>
+            <a href="../terms-conditions">Terms & conditions</a>
+            <a href="../refund-policy">Refund policy</a>
+        </div>
+    </footer>
+
+
+    <!-- js files  -->
+    <script src="../js/getData.js"></script>
+    <script src="../js/common.js"></script>
+    <!-- <script src="../js/getCourseDetail.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script src="../js/jquery.toast.js"></script>
+    <script src="../js/countrySelect.js"></script>
+    <script src="../js/vcollapse.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="../js/whatsapp/floating-wpp.js"></script>
+    <script src="../js/whatsapp/whatsapp-chat.js"></script>
+
+    <!-- AOS initialization code  -->
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 2000,
+        });
+
+        $(".course-contents > div").vCollapse({
+            any: true,
+            onLoad: -1,
+            speed: 300,
+            easing: "ease-in",
+        });
+
+        // modal
+        (function () {
+            emailjs.init("huB7HdbtLQHtlBqmr");
+        })();
+
+        $(document).ready(function () {
+            $(
+                ".course-detail-header .course-info .modal .send-info .country-select #country_selector"
+            ).countrySelect({
+                defaultCountry: "us",
+                defaultStyling: "inside",
+            });
+        });
+
+        const handleForm = () => {
+            event.preventDefault();
+
+            const form = document.getElementById("send-message-form");
+
+            const name = form.name.value;
+            const email = form.email.value;
+
+            const country = $("#country_selector").countrySelect(
+                "getSelectedCountryData"
+            ).name;
+
+            const telephone = form.phoneField.value;
+
+            const course = form.course.value;
+
+            const message = form.message.value;
+
+            const emailParams = {
+                from_name: name,
+                email_id: email,
+                country_name: country,
+                telephone: telephone,
+                course_name: course,
+                message: message,
+            };
+
+            emailjs
+                .send(
+                    "service_hcm5p5a",
+                    "template_o0io9dy",
+                    emailParams,
+                    "huB7HdbtLQHtlBqmr"
+                )
+                .then((res) => {
+                    $.toast({
+                        text: "Your email sent successfully",
+                        showHideTransition: "slide",
+                        bgColor: "#2ecc71",
+                        textColor: "#fff",
+                        allowToastClose: false,
+                        hideAfter: 5000,
+                        stack: 5,
+                        textAlign: "center",
+                        position: "top-center",
+                    });
+                    form.reset();
+                })
+                .catch((err) => {
+                    $.toast({
+                        text: "Sorry. Something wrong!",
+                        showHideTransition: "slide",
+                        bgColor: "#e74c3c",
+                        textColor: "#fff",
+                        allowToastClose: false,
+                        hideAfter: 5000,
+                        stack: 5,
+                        textAlign: "center",
+                        position: "top-center",
+                    });
+
+                    form.reset();
+                });
+
+
+
+        }
+
+        document.getElementById("submit-btn").addEventListener("click", handleForm);
+    </script>
+
+
+
+</body>
+
+</html>

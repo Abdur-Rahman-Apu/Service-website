@@ -61,16 +61,16 @@
     "question": "What is the correct syntax of doctype in HTML5?",
     "options": [
       {
-        "A": "</doctype html>"
+        "A": "`</doctype html>`"
       },
       {
-        "B": "<doctype html>"
+        "B": "`<doctype html>`"
       },
       {
-        "C": "<doctype html!>"
+        "C": "`<doctype html!>`"
       },
       {
-        "D": "<!doctype html>"
+        "D": "`<!doctype html>`"
       }
     ],
     "correct_ans": "D"
@@ -102,10 +102,10 @@
         "A": "head"
       },
       {
-        "B": "<h1>"
+        "B": "h1"
       },
       {
-        "C": "<h6>"
+        "C": "h6"
       },
       {
         "D": "heading"
@@ -156,16 +156,16 @@
     "question": "Which element is used to get highlighted text in HTML5?",
     "options": [
       {
-        "A": "<u>"
+        "A": "u"
       },
       {
-        "B": "<mark>"
+        "B": "mark"
       },
       {
-        "C": "<highlight>"
+        "C": "highlight"
       },
       {
-        "D": "<b>"
+        "D": "b"
       }
     ],
     "correct_ans": "B"
@@ -175,16 +175,16 @@
     "question": "Which of the following is not a HTML5 tag?",
     "options": [
       {
-        "A": "<track>"
+        "A": "track"
       },
       {
-        "B": "<video>"
+        "B": "video"
       },
       {
-        "C": "<slider>"
+        "C": "slider"
       },
       {
-        "D": "<source>"
+        "D": "source"
       }
     ],
     "correct_ans": "C"
@@ -194,16 +194,16 @@
     "question": "How do we write comments in HTML?",
     "options": [
       {
-        "A": "</…….>"
+        "A": "'</…….>'"
       },
       {
-        "B": "<!……>"
+        "B": "'<!……>'"
       },
       {
-        "C": "</……/>"
+        "C": "'</……/>'"
       },
       {
-        "D": "<…….!>"
+        "D": "'<…….!>'"
       }
     ],
     "correct_ans": "B"
@@ -213,16 +213,16 @@
     "question": "Which of the following elements in HTML5 defines video or movie content?",
     "options": [
       {
-        "A": "<video>"
+        "A": "video"
       },
       {
-        "B": "<movie>"
+        "B": "movie"
       },
       {
-        "C": "<audio>"
+        "C": "audio"
       },
       {
-        "D": "<media>"
+        "D": "media"
       }
     ],
     "correct_ans": "A"
@@ -270,16 +270,16 @@
     "question": "Which HTML tag is used for making character appearance bold?",
     "options": [
       {
-        "A": "<u>content</u>"
+        "A": "'<u>content</u>'"
       },
       {
-        "B": "<b>content</b>"
+        "B": "'<b>content</b>'"
       },
       {
-        "C": "<br>content</br>"
+        "C": "'<br>content</br>'"
       },
       {
-        "D": "<i>content</i>"
+        "D": "'<i>content</i>'"
       }
     ],
     "correct_ans": "B"
@@ -289,16 +289,16 @@
     "question": "Which HTML tag is used to insert an image?",
     "options": [
       {
-        "A": "<img url=”htmllogo.jpg” />"
+        "A": "'<img url=”htmllogo.jpg” />'"
       },
       {
-        "B": "<img alt=”htmllogo.jpg” />"
+        "B": "'<img alt=”htmllogo.jpg” />'"
       },
       {
-        "C": "<img alt=”htmllogo.jpg” />"
+        "C": "'<img alt=”htmllogo.jpg” />'"
       },
       {
-        "D": "<img link=”htmllogo.jpg” />"
+        "D": "'<img link=”htmllogo.jpg” />'"
       }
     ],
     "correct_ans": "C"
@@ -327,16 +327,16 @@
     "question": "Among the following, which is the HTML paragraph tag?",
     "options": [
       {
-        "A": "<p>"
+        "A": "p"
       },
       {
-        "B": "<pre>"
+        "B": "pre"
       },
       {
-        "C": "<hr>"
+        "C": "hr"
       },
       {
-        "D": "<a>"
+        "D": "a"
       }
     ],
     "correct_ans": "A"
@@ -346,16 +346,16 @@
     "question": "Which HTML element is used for short quote?",
     "options": [
       {
-        "A": "<em>"
+        "A": "em"
       },
       {
-        "B": "<abbr>"
+        "B": "abbr"
       },
       {
-        "C": "<q>"
+        "C": "q"
       },
       {
-        "D": "<blockquote>"
+        "D": "blockquote"
       }
     ],
     "correct_ans": "C"
@@ -365,16 +365,16 @@
     "question": "Which of the following HTML tag is used to create an unordered list?",
     "options": [
       {
-        "A": "<ol>"
+        "A": "ol"
       },
       {
-        "B": "<ul>"
+        "B": "ul"
       },
       {
-        "C": "<li>"
+        "C": "li"
       },
       {
-        "D": "<ll>"
+        "D": "ll"
       }
     ],
     "correct_ans": "B"
@@ -384,16 +384,16 @@
     "question": "Which of the following HTML tag is used to add a row in a table?s",
     "options": [
       {
-        "A": "<th>"
+        "A": "th"
       },
       {
-        "B": "<td>"
+        "B": "td"
       },
       {
-        "C": "<tr>"
+        "C": "tr"
       },
       {
-        "D": "<tt>"
+        "D": "tt"
       }
     ],
     "correct_ans": "C"
@@ -517,16 +517,16 @@
     "question": "Which HTML element is used for YouTube videos?",
     "options": [
       {
-        "A": "<samp>"
+        "A": "samp"
       },
       {
-        "B": "<small>"
+        "B": "small"
       },
       {
-        "C": "<frame>"
+        "C": "frame"
       },
       {
-        "D": "<iframe>"
+        "D": "iframe"
       }
     ],
     "correct_ans": "D"
@@ -536,16 +536,16 @@
     "question": "Which of the following HTML element is used for canvas graphics?",
     "options": [
       {
-        "A": "<css>"
+        "A": "css"
       },
       {
-        "B": "<paint>"
+        "B": "paint"
       },
       {
-        "C": "<canvas>"
+        "C": "canvas"
       },
       {
-        "D": "<graphic>"
+        "D": "graphic"
       }
     ],
     "correct_ans": "C"
@@ -574,13 +574,13 @@
     "question": "Which element/tag defines a paragraph?",
     "options": [
       {
-        "A": "<p>"
+        "A": "p"
       },
       {
-        "B": "<pre>"
+        "B": "pre"
       },
       {
-        "C": "<panel>"
+        "C": "panel"
       },
       {
         "D": "None of the above"
@@ -593,16 +593,16 @@
     "question": "Which tag/element defines the HTML document's body?",
     "options": [
       {
-        "A": "<HTML>"
+        "A": "HTML"
       },
       {
-        "B": "<HTMLbody>"
+        "B": "HTMLbody"
       },
       {
-        "C": "<bdy>"
+        "C": "bdy"
       },
       {
-        "D": "<body>"
+        "D": "body"
       }
     ],
     "correct_ans": "D"
@@ -612,16 +612,16 @@
     "question": "Which tag contains the meta information about the HTML page?",
     "options": [
       {
-        "A": "<html>"
+        "A": "html"
       },
       {
-        "B": "<title>"
+        "B": "title"
       },
       {
-        "C": "<head>"
+        "C": "head"
       },
       {
-        "D": "<body>"
+        "D": "body"
       }
     ],
     "correct_ans": "C"
@@ -631,16 +631,16 @@
     "question": "Which tag is the root element of an HTML page?",
     "options": [
       {
-        "A": "<html>"
+        "A": "html"
       },
       {
-        "B": "<title>"
+        "B": "title"
       },
       {
-        "C": "<head>"
+        "C": "head"
       },
       {
-        "D": "<body>"
+        "D": "body"
       }
     ],
     "correct_ans": "A"
@@ -669,16 +669,16 @@
     "question": "HTML headings are defined with the _____ tags.",
     "options": [
       {
-        "A": "<head1> to <head6>"
+        "A": "head1 to head6"
       },
       {
-        "B": "<p1> to <p6>"
+        "B": "p1 to p6"
       },
       {
-        "C": "<h1> to <h6>"
+        "C": "h1 to h6"
       },
       {
-        "D": "<h1> to <h3>"
+        "D": "h1 to h3"
       }
     ],
     "correct_ans": "C"
@@ -688,10 +688,10 @@
     "question": "Which HTML attribute is used to define styles of an element?",
     "options": [
       {
-        "A": "<style>"
+        "A": "style"
       },
       {
-        "B": "<css>"
+        "B": "css"
       },
       {
         "C": "style"
@@ -707,16 +707,16 @@
     "question": "Which HTML tag is used to define a short quotation?",
     "options": [
       {
-        "A": "<quotation>"
+        "A": "quotation"
       },
       {
-        "B": "<quote>"
+        "B": "quote"
       },
       {
-        "C": "<qut>"
+        "C": "qut"
       },
       {
-        "D": "<q>"
+        "D": "q"
       }
     ],
     "correct_ans": "D"
@@ -726,16 +726,16 @@
     "question": "What HTML tag is used to define the contact information for the author/owner of a document or an article?",
     "options": [
       {
-        "A": "<contact>"
+        "A": "contact"
       },
       {
-        "B": "<authorinfo>"
+        "B": "authorinfo"
       },
       {
-        "C": "<address>"
+        "C": "Address"
       },
       {
-        "D": "<addr>"
+        "D": "addr"
       }
     ],
     "correct_ans": "C"
@@ -745,13 +745,13 @@
     "question": "Which tag is used to override the current text direction?",
     "options": [
       {
-        "A": "<bdi>"
+        "A": "bdi"
       },
       {
-        "B": "<bdo>"
+        "B": "bdo"
       },
       {
-        "C": "<bdr>"
+        "C": "bdr"
       },
       {
         "D": "None of the above"
@@ -783,16 +783,16 @@
     "question": "Which tag is used to create an HTML form for user input?",
     "options": [
       {
-        "A": "<form>"
+        "A": "form"
       },
       {
-        "B": "<input>"
+        "B": "input"
       },
       {
-        "C": "<form_put>"
+        "C": "form_put"
       },
       {
-        "D": "<form_get>"
+        "D": "form_get"
       }
     ],
     "correct_ans": "A"
@@ -821,7 +821,7 @@
     "question": "Which tag is used to embed an image in an HTML document?",
     "options": [
       {
-        "A": "<img>"
+        "A": "img"
       },
       {
         "B": "<pic>"
@@ -859,16 +859,16 @@
     "question": "Which HTML tag is used to define a table?",
     "options": [
       {
-        "A": "<table>"
+        "A": "table"
       },
       {
         "B": "<tables>"
       },
       {
-        "C": "<tr>"
+        "C": "tr"
       },
       {
-        "D": "<th>"
+        "D": "th"
       }
     ],
     "correct_ans": "A"
@@ -878,16 +878,16 @@
     "question": "Each table cell is defined by a ____ tag.",
     "options": [
       {
-        "A": "<cell> ... </cell>"
+        "A": "'<cell> ... </cell>'"
       },
       {
-        "B": "<tr> ... </tr>"
+        "B": "'<tr> ... </tr>'"
       },
       {
-        "C": "<th> ... </th>"
+        "C": "'<th> ... </th>'"
       },
       {
-        "D": "<td> ... </td>"
+        "D": "'<td> ... </td>'"
       }
     ],
     "correct_ans": "D"
@@ -897,16 +897,16 @@
     "question": "Each table row is defined by a ____ tag.",
     "options": [
       {
-        "A": "<cell> ... </cell>"
+        "A": "'<cell> ... </cell>'"
       },
       {
-        "B": "<tr> ... </tr>"
+        "B": "'<tr> ... </tr>'"
       },
       {
-        "C": "<th> ... </th>"
+        "C": "'<th> ... </th>'"
       },
       {
-        "D": "<td> ... </td>"
+        "D": "'<td> ... </td>'"
       }
     ],
     "correct_ans": "B"
@@ -916,16 +916,16 @@
     "question": "Each table header is defined by a ____ tag.",
     "options": [
       {
-        "A": "<cell> ... </cell>"
+        "A": "'<cell> ... </cell>'"
       },
       {
-        "B": "<tr> ... </tr>"
+        "B": "'<tr> ... </tr>'"
       },
       {
-        "C": "<th> ... </th>"
+        "C": "'<th> ... </th>'"
       },
       {
-        "D": "<td> ... </td>"
+        "D": "'<td> ... </td>'"
       }
     ],
     "correct_ans": "C"
@@ -935,16 +935,16 @@
     "question": "Which tag is a block-level element?",
     "options": [
       {
-        "A": "<block> ... </block>"
+        "A": "'<block> ... </block>'"
       },
       {
-        "B": "<b> ... </b>"
+        "B": "'<b> ... </b>'"
       },
       {
-        "C": "<div> ... </div>"
+        "C": "'<div> ... </div>'"
       },
       {
-        "D": "<divx> ... </divx>"
+        "D": "'<divx> ... </divx>'"
       }
     ],
     "correct_ans": "C"
@@ -1011,16 +1011,16 @@
     "question": "Which works similar to <b> element?",
     "options": [
       {
-        "A": "<blockquote>"
+        "A": "blockquote"
       },
       {
-        "B": "<strong>"
+        "B": "strong"
       },
       {
-        "C": "<em>"
+        "C": "em"
       },
       {
-        "D": "<i>"
+        "D": "i"
       }
     ],
     "correct_ans": "B"
@@ -1087,16 +1087,16 @@
     "question": "Which of the following defines a group of related options in a drop-down list?",
     "options": [
       {
-        "A": "<form>"
+        "A": "form"
       },
       {
-        "B": "<optgroup>"
+        "B": "optgroup"
       },
       {
-        "C": "<output>"
+        "C": "output"
       },
       {
-        "D": "<option>"
+        "D": "option"
       }
     ],
     "correct_ans": "B"
@@ -1106,16 +1106,16 @@
     "question": "Which of the following is not a semantic element?",
     "options": [
       {
-        "A": "<form>"
+        "A": "form"
       },
       {
-        "B": "<article>"
+        "B": "article"
       },
       {
-        "C": "<table>"
+        "C": "table"
       },
       {
-        "D": "<span>"
+        "D": "span"
       }
     ],
     "correct_ans": "D"
@@ -1163,16 +1163,16 @@
     "question": "Which of the following defines a visible heading for <details> element?",
     "options": [
       {
-        "A": "<summary>"
+        "A": "summary"
       },
       {
-        "B": "<section>"
+        "B": "section"
       },
       {
-        "C": "<mark>"
+        "C": "mark"
       },
       {
-        "D": "<main>"
+        "D": "main"
       }
     ],
     "correct_ans": "A"
@@ -1182,16 +1182,16 @@
     "question": "Which element defines additional details?",
     "options": [
       {
-        "A": "<summary>"
+        "A": "summary"
       },
       {
-        "B": "<details>"
+        "B": "details"
       },
       {
-        "C": "<mark>"
+        "C": "mark"
       },
       {
-        "D": "<main>"
+        "D": "main"
       }
     ],
     "correct_ans": "B"
@@ -1201,16 +1201,16 @@
     "question": "Which of the following specifies relationship between current document and external resource?",
     "options": [
       {
-        "A": "<meta>"
+        "A": "meta"
       },
       {
-        "B": "<style>"
+        "B": "style"
       },
       {
-        "C": "<link>"
+        "C": "link"
       },
       {
-        "D": "<title>"
+        "D": "title"
       }
     ],
     "correct_ans": "C"
@@ -1220,16 +1220,16 @@
     "question": "Which element is used for bringing attention?",
     "options": [
       {
-        "A": "<cite>"
+        "A": "cite"
       },
       {
-        "B": "<br>"
+        "B": "br"
       },
       {
-        "C": "<b>"
+        "C": "b"
       },
       {
-        "D": "<code>"
+        "D": "code"
       }
     ],
     "correct_ans": "C"
@@ -1239,16 +1239,16 @@
     "question": "Which element denotes that the text is a short fragment of computer code?",
     "options": [
       {
-        "A": "<code>"
+        "A": "code"
       },
       {
-        "B": "<data>"
+        "B": "data"
       },
       {
-        "C": "<cite>"
+        "C": "cite"
       },
       {
-        "D": "<short>"
+        "D": "short"
       }
     ],
     "correct_ans": "A"
@@ -1258,16 +1258,16 @@
     "question": "Which of the following is keyboard input element?",
     "options": [
       {
-        "A": "<mark>"
+        "A": "mark"
       },
       {
-        "B": "<kbd>"
+        "B": "kbd"
       },
       {
-        "C": "<dfn>"
+        "C": "dfn"
       },
       {
-        "D": "<key>"
+        "D": "key"
       }
     ],
     "correct_ans": "B"
@@ -1277,16 +1277,16 @@
     "question": "Which element prevents the text from automatically wrapping across multiple lines?",
     "options": [
       {
-        "A": "<em>"
+        "A": "em"
       },
       {
-        "B": "<kbd>"
+        "B": "kbd"
       },
       {
-        "C": "<mark>"
+        "C": "mark"
       },
       {
-        "D": "<nobr>"
+        "D": "nobr"
       }
     ],
     "correct_ans": "D"
@@ -1296,16 +1296,16 @@
     "question": "Which of the following element is known as ruby fallback parenthesis?",
     "options": [
       {
-        "A": "<rt>"
+        "A": "rt"
       },
       {
-        "B": "<rp>"
+        "B": "rp"
       },
       {
-        "C": "<rtc>"
+        "C": "rtc"
       },
       {
-        "D": "<q>"
+        "D": "q"
       }
     ],
     "correct_ans": "B"
@@ -1429,16 +1429,16 @@
     "question": "Which element represents group of commands that user can activate or perform?",
     "options": [
       {
-        "A": "<menuitem>"
+        "A": "menuitem"
       },
       {
-        "B": "<menu>"
+        "B": "menu"
       },
       {
-        "C": "<summary>"
+        "C": "summary"
       },
       {
-        "D": "<details>"
+        "D": "details"
       }
     ],
     "correct_ans": "B"
@@ -1448,16 +1448,16 @@
     "question": "Which of the following element is for holding client-side content?",
     "options": [
       {
-        "A": "<template>"
+        "A": "template"
       },
       {
-        "B": "<slot>"
+        "B": "slot"
       },
       {
-        "C": "<element>"
+        "C": "element"
       },
       {
-        "D": "<content>"
+        "D": "content"
       }
     ],
     "correct_ans": "A"
@@ -1467,16 +1467,16 @@
     "question": "Which element is a placeholder inside web component?",
     "options": [
       {
-        "A": "<shadow>"
+        "A": "shadow"
       },
       {
-        "B": "<content>"
+        "B": "content"
       },
       {
-        "C": "<slot>"
+        "C": "slot"
       },
       {
-        "D": "<element>"
+        "D": "element"
       }
     ],
     "correct_ans": "C"
@@ -1486,16 +1486,16 @@
     "question": "Which element is used for defining a new custom DOM elements?",
     "options": [
       {
-        "A": "<shadow>"
+        "A": "shadow"
       },
       {
-        "B": "<content>"
+        "B": "content"
       },
       {
-        "C": "<slot>"
+        "C": "slot"
       },
       {
-        "D": "<element>"
+        "D": "element"
       }
     ],
     "correct_ans": "D"
@@ -1505,16 +1505,16 @@
     "question": "Which element is not a obsolete?",
     "options": [
       {
-        "A": "<dir>"
+        "A": "dir"
       },
       {
-        "B": "<command>"
+        "B": "command"
       },
       {
-        "C": "<center>"
+        "C": "center"
       },
       {
-        "D": "<caption>"
+        "D": "caption"
       }
     ],
     "correct_ans": "D"
@@ -1524,16 +1524,16 @@
     "question": "Which element sets default font face, size and color for other elements?",
     "options": [
       {
-        "A": "<applet>"
+        "A": "applet"
       },
       {
-        "B": "<basefont>"
+        "B": "basefont"
       },
       {
-        "C": "<big>"
+        "C": "big"
       },
       {
-        "D": "<acronym>"
+        "D": "acronym"
       }
     ],
     "correct_ans": "B"
@@ -1543,16 +1543,16 @@
     "question": "For background sound obsolete element was __________",
     "options": [
       {
-        "A": "<bgsound>"
+        "A": "bgsound"
       },
       {
-        "B": "<audio>"
+        "B": "audio"
       },
       {
-        "C": "<blink>"
+        "C": "blink"
       },
       {
-        "D": "<acronym>"
+        "D": "acronym"
       }
     ],
     "correct_ans": "A"
@@ -1562,16 +1562,16 @@
     "question": "Which element is used to show the text slowly?",
     "options": [
       {
-        "A": "<big>"
+        "A": "big"
       },
       {
-        "B": "<blink>"
+        "B": "blink"
       },
       {
-        "C": "<center>"
+        "C": "center"
       },
       {
-        "D": "<audio>"
+        "D": "audio"
       }
     ],
     "correct_ans": "B"
@@ -1581,16 +1581,16 @@
     "question": "Which element is used as a container for a directory of files?",
     "options": [
       {
-        "A": "<dir>"
+        "A": "dir"
       },
       {
-        "B": "<font>"
+        "B": "font"
       },
       {
-        "C": "<content>"
+        "C": "content"
       },
       {
-        "D": "<command>"
+        "D": "command"
       }
     ],
     "correct_ans": "A"
@@ -1600,16 +1600,16 @@
     "question": "Which element puts a text field in a page for querying document?",
     "options": [
       {
-        "A": "<keygen>"
+        "A": "keygen"
       },
       {
-        "B": "<isiindex>"
+        "B": "isiindex"
       },
       {
-        "C": "<dir>"
+        "C": "dir"
       },
       {
-        "D": "<command>"
+        "D": "command"
       }
     ],
     "correct_ans": "B"
@@ -1619,16 +1619,16 @@
     "question": "Which element is used for inserting scrolling area of text?",
     "options": [
       {
-        "A": "<marquee>"
+        "A": "marquee"
       },
       {
-        "B": "<menu>"
+        "B": "menu"
       },
       {
-        "C": "<menuitem>"
+        "C": "menuitem"
       },
       {
-        "D": "<menuitem>"
+        "D": "menuitem"
       }
     ],
     "correct_ans": "A"
@@ -1638,16 +1638,16 @@
     "question": "Which of the following tag defines the progress of a task?",
     "options": [
       {
-        "A": "<meter>"
+        "A": "meter"
       },
       {
-        "B": "<progress"
+        "B": "progress"
       },
       {
-        "C": "<gauge>"
+        "C": "gauge"
       },
       {
-        "D": "<wbr>"
+        "D": "wbr"
       }
     ],
     "correct_ans": "B"
@@ -1657,16 +1657,16 @@
     "question": "Which of the following defines the result of a calculation?",
     "options": [
       {
-        "A": "<output>"
+        "A": "output"
       },
       {
-        "B": "<keygen>"
+        "B": "keygen"
       },
       {
-        "C": "<datalist>"
+        "C": "datalist"
       },
       {
-        "D": "<result>"
+        "D": "result"
       }
     ],
     "correct_ans": "A"
@@ -1676,16 +1676,16 @@
     "question": "Which of the following elements in HTML5 defines video or movie content?",
     "options": [
       {
-        "A": "<media>"
+        "A": "media"
       },
       {
-        "B": "<video>"
+        "B": "video"
       },
       {
-        "C": "<movie>"
+        "C": "movie"
       },
       {
-        "D": "<audio>"
+        "D": "audio"
       }
     ],
     "correct_ans": "B"
@@ -1695,16 +1695,16 @@
     "question": "Which of the following defines a visible heading for a details element?",
     "options": [
       {
-        "A": "<brief>"
+        "A": "brief"
       },
       {
-        "B": "<summary>"
+        "B": "summary"
       },
       {
-        "C": "<mark>"
+        "C": "mark"
       },
       {
-        "D": "<main>"
+        "D": "main"
       }
     ],
     "correct_ans": "B"
@@ -1714,16 +1714,16 @@
     "question": "Which of the following defines additional details that the user can view or hide?",
     "options": [
       {
-        "A": "<details>"
+        "A": "details"
       },
       {
-        "B": "<article>"
+        "B": "article"
       },
       {
-        "C": "<aside>"
+        "C": "side"
       },
       {
-        "D": "<figure>"
+        "D": "figure"
       }
     ],
     "correct_ans": "A"
@@ -1809,16 +1809,16 @@
     "question": "For caption of the image we use ____________",
     "options": [
       {
-        "A": "<figure>"
+        "A": "figure"
       },
       {
-        "B": "<src>"
+        "B": "src"
       },
       {
-        "C": "<alt>"
+        "C": "alt"
       },
       {
-        "D": "<title>"
+        "D": "title"
       }
     ],
     "correct_ans": "A"

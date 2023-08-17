@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Unlocking creativity! Your go-to digital solution destination for exceptional design, marketing, and digital solutions. Let's bring your ideas to life">
+
+    <title>Shravan Kumar - Learn to Earn</title>
+
+    <link rel="shortcut icon" href="../images/sk.webp" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <link rel="stylesheet" href="../css/countrySelect.css">
+    <link rel="stylesheet" href="../css/jquery.toast.css">
+    <!-- <link rel="stylesheet" href="../css/style.css"> -->
+    <link rel="stylesheet" href="../css/pop-up.css">
+    <link rel="stylesheet" href="../css/course-details.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../css/floating-wpp.css" />
+
+    <script src="https://kit.fontawesome.com/3b7a96cd6e.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+
+    <!-- scroll-to-top  -->
+    <div class="up">
+        <div class="scroll-to-top">
+            <i class="fa-solid fa-arrow-up"></i>
+        </div>
+    </div>
+
+    <!-- floating whatsapp chat  -->
+    <div class="floating-wpp"></div>
+
+    <!-- navbar  -->
+    <div class="navbar">
+        <div class="logo">
+            <a href="/">
+                <img src="../images/SK-Logo-yellow-black.png" alt="logo">
+            </a>
+        </div>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="../case-studies">Case Study</a></li>
+            <li><a class="active" href="../courses">Courses</a></li>
+            <li><a href="../quiz">Quiz</a></li>
+            <li><a href="../blog">Blog</a></li>
+            <li><a href="../workshop">Workshop</a></li>
+            <li><a href="../contact-us">Contact</a></li>
+        </ul>
+
+
+        <div class="contact">
+            <div class="humburger" onclick="toggleMenu()">
+                <i class="fa-solid fa-bars" id="humburger-icon"></i>
+
+                <span></span>
+
+                <i class="fa-regular fa-circle-xmark" id="close-icon"></i>
+
+                <ul class="humburger-menus">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="../case-studies">Case Study</a></li>
+                    <li><a class="active" href="../courses">Courses</a></li>
+                    <li><a href="../quiz">Quiz</a></li>
+                    <li><a href="../blog">Blog</a></li>
+                    <li><a href="../workshop">Workshop</a></li>
+                    <li><a href="../contact-us">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook facebook"></i></a>
+                <p>Facebook</p>
+            </div>
+            <div>
+                <a href="https://twitter.com/?lang=en"><i class="fa-brands fa-twitter twitter"></i></a>
+                <p>Twitter</p>
+            </div>
+            <div>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram instagram"></i></a>
+                <p>Instagram</p>
+            </div>
+            <div>
+                <a href="https://bd.linkedin.com/">
+                    <i class="fa-brands fa-linkedin linkedin"></i>
+                </a>
+                <p>LinkedIn</p>
+            </div>
+            <div>
+                <a href="https://www.behance.net/"><i class="fa-brands fa-square-behance behance"></i></a>
+                <p>Behance</p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- course detail section  -->
+
+    <div class="course-detail-container">
+        <div class="course-detail-header">
+
+            <div class="course-info" data-aos="fade-down">
+                <h1 class="course-title">Apache Spark and Scala Certification Course</h1>
+                <p class="overview">Apache Spark and Scala Course offers a perfect blend of in-depth theoretical
+                    knowledge and strong practical skills via implementation of real-life Spark projects to give you a
+                    headstart and enable you to bag top Big Data Spark jobs in the industry.</p>
+
+                <!-- modal  -->
+                <div id="ex1" class="modal">
+                    <div>
+                        <h1>Want to Book Your Seat?</h1>
+                        <hr>
+
+                        <div class="send-info">
+                            <div>
+                                <img src="../images/course-img/send.jpg"
+                                    alt="An image of booking seat page which represents the send detail information"
+                                    loading="lazy">
+                            </div>
+
+                            <div>
+                                <form method="POST" id="send-message-form">
+                                    <div class="name-field">
+                                        <label for="name">Name</label> <br>
+                                        <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                                    </div>
+
+                                    <div class="email">
+                                        <label for="email">Email</label> <br>
+                                        <input type="email" name="email" id="email" placeholder="Enter your email"
+                                            required>
+                                    </div>
+
+                                    <div class="country-select">
+                                        <label for="country_selector">Country</label> <br>
+                                        <input id="country_selector" type="text">
+                                    </div>
+
+                                    <div class="phone-no">
+                                        <label for="phoneField">Phone</label> <br>
+                                        <input type="text" id="phoneField" name="phoneField" class="phone-field"
+                                            placeholder="+14844731560" required>
+                                    </div>
+
+                                    <div class="course-select">
+                                        <label for="courses">Course</label> <br>
+                                        <select id="courses" name="course">
+                                            <option>Python Certification Course </option>
+                                            <option>Big Data and Hadoop Certification Course</option>
+                                            <option>C, C++ & Java Programming Course</option>
+                                            <option>ML Course </option>
+                                            <option>FiaUI/UX Certification Course </option>
+                                            <option>Big Data Certification Course with Hadoop & Spark</option>
+                                            <option>Apache Kafka Certification Course</option>
+                                            <option>Apache Flink Certification Course</option>
+                                            <option>AWS Certification Course </option>
+                                            <option>Full Stack Web Development Certification Course </option>
+                                            <option>Apache Spark and Scala Certification Course </option>
+                                            <option>Scala Certification Course </option>
+                                            <option>Angular Certification Course </option>
+                                            <option>ADOBE-XD Certification Course </option>
+                                            <option>Adobe After Effects Certification Course </option>
+                                            <option>Artificial Intelligence Certification Course </option>
+                                            <option>Android Development Certification Course </option>
+                                            <option>CCNA Certification Course </option>
+                                            <option>CCSP Certification Course </option>
+                                            <option>ChatGPT Certification Course </option>
+                                            <option>Cloud Computing Certification Course </option>
+                                            <option>Data Science Certification Course </option>
+                                            <option>DevOps Certification Course </option>
+                                            <option>Digital Marketing Certification Course </option>
+                                            <option>Ethical Hacking Certification Course </option>
+                                            <option>Figma Certification Course </option>
+                                            <option>Adobe Illustrator Certification Course </option>
+                                            <option>Linux Certification Course </option>
+                                            <option>Microsoft Azure Certification Course </option>
+                                            <option>Adobe Premiere Pro Certification Course </option>
+                                            <option>Adobe Photoshop Certification Course </option>
+                                            <option>Microsoft Word Certification Course </option>
+                                            <option>Microsoft Excel Certification Course </option>
+                                            <option>Microsoft Powerpoint Certification Course </option>
+                                            <option>Sales Force Certification Course </option>
+                                            <option>Wordpress Certification Course </option>
+                                            <option>Career Clarity Certification Course </option>
+                                            <option>Computer Forensics Certification Course </option>
+                                            <option>Bug Bounty Certification Course </option>
+                                            <option>Dark Net Certification Course </option>
+                                            <option>Certified Cyber Ninja Course </option>
+                                            <option>Malware Analysis and Dissecting Malicious Softwares Certification
+                                                Course
+                                            </option>
+                                            <option>Cyber Warrior Certification Course</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="message-box">
+                                        <label for="message">Message</label> <br>
+                                        <textarea name="message" id="message" cols="45" rows="15"
+                                            placeholder="Enter your message" required></textarea>
+                                    </div>
+
+                                    <input id="submit-btn" type="submit" value="Submit">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <a href="#ex1" rel="modal:open" class="book-btn">Book a Session</a>
+            </div>
+
+            <div class="banner-img">
+                <img src="../images/course-img/course-banner/Apache-Spark-and-Scala.png" data-aos="fade-up"
+                    alt="Apache Spark and Scala course banner image" loading="lazy" class="aos-init aos-animate">
+            </div>
+
+        </div>
+
+        <div class="achievements">
+            <h1 data-aos="fade-right" class="aos-init">What will you take home <br> from this Apache Spark and Scala
+                course?</h1>
+
+            <div class="achievements-details">
+                <div class="left-side aos-init" data-aos="zoom-in">
+                    <p><i class="fa-solid fa-check"></i> Learn how Spark solves these Big Data challenges</p>
+                    <p><i class="fa-solid fa-check"></i> Grasp concepts of Scala and implement them</p>
+                    <p><i class="fa-solid fa-check"></i> Become adept in Apache Spark and Spark installations</p>
+                    <p><i class="fa-solid fa-check"></i> Understand the Apache Spark architecture</p>
+                    <p><i class="fa-solid fa-check"></i> Play with Spark RDDs – Transformation, Action, Load</p>
+                    <p><i class="fa-solid fa-check"></i> Learn to handle in-memory data efficiently</p>
+                </div>
+                <div class="right-side aos-init" data-aos="zoom-in">
+                    <p><i class="fa-solid fa-check"></i> Develop complex real-time Apache Spark applications</p>
+                    <p><i class="fa-solid fa-check"></i> Master the concepts of Spark stream analytics and learn
+                        streaming APIs</p>
+                    <p><i class="fa-solid fa-check"></i> Learn MLlib APIs in Spark for machine learning algorithms</p>
+                    <p><i class="fa-solid fa-check"></i> Learn Spark GraphX APIs to implement graph algorithms</p>
+                    <p><i class="fa-solid fa-check"></i> Work on live Spark project to get hands-on experience</p>
+                </div>
+            </div>
+        </div>
+        <div class="achievements">
+            <h1 data-aos="fade-right" class="aos-init">What will you take home <br> from this Apache Spark and Scala
+                course?</h1>
+
+            <div class="achievements-details">
+                <div class="left-side aos-init" data-aos="zoom-in">
+                    <p><i class="fa-solid fa-check"></i> Learn how Spark solves these Big Data challenges</p>
+                    <p><i class="fa-solid fa-check"></i> Grasp concepts of Scala and implement them</p>
+                    <p><i class="fa-solid fa-check"></i> Become adept in Apache Spark and Spark installations</p>
+                    <p><i class="fa-solid fa-check"></i> Understand the Apache Spark architecture</p>
+                    <p><i class="fa-solid fa-check"></i> Play with Spark RDDs – Transformation, Action, Load</p>
+                    <p><i class="fa-solid fa-check"></i> Learn to handle in-memory data efficiently</p>
+                </div>
+                <div class="right-side aos-init" data-aos="zoom-in">
+                    <p><i class="fa-solid fa-check"></i> Develop complex real-time Apache Spark applications</p>
+                    <p><i class="fa-solid fa-check"></i> Master the concepts of Spark stream analytics and learn
+                        streaming APIs</p>
+                    <p><i class="fa-solid fa-check"></i> Learn MLlib APIs in Spark for machine learning algorithms</p>
+                    <p><i class="fa-solid fa-check"></i> Learn Spark GraphX APIs to implement graph algorithms</p>
+                    <p><i class="fa-solid fa-check"></i> Work on live Spark project to get hands-on experience</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="reason-to-enroll">
+
+            <div data-aos="fade-right" class="reason-to-enroll-left-side aos-init">
+                <img src="../images/course-img/course-details/girl.jpg" alt="A girl image" loading="lazy">
+            </div>
+
+            <div data-aos="zoom-in" class="reason-to-enroll-right-side aos-init">
+                <h1>Why should you enroll in this Apache Spark and Scala course?</h1>
+
+                <div class="reason-part-one">
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> 30+ Real-time Web Development projects</li>
+                        <li><i class="fa-solid fa-check"></i> 130+ hrs of study material, practicals, quizzes</li>
+                    </ul>
+                </div>
+
+                <div class="reason-part-two">
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> Practical course with real-time case-studies</li>
+                        <li><i class="fa-solid fa-check"></i> Lifetime access with industry renowned certification</li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="prerequisite">
+            <div data-aos="fade-right" data-aos-easing="ease-in-sine" class="aos-init">
+                <h1>What to do before you begin your online training?</h1>
+                <b><span class="highlight">Nothing!</span></b>
+                <p>There are no prerequisites for thist course. Anyone interested in learning,s= can learn</p>
+            </div>
+            <div>
+                <img src="../images/course-img/course-details/boy.jpg" data-aos="zoom-in-up" alt="A boy image"
+                    loading="lazy" class="aos-init">
+            </div>
+        </div>
+
+
+
+        <div class="reason-to-learn">
+            <h2 data-aos="zoom-in" data-aos-duration="3000" class="aos-init">Why should you learn Apache Spark and Scala
+                ?</h2>
+            <div class="reasons">
+                <div data-aos="fade-right" data-aos-duration="1000" class="aos-init">
+                    <p>Big Data market will reach $99B in next 2 years at CAGR of around 42%</p><span
+                        style="font-weight: bold;">-Forbes</span>
+                </div>
+                <div data-aos="fade-right" data-aos-duration="1000" class="aos-init">
+                    <p>More than 77% of organizations consider Big Data a top priority</p><span
+                        style="font-weight: bold;">-Peer Research</span>
+                </div>
+                <div data-aos="fade-right" data-aos-duration="1000" class="aos-init">
+                    <p>The average salary of all Big Data Spark developers today is $135k</p><span
+                        style="font-weight: bold;">-Indeed</span>
+                </div>
+                <div data-aos="fade-right" data-aos-duration="1000" class="aos-init">
+                    <p>The world’s most valuable resource is Big Data, no longer oil.</p><span
+                        style="font-weight: bold;">-The Economist</span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="course-content-section">
+            <h2 data-aos="zoom-in" class="aos-init">Course Content</h2>
+
+            <div class="course-contents">
+
+                <div>
+                    <div>
+
+
+                        <div class="vcollapse-toggle" data-target="#courseOne0">
+                            <p>1. Diving into Scala</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="courseOne0"
+                            style="height: 0px; transition: height 0.3s ease-in 0s; overflow: hidden;">
+
+                            <ol>
+                                <li>What is Scala</li>
+                                <li>Setup and configuration of Scala</li>
+                                <li>Developing and running basic Scala Programs</li>
+                                <li>Scala operations</li>
+                                <li>Functions and procedures in Scala</li>
+                                <li>Different Scala APIs for common operations</li>
+                                <li>Loops and collections- Array, Map, Lists, Tuples</li>
+                                <li>Pattern matching for advanced operations</li>
+                                <li>Eclipse with Scala</li>
+                            </ol>
+
+                        </div>
+
+
+
+                    </div>
+                    <div>
+
+
+                        <div class="vcollapse-toggle" data-target="#courseOne1">
+                            <p>2. Object-Oriented and Functional Programming</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="courseOne1"
+                            style="height: 0px; transition: height 0.3s ease-in 0s; overflow: hidden;">
+
+                            <ol>
+                                <li>Introduction to object-oriented programming</li>
+                                <li>Different OOPS concepts</li>
+                                <li>Constructor, getter, setter, singleton, overloading, and overriding</li>
+                                <li>Nested Classes and visibility rules</li>
+                                <li>Functional structures</li>
+                                <li>Functional programming constructs</li>
+                                <li>Call by Name, Call by Value</li>
+                            </ol>
+
+                        </div>
+
+
+
+                    </div>
+                    <div>
+
+
+                        <div class="vcollapse-toggle" data-target="#courseOne2">
+                            <p>3. Big Data and the need for Spark</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="courseOne2"
+                            style="height: 0px; transition: height 0.3s ease-in 0s; overflow: hidden;">
+
+                            <ol>
+                                <li>Introduction to Big Data</li>
+                                <li>Challenges to old Big Data solutions</li>
+                                <li>Batch vs Real-time vs in-Memory processing</li>
+                                <li>MapReduce and its limitations</li>
+                                <li>Apache Storm and its limitations</li>
+                                <li>Need for a general purpose solution – Apache Spark</li>
+                            </ol>
+
+                        </div>
+
+
+
+                    </div>
+                    <div>
+
+
+                        <div class="vcollapse-toggle" data-target="#courseOne3">
+                            <p>4. Diving deep into Apache Spark</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="courseOne3"
+                            style="height: 0px; transition: height 0.3s ease-in 0s; overflow: hidden;">
+
+                            <ol>
+                                <li>What is Apache Spark?</li>
+                                <li>Components of Spark architecture</li>
+                                <li>Apache Spark design principles</li>
+                                <li>Spark features and characteristics</li>
+                                <li>Apache Spark ecosystem components and their insights</li>
+                            </ol>
+
+                        </div>
+
+
+
+                    </div>
+                    <div>
+
+
+                        <div class="vcollapse-toggle" data-target="#courseOne4">
+                            <p>5. Deploying Spark in local mode</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="courseOne4"
+                            style="height: 0px; transition: height 0.3s ease-in 0s; overflow: hidden;">
+
+                            <ol>
+                                <li>Setting up the Spark Environment</li>
+                                <li>Installing and configuring prerequisites</li>
+                                <li>Installing Apache Spark in local mode</li>
+                                <li>Working with Spark in local mode</li>
+                                <li>Troubleshooting encountered problems in Spark</li>
+                            </ol>
+
+                        </div>
+
+
+
+                    </div>
+                    <div>
+
+
+                        <div class="vcollapse-toggle" data-target="#courseOne5">
+                            <p>6. Deploying Spark in different modes</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="courseOne5"
+                            style="height: 0px; transition: height 0.3s ease-in 0s; overflow: hidden;">
+
+                            <ol>
+                                <li>Installing Spark in standalone mode</li>
+                                <li>Installing Spark in YARN mode</li>
+                                <li>Installing &amp; configuring Spark on a real multi-node cluster</li>
+                                <li>Playing with Spark in cluster mode</li>
+                                <li>Best practices for Spark deployment</li>
+                            </ol>
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+                <div>
+                    <div>
+
+
+                        <div class="vcollapse-toggle" data-target="#courseTwo0">
+                            <p>7. Demystifying Apache Spark</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="courseTwo0"
+                            style="height: 0px; transition: height 0.3s ease-in 0s; overflow: hidden;">
+
+                            <ol>
+                                <li>Playing with the Spark shell</li>
+                                <li>Executing Scala and Java statements in the shell</li>
+                                <li>Understanding the Spark context and driver</li>
+                                <li>Reading data from the local filesystem</li>
+                                <li>Integrating Spark with HDFS</li>
+                                <li>Caching the data in memory for further use</li>
+                                <li>Positions</li>
+                                <li>Distributed persistence</li>
+                                <li>Testing and troubleshooting</li>
+                            </ol>
+
+                        </div>
+
+
+
+                    </div>
+                    <div>
+
+
+                        <div class="vcollapse-toggle" data-target="#courseTwo1">
+                            <p>8. Basic abstraction RDDs</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="courseTwo1"
+                            style="height: 0px; transition: height 0.3s ease-in 0s; overflow: hidden;">
+
+                            <ol>
+                                <li>What is an RDD in Spark</li>
+                                <li>How do RDDs make Spark a feature-rich framework</li>
+                                <li>Transformations in Apache Spark RDDs</li>
+                                <li>Spark RDD action and persistence</li>
+                                <li>Spark Lazy Operations – Transformation and Caching</li>
+                                <li>Fault tolerance in Spark</li>
+                                <li>Loading data and creating RDD in Spark</li>
+                                <li>Persist RDD in memory or disk</li>
+                                <li>Pair operations and key-value in Spark</li>
+                                <li>Spark integration with Hadoop</li>
+                                <li>Spark integration with Hadoop</li>
+                            </ol>
+
+                        </div>
+
+
+
+                    </div>
+                    <div>
+
+
+                        <div class="vcollapse-toggle" data-target="#courseTwo2">
+                            <p>9. Spark Streaming</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="courseTwo2"
+                            style="height: 0px; transition: height 0.3s ease-in 0s; overflow: hidden;">
+
+                            <ol>
+                                <li>The need for stream analytics</li>
+                                <li>Comparison with Storm and S4</li>
+                                <li>Real-time data processing using Spark streaming</li>
+                                <li>Operators</li>
+                                <li>Fault tolerance and check-pointing</li>
+                                <li>Stateful stream processing</li>
+                                <li>DStream and window operations</li>
+                                <li>Spark Stream execution flow</li>
+                                <li>Connection to various source systems</li>
+                                <li>Performance optimizations in Spark</li>
+                            </ol>
+
+                        </div>
+
+
+
+                    </div>
+                    <div>
+
+
+                        <div class="vcollapse-toggle" data-target="#courseTwo3">
+                            <p>10. Spark SQL</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="courseTwo3"
+                            style="height: 0px; transition: height 0.3s ease-in 0s; overflow: hidden;">
+
+                            <ol>
+                                <li>What is Spark SQL</li>
+                                <li>Apache Spark SQL features and data flow</li>
+                                <li>Spark SQL architecture and components</li>
+                                <li>Hive and Spark SQL together</li>
+                                <li>Play with DataFrames and DataSets</li>
+                                <li>Data loading techniques in Spark</li>
+                                <li>Hive queries through Spark</li>
+                                <li>Various Spark SQL DDL and DML operations</li>
+                                <li>Performance tuning in Spark</li>
+                                <li>prototypes</li>
+                            </ol>
+
+                        </div>
+
+
+
+                    </div>
+                    <div>
+
+
+                        <div class="vcollapse-toggle" data-target="#courseTwo4">
+                            <p>11. Spark MLlib and Spark GraphX</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="courseTwo4"
+                            style="height: 0px; transition: height 0.3s ease-in 0s; overflow: hidden;">
+
+                            <ol>
+                                <li>Why Machine Learning is needed</li>
+                                <li>What is Spark Machine Learning</li>
+                                <li>Various Spark ML libraries</li>
+                                <li>Algorithms for clustering, statistical analytics, classification etc.</li>
+                                <li>What is GraphX</li>
+                                <li>The need for different graph processing engines</li>
+                                <li>Graph handling using Apache Spark</li>
+                            </ol>
+
+                        </div>
+
+
+
+                    </div>
+                    <div>
+
+
+                        <div class="vcollapse-toggle" data-target="#courseTwo5">
+                            <p>12. Real Life Spark Project</p>
+                        </div>
+
+                        <div class="vcollapse-content" id="courseTwo5"
+                            style="height: 0px; transition: height 0.3s ease-in 0s; overflow: hidden;">
+
+                            <ol>
+                                <li>Live Apache Spark project based on real industry scenarios. Work on real life
+                                    use-case and handle the real-world problem with live datasets.</li>
+                            </ol>
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="course-features-section">
+            <h2 data-aos="fade-right" data-aos-animation="1000" class="aos-init">Features of Apache Spark and Scala
+                course</h2>
+
+            <div class="course-feature-container aos-init" data-aos="fade-up" data-aos-duration="1000">
+
+                <div class="feature aos-init" data-aos="flip-right">
+                    <div class="feature-img">
+                        <img src="../images/course-img/course-features/time.png" alt="image" loading="lazy">
+                    </div>
+
+                    <p>Live session</p>
+                </div>
+                <div class="feature aos-init" data-aos="flip-right">
+                    <div class="feature-img">
+                        <img src="../images/course-img/course-features/support.png" alt="feaure image" loading="lazy">
+                    </div>
+
+                    <p>Lifetime access to course with support</p>
+                </div>
+                <div class="feature aos-init" data-aos="flip-right">
+                    <div class="feature-img">
+                        <img src="../images/course-img/course-features/project.png" alt="feaure image" loading="lazy">
+                    </div>
+
+                    <p>Real time company/Live projects</p>
+                </div>
+                <div class="feature aos-init" data-aos="flip-right">
+                    <div class="feature-img">
+                        <img src="../images/course-img/course-features/certificate.png" alt="feature image"
+                            loading="lazy">
+                    </div>
+
+                    <p>Certificate</p>
+                </div>
+                <div class="feature aos-init" data-aos="flip-right">
+                    <div class="feature-img">
+                        <img src="../images/course-img/course-features/brainstorming.png" alt="feaure image"
+                            loading="lazy">
+                    </div>
+
+                    <p>2- Months of live Internship</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="companies">
+            <h1 data-aos="zoom-in" class="aos-init">Companies you can expect <br> when you get Apache Spark and Scala
+                -certified with us</h1>
+
+            <div class="companies-img aos-init" data-aos="fade-up" data-aos-duration="1000">
+                <img src="../images/companies.png" alt="companies image" loading="lazy">
+            </div>
+        </div>
+    </div>
+
+    <!-- footer  -->
+    <footer>
+        <div class="footer-logo">
+            <a href="/">
+                <img src="../images/SK-Logo-white-logo.png" alt="logo">
+            </a>
+        </div>
+        <div>
+            <p>&copy; 2023 Designershravan.in.</p>
+        </div>
+
+        <div class="rules-regulations">
+            <a href="../privacy-policy">Privacy</a>
+            <a href="../terms-conditions">Terms & conditions</a>
+            <a href="../refund-policy">Refund policy</a>
+        </div>
+    </footer>
+
+
+    <!-- js files  -->
+    <script src="../js/getData.js"></script>
+    <script src="../js/common.js"></script>
+    <!-- <script src="../js/getCourseDetail.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script src="../js/jquery.toast.js"></script>
+    <script src="../js/countrySelect.js"></script>
+    <script src="../js/vcollapse.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="../js/whatsapp/floating-wpp.js"></script>
+    <script src="../js/whatsapp/whatsapp-chat.js"></script>
+
+    <!-- AOS initialization code  -->
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 2000,
+        });
+
+        $(".course-contents > div").vCollapse({
+            any: true,
+            onLoad: -1,
+            speed: 300,
+            easing: "ease-in",
+        });
+
+        // modal
+        (function () {
+            emailjs.init("huB7HdbtLQHtlBqmr");
+        })();
+
+        $(document).ready(function () {
+            $(
+                ".course-detail-header .course-info .modal .send-info .country-select #country_selector"
+            ).countrySelect({
+                defaultCountry: "us",
+                defaultStyling: "inside",
+            });
+        });
+
+        const handleForm = () => {
+            event.preventDefault();
+
+            const form = document.getElementById("send-message-form");
+
+            const name = form.name.value;
+            const email = form.email.value;
+
+            const country = $("#country_selector").countrySelect(
+                "getSelectedCountryData"
+            ).name;
+
+            const telephone = form.phoneField.value;
+
+            const course = form.course.value;
+
+            const message = form.message.value;
+
+            const emailParams = {
+                from_name: name,
+                email_id: email,
+                country_name: country,
+                telephone: telephone,
+                course_name: course,
+                message: message,
+            };
+
+            emailjs
+                .send(
+                    "service_hcm5p5a",
+                    "template_o0io9dy",
+                    emailParams,
+                    "huB7HdbtLQHtlBqmr"
+                )
+                .then((res) => {
+                    $.toast({
+                        text: "Your email sent successfully",
+                        showHideTransition: "slide",
+                        bgColor: "#2ecc71",
+                        textColor: "#fff",
+                        allowToastClose: false,
+                        hideAfter: 5000,
+                        stack: 5,
+                        textAlign: "center",
+                        position: "top-center",
+                    });
+                    form.reset();
+                })
+                .catch((err) => {
+                    $.toast({
+                        text: "Sorry. Something wrong!",
+                        showHideTransition: "slide",
+                        bgColor: "#e74c3c",
+                        textColor: "#fff",
+                        allowToastClose: false,
+                        hideAfter: 5000,
+                        stack: 5,
+                        textAlign: "center",
+                        position: "top-center",
+                    });
+
+                    form.reset();
+                });
+
+
+
+        }
+
+        document.getElementById("submit-btn").addEventListener("click", handleForm);
+    </script>
+
+
+
+</body>
+
+</html>
