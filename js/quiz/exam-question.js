@@ -184,7 +184,7 @@ const quizShow = () => {
 
           const optionName = document.createElement("p");
           optionName.innerHTML = `
-          <span class="option-no">${key}</span> <p>${value}</p>
+          <span class="option-no">${key}</span> <p class="option">${value}</p>
           `;
 
           //   insert option one by one

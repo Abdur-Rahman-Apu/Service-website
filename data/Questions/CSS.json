@@ -23,16 +23,16 @@
     "question": "Which of the following tag is used to embed css in html page?",
     "options": [
       {
-        "A": "<css>"
+        "A": "css"
       },
       {
-        "B": "<!DOCTYPE html>"
+        "B": "!DOCTYPE html"
       },
       {
-        "C": "<script>"
+        "C": "script"
       },
       {
-        "D": "<style>"
+        "D": "style"
       }
     ],
     "correct_ans": "D"
@@ -118,16 +118,16 @@
     "question": "Which of the following type of HTML tag is used to define an internal style sheet?",
     "options": [
       {
-        "A": "<script>"
+        "A": "script"
       },
       {
-        "B": "<link>"
+        "B": "link"
       },
       {
-        "C": "<class>"
+        "C": "class"
       },
       {
-        "D": "<style>"
+        "D": "style"
       }
     ],
     "correct_ans": "D"
@@ -821,16 +821,16 @@
     "question": "The HTML attribute used to define the internal stylesheet is -",
     "options": [
       {
-        "A": "<style>"
+        "A": "style"
       },
       {
         "B": "style"
       },
       {
-        "C": "<link>"
+        "C": "link"
       },
       {
-        "D": "<script>"
+        "D": "script"
       }
     ],
     "correct_ans": "A"

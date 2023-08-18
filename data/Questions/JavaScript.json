@@ -875,7 +875,7 @@
   },
   {
     "question_no": 47,
-    "question": "In the following line of code, what we will call the datatype written in brackets? <br> article[datatype]=assignment_value;",
+    "question": "In the following line of code, what we will call the datatype written in brackets? <br/> article[datatype]=assignment_value;",
     "options": [
       {
         "A": "An String"
@@ -913,7 +913,7 @@
   },
   {
     "question_no": 49,
-    "question": "In the following given line of code, the prototype representing the_____ <br> functionx(){};  ",
+    "question": "In the following given line of code, the prototype representing the_____ <br/> functionx(){};  ",
     "options": [
       {
         "A": "Function x"
@@ -1103,7 +1103,7 @@
   },
   {
     "question_no": 59,
-    "question": "Which one of the given options can be considered as a code equivalent to the following code? <br> var o =newObject();  ",
+    "question": "Which one of the given options can be considered as a code equivalent to the following code? <br/> var o =newObject();  ",
     "options": [
       {
         "A": "var o= new Object;"
@@ -1239,16 +1239,16 @@
     "question": " Which HTML element is used to put the JavaScript code?",
     "options": [
       {
-        "A": "<javascript>"
+        "A": "javascript"
       },
       {
-        "B": "<js>"
+        "B": "js"
       },
       {
-        "C": "<scripting>"
+        "C": "scripting"
       },
       {
-        "D": "<script>"
+        "D": "script"
       }
     ],
     "correct_ans": "D"

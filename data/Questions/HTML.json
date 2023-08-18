@@ -58,19 +58,19 @@
   },
   {
     "question_no": 4,
-    "question": "What is the correct syntax of doctype in HTML5?",
+    "question": "How many sizes of headers are available in HTML by default?",
     "options": [
       {
-        "A": "`</doctype html>`"
+        "A": "5"
       },
       {
-        "B": "`<doctype html>`"
+        "B": "7"
       },
       {
-        "C": "`<doctype html!>`"
+        "C": "4"
       },
       {
-        "D": "`<!doctype html>`"
+        "D": "6"
       }
     ],
     "correct_ans": "D"
@@ -191,19 +191,19 @@
   },
   {
     "question_no": 11,
-    "question": "How do we write comments in HTML?",
+    "question": "What is the smallest header in HTML by default?",
     "options": [
       {
-        "A": "'</…….>'"
+        "A": "h5"
       },
       {
-        "B": "'<!……>'"
+        "B": "'h6"
       },
       {
-        "C": "'</……/>'"
+        "C": "h1"
       },
       {
-        "D": "'<…….!>'"
+        "D": "h2"
       }
     ],
     "correct_ans": "B"
@@ -270,16 +270,16 @@
     "question": "Which HTML tag is used for making character appearance bold?",
     "options": [
       {
-        "A": "'<u>content</u>'"
+        "A": "u"
       },
       {
-        "B": "'<b>content</b>'"
+        "B": "b"
       },
       {
-        "C": "'<br>content</br>'"
+        "C": "br"
       },
       {
-        "D": "'<i>content</i>'"
+        "D": "i"
       }
     ],
     "correct_ans": "B"
@@ -289,16 +289,16 @@
     "question": "Which HTML tag is used to insert an image?",
     "options": [
       {
-        "A": "'<img url=”htmllogo.jpg” />'"
+        "A": "image"
       },
       {
-        "B": "'<img alt=”htmllogo.jpg” />'"
+        "B": "pic"
       },
       {
-        "C": "'<img alt=”htmllogo.jpg” />'"
+        "C": "img"
       },
       {
-        "D": "'<img link=”htmllogo.jpg” />'"
+        "D": "picture"
       }
     ],
     "correct_ans": "C"
@@ -457,7 +457,7 @@
   },
   {
     "question_no": 25,
-    "question": "What is the use of <hr/> tag in HTML?",
+    "question": "What is the use of hr tag in HTML?",
     "options": [
       {
         "A": "For making content appearance italics"
@@ -824,13 +824,13 @@
         "A": "img"
       },
       {
-        "B": "<pic>"
+        "B": "pic"
       },
       {
-        "C": "<image>"
+        "C": "image"
       },
       {
-        "D": "<picture>"
+        "D": "picture"
       }
     ],
     "correct_ans": "C"
@@ -862,7 +862,7 @@
         "A": "table"
       },
       {
-        "B": "<tables>"
+        "B": "tables"
       },
       {
         "C": "tr"
@@ -878,16 +878,16 @@
     "question": "Each table cell is defined by a ____ tag.",
     "options": [
       {
-        "A": "'<cell> ... </cell>'"
+        "A": "cell"
       },
       {
-        "B": "'<tr> ... </tr>'"
+        "B": "tr"
       },
       {
-        "C": "'<th> ... </th>'"
+        "C": "th"
       },
       {
-        "D": "'<td> ... </td>'"
+        "D": "td"
       }
     ],
     "correct_ans": "D"
@@ -897,16 +897,16 @@
     "question": "Each table row is defined by a ____ tag.",
     "options": [
       {
-        "A": "'<cell> ... </cell>'"
+        "A": "cell"
       },
       {
-        "B": "'<tr> ... </tr>'"
+        "B": "tr"
       },
       {
-        "C": "'<th> ... </th>'"
+        "C": "th"
       },
       {
-        "D": "'<td> ... </td>'"
+        "D": "td"
       }
     ],
     "correct_ans": "B"
@@ -916,16 +916,16 @@
     "question": "Each table header is defined by a ____ tag.",
     "options": [
       {
-        "A": "'<cell> ... </cell>'"
+        "A": "cell"
       },
       {
-        "B": "'<tr> ... </tr>'"
+        "B": "tr"
       },
       {
-        "C": "'<th> ... </th>'"
+        "C": "th"
       },
       {
-        "D": "'<td> ... </td>'"
+        "D": "td"
       }
     ],
     "correct_ans": "C"
@@ -935,16 +935,16 @@
     "question": "Which tag is a block-level element?",
     "options": [
       {
-        "A": "'<block> ... </block>'"
+        "A": "block"
       },
       {
-        "B": "'<b> ... </b>'"
+        "B": "b"
       },
       {
-        "C": "'<div> ... </div>'"
+        "C": "div"
       },
       {
-        "D": "'<divx> ... </divx>'"
+        "D": "divx"
       }
     ],
     "correct_ans": "C"
