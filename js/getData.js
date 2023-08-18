@@ -68,9 +68,9 @@ const courses = (data, showData) => {
                         <div class="course-banner">
                             <img src=${bannerImg} alt="image" />
                         </div>
-                            <h1 class="course-title">${courseName
+                            <p class="course-title">${courseName
                               .split(" ")
-                              .join("-")}</h1>
+                              .join("-")}</p>
                         </div>    
                     </a>
             `;
@@ -102,7 +102,7 @@ const featuredCourses = (data, showData) => {
                         <div class="course-banner">
                             <img src=${bannerImg} alt="image" />
                         </div>
-                            <h1 class="course-title">${courseName}</h1>
+                            <p class="course-title">${courseName}</p>
                         </div>    
                     </a>
             `;

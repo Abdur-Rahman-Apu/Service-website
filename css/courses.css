@@ -8,8 +8,6 @@
   padding: 0 3%;
 }
 
-
-
 .course-card {
   min-height: fit-content;
   background-color: #fff;
@@ -50,16 +48,14 @@
   border-top-right-radius: 25px;
 }
 
-
 .course-title {
   font-size: 16px;
+  font-weight: bold;
   margin: 20px 0;
   text-align: center;
   padding: 0 20px;
   color: black;
 }
-
-
 
 @media screen and (max-width: 900px) {
   .course-container {
