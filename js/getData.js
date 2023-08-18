@@ -58,8 +58,7 @@ const courses = (data, showData) => {
 
     // course parent div
 
-    const courseDetailPath =
-      "./courses/" + courseName.split(" ").join("-") + ".html";
+    const courseDetailPath = "./courses/" + courseName.split(" ").join("-");
 
     const courseDiv = document.createElement("div");
     courseDiv.setAttribute("data-aos", "fade-up");
@@ -90,12 +89,11 @@ const featuredCourses = (data, showData) => {
     const findData = data.find(
       (course) => course?.shortName.toLowerCase() == item.toLowerCase()
     );
-    const { bannerImg, courseName, id } = findData;
+    const { bannerImg, courseName } = findData;
 
     // course parent div
 
-    const courseDetailPath =
-      "./courses/" + courseName.split(" ").join("-") + ".html";
+    const courseDetailPath = "./courses/" + courseName.split(" ").join("-");
 
     const courseDiv = document.createElement("div");
     courseDiv.setAttribute("data-aos", "fade-up");
