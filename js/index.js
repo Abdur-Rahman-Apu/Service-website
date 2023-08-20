@@ -86,7 +86,7 @@ const courseSection = document.querySelector(".featured-courses");
 const viewAllCourseBtn = document.createElement("a");
 viewAllCourseBtn.classList.add("view-course-btn");
 viewAllCourseBtn.innerText = "view all courses";
-viewAllCourseBtn.setAttribute("href", "courses");
+viewAllCourseBtn.setAttribute("href", "all-courses");
 courseSection.appendChild(viewAllCourseBtn);
 
 getAllData("data/course.json", featuredCourses, [
