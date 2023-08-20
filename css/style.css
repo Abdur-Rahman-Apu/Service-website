@@ -17,6 +17,56 @@ body {
   scroll-behavior: smooth;
 }
 
+/* modal  */
+.modal {
+  max-width: 60%;
+}
+
+.modal h1 {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+.blocker {
+  z-index: 200;
+}
+
+.modal .scan-img {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.modal .scan-img img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.modal p {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  /* color: #2ecc71; */
+}
+
+.send-btn {
+  background-color: #f5df4e;
+  width: fit-content;
+  height: 60px;
+  margin: 30px auto;
+  padding: 20px 35px;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #000;
+  box-shadow: 0 0 20px #eee;
+  display: block;
+  border-radius: 30px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* navbar  */
+
 .navbar .contact a {
   color: #000;
 }
@@ -1077,6 +1127,14 @@ header .profile-img {
 }
 
 @media screen and (max-width: 700px) {
+  .modal {
+    max-width: 100%;
+  }
+
+  .modal h1 {
+    font-size: 20px;
+  }
+
   .profile-img img {
     width: 80%;
     padding: 6px;
@@ -1161,6 +1219,24 @@ header .profile-img {
 }
 
 @media screen and (max-width: 440px) {
+  .modal h1 {
+    font-size: 12px;
+  }
+
+  .modal p {
+    font-size: 10px;
+  }
+
+  .modal .scan-img {
+    width: 100%;
+  }
+
+  .send-btn {
+    height: fit-content;
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+
   .intro h1 {
     font-size: 25px;
     padding: 0 10px;
