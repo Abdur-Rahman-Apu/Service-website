@@ -21,6 +21,9 @@
 
 <body>
 
+    <!-- preloader  -->
+    <div id="preloader"></div>
+
     <!-- scroll-to-top  -->
     <div class="up">
         <div class="scroll-to-top">
@@ -131,6 +134,17 @@
     <script src="./js/common.js"></script>
     <script src="./js/getData.js"></script>
     <script src="./js/caseDetails.js"></script>
+
+    <script>
+        // preloader 
+        const preloader = document.getElementById('preloader');
+
+        window.addEventListener('load', function () {
+
+            preloader.style.display = 'none'
+
+        })
+    </script>
 
 </body>
 
