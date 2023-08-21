@@ -21,6 +21,10 @@
 
 <body>
 
+    <!-- preloader  -->
+    <div id="preloader"></div>
+
+
     <!-- scroll-to-top  -->
     <div class="up">
         <div class="scroll-to-top">
@@ -402,6 +406,15 @@
 
     <script>
         AOS.init();
+
+        // preloader 
+        const preloader = document.getElementById('preloader');
+
+        window.addEventListener('load', function () {
+
+            preloader.style.display = 'none'
+
+        })
     </script>
 
 </body>
