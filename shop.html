@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Unlocking creativity! Your go-to digital solution destination for exceptional design, marketing, and digital solutions. Let's bring your ideas to life">
+
+    <title>Shravan Kumar - Learn to Earn</title>
+
+    <link rel="shortcut icon" href="./images/sk.webp" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./css/floating-wpp.css" />
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/scroll-up.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/shop.css">
+
+
+</head>
+
+<body>
+
+    <!-- scroll-to-top  -->
+    <div class="up">
+        <div class="scroll-to-top">
+            <i class="fa-solid fa-arrow-up"></i>
+        </div>
+
+    </div>
+
+
+    <!-- floating whatsapp chat  -->
+    <div class="floating-wpp"></div>
+
+
+
+    <!-- modal for scan bar code  -->
+    <div id="ex1" class="modal">
+        <div>
+            <h1>please pay to confirm your seat</h1>
+            <hr>
+
+            <div class="scan-img">
+                <img src="./images/workshop/pay-bar-code.JPG" alt="bar code image">
+            </div>
+
+            <p>Please scan the QR code to pay now. Pay only Rs. 1000</p>
+
+            <a href="./transaction-details.html" class="send-btn">Send Details</a>
+        </div>
+    </div>
+
+
+    <!-- main content started  -->
+    <main>
+
+        <!-- navbar  -->
+        <div class="navbar">
+            <div class="logo">
+                <a href="/"><img src="./images/SK-Logo-yellow-black.png" alt="logo" loading="lazy"></a>
+            </div>
+            <ul class="menu">
+                <li><a href="/" aria-label="Home">Home</a></li>
+                <li><a href="/" aria-label="About">About</a></li>
+                <li><a href="/" aria-label="Services">Services</a></li>
+                <li><a href="case-studies" aria-label="Case Study">Case Study</a></li>
+                <li><a href="all-courses" aria-label="Courses">Courses</a></li>
+                <li><a href="./quiz" aria-label="Quiz">Quiz</a></li>
+                <li><a href="./shop.html" class="active" aria-label="Shop">Shop</a></li>
+                <li><a href="blog" aria-label="Blog">Blog</a></li>
+                <li><a href="workshop" aria-label="Workshop">Workshop</a></li>
+                <li><a href="contact-us" aria-label="Contact">Contact</a></li>
+            </ul>
+
+
+            <div class="contact">
+                <div class="humburger" onclick="toggleMenu()">
+                    <i class="fa-solid fa-bars" id="humburger-icon"></i>
+
+                    <span></span>
+
+                    <i class="fa-regular fa-circle-xmark" id="close-icon"></i>
+
+                    <ul class="humburger-menus">
+                        <li><a href="/" aria-label="Home">Home</a></li>
+                        <li><a href="/" aria-label="About">About</a></li>
+                        <li><a href="/" aria-label="Services">Services</a></li>
+                        <li><a href="case-studies" aria-label="Case Study">Case Study</a></li>
+                        <li><a href="all-courses" aria-label="Courses">Courses</a></li>
+                        <li><a href="./quiz" aria-label="Quiz">Quiz</a></li>
+                        <li><a href="./shop.html" class="active" aria-label="Shop">Shop</a></li>
+                        <li><a href="blog" aria-label="Blog">Blog</a></li>
+                        <li><a href="workshop" aria-label="Workshop">Workshop</a></li>
+                        <li><a href="contact-us" aria-label="Contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <a href="https://www.facebook.com/" aria-label="Facebook"><i
+                            class="fa-brands fa-facebook facebook"></i></a>
+                    <p>Facebook</p>
+                </div>
+                <div>
+                    <a href="https://twitter.com/?lang=en" aria-label="Twitter"><i
+                            class="fa-brands fa-twitter twitter"></i></a>
+                    <p>Twitter</p>
+                </div>
+                <div>
+                    <a href="https://www.instagram.com/" aria-label="Instagram"><i
+                            class="fa-brands fa-instagram instagram"></i></a>
+                    <p>Instagram</p>
+                </div>
+                <div>
+                    <a href="https://bd.linkedin.com/" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin linkedin"></i>
+                    </a>
+                    <p>LinkedIn</p>
+                </div>
+                <div>
+                    <a href="https://www.behance.net/" aria-label="Behance"><i
+                            class="fa-brands fa-square-behance behance"></i></a>
+                    <p>Behance</p>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <!-- main content  -->
+        <div class="main-content">
+            <h1>Shop</h1>
+
+            <div class="courses">
+
+                <!-- course 1 -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./images/course-img/course-banner/python.png" alt="Python course banner">
+                    </div>
+
+                    <div class="card-content">
+                        <p class="card-title">Python Certification Course</p>
+
+                        <div class="action">
+                            <p class="price">Price: <span class="amount">$100</span></p>
+
+                            <a href="#ex1" rel="modal:open" class="btn">Buy</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- course 2 -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./images/course-img/course-banner/android-development.png" alt=" course banner">
+                    </div>
+
+                    <div class="card-content">
+                        <p class="card-title">Android Certification Course</p>
+
+                        <div class="action">
+                            <p class="price">Price: <span class="amount">$100</span></p>
+
+                            <a href="#" class="btn">Buy</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- course 3 -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./images/course-img/course-banner/ADOBE-XD.jpg" alt=" course banner">
+                    </div>
+
+                    <div class="card-content">
+                        <p class="card-title">Adobe-xd Certification Course</p>
+
+                        <div class="action">
+                            <p class="price">Price: <span class="amount">$100</span></p>
+
+                            <a href="#" class="btn">Buy</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- course 4 -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./images/course-img/course-banner/figma.jpg" alt=" course banner">
+                    </div>
+
+                    <div class="card-content">
+                        <p class="card-title">Figma Certification Course</p>
+
+                        <div class="action">
+                            <p class="price">Price: <span class="amount">$100</span></p>
+
+                            <a href="#" class="btn">Buy</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- course 5 -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./images/course-img/course-banner/career.png" alt=" course banner">
+                    </div>
+
+                    <div class="card-content">
+                        <p class="card-title">Career Certification Course</p>
+
+                        <div class="action">
+                            <p class="price">Price: <span class="amount">$100</span></p>
+
+                            <a href="#" class="btn">Buy</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- course 6 -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./images/course-img/course-banner/chat-GPT.png" alt=" course banner">
+                    </div>
+
+                    <div class="card-content">
+                        <p class="card-title">Chat-GPT Certification Course</p>
+
+                        <div class="action">
+                            <p class="price">Price: <span class="amount">$100</span></p>
+
+                            <a href="#" class="btn">Buy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+    <!-- footer part start  -->
+    <footer>
+        <div class="footer-logo">
+            <a href="./">
+                <img src="./images/SK-Logo-white-logo.png" height="100" width="104"
+                    srcset="./images/small-white.png 600w" alt="logo" loading="lazy">
+            </a>
+        </div>
+        <div>
+            <p>&copy; 2023 Designershravan.in.</p>
+        </div>
+
+        <div class="rules-regulations">
+            <a href="./privacy-policy">Privacy</a>
+            <a href="./terms-conditions">Terms & conditions</a>
+            <a href="./refund-policy">Refund policy</a>
+        </div>
+    </footer>
+
+
+    <!-- js files  -->
+
+    <script src="https://kit.fontawesome.com/3b7a96cd6e.js" crossorigin="anonymous" defer></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" defer></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./js/common.js" defer></script>
+    <script src="./js/getData.js" defer></script>
+    <script src="./js/index.js" defer></script>
+    <script src="./js/whatsapp/floating-wpp.js"></script>
+    <script src="./js/whatsapp/whatsapp-chat.js"></script>
+
+    <!-- slider code  -->
+    <script>
+
+        jQuery.event.special.touchstart = {
+            setup: function (_, ns, handle) {
+                this.addEventListener("touchstart", handle, { passive: !ns.includes("noPreventDefault") });
+            }
+        };
+        jQuery.event.special.touchmove = {
+            setup: function (_, ns, handle) {
+                this.addEventListener("touchmove", handle, { passive: !ns.includes("noPreventDefault") });
+            }
+        };
+        jQuery.event.special.wheel = {
+            setup: function (_, ns, handle) {
+                this.addEventListener("wheel", handle, { passive: true });
+            }
+        };
+        jQuery.event.special.mousewheel = {
+            setup: function (_, ns, handle) {
+                this.addEventListener("mousewheel", handle, { passive: true });
+            }
+        };
+
+
+        $(document).ready(function () {
+            $('.floating-wpp .floating-wpp-input-message textarea').attr('aria-label', 'message');
+
+            $('.testimonial-section .owl-theme .owl-dots .owl-dot').attr('aria-label', 'nav dot');
+        })
+
+        //aos initialization
+        AOS.init();
+
+        // testimonial section slider 
+        $('.testimonial-container .owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            autoplayTimeout: 4000,
+            responsive: {
+                0: {
+                    items: 1
+                }
+            }
+        })
+
+
+        // display section slider 
+        $('.display-section .owl-carousel').owlCarousel({
+            loop: true,
+            dots: false,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            margin: 10,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+
+                },
+                1000: {
+                    items: 1,
+
+                }
+            }
+        })
+
+
+
+    </script>
+
+
+</body>
+
+</html>
