@@ -25,6 +25,9 @@
 
 <body>
 
+    <!-- loader  -->
+    <div id="preloader"></div>
+
 
     <!-- scroll-to-top  -->
     <div class="up">
@@ -35,6 +38,9 @@
 
     <!-- floating whatsapp chat  -->
     <div class="floating-wpp"></div>
+
+
+
 
 
     <!-- navbar  -->
@@ -555,9 +561,17 @@
 
         AOS.init();
 
-        (function () {
-            emailjs.init("huB7HdbtLQHtlBqmr");
-        })();
+
+        const preloader = document.getElementById('preloader');
+
+        window.addEventListener('load', function () {
+            preloader.style.display = 'none'
+        })
+
+
+            (function () {
+                emailjs.init("huB7HdbtLQHtlBqmr");
+            })();
 
 
         $(document).ready(function () {
