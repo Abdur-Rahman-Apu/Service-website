@@ -18,53 +18,6 @@ body {
   /* background-color: rgba(245, 223, 78, 0.1); */
 }
 
-.modal {
-  max-width: 60%;
-}
-
-.modal h1 {
-  text-align: center;
-  text-transform: uppercase;
-  margin: 10px 0;
-}
-.blocker {
-  z-index: 200;
-}
-
-.modal .scan-img {
-  width: 50%;
-  margin: 0 auto;
-}
-
-.modal .scan-img img {
-  width: 100%;
-  object-fit: cover;
-}
-
-.modal p {
-  font-size: 15px;
-  font-weight: bold;
-  text-align: center;
-  /* color: #2ecc71; */
-}
-
-.send-btn {
-  background-color: #f5df4e;
-  width: fit-content;
-  height: 60px;
-  margin: 30px auto;
-  padding: 20px 35px;
-  transition: 0.5s;
-  background-size: 200% auto;
-  color: #000;
-  box-shadow: 0 0 20px #eee;
-  display: block;
-  border-radius: 30px;
-  text-decoration: none;
-  text-align: center;
-  font-weight: bold;
-}
-
 .main-content {
   padding: 10px 6%;
 }
@@ -90,13 +43,18 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 30px;
-  margin: 30px 0;
+  margin: 60px 0;
 }
 
 .card {
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 5px #eee;
 }
 
 .card-image {
@@ -117,6 +75,8 @@ body {
   text-align: center;
   font-weight: bold;
   font-size: 20px;
+  min-height: 120px;
+  padding-top: 1rem;
 }
 
 .price {
@@ -141,33 +101,8 @@ body {
 }
 
 @media screen and (max-width: 700px) {
-  .modal {
-    max-width: 100%;
-  }
-
-  .modal h1 {
-    font-size: 20px;
-  }
 }
 @media screen and (max-width: 440px) {
-  .modal h1 {
-    font-size: 12px;
-  }
-
-  .modal p {
-    font-size: 10px;
-  }
-
-  .modal .scan-img {
-    width: 100%;
-  }
-
-  .send-btn {
-    height: fit-content;
-    padding: 10px 20px;
-    font-size: 12px;
-  }
-
   .main-content h1 {
     font-size: 30px;
   }
