@@ -14,12 +14,30 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="../css/floating-wpp.css" />
+    <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="../css/book-detail.css" />
 
     <script src="https://kit.fontawesome.com/3b7a96cd6e.js" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
+
+    <!-- modal for scan bar code  -->
+    <div id="ex1" class="modal">
+        <div>
+            <h1>please pay to confirm your seat</h1>
+            <hr>
+
+            <div class="scan-img">
+                <img src="../images/workshop/pay-bar-code.JPG" alt="bar code image">
+            </div>
+
+            <p>Please scan the QR code to pay now. Pay only Rs. 700</p>
+
+            <a href="../transaction-details.html" class="send-btn">Send Details</a>
+        </div>
+    </div>
 
 
     <!-- scroll-to-top  -->
@@ -103,17 +121,42 @@
 
     <!-- book detail section  -->
     <main class="book-detail-section">
+
+
+        <!-- book detail header  -->
         <div class="book-detail-header">
             <div class="book-info">
                 <h1 class="book-title">5 Simple Steps to Start Your Online Business</h1>
-                <span>-Shravan Kumar</span>
+                <p>by <span class="author-name">Shravan Kumar</span> (Author)</p>
+
+
+                <p class="rating">
+                    <span>4.6</span>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-empty" aria-hidden="true"></i>
+                </p>
+
+                <p class="book-description">
+                    In the world of online sales and ecommerce, that is simply no longer the case as the demand for
+                    ecommerce and online businesses has exploded. Even in the last few years, the growth of ecommerce
+                    has been tremendous. From 2019 to 2021, ecommerce sales grew more than 50%, representing 13.2% of
+                    all retail sales in the U.S.Today, anyone can start and scale an online business, regardless of
+                    professional background or past entrepreneurial experience.
+                </p>
+
+                <a href="#ex1" rel="modal:open" class="btn">Purchase</a>
+
             </div>
 
             <div class="book-image">
                 <img src="../images/books/ONLINE BUSINESS.jpg" alt="5 Simple Steps to Start Your Online Business book">
             </div>
-
         </div>
+
+
     </main>
 
 
@@ -137,15 +180,12 @@
 
 
     <!-- js files  -->
-    <script src="../js/getData.js"></script>
+
     <script src="../js/common.js"></script>
-    <!-- <script src="../js/getCourseDetail.js"></script> -->
+
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
-    <script src="../js/jquery.toast.js"></script>
-    <script src="../js/countrySelect.js"></script>
-    <script src="../js/vcollapse.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="../js/whatsapp/floating-wpp.js"></script>
     <script src="../js/whatsapp/whatsapp-chat.js"></script>
@@ -157,96 +197,7 @@
             duration: 2000,
         });
 
-        $(".course-contents > div").vCollapse({
-            any: true,
-            onLoad: -1,
-            speed: 300,
-            easing: "ease-in",
-        });
 
-        // modal
-        (function () {
-            emailjs.init("huB7HdbtLQHtlBqmr");
-        })();
-
-        $(document).ready(function () {
-            $(
-                ".course-detail-header .course-info .modal .send-info .country-select #country_selector"
-            ).countrySelect({
-                defaultCountry: "us",
-                defaultStyling: "inside",
-            });
-        });
-
-        const handleForm = () => {
-            event.preventDefault();
-
-            const form = document.getElementById("send-message-form");
-
-            const name = form.name.value;
-            const email = form.email.value;
-
-            const country = $("#country_selector").countrySelect(
-                "getSelectedCountryData"
-            ).name;
-
-            const telephone = form.phoneField.value;
-
-            const course = form.course.value;
-
-            const message = form.message.value;
-
-            const emailParams = {
-                from_name: name,
-                email_id: email,
-                country_name: country,
-                telephone: telephone,
-                course_name: course,
-                message: message,
-            };
-
-            emailjs
-                .send(
-                    "service_hcm5p5a",
-                    "template_o0io9dy",
-                    emailParams,
-                    "huB7HdbtLQHtlBqmr"
-                )
-                .then((res) => {
-                    $.toast({
-                        text: "Your email sent successfully",
-                        showHideTransition: "slide",
-                        bgColor: "#2ecc71",
-                        textColor: "#fff",
-                        allowToastClose: false,
-                        hideAfter: 5000,
-                        stack: 5,
-                        textAlign: "center",
-                        position: "top-center",
-                    });
-                    form.reset();
-                })
-                .catch((err) => {
-                    $.toast({
-                        text: "Sorry. Something wrong!",
-                        showHideTransition: "slide",
-                        bgColor: "#e74c3c",
-                        textColor: "#fff",
-                        allowToastClose: false,
-                        hideAfter: 5000,
-                        stack: 5,
-                        textAlign: "center",
-                        position: "top-center",
-                    });
-
-                    form.reset();
-                });
-
-
-
-        }
-
-        document.getElementById("submit-btn").addEventListener("click", handleForm);
     </script>
 
 
