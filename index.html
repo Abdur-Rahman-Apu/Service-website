@@ -123,7 +123,7 @@
 
 <body>
 
-
+    <div id="cover"></div>
 
     <!-- scroll-to-top  -->
     <div class="up">
@@ -903,23 +903,19 @@
 
     <!-- js files  -->
 
-    <script src="https://kit.fontawesome.com/3b7a96cd6e.js" crossorigin="anonymous" defer></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" defer></script>
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js" defer></script>
-    <script src="./js/carousel/owl.carousel.min.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="./js/common.js" defer></script>
-    <script src="./js/getData.js" defer></script>
-    <script src="./js/index.js" defer></script>
-    <script src="./js/caseStudy.js" defer></script>
-    <script src="./js/whatsapp/floating-wpp.js"></script>
-    <script src="./js/whatsapp/whatsapp-chat.js"></script>
 
     <!-- slider code  -->
     <script>
+
+        $(document).ready(function () {
+            $('.floating-wpp .floating-wpp-input-message textarea').attr('aria-label', 'message');
+
+            $('.testimonial-section .owl-theme .owl-dots .owl-dot').attr('aria-label', 'nav dot');
+
+            $(window).on('load', function () {
+                $("#cover").hide();
+            });
+        });
 
         jQuery.event.special.touchstart = {
             setup: function (_, ns, handle) {
@@ -943,11 +939,7 @@
         };
 
 
-        $(document).ready(function () {
-            $('.floating-wpp .floating-wpp-input-message textarea').attr('aria-label', 'message');
 
-            $('.testimonial-section .owl-theme .owl-dots .owl-dot').attr('aria-label', 'nav dot');
-        })
 
         //aos initialization
         AOS.init();
@@ -991,6 +983,22 @@
 
 
     </script>
+
+
+    <script src="https://kit.fontawesome.com/3b7a96cd6e.js" crossorigin="anonymous" defer></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" defer></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js" defer></script>
+    <script src="./js/carousel/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./js/common.js" defer></script>
+    <script src="./js/getData.js" defer></script>
+    <script src="./js/index.js" defer></script>
+    <script src="./js/caseStudy.js" defer></script>
+    <script src="./js/whatsapp/floating-wpp.js"></script>
+    <script src="./js/whatsapp/whatsapp-chat.js"></script>
 
 
 </body>
