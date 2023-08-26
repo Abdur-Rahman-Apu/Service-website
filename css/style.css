@@ -17,15 +17,6 @@ body {
   scroll-behavior: smooth;
 }
 
-#preloader {
-  background: #1b1d21 url("../images/loader.gif") no-repeat center center;
-  background-size: 30%;
-  height: 100vh;
-  width: 100%;
-  position: fixed;
-  z-index: 100;
-}
-
 /* modal  */
 .modal {
   max-width: 60%;
@@ -1228,10 +1219,6 @@ header .profile-img {
 }
 
 @media screen and (max-width: 440px) {
-  #preloader {
-    background-size: 50%;
-  }
-
   .modal h1 {
     font-size: 12px;
   }
