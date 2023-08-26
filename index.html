@@ -912,8 +912,13 @@
 
             $('.testimonial-section .owl-theme .owl-dots .owl-dot').attr('aria-label', 'nav dot');
 
-            $(window).on('load', function () {
-                $("#cover").hide();
+            // preloader 
+            const preloader = document.getElementById('cover');
+
+            window.addEventListener('load', function () {
+
+                preloader.style.display = 'none'
+
             });
         });
 
