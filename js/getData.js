@@ -54,7 +54,7 @@ const courses = (data, showData) => {
   }
 
   for (i = 0; i < showData; i++) {
-    const { bannerImg, courseName, id } = data[i];
+    const { bannerImg, courseName } = data[i];
 
     // course parent div
 
@@ -80,37 +80,4 @@ const courses = (data, showData) => {
 
     courseContainer.appendChild(courseDiv);
   }
-};
-
-// home page featured courses
-
-const featuredCourses = (data, showData) => {
-  showData.forEach((item) => {
-    const findData = data.find(
-      (course) => course?.shortName.toLowerCase() == item.toLowerCase()
-    );
-    const { bannerImg, courseName } = findData;
-
-    // course parent div
-
-    const courseDetailPath = "./courses/" + courseName.split(" ").join("-");
-
-    const courseDiv = document.createElement("div");
-    courseDiv.setAttribute("data-aos", "fade-up");
-    courseDiv.setAttribute("data-aos-duration", 3000);
-    courseDiv.classList.add("course-card");
-    courseDiv.innerHTML = `
-                    <a href=${courseDetailPath}>
-                        <div class="course-banner">
-                            <img src=${bannerImg} alt=${
-      courseName + " banner image"
-    } />
-                        </div>
-                            <p class="course-title">${courseName}</p>
-                        </div>    
-                    </a>
-            `;
-
-    courseContainer.appendChild(courseDiv);
-  });
 };
