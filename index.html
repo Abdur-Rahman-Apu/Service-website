@@ -26,6 +26,8 @@
 
     <!-- seo related work  -->
 
+    <link as='style' href='./css/style.css' rel='preload' onload="this.rel='stylesheet'" />
+
     <link as='style' href='./css/owl.carousel.min.css' rel='preload' />
 
     <link as='style' href='./css/floating-wpp.css' rel='preload' />
@@ -40,7 +42,7 @@
 
     <link as='style' href='./css/footer.css' rel='preload' />
 
-    <link as='style' href='./css/style.css' rel='preload' />
+
 
     <link as='style' href='./css/courses.css' rel='preload' />
 
@@ -158,7 +160,14 @@
 
         <div class="intro">
             <div class="profile-img">
-                <img src="./images/sk.webp" height="199" width="192" alt="developer image">
+                <!-- <img src="./images/sk.webp" height="199" width="192" alt="developer image"> -->
+
+                <picture>
+                    <source media="(min-width:465px)" srcset="./images/sk.webp" height="157" width="151"
+                        alt="developer image">
+
+                    <img src="./images/sk-mobile.webp" height="123" width="118" alt="developer image">
+                </picture>
             </div>
             <h1>Hello! I’m Shravan Kumar</h1>
 
