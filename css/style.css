@@ -1079,6 +1079,7 @@ header .profile-img {
 
 @media screen and (max-width: 700px) {
   .profile-img img {
+    width: 80%;
     padding: 6px;
   }
   .cursor {
@@ -1162,7 +1163,7 @@ header .profile-img {
 
 @media screen and (max-width: 440px) {
   .intro h1 {
-    font-size: 23px;
+    font-size: 25px;
     padding: 20px 10px;
   }
 
