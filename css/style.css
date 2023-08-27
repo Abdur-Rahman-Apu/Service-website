@@ -4,7 +4,6 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   font-family: "Poppins", sans-serif;
-  font-display: swap;
 }
 
 ::selection {
@@ -101,7 +100,7 @@ header .profile-img {
   font-weight: 600;
   font-size: 2.5rem;
   text-transform: uppercase;
-  font-display: swap;
+  font-display: auto;
 }
 
 .intro p {
