@@ -503,9 +503,7 @@ header .profile-img {
 
 .world-icon {
   background: #fd746c;
-
   background: linear-gradient(to right, #ff9068, #fd746c);
-
   box-shadow: 0 0 10px #ff9068;
 }
 
@@ -533,15 +531,12 @@ header .profile-img {
 
 .qualify-icon {
   background: #f2709c;
-
   background: linear-gradient(to right, #ff9472, #f2709c);
-
   box-shadow: 0 0 10px #f2709c;
 }
 
 .success-icon {
   background: #50c9c3;
-
   background: linear-gradient(to right, #96deda, #50c9c3);
   box-shadow: 0 0 10px #50c9c3;
 }
@@ -579,7 +574,6 @@ header .profile-img {
   font-weight: bold;
   text-transform: uppercase;
   border-radius: 5px;
-  transition: all 0.3s;
 }
 
 .view-course-btn:hover {
@@ -966,11 +960,9 @@ header .profile-img {
   margin: 40px 0;
   padding: 15px 45px;
   text-transform: uppercase;
-  transition: 0.5s;
   background-size: 200% auto;
   color: #fff;
   box-shadow: 0 0 20px #eee;
-  border-radius: 10px;
   display: block;
   border-radius: 30px;
   text-decoration: none;
