@@ -93,7 +93,37 @@
         <link rel="stylesheet" type="text/css" href="./css/courses.css">
     </noscript>
 
+    <!-- LOAD CSS -->
+    <script type="text/javascript">//<![CDATA[
+        (function () {
 
+
+            var css = document.createElement('link');
+            css.href = './css/style.css';
+            css.rel = 'stylesheet';
+            css.type = 'text/css';
+            document.getElementsByTagName('head')[0].appendChild(css);
+
+
+
+            var css = document.createElement('link');
+            css.href = './css/footer.css';
+            css.rel = 'stylesheet';
+            css.type = 'text/css';
+            document.getElementsByTagName('head')[0].appendChild(css);
+
+            var css = document.createElement('link');
+            css.href = './css/courses.css';
+            css.rel = 'stylesheet';
+            css.type = 'text/css';
+            document.getElementsByTagName('head')[0].appendChild(css);
+
+            var css = document.createElement('link');
+            css.href = 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap';
+            css.rel = 'stylesheet';
+            document.getElementsByTagName('head')[0].appendChild(css);
+        })();
+//]]></script>
 
 
 
@@ -947,37 +977,7 @@
     <script src="./js/whatsapp/floating-wpp.js"></script>
     <script src="./js/whatsapp/whatsapp-chat.js"></script>
 
-    <!-- LOAD CSS -->
-    <script type="text/javascript">//<![CDATA[
-        (function () {
 
-
-            var css = document.createElement('link');
-            css.href = './css/style.css';
-            css.rel = 'stylesheet';
-            css.type = 'text/css';
-            document.getElementsByTagName('head')[0].appendChild(css);
-
-
-
-            var css = document.createElement('link');
-            css.href = './css/footer.css';
-            css.rel = 'stylesheet';
-            css.type = 'text/css';
-            document.getElementsByTagName('head')[0].appendChild(css);
-
-            var css = document.createElement('link');
-            css.href = './css/courses.css';
-            css.rel = 'stylesheet';
-            css.type = 'text/css';
-            document.getElementsByTagName('head')[0].appendChild(css);
-
-            var css = document.createElement('link');
-            css.href = 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap';
-            css.rel = 'stylesheet';
-            document.getElementsByTagName('head')[0].appendChild(css);
-        })();
-//]]></script>
 
     <!-- slider code  -->
     <script>
