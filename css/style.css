@@ -1163,7 +1163,7 @@ header .profile-img {
 @media screen and (max-width: 440px) {
   .intro h1 {
     font-size: 23px;
-    padding: 0 10px;
+    padding: 20px 10px;
   }
 
   .intro p {
@@ -1176,6 +1176,8 @@ header .profile-img {
 
   .intro .about-btn {
     font-size: 14px;
+    width: fit-content;
+    padding: 10px 15px;
   }
 
   .about-header h2 {
