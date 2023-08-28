@@ -1,5 +1,3 @@
-/* navbar start  */
-
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -12,24 +10,20 @@
   box-shadow: 0 3px 5px #ecf0f1;
   z-index: 100;
 }
-
 .navbar .logo {
   width: 96px;
   height: 72px;
 }
-
 .navbar .logo img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-
 .navbar ul li {
   list-style: none;
   display: inline-block;
   margin-left: 20px;
 }
-
 .navbar ul li a {
   text-decoration: none;
   color: #252b33;
@@ -38,12 +32,10 @@
   text-transform: uppercase;
   position: relative;
 }
-
 .navbar ul .current {
   background-color: #f5df4e;
 }
-
-.navbar > ul li a::after {
+.navbar > ul li a:after {
   content: "";
   width: 0;
   height: 3px;
@@ -53,25 +45,21 @@
   left: 0;
   transition: width 0.4s;
 }
-
-.navbar ul li a:hover::after,
-.navbar ul li a.active::after {
+.navbar ul li a:hover:after,
+.navbar ul li a.active:after {
   width: 100%;
 }
-
 .navbar .contact {
   width: 130px;
   height: 100%;
   display: flex;
   justify-content: space-between;
 }
-
 .navbar .contact i {
   font-size: 20px;
   color: #252b33;
   cursor: pointer;
 }
-
 .contact .facebook:hover {
   color: blue;
   transform: scale(1.1);
@@ -92,12 +80,10 @@
   color: #053eff;
   transform: scale(1.1);
 }
-
 .contact div {
   position: relative;
   margin-right: 15px;
 }
-
 .contact div p {
   position: absolute;
   left: -25px;
@@ -110,8 +96,7 @@
   border-radius: 5px;
   display: none;
 }
-
-.contact div p::before {
+.contact div p:before {
   content: "";
   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
   width: 12px;
@@ -121,15 +106,12 @@
   top: -10px;
   left: 30px;
 }
-
 .content div:hover + p {
   display: block;
 }
-
 .contact .humburger {
   display: none;
 }
-
 .contact .humburger .humburger-menus {
   position: absolute;
   top: 50px;
@@ -139,68 +121,55 @@
   min-width: 35vw;
   z-index: 100;
 }
-
 .contact .humburger .humburger-menus li {
   padding: 10px 6px;
   display: block;
   border-bottom: 1px solid #bdc3c7;
 }
-
 .contact .humburger .humburger-menus li a:hover,
 .contact .humburger .humburger-menus li a.active {
   color: #f5df4e;
-  font-weight: bold;
+  font-weight: 700;
 }
-
 .contact #close-icon {
   display: none;
   font-size: 20px;
 }
-
 @media screen and (max-width: 1200px) {
   .navbar ul {
     display: none;
   }
-
   .contact .humburger {
     display: block;
   }
-
   .contact .humburger .humburger-menus {
     display: none;
   }
-
   #close-icon {
     display: none;
   }
-
   .navbar .contact {
     width: 300px;
   }
 }
-
 @media screen and (max-width: 700px) {
   .navbar ul {
     display: none;
   }
-
   .contact .humburger {
     display: block;
   }
-
   .contact .humburger .humburger-menus {
     display: none;
     right: -30px;
   }
 }
-
 @media screen and (max-width: 440px) {
   .navbar {
     padding: 19px 5px 20px;
     flex-direction: column;
     min-height: 100px;
   }
-
   .navbar .contact {
     margin-top: 18px;
     width: 90vw;
@@ -208,7 +177,6 @@
   .navbar .logo img {
     width: 80px;
   }
-
   .contact .humburger .humburger-menus {
     right: -120px;
   }

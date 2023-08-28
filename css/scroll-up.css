@@ -1,4 +1,3 @@
-/* scroll-to-top   */
 .scroll-to-top {
   position: fixed;
   bottom: 80px;
@@ -16,19 +15,14 @@
   visibility: hidden;
   z-index: 100;
 }
-
 .scroll-to-top:hover {
   background-color: #f5df4e;
 }
-
 .scroll-to-top i {
   font-size: 19px;
   font-weight: 600;
   color: #fff;
 }
-
 .scroll-to-top:hover i {
   color: #000;
 }
-
-

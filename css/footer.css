@@ -1,4 +1,3 @@
-/* footer section start  */
 footer {
   min-height: 150px;
   background-color: #1e272e;
@@ -7,51 +6,41 @@ footer {
   color: #fff;
   padding: 0 5%;
 }
-
 footer > div {
   flex-basis: 50%;
 }
-
 .footer-logo img {
   height: 100px;
   object-fit: cover;
 }
-
 footer a {
   text-decoration: none;
   color: #fff;
 }
-
 footer a:hover {
   color: #f5df4e;
 }
-
 footer p {
   margin-left: 75px;
   color: #fff;
 }
-
 footer .rules-regulations {
   display: flex;
   justify-content: space-between;
 }
-
 @media screen and (max-width: 1200px) {
   footer {
     flex-direction: column;
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
-
   .footer-logo {
     margin-bottom: 1rem;
   }
-
   footer p {
     margin-left: 0;
     margin-bottom: 1rem;
   }
-
   footer .rules-regulations {
     flex-direction: column;
     align-items: center;
@@ -60,7 +49,6 @@ footer .rules-regulations {
     margin: 0.6rem 0;
   }
 }
-
 @media screen and (max-width: 900px) {
   footer > div {
     margin-bottom: 20px;
@@ -72,18 +60,15 @@ footer .rules-regulations {
     margin-bottom: 20px;
     flex-basis: 100%;
   }
-
   .footer-logo img {
     height: 90px;
     margin-top: 20px;
   }
 }
-
 @media screen and (max-width: 440px) {
   .footer-logo img {
     margin-bottom: 0;
   }
-
   footer p {
     font-size: 14px;
   }
@@ -91,11 +76,9 @@ footer .rules-regulations {
     flex-direction: column;
     align-items: center;
   }
-
   footer a {
-    margin-right: 0px;
+    margin-right: 0;
   }
-
   footer .rules-regulations a {
     margin-bottom: 10px;
     font-size: 14px;
