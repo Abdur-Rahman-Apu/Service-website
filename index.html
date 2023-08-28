@@ -975,8 +975,6 @@
 
     <script src="https://kit.fontawesome.com/3b7a96cd6e.js" crossorigin="anonymous" defer></script>
 
-
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" defer></script>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js" defer></script>
@@ -992,6 +990,8 @@
     <script src="./js/carousel/owl.carousel.min.js"></script>
 
     <!-- slider code  -->
+
+
     <script>
 
         $(document).ready(function () {
@@ -999,6 +999,39 @@
 
             $('.testimonial-section .owl-theme .owl-dots .owl-dot').attr('aria-label', 'nav dot');
 
+            // testimonial section slider
+            $('.testimonial-container .owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                autoplay: true,
+                autoplayTimeout: 4000,
+                responsive: {
+                    0: {
+                        items: 1
+                    }
+                }
+            })
+
+
+            // display section slider
+            $('.display-section .owl-carousel').owlCarousel({
+                loop: true,
+                dots: false,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                margin: 10,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1,
+
+                    },
+                    1000: {
+                        items: 1,
+
+                    }
+                }
+            })
 
         });
 
@@ -1023,54 +1056,11 @@
             }
         };
 
-
-
-
         //aos initialization
         AOS.init();
 
 
-
-        // testimonial section slider 
-        $('.testimonial-container .owl-carousel').owlCarousel({
-            loop: true,
-            margin: 10,
-            autoplay: true,
-            autoplayTimeout: 4000,
-            responsive: {
-                0: {
-                    items: 1
-                }
-            }
-        })
-
-
-        // display section slider 
-        $('.display-section .owl-carousel').owlCarousel({
-            loop: true,
-            dots: false,
-            autoplay: true,
-            autoplayTimeout: 3000,
-            margin: 10,
-            responsiveClass: true,
-            responsive: {
-                0: {
-                    items: 1,
-
-                },
-                1000: {
-                    items: 1,
-
-                }
-            }
-        })
-
-
-
     </script>
-
-
-
 
 
 </body>
