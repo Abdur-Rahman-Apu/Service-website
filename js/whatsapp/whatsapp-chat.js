@@ -1,4 +1,3 @@
-// live whatsapp chat
 $(function () {
   $(".floating-wpp").floatingWhatsApp({
     phone: "+919494843937",
