@@ -987,7 +987,7 @@
     <script src="./js/index.js" defer></script>
     <script src="./js/getData.js" defer></script>
     <script src="./js/caseStudy.js" defer></script>
-    <script src="./js/carousel/owl.carousel.min.js"></script>
+
 
     <!-- slider code  -->
 
@@ -1017,14 +1017,15 @@
 
 
 
+        $('.floating-wpp .floating-wpp-input-message textarea').attr('aria-label', 'message');
+
+        $('.testimonial-section .owl-theme .owl-dots .owl-dot').attr('aria-label', 'nav dot');
+
         $(document).ready(function () {
 
             //aos initialization
             AOS.init();
 
-            $('.floating-wpp .floating-wpp-input-message textarea').attr('aria-label', 'message');
-
-            $('.testimonial-section .owl-theme .owl-dots .owl-dot').attr('aria-label', 'nav dot');
 
             // testimonial section slider
             $('.testimonial-container .owl-carousel').owlCarousel({
@@ -1037,7 +1038,7 @@
                         items: 1
                     }
                 }
-            })
+            });
 
 
             // display section slider
@@ -1058,9 +1059,11 @@
 
                     }
                 }
-            })
+            });
 
         });
+
+
 
 
 
