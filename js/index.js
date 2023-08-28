@@ -1,18 +1,18 @@
 // dynamic typing (typed.js)
 
-const typed = new Typed(".type", {
-  strings: [
-    "Freelancer",
-    "Graphic Designer",
-    "Web Developer",
-    "Certified Trainer",
-    "Digital Marketer",
-    "Motion Graphics Designer",
-  ],
-  typeSpeed: 50,
-  backSpeed: 50,
-  loop: true,
-});
+// const typed = new Typed(".type", {
+//   strings: [
+//     "Freelancer",
+//     "Graphic Designer",
+//     "Web Developer",
+//     "Certified Trainer",
+//     "Digital Marketer",
+//     "Motion Graphics Designer",
+//   ],
+//   typeSpeed: 50,
+//   backSpeed: 50,
+//   loop: true,
+// });
 
 // cursor moving animation
 const cursor = document.querySelector(".cursor");
