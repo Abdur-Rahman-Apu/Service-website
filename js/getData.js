@@ -33,7 +33,7 @@ const featuredProjects = (data, showData) => {
     projectParentDiv.innerHTML = `
                   <img src='${thumbnailImg}' alt='${
       name + " project image"
-    }'  width="600" height="200"  />
+    }'  width="600" height="200" loading="lazy"  />
                   <p>${name}</p>                
                   `;
 
